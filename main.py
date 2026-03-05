@@ -62,7 +62,7 @@ BATCH_SIZE = 3                   # V8.9: 3 posts per 30-min run
 HIGHLIGHT_COLOR = "#FBBF24"      # V7.0: keyword highlight gold
 MAX_ARTICLE_AGE_HOURS = 20       # V9.6: 20h hyper-recency window
 
-ANCHOR_VOICE = "hi-IN-MadhurNeural" # V10.4: Authoritative Indian Hindi male voice
+ANCHOR_VOICE = "hi-IN-SwaraNeural"     # V10.7: Sharp female Hindi voice
 
 # ---------------------------------------------------------------------------
 # Anti-Bot Headers
@@ -801,7 +801,7 @@ Return strict JSON with exactly 5 keys:
 - "detailed_caption": A deeply analytical, multi-paragraph intelligence briefing (4-5 paragraphs, 1000-1200 chars). This MUST be entirely distinct from image_summary. DO NOT copy-paste or repeat any sentences. Deeply explore the strategic context, regional geopolitical impact, potential diplomatic fallout, and relevant historical precedent. Explain the broader ramifications for global power dynamics. Ensure all sentences are grammatically complete.
 - "flags": A list of up to two 2-letter ISO country codes (lowercase) of the PRIMARY nations physically involved in this specific event. DO NOT blindly default to "us" and "ir". If the strike happens in Bahrain, you MUST include "bh". If it involves Ukraine, include "ua". Be highly specific to the article text.
 - "keywords": A list of 3-5 critical words to highlight (lowercase, e.g., "b-1b lancers", "casualties", "airstrike").
-- "hindi_headline": You must translate the article's headline into highly professional, journalistic Hindi and place it in the "hindi_headline" key.
+- "hindi_broadcast_script": You must write a dramatic, urgent, and sharp Hindi news broadcast script (2 to 3 sentences) that explains the headline AND the 'Big Picture'. It must sound exactly like a sensational prime-time Indian TV news anchor. Start the script with 'ब्रेकिंग न्यूज़...' (Breaking News).
 
 Return ONLY the JSON object, no markdown, no explanation."""
 
@@ -821,8 +821,8 @@ def _parse_ai_result(result: dict) -> dict | None:
     out = {"summary": summary, "countries": countries, "keywords": keywords}
     if detailed_caption:
         out["detailed_caption"] = detailed_caption
-    if "hindi_headline" in result:
-        out["hindi_headline"] = result["hindi_headline"]
+    if "hindi_broadcast_script" in result:
+        out["hindi_broadcast_script"] = result["hindi_broadcast_script"]
     return out
 
 
@@ -1073,8 +1073,8 @@ def generate_internal_summary(article: dict) -> dict:
     article["card_summary"] = card_summary
     article["countries"] = result.get("countries", [])
     article["keywords"] = result.get("keywords", [])
-    if "hindi_headline" in result:
-        article["hindi_headline"] = result["hindi_headline"]
+    if "hindi_broadcast_script" in result:
+        article["hindi_broadcast_script"] = result["hindi_broadcast_script"]
 
     # Build paragraphs for caption
     parts = card_summary.split("\n\n")
@@ -1761,7 +1761,7 @@ async def _generate_audio_async(text: str, filepath: Path) -> None:
     await communicate.save(str(filepath))
 
 def create_headline_audio(headline: str, filepath: Path) -> None:
-    script = f"ब्रेकिंग न्यूज़: {headline}"
+    script = headline
     log.info(f"  Generating TTS Audio: {script[:40]}...")
     asyncio.run(_generate_audio_async(script, filepath))
 
@@ -1909,8 +1909,8 @@ def main() -> None:
             generate_card(article, png)
             generate_caption(article, txt)
             
-            # V10.4 Hindi Cinematic TTS Video Broadcast
-            hindi_text = article.get("hindi_headline", article['title'])
+            # V10.7 Dramatic Female Hindi Broadcast
+            hindi_text = article.get("hindi_broadcast_script", f"ब्रेकिंग न्यूज़: {article['title']}")
             create_headline_audio(hindi_text, mp3)
             create_cinematic_video(png, mp3, mp4)
             print(f"[INFO] Cinematic Video rendered: {mp4}")
