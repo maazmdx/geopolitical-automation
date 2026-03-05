@@ -778,17 +778,9 @@ def _parse_ai_result(result: dict) -> dict | None:
 
 
 def _strip_markdown_json(text: str) -> str:
-    """V8.3: Strip markdown ```json fences from AI responses before parsing."""
-    text = text.strip()
-    # Remove ```json or ``` prefix
-    if text.startswith("```json"):
-        text = text[7:]
-    elif text.startswith("```"):
-        text = text[3:]
-    # Remove trailing ```
-    if text.endswith("```"):
-        text = text[:-3]
-    return text.strip()
+    """V9.7: Brutally strip markdown ```json fences from AI responses before parsing."""
+    cleaned_text = text.replace('```json', '').replace('```', '').strip()
+    return cleaned_text
 
 
 # Category icon mapping for flag-less articles
@@ -899,8 +891,10 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
                     return result
         except ImportError:
             log.warning("  openai package not installed for OpenRouter")
+            print("[WARNING] OpenRouter attempt failed: Missing openai package")
         except Exception as e:
             log.warning(f"  [FALLBACK] OpenRouter failed: {e}. Falling back to Groq...")
+            print(f"[WARNING] OpenRouter attempt failed: {e}")
 
     # === ATTEMPT 2: GROQ (Meta Llama 3) ===
     groq_key = os.environ.get("GROQ_API_KEY")
@@ -926,8 +920,10 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
                     return result
         except ImportError:
             log.warning("  groq package not installed")
+            print("[WARNING] Groq attempt failed: Missing groq package")
         except Exception as e:
             log.warning(f"  [FALLBACK] Groq failed: {e}. Falling back to Gemini...")
+            print(f"[WARNING] Groq attempt failed: {e}")
 
     # === ATTEMPT 3: GEMINI (2.5 Flash) ===
     gemini_key = os.environ.get("GEMINI_API_KEY")
@@ -950,8 +946,10 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
                     return result
         except ImportError:
             log.warning("  google-genai not installed")
+            print("[WARNING] Gemini attempt failed: Missing google-genai package")
         except Exception as e:
             log.warning(f"  [FATAL] Gemini fallback failed: {e}")
+            print(f"[WARNING] Gemini attempt failed: {e}")
 
     # If all 3 fail:
     print(f"[ERROR] API Waterfall exhausted. Skipping article.")
