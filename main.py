@@ -618,28 +618,62 @@ def _is_too_old(article: dict) -> bool:
 
 
 def select_and_extract_batch(articles: list[dict], posted: dict) -> list[dict]:
-    """V4.0: Batch selection — extract up to BATCH_SIZE valid articles."""
+    """V9.5: 2 Kinetic, 1 General Curation Rule. Pre-filter, select 3, then extract."""
     sorted_a = sort_by_priority(articles)
-    selected = []
+    
+    valid_articles = []
+    
+    # Pre-filter all articles without deep scraping
     for a in sorted_a:
-        if len(selected) >= BATCH_SIZE:
-            break
         link = a.get("link", "")
         if not link or is_posted(link, posted):
             continue
         # V8.9: Semantic headline deduplication
         if _is_headline_duplicate(a.get("title", ""), posted):
-            log.info(f"  Rejected: duplicate headline '{a['title'][:50]}'")
             continue
         # V4.0: Recency firewall
         if _is_too_old(a):
             continue
-        log.info(f"Trying: {a['title'][:70]}\u2026")
+            
         real_url = resolve_google_news_url(link)
         a["real_url"] = real_url
-        extracted = extract_article(real_url)
+        valid_articles.append(a)
+
+    if not valid_articles:
+        return []
+
+    # Final Selection: 2 Kinetic, 1 General
+    final_selection = []
+    
+    kinetic_candidates = [a for a in valid_articles if _kinetic_score(a) > 0]
+    general_candidates = [a for a in valid_articles if _kinetic_score(a) == 0]
+
+    # Pick top 2 kinetic
+    for a in kinetic_candidates[:2]:
+        final_selection.append(a)
+
+    # Pick 1 general from the bottom (least severe)
+    if general_candidates:
+        final_selection.append(general_candidates[-1])
+        
+    # Fallbacks if we don't have enough of one type
+    while len(final_selection) < 3 and len(valid_articles) > len(final_selection):
+        for a in valid_articles:
+            if a not in final_selection:
+                final_selection.append(a)
+                break
+
+    # Cap at exactly 3
+    final_selection = final_selection[:3]
+
+    selected = []
+    # ONLY Deep Scrape the 3 selected
+    for a in final_selection:
+        log.info(f"Targeting: {a['title'][:70]}\u2026")
+        
+        extracted = extract_article(a["real_url"])
         if extracted is None:
-            log.info("  Discarded. Next\u2026")
+            log.info("  Extraction failed. Discarded.\u2026")
             continue
 
         a["full_text"] = extracted["text"]
@@ -650,7 +684,7 @@ def select_and_extract_batch(articles: list[dict], posted: dict) -> list[dict]:
         if extracted.get("image"):
             a["image_url"] = extracted["image"]
         elif not a.get("image_url"):
-            fb = _fallback_scrape_image(real_url)
+            fb = _fallback_scrape_image(a["real_url"])
             if fb:
                 a["image_url"] = fb
         if extracted.get("source"):
@@ -659,11 +693,10 @@ def select_and_extract_batch(articles: list[dict], posted: dict) -> list[dict]:
             pd = parse_date_bulletproof(extracted["date"])
             if pd:
                 a["pub_date"] = pd
-        # Re-check recency after extraction date update
-        if _is_too_old(a):
-            continue
+        
         selected.append(a)
-        log.info(f"  \u2713 Selected ({len(selected)}/{BATCH_SIZE})")
+        log.info(f"  \u2713 Finalized ({len(selected)}/3)")
+
     return selected
 
 
@@ -826,89 +859,96 @@ def download_category_icon(category: str, dest_path: Path) -> bool:
     return False
 
 
-def analyze_article(text: str, headline: str) -> dict | None:
+def generate_intelligence_cascade(article_title: str, article_text: str) -> dict | None:
     """
-    V8.0: Unified AI brain. Tries Groq first, falls back to Gemini.
-    Returns dict with keys: summary, countries, keywords.
+    V9.5: 3-Tier API Waterfall (Zero Downtime).
+    Tries OpenRouter (Llama 3) -> Groq (Llama 3) -> Gemini 2.5 Flash in order.
+    No time.sleep() needed, it just falls back instantly on hit rate limits.
     """
-    input_text = text[:4000] if len(text) > 4000 else text
-    prompt = _AI_PROMPT_TEMPLATE.format(headline=headline, text=input_text)
+    input_text = article_text[:4000] if len(article_text) > 4000 else article_text
+    prompt = _AI_PROMPT_TEMPLATE.format(headline=article_title, text=input_text)
 
-    # === TRY GROQ FIRST ===
+    # === ATTEMPT 1: OPENROUTER (Meta Llama 3) ===
+    or_key = os.environ.get("OPENROUTER_API_KEY")
+    if or_key:
+        try:
+            from openai import OpenAI
+            client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=or_key)
+            
+            response = client.chat.completions.create(
+                model="meta-llama/llama-3-8b-instruct:free",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.3,
+                max_tokens=600,
+                response_format={"type": "json_object"},
+            )
+            
+            resp_text = _strip_markdown_json(response.choices[0].message.content or "")
+            if resp_text:
+                raw = json.loads(resp_text)
+                result = _parse_ai_result(raw)
+                if result:
+                    log.info(f"  \u2728 OpenRouter AI Success \u2728")
+                    return result
+        except ImportError:
+            log.warning("  openai package not installed for OpenRouter")
+        except Exception as e:
+            log.warning(f"  [FALLBACK] OpenRouter failed: {e}. Falling back to Groq...")
+
+    # === ATTEMPT 2: GROQ (Meta Llama 3) ===
     groq_key = os.environ.get("GROQ_API_KEY")
     if groq_key:
         try:
             from groq import Groq
-            from tenacity import retry, stop_after_attempt, wait_exponential
-
             client = Groq(api_key=groq_key)
 
-            @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
-            def _call_groq():
-                return client.chat.completions.create(
-                    model="llama3-8b-8192",
-                    messages=[{"role": "user", "content": prompt}],
-                    temperature=0.3,
-                    max_tokens=600,
-                    response_format={"type": "json_object"},
-                )
+            response = client.chat.completions.create(
+                model="llama3-8b-8192",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.3,
+                max_tokens=600,
+                response_format={"type": "json_object"},
+            )
 
-            response = _call_groq()
             resp_text = _strip_markdown_json(response.choices[0].message.content or "")
-            if not resp_text:
-                log.warning("  Groq returned empty content")
-            else:
+            if resp_text:
                 raw = json.loads(resp_text)
                 result = _parse_ai_result(raw)
                 if result:
-                    log.info(f"  Groq AI: summary={len(result['summary'])}ch, "
-                             f"countries={result['countries']}, keywords={result['keywords']}")
+                    log.info(f"  \u2728 Groq AI Success \u2728")
                     return result
-                log.warning(f"  Groq returned incomplete JSON: {list(raw.keys())}")
         except ImportError:
             log.warning("  groq package not installed")
         except Exception as e:
-            print(f"[ERROR] Groq API failed: {e}. Discarding article and continuing.")
-            raise Exception(f"AI Generation failed: {e}")
+            log.warning(f"  [FALLBACK] Groq failed: {e}. Falling back to Gemini...")
 
-    # === GEMINI FALLBACK ===
+    # === ATTEMPT 3: GEMINI (2.5 Flash) ===
     gemini_key = os.environ.get("GEMINI_API_KEY")
     if gemini_key:
         try:
             from google import genai
-            from tenacity import retry, stop_after_attempt, wait_exponential
-
             client = genai.Client(api_key=gemini_key)
             
-            @retry(wait=wait_exponential(multiplier=2, min=10, max=60), stop=stop_after_attempt(3))
-            def _call_gemini():
-                return client.models.generate_content(
-                    model='gemini-2.5-flash',
-                    contents=prompt,
-                )
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=prompt,
+            )
             
-            response = _call_gemini()
-
-            # Guard against empty response
             resp_text = _strip_markdown_json(response.text if response.text else "")
-            if not resp_text:
-                log.warning("  Gemini returned empty response")
-            else:
+            if resp_text:
                 raw = json.loads(resp_text)
                 result = _parse_ai_result(raw)
                 if result:
-                    log.info(f"  Gemini AI: summary={len(result['summary'])}ch, "
-                             f"countries={result['countries']}, keywords={result['keywords']}")
+                    log.info(f"  \u2728 Gemini AI Success \u2728")
                     return result
-                log.warning(f"  Gemini returned incomplete JSON: {list(raw.keys())}")
         except ImportError:
             log.warning("  google-genai not installed")
         except Exception as e:
-            print(f"[ERROR] Gemini API failed: {e}. Discarding article and continuing.")
-            raise Exception(f"AI Generation failed: {e}")
+            log.warning(f"  [FATAL] Gemini fallback failed: {e}")
 
-    log.warning("  Both AI APIs failed, using regex fallback")
-    return None
+    # If all 3 fail:
+    print(f"[ERROR] API Waterfall exhausted. Skipping article.")
+    raise Exception("All 3 AI APIs failed in cascade.")
 
 
 def _fallback_summary(text: str, headline: str) -> dict:
@@ -948,8 +988,7 @@ def _fallback_summary(text: str, headline: str) -> dict:
 
 def generate_internal_summary(article: dict) -> dict:
     """
-    V7.0: Use Groq AI for summary, countries, keywords.
-    Falls back to regex-based extraction if API unavailable.
+    V9.5: Triggers the new API waterfall.
     """
     full_text = (article.get("full_text") or "") or (article.get("summary") or "")
     headline = article.get("title", "")
@@ -961,10 +1000,8 @@ def generate_internal_summary(article: dict) -> dict:
         article["keywords"] = []
         return article
 
-    # Try unified AI brain (Groq → Gemini → regex fallback)
-    result = analyze_article(full_text, headline)
-    if result is None:
-        result = _fallback_summary(full_text, headline)
+    # Run the 3-Tier API Waterfall
+    result = generate_intelligence_cascade(headline, full_text)
 
     card_summary = smart_typography(result["summary"])
     article["card_summary"] = card_summary
@@ -974,14 +1011,17 @@ def generate_internal_summary(article: dict) -> dict:
     # Build paragraphs for caption
     parts = card_summary.split("\n\n")
     article["paragraphs"] = parts
-
-    # Find official statement for caption (from original text)
-    all_sentences = re.split(r'(?<=[.!?])\s+', full_text.strip())
-    statement_kw = ["said", "stated", "announced", "confirmed", "declared", "spokesperson"]
-    for s in all_sentences[3:]:
-        if any(kw in s.lower() for kw in statement_kw):
-            article["paragraphs"].append(smart_typography(s))
-            break
+    
+    if "detailed_caption" in result:
+        article["paragraphs"].append(smart_typography(result["detailed_caption"]))
+    else:
+        # Find official statement for caption (from original text)
+        all_sentences = re.split(r'(?<=[.!?])\s+', full_text.strip())
+        statement_kw = ["said", "stated", "announced", "confirmed", "declared", "spokesperson"]
+        for s in all_sentences[3:]:
+            if any(kw in s.lower() for kw in statement_kw):
+                article["paragraphs"].append(smart_typography(s))
+                break
 
     return article
 
