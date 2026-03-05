@@ -875,7 +875,7 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
             client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=or_key)
             
             response = client.chat.completions.create(
-                model="meta-llama/llama-3-8b-instruct:free",
+                model="google/gemma-2-9b-it:free",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.3,
                 max_tokens=600,
@@ -891,10 +891,13 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
                     return result
         except ImportError:
             log.warning("  openai package not installed for OpenRouter")
-            print("[WARNING] OpenRouter attempt failed: Missing openai package")
+            print("[WARNING] Tier 1 (Gemma-2-9b) failed: Missing openai package")
         except Exception as e:
+            if "429" in str(e) or "rate limit" in str(e).lower() or "resource exhausted" in str(e).lower():
+                print("[INFO] Rate limit hit on Tier 1. Cooling down for 5 seconds...")
+                time.sleep(5)
             log.warning(f"  [FALLBACK] OpenRouter failed: {e}. Falling back to Groq...")
-            print(f"[WARNING] OpenRouter attempt failed: {e}")
+            print(f"[WARNING] Tier 1 (Gemma-2-9b) failed: {e}")
 
     # === ATTEMPT 2: GROQ (Meta Llama 3) ===
     groq_key = os.environ.get("GROQ_API_KEY")
@@ -904,7 +907,7 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
             client = Groq(api_key=groq_key)
 
             response = client.chat.completions.create(
-                model="llama3-8b-8192",
+                model="llama-3.1-8b-instant",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.3,
                 max_tokens=600,
@@ -920,10 +923,13 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
                     return result
         except ImportError:
             log.warning("  groq package not installed")
-            print("[WARNING] Groq attempt failed: Missing groq package")
+            print("[WARNING] Tier 2 (Llama-3.1-8b) failed: Missing groq package")
         except Exception as e:
+            if "429" in str(e) or "rate limit" in str(e).lower() or "resource exhausted" in str(e).lower():
+                print("[INFO] Rate limit hit on Tier 2. Cooling down for 5 seconds...")
+                time.sleep(5)
             log.warning(f"  [FALLBACK] Groq failed: {e}. Falling back to Gemini...")
-            print(f"[WARNING] Groq attempt failed: {e}")
+            print(f"[WARNING] Tier 2 (Llama-3.1-8b) failed: {e}")
 
     # === ATTEMPT 3: GEMINI (2.5 Flash) ===
     gemini_key = os.environ.get("GEMINI_API_KEY")
@@ -946,10 +952,10 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
                     return result
         except ImportError:
             log.warning("  google-genai not installed")
-            print("[WARNING] Gemini attempt failed: Missing google-genai package")
+            print("[WARNING] Tier 3 (Gemini-2.5-Flash) failed: Missing google-genai package")
         except Exception as e:
             log.warning(f"  [FATAL] Gemini fallback failed: {e}")
-            print(f"[WARNING] Gemini attempt failed: {e}")
+            print(f"[WARNING] Tier 3 (Gemini-2.5-Flash) failed: {e}")
 
     # If all 3 fail:
     print(f"[ERROR] API Waterfall exhausted. Skipping article.")
