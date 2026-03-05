@@ -2,9 +2,9 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 10,
+  "total_calls": 12,
   "tiers": {
-    "groq": 10
+    "groq": 12
   },
   "log": [
     {
@@ -56,6 +56,16 @@
       "timestamp": "2026-03-05T09:46:54.125778+00:00",
       "tier": "groq",
       "article": "Drone targets US base in Iraq as Iran attacks hit region amid US-Israel war"
+    },
+    {
+      "timestamp": "2026-03-05T11:37:05.777827+00:00",
+      "tier": "groq",
+      "article": "Iranian drones hit airport in Azerbaijan\u2019s exclave as US-Israel war widens"
+    },
+    {
+      "timestamp": "2026-03-05T11:37:38.502319+00:00",
+      "tier": "groq",
+      "article": "Sri Lanka trying to \u2018safeguard lives\u2019 on second Iran ship after US attack"
     }
   ]
 }
