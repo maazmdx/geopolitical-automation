@@ -2,9 +2,9 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6,
+  "total_calls": 8,
   "tiers": {
-    "groq": 6
+    "groq": 8
   },
   "log": [
     {
@@ -36,6 +36,16 @@
       "timestamp": "2026-03-05T07:45:30.532056+00:00",
       "tier": "groq",
       "article": "US Senator helps police drag anti-war protester from meeting"
+    },
+    {
+      "timestamp": "2026-03-05T07:54:46.538978+00:00",
+      "tier": "groq",
+      "article": "Cuba: Millions plunged into darkness as fuel crisis deepens"
+    },
+    {
+      "timestamp": "2026-03-05T07:55:14.107611+00:00",
+      "tier": "groq",
+      "article": "Novel interceptor drones bend air-defense economics in Ukraine\u2019s favor"
     }
   ]
 }
