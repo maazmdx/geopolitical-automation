@@ -503,6 +503,46 @@ def mark_posted(link: str, pub_date, posted: dict, title: str = "") -> dict:
 
 
 # ===========================================================================
+# 5B. AI USAGE TRACKER
+# ===========================================================================
+
+def load_ai_usage() -> dict:
+    if AI_USAGE_FILE.exists():
+        try:
+            with open(AI_USAGE_FILE, "r") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {"total_calls": 0, "tiers": {"openrouter": 0, "groq": 0, "gemini": 0}, "log": []}
+
+def save_ai_usage(data: dict):
+    try:
+        with open(AI_USAGE_FILE, "w") as f:
+            json.dump(data, f, indent=2)
+    except Exception as e:
+        log.warning(f"Failed to save AI usage: {e}")
+
+def track_ai_usage(tier_name: str, article_title: str):
+    try:
+        usage = load_ai_usage()
+        usage["total_calls"] = usage.get("total_calls", 0) + 1
+        if "tiers" not in usage:
+            usage["tiers"] = {}
+        usage["tiers"][tier_name] = usage["tiers"].get(tier_name, 0) + 1
+        if "log" not in usage:
+            usage["log"] = []
+        usage["log"].append({
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "tier": tier_name,
+            "article": article_title
+        })
+        usage["log"] = usage["log"][-100:]  # Keep last 100 entries
+        save_ai_usage(usage)
+    except Exception as e:
+        log.warning(f"Failed to track AI usage: {e}")
+
+
+# ===========================================================================
 # 6. TRAFILATURA EXTRACTION + INTELLIGENT SELECTION
 # ===========================================================================
 
@@ -751,8 +791,8 @@ Article text:
 {text}
 
 Return strict JSON with exactly 4 keys:
-- "image_summary": A short punchy 1-2 sentence tactical hook (200-250 chars). Focus on military hardware used, exact strike locations, reported casualties, and immediate kinetic facts. Ensure all sentences are grammatically complete. Do not end on floating or cut-off quotes. DO NOT include the phrase "THE BIG PICTURE:" anywhere — the system handles that prefix.
-- "detailed_caption": A completely separate, multi-paragraph report (3-4 paragraphs, 600-800 chars). This MUST be entirely distinct from image_summary. DO NOT copy-paste or repeat any sentences from image_summary. Cover strategic context, regional impact, diplomatic fallout, and historical precedent. Ensure all sentences are grammatically complete.
+- "image_summary": A comprehensive 3-4 sentence tactical summary (400-500 chars). Provide high detail on military hardware used, exact strike locations, casualty reports, and the kinetic facts. Ensure all sentences are grammatically complete. Do not end on floating or cut-off quotes. DO NOT include the phrase "THE BIG PICTURE:" anywhere — the system handles that prefix.
+- "detailed_caption": A deeply analytical, multi-paragraph intelligence briefing (4-5 paragraphs, 1000-1200 chars). This MUST be entirely distinct from image_summary. DO NOT copy-paste or repeat any sentences. Deeply explore the strategic context, regional geopolitical impact, potential diplomatic fallout, and relevant historical precedent. Explain the broader ramifications for global power dynamics. Ensure all sentences are grammatically complete.
 - "flags": A list of up to two 2-letter ISO country codes (lowercase) of the PRIMARY nations physically involved in this specific event. DO NOT blindly default to "us" and "ir". If the strike happens in Bahrain, you MUST include "bh". If it involves Ukraine, include "ua". Be highly specific to the article text.
 - "keywords": A list of 3-5 critical words to highlight (lowercase, e.g., "b-1b lancers", "casualties", "airstrike").
 
@@ -875,7 +915,7 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
             client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=or_key)
             
             response = client.chat.completions.create(
-                model="google/gemma-2-9b-it:free",
+                model="meta-llama/llama-3.1-8b-instruct:free",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.3,
                 max_tokens=600,
@@ -888,16 +928,17 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
                 result = _parse_ai_result(raw)
                 if result:
                     log.info(f"  \u2728 OpenRouter AI Success \u2728")
+                    track_ai_usage("openrouter", article_title)
                     return result
         except ImportError:
             log.warning("  openai package not installed for OpenRouter")
-            print("[WARNING] Tier 1 (Gemma-2-9b) failed: Missing openai package")
+            print("[WARNING] Tier 1 (meta-llama/llama-3.1-8b-instruct:free) failed: Missing openai package")
         except Exception as e:
             if "429" in str(e) or "rate limit" in str(e).lower() or "resource exhausted" in str(e).lower():
                 print("[INFO] Rate limit hit on Tier 1. Cooling down for 5 seconds...")
                 time.sleep(5)
             log.warning(f"  [FALLBACK] OpenRouter failed: {e}. Falling back to Groq...")
-            print(f"[WARNING] Tier 1 (Gemma-2-9b) failed: {e}")
+            print(f"[WARNING] Tier 1 (meta-llama/llama-3.1-8b-instruct:free) failed: {e}")
 
     # === ATTEMPT 2: GROQ (Meta Llama 3) ===
     groq_key = os.environ.get("GROQ_API_KEY")
@@ -920,16 +961,17 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
                 result = _parse_ai_result(raw)
                 if result:
                     log.info(f"  \u2728 Groq AI Success \u2728")
+                    track_ai_usage("groq", article_title)
                     return result
         except ImportError:
             log.warning("  groq package not installed")
-            print("[WARNING] Tier 2 (Llama-3.1-8b) failed: Missing groq package")
+            print("[WARNING] Tier 2 (Llama-3.1-8b-instant) failed: Missing groq package")
         except Exception as e:
             if "429" in str(e) or "rate limit" in str(e).lower() or "resource exhausted" in str(e).lower():
                 print("[INFO] Rate limit hit on Tier 2. Cooling down for 5 seconds...")
                 time.sleep(5)
             log.warning(f"  [FALLBACK] Groq failed: {e}. Falling back to Gemini...")
-            print(f"[WARNING] Tier 2 (Llama-3.1-8b) failed: {e}")
+            print(f"[WARNING] Tier 2 (Llama-3.1-8b-instant) failed: {e}")
 
     # === ATTEMPT 3: GEMINI (2.5 Flash) ===
     gemini_key = os.environ.get("GEMINI_API_KEY")
@@ -949,11 +991,15 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
                 result = _parse_ai_result(raw)
                 if result:
                     log.info(f"  \u2728 Gemini AI Success \u2728")
+                    track_ai_usage("gemini", article_title)
                     return result
         except ImportError:
             log.warning("  google-genai not installed")
             print("[WARNING] Tier 3 (Gemini-2.5-Flash) failed: Missing google-genai package")
         except Exception as e:
+            if "429" in str(e) or "rate limit" in str(e).lower() or "resource exhausted" in str(e).lower():
+                print("[INFO] Rate limit hit on Tier 3. Cooling down for 5 seconds...")
+                time.sleep(5)
             log.warning(f"  [FATAL] Gemini fallback failed: {e}")
             print(f"[WARNING] Tier 3 (Gemini-2.5-Flash) failed: {e}")
 
@@ -1201,24 +1247,32 @@ def smart_crop(img: Image.Image, target_w: int, target_h: int) -> Image.Image:
 
         cascade_paths = [
             cv2.data.haarcascades + "haarcascade_frontalface_default.xml",
+            cv2.data.haarcascades + "haarcascade_profileface.xml",
+            cv2.data.haarcascades + "haarcascade_upperbody.xml",
             "/usr/share/opencv4/haarcascades/haarcascade_frontalface_default.xml",
         ]
+        
+        found_focus = False
+        gray = cv2.cvtColor(cv_img, cv2.COLOR_BGR2GRAY)
+        
         for cp in cascade_paths:
             if os.path.exists(cp):
-                gray = cv2.cvtColor(cv_img, cv2.COLOR_BGR2GRAY)
-                faces = cv2.CascadeClassifier(cp).detectMultiScale(gray, 1.1, 4, minSize=(30, 30))
-                if len(faces) > 0:
-                    largest = max(faces, key=lambda f: f[2] * f[3])
+                objects = cv2.CascadeClassifier(cp).detectMultiScale(gray, 1.1, 4, minSize=(30, 30))
+                if len(objects) > 0:
+                    largest = max(objects, key=lambda f: f[2] * f[3])
                     focal_x = largest[0] + largest[2] // 2
                     focal_y = largest[1] + largest[3] // 2
-                    log.info(f"  Face at ({focal_x}, {focal_y})")
-                else:
-                    edges = cv2.Canny(gray, 50, 150)
-                    m = cv2.moments(edges)
-                    if m["m00"] > 0:
-                        focal_x = int(m["m10"] / m["m00"])
-                        focal_y = int(m["m01"] / m["m00"])
-                break
+                    log.info(f"  Subject detected via {os.path.basename(cp)} at ({focal_x}, {focal_y})")
+                    found_focus = True
+                    break
+
+        if not found_focus:
+            edges = cv2.Canny(gray, 50, 150)
+            m = cv2.moments(edges)
+            if m["m00"] > 0:
+                focal_x = int(m["m10"] / m["m00"])
+                focal_y = int(m["m01"] / m["m00"])
+                log.info(f"  No subject detected. Used mass center at ({focal_x}, {focal_y})")
 
         scale = max(target_w / w, target_h / h)
         nw, nh = int(w * scale), int(h * scale)
