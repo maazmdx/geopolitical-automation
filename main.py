@@ -8,6 +8,7 @@ highlighting. Hybrid video/image pipeline.
 """
 
 import os
+import trafilatura
 import sys
 import json
 import hashlib
@@ -58,7 +59,7 @@ SUMMARY_CHAR_LIMIT = 500         # V7.0: Groq generates 450-480 chars
 LINE_SPACING_MULT = 1.3          # summary line-height multiplier
 FLAG_SCALE_DOWN = 0.85           # 15% smaller flags
 MIN_EXTRACT_CHARS = 150
-BATCH_SIZE = 3                   # V8.9: 3 posts per 30-min run
+BATCH_SIZE = 2                   # V10.12: 2 posts per 30-min run
 HIGHLIGHT_COLOR = "#FBBF24"      # V7.0: keyword highlight gold
 MAX_ARTICLE_AGE_HOURS = 20       # V9.6: 20h hyper-recency window
 
@@ -81,8 +82,14 @@ HTTP_HEADERS = {
 # ---------------------------------------------------------------------------
 
 RSS_FEEDS = {
+    "Sky News": "https://feeds.skynews.com/feeds/rss/world.xml",
+    "The Guardian": "https://www.theguardian.com/world/rss",
+    "France 24": "https://www.france24.com/en/rss",
+    "DW World": "https://rss.dw.com/rdf/rss-en-world",
+    "Independent": "https://www.independent.co.uk/news/world/rss",
     "Al Jazeera": "https://www.aljazeera.com/xml/rss/all.xml",
     "BBC World": "http://feeds.bbci.co.uk/news/world/rss.xml",
+    "Defense One": "https://www.defenseone.com/feed/",
     "Associated Press": "https://rsshub.app/apnews/topics/apf-topnews",
     "Reuters": "https://www.reutersagency.com/feed/?best-topics=world-news",
     "Defense News": "https://www.defensenews.com/arc/outboundfeeds/rss/",
@@ -594,25 +601,34 @@ def _deep_scrub(text: str) -> str:
 
 
 def extract_article(url: str) -> dict | None:
-    """V10.5: Fast BS4 extractor with Premium Stealth Headers + Session."""
+    """V10.12: Hybrid Scraper (Requests + Trafilatura Bypass + BS4 Fallback)."""
     try:
         session = requests.Session()
-        resp = session.get(url, headers=HTTP_HEADERS, timeout=15, allow_redirects=True)
-        if resp.status_code != 200:
-            print(f"  [ERROR] Extraction failed: HTTP {resp.status_code} Forbidden/Error from server.")
-            return None
-        soup = BeautifulSoup(resp.text, "html.parser")
-        # Remove script, style, nav, footer
-        for tag in soup(["script", "style", "nav", "footer", "aside", "header"]):
-            tag.decompose()
-        text = soup.get_text(separator="\n", strip=True)
-        if len(text) < 100:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml"
+        }
+        response = session.get(url, headers=headers, timeout=15, allow_redirects=True)
+        response.raise_for_status()
+        
+        # Try Trafilatura first
+        text = trafilatura.extract(response.text, include_comments=False)
+        
+        # Fallback to BeautifulSoup if Trafilatura fails
+        soup = BeautifulSoup(response.content, 'html.parser')
+        if not text or len(text) < 150:
+            paragraphs = soup.find_all('p')
+            text = ' '.join([p.get_text() for p in paragraphs])
+            
+        if not text or len(text) < 150:
             print("  [WARNING] Extraction failed: Article text hidden by JS paywall.")
             return None
+            
         text = _deep_scrub(text)
         if len(text) < MIN_EXTRACT_CHARS:
             print("  [WARNING] Extraction failed: Text too short after deep scrub.")
             return None
+            
         title = ""
         og_title = soup.find("meta", property="og:title")
         if og_title and og_title.get("content"):
@@ -625,6 +641,7 @@ def extract_article(url: str) -> dict | None:
         og_site = soup.find("meta", property="og:site_name")
         if og_site and og_site.get("content"):
             source = og_site["content"]
+            
         return {"text": text, "title": title, "image": image, "date": "", "source": source}
     except Exception as e:
         print(f"  [ERROR] Extraction failed: {e}")
@@ -800,7 +817,7 @@ Return strict JSON with exactly 5 keys:
 - "image_summary": A comprehensive 3-4 sentence tactical summary (400-500 chars). Provide high detail on military hardware used, exact strike locations, casualty reports, and the kinetic facts. Ensure all sentences are grammatically complete. Do not end on floating or cut-off quotes. DO NOT include the phrase "THE BIG PICTURE:" anywhere — the system handles that prefix.
 - "detailed_caption": A deeply analytical, multi-paragraph intelligence briefing (4-5 paragraphs, 1000-1200 chars). This MUST be entirely distinct from image_summary. DO NOT copy-paste or repeat any sentences. Deeply explore the strategic context, regional geopolitical impact, potential diplomatic fallout, and relevant historical precedent. Explain the broader ramifications for global power dynamics. Ensure all sentences are grammatically complete.
 - "flags": A list of up to two 2-letter ISO country codes (lowercase) of the PRIMARY nations physically involved in this specific event. DO NOT blindly default to "us" and "ir". If the strike happens in Bahrain, you MUST include "bh". If it involves Ukraine, include "ua". Be highly specific to the article text.
-- "keywords": A list of 3-5 critical words to highlight (lowercase, e.g., "b-1b lancers", "casualties", "airstrike").
+- "keywords": Generate a comma-separated list of 8 to 12 highly relevant, trending SEO keywords (e.g., missile, war, pentagon, drone strike, etc.).
 - "hindi_broadcast_script": You must write an EXTREMELY aggressive, high-energy, sensational war-time news script in conversational Hinglish. Think of a prime-time Indian TV news anchor reporting on a massive crisis. Use words like 'Bohot badi khabar!', 'Hamla!', 'High Alert!', or 'Tension'. Use short, punchy sentences and MULTIPLE exclamation marks (!!!) to force the TTS engine to sound panicked and urgent. Maximum 3 sentences. Start with 'Breaking News!'
 
 Return ONLY the JSON object, no markdown, no explanation."""
