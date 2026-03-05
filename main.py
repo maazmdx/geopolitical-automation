@@ -16,14 +16,11 @@ import re
 import logging
 import math
 import time
-import asyncio
-import subprocess
 from difflib import SequenceMatcher
 from datetime import datetime, timezone
 from pathlib import Path
 from io import BytesIO
 
-import edge_tts
 import feedparser
 import requests
 import dateparser as dp
@@ -63,7 +60,7 @@ BATCH_SIZE = 2                   # V10.12: 2 posts per 30-min run
 HIGHLIGHT_COLOR = "#FBBF24"      # V7.0: keyword highlight gold
 MAX_ARTICLE_AGE_HOURS = 20       # V9.6: 20h hyper-recency window
 
-ANCHOR_VOICE = "hi-IN-KavyaNeural"     # V10.14: Professional National female Hindi voice
+
 
 # ---------------------------------------------------------------------------
 # Anti-Bot Headers
@@ -818,7 +815,6 @@ Return strict JSON with exactly 5 keys:
 - "detailed_caption": A deeply analytical, multi-paragraph intelligence briefing (4-5 paragraphs, 1000-1200 chars). This MUST be entirely distinct from image_summary. DO NOT copy-paste or repeat any sentences. Deeply explore the strategic context, regional geopolitical impact, potential diplomatic fallout, and relevant historical precedent. Explain the broader ramifications for global power dynamics. Ensure all sentences are grammatically complete.
 - "flags": A list of up to two 2-letter ISO country codes (lowercase) of the PRIMARY nations physically involved in this specific event. DO NOT blindly default to "us" and "ir". If the strike happens in Bahrain, you MUST include "bh". If it involves Ukraine, include "ua". Be highly specific to the article text.
 - "keywords": Generate a massive, comma-separated list of EXACTLY 50 to 60 highly relevant, trending SEO keywords, tags, and search terms related to the article (e.g., missile, war, pentagon, drone strike, geopolitics, etc.). Do not use hashtags (#), just comma-separated words.
-- "hindi_broadcast_script": You must write a highly professional, authoritative, and impactful news broadcast script in clean, journalistic Hindi. It must sound exactly like a top-tier prime-time national news anchor breaking a major international story. Do NOT use casual influencer language. Use strong, respectful, and urgent news vocabulary (e.g., 'Tension', 'Hamla', 'Sankat'). Maintain a serious, objective, and urgent tone. Start with 'ब्रेकिंग न्यूज़:' (Breaking News). Limit to 2 or 3 sentences.
 
 Return ONLY the JSON object, no markdown, no explanation."""
 
@@ -838,8 +834,6 @@ def _parse_ai_result(result: dict) -> dict | None:
     out = {"summary": summary, "countries": countries, "keywords": keywords}
     if detailed_caption:
         out["detailed_caption"] = detailed_caption
-    if "hindi_broadcast_script" in result:
-        out["hindi_broadcast_script"] = result["hindi_broadcast_script"]
     return out
 
 
@@ -1090,8 +1084,6 @@ def generate_internal_summary(article: dict) -> dict:
     article["card_summary"] = card_summary
     article["countries"] = result.get("countries", [])
     article["keywords"] = result.get("keywords", [])
-    if "hindi_broadcast_script" in result:
-        article["hindi_broadcast_script"] = result["hindi_broadcast_script"]
 
     # Build paragraphs for caption
     parts = card_summary.split("\n\n")
@@ -1770,42 +1762,6 @@ def get_filename_prefix() -> str:
 
 
 # ===========================================================================
-# 15.5 V10.2 CINEMATIC TTS AUDIO & VIDEO
-# ===========================================================================
-
-async def _generate_audio_async(text: str, filepath: Path) -> None:
-    communicate = edge_tts.Communicate(text, ANCHOR_VOICE)
-    await communicate.save(str(filepath))
-
-def create_headline_audio(headline: str, filepath: Path) -> None:
-    script = headline
-    log.info(f"  Generating TTS Audio: {script[:40]}...")
-    asyncio.run(_generate_audio_async(script, filepath))
-
-def create_cinematic_video(image_path: Path, audio_path: Path, video_path: Path) -> None:
-    log.info(f"  Rendering Cinematic Video: {video_path.name}")
-    command = [
-        'ffmpeg', '-y', 
-        '-loop', '1', 
-        '-framerate', '30', 
-        '-i', str(image_path), 
-        '-i', str(audio_path), 
-        '-c:v', 'libx264', 
-        '-tune', 'stillimage', 
-        '-c:a', 'aac', 
-        '-b:a', '192k', 
-        '-pix_fmt', 'yuv420p', 
-        '-shortest', 
-        str(video_path)
-    ]
-    try:
-        subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT, check=True)
-        log.info(f"  [INFO] Cinematic Video rendered: {video_path}")
-    except subprocess.CalledProcessError as e:
-        log.error(f"  [ERROR] FFmpeg failed: {e}")
-
-
-# ===========================================================================
 # 16. GOOGLE DRIVE UPLOAD
 # ===========================================================================
 
@@ -1859,7 +1815,7 @@ def upload_to_drive(service, filepath, parent_id):
     u = service.files().create(body=fm, media_body=media, fields="id, name", supportsAllDrives=True).execute()
     log.info(f"  Uploaded: {u.get('name')} (ID: {u.get('id')})")
 
-def upload_files_to_drive(png_path: Path, txt_path: Path, mp4_path: Path = None):
+def upload_files_to_drive(png_path: Path, txt_path: Path):
     svc = get_drive_service()
     if not svc:
         return
@@ -1869,8 +1825,6 @@ def upload_files_to_drive(png_path: Path, txt_path: Path, mp4_path: Path = None)
         out = find_or_create_folder(svc, "Outputs", geo)
         upload_to_drive(svc, png_path, out)
         upload_to_drive(svc, txt_path, out)
-        if mp4_path and mp4_path.exists():
-            upload_to_drive(svc, mp4_path, out)
     except Exception as exc:
         log.error(f"Drive upload failed: {exc}")
 
@@ -1919,19 +1873,11 @@ def main() -> None:
             log.info("  Generating static card")
             png = OUTPUT_DIR / f"{prefix}_Card{idx}.png"
             txt = OUTPUT_DIR / f"{prefix}_Card{idx}.txt"
-            mp3 = OUTPUT_DIR / f"{prefix}_Card{idx}.mp3"
-            mp4 = OUTPUT_DIR / f"{prefix}_Card{idx}.mp4"
             
             generate_card(article, png)
             generate_caption(article, txt)
             
-            # V10.7 Dramatic Female Hindi Broadcast
-            hindi_text = article.get("hindi_broadcast_script", f"ब्रेकिंग न्यूज़: {article['title']}")
-            create_headline_audio(hindi_text, mp3)
-            create_cinematic_video(png, mp3, mp4)
-            print(f"[INFO] Cinematic Video rendered: {mp4}")
-            
-            upload_files_to_drive(png, txt, mp4)
+            upload_files_to_drive(png, txt)
 
             posted = mark_posted(
                 article.get("real_url", article["link"]),

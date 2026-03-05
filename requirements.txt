@@ -15,5 +15,4 @@ tenacity>=8.2.0
 yfinance>=0.2.36
 google-genai>=1.0.0
 openai
-edge-tts==7.2.7
 trafilatura
