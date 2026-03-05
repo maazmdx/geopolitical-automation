@@ -16,6 +16,7 @@ import re
 import logging
 import math
 import time
+import subprocess
 from difflib import SequenceMatcher
 from datetime import datetime, timezone
 from pathlib import Path
@@ -57,7 +58,7 @@ SUMMARY_CHAR_LIMIT = 500         # V7.0: Groq generates 450-480 chars
 LINE_SPACING_MULT = 1.3          # summary line-height multiplier
 FLAG_SCALE_DOWN = 0.85           # 15% smaller flags
 MIN_EXTRACT_CHARS = 150
-BATCH_SIZE = 2                   # V10.12: 2 posts per 30-min run
+BATCH_SIZE = 3                   # V11.0: 3 posts per run
 HIGHLIGHT_COLOR = "#FBBF24"      # V7.0: keyword highlight gold
 MAX_ARTICLE_AGE_HOURS = 20       # V9.6: 20h hyper-recency window
 
@@ -1763,24 +1764,76 @@ def get_filename_prefix() -> str:
 
 
 # ===========================================================================
-# 15.5 V10.15 RAW OSINT VIDEO EXTRACTION
+# 15.5 V11.0 OSINT VIDEO EXTRACTION & RENDERING
 # ===========================================================================
 
-def extract_raw_video(article_url: str, output_filepath: Path) -> bool:
-    log.info("  Attempting to extract raw OSINT video footage...")
+def extract_and_process_video(article_url: str, headline: str, output_filepath: Path, caption_filepath: Path, summary_text: str) -> bool:
+    log.info("  [OSINT] Attempting to rip raw OSINT video footage...")
+    
+    # Needs a temp file for yt-dlp before FFmpeg processing
+    temp_raw = output_filepath.with_name(f"{output_filepath.stem}_raw.mp4")
+    
     ydl_opts = {
-        'outtmpl': str(output_filepath),
+        'outtmpl': str(temp_raw),
         'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
+        'writesubtitles': True,
+        'writeautomaticsub': True,
+        'subtitleslangs': ['en'],
         'quiet': True,
         'no_warnings': True,
         'match_filter': lambda info, *args, **kwargs: 'Video is too long' if info.get('duration', 0) > 180 else None
     }
+    
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([article_url])
+            
+        if not temp_raw.exists():
+            return False
+
+        # Build FFmpeg command to draw headline box
+        log.info("  [OSINT] Processing video with FFmpeg...")
+        
+        # Check for subtitles (yt-dlp names them e.g. temp_raw.en.vtt)
+        sub_file = temp_raw.with_name(f"{temp_raw.stem}.en.vtt")
+        
+        # We must escape colons and quotes for FFmpeg drawtext
+        clean_headline = headline.replace("'", "").replace(":", "\\\\:")
+        vf_string = f"drawtext=text='{clean_headline}':fontcolor=white:fontsize=24:box=1:boxcolor=black@0.5:boxborderw=5:x=(w-text_w)/2:y=10"
+        
+        if sub_file.exists():
+            vf_string += f",subtitles={sub_file}"
+        
+        command = [
+            'ffmpeg', '-y',
+            '-i', str(temp_raw),
+            '-vf', vf_string,
+            '-c:a', 'copy',
+            str(output_filepath)
+        ]
+        
+        subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT, check=True)
+        
+        # Write caption file
+        caption_filepath.write_text(summary_text, encoding="utf-8")
+        
+        # Cleanup
+        if temp_raw.exists():
+            temp_raw.unlink()
+        if sub_file.exists():
+            sub_file.unlink()
+            
         return True
     except Exception as e:
-        print(f"  [INFO] No extractable video found on this page.")
+        print(f"  [INFO] No extractable/processable video found on this page. ({e})")
+        if 'temp_raw' in locals() and temp_raw.exists():
+            temp_raw.unlink()
+        try:
+            old_sub = output_filepath.with_name(f"{output_filepath.stem}_raw.en.vtt")
+            if old_sub.exists():
+                old_sub.unlink()
+        except:
+            pass
         return False
 
 
@@ -1838,7 +1891,7 @@ def upload_to_drive(service, filepath, parent_id):
     u = service.files().create(body=fm, media_body=media, fields="id, name", supportsAllDrives=True).execute()
     log.info(f"  Uploaded: {u.get('name')} (ID: {u.get('id')})")
 
-def upload_files_to_drive(png_path: Path, txt_path: Path, mp4_path: Path = None):
+def upload_files_to_drive(file_paths: list[Path]):
     svc = get_drive_service()
     if not svc:
         return
@@ -1846,10 +1899,9 @@ def upload_files_to_drive(png_path: Path, txt_path: Path, mp4_path: Path = None)
         ROOT_ID = "1AVFFrHH89quUE8wMO_C5XHu7T62RuBNZ"
         geo = find_or_create_folder(svc, "Geopolitics", ROOT_ID)
         out = find_or_create_folder(svc, "Outputs", geo)
-        upload_to_drive(svc, png_path, out)
-        upload_to_drive(svc, txt_path, out)
-        if mp4_path and mp4_path.exists():
-            upload_to_drive(svc, mp4_path, out)
+        for p in file_paths:
+            if p and p.exists():
+                upload_to_drive(svc, p, out)
     except Exception as exc:
         log.error(f"Drive upload failed: {exc}")
 
@@ -1860,7 +1912,7 @@ def upload_files_to_drive(png_path: Path, txt_path: Path, mp4_path: Path = None)
 
 def main() -> None:
     log.info("=" * 60)
-    log.info("Geopolitical Breaking News v8.0 — Batch run starting")
+    log.info("Geopolitical Breaking News v11.0 — Omni-Channel Engine starting")
     log.info("=" * 60)
 
     articles = fetch_articles()
@@ -1883,6 +1935,17 @@ def main() -> None:
 
     processed_count = 0
     failed_count = 0
+    
+    # V11.0 Carousel
+    carousel_caption = ""
+    prefix = get_filename_prefix()
+    
+    # V11.0 Video Alternate Toggle
+    run_video = datetime.now().minute < 15
+    
+    # Store dynamic files for Drive
+    drive_upload_queue = []
+
     for idx, article in enumerate(batch, 1):
         try:
             log.info(f"\n{'=' * 40}")
@@ -1892,14 +1955,6 @@ def main() -> None:
             # Try AI generation, if it throws rate limits/errors, it will be caught below
             article = generate_internal_summary(article)
 
-            prefix = get_filename_prefix()
-
-            # V10.15 Raw Video Extraction
-            video_filepath = OUTPUT_DIR / f"{prefix}_RawFootage_{idx}.mp4"
-            video_success = extract_raw_video(article['real_url'], video_filepath)
-            if video_success:
-                print(f"[SUCCESS] Raw footage downloaded: {video_filepath}")
-
             # IMAGE mode: standard card generation
             log.info("  Generating static card")
             png = OUTPUT_DIR / f"{prefix}_Card{idx}.png"
@@ -1908,7 +1963,28 @@ def main() -> None:
             generate_card(article, png)
             generate_caption(article, txt)
             
-            upload_files_to_drive(png, txt, video_filepath if video_success else None)
+            drive_upload_queue.extend([png, txt])
+            
+            # Append local txt to combined string
+            if txt.exists():
+                carousel_caption += txt.read_text(encoding="utf-8") + "\n\n---\n\n"
+
+            # V11.0 OSINT Video
+            if run_video:
+                video_filepath = OUTPUT_DIR / f"{prefix}_OSINT_Video.mp4"
+                video_txt = OUTPUT_DIR / f"{prefix}_OSINT_Video_Caption.txt"
+                video_success = extract_and_process_video(
+                    article['real_url'], 
+                    article['title'], 
+                    video_filepath, 
+                    video_txt, 
+                    article.get('summary', '')
+                )
+                if video_success:
+                    print(f"[SUCCESS] Prepared OSINT video: {video_filepath}")
+                    drive_upload_queue.extend([video_filepath, video_txt])
+                    # Run exactly 1 video per 15-min top-of-hour bucket
+                    run_video = False
 
             posted = mark_posted(
                 article.get("real_url", article["link"]),
@@ -1919,7 +1995,7 @@ def main() -> None:
             processed_count += 1
             log.info(f"  Card {processed_count} complete \u2713")
 
-            # V8.9: Stop after BATCH_SIZE valid articles
+            # Stop after BATCH_SIZE valid articles
             if processed_count >= BATCH_SIZE:
                 break
 
@@ -1927,10 +2003,21 @@ def main() -> None:
             log.info("  Rate limiting: sleeping 15s...")
             print("[INFO] Sleeping for 15 seconds to respect AI rate limits...")
             time.sleep(15)
+
         except Exception as e:
-            print(f"[ERROR] Pipeline failed for article '{article.get('title', 'Unknown')}': {e}")
+            log.error(f"  Failed processing article '{article.get('title', 'Unknown')}': {e}", exc_info=False)
             failed_count += 1
             continue
+
+    # ----------------------------------------------------
+    # V11.0 CAROUSEL COMPILATION & DRIVE UPLOAD
+    if carousel_caption:
+        combo_txt = OUTPUT_DIR / f"{prefix}_Carousel_Combined.txt"
+        combo_txt.write_text(carousel_caption, encoding="utf-8")
+        drive_upload_queue.append(combo_txt)
+        
+    if drive_upload_queue:
+        upload_files_to_drive(drive_upload_queue)
 
     log.info("\n" + "=" * 60)
     log.info(f"Run complete. {processed_count} cards generated successfully. {failed_count} failed.")
