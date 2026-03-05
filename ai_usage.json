@@ -2,9 +2,9 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 13,
+  "total_calls": 14,
   "tiers": {
-    "groq": 13
+    "groq": 14
   },
   "log": [
     {
@@ -71,6 +71,11 @@
       "timestamp": "2026-03-05T12:15:25.705343+00:00",
       "tier": "groq",
       "article": "\u2018It\u2019s up to the United States Congress, not any president, to declare war\u2019"
+    },
+    {
+      "timestamp": "2026-03-05T12:52:25.040044+00:00",
+      "tier": "groq",
+      "article": "France, Germany create panel to advance shared nuclear deterrence plans"
     }
   ]
 }
