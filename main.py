@@ -21,6 +21,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from io import BytesIO
 
+import yt_dlp
 import feedparser
 import requests
 import dateparser as dp
@@ -1762,6 +1763,28 @@ def get_filename_prefix() -> str:
 
 
 # ===========================================================================
+# 15.5 V10.15 RAW OSINT VIDEO EXTRACTION
+# ===========================================================================
+
+def extract_raw_video(article_url: str, output_filepath: Path) -> bool:
+    log.info("  Attempting to extract raw OSINT video footage...")
+    ydl_opts = {
+        'outtmpl': str(output_filepath),
+        'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
+        'quiet': True,
+        'no_warnings': True,
+        'match_filter': lambda info, *args, **kwargs: 'Video is too long' if info.get('duration', 0) > 180 else None
+    }
+    try:
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            ydl.download([article_url])
+        return True
+    except Exception as e:
+        print(f"  [INFO] No extractable video found on this page.")
+        return False
+
+
+# ===========================================================================
 # 16. GOOGLE DRIVE UPLOAD
 # ===========================================================================
 
@@ -1815,7 +1838,7 @@ def upload_to_drive(service, filepath, parent_id):
     u = service.files().create(body=fm, media_body=media, fields="id, name", supportsAllDrives=True).execute()
     log.info(f"  Uploaded: {u.get('name')} (ID: {u.get('id')})")
 
-def upload_files_to_drive(png_path: Path, txt_path: Path):
+def upload_files_to_drive(png_path: Path, txt_path: Path, mp4_path: Path = None):
     svc = get_drive_service()
     if not svc:
         return
@@ -1825,6 +1848,8 @@ def upload_files_to_drive(png_path: Path, txt_path: Path):
         out = find_or_create_folder(svc, "Outputs", geo)
         upload_to_drive(svc, png_path, out)
         upload_to_drive(svc, txt_path, out)
+        if mp4_path and mp4_path.exists():
+            upload_to_drive(svc, mp4_path, out)
     except Exception as exc:
         log.error(f"Drive upload failed: {exc}")
 
@@ -1869,6 +1894,12 @@ def main() -> None:
 
             prefix = get_filename_prefix()
 
+            # V10.15 Raw Video Extraction
+            video_filepath = OUTPUT_DIR / f"{prefix}_RawFootage_{idx}.mp4"
+            video_success = extract_raw_video(article['real_url'], video_filepath)
+            if video_success:
+                print(f"[SUCCESS] Raw footage downloaded: {video_filepath}")
+
             # IMAGE mode: standard card generation
             log.info("  Generating static card")
             png = OUTPUT_DIR / f"{prefix}_Card{idx}.png"
@@ -1877,7 +1908,7 @@ def main() -> None:
             generate_card(article, png)
             generate_caption(article, txt)
             
-            upload_files_to_drive(png, txt)
+            upload_files_to_drive(png, txt, video_filepath if video_success else None)
 
             posted = mark_posted(
                 article.get("real_url", article["link"]),
