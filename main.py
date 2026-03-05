@@ -583,8 +583,8 @@ def extract_article(url: str) -> dict | None:
         if og_site and og_site.get("content"):
             source = og_site["content"]
         return {"text": text, "title": title, "image": image, "date": "", "source": source}
-    except Exception as exc:
-        log.warning(f"  Extractor failed: {exc}")
+    except Exception as e:
+        print(f"[ERROR] Scraper failed: {e}")
         return None
 
 
@@ -867,8 +867,9 @@ def analyze_article(text: str, headline: str) -> dict | None:
                 log.warning(f"  Groq returned incomplete JSON: {list(raw.keys())}")
         except ImportError:
             log.warning("  groq package not installed")
-        except Exception as exc:
-            log.warning(f"  Groq API failed: {exc}, trying Gemini fallback")
+        except Exception as e:
+            print(f"[ERROR] Groq API failed: {e}. Discarding article and continuing.")
+            raise Exception(f"AI Generation failed: {e}")
 
     # === GEMINI FALLBACK ===
     gemini_key = os.environ.get("GEMINI_API_KEY")
@@ -896,8 +897,9 @@ def analyze_article(text: str, headline: str) -> dict | None:
                 log.warning(f"  Gemini returned incomplete JSON: {list(raw.keys())}")
         except ImportError:
             log.warning("  google-genai not installed")
-        except Exception as exc:
-            log.warning(f"  Gemini API failed: {exc}")
+        except Exception as e:
+            print(f"[ERROR] Gemini API failed: {e}. Discarding article and continuing.")
+            raise Exception(f"AI Generation failed: {e}")
 
     log.warning("  Both AI APIs failed, using regex fallback")
     return None
@@ -1119,9 +1121,12 @@ def download_article_image(article: dict) -> Image.Image | None:
             img = ImageEnhance.Color(img).enhance(1.10)
             log.info("  Graded: contrast +5%, saturation +10%")
             return img
-    except Exception as exc:
-        log.warning(f"  Image failed: {exc}")
-    return None
+    except Exception as e:
+        print(f"[ERROR] Image download failed: {e}. Falling back to default.")
+        try:
+            return Image.open("assets/default_bg.jpg").convert("RGBA")
+        except Exception:
+            return None
 
 
 # ===========================================================================
@@ -1721,44 +1726,49 @@ def main() -> None:
     log.info(f"Batch: {len(batch)} articles selected for processing")
 
     processed_count = 0
+    failed_count = 0
     for idx, article in enumerate(batch, 1):
-        log.info(f"\n{'=' * 40}")
-        log.info(f"Processing [{idx}/{len(batch)}]: {article['title'][:70]}\u2026")
-        log.info(f"Source: {article['source']} | {article.get('real_url', article['link'])[:60]}\u2026")
+        try:
+            log.info(f"\n{'=' * 40}")
+            log.info(f"Processing [{idx}/{len(batch)}]: {article['title'][:70]}\u2026")
+            log.info(f"Source: {article['source']} | {article.get('real_url', article['link'])[:60]}\u2026")
 
+            # Try AI generation, if it throws rate limits/errors, it will be caught below
+            article = generate_internal_summary(article)
 
+            prefix = get_filename_prefix()
 
-        article = generate_internal_summary(article)
+            # IMAGE mode: standard card generation
+            log.info("  Generating static card")
+            png = OUTPUT_DIR / f"{prefix}_Card{idx}.png"
+            txt = OUTPUT_DIR / f"{prefix}_Card{idx}.txt"
+            generate_card(article, png)
+            generate_caption(article, txt)
+            upload_files_to_drive(png, txt)
 
-        prefix = get_filename_prefix()
+            posted = mark_posted(
+                article.get("real_url", article["link"]),
+                article.get("pub_date"), posted,
+                title=article.get("title", "")
+            )
+            save_posted(posted)
+            processed_count += 1
+            log.info(f"  Card {processed_count} complete \u2713")
 
-        # IMAGE mode: standard card generation
-        log.info("  Generating static card")
-        png = OUTPUT_DIR / f"{prefix}_Card{idx}.png"
-        txt = OUTPUT_DIR / f"{prefix}_Card{idx}.txt"
-        generate_card(article, png)
-        generate_caption(article, txt)
-        upload_files_to_drive(png, txt)
+            # V8.9: Stop after BATCH_SIZE valid articles
+            if processed_count >= BATCH_SIZE:
+                break
 
-        posted = mark_posted(
-            article.get("real_url", article["link"]),
-            article.get("pub_date"), posted,
-            title=article.get("title", "")
-        )
-        save_posted(posted)
-        processed_count += 1
-        log.info(f"  Card {processed_count} complete \u2713")
-
-        # V8.9: Stop after BATCH_SIZE valid articles
-        if processed_count >= BATCH_SIZE:
-            break
-
-        # V7.0: Rate limiting for Groq free-tier API
-        log.info("  Rate limiting: sleeping 6s...")
-        time.sleep(6)
+            # V7.0: Rate limiting for Groq free-tier API
+            log.info("  Rate limiting: sleeping 6s...")
+            time.sleep(6)
+        except Exception as e:
+            print(f"[ERROR] Pipeline failed for article '{article.get('title', 'Unknown')}': {e}")
+            failed_count += 1
+            continue
 
     log.info("\n" + "=" * 60)
-    log.info(f"Run complete. {processed_count} cards generated.")
+    log.info(f"Run complete. {processed_count} cards generated successfully. {failed_count} failed.")
     log.info("=" * 60)
 
 
