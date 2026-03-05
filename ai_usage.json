@@ -1,5 +1,26 @@
 {
-    "date": "2026-03-02",
-    "gemini_calls": 0,
-    "hf_calls": 0
+  "date": "2026-03-02",
+  "gemini_calls": 0,
+  "hf_calls": 0,
+  "total_calls": 3,
+  "tiers": {
+    "groq": 3
+  },
+  "log": [
+    {
+      "timestamp": "2026-03-05T07:05:01.849815+00:00",
+      "tier": "groq",
+      "article": "Iran denies firing missile towards Turkiye after NATO interception"
+    },
+    {
+      "timestamp": "2026-03-05T07:05:25.703797+00:00",
+      "tier": "groq",
+      "article": "Cuba hit by widespread blackout; Ecuador expels Havana\u2019s ambassador, staff"
+    },
+    {
+      "timestamp": "2026-03-05T07:05:46.619396+00:00",
+      "tier": "groq",
+      "article": "Canada PM Carney says unable to rule out military role in Iran war"
+    }
+  ]
 }
