@@ -2,10 +2,10 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 30,
+  "total_calls": 33,
   "tiers": {
-    "groq": 24,
-    "gemini": 6
+    "groq": 26,
+    "gemini": 7
   },
   "log": [
     {
@@ -157,6 +157,21 @@
       "timestamp": "2026-03-05T19:47:00.840745+00:00",
       "tier": "gemini",
       "article": "Hegseth and Rubio were \u2018at each other\u2019s throats\u2019 in argument over Iran: report "
+    },
+    {
+      "timestamp": "2026-03-05T20:40:08.470726+00:00",
+      "tier": "groq",
+      "article": "\u2018I moved to Dubai a week before the war started\u2019"
+    },
+    {
+      "timestamp": "2026-03-05T20:41:00.915394+00:00",
+      "tier": "gemini",
+      "article": "Sri Lanka evacuates crew from Iranian navy vessel days after warship was destroyed by US"
+    },
+    {
+      "timestamp": "2026-03-05T20:41:18.347224+00:00",
+      "tier": "groq",
+      "article": "The mask slipped during Karoline Leavitt\u2019s press conference on Iran"
     }
   ]
 }
