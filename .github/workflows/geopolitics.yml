@@ -1,0 +1,65 @@
+name: Geopolitical News Automation
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-post:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          pip install -r requirements.txt
+
+      - name: Restore usage trackers cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            posted_links.json
+            ai_usage.json
+          key: usage-trackers-${{ github.run_id }}
+          restore-keys: |
+            usage-trackers-
+
+      - name: Run geopolitical news automation
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+          GOOGLE_OAUTH_TOKEN_JSON: ${{ secrets.GOOGLE_OAUTH_TOKEN_JSON }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          python main.py
+
+      - name: Commit trackers updates
+        run: |
+          if [ -f posted_links.json ]; then
+            git config user.name "GitHub Actions Bot"
+            git config user.email "actions@github.com"
+            git add posted_links.json ai_usage.json
+            git diff --cached --quiet || git commit -m "chore: update usage trackers [skip ci]"
+            git push
+          fi
+
+      - name: Upload output artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: geopolitics-output-${{ github.run_number }}
+          path: output/
+          retention-days: 7
