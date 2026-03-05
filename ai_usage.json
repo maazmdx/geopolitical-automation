@@ -2,10 +2,10 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 24,
+  "total_calls": 27,
   "tiers": {
-    "groq": 21,
-    "gemini": 3
+    "groq": 22,
+    "gemini": 5
   },
   "log": [
     {
@@ -127,6 +127,21 @@
       "timestamp": "2026-03-05T15:15:03.753339+00:00",
       "tier": "groq",
       "article": "The mask slipped during Karoline Leavitt\u2019s press conference on Iran"
+    },
+    {
+      "timestamp": "2026-03-05T16:12:11.498008+00:00",
+      "tier": "groq",
+      "article": "Missiles fired by US, Israel hit two schools near Tehran: Iranian media"
+    },
+    {
+      "timestamp": "2026-03-05T16:12:55.444517+00:00",
+      "tier": "gemini",
+      "article": "\u2018Everyone\u2019s calling\u2019: demand for private jets from UK firm soars by up to 300% amid Iran war"
+    },
+    {
+      "timestamp": "2026-03-05T16:13:31.897302+00:00",
+      "tier": "gemini",
+      "article": "We paid \u00a31.5k for a disco bus to escape Dubai for Heathrow flight out of Middle East"
     }
   ]
 }
