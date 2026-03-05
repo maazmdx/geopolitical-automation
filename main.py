@@ -876,12 +876,18 @@ def analyze_article(text: str, headline: str) -> dict | None:
     if gemini_key:
         try:
             from google import genai
+            from tenacity import retry, stop_after_attempt, wait_exponential
 
             client = genai.Client(api_key=gemini_key)
-            response = client.models.generate_content(
-                model='gemini-2.5-flash',
-                contents=prompt,
-            )
+            
+            @retry(wait=wait_exponential(multiplier=2, min=10, max=60), stop=stop_after_attempt(3))
+            def _call_gemini():
+                return client.models.generate_content(
+                    model='gemini-2.5-flash',
+                    contents=prompt,
+                )
+            
+            response = _call_gemini()
 
             # Guard against empty response
             resp_text = _strip_markdown_json(response.text if response.text else "")
@@ -1759,9 +1765,10 @@ def main() -> None:
             if processed_count >= BATCH_SIZE:
                 break
 
-            # V7.0: Rate limiting for Groq free-tier API
-            log.info("  Rate limiting: sleeping 6s...")
-            time.sleep(6)
+            # V9.1: Rate limiting smart delay
+            log.info("  Rate limiting: sleeping 15s...")
+            print("[INFO] Sleeping for 15 seconds to respect AI rate limits...")
+            time.sleep(15)
         except Exception as e:
             print(f"[ERROR] Pipeline failed for article '{article.get('title', 'Unknown')}': {e}")
             failed_count += 1
