@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 119,
+  "total_calls": 122,
   "tiers": {
-    "groq": 101,
+    "groq": 104,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-05T14:15:27.627273+00:00",
-      "tier": "gemini",
-      "article": "Hegseth boasts of \u2018incredible\u2019 results of US war with Iran after four days"
-    },
-    {
-      "timestamp": "2026-03-05T14:15:55.138770+00:00",
-      "tier": "gemini",
-      "article": "The mask slipped during Karoline Leavitt\u2019s press conference on Iran"
-    },
-    {
-      "timestamp": "2026-03-05T15:14:57.399440+00:00",
-      "tier": "groq",
-      "article": "Missiles fired by US, Israel hit two schools near Tehran: Iranian media"
-    },
     {
       "timestamp": "2026-03-05T15:15:01.493494+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-06T22:32:21.715018+00:00",
       "tier": "groq",
       "article": "Trump boasts of \u2018total demolition\u2019 of Iran as Messi stands awkwardly behind him"
+    },
+    {
+      "timestamp": "2026-03-06T22:59:50.418627+00:00",
+      "tier": "groq",
+      "article": "Can Trump really cut off all trade with Spain? Here\u2019s what the law says"
+    },
+    {
+      "timestamp": "2026-03-06T23:07:56.786207+00:00",
+      "tier": "groq",
+      "article": "Lebanon: Beirut evacuees 'sleeping in tents and cars'"
+    },
+    {
+      "timestamp": "2026-03-06T23:15:50.331396+00:00",
+      "tier": "groq",
+      "article": "Insiders slam CBS News chief Bari Weiss\u2019s \u2018propaganda-palooza\u2019 for Trump war in Iran"
     }
   ]
 }
