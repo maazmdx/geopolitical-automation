@@ -28,7 +28,7 @@ import requests
 import cloudscraper
 import dateparser as dp
 from bs4 import BeautifulSoup
-from PIL import Image, ImageDraw, ImageFont, ImageEnhance
+from PIL import Image, ImageDraw, ImageFont, ImageEnhance, ImageFilter
 import pillow_avif
 
 # ---------------------------------------------------------------------------
