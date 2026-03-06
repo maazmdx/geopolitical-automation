@@ -817,6 +817,7 @@ Return strict JSON with exactly 5 keys:
 - "detailed_caption": A deeply analytical, multi-paragraph intelligence briefing (4-5 paragraphs, 1000-1200 chars). This MUST be entirely distinct from image_summary. DO NOT copy-paste or repeat any sentences. Deeply explore the strategic context, regional geopolitical impact, potential diplomatic fallout, and relevant historical precedent. Explain the broader ramifications for global power dynamics. Ensure all sentences are grammatically complete.
 - "flags": A list of up to two 2-letter ISO country codes (lowercase) of the PRIMARY nations physically involved in this specific event. DO NOT blindly default to "us" and "ir". If the strike happens in Bahrain, you MUST include "bh". If it involves Ukraine, include "ua". Be highly specific to the article text.
 - "keywords": Generate a massive, comma-separated list of EXACTLY 50 to 60 highly relevant, trending SEO keywords, tags, and search terms related to the article (e.g., missile, war, pentagon, drone strike, geopolitics, etc.). Do not use hashtags (#), just comma-separated words.
+- "threat_level": Rate the geopolitical severity of this event as an integer from 1 to 10. (1-4 = low/diplomatic, 5-7 = medium/tensions, 8-10 = high/war/missile strike/casualties). Return ONLY the integer.
 
 Return ONLY the JSON object, no markdown, no explanation."""
 
@@ -836,6 +837,12 @@ def _parse_ai_result(result: dict) -> dict | None:
     out = {"summary": summary, "countries": countries, "keywords": keywords}
     if detailed_caption:
         out["detailed_caption"] = detailed_caption
+        
+    try:
+        out["threat_level"] = int(result.get("threat_level", 8))
+    except (ValueError, TypeError):
+        out["threat_level"] = 8
+        
     return out
 
 
@@ -1086,6 +1093,7 @@ def generate_internal_summary(article: dict) -> dict:
     article["card_summary"] = card_summary
     article["countries"] = result.get("countries", [])
     article["keywords"] = result.get("keywords", [])
+    article["threat_level"] = result.get("threat_level", 8)
 
     # Build paragraphs for caption
     parts = card_summary.split("\n\n")
@@ -1464,14 +1472,21 @@ def _auto_scale(draw, text: str, font_name: str, max_width: int, max_lines: int,
 # 13. NEWS CARD GENERATION (V3.4 LAYOUT)
 # ===========================================================================
 
-def generate_card(article: dict, output_path: Path) -> None:
+def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     canvas = Image.new("RGB", (CARD_WIDTH, CARD_HEIGHT), _hex(TEXT_PANEL_BG))
     draw = ImageDraw.Draw(canvas)
 
-    # ── HEADER: 8% red strip ──
+    if threat_level >= 8:
+        banner_color = "#990000" # Blood Red (War/Strikes)
+    elif threat_level >= 5:
+        banner_color = "#B8860B" # Yellow/Dark Goldenrod (Tensions)
+    else:
+        banner_color = "#1E3A8A" # Deep Blue (Diplomacy/General)
+
+    # ── HEADER: Dynamic Banner ──
     strip_h = int(CARD_HEIGHT * HEADER_HEIGHT_PCT)  # ~86px
-    draw.rectangle([(0, 0), (CARD_WIDTH, strip_h)], fill=_hex(RED_STRIP))
+    draw.rectangle([(0, 0), (CARD_WIDTH, strip_h)], fill=_hex(banner_color))
     hf = _load_font("header", 42)
     ht = "\u26a1 BREAKING NEWS"
     hbox = draw.textbbox((0, 0), ht, font=hf)
@@ -1960,7 +1975,8 @@ def main() -> None:
             png = OUTPUT_DIR / f"{prefix}_Card{idx}.png"
             txt = OUTPUT_DIR / f"{prefix}_Card{idx}.txt"
             
-            generate_card(article, png)
+            threat_level = int(article.get("threat_level", 8))
+            generate_card(article, png, threat_level=threat_level)
             generate_caption(article, txt)
             
             drive_upload_queue.extend([png, txt])
