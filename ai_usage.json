@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 107,
+  "total_calls": 110,
   "tiers": {
-    "groq": 91,
-    "gemini": 16
+    "groq": 92,
+    "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-05T07:55:14.107611+00:00",
-      "tier": "groq",
-      "article": "Novel interceptor drones bend air-defense economics in Ukraine\u2019s favor"
-    },
-    {
-      "timestamp": "2026-03-05T08:45:27.195510+00:00",
-      "tier": "groq",
-      "article": "Iran targets headquarters of Iranian Kurdish forces in Iraq"
-    },
-    {
-      "timestamp": "2026-03-05T09:46:54.125778+00:00",
-      "tier": "groq",
-      "article": "Drone targets US base in Iraq as Iran attacks hit region amid US-Israel war"
-    },
     {
       "timestamp": "2026-03-05T11:37:05.777827+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-06T19:37:26.904587+00:00",
       "tier": "groq",
       "article": "Russia supplying Iran with intelligence to target US forces, says report"
+    },
+    {
+      "timestamp": "2026-03-06T20:34:51.531714+00:00",
+      "tier": "groq",
+      "article": "Cyprus raises doubts about future of British bases on island after drone strike"
+    },
+    {
+      "timestamp": "2026-03-06T20:35:38.043085+00:00",
+      "tier": "gemini",
+      "article": "White House shredded after another video mashup of action movies with Iran strikes"
+    },
+    {
+      "timestamp": "2026-03-06T20:38:55.092140+00:00",
+      "tier": "gemini",
+      "article": "I\u2019m an expert on global relations. Here\u2019s how Iran chooses next supreme leader"
     }
   ]
 }
