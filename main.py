@@ -17,6 +17,7 @@ import logging
 import math
 import time
 import subprocess
+import random
 from difflib import SequenceMatcher
 from datetime import datetime, timezone
 from pathlib import Path
@@ -28,7 +29,7 @@ import requests
 import cloudscraper
 import dateparser as dp
 from bs4 import BeautifulSoup
-from PIL import Image, ImageDraw, ImageFont, ImageEnhance, ImageFilter
+from PIL import Image, ImageDraw, ImageFont, ImageEnhance, ImageFilter, ImageOps
 import pillow_avif
 
 # ---------------------------------------------------------------------------
@@ -824,6 +825,7 @@ Return strict JSON with exactly 5 keys:
 - "keywords": Generate a massive, comma-separated list of EXACTLY 50 to 60 highly relevant, trending SEO keywords, tags, and search terms related to the article (e.g., missile, war, pentagon, drone strike, geopolitics, etc.). Do not use hashtags (#), just comma-separated words.
 - "threat_level": Rate the geopolitical severity of this event as an integer from 1 to 10. (1-4 = low/diplomatic, 5-7 = medium/tensions, 8-10 = high/war/missile strike/casualties). Return ONLY the integer.
 - "video_overlays": An array of 5 to 7 short, punchy Hinglish sentences (MAXIMUM 40 characters per sentence) that tell the story of this event. These will be flashed sequentially on a video like an Al Jazeera news reel. Make them aggressive and informative.
+- "image_hook": Write exactly 1 or 2 short lines (MAXIMUM 15 words total) summarizing the event. Use very simple, basic English. No complex words. This will be drawn in massive font on the image. Make it punchy and dramatic.
 
 Return ONLY the JSON object, no markdown, no explanation."""
 
@@ -842,7 +844,8 @@ def _parse_ai_result(result: dict) -> dict | None:
     
     if not summary:
         return None
-    out = {"summary": summary, "countries": countries, "keywords": keywords, "video_overlays": video_overlays}
+    image_hook = result.get("image_hook", "")
+    out = {"summary": summary, "countries": countries, "keywords": keywords, "video_overlays": video_overlays, "image_hook": image_hook}
     if detailed_caption:
         out["detailed_caption"] = detailed_caption
         
@@ -1103,6 +1106,7 @@ def generate_internal_summary(article: dict) -> dict:
     article["keywords"] = result.get("keywords", [])
     article["threat_level"] = result.get("threat_level", 8)
     article["video_overlays"] = result.get("video_overlays", [])
+    article["image_hook"] = result.get("image_hook", "")
 
     # Build paragraphs for caption
     parts = card_summary.split("\n\n")
@@ -1489,237 +1493,153 @@ def _auto_scale(draw, text: str, font_name: str, max_width: int, max_lines: int,
 # ===========================================================================
 
 def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> None:
+    """V13.0: Full-bleed OSINT influencer card with multi-template overlays."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    canvas = Image.new("RGB", (CARD_WIDTH, CARD_HEIGHT), _hex(TEXT_PANEL_BG))
-    draw = ImageDraw.Draw(canvas)
 
+    # ── Threat-level border color ──
     if threat_level >= 8:
-        banner_color = "#990000" # Blood Red (War/Strikes)
+        banner_color = "#990000"  # Blood Red (War/Strikes)
     elif threat_level >= 5:
-        banner_color = "#B8860B" # Yellow/Dark Goldenrod (Tensions)
+        banner_color = "#B8860B"  # Yellow/Dark Goldenrod (Tensions)
     else:
-        banner_color = "#1E3A8A" # Deep Blue (Diplomacy/General)
+        banner_color = "#1E3A8A"  # Deep Blue (Diplomacy/General)
 
-    # ── HEADER: Dynamic Banner ──
-    strip_h = int(CARD_HEIGHT * HEADER_HEIGHT_PCT)  # ~86px
-    draw.rectangle([(0, 0), (CARD_WIDTH, strip_h)], fill=_hex(banner_color))
-    hf = _load_font("header", 42)
-    ht = "\u26a1 BREAKING NEWS"
-    hbox = draw.textbbox((0, 0), ht, font=hf)
-    draw.text(
-        ((CARD_WIDTH - (hbox[2] - hbox[0])) // 2, (strip_h - (hbox[3] - hbox[1])) // 2),
-        ht, fill=_hex(HEADER_TEXT_COLOR), font=hf,
-    )
-
-    # ── LAYOUT ──
-    body_top = strip_h
-    body_h = CARD_HEIGHT - strip_h
-    left_w = int(CARD_WIDTH * LEFT_PANEL_PCT)    # 486px (45%)
-    right_w = CARD_WIDTH - left_w                # 594px (55%)
-    rx = left_w
-
-    # ── LEFT 45%: Image ──
+    # ── Full-bleed 1080x1080 base image ──
     art_img = download_article_image(article)
-    bw = 4
-    ia_w = left_w - bw * 2
-    ia_h = body_h - 40 - bw * 2
-
     if art_img:
-        art_img = smart_crop(art_img, ia_w, ia_h)
-        draw.rectangle([(0, body_top), (left_w, body_top + ia_h + bw * 2)], fill=(255, 255, 255))
-        canvas.paste(art_img.convert("RGB"), (bw, body_top + bw))
-        cf = _load_font("footer", 14)
-        draw.text((bw + 4, body_top + ia_h + bw * 2 + 6),
-                  f"Photo: {article.get('source', 'Unknown')}", fill=_hex(FOOTER_COLOR), font=cf)
-        log.info("  Card: image (smart crop + graded)")
+        canvas = ImageOps.fit(art_img.convert("RGB"), (CARD_WIDTH, CARD_HEIGHT), Image.LANCZOS)
     else:
         fallback = get_locator_map(article) or get_actor_image(article)
         if fallback:
-            fallback = _center_crop(fallback, ia_w, ia_h)
-            draw.rectangle([(0, body_top), (left_w, body_top + ia_h + bw * 2)], fill=(255, 255, 255))
-            canvas.paste(fallback.convert("RGB"), (bw, body_top + bw))
-            cf = _load_font("footer", 14)
-            draw.text((bw + 4, body_top + ia_h + bw * 2 + 6),
-                      "LOCATOR MAP", fill=_hex(FOOTER_COLOR), font=cf)
-            log.info("  Card: fallback image")
+            canvas = ImageOps.fit(fallback.convert("RGB"), (CARD_WIDTH, CARD_HEIGHT), Image.LANCZOS)
         else:
-            draw.rectangle([(0, body_top), (left_w, CARD_HEIGHT)], fill=_hex("#0F172A"))
-            for y in range(body_top, CARD_HEIGHT, 20):
-                draw.line([(0, y), (left_w, y)], fill=(25, 30, 42), width=1)
+            canvas = Image.new("RGB", (CARD_WIDTH, CARD_HEIGHT), _hex(TEXT_PANEL_BG))
+    log.info("  Card: full-bleed base created")
 
-    # ── RIGHT 55%: Text panel ──
-    draw.rectangle([(rx, body_top), (CARD_WIDTH, CARD_HEIGHT)], fill=_hex(TEXT_PANEL_BG))
+    # Convert to RGBA for overlay compositing
+    canvas = canvas.convert("RGBA")
 
-    # ── FLAGS: 25px below header, 15% smaller ──
-    countries = detect_countries(article)
-    flag_top = body_top + FLAG_TOP_GAP
-    flag_area_h = int(150 * FLAG_SCALE_DOWN)  # ~127px
+    # ── Random layout template ──
+    layout_style = random.choice(["bottom_heavy", "center_focus", "top_alert"])
+    log.info(f"  Card layout: {layout_style}")
 
-    if len(countries) >= 2:
-        half = right_w // 2
-        for i, code in enumerate(countries[:2]):
-            fi = download_flag(code)
-            if fi:
-                max_f = int(min(half - 20, 140) * FLAG_SCALE_DOWN)
-                fi.thumbnail((max_f, int(max_f * 0.66)), Image.LANCZOS)
-                fx = rx + i * half + (half - fi.width) // 2
-                fy = flag_top + (flag_area_h - fi.height) // 2
-                canvas.paste(fi, (fx, fy), fi)
-        sep_x = rx + half
-        draw.line([(sep_x, flag_top + 10), (sep_x, flag_top + flag_area_h - 10)],
-                  fill=(255, 255, 255), width=2)
-        log.info(f"  Flags: {countries[0]}, {countries[1]}")
-    elif len(countries) == 1:
-        fi = download_flag(countries[0])
-        if fi:
-            max_f = int(min(right_w - 40, 180) * FLAG_SCALE_DOWN)
-            fi.thumbnail((max_f, int(max_f * 0.66)), Image.LANCZOS)
-            fx = rx + (right_w - fi.width) // 2
-            fy = flag_top + (flag_area_h - fi.height) // 2
-            canvas.paste(fi, (fx, fy), fi)
-    else:
-        # V8.3: No flags — show category icon based on headline keywords
-        headline_lower = article.get("title", "").lower()
-        icon_name = "globe"  # default
-        for category, keywords_list in ICON_CATEGORIES.items():
-            if any(kw in headline_lower for kw in keywords_list):
-                icon_name = category
-                break
-        icon_path = ICON_DIR / f"{icon_name}.png"
-        
-        # Auto-download real logo if missing
-        if not icon_path.exists():
-            download_category_icon(icon_name, icon_path)
+    # ── Get the punchy image_hook text ──
+    hook_text = article.get("image_hook", "").strip()
+    if not hook_text:
+        # Fallback: use headline truncated to ~15 words
+        words = article.get("title", "BREAKING NEWS").split()
+        hook_text = " ".join(words[:15])
+    hook_text = smart_typography(hook_text)
 
-        if icon_path.exists():
+    # ── Draw translucent overlay + hook text ──
+    overlay = Image.new("RGBA", (CARD_WIDTH, CARD_HEIGHT), (0, 0, 0, 0))
+    odraw = ImageDraw.Draw(overlay)
+
+    BORDER_PX = 15
+    pad_x = 40  # horizontal text padding inside overlay
+
+    # Auto-scale hook font: start large, shrink to fit
+    hook_max_width = CARD_WIDTH - BORDER_PX * 2 - pad_x * 2
+    hook_font_size = 80
+    hook_font = _load_font("header", hook_font_size)
+    hook_lines = _pixel_wrap(odraw, hook_text, hook_font, hook_max_width, 4)
+    # Shrink if too many lines
+    while len(hook_lines) > 4 and hook_font_size > 44:
+        hook_font_size -= 4
+        hook_font = _load_font("header", hook_font_size)
+        hook_lines = _pixel_wrap(odraw, hook_text, hook_font, hook_max_width, 4)
+    # Ensure minimum size
+    if hook_font_size < 44:
+        hook_font_size = 44
+        hook_font = _load_font("header", hook_font_size)
+        hook_lines = _pixel_wrap(odraw, hook_text, hook_font, hook_max_width, 4)
+
+    line_h = hook_font_size + 10
+    text_block_h = len(hook_lines) * line_h
+
+    if layout_style == "bottom_heavy":
+        # Black rectangle (opacity 180) across bottom third
+        overlay_top = CARD_HEIGHT - CARD_HEIGHT // 3
+        odraw.rectangle(
+            [(BORDER_PX, overlay_top), (CARD_WIDTH - BORDER_PX, CARD_HEIGHT - BORDER_PX)],
+            fill=(0, 0, 0, 180)
+        )
+        # Left-aligned text in bottom third
+        text_y = overlay_top + 25
+        for i, line in enumerate(hook_lines):
+            odraw.text((BORDER_PX + pad_x, text_y + i * line_h),
+                       line, fill=(255, 255, 255, 255), font=hook_font)
+
+    elif layout_style == "center_focus":
+        # Black rectangle (opacity 150) across exact center
+        center_y = CARD_HEIGHT // 2
+        overlay_h = text_block_h + 60
+        overlay_top = center_y - overlay_h // 2
+        overlay_bot = center_y + overlay_h // 2
+        odraw.rectangle(
+            [(BORDER_PX, overlay_top), (CARD_WIDTH - BORDER_PX, overlay_bot)],
+            fill=(0, 0, 0, 150)
+        )
+        # Center-aligned text
+        text_y = overlay_top + 30
+        for i, line in enumerate(hook_lines):
             try:
-                icon = Image.open(icon_path).convert("RGBA")
-                icon_size = int(flag_area_h * 0.8)
-                icon.thumbnail((icon_size, icon_size), Image.LANCZOS)
-                ix = rx + (right_w - icon.width) // 2
-                iy = flag_top + (flag_area_h - icon.height) // 2
-                canvas.paste(icon, (ix, iy), icon)
-                log.info(f"  Category icon: {icon_name}")
-            except Exception as exc:
-                log.warning(f"  Failed to load icon {icon_name}: {exc}")
+                lw = odraw.textlength(line, font=hook_font)
+            except AttributeError:
+                bbox = odraw.textbbox((0, 0), line, font=hook_font)
+                lw = bbox[2] - bbox[0]
+            lx = (CARD_WIDTH - lw) / 2
+            odraw.text((lx, text_y + i * line_h),
+                       line, fill=(255, 255, 255, 255), font=hook_font)
 
-    # ── HEADLINE: 25px below flags ──
-    text_x = rx + RIGHT_MARGIN
-    text_w = right_w - RIGHT_MARGIN * 2
-    hl_top = flag_top + flag_area_h + HEADLINE_TOP_GAP
+    elif layout_style == "top_alert":
+        # Black rectangle at the top
+        overlay_bot = text_block_h + 80
+        odraw.rectangle(
+            [(BORDER_PX, BORDER_PX), (CARD_WIDTH - BORDER_PX, overlay_bot)],
+            fill=(0, 0, 0, 180)
+        )
+        # Left-aligned text at top
+        text_y = BORDER_PX + 25
+        for i, line in enumerate(hook_lines):
+            odraw.text((BORDER_PX + pad_x, text_y + i * line_h),
+                       line, fill=(255, 255, 255, 255), font=hook_font)
 
-    hl_font, hl_lines = _auto_scale(
-        draw, smart_typography(article["title"]), "headline", text_w,
-        max_lines=4, start=51, minimum=37,
-    )
-    hl_line_h = hl_font.size + 6
-    for i, line in enumerate(hl_lines):
-        draw.text((text_x, hl_top + i * hl_line_h),
-                  line, fill=_hex(HEADLINE_COLOR), font=hl_font)
+    # Composite overlay onto canvas
+    canvas = Image.alpha_composite(canvas, overlay)
 
-    # ── SUMMARY: 20px below headline, keyword highlighting ──
-    raw_summary = article.get("card_summary", article.get("summary", ""))
-    # V8.6: Strip any AI-injected "THE BIG PICTURE:" then hardcode it as prefix
-    raw_summary = raw_summary.replace("THE BIG PICTURE: ", "").replace("THE BIG PICTURE:", "")
-    summary = f"THE BIG PICTURE: {raw_summary}" if raw_summary else ""
-    keywords_set = {kw.lower().strip() for kw in article.get("keywords", [])}
-    if summary:
-        sum_top = hl_top + len(hl_lines) * hl_line_h + SUMMARY_TOP_GAP
-        sum_fs = 22
-        sum_font = _load_font("summary", sum_fs)
-        bold_font = _load_font("headline", sum_fs)  # Bold variant for keywords
-        s_line_h = int(sum_fs * LINE_SPACING_MULT)
+    # ── Threat-level border: 15px around entire image ──
+    border_rgb = _hex(banner_color)
+    border_overlay = Image.new("RGBA", (CARD_WIDTH, CARD_HEIGHT), (0, 0, 0, 0))
+    bdraw = ImageDraw.Draw(border_overlay)
+    # Top
+    bdraw.rectangle([(0, 0), (CARD_WIDTH, BORDER_PX)], fill=(*border_rgb, 255))
+    # Bottom
+    bdraw.rectangle([(0, CARD_HEIGHT - BORDER_PX), (CARD_WIDTH, CARD_HEIGHT)], fill=(*border_rgb, 255))
+    # Left
+    bdraw.rectangle([(0, 0), (BORDER_PX, CARD_HEIGHT)], fill=(*border_rgb, 255))
+    # Right
+    bdraw.rectangle([(CARD_WIDTH - BORDER_PX, 0), (CARD_WIDTH, CARD_HEIGHT)], fill=(*border_rgb, 255))
+    canvas = Image.alpha_composite(canvas, border_overlay)
 
-        # Footer boundary
-        div_y = CARD_HEIGHT - RIGHT_MARGIN - 28
-        max_bottom = div_y - 16
-        avail_h = max_bottom - sum_top
-        max_lines = max(1, avail_h // s_line_h)
-
-        # Split on Axios sections
-        parts = summary.split("\n\n")
-        all_lines = []
-        for part in parts:
-            part = part.strip()
-            if not part:
-                continue
-            is_bp = part.startswith("THE BIG PICTURE:")
-            rem = max_lines - len(all_lines)
-            if rem <= 0:
-                break
-            if is_bp and all_lines:
-                all_lines.append(("", False))
-                rem -= 1
-                if rem <= 0:
-                    break
-            for pl in _pixel_wrap(draw, part, sum_font, text_w, rem):
-                all_lines.append((pl, is_bp))
-
-        # Truncate with ellipsis
-        if len(all_lines) > max_lines:
-            all_lines = all_lines[:max_lines]
-            lt, bp = all_lines[-1]
-            if lt and not lt.endswith("\u2026"):
-                w = lt.split()
-                if len(w) > 1:
-                    all_lines[-1] = (" ".join(w[:-1]) + "\u2026", bp)
-
-        # V7.0: Word-by-word rendering with keyword highlighting
-        for i, (lt, is_bp) in enumerate(all_lines):
-            yp = sum_top + i * s_line_h
-            if yp + s_line_h > max_bottom:
-                break
-            if not lt:
-                continue
-
-            # Determine base color for this line
-            base_color = _hex(BIG_PICTURE_COLOR) if is_bp and lt.startswith("THE BIG") else _hex(SUMMARY_COLOR)
-
-            if keywords_set:
-                # Word-by-word rendering with keyword highlighting
-                cursor_x = text_x
-                words = lt.split(" ")
-                space_w = draw.textlength(" ", font=sum_font)
-                for wi, word in enumerate(words):
-                    clean_word = re.sub(r'[^a-zA-Z]', '', word).lower()
-                    if clean_word in keywords_set:
-                        draw.text((cursor_x, yp), word, fill=_hex(HIGHLIGHT_COLOR), font=bold_font)
-                        cursor_x += draw.textlength(word, font=bold_font)
-                    else:
-                        draw.text((cursor_x, yp), word, fill=base_color, font=sum_font)
-                        cursor_x += draw.textlength(word, font=sum_font)
-                    if wi < len(words) - 1:
-                        cursor_x += space_w
-            else:
-                # No keywords — render line normally
-                draw.text((text_x, yp), lt, fill=base_color, font=sum_font)
-
-    # ── FOOTER ──
-    ff = _load_font("footer", 15)
-    source = article.get("source", "Unknown")
-    dateline = format_dateline(article.get("pub_date"))
-    div_y = CARD_HEIGHT - RIGHT_MARGIN - 28
-    draw.line([(rx + RIGHT_MARGIN, div_y), (CARD_WIDTH - RIGHT_MARGIN, div_y)],
-              fill=_hex(FOOTER_COLOR), width=1)
-    fy = div_y + 5
-    draw.text((rx + RIGHT_MARGIN, fy), f"SOURCE: {source.upper()}", fill=_hex(FOOTER_COLOR), font=ff)
-    draw.text((rx + RIGHT_MARGIN, fy + 18), f"DATELINE: {dateline}", fill=_hex(FOOTER_COLOR), font=ff)
-
-    # V8.1: Market data on right panel beneath dateline, gold color
-    market_str = get_market_data()
-    if market_str:
-        mf = _load_font("footer", 12)
-        draw.text((rx + RIGHT_MARGIN, fy + 36), market_str, fill=_hex(HIGHLIGHT_COLOR), font=mf)
-
-    # V8.8: Engraved Channel Branding Watermark — larger, gold-tinted
+    # ── @geopoliticsofical watermark — bottom right corner ──
+    wm_overlay = Image.new("RGBA", (CARD_WIDTH, CARD_HEIGHT), (0, 0, 0, 0))
+    wdraw = ImageDraw.Draw(wm_overlay)
     brand_str = "@geopoliticsofical"
-    brand_font = _load_font("footer", 18)
-    brand_w = draw.textlength(brand_str, font=brand_font)
-    brand_x = rx + right_w - int(brand_w) - RIGHT_MARGIN
-    brand_y = div_y - 24
-    draw.text((brand_x, brand_y), brand_str,
-              fill=(251, 191, 36, 140), font=brand_font)
+    brand_font = _load_font("footer", 20)
+    try:
+        brand_w = wdraw.textlength(brand_str, font=brand_font)
+    except AttributeError:
+        bbox = wdraw.textbbox((0, 0), brand_str, font=brand_font)
+        brand_w = bbox[2] - bbox[0]
+    brand_x = CARD_WIDTH - int(brand_w) - BORDER_PX - 15
+    brand_y = CARD_HEIGHT - BORDER_PX - 30
+    wdraw.text((brand_x, brand_y), brand_str,
+              fill=(255, 255, 255, 160), font=brand_font)
+    canvas = Image.alpha_composite(canvas, wm_overlay)
 
+    # Convert back to RGB for saving
+    canvas = canvas.convert("RGB")
     canvas.save(str(output_path), "PNG", quality=95)
     log.info(f"  Card saved: {output_path}")
 
