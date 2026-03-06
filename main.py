@@ -734,37 +734,40 @@ def select_and_extract_batch(articles: list[dict], posted: dict) -> list[dict]:
         
         return True
 
-    # 1. Fill Kinetic Quota (Target: 2)
+    # V11.3: Dynamic Proportional Quota
+    target_kinetic = max(1, BATCH_SIZE - 1)
+    target_general = BATCH_SIZE - target_kinetic
+
+    # 1. Fill Kinetic Quota
     kinetic_count = 0
     for a in kinetic_queue:
-        if kinetic_count >= 2:
+        if kinetic_count >= target_kinetic:
             break
         if _try_extract(a):
             final_batch.append(a)
             kinetic_count += 1
-            log.info(f"  \u2713 Kinetic Slot Filled ({kinetic_count}/2)")
+            log.info(f"  \u2713 Kinetic Slot Filled ({kinetic_count}/{target_kinetic})")
 
-    # 2. Fill General Quota (Target: 1)
-    # Start from bottom of general_queue (least severe first)
+    # 2. Fill General Quota
     general_count = 0
     for a in reversed(general_queue):
-        if general_count >= 1:
+        if general_count >= target_general:
             break
         if _try_extract(a):
             final_batch.append(a)
             general_count += 1
-            log.info(f"  \u2713 General Slot Filled ({general_count}/1)")
+            log.info(f"  \u2713 General Slot Filled ({general_count}/{target_general})")
 
-    # 3. Fallback Filler (If either queue was exhausted before hitting target)
-    if len(final_batch) < 3:
-        log.info(f"  Quota not met ({len(final_batch)}/3). Pulling from remaining valid articles...")
+    # 3. Fallback Filler
+    if len(final_batch) < BATCH_SIZE:
+        log.info(f"  Quota not met ({len(final_batch)}/{BATCH_SIZE}). Pulling from remaining valid articles...")
         for a in valid_articles:
-            if len(final_batch) >= 3:
+            if len(final_batch) >= BATCH_SIZE:
                 break
             if a not in final_batch:
                 if _try_extract(a):
                     final_batch.append(a)
-                    log.info(f"  \u2713 Fallback Slot Filled ({len(final_batch)}/3)")
+                    log.info(f"  \u2713 Fallback Slot Filled ({len(final_batch)}/{BATCH_SIZE})")
 
     return final_batch
 
@@ -1773,9 +1776,11 @@ def generate_caption(article: dict, output_path: Path) -> None:
 # ===========================================================================
 
 def get_filename_prefix() -> str:
-    """V8.8: ISO-format file naming: YYYY-MM-DD_HHMM"""
+    """V11.3: Strict D[Day]_[Time] file naming convention."""
     now = datetime.now(timezone.utc)
-    return now.strftime("%Y-%m-%d_%H%M")
+    day = now.isoweekday()
+    time_str = now.strftime("%H%M")
+    return f"D{day}_{time_str}"
 
 
 # ===========================================================================
