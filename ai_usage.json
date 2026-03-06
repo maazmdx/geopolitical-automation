@@ -2,9 +2,9 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 66,
+  "total_calls": 69,
   "tiers": {
-    "groq": 51,
+    "groq": 54,
     "gemini": 15
   },
   "log": [
@@ -337,6 +337,21 @@
       "timestamp": "2026-03-06T06:56:20.046856+00:00",
       "tier": "groq",
       "article": "US offers India 30-day waiver to buy Russian oil amid Strait of Hormuz disruption"
+    },
+    {
+      "timestamp": "2026-03-06T07:41:09.881822+00:00",
+      "tier": "groq",
+      "article": "Iran targets Israeli embassy in Bahrain, Saudi Arabia intercepts missile"
+    },
+    {
+      "timestamp": "2026-03-06T07:41:29.646033+00:00",
+      "tier": "groq",
+      "article": "Briton in Dubai paid \u00a3150,000 for private jet for \u2018easy way out\u2019 as Iran war rages"
+    },
+    {
+      "timestamp": "2026-03-06T07:41:47.124370+00:00",
+      "tier": "groq",
+      "article": "Trump says regime change in Cuba is \u2018question of time\u2019 after Iran"
     }
   ]
 }
