@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 113,
+  "total_calls": 116,
   "tiers": {
-    "groq": 95,
+    "groq": 98,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-05T12:52:25.040044+00:00",
-      "tier": "groq",
-      "article": "France, Germany create panel to advance shared nuclear deterrence plans"
-    },
-    {
-      "timestamp": "2026-03-05T13:09:18.566162+00:00",
-      "tier": "groq",
-      "article": "Will the US benefit from the oil crisis sparked by the war on Iran?"
-    },
-    {
-      "timestamp": "2026-03-05T13:56:41.504714+00:00",
-      "tier": "groq",
-      "article": "Missiles fired by US, Israel hit two schools near Tehran: Iranian media"
-    },
     {
       "timestamp": "2026-03-05T13:57:05.653872+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-06T21:32:41.102336+00:00",
       "tier": "groq",
       "article": "Boy Scouts sue LGBTQ travel group \u2018Queer Scout\u2019 over its name"
+    },
+    {
+      "timestamp": "2026-03-06T21:56:05.269230+00:00",
+      "tier": "groq",
+      "article": "Strikes on Iran to last \u2018four to six weeks\u2019, White House says"
+    },
+    {
+      "timestamp": "2026-03-06T21:56:23.915726+00:00",
+      "tier": "groq",
+      "article": "Air Force test launches Minuteman III with multiple reentry vehicles"
+    },
+    {
+      "timestamp": "2026-03-06T21:56:41.536400+00:00",
+      "tier": "groq",
+      "article": "Patriot production delays prompt Switzerland to seek European air-defense fallback"
     }
   ]
 }
