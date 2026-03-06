@@ -2,9 +2,9 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 81,
+  "total_calls": 83,
   "tiers": {
-    "groq": 65,
+    "groq": 67,
     "gemini": 16
   },
   "log": [
@@ -412,6 +412,16 @@
       "timestamp": "2026-03-06T11:33:27.858709+00:00",
       "tier": "groq",
       "article": "Forcibly displaced Lebanese seek food, clothing, and comfort in shelters"
+    },
+    {
+      "timestamp": "2026-03-06T11:56:17.473297+00:00",
+      "tier": "groq",
+      "article": "Defence secretary twice declines to rule out Britain joining strikes on Iran"
+    },
+    {
+      "timestamp": "2026-03-06T11:56:35.676804+00:00",
+      "tier": "groq",
+      "article": "Iceland proposes referendum on resuming EU accession talks in August \u2013 Europe live"
     }
   ]
 }
