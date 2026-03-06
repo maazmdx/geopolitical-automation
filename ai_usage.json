@@ -2,9 +2,9 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 75,
+  "total_calls": 78,
   "tiers": {
-    "groq": 59,
+    "groq": 62,
     "gemini": 16
   },
   "log": [
@@ -382,6 +382,21 @@
       "timestamp": "2026-03-06T09:41:59.283201+00:00",
       "tier": "groq",
       "article": "Ecologists alarmed after invasive fire ants found in ancient Australian rainforest"
+    },
+    {
+      "timestamp": "2026-03-06T10:37:48.184074+00:00",
+      "tier": "groq",
+      "article": "Nigel Farage to discuss Chagos Islands deal at Mar-a-Lago dinner with Donald Trump tonight - UK politics live"
+    },
+    {
+      "timestamp": "2026-03-06T10:38:08.534614+00:00",
+      "tier": "groq",
+      "article": "Iran can still fire drones and missiles \u2014 experts weigh the implications on the war"
+    },
+    {
+      "timestamp": "2026-03-06T10:38:26.013367+00:00",
+      "tier": "groq",
+      "article": "Ecuadorean troops find 35m-long hidden 'narco-sub'"
     }
   ]
 }
