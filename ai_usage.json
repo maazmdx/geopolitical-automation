@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 110,
+  "total_calls": 113,
   "tiers": {
-    "groq": 92,
+    "groq": 95,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-05T11:37:05.777827+00:00",
-      "tier": "groq",
-      "article": "Iranian drones hit airport in Azerbaijan\u2019s exclave as US-Israel war widens"
-    },
-    {
-      "timestamp": "2026-03-05T11:37:38.502319+00:00",
-      "tier": "groq",
-      "article": "Sri Lanka trying to \u2018safeguard lives\u2019 on second Iran ship after US attack"
-    },
-    {
-      "timestamp": "2026-03-05T12:15:25.705343+00:00",
-      "tier": "groq",
-      "article": "\u2018It\u2019s up to the United States Congress, not any president, to declare war\u2019"
-    },
     {
       "timestamp": "2026-03-05T12:52:25.040044+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-06T20:38:55.092140+00:00",
       "tier": "gemini",
       "article": "I\u2019m an expert on global relations. Here\u2019s how Iran chooses next supreme leader"
+    },
+    {
+      "timestamp": "2026-03-06T21:32:05.976586+00:00",
+      "tier": "groq",
+      "article": "Ngoshe attack: 'Massive' numbers killed, Nigerian Senator Ndume tells BBC"
+    },
+    {
+      "timestamp": "2026-03-06T21:32:23.784301+00:00",
+      "tier": "groq",
+      "article": "US and Israel attacking Iran at \u2018record pace\u2019, war monitor says"
+    },
+    {
+      "timestamp": "2026-03-06T21:32:41.102336+00:00",
+      "tier": "groq",
+      "article": "Boy Scouts sue LGBTQ travel group \u2018Queer Scout\u2019 over its name"
     }
   ]
 }
