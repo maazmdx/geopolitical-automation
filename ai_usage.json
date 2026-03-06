@@ -2,9 +2,9 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 83,
+  "total_calls": 86,
   "tiers": {
-    "groq": 67,
+    "groq": 70,
     "gemini": 16
   },
   "log": [
@@ -422,6 +422,21 @@
       "timestamp": "2026-03-06T11:56:35.676804+00:00",
       "tier": "groq",
       "article": "Iceland proposes referendum on resuming EU accession talks in August \u2013 Europe live"
+    },
+    {
+      "timestamp": "2026-03-06T13:00:03.575397+00:00",
+      "tier": "groq",
+      "article": "US likely responsible for deadly strike on Iran girls\u2019 school, say military officials"
+    },
+    {
+      "timestamp": "2026-03-06T13:02:32.258806+00:00",
+      "tier": "groq",
+      "article": "What is the PrSM missile that the US used for the first time in Iran?"
+    },
+    {
+      "timestamp": "2026-03-06T13:02:49.630763+00:00",
+      "tier": "groq",
+      "article": "Southern Lebanon residents rush to flee homes as Israel pounds Beirut with bombs"
     }
   ]
 }
