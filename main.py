@@ -25,6 +25,7 @@ from io import BytesIO
 import yt_dlp
 import feedparser
 import requests
+import cloudscraper
 import dateparser as dp
 from bs4 import BeautifulSoup
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
@@ -600,14 +601,14 @@ def _deep_scrub(text: str) -> str:
 
 
 def extract_article(url: str) -> dict | None:
-    """V10.12: Hybrid Scraper (Requests + Trafilatura Bypass + BS4 Fallback)."""
+    """V11.7: Cloudscraper Anti-Bot Hardening + Hybrid Extraction."""
     try:
-        session = requests.Session()
+        scraper = cloudscraper.create_scraper()
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "Accept": "text/html,application/xhtml+xml,application/xml"
         }
-        response = session.get(url, headers=headers, timeout=15, allow_redirects=True)
+        response = scraper.get(url, headers=headers, timeout=15, allow_redirects=True)
         response.raise_for_status()
         
         # Try Trafilatura first
@@ -950,10 +951,10 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
             client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=or_key)
             
             response = client.chat.completions.create(
-                model="qwen/qwen-2.5-7b-instruct:free",
+                model="meta-llama/llama-3.3-70b-instruct:free",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.3,
-                max_tokens=600,
+                max_tokens=4000,
                 response_format={"type": "json_object"},
             )
             
@@ -986,7 +987,7 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
                 model="llama-3.1-8b-instant",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.3,
-                max_tokens=600,
+                max_tokens=4000,
                 response_format={"type": "json_object"},
             )
 
@@ -1253,7 +1254,8 @@ def download_article_image(article: dict) -> Image.Image | None:
         return None
     try:
         log.info(f"  Downloading image: {url[:60]}\u2026")
-        resp = requests.get(url, headers=HTTP_HEADERS, timeout=10)
+        scraper = cloudscraper.create_scraper()
+        resp = scraper.get(url, headers=HTTP_HEADERS, timeout=10)
         if resp.status_code == 200:
             img = Image.open(BytesIO(resp.content)).convert("RGBA")
             # Color grading: contrast +5%, saturation +10%
