@@ -29,6 +29,7 @@ import cloudscraper
 import dateparser as dp
 from bs4 import BeautifulSoup
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
+import pillow_avif
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -1252,23 +1253,29 @@ def download_article_image(article: dict) -> Image.Image | None:
     url = article.get("image_url")
     if not url:
         return None
+    
+    scraper = cloudscraper.create_scraper()
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "Referer": "https://news.google.com/"
+    }
     try:
         log.info(f"  Downloading image: {url[:60]}\u2026")
-        scraper = cloudscraper.create_scraper()
-        resp = scraper.get(url, headers=HTTP_HEADERS, timeout=10)
-        if resp.status_code == 200:
-            img = Image.open(BytesIO(resp.content)).convert("RGBA")
-            # Color grading: contrast +5%, saturation +10%
-            img = ImageEnhance.Contrast(img).enhance(1.05)
-            img = ImageEnhance.Color(img).enhance(1.10)
-            log.info("  Graded: contrast +5%, saturation +10%")
-            return img
-    except Exception as e:
-        print(f"[ERROR] Image download failed: {e}. Falling back to default.")
-        try:
-            return Image.open("assets/default_bg.jpg").convert("RGBA")
-        except Exception:
+        response = scraper.get(url, headers=headers, timeout=15)
+        response.raise_for_status()
+        
+        # Failsafe: Ensure the server actually sent an image, not an HTML Cloudflare block
+        content_type = response.headers.get('Content-Type', '')
+        if not content_type.startswith('image/'):
+            print(f"  [ERROR] Server blocked image download (returned {content_type}).")
             return None
+            
+        image = Image.open(BytesIO(response.content)).convert("RGB")
+        return image
+    except Exception as e:
+        print(f"  [ERROR] Image download failed: {e}")
+        return None
 
 
 # ===========================================================================
