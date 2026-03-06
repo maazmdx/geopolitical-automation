@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 101,
+  "total_calls": 104,
   "tiers": {
-    "groq": 85,
+    "groq": 88,
     "gemini": 16
   },
   "log": [
-    {
-      "timestamp": "2026-03-05T07:05:25.703797+00:00",
-      "tier": "groq",
-      "article": "Cuba hit by widespread blackout; Ecuador expels Havana\u2019s ambassador, staff"
-    },
-    {
-      "timestamp": "2026-03-05T07:05:46.619396+00:00",
-      "tier": "groq",
-      "article": "Canada PM Carney says unable to rule out military role in Iran war"
-    },
-    {
-      "timestamp": "2026-03-05T07:44:48.388897+00:00",
-      "tier": "groq",
-      "article": "Israeli strikes hit Beirut amid threats on Iranian officials in Lebanon"
-    },
     {
       "timestamp": "2026-03-05T07:45:10.115968+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-06T17:38:17.524611+00:00",
       "tier": "groq",
       "article": "The Kurdish fighters who could join fight against Iran - and inspire uprising following air strikes"
+    },
+    {
+      "timestamp": "2026-03-06T18:49:44.015022+00:00",
+      "tier": "groq",
+      "article": "Iran-US war latest: Trump demands \u2018unconditional surrender\u2019 as strikes continue"
+    },
+    {
+      "timestamp": "2026-03-06T18:55:12.317167+00:00",
+      "tier": "groq",
+      "article": "\u2018If they don\u2019t stop, Tehran will turn into Gaza\u2019: Iranians describe night of terror"
+    },
+    {
+      "timestamp": "2026-03-06T18:55:30.212363+00:00",
+      "tier": "groq",
+      "article": "No deal with Iran except \u2018unconditional surrender,\u2019 Trump says"
     }
   ]
 }
