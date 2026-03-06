@@ -2,9 +2,9 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 63,
+  "total_calls": 66,
   "tiers": {
-    "groq": 48,
+    "groq": 51,
     "gemini": 15
   },
   "log": [
@@ -322,6 +322,21 @@
       "timestamp": "2026-03-06T05:34:36.267349+00:00",
       "tier": "groq",
       "article": "Forget oil \u2013 the real threat from a Hormuz closure is a global food crisis"
+    },
+    {
+      "timestamp": "2026-03-06T06:54:21.596362+00:00",
+      "tier": "groq",
+      "article": "How close is Iran to a nuclear bomb? Satellite images reveal damage from US strikes"
+    },
+    {
+      "timestamp": "2026-03-06T06:56:01.915974+00:00",
+      "tier": "groq",
+      "article": "Iran fires more missiles, drones across Gulf region as war shows no letup"
+    },
+    {
+      "timestamp": "2026-03-06T06:56:20.046856+00:00",
+      "tier": "groq",
+      "article": "US offers India 30-day waiver to buy Russian oil amid Strait of Hormuz disruption"
     }
   ]
 }
