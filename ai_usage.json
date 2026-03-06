@@ -2,10 +2,10 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 69,
+  "total_calls": 72,
   "tiers": {
-    "groq": 54,
-    "gemini": 15
+    "groq": 56,
+    "gemini": 16
   },
   "log": [
     {
@@ -352,6 +352,21 @@
       "timestamp": "2026-03-06T07:41:47.124370+00:00",
       "tier": "groq",
       "article": "Trump says regime change in Cuba is \u2018question of time\u2019 after Iran"
+    },
+    {
+      "timestamp": "2026-03-06T08:42:00.336360+00:00",
+      "tier": "gemini",
+      "article": "White House angers people after posting montage of Iran war cut with Call of Duty "
+    },
+    {
+      "timestamp": "2026-03-06T08:46:01.353881+00:00",
+      "tier": "groq",
+      "article": "How long can Iran continue the war?"
+    },
+    {
+      "timestamp": "2026-03-06T08:51:34.466490+00:00",
+      "tier": "groq",
+      "article": "NORAD intercepts 2 Russian maritime patrol aircraft near Alaska, Canada"
     }
   ]
 }
