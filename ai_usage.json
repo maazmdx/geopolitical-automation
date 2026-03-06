@@ -2,9 +2,9 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 92,
+  "total_calls": 95,
   "tiers": {
-    "groq": 76,
+    "groq": 79,
     "gemini": 16
   },
   "log": [
@@ -467,6 +467,21 @@
       "timestamp": "2026-03-06T14:56:37.754085+00:00",
       "tier": "groq",
       "article": "Vet whose arm was broken during Senate briefing can get \u2018kind of riled up,\u2019 mom says"
+    },
+    {
+      "timestamp": "2026-03-06T15:39:53.799999+00:00",
+      "tier": "groq",
+      "article": "Amid Iran war, will Russia exploit Ukraine\u2019s shortage of Patriot missiles?"
+    },
+    {
+      "timestamp": "2026-03-06T15:40:12.408625+00:00",
+      "tier": "groq",
+      "article": "Trump says he must be involved in picking Iran\u2019s next leader after Khamenei\u2019s death"
+    },
+    {
+      "timestamp": "2026-03-06T15:41:52.018195+00:00",
+      "tier": "groq",
+      "article": "Markwayne Mullin describes frantic pace of Trump call to replace Noem as DHS chief"
     }
   ]
 }
