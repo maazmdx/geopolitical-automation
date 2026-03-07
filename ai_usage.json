@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 176,
+  "total_calls": 179,
   "tiers": {
-    "groq": 158,
+    "groq": 161,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T10:38:08.534614+00:00",
-      "tier": "groq",
-      "article": "Iran can still fire drones and missiles \u2014 experts weigh the implications on the war"
-    },
-    {
-      "timestamp": "2026-03-06T10:38:26.013367+00:00",
-      "tier": "groq",
-      "article": "Ecuadorean troops find 35m-long hidden 'narco-sub'"
-    },
-    {
-      "timestamp": "2026-03-06T11:31:11.577035+00:00",
-      "tier": "groq",
-      "article": "Huge explosion seen in Tehran as strikes on Iran continue"
-    },
     {
       "timestamp": "2026-03-06T11:31:30.098688+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-07T10:30:34.676247+00:00",
       "tier": "groq",
       "article": "Araghchi lashes out at UN for ignoring casualties in Iran war"
+    },
+    {
+      "timestamp": "2026-03-07T10:52:19.785317+00:00",
+      "tier": "groq",
+      "article": "Protesters in US cities demand end to strikes on Iran"
+    },
+    {
+      "timestamp": "2026-03-07T10:52:52.126405+00:00",
+      "tier": "groq",
+      "article": "VIDEO: School destroyed by Israeli-American strikes"
+    },
+    {
+      "timestamp": "2026-03-07T10:53:43.797543+00:00",
+      "tier": "groq",
+      "article": "Cuba denounces US-Israeli aggression against Iran\u00a0"
     }
   ]
 }
