@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 215,
+  "total_calls": 219,
   "tiers": {
-    "groq": 197,
+    "groq": 201,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T21:56:41.536400+00:00",
-      "tier": "groq",
-      "article": "Patriot production delays prompt Switzerland to seek European air-defense fallback"
-    },
-    {
-      "timestamp": "2026-03-06T22:31:44.562057+00:00",
-      "tier": "groq",
-      "article": "Qatar partially reopens airspace as Iranian strikes continue to hit Gulf"
-    },
-    {
-      "timestamp": "2026-03-06T22:32:03.821039+00:00",
-      "tier": "groq",
-      "article": "People are tracking this shepherd fleeing Israeli strikes in Lebanon"
-    },
-    {
-      "timestamp": "2026-03-06T22:32:21.715018+00:00",
-      "tier": "groq",
-      "article": "Trump boasts of \u2018total demolition\u2019 of Iran as Messi stands awkwardly behind him"
-    },
     {
       "timestamp": "2026-03-06T22:59:50.418627+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-07T21:49:38.401184+00:00",
       "tier": "groq",
       "article": "Islamic Resistance fighters targeted the city of Kiryat Shmona in northern occupied Palestine at 17:30 on Saturday with a squadron of combat drones: statement 16 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T22:30:10.444615+00:00",
+      "tier": "groq",
+      "article": "Once again, Hezbollah fighters targeted an Israeli occupation force trying to advance toward the Maroun Al-Ras plain with a second coordinated missile salvo: statement 27 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T22:30:30.297944+00:00",
+      "tier": "groq",
+      "article": "Hezbollah fighters targeted an Israeli occupation force trying to advance into the town of Aitaroun with artillery shells: statement 25 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T22:30:50.271560+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted the Glilot base (the headquarters of Military Intelligence Unit 8200), located 110 km from the Lebanese-Palestinian border with a squadron of attack drones: statement 33 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T22:31:09.186723+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted an Israeli occupation force trying to advance from the Avivim barracks towards the plain of Maroun Al-Ras village with artillery shells: statement 24 - Al-Manar TV Lebanon"
     }
   ]
 }
