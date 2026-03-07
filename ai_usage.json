@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 219,
+  "total_calls": 220,
   "tiers": {
-    "groq": 201,
+    "groq": 202,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T22:59:50.418627+00:00",
-      "tier": "groq",
-      "article": "Can Trump really cut off all trade with Spain? Here\u2019s what the law says"
-    },
     {
       "timestamp": "2026-03-06T23:07:56.786207+00:00",
       "tier": "groq",
@@ -507,6 +502,11 @@
       "timestamp": "2026-03-07T22:31:09.186723+00:00",
       "tier": "groq",
       "article": "Islamic Resistance fighters targeted an Israeli occupation force trying to advance from the Avivim barracks towards the plain of Maroun Al-Ras village with artillery shells: statement 24 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T22:54:35.779900+00:00",
+      "tier": "groq",
+      "article": "Hezbollah fighters launched a salvo of rockets targeting the occupied city of Nahariya: statement 26 - Al-Manar TV Lebanon"
     }
   ]
 }
