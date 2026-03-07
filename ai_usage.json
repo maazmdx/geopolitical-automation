@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 128,
+  "total_calls": 131,
   "tiers": {
-    "groq": 110,
+    "groq": 113,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-05T19:46:21.926005+00:00",
-      "tier": "groq",
-      "article": "Iranian schoolgirls better off dead than \u2018in a burqa\u2019, says MAGA\u2019s Matt Schlapp"
-    },
-    {
-      "timestamp": "2026-03-05T19:47:00.840745+00:00",
-      "tier": "gemini",
-      "article": "Hegseth and Rubio were \u2018at each other\u2019s throats\u2019 in argument over Iran: report "
-    },
-    {
-      "timestamp": "2026-03-05T20:40:08.470726+00:00",
-      "tier": "groq",
-      "article": "\u2018I moved to Dubai a week before the war started\u2019"
-    },
     {
       "timestamp": "2026-03-05T20:41:00.915394+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-07T00:07:25.934704+00:00",
       "tier": "groq",
       "article": "White House posts \u2018American justice\u2019 video days after Iran school attack"
+    },
+    {
+      "timestamp": "2026-03-07T02:02:25.925870+00:00",
+      "tier": "groq",
+      "article": "Man convicted in political assassination plot he tied to Iranian paramilitary"
+    },
+    {
+      "timestamp": "2026-03-07T02:02:43.477634+00:00",
+      "tier": "groq",
+      "article": "Iranian missiles over Tel Aviv prompt sirens, interceptor launches"
+    },
+    {
+      "timestamp": "2026-03-07T02:03:01.713885+00:00",
+      "tier": "groq",
+      "article": "US to send anti-drone system to Mideast after successful use in Ukraine, officials say"
     }
   ]
 }
