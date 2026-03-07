@@ -1984,11 +1984,11 @@ def fetch_instagram_posts() -> list[dict]:
         print("  [IG] Triggering Apify Instagram Scraper (Video Hunter Mode)...")
         run_input = {
             "directUrls": [
-                "https://www.instagram.com/iran_military_officiall/",
-                "https://www.instagram.com/irgc.intel/",
-                "https://www.instagram.com/middle_east_spectator/",
-                "https://www.instagram.com/military.ir/",
-                "https://www.instagram.com/global.military.news/"
+                "https://www.instagram.com/atlas.news3/",
+                "https://www.instagram.com/geopolitics_live/",
+                "https://www.instagram.com/conflict_observer/",
+                "https://www.instagram.com/global_defense_news/",
+                "https://www.instagram.com/breaking_news_osint/"
             ],
             "resultsType": "posts",
             "resultsLimit": 30, # Increased pool to guarantee finding enough fresh content
@@ -2119,52 +2119,49 @@ def process_instagram_batch(ig_posts: list[dict], drive_queue: list[Path], poste
             
             if is_video:
                 if ig_video_count < MAX_IG_VIDEOS:
+                    import subprocess
                     print(f"  [IG] Video/Reel detected! Downloading direct URL...")
-                    VIDEO_DIR.mkdir(parents=True, exist_ok=True)
-                    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+                    os.makedirs('videos', exist_ok=True)
+                    os.makedirs('output', exist_ok=True)
                     
-                    # Explicitly define variables to fix NameError and scope issues
-                    temp_raw = VIDEO_DIR / f"temp_ig_raw_{ig_video_count}.mp4"
-                    final_output_path = VIDEO_DIR / f"{prefix}_IG{idx}_OSINT.mp4"
-                    caption_path = VIDEO_DIR / f"{prefix}_IG{idx}_OSINT_Caption.txt"
+                    temp_video_path = f"videos/temp_ig_raw_{ig_video_count}.mp4"
+                    final_output_path = f"output/D6_IG_Video_{ig_video_count}_OSINT.mp4"
+                    caption_path = f"output/D6_IG_Video_{ig_video_count}_OSINT.txt"
                     
                     try:
-                        # 1. Download the video directly
+                        # 1. Download video
                         video_response = requests.get(video_url, stream=True, timeout=30)
                         video_response.raise_for_status()
-                        with open(temp_raw, 'wb') as f:
+                        with open(temp_video_path, 'wb') as f:
                             for chunk in video_response.iter_content(chunk_size=8192):
                                 f.write(chunk)
                         
-                        # 2. Process the video
-                        video_success = format_vertical_video(
-                            str(temp_raw), 
-                            image_hook, 
-                            final_output_path, 
-                            caption_path, 
-                            ig_url, 
-                            ig_article
-                        )
+                        # 2. Direct FFmpeg Vertical Blur Processing
+                        print("  [IG] Applying 9:16 vertical blur background via FFmpeg...")
+                        ffmpeg_cmd = [
+                            'ffmpeg', '-y', '-i', temp_video_path,
+                            '-vf', 'split[original][copy];[copy]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:20[blurred];[original]scale=1080:1920:force_original_aspect_ratio=decrease[scaled];[blurred][scaled]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2',
+                            '-c:v', 'libx264', '-crf', '23', '-preset', 'fast', '-c:a', 'aac', '-b:a', '128k',
+                            final_output_path
+                        ]
                         
-                        if temp_raw.exists():
-                            temp_raw.unlink()
-                            
-                        if video_success:
-                            # 3. Create the text file with 'OSINT' in the name and enqueue
+                        result = subprocess.run(ffmpeg_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                        
+                        if result.returncode == 0:
+                            # 3. Create caption file
                             with open(caption_path, "w", encoding="utf-8") as f:
-                                # Overwrite generated caption if custom writing requested, otherwise FFmpeg did it
                                 f.write(f"🚨 BREAKING:\n\n{rewritten_caption}\n")
-                                
-                            drive_queue.extend([final_output_path, caption_path])
+                            
+                            drive_queue.extend([Path(final_output_path), Path(caption_path)])
                             ig_count += 1
                             ig_video_count += 1
                             mark_posted(ig_url, None, posted_links, title=image_hook)
                             print(f"  [IG] ✓ Video {ig_video_count}/{MAX_IG_VIDEOS} successfully processed.")
                         else:
-                            print("  [ERROR] FFmpeg processing returned False.")
+                            print(f"  [ERROR] FFmpeg failed: {result.stderr.decode('utf-8')}")
                             
                     except Exception as e:
-                        print(f"  [ERROR] IG Video download/processing failed: {e}")
+                        print(f"  [ERROR] IG Video processing failed: {e}")
                 else:
                     log.info("  [IG] Video quota met. Skipping excess video.")
             else:
