@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 173,
+  "total_calls": 176,
   "tiers": {
-    "groq": 155,
+    "groq": 158,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T09:41:42.222364+00:00",
-      "tier": "groq",
-      "article": "Timeline: How a week of war unfolded in the Middle East after strikes on Iran"
-    },
-    {
-      "timestamp": "2026-03-06T09:41:59.283201+00:00",
-      "tier": "groq",
-      "article": "Ecologists alarmed after invasive fire ants found in ancient Australian rainforest"
-    },
-    {
-      "timestamp": "2026-03-06T10:37:48.184074+00:00",
-      "tier": "groq",
-      "article": "Nigel Farage to discuss Chagos Islands deal at Mar-a-Lago dinner with Donald Trump tonight - UK politics live"
-    },
     {
       "timestamp": "2026-03-06T10:38:08.534614+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-07T09:56:29.745702+00:00",
       "tier": "groq",
       "article": "Interior Ministry arrests perpetrators of Imam Ali Mosque bombing in Homs"
+    },
+    {
+      "timestamp": "2026-03-07T10:29:43.540026+00:00",
+      "tier": "groq",
+      "article": "IRGC destroys strategic US radars in regional countries"
+    },
+    {
+      "timestamp": "2026-03-07T10:30:16.784179+00:00",
+      "tier": "groq",
+      "article": "Aleppo reopens long-closed roads to revive movement"
+    },
+    {
+      "timestamp": "2026-03-07T10:30:34.676247+00:00",
+      "tier": "groq",
+      "article": "Araghchi lashes out at UN for ignoring casualties in Iran war"
     }
   ]
 }
