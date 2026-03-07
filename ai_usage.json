@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 152,
+  "total_calls": 155,
   "tiers": {
-    "groq": 134,
+    "groq": 137,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T01:40:58.170427+00:00",
-      "tier": "groq",
-      "article": "\u2018Race of attrition\u2019: US military\u2019s finite interceptor stockpile is being tested"
-    },
-    {
-      "timestamp": "2026-03-06T01:41:16.279304+00:00",
-      "tier": "groq",
-      "article": "US, Venezuela to restore diplomatic ties"
-    },
-    {
-      "timestamp": "2026-03-06T02:12:08.284649+00:00",
-      "tier": "groq",
-      "article": "Iran war live updates: US temporarily lets India buy Russian oil amid energy fears; Israeli military launches strikes on Beirut"
-    },
     {
       "timestamp": "2026-03-06T02:12:27.445616+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-07T08:02:18.072797+00:00",
       "tier": "groq",
       "article": "Florida bar targets Trump lawyer Lindsey Halligan in ethics investigation"
+    },
+    {
+      "timestamp": "2026-03-07T08:15:47.882792+00:00",
+      "tier": "groq",
+      "article": "Russian strike on Kharkiv apartment block kills seven"
+    },
+    {
+      "timestamp": "2026-03-07T08:16:04.245021+00:00",
+      "tier": "groq",
+      "article": "Hezbollah, Israeli troops clash on the ground in eastern Lebanon\u2019s Bekaa"
+    },
+    {
+      "timestamp": "2026-03-07T08:16:21.305799+00:00",
+      "tier": "groq",
+      "article": "Hungary seizes millions of euros in cash and gold from Ukrainian convoy"
     }
   ]
 }
