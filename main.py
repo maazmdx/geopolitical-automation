@@ -1671,7 +1671,8 @@ def get_filename_prefix() -> str:
 # ===========================================================================
 
 def extract_and_process_video(article_url: str, headline: str, output_filepath: Path, caption_filepath: Path, summary_text: str, parsed_json: dict) -> bool:
-    log.info("  [OSINT] Attempting to rip raw OSINT video footage...")
+    """V16.2: Independent-First Video Sourcing + Iranian Fallback."""
+    log.info("  [OSINT] Attempting to source OSINT video footage...")
     
     # Needs a temp file for yt-dlp before FFmpeg processing
     temp_raw = output_filepath.with_name(f"{output_filepath.stem}_raw.mp4")
@@ -1684,13 +1685,38 @@ def extract_and_process_video(article_url: str, headline: str, output_filepath: 
         'match_filter': lambda info, *args, **kwargs: 'Video is too long' if info.get('duration', 0) > 180 else None
     }
     
+    video_found = False
+    
+    # V16.2: PRIMARY — Search The Independent for high-quality combat footage
     try:
+        safe_query = ''.join(char for char in headline if char.isalnum() or char.isspace())
+        search_query = f"ytsearch1:{safe_query} The Independent news short"
+        log.info(f"  [OSINT] PRIMARY: Searching Independent video: {search_query[:80]}...")
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([article_url])
-            
-        if not temp_raw.exists():
-            return False
-
+            ydl.download([search_query])
+        if temp_raw.exists():
+            video_found = True
+            log.info("  [OSINT] ✓ Independent video sourced successfully.")
+    except Exception as e:
+        log.warning(f"  [OSINT] Independent search failed ({e}). Trying Iranian source...")
+    
+    # V16.3: FALLBACK — Try direct extraction from Iranian article URL
+    if not video_found:
+        try:
+            log.info(f"  [OSINT] FALLBACK: Extracting from original URL: {article_url[:60]}...")
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                ydl.download([article_url])
+            if temp_raw.exists():
+                video_found = True
+                log.info("  [OSINT] ✓ Iranian source video extracted.")
+        except Exception as e:
+            log.warning(f"  [OSINT] Iranian source extraction failed ({e}).")
+    
+    if not video_found or not temp_raw.exists():
+        log.info("  [OSINT] No video found from any source.")
+        return False
+    
+    try:
         # Build FFmpeg Vertical Mirror Blur + AJ+ Overlays
         log.info("  [OSINT] Processing video with FFmpeg vertical filters...")
         
@@ -1825,11 +1851,11 @@ def upload_files_to_drive(file_paths: list[Path]):
         out = find_or_create_folder(svc, "Outputs", geo)
         for p in file_paths:
             if p and p.exists():
-                # V15.3: Route strictly ONLY the video file to the Video Folder
-                if p.suffix == ".mp4" and VIDEO_DRIVE_FOLDER_ID:
-                    log.info(f"  [ROUTING] Sending video to Video Folder: {p.name}")
+                # V16.3: Route video and its OSINT caption to dedicated Video folder
+                if (p.suffix == ".mp4" or "OSINT" in p.name) and VIDEO_DRIVE_FOLDER_ID:
+                    log.info(f"  [ROUTING] Sending to Dedicated Video Folder: {p.name}")
                     upload_to_drive(svc, p, VIDEO_DRIVE_FOLDER_ID)
-                # Route ALL other files (.txt, .png, .jpg) to the standard Outputs folder
+                # Route static cards and carousel captions to the Outputs folder
                 else:
                     upload_to_drive(svc, p, out)
     except Exception as exc:
