@@ -789,12 +789,20 @@ def select_and_extract_batch(articles: list[dict], posted: dict) -> list[dict]:
     def _try_extract(article: dict) -> bool:
         log.info(f"Targeting: {article['title'][:70]}\u2026")
         extracted = extract_article(article["real_url"])
-        if extracted is None:
-            log.info("  Extraction failed. Continuing to next URL...\u2026")
+        
+        # V17.8: RSS Summary Fallback
+        extracted_text = extracted.get("text") if extracted else None
+        
+        if not extracted_text or len(extracted_text) < 100:
+            log.info("  [WARNING] Full text extraction failed or too short. Using RSS summary fallback.")
+            extracted_text = article.get("summary") or article.get("description", "")
+            
+        if not extracted_text or len(extracted_text) < 20:
+            log.info(f"  [SKIP] No text or summary available for {article['real_url']}")
             return False
 
-        article["full_text"] = extracted["text"]
-        log.info(f"  Extracted: {len(extracted['text'])} chars \u2713")
+        article["full_text"] = extracted_text
+        log.info(f"  Extracted/Fallback text: {len(extracted_text)} chars \u2713")
 
         if extracted.get("title"):
             article["title"] = extracted["title"]
@@ -2177,19 +2185,18 @@ def main() -> None:
 
     articles = fetch_articles()
     if not articles:
-        log.info("No articles. Exiting.")
-        return
+        log.info("No articles. Proceeding to IG engine...")
+        articles = []
 
     geo = filter_geopolitics(articles)
     if not geo:
-        log.info("No geopolitics articles. Exiting.")
-        return
+        log.info("No geopolitics articles. Proceeding to IG engine...")
+        geo = []
 
     posted = load_posted()
-    batch = select_and_extract_batch(geo, posted)
+    batch = select_and_extract_batch(geo, posted) if geo else []
     if not batch:
-        log.info("No extractable articles found. Exiting.")
-        return
+        log.info("No extractable RSS articles found. Proceeding to IG engine...")
 
     log.info(f"Batch: {len(batch)} articles selected for processing")
 
