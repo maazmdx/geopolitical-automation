@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 211,
+  "total_calls": 215,
   "tiers": {
-    "groq": 193,
+    "groq": 197,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T21:32:23.784301+00:00",
-      "tier": "groq",
-      "article": "US and Israel attacking Iran at \u2018record pace\u2019, war monitor says"
-    },
-    {
-      "timestamp": "2026-03-06T21:32:41.102336+00:00",
-      "tier": "groq",
-      "article": "Boy Scouts sue LGBTQ travel group \u2018Queer Scout\u2019 over its name"
-    },
-    {
-      "timestamp": "2026-03-06T21:56:05.269230+00:00",
-      "tier": "groq",
-      "article": "Strikes on Iran to last \u2018four to six weeks\u2019, White House says"
-    },
-    {
-      "timestamp": "2026-03-06T21:56:23.915726+00:00",
-      "tier": "groq",
-      "article": "Air Force test launches Minuteman III with multiple reentry vehicles"
-    },
     {
       "timestamp": "2026-03-06T21:56:41.536400+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-07T20:33:27.938092+00:00",
       "tier": "groq",
       "article": "Iranian FM Abbas Araghchi: My Saudi counterpart and I are in continuous contact, Saudi officials confirmed they are fully committed to preventing their territory, waters, or airspace from being used against Iran - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T21:48:38.686730+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Hits Dozens of Israeli Sites with Coordinated Missile, Drone Strikes - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T21:49:00.845657+00:00",
+      "tier": "groq",
+      "article": "Hezbollah fighters targeted the Iron Dome radars at the Kiryat Elazar site (the main air defense base in the occupied city of Haifa) with a barrage of high-quality missiles: statement 19 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T21:49:19.737906+00:00",
+      "tier": "groq",
+      "article": "Hezbollah fighters targeted at 13:40 p.m. on Saturday the occupied city of Nahariya in northern occupied Palestine with a squadron of combat drones: statement 15 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T21:49:38.401184+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted the city of Kiryat Shmona in northern occupied Palestine at 17:30 on Saturday with a squadron of combat drones: statement 16 - Al-Manar TV Lebanon"
     }
   ]
 }
