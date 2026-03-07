@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 149,
+  "total_calls": 152,
   "tiers": {
-    "groq": 131,
+    "groq": 134,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T01:27:08.539434+00:00",
-      "tier": "groq",
-      "article": "White House says Trump had a \u2018feeling based on fact\u2019 about Iran threat"
-    },
-    {
-      "timestamp": "2026-03-06T01:27:32.171739+00:00",
-      "tier": "groq",
-      "article": "Pentagon says it is labeling Anthropic a supply chain risk \u2018effective immediately\u2019"
-    },
-    {
-      "timestamp": "2026-03-06T01:40:39.379860+00:00",
-      "tier": "groq",
-      "article": "Iran's barrage of attacks across the Persian Gulf shows regional chaos is key to its strategy"
-    },
     {
       "timestamp": "2026-03-06T01:40:58.170427+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-07T07:37:59.096871+00:00",
       "tier": "groq",
       "article": "Investigators release timeline of Utah triple homicide investigation"
+    },
+    {
+      "timestamp": "2026-03-07T07:53:21.994424+00:00",
+      "tier": "groq",
+      "article": "At least 2 dead from \u2018tornado-related\u2019 car crash as storm sweeps America\u2019s heartland"
+    },
+    {
+      "timestamp": "2026-03-07T07:57:04.873610+00:00",
+      "tier": "groq",
+      "article": "Trump voter whose son was killed by ICE says she \u2018doesn\u2019t blame\u2019 the president"
+    },
+    {
+      "timestamp": "2026-03-07T08:02:18.072797+00:00",
+      "tier": "groq",
+      "article": "Florida bar targets Trump lawyer Lindsey Halligan in ethics investigation"
     }
   ]
 }
