@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 167,
+  "total_calls": 170,
   "tiers": {
-    "groq": 149,
+    "groq": 152,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T07:41:29.646033+00:00",
-      "tier": "groq",
-      "article": "Briton in Dubai paid \u00a3150,000 for private jet for \u2018easy way out\u2019 as Iran war rages"
-    },
-    {
-      "timestamp": "2026-03-06T07:41:47.124370+00:00",
-      "tier": "groq",
-      "article": "Trump says regime change in Cuba is \u2018question of time\u2019 after Iran"
-    },
-    {
-      "timestamp": "2026-03-06T08:42:00.336360+00:00",
-      "tier": "gemini",
-      "article": "White House angers people after posting montage of Iran war cut with Call of Duty "
-    },
     {
       "timestamp": "2026-03-06T08:46:01.353881+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-07T09:28:07.498217+00:00",
       "tier": "groq",
       "article": "Daraa launches $7.8 million in service projects under \u201cAbshari Horan\u201d campaign"
+    },
+    {
+      "timestamp": "2026-03-07T09:32:49.561150+00:00",
+      "tier": "groq",
+      "article": "Lebanon: Martyrs, Injuries as Israeli Enemy Escalates Aggression - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T09:33:12.129175+00:00",
+      "tier": "groq",
+      "article": "Iran Destroys US Radars in UAE, Jordan, Satellite Images Show - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T09:33:30.655073+00:00",
+      "tier": "groq",
+      "article": "Syrian Army pledges strong response to new escalations by SDF in eastern Aleppo"
     }
   ]
 }
