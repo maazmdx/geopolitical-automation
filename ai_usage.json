@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 140,
+  "total_calls": 143,
   "tiers": {
-    "groq": 122,
+    "groq": 125,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-05T23:54:40.011741+00:00",
-      "tier": "gemini",
-      "article": "Defence secretary accuses Tory and Reform MPs of \u2018unpatriotic\u2019 behaviour"
-    },
-    {
-      "timestamp": "2026-03-05T23:54:57.152868+00:00",
-      "tier": "groq",
-      "article": "Trump shrugs off rising gas prices to reporters \u2013 \u2018If they rise, they rise\u2019"
-    },
-    {
-      "timestamp": "2026-03-06T00:08:28.320273+00:00",
-      "tier": "groq",
-      "article": "Iran's high-risk war strategy seems to centre on endurance and deterrence"
-    },
     {
       "timestamp": "2026-03-06T00:08:46.435873+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-07T06:01:34.594374+00:00",
       "tier": "groq",
       "article": "Pakistani man convicted of plotting to kill Trump over death of Iranian commander"
+    },
+    {
+      "timestamp": "2026-03-07T06:56:41.032097+00:00",
+      "tier": "groq",
+      "article": "Ukraine war latest: Nationwide air alert after Russian attack kills four in Kharkiv"
+    },
+    {
+      "timestamp": "2026-03-07T07:01:10.794548+00:00",
+      "tier": "groq",
+      "article": "Massive explosions, fires from US-Israeli strikes on Tehran"
+    },
+    {
+      "timestamp": "2026-03-07T07:01:27.165485+00:00",
+      "tier": "groq",
+      "article": "Watch:  How war in Iran may affect food and fuel prices"
     }
   ]
 }
