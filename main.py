@@ -1690,14 +1690,14 @@ def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> No
         wrap_width = max(10, int(max_text_width / avg_char_width))
         wrapped_text = textwrap.fill(text_content, width=wrap_width)
         # Calculate total height of wrapped text
-        bbox = draw.multiline_textbbox((0, 0), wrapped_text, font=font)
+        bbox = draw.multiline_textbbox((0, 0), wrapped_text, font=font, spacing=15)
         text_height = bbox[3] - bbox[1]
         if text_height <= max_text_height:
             break  # It fits!
         font_size -= 2  # Shrink font and try again
 
     # ── Draw left-aligned text ──
-    draw.multiline_text((pad_x, 150), wrapped_text, fill="black", font=font, align="left")
+    draw.multiline_text((pad_x, 150), wrapped_text, fill="black", font=font, align="left", spacing=15)
 
     text_bottom = 150 + text_height
 
@@ -1708,31 +1708,12 @@ def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> No
         img_y = CARD_HEIGHT - 550 - 60
     canvas.paste(news_img, (pad_x, img_y), news_img)
 
-    # ── V16.4: Image Source Attribution ──
-    source_name = article.get("source", "Unknown")
-    source_str = f"\U0001f4f8 Source: {source_name}"
+    # ── @geopoliticsoficial watermark — bottom right, light gray ──
     if font_path:
-        source_font = ImageFont.truetype(font_path, 24)
+        watermark_font = ImageFont.truetype(font_path, 22)
     else:
-        source_font = _load_font("footer", 24)
-    source_y = img_y + 550 + 8  # 8px below image
-    if source_y + 30 < CARD_HEIGHT - 30:
-        draw.text((pad_x, source_y), source_str, fill=_hex("#666666"), font=source_font)
-
-    # ── @geopoliticsofical watermark — bottom center, light gray ──
-    brand_str = "@geopoliticsofical"
-    if font_path:
-        brand_font = ImageFont.truetype(font_path, 20)
-    else:
-        brand_font = _load_font("footer", 20)
-    try:
-        brand_w = draw.textlength(brand_str, font=brand_font)
-    except AttributeError:
-        bbox = draw.textbbox((0, 0), brand_str, font=brand_font)
-        brand_w = bbox[2] - bbox[0]
-    brand_x = (CARD_WIDTH - int(brand_w)) // 2
-    brand_y = 1020
-    draw.text((brand_x, brand_y), brand_str, fill=_hex("#888888"), font=brand_font)
+        watermark_font = _load_font("footer", 22)
+    draw.text((1040, 1050), "@geopoliticsoficial", fill=_hex("#888888"), font=watermark_font, anchor="rs")
 
     canvas.save(str(output_path), "PNG", quality=95)
     log.info(f"  Card saved: {output_path}")
