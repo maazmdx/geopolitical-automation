@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 208,
+  "total_calls": 209,
   "tiers": {
-    "groq": 190,
+    "groq": 191,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T20:35:38.043085+00:00",
-      "tier": "gemini",
-      "article": "White House shredded after another video mashup of action movies with Iran strikes"
-    },
     {
       "timestamp": "2026-03-06T20:38:55.092140+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-03-07T17:52:31.762691+00:00",
       "tier": "groq",
       "article": "Hezbollah fighters targeted the Haifa refinery with a squadron of combat drones: Military Media statement no. 11 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T18:27:15.040841+00:00",
+      "tier": "groq",
+      "article": "Loud explosions rock the occupied city of Haifa as a result of a large barrage of rockets launched from Lebanon: reports - Al-Manar TV Lebanon"
     }
   ]
 }
