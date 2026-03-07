@@ -868,7 +868,7 @@ Return strict JSON with exactly 5 keys:
 - "flags": A list of up to two 2-letter ISO country codes (lowercase) of the PRIMARY nations physically involved in this specific event. DO NOT blindly default to "us" and "ir". If the strike happens in Bahrain, you MUST include "bh". If it involves Ukraine, include "ua". Be highly specific to the article text.
 - "threat_level": Rate the geopolitical severity of this event as an integer from 1 to 10. (1-4 = low/diplomatic, 5-7 = medium/tensions, 8-10 = high/war/missile strike/casualties). Return ONLY the integer.
 - "video_overlays": An array of 5 to 7 short, punchy Hinglish sentences (MAXIMUM 40 characters per sentence) that tell the story of this event. These will be flashed sequentially on a video like an Al Jazeera news reel. Make them aggressive and informative.
-- "image_hook": Write exactly 1 or 2 lines summarizing the event. MAXIMUM 15 words. Use EXTREMELY simple, basic English (5th-grade level). Do not use complex words like 'escalation' or 'retaliation'. Just say who attacked who, or what happened. This will go on the image.
+- "image_hook": Write exactly 1 to 2 sentences summarizing the event. Write it like a viral military Twitter post. Left-aligned style. If there is a massive dollar cost to US/Israel, include it. Extremely simple English.
 
 Return ONLY the JSON object, no markdown, no explanation."""
 
@@ -1540,36 +1540,34 @@ def get_flag_image(country_code: str) -> Image.Image | None:
 # ===========================================================================
 
 def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> None:
-    """V14.0: White-background News Bulletin with prominent flags and dynamic layouts."""
+    """V16.0: Viral OSINT Tweet Aesthetic — white bg, left-aligned text, rounded-corner image."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # ── Threat-level border color ──
-    if threat_level >= 8:
-        banner_color = "#990000"  # Blood Red
-    elif threat_level >= 5:
-        banner_color = "#B8860B"  # Yellow/Dark Goldenrod
-    else:
-        banner_color = "#1E3A8A"  # Deep Blue
-
-    BORDER_PX = 6
     pad_x = 50
 
     # ── White canvas base ──
     canvas = Image.new("RGB", (CARD_WIDTH, CARD_HEIGHT), (255, 255, 255))
     draw = ImageDraw.Draw(canvas)
 
-    # ── Prepare news image (half-screen 1080x540) ──
+    # ── Prepare news image (980x550 with rounded corners) ──
     art_img = download_article_image(article)
     if not art_img:
         fallback = get_locator_map(article) or get_actor_image(article)
         if fallback:
             art_img = fallback
     if art_img:
-        news_img = ImageOps.fit(art_img.convert("RGB"), (CARD_WIDTH, 540), Image.LANCZOS)
+        news_img = ImageOps.fit(art_img.convert("RGB"), (980, 550), Image.LANCZOS)
     else:
-        news_img = Image.new("RGB", (CARD_WIDTH, 540), (30, 30, 40))
+        news_img = Image.new("RGB", (980, 550), (30, 30, 40))
 
-    # ── Prepare flags ──
+    # ── Apply rounded corners to news image ──
+    news_img = news_img.convert("RGBA")
+    mask = Image.new("L", news_img.size, 0)
+    mask_draw = ImageDraw.Draw(mask)
+    mask_draw.rounded_rectangle((0, 0, news_img.size[0], news_img.size[1]), radius=40, fill=255)
+    news_img.putalpha(mask)
+
+    # ── Prepare flags (top-left) ──
     countries = detect_countries(article)
     flag_images = []
     for code in countries[:2]:
@@ -1578,6 +1576,13 @@ def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> No
             fi.thumbnail((120, 80), Image.LANCZOS)
             flag_images.append(fi)
 
+    # ── Paste flags at top-left ──
+    flag_x = pad_x
+    flag_y = 50
+    for fi in flag_images:
+        canvas.paste(fi, (flag_x, flag_y), fi)
+        flag_x += fi.width + 20
+
     # ── Get the punchy image_hook text ──
     hook_text = article.get("image_hook", "").strip()
     if not hook_text:
@@ -1585,110 +1590,46 @@ def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> No
         hook_text = " ".join(words[:15])
     hook_text = smart_typography(hook_text)
 
-    # ── Auto-scale hook font ──
-    hook_max_width = CARD_WIDTH - pad_x * 2
-    hook_font_size = 72
+    # ── Auto-scale hook font (left-aligned) ──
+    hook_max_width = CARD_WIDTH - pad_x * 2  # 980px usable
+    hook_font_size = 55
     hook_font = _load_font("header", hook_font_size)
-    hook_lines = _pixel_wrap(draw, hook_text, hook_font, hook_max_width, 4)
-    while len(hook_lines) > 4 and hook_font_size > 40:
-        hook_font_size -= 4
+    hook_lines = _pixel_wrap(draw, hook_text, hook_font, hook_max_width, 5)
+    while len(hook_lines) > 5 and hook_font_size > 36:
+        hook_font_size -= 3
         hook_font = _load_font("header", hook_font_size)
-        hook_lines = _pixel_wrap(draw, hook_text, hook_font, hook_max_width, 4)
+        hook_lines = _pixel_wrap(draw, hook_text, hook_font, hook_max_width, 5)
 
     line_h = hook_font_size + 10
-    text_block_h = len(hook_lines) * line_h
+    text_y = 150  # Start text below flags
 
-    # ── Random layout ──
-    layout = random.choice(["image_top", "image_bottom", "image_center"])
-    log.info(f"  Card layout: {layout}")
+    # ── Draw left-aligned text ──
+    for i, line in enumerate(hook_lines):
+        draw.text((pad_x, text_y + i * line_h), line, fill=(0, 0, 0), font=hook_font)
 
-    if layout == "image_top":
-        # Image at top
-        canvas.paste(news_img, (0, 0))
-        # Flags centered around y=600
-        _draw_flags_centered(canvas, flag_images, y_center=600)
-        # Hook text centered around y=750
-        text_y = 750 - text_block_h // 2
-        for i, line in enumerate(hook_lines):
-            try:
-                lw = draw.textlength(line, font=hook_font)
-            except AttributeError:
-                bbox = draw.textbbox((0, 0), line, font=hook_font)
-                lw = bbox[2] - bbox[0]
-            lx = (CARD_WIDTH - lw) / 2
-            draw.text((lx, text_y + i * line_h), line, fill=(0, 0, 0), font=hook_font)
+    text_bottom = text_y + len(hook_lines) * line_h
 
-    elif layout == "image_bottom":
-        # Flags centered around y=120
-        _draw_flags_centered(canvas, flag_images, y_center=120)
-        # Hook text centered around y=280
-        text_y = 280 - text_block_h // 2
-        for i, line in enumerate(hook_lines):
-            try:
-                lw = draw.textlength(line, font=hook_font)
-            except AttributeError:
-                bbox = draw.textbbox((0, 0), line, font=hook_font)
-                lw = bbox[2] - bbox[0]
-            lx = (CARD_WIDTH - lw) / 2
-            draw.text((lx, text_y + i * line_h), line, fill=(0, 0, 0), font=hook_font)
-        # Image at bottom
-        canvas.paste(news_img, (0, 540))
+    # ── Paste rounded-corner news image below text ──
+    img_y = text_bottom + 40  # 40px gap below text
+    # Clamp so image doesn't overflow canvas
+    if img_y + 550 > CARD_HEIGHT - 40:
+        img_y = CARD_HEIGHT - 550 - 40
+    canvas.paste(news_img, (pad_x, img_y), news_img)
 
-    elif layout == "image_center":
-        # Smaller image in center band
-        center_img = ImageOps.fit(art_img.convert("RGB") if art_img else news_img, (CARD_WIDTH, 400), Image.LANCZOS)
-        # Hook text at top y=150
-        text_y = 150 - text_block_h // 2
-        if text_y < 30:
-            text_y = 30
-        for i, line in enumerate(hook_lines):
-            try:
-                lw = draw.textlength(line, font=hook_font)
-            except AttributeError:
-                bbox = draw.textbbox((0, 0), line, font=hook_font)
-                lw = bbox[2] - bbox[0]
-            lx = (CARD_WIDTH - lw) / 2
-            draw.text((lx, text_y + i * line_h), line, fill=(0, 0, 0), font=hook_font)
-        # Image in center
-        canvas.paste(center_img, (0, 340))
-        # Flags at bottom y=850
-        _draw_flags_centered(canvas, flag_images, y_center=850)
-
-    # ── Threat-level border ──
-    border_rgb = _hex(banner_color)
-    draw = ImageDraw.Draw(canvas)
-    draw.rectangle([(0, 0), (CARD_WIDTH - 1, BORDER_PX)], fill=border_rgb)
-    draw.rectangle([(0, CARD_HEIGHT - BORDER_PX), (CARD_WIDTH - 1, CARD_HEIGHT - 1)], fill=border_rgb)
-    draw.rectangle([(0, 0), (BORDER_PX, CARD_HEIGHT - 1)], fill=border_rgb)
-    draw.rectangle([(CARD_WIDTH - BORDER_PX, 0), (CARD_WIDTH - 1, CARD_HEIGHT - 1)], fill=border_rgb)
-
-    # ── @geopoliticsofical watermark — bottom center, dark gray ──
+    # ── @geopoliticsofical watermark — bottom center, light gray ──
     brand_str = "@geopoliticsofical"
-    brand_font = _load_font("footer", 18)
+    brand_font = _load_font("footer", 20)
     try:
         brand_w = draw.textlength(brand_str, font=brand_font)
     except AttributeError:
         bbox = draw.textbbox((0, 0), brand_str, font=brand_font)
         brand_w = bbox[2] - bbox[0]
     brand_x = (CARD_WIDTH - int(brand_w)) // 2
-    brand_y = CARD_HEIGHT - BORDER_PX - 28
-    draw.text((brand_x, brand_y), brand_str, fill=_hex("#555555"), font=brand_font)
+    brand_y = 1020
+    draw.text((brand_x, brand_y), brand_str, fill=_hex("#888888"), font=brand_font)
 
     canvas.save(str(output_path), "PNG", quality=95)
     log.info(f"  Card saved: {output_path}")
-
-
-def _draw_flags_centered(canvas: Image.Image, flag_images: list, y_center: int) -> None:
-    """Paste flag images horizontally centered at the given y_center."""
-    if not flag_images:
-        return
-    gap = 30
-    total_w = sum(f.width for f in flag_images) + gap * (len(flag_images) - 1)
-    x = (CARD_WIDTH - total_w) // 2
-    for fi in flag_images:
-        fy = y_center - fi.height // 2
-        canvas.paste(fi, (x, fy), fi)
-        x += fi.width + gap
 
 
 # ===========================================================================
