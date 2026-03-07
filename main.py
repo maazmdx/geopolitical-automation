@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Geopolitical Breaking News Automation — v7.0
+Geopolitical Breaking News Automation — v15.4
 ==============================================
-API-driven intelligence engine (2 posts per 30-min run).
+Strict Pro-Iran Source Purge + Video-Only Drive Routing.
+Iranian state media only. Strict geopolitics filter.
 Groq Llama 3 for summarization, entity extraction, keyword
 highlighting. Hybrid video/image pipeline.
 """
@@ -85,26 +86,18 @@ HTTP_HEADERS = {
 # ---------------------------------------------------------------------------
 
 RSS_FEEDS = {
-    "Sky News": "https://feeds.skynews.com/feeds/rss/world.xml",
-    "The Guardian": "https://www.theguardian.com/world/rss",
-    "France 24": "https://www.france24.com/en/rss",
-    "DW World": "https://rss.dw.com/rdf/rss-en-world",
-    "Independent": "https://www.independent.co.uk/news/world/rss",
-    "Al Jazeera": "https://www.aljazeera.com/xml/rss/all.xml",
-    "BBC World": "http://feeds.bbci.co.uk/news/world/rss.xml",
-    "Defense One": "https://www.defenseone.com/feed/",
-    "Associated Press": "https://rsshub.app/apnews/topics/apf-topnews",
-    "Reuters": "https://www.reutersagency.com/feed/?best-topics=world-news",
-    "Defense News": "https://www.defensenews.com/arc/outboundfeeds/rss/",
-    "CNN World": "http://rss.cnn.com/rss/edition_world.rss",
+    "Tasnim News": "https://www.tasnimnews.com/en/rss",
+    "Press TV": "https://www.presstv.ir/rss",
+    "IRNA": "https://en.irna.ir/rss",
+    "Fars News": "https://english.farsnews.ir/rss",
+    "Tehran Times": "https://www.tehrantimes.com/rss",
 }
 
 GOOGLE_NEWS_QUERIES = [
-    '"active combat" OR "casualties" OR "war"',
-    '"military strike" OR "airstrike" OR "missile"',
-    '"troop deployment" OR "defense announcement"',
-    '"cyberattack" OR "infrastructure strike" OR "drone strike"',
-    '"strategic shift" OR "military hardware"',
+    '"IRGC" OR "Islamic Revolutionary Guard Corps"',
+    '"Iran missile" OR "Iran drone" OR "air defense"',
+    '"US base attack" OR "Israel strike" OR "Hezbollah"',
+    '"Axis of Resistance" OR "proxy forces"',
 ]
 
 # ---------------------------------------------------------------------------
@@ -157,13 +150,19 @@ EXCLUDE_MARKERS = [
     "feature", "retrospective", "history of",
 ]
 
-# V3.7 Rejection Firewall — block non-geopolitics noise
+# V15.4 Strict Rejection Firewall — block sports, entertainment, domestic noise
 REJECTION_KEYWORDS = [
     "sports", "football", "soccer", "la liga", "premier league",
     "madrid", "barca", "barcelona", "hollywood", "celebrity",
     "entertainment", "gossip", "nba", "nfl", "mlb", "cricket",
     "tennis", "golf", "olympics", "champions league", "serie a",
     "bundesliga", "ligue 1", "transfer", "playoffs", "super bowl",
+    # V15.4: Strict domestic/business noise rejection
+    "murder", "homicide", "suicide", "domestic violence", "robbery",
+    "burglary", "theft", "fraud", "scam", "acquisition", "merger",
+    "ipo", "stock market", "earnings report", "quarterly results",
+    "real estate", "housing market", "recipe", "cookbook", "fashion",
+    "lifestyle", "wellness", "fitness", "diet", "weight loss",
 ]
 
 # ---------------------------------------------------------------------------
@@ -846,7 +845,7 @@ Article text:
 {text}
 
 Return strict JSON with exactly 5 keys:
-- "instagram_caption": Write exactly one engaging, easy-to-understand paragraph summarizing the news. Explain it like you are talking to a friend. No robotic formats, no complex jargon. Make it highly readable.
+- "instagram_caption": Write exactly one engaging, easy-to-understand paragraph summarizing the news. Explain it in simple English. Do not use standard robotic news words. Make it sound human.
 - "flags": A list of up to two 2-letter ISO country codes (lowercase) of the PRIMARY nations physically involved in this specific event. DO NOT blindly default to "us" and "ir". If the strike happens in Bahrain, you MUST include "bh". If it involves Ukraine, include "ua". Be highly specific to the article text.
 - "threat_level": Rate the geopolitical severity of this event as an integer from 1 to 10. (1-4 = low/diplomatic, 5-7 = medium/tensions, 8-10 = high/war/missile strike/casualties). Return ONLY the integer.
 - "video_overlays": An array of 5 to 7 short, punchy Hinglish sentences (MAXIMUM 40 characters per sentence) that tell the story of this event. These will be flashed sequentially on a video like an Al Jazeera news reel. Make them aggressive and informative.
@@ -1684,12 +1683,12 @@ def generate_caption(article: dict, output_path: Path) -> None:
     source = article.get("source", "Unknown")
     link = article.get("real_url", article.get("link", ""))
 
-    caption_content = f"\u26a0\ufe0f {headline}\n\n"
+    caption_content = f"\U0001f6a8 BREAKING: {headline}\n\n"
     caption_content += f"{instagram_caption}\n\n"
     caption_content += f"\U0001f4f0 Source: {source}\n"
     caption_content += f"\U0001f517 {link}\n\n"
-    caption_content += "Follow and like @geopoliticsofical for daily global intelligence! \U0001f30d\n\n"
-    caption_content += "#Geopolitics #NewsUpdate #GlobalAffairs #Military #BreakingNews\n"
+    caption_content += "Follow @geopoliticsofical for daily intelligence. \U0001f30d\n\n"
+    caption_content += "#Geopolitics #Military #IRGC #BreakingNews #MiddleEast\n"
 
     output_path.write_text(caption_content, encoding="utf-8")
     log.info(f"  Caption saved: {output_path}")
@@ -1777,11 +1776,12 @@ def extract_and_process_video(article_url: str, headline: str, output_filepath: 
         # V14.1: Build simplified OSINT Video Caption
         instagram_caption = parsed_json.get("instagram_caption", "News update.")
 
-        video_caption_content = f"\u26a0\ufe0f {headline}\n\n"
+        video_caption_content = f"\U0001f6a8 BREAKING: {headline}\n\n"
         video_caption_content += f"{instagram_caption}\n\n"
-        video_caption_content += f"\U0001f4f0 Source: {headline}\n\n"
-        video_caption_content += "Follow and like @geopoliticsofical for daily global intelligence! \U0001f30d\n\n"
-        video_caption_content += "#Geopolitics #NewsUpdate #GlobalAffairs #Military #BreakingNews\n"
+        video_caption_content += f"\U0001f4f0 Source: {headline}\n"
+        video_caption_content += f"\U0001f517 {article_url}\n\n"
+        video_caption_content += "Follow @geopoliticsofical for daily intelligence. \U0001f30d\n\n"
+        video_caption_content += "#Geopolitics #Military #IRGC #BreakingNews #MiddleEast\n"
 
         with open(caption_filepath, "w", encoding="utf-8") as vf:
             vf.write(video_caption_content)
@@ -1852,6 +1852,9 @@ def upload_to_drive(service, filepath, parent_id):
     u = service.files().create(body=fm, media_body=media, fields="id, name", supportsAllDrives=True).execute()
     log.info(f"  Uploaded: {u.get('name')} (ID: {u.get('id')})")
 
+# V15.3: Video-Only Drive Routing
+VIDEO_DRIVE_FOLDER_ID = os.environ.get("VIDEO_DRIVE_FOLDER_ID", "")
+
 def upload_files_to_drive(file_paths: list[Path]):
     svc = get_drive_service()
     if not svc:
@@ -1862,7 +1865,13 @@ def upload_files_to_drive(file_paths: list[Path]):
         out = find_or_create_folder(svc, "Outputs", geo)
         for p in file_paths:
             if p and p.exists():
-                upload_to_drive(svc, p, out)
+                # V15.3: Route strictly ONLY the video file to the Video Folder
+                if p.suffix == ".mp4" and VIDEO_DRIVE_FOLDER_ID:
+                    log.info(f"  [ROUTING] Sending video to Video Folder: {p.name}")
+                    upload_to_drive(svc, p, VIDEO_DRIVE_FOLDER_ID)
+                # Route ALL other files (.txt, .png, .jpg) to the standard Outputs folder
+                else:
+                    upload_to_drive(svc, p, out)
     except Exception as exc:
         log.error(f"Drive upload failed: {exc}")
 
