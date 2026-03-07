@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 202,
+  "total_calls": 204,
   "tiers": {
-    "groq": 184,
+    "groq": 186,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T18:55:12.317167+00:00",
-      "tier": "groq",
-      "article": "\u2018If they don\u2019t stop, Tehran will turn into Gaza\u2019: Iranians describe night of terror"
-    },
-    {
-      "timestamp": "2026-03-06T18:55:30.212363+00:00",
-      "tier": "groq",
-      "article": "No deal with Iran except \u2018unconditional surrender,\u2019 Trump says"
-    },
     {
       "timestamp": "2026-03-06T19:36:51.053482+00:00",
       "tier": "groq",
@@ -507,6 +497,16 @@
       "timestamp": "2026-03-07T13:44:36.806667+00:00",
       "tier": "groq",
       "article": "Israeli artillery shells southern Lebanese border town of Khiam: Al-Manar correspondent - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T13:59:00.530905+00:00",
+      "tier": "groq",
+      "article": "VIDEO: Protesters in Urmia condemn Israel-US aggression"
+    },
+    {
+      "timestamp": "2026-03-07T14:00:00.899691+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistnce fighters targeted Israeli vehciles at Fatima Gate in the Lebanese border town of Kfar Kila with rocket weapons: Hezbollah Military Media statement no. 7 - Al-Manar TV Lebanon"
     }
   ]
 }
