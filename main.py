@@ -19,6 +19,7 @@ import math
 import time
 import subprocess
 import random
+import textwrap
 from difflib import SequenceMatcher
 from datetime import datetime, timezone
 from pathlib import Path
@@ -1540,7 +1541,7 @@ def get_flag_image(country_code: str) -> Image.Image | None:
 # ===========================================================================
 
 def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> None:
-    """V16.0: Viral OSINT Tweet Aesthetic — white bg, left-aligned text, rounded-corner image."""
+    """V16.4: Dynamic Typography & Image Sourcing — no cutoffs, premium font, source attribution."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     pad_x = 50
@@ -1548,6 +1549,13 @@ def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> No
     # ── White canvas base ──
     canvas = Image.new("RGB", (CARD_WIDTH, CARD_HEIGHT), (255, 255, 255))
     draw = ImageDraw.Draw(canvas)
+
+    # ── Premium System Font (Ubuntu/GitHub Actions) ──
+    try:
+        font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+        ImageFont.truetype(font_path, 20)  # Test load
+    except (IOError, OSError):
+        font_path = None  # Will use _load_font fallback
 
     # ── Prepare news image (980x550 with rounded corners) ──
     art_img = download_article_image(article)
@@ -1584,41 +1592,62 @@ def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> No
         flag_x += fi.width + 20
 
     # ── Get the punchy image_hook text ──
-    hook_text = article.get("image_hook", "").strip()
-    if not hook_text:
+    text_content = article.get("image_hook", "").strip()
+    if not text_content:
         words = article.get("title", "BREAKING NEWS").split()
-        hook_text = " ".join(words[:15])
-    hook_text = smart_typography(hook_text)
+        text_content = " ".join(words[:15])
+    text_content = smart_typography(text_content)
 
-    # ── Auto-scale hook font (left-aligned) ──
-    hook_max_width = CARD_WIDTH - pad_x * 2  # 980px usable
-    hook_font_size = 55
-    hook_font = _load_font("header", hook_font_size)
-    hook_lines = _pixel_wrap(draw, hook_text, hook_font, hook_max_width, 5)
-    while len(hook_lines) > 5 and hook_font_size > 36:
-        hook_font_size -= 3
-        hook_font = _load_font("header", hook_font_size)
-        hook_lines = _pixel_wrap(draw, hook_text, hook_font, hook_max_width, 5)
+    # ── V16.4: Dynamic Font Scaling Engine (no more cutoffs) ──
+    max_text_width = 980
+    max_text_height = 280  # Space between flags (y=150) and image (y=430)
+    font_size = 65
 
-    line_h = hook_font_size + 10
-    text_y = 150  # Start text below flags
+    while font_size > 20:
+        if font_path:
+            font = ImageFont.truetype(font_path, font_size)
+        else:
+            font = _load_font("header", font_size)
+        # Estimate chars per line based on font size
+        avg_char_width = font.getbbox("A")[2]
+        wrap_width = max(10, int(max_text_width / avg_char_width))
+        wrapped_text = textwrap.fill(text_content, width=wrap_width)
+        # Calculate total height of wrapped text
+        bbox = draw.multiline_textbbox((0, 0), wrapped_text, font=font)
+        text_height = bbox[3] - bbox[1]
+        if text_height <= max_text_height:
+            break  # It fits!
+        font_size -= 2  # Shrink font and try again
 
     # ── Draw left-aligned text ──
-    for i, line in enumerate(hook_lines):
-        draw.text((pad_x, text_y + i * line_h), line, fill=(0, 0, 0), font=hook_font)
+    draw.multiline_text((pad_x, 150), wrapped_text, fill="black", font=font, align="left")
 
-    text_bottom = text_y + len(hook_lines) * line_h
+    text_bottom = 150 + text_height
 
     # ── Paste rounded-corner news image below text ──
-    img_y = text_bottom + 40  # 40px gap below text
+    img_y = max(text_bottom + 40, 430)  # At least y=430, or 40px below text
     # Clamp so image doesn't overflow canvas
-    if img_y + 550 > CARD_HEIGHT - 40:
-        img_y = CARD_HEIGHT - 550 - 40
+    if img_y + 550 > CARD_HEIGHT - 60:
+        img_y = CARD_HEIGHT - 550 - 60
     canvas.paste(news_img, (pad_x, img_y), news_img)
+
+    # ── V16.4: Image Source Attribution ──
+    source_name = article.get("source", "Unknown")
+    source_str = f"\U0001f4f8 Source: {source_name}"
+    if font_path:
+        source_font = ImageFont.truetype(font_path, 24)
+    else:
+        source_font = _load_font("footer", 24)
+    source_y = img_y + 550 + 8  # 8px below image
+    if source_y + 30 < CARD_HEIGHT - 30:
+        draw.text((pad_x, source_y), source_str, fill=_hex("#666666"), font=source_font)
 
     # ── @geopoliticsofical watermark — bottom center, light gray ──
     brand_str = "@geopoliticsofical"
-    brand_font = _load_font("footer", 20)
+    if font_path:
+        brand_font = ImageFont.truetype(font_path, 20)
+    else:
+        brand_font = _load_font("footer", 20)
     try:
         brand_w = draw.textlength(brand_str, font=brand_font)
     except AttributeError:
