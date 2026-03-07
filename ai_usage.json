@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 204,
+  "total_calls": 205,
   "tiers": {
-    "groq": 186,
+    "groq": 187,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T19:36:51.053482+00:00",
-      "tier": "groq",
-      "article": "CCTV video captures moment strike lands next to boys\u2019 school in Iran"
-    },
     {
       "timestamp": "2026-03-06T19:37:09.921986+00:00",
       "tier": "groq",
@@ -507,6 +502,11 @@
       "timestamp": "2026-03-07T14:00:00.899691+00:00",
       "tier": "groq",
       "article": "Islamic Resistnce fighters targeted Israeli vehciles at Fatima Gate in the Lebanese border town of Kfar Kila with rocket weapons: Hezbollah Military Media statement no. 7 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T14:10:24.289040+00:00",
+      "tier": "groq",
+      "article": "Vice president explains about Pezeshkian's remarks on war"
     }
   ]
 }
