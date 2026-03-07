@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 190,
+  "total_calls": 194,
   "tiers": {
-    "groq": 172,
+    "groq": 176,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T14:51:31.782717+00:00",
-      "tier": "groq",
-      "article": "Zelensky offers technology to shoot down Iran Shahed drones saving US millions"
-    },
-    {
-      "timestamp": "2026-03-06T14:56:37.754085+00:00",
-      "tier": "groq",
-      "article": "Vet whose arm was broken during Senate briefing can get \u2018kind of riled up,\u2019 mom says"
-    },
-    {
-      "timestamp": "2026-03-06T15:39:53.799999+00:00",
-      "tier": "groq",
-      "article": "Amid Iran war, will Russia exploit Ukraine\u2019s shortage of Patriot missiles?"
-    },
-    {
-      "timestamp": "2026-03-06T15:40:12.408625+00:00",
-      "tier": "groq",
-      "article": "Trump says he must be involved in picking Iran\u2019s next leader after Khamenei\u2019s death"
-    },
     {
       "timestamp": "2026-03-06T15:41:52.018195+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-07T11:49:32.220006+00:00",
       "tier": "groq",
       "article": "Reinforcements for the Syrian Arab Army move toward deployment line east of Aleppo"
+    },
+    {
+      "timestamp": "2026-03-07T12:39:48.780912+00:00",
+      "tier": "groq",
+      "article": "Al-Manar correspondent in south Lebanon reports Israeli strikes on Jibsheet and Kfar Seer in the Nabatieh region - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T12:40:06.966042+00:00",
+      "tier": "groq",
+      "article": "Iran destroys critical US radar missile interceptors"
+    },
+    {
+      "timestamp": "2026-03-07T12:40:44.318941+00:00",
+      "tier": "groq",
+      "article": "Enemies will not witness Iran\u2019s unconditional surrender\u00a0"
+    },
+    {
+      "timestamp": "2026-03-07T12:41:21.788163+00:00",
+      "tier": "groq",
+      "article": "Israeli media: Sirens in northern \u2018Israel\u2019 amid rocket, suspected drone attacks from Lebanon - Al-Manar TV Lebanon"
     }
   ]
 }
