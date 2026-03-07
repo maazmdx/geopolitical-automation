@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Geopolitical Breaking News Automation — v15.4
+Geopolitical Breaking News Automation — v15.8
 ==============================================
-Strict Pro-Iran Source Purge + Video-Only Drive Routing.
-Iranian state media only. Strict geopolitics filter.
+Axis of Resistance Mega-Expansion + Strict Freshness.
+9 Pro-Iran/Resistance RSS feeds. 24h strict freshness enforcement.
 Groq Llama 3 for summarization, entity extraction, keyword
 highlighting. Hybrid video/image pipeline.
 """
@@ -91,12 +91,18 @@ RSS_FEEDS = {
     "IRNA": "https://en.irna.ir/rss",
     "Fars News": "https://english.farsnews.ir/rss",
     "Tehran Times": "https://www.tehrantimes.com/rss",
+    "Mehr News": "https://en.mehrnews.com/rss",
+    "Al Mayadeen": "https://english.almayadeen.net/rss",
+    "Al Manar": "https://english.almanar.com.lb/rss",
+    "SANA": "https://sana.sy/en/?feed=rss2",
 }
 
 GOOGLE_NEWS_QUERIES = [
     '"IRGC" OR "Islamic Revolutionary Guard Corps"',
     '"Iran missile" OR "Iran drone" OR "air defense"',
-    '"US base attack" OR "Israel strike" OR "Hezbollah"',
+    '"US base attack" OR "Israel strike"',
+    '"Hezbollah" OR "Lebanon strike"',
+    '"Houthi" OR "Red Sea ship"',
     '"Axis of Resistance" OR "proxy forces"',
 ]
 
@@ -344,7 +350,8 @@ def resolve_google_news_url(url: str) -> str:
 def fetch_articles() -> list[dict]:
     articles = []
     for query in GOOGLE_NEWS_QUERIES:
-        url = f"https://news.google.com/rss/search?q={requests.utils.quote(query)}&hl=en-US&gl=US&ceid=US:en&when=4h"
+        # V15.8: Append when:24h to strictly filter server-side
+        url = f"https://news.google.com/rss/search?q={requests.utils.quote(query + ' when:24h')}&hl=en-US&gl=US&ceid=US:en"
         log.info(f"Fetching Google News: {query[:50]}\u2026")
         try:
             feed = feedparser.parse(url)
@@ -398,6 +405,14 @@ def fetch_articles() -> list[dict]:
                                 image_url = mc["url"]
                                 break
                     if image_url:
+                        break
+                # V15.8: Chronological cutoff — stop parsing if we hit old news
+                if pub_date:
+                    _cut_now = datetime.now(timezone.utc)
+                    _cut_pub = pub_date if pub_date.tzinfo else pub_date.replace(tzinfo=timezone.utc)
+                    _cut_age = (_cut_now - _cut_pub).total_seconds() / 3600
+                    if _cut_age > 48 and _cut_age < 700:
+                        log.info(f"  [SKIP] Reached old news in {source_name} feed ({_cut_age:.0f}h). Moving to next source.")
                         break
                 articles.append({
                     "title": title, "link": link, "summary": summary,
