@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 164,
+  "total_calls": 167,
   "tiers": {
-    "groq": 146,
+    "groq": 149,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T06:56:01.915974+00:00",
-      "tier": "groq",
-      "article": "Iran fires more missiles, drones across Gulf region as war shows no letup"
-    },
-    {
-      "timestamp": "2026-03-06T06:56:20.046856+00:00",
-      "tier": "groq",
-      "article": "US offers India 30-day waiver to buy Russian oil amid Strait of Hormuz disruption"
-    },
-    {
-      "timestamp": "2026-03-06T07:41:09.881822+00:00",
-      "tier": "groq",
-      "article": "Iran targets Israeli embassy in Bahrain, Saudi Arabia intercepts missile"
-    },
     {
       "timestamp": "2026-03-06T07:41:29.646033+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-07T09:18:27.936702+00:00",
       "tier": "groq",
       "article": "\"Spring Sonata\" brings Syrian memory to Damascus stage"
+    },
+    {
+      "timestamp": "2026-03-07T09:27:33.391436+00:00",
+      "tier": "groq",
+      "article": "Hezbollah fighters fire missile salvos at the Israeli settlements of Malkiyeh, Ramot Neftali and Shomera in the context of the evacuation warning issued by the Resistance command: Statements - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T09:27:50.827533+00:00",
+      "tier": "groq",
+      "article": "Israeli enemy strikes towns in Nabatieh region: Al-Manar correspondent in south Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T09:28:07.498217+00:00",
+      "tier": "groq",
+      "article": "Daraa launches $7.8 million in service projects under \u201cAbshari Horan\u201d campaign"
     }
   ]
 }
