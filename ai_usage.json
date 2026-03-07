@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 158,
+  "total_calls": 161,
   "tiers": {
-    "groq": 140,
+    "groq": 143,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T04:22:48.913916+00:00",
-      "tier": "groq",
-      "article": "Trump admits US should worry about attacks at home due to Iran war: \u2018I guess so\u2019"
-    },
-    {
-      "timestamp": "2026-03-06T04:26:27.530143+00:00",
-      "tier": "groq",
-      "article": "Cocoa crisis unfolds as farmers wait several months for payments"
-    },
-    {
-      "timestamp": "2026-03-06T05:33:59.687788+00:00",
-      "tier": "groq",
-      "article": "A lone battle: Why is Pedro S\u00e1nchez the only European leader to take on Trump?"
-    },
     {
       "timestamp": "2026-03-06T05:34:18.980749+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-07T08:29:56.987742+00:00",
       "tier": "groq",
       "article": "German twist in the Telegraph tale shatters Lord Rothermere\u2019s dreams"
+    },
+    {
+      "timestamp": "2026-03-07T08:34:51.919563+00:00",
+      "tier": "groq",
+      "article": "Iran to halt strikes on neighbours unless attacks from there: Pezeshkian"
+    },
+    {
+      "timestamp": "2026-03-07T08:35:09.141909+00:00",
+      "tier": "groq",
+      "article": "Iran: Will Kurdish forces be the US' 'boots on the ground?'"
+    },
+    {
+      "timestamp": "2026-03-07T08:40:47.934277+00:00",
+      "tier": "groq",
+      "article": "Peruvian state responsible for mother\u2019s death in forced sterilisation, court rules"
     }
   ]
 }
