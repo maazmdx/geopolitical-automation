@@ -1307,11 +1307,13 @@ def download_flag(country_code: str) -> Image.Image | None:
 # ===========================================================================
 
 def download_article_image(article: dict) -> Image.Image | None:
+    """V17.1: Cloudscraper with browser mimicry for Iranian server bypasses."""
     url = article.get("image_url")
     if not url:
         return None
     
-    scraper = cloudscraper.create_scraper()
+    # V17.1: Full browser mimicry to bypass Iranian server blocks
+    scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
         "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
@@ -1319,7 +1321,7 @@ def download_article_image(article: dict) -> Image.Image | None:
     }
     try:
         log.info(f"  Downloading image: {url[:60]}\u2026")
-        response = scraper.get(url, headers=headers, timeout=15)
+        response = scraper.get(url, headers=headers, timeout=20)  # V17.1: Increased timeout
         response.raise_for_status()
         
         # Failsafe: Ensure the server actually sent an image, not an HTML Cloudflare block
@@ -1741,7 +1743,9 @@ def extract_and_process_video(article_url: str, headline: str, output_filepath: 
         'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
         'quiet': True,
         'no_warnings': True,
-        'match_filter': lambda info, *args, **kwargs: 'Video is too long' if info.get('duration', 0) > 180 else None
+        'match_filter': lambda info, *args, **kwargs: 'Video is too long' if info.get('duration', 0) > 180 else None,
+        # V17.1: YouTube Android client bypass — avoids "Sign in to confirm" bot block
+        'extractor_args': {'youtube': {'player_client': ['android']}},
     }
     
     video_found = False
