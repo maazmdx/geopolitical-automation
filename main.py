@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Geopolitical Breaking News Automation — v15.8
+Geopolitical Breaking News Automation — v17.0
 ==============================================
-Axis of Resistance Mega-Expansion + Strict Freshness.
-9 Pro-Iran/Resistance RSS feeds. 24h strict freshness enforcement.
+IG Clone & Rebrand Engine + Axis of Resistance feeds.
+Apify Instagram scraping, AI caption rewriting, V16.4 branding.
 Groq Llama 3 for summarization, entity extraction, keyword
 highlighting. Hybrid video/image pipeline.
 """
@@ -33,6 +33,14 @@ import dateparser as dp
 from bs4 import BeautifulSoup
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance, ImageFilter, ImageOps
 import pillow_avif
+
+# V17.0: Apify Instagram Scraping
+try:
+    from apify_client import ApifyClient
+    APIFY_AVAILABLE = True
+except ImportError:
+    APIFY_AVAILABLE = False
+    log_msg = "apify-client not installed, Instagram engine disabled"
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -67,6 +75,27 @@ MIN_EXTRACT_CHARS = 150
 BATCH_SIZE = 3                   # V11.0: 3 posts per run
 HIGHLIGHT_COLOR = "#FBBF24"      # V7.0: keyword highlight gold
 MAX_ARTICLE_AGE_HOURS = 24       # V15.6: 24h strict freshness window
+
+# ---------------------------------------------------------------------------
+# V17.0: Instagram Clone & Rebrand Configuration
+# ---------------------------------------------------------------------------
+
+TARGET_IG_CHANNELS = [
+    "iran_military_officiall",
+    "middle_east_spectator",
+    "irgc.intel",
+]
+
+_IG_REWRITE_PROMPT = """You are a military OSINT copywriter. I will give you a caption from another news page. Rewrite it completely in your own words so it is unique. Keep the exact same meaning, facts, and numbers. Use very simple, aggressive, triumphant English. Keep it under 3 short sentences.
+
+Original caption:
+{caption}
+
+Return strict JSON with exactly 2 keys:
+- "rewritten_caption": The rewritten caption text.
+- "image_hook": Write 1 to 2 sentences summarizing this like a viral military Twitter post. Extremely simple English.
+
+Return ONLY the JSON object, no markdown, no explanation."""
 
 
 
@@ -1895,9 +1924,193 @@ def upload_files_to_drive(file_paths: list[Path]):
 # 17. MAIN ORCHESTRATOR (V8.9 — Image-Only Engine)
 # ===========================================================================
 
+
+# ===========================================================================
+# 17A. V17.0 INSTAGRAM CLONE & REBRAND ENGINE
+# ===========================================================================
+
+def fetch_instagram_posts() -> list[dict]:
+    """V17.0: Fetch latest posts from target IG channels via Apify."""
+    if not APIFY_AVAILABLE:
+        log.warning("  [IG] apify-client not installed. Skipping Instagram engine.")
+        return []
+    
+    apify_token = os.environ.get("APIFY_TOKEN", "")
+    if not apify_token:
+        log.warning("  [IG] APIFY_TOKEN not set. Skipping Instagram engine.")
+        return []
+    
+    client = ApifyClient(apify_token)
+    posts = []
+    
+    try:
+        log.info(f"  [IG] Fetching posts from {len(TARGET_IG_CHANNELS)} channels...")
+        run_input = {
+            "usernames": TARGET_IG_CHANNELS,
+            "resultsLimit": 2,  # 2 most recent posts per channel
+            "resultsType": "posts",
+        }
+        run = client.actor("apify/instagram-scraper").call(run_input=run_input)
+        
+        for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+            post = {
+                "caption": item.get("caption", ""),
+                "image_url": item.get("displayUrl", ""),
+                "video_url": item.get("videoUrl", ""),
+                "is_video": item.get("isVideo", False),
+                "owner": item.get("ownerUsername", "Unknown"),
+                "timestamp": item.get("timestamp", ""),
+                "url": item.get("url", ""),
+            }
+            if post["caption"] or post["image_url"] or post["video_url"]:
+                posts.append(post)
+                log.info(f"  [IG] Found post from @{post['owner']}: {post['caption'][:50]}...")
+    except Exception as e:
+        log.error(f"  [IG] Apify scraper failed: {e}")
+    
+    log.info(f"  [IG] Total Instagram posts fetched: {len(posts)}")
+    return posts
+
+
+def rewrite_caption_ai(original_caption: str) -> dict | None:
+    """V17.0: AI-rewrite an Instagram caption for copyright safety."""
+    if not original_caption.strip():
+        return None
+    
+    prompt = _IG_REWRITE_PROMPT.format(caption=original_caption[:2000])
+    
+    # Reuse the same 3-tier API waterfall
+    # Attempt Groq first
+    groq_key = os.environ.get("GROQ_API_KEY")
+    if groq_key:
+        try:
+            from groq import Groq
+            client = Groq(api_key=groq_key)
+            response = client.chat.completions.create(
+                model="llama-3.1-8b-instant",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.4,
+                max_tokens=500,
+                response_format={"type": "json_object"},
+            )
+            resp_text = _strip_markdown_json(response.choices[0].message.content or "")
+            if resp_text:
+                return json.loads(resp_text)
+        except Exception as e:
+            log.warning(f"  [IG] Groq rewrite failed: {e}")
+    
+    # Attempt Gemini
+    gemini_key = os.environ.get("GEMINI_API_KEY")
+    if gemini_key:
+        try:
+            from google import genai
+            client = genai.Client(api_key=gemini_key)
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=prompt,
+            )
+            resp_text = _strip_markdown_json(response.text if response.text else "")
+            if resp_text:
+                return json.loads(resp_text)
+        except Exception as e:
+            log.warning(f"  [IG] Gemini rewrite failed: {e}")
+    
+    log.warning("  [IG] All AI tiers failed for caption rewrite.")
+    return None
+
+
+def process_instagram_batch(ig_posts: list[dict], drive_queue: list[Path]) -> int:
+    """V17.0: Process Instagram posts through existing branding pipeline."""
+    if not ig_posts:
+        return 0
+    
+    prefix = get_filename_prefix()
+    ig_count = 0
+    
+    for idx, post in enumerate(ig_posts, 1):
+        try:
+            log.info(f"\n{'=' * 40}")
+            log.info(f"  [IG] Processing IG post [{idx}/{len(ig_posts)}] from @{post['owner']}")
+            
+            # AI Rewrite the caption
+            rewrite_result = rewrite_caption_ai(post.get("caption", ""))
+            if not rewrite_result:
+                log.warning("  [IG] Caption rewrite failed. Using original caption.")
+                rewritten_caption = post.get("caption", "News update.")[:200]
+                image_hook = rewritten_caption[:80]
+            else:
+                rewritten_caption = rewrite_result.get("rewritten_caption", "News update.")
+                image_hook = rewrite_result.get("image_hook", rewritten_caption[:80])
+            
+            # Build a fake article dict to reuse existing functions
+            ig_article = {
+                "title": image_hook,
+                "image_hook": image_hook,
+                "instagram_caption": rewritten_caption,
+                "source": f"@{post['owner']}",
+                "real_url": post.get("url", ""),
+                "link": post.get("url", ""),
+                "image_url": post.get("image_url", ""),
+                "threat_level": 8,
+                "video_overlays": [],
+                "countries": [],
+            }
+            
+            if post.get("is_video") and post.get("video_url"):
+                # === VIDEO MODE ===
+                log.info("  [IG] Processing as VIDEO...")
+                video_filepath = VIDEO_DIR / f"{prefix}_IG{idx}_OSINT.mp4"
+                video_txt = VIDEO_DIR / f"{prefix}_IG{idx}_OSINT_Caption.txt"
+                
+                # Download the video first
+                temp_video = VIDEO_DIR / f"{prefix}_IG{idx}_raw.mp4"
+                try:
+                    resp = requests.get(post["video_url"], headers=HTTP_HEADERS, timeout=30, stream=True)
+                    resp.raise_for_status()
+                    with open(temp_video, "wb") as f:
+                        for chunk in resp.iter_content(chunk_size=8192):
+                            f.write(chunk)
+                except Exception as e:
+                    log.warning(f"  [IG] Video download failed: {e}")
+                    continue
+                
+                if temp_video.exists():
+                    # Process through FFmpeg using the same function
+                    video_success = extract_and_process_video(
+                        str(temp_video), image_hook, video_filepath, video_txt,
+                        rewritten_caption, ig_article
+                    )
+                    if temp_video.exists():
+                        temp_video.unlink()
+                    if video_success:
+                        drive_queue.extend([video_filepath, video_txt])
+                        ig_count += 1
+                        log.info(f"  [IG] ✓ Video processed: {video_filepath.name}")
+            else:
+                # === IMAGE MODE ===
+                log.info("  [IG] Processing as IMAGE...")
+                png = OUTPUT_DIR / f"{prefix}_IG{idx}_Card.png"
+                txt = OUTPUT_DIR / f"{prefix}_IG{idx}_Card.txt"
+                
+                generate_card(ig_article, png, threat_level=8)
+                generate_caption(ig_article, txt)
+                drive_queue.extend([png, txt])
+                ig_count += 1
+                log.info(f"  [IG] ✓ Card generated: {png.name}")
+            
+            # Rate limit
+            time.sleep(5)
+            
+        except Exception as e:
+            log.error(f"  [IG] Failed processing IG post: {e}")
+            continue
+    
+    log.info(f"  [IG] Instagram batch complete: {ig_count} posts processed.")
+    return ig_count
+
 def main() -> None:
     log.info("=" * 60)
-    log.info("Geopolitical Breaking News v11.0 — Omni-Channel Engine starting")
+    log.info("Geopolitical Breaking News v17.0 — IG Clone + Omni-Channel Engine")
     log.info("=" * 60)
 
     # Ensure output directories exist for both static cards and video assets.
@@ -1998,6 +2211,17 @@ def main() -> None:
             failed_count += 1
             continue
 
+    # --------------------------------------------------
+    # V17.0 INSTAGRAM CLONE & REBRAND ENGINE
+    # --------------------------------------------------
+    log.info("\n" + "=" * 60)
+    log.info("V17.0: Starting Instagram Clone & Rebrand Engine...")
+    log.info("=" * 60)
+    
+    ig_posts = fetch_instagram_posts()
+    ig_processed = process_instagram_batch(ig_posts, drive_upload_queue)
+    log.info(f"  [IG] {ig_processed} Instagram posts rebranded.")
+
     # ----------------------------------------------------
     # V11.0 CAROUSEL COMPILATION & DRIVE UPLOAD
     if carousel_caption:
@@ -2009,7 +2233,7 @@ def main() -> None:
         upload_files_to_drive(drive_upload_queue)
 
     log.info("\n" + "=" * 60)
-    log.info(f"Run complete. {processed_count} cards generated successfully. {failed_count} failed.")
+    log.info(f"Run complete. {processed_count} RSS cards + {ig_processed} IG posts. {failed_count} failed.")
     log.info("=" * 60)
 
 
