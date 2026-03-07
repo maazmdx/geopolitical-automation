@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 179,
+  "total_calls": 182,
   "tiers": {
-    "groq": 161,
+    "groq": 164,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T11:31:30.098688+00:00",
-      "tier": "groq",
-      "article": "What are Patriot missiles and what role do they play in Iran and Ukraine wars"
-    },
-    {
-      "timestamp": "2026-03-06T11:33:27.858709+00:00",
-      "tier": "groq",
-      "article": "Forcibly displaced Lebanese seek food, clothing, and comfort in shelters"
-    },
-    {
-      "timestamp": "2026-03-06T11:56:17.473297+00:00",
-      "tier": "groq",
-      "article": "Defence secretary twice declines to rule out Britain joining strikes on Iran"
-    },
     {
       "timestamp": "2026-03-06T11:56:35.676804+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-07T10:53:43.797543+00:00",
       "tier": "groq",
       "article": "Cuba denounces US-Israeli aggression against Iran\u00a0"
+    },
+    {
+      "timestamp": "2026-03-07T11:24:44.027259+00:00",
+      "tier": "groq",
+      "article": "IRGC targets US oil tanker near Kuwait waters"
+    },
+    {
+      "timestamp": "2026-03-07T11:25:17.579786+00:00",
+      "tier": "groq",
+      "article": "IRGC conducts drone swarm attack on Al Dhafra Air Base"
+    },
+    {
+      "timestamp": "2026-03-07T11:25:50.081776+00:00",
+      "tier": "groq",
+      "article": "Member of Iran's Defense Council warns Iraqi Kurdistan region"
     }
   ]
 }
