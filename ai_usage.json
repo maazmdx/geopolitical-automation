@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 198,
+  "total_calls": 202,
   "tiers": {
-    "groq": 180,
+    "groq": 184,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T17:37:39.758080+00:00",
-      "tier": "groq",
-      "article": "Teenagers killed themselves in Dorset after baby taken into care, inquest finds"
-    },
-    {
-      "timestamp": "2026-03-06T17:37:59.778903+00:00",
-      "tier": "groq",
-      "article": "Iran war forces OPEC nation to limit production"
-    },
-    {
-      "timestamp": "2026-03-06T17:38:17.524611+00:00",
-      "tier": "groq",
-      "article": "The Kurdish fighters who could join fight against Iran - and inspire uprising following air strikes"
-    },
-    {
-      "timestamp": "2026-03-06T18:49:44.015022+00:00",
-      "tier": "groq",
-      "article": "Iran-US war latest: Trump demands \u2018unconditional surrender\u2019 as strikes continue"
-    },
     {
       "timestamp": "2026-03-06T18:55:12.317167+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-07T12:59:06.934666+00:00",
       "tier": "groq",
       "article": "Iranian military reports casualties among US forces in region"
+    },
+    {
+      "timestamp": "2026-03-07T13:43:00.011815+00:00",
+      "tier": "groq",
+      "article": "Pezeshkian says Netanyahu has three deceptive faces"
+    },
+    {
+      "timestamp": "2026-03-07T13:43:39.502104+00:00",
+      "tier": "groq",
+      "article": "Clashes erupt between Hezbollah, Israeli forces in Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T13:44:18.267578+00:00",
+      "tier": "groq",
+      "article": "Pezeshkian: Enemies to Take Dream of Iran\u2019s Surrender to Grave - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-07T13:44:36.806667+00:00",
+      "tier": "groq",
+      "article": "Israeli artillery shells southern Lebanese border town of Khiam: Al-Manar correspondent - Al-Manar TV Lebanon"
     }
   ]
 }
