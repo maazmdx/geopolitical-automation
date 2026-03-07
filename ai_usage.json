@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 143,
+  "total_calls": 146,
   "tiers": {
-    "groq": 125,
+    "groq": 128,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-06T00:08:46.435873+00:00",
-      "tier": "groq",
-      "article": "White House looking to lower gas prices after Trump war in Iran spikes costs: report"
-    },
-    {
-      "timestamp": "2026-03-06T00:09:29.842236+00:00",
-      "tier": "groq",
-      "article": "Finland plans to lift decades-old ban on hosting nuclear weapons"
-    },
-    {
-      "timestamp": "2026-03-06T00:41:30.599486+00:00",
-      "tier": "gemini",
-      "article": "Italy, allies send warships to protect Europe\u2019s southeastern edge from Iran strikes"
-    },
     {
       "timestamp": "2026-03-06T00:41:48.597527+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-07T07:01:27.165485+00:00",
       "tier": "groq",
       "article": "Watch:  How war in Iran may affect food and fuel prices"
+    },
+    {
+      "timestamp": "2026-03-07T07:20:16.470984+00:00",
+      "tier": "groq",
+      "article": "Two children among seven dead in Russian missile strikes in Ukraine"
+    },
+    {
+      "timestamp": "2026-03-07T07:20:33.165442+00:00",
+      "tier": "groq",
+      "article": "Iran-US latest: Major Tehran airport hit ahead of \u2018biggest bombing campaign\u2019 warning"
+    },
+    {
+      "timestamp": "2026-03-07T07:25:59.070132+00:00",
+      "tier": "groq",
+      "article": "Rep. Tony Gonzales drops re-election bid after admitting affair with staffer"
     }
   ]
 }
