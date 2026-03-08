@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 280,
+  "total_calls": 284,
   "tiers": {
-    "groq": 262,
+    "groq": 266,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-07T11:25:17.579786+00:00",
-      "tier": "groq",
-      "article": "IRGC conducts drone swarm attack on Al Dhafra Air Base"
-    },
-    {
-      "timestamp": "2026-03-07T11:25:50.081776+00:00",
-      "tier": "groq",
-      "article": "Member of Iran's Defense Council warns Iraqi Kurdistan region"
-    },
-    {
-      "timestamp": "2026-03-07T11:36:03.525593+00:00",
-      "tier": "groq",
-      "article": "Strait of Hormuz has become insecure due to US mischiefs"
-    },
-    {
-      "timestamp": "2026-03-07T11:36:36.974437+00:00",
-      "tier": "groq",
-      "article": "Iran air defense shoots down 13 drones"
-    },
     {
       "timestamp": "2026-03-07T11:37:11.039322+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-08T10:28:51.071183+00:00",
       "tier": "groq",
       "article": "Trump administration denies reports that Iran captured US soldiers"
+    },
+    {
+      "timestamp": "2026-03-08T10:53:19.480570+00:00",
+      "tier": "groq",
+      "article": "Al-Manar correspondent: Israeli warplanes launched an airstrike on the town of Taybeh, South Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-08T10:53:39.836850+00:00",
+      "tier": "groq",
+      "article": "Smoke rises over Beirut after Israeli strike on Raouche building"
+    },
+    {
+      "timestamp": "2026-03-08T10:53:56.889888+00:00",
+      "tier": "groq",
+      "article": "Bahrain says water desalination plant damaged in Iranian drone attack"
+    },
+    {
+      "timestamp": "2026-03-08T10:54:14.033713+00:00",
+      "tier": "groq",
+      "article": "US, Israel bases in region our targets: Khatam al-Anbia Base\u00a0"
     }
   ]
 }
