@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 236,
+  "total_calls": 240,
   "tiers": {
-    "groq": 218,
+    "groq": 222,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-07T05:15:48.741489+00:00",
-      "tier": "groq",
-      "article": "Trump has shown \u2018serious interest\u2019 in US troops deploying to Iran, report claims"
-    },
-    {
-      "timestamp": "2026-03-07T06:00:59.264366+00:00",
-      "tier": "groq",
-      "article": "Iran war: What is happening on day eight of US-Israel attacks?"
-    },
-    {
-      "timestamp": "2026-03-07T06:01:17.863022+00:00",
-      "tier": "groq",
-      "article": "Caught between Iran and Saudi Arabia, can Pakistan stay neutral for long?"
-    },
-    {
-      "timestamp": "2026-03-07T06:01:34.594374+00:00",
-      "tier": "groq",
-      "article": "Pakistani man convicted of plotting to kill Trump over death of Iranian commander"
-    },
     {
       "timestamp": "2026-03-07T06:56:41.032097+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-08T04:46:28.913512+00:00",
       "tier": "groq",
       "article": "How far will the Iran war spillover?"
+    },
+    {
+      "timestamp": "2026-03-08T05:30:24.160752+00:00",
+      "tier": "groq",
+      "article": "Flames engulf Kuwaiti high-rise amid Iranian drone strikes"
+    },
+    {
+      "timestamp": "2026-03-08T05:30:42.465023+00:00",
+      "tier": "groq",
+      "article": "Attack on Haifa refinery response to attack on Tehran's"
+    },
+    {
+      "timestamp": "2026-03-08T05:31:41.620351+00:00",
+      "tier": "groq",
+      "article": "Daraa launches $7.8 million in service projects under \u201cAbshari Horan\u201d campaign"
+    },
+    {
+      "timestamp": "2026-03-08T05:31:58.998423+00:00",
+      "tier": "groq",
+      "article": "Iranian people foiled US plots in war: Top security official"
     }
   ]
 }
