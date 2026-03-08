@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 320,
+  "total_calls": 321,
   "tiers": {
-    "groq": 302,
+    "groq": 303,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T01:58:43.222766+00:00",
-      "tier": "groq",
-      "article": "Russia kills 10 in Ukraine strike including children with new missile"
-    },
     {
       "timestamp": "2026-03-08T01:59:01.400461+00:00",
       "tier": "groq",
@@ -507,6 +502,11 @@
       "timestamp": "2026-03-08T22:52:01.856841+00:00",
       "tier": "groq",
       "article": "Israeli president says 'mind boggles' at doubts over legality of Iran war"
+    },
+    {
+      "timestamp": "2026-03-08T23:27:40.069987+00:00",
+      "tier": "groq",
+      "article": "Al-Manar reporter: Missile salvos target the Israeli military movements in Misgav Am and Adaisseh after the enemy\u2019s infiltration attempts - Al-Manar TV Lebanon"
     }
   ]
 }
