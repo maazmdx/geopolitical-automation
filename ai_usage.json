@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 304,
+  "total_calls": 305,
   "tiers": {
-    "groq": 286,
+    "groq": 287,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-07T14:10:24.289040+00:00",
-      "tier": "groq",
-      "article": "Vice president explains about Pezeshkian's remarks on war"
-    },
     {
       "timestamp": "2026-03-07T14:54:11.109225+00:00",
       "tier": "groq",
@@ -507,6 +502,11 @@
       "timestamp": "2026-03-08T16:31:13.781078+00:00",
       "tier": "groq",
       "article": "Iran\u2019s FM Araghchi: Ceasefire is Rejected Unless It Leads to Permanent End of War - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-08T17:50:31.833031+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fires a missile salvo at Kiryat Shmona for the second time on Sunday: Statement 13 - Al-Manar TV Lebanon"
     }
   ]
 }
