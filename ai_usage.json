@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 248,
+  "total_calls": 252,
   "tiers": {
-    "groq": 230,
+    "groq": 234,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-07T07:37:59.096871+00:00",
-      "tier": "groq",
-      "article": "Investigators release timeline of Utah triple homicide investigation"
-    },
-    {
-      "timestamp": "2026-03-07T07:53:21.994424+00:00",
-      "tier": "groq",
-      "article": "At least 2 dead from \u2018tornado-related\u2019 car crash as storm sweeps America\u2019s heartland"
-    },
-    {
-      "timestamp": "2026-03-07T07:57:04.873610+00:00",
-      "tier": "groq",
-      "article": "Trump voter whose son was killed by ICE says she \u2018doesn\u2019t blame\u2019 the president"
-    },
-    {
-      "timestamp": "2026-03-07T08:02:18.072797+00:00",
-      "tier": "groq",
-      "article": "Florida bar targets Trump lawyer Lindsey Halligan in ethics investigation"
-    },
     {
       "timestamp": "2026-03-07T08:15:47.882792+00:00",
       "tier": "groq",
@@ -505,6 +485,26 @@
     },
     {
       "timestamp": "2026-03-08T07:10:44.605397+00:00",
+      "tier": "groq",
+      "article": "Reinforcements for the Syrian Arab Army move toward deployment line east of Aleppo"
+    },
+    {
+      "timestamp": "2026-03-08T07:52:07.314752+00:00",
+      "tier": "groq",
+      "article": "IRGC\u2019s Navy targets terrorist US chopper base with missiles"
+    },
+    {
+      "timestamp": "2026-03-08T07:53:06.582690+00:00",
+      "tier": "groq",
+      "article": "Daraa launches $7.8 million in service projects under \u201cAbshari Horan\u201d campaign"
+    },
+    {
+      "timestamp": "2026-03-08T07:53:24.007433+00:00",
+      "tier": "groq",
+      "article": "IRGC issues stark warning to Israeli pilots"
+    },
+    {
+      "timestamp": "2026-03-08T07:54:23.497552+00:00",
       "tier": "groq",
       "article": "Reinforcements for the Syrian Arab Army move toward deployment line east of Aleppo"
     }
