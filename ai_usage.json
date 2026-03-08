@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 284,
+  "total_calls": 288,
   "tiers": {
-    "groq": 266,
+    "groq": 270,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-07T11:37:11.039322+00:00",
-      "tier": "groq",
-      "article": "Iranian, Russian presidents discuss war developments"
-    },
-    {
-      "timestamp": "2026-03-07T11:37:44.093536+00:00",
-      "tier": "groq",
-      "article": "EU states to be legitimate targets if they join aggression"
-    },
-    {
-      "timestamp": "2026-03-07T11:47:52.883118+00:00",
-      "tier": "groq",
-      "article": "IRGC launches 23rd wave of True Promise Operation"
-    },
-    {
-      "timestamp": "2026-03-07T11:48:26.681737+00:00",
-      "tier": "groq",
-      "article": "Oil prices surge toward $90 amid tension in Strait of Hormuz"
-    },
     {
       "timestamp": "2026-03-07T11:48:59.373375+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-08T10:54:14.033713+00:00",
       "tier": "groq",
       "article": "US, Israel bases in region our targets: Khatam al-Anbia Base\u00a0"
+    },
+    {
+      "timestamp": "2026-03-08T11:23:22.255789+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Drone Strike Hits Kiryat Shmona Following Evacuation Warning - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-08T11:23:45.391296+00:00",
+      "tier": "groq",
+      "article": "Rapper-turned-politician Balen Shah\u2019s RSP heads for poll landslide in Nepal"
+    },
+    {
+      "timestamp": "2026-03-08T11:24:02.835168+00:00",
+      "tier": "groq",
+      "article": "Hundreds march in New York condemning US-Israeli attacks on Iran"
+    },
+    {
+      "timestamp": "2026-03-08T11:24:20.819748+00:00",
+      "tier": "groq",
+      "article": "China urges dialogue with Washington, warns of escalation risks"
     }
   ]
 }
