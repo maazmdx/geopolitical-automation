@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 308,
+  "total_calls": 311,
   "tiers": {
-    "groq": 290,
+    "groq": 293,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-07T18:27:15.040841+00:00",
-      "tier": "groq",
-      "article": "Loud explosions rock the occupied city of Haifa as a result of a large barrage of rockets launched from Lebanon: reports - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-07T20:33:05.759713+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fighters targeted the Tel HaShomer base (the headquarters of the General Staff, southeast of \u201cTel Aviv\u201d) with a qualitative missile: statement 14 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-07T20:33:27.938092+00:00",
-      "tier": "groq",
-      "article": "Iranian FM Abbas Araghchi: My Saudi counterpart and I are in continuous contact, Saudi officials confirmed they are fully committed to preventing their territory, waters, or airspace from being used against Iran - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-07T21:48:38.686730+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-08T18:38:10.888597+00:00",
       "tier": "groq",
       "article": "US media outlets report evacuation of Kansas City International Airport triggered by bomb threat - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-08T19:25:33.916591+00:00",
+      "tier": "groq",
+      "article": "Zionist Kan Channel: Hezbollah has fired 400 missiles and drones at \u2018Israel\u2019 since it engaged in this war - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-08T19:25:53.759911+00:00",
+      "tier": "groq",
+      "article": "Trump vows control over Iran leaders as officials seek to calm oil concerns"
+    },
+    {
+      "timestamp": "2026-03-08T19:26:10.868201+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance targeted a gathering of Israeli military vehicles at Al-Marj occupation site off Markaba border town with a squadron of combat drones at 01:00 PM: Statement 14 - Al-Manar TV Lebanon"
     }
   ]
 }
