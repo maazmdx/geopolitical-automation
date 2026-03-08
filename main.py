@@ -1852,11 +1852,17 @@ def extract_and_process_video(article_url: str, headline: str, output_filepath: 
     # Needs a temp file for yt-dlp before FFmpeg processing
     temp_raw = output_filepath.with_name(f"{output_filepath.stem}_raw.mp4")
     
+    class YTDLPLooger:
+        def debug(self, msg): pass
+        def warning(self, msg): pass
+        def error(self, msg): pass
+
     ydl_opts = {
         'outtmpl': str(temp_raw),
         'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
         'quiet': True,
         'no_warnings': True,
+        'logger': YTDLPLooger(),
         'match_filter': lambda info, *args, **kwargs: 'Video is too long' if info.get('duration', 0) > 180 else None,
         # V17.1: YouTube Android client bypass — avoids "Sign in to confirm" bot block
         'extractor_args': {'youtube': {'player_client': ['android']}},
@@ -1875,7 +1881,7 @@ def extract_and_process_video(article_url: str, headline: str, output_filepath: 
             video_found = True
             log.info("  [OSINT] ✓ Independent video sourced successfully.")
     except Exception as e:
-        log.warning(f"  [OSINT] Independent search failed ({e}). Trying Iranian source...")
+        log.warning(f"  [OSINT] Independent search failed ({type(e).__name__}). Trying Iranian source...")
     
     # V16.3: FALLBACK — Try direct extraction from Iranian article URL
     if not video_found:
@@ -1887,7 +1893,7 @@ def extract_and_process_video(article_url: str, headline: str, output_filepath: 
                 video_found = True
                 log.info("  [OSINT] ✓ Iranian source video extracted.")
         except Exception as e:
-            log.warning(f"  [OSINT] Iranian source extraction failed ({e}).")
+            log.warning(f"  [OSINT] Iranian source extraction failed ({type(e).__name__}).")
     
     if not video_found or not temp_raw.exists():
         log.info("  [OSINT] No video found from any source.")
