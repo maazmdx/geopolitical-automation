@@ -842,6 +842,8 @@ def select_and_extract_batch(articles: list[dict], posted: dict) -> list[dict]:
     
     # Pre-filter all articles without deep scraping
     for a in sorted_a:
+        if not a or not isinstance(a, dict):
+            continue
         link = a.get("link", "")
         if not link or is_posted(link, posted):
             continue
@@ -870,7 +872,7 @@ def select_and_extract_batch(articles: list[dict], posted: dict) -> list[dict]:
         extracted = extract_article(article["real_url"])
         
         # 1. Try standard text extraction
-        extracted_text = extracted.get("text") if extracted else None
+        extracted_text = extracted.get("text") if extracted and isinstance(extracted, dict) else None
         
         # 2. Fallback to RSS summary if text is blocked
         if not extracted_text or len(extracted_text) < 100:
@@ -889,20 +891,26 @@ def select_and_extract_batch(articles: list[dict], posted: dict) -> list[dict]:
         article["full_text"] = extracted_text
         log.info(f"  Extracted/Fallback text: {len(extracted_text)} chars \u2713")
 
-        if extracted.get("title"):
-            article["title"] = extracted["title"]
-        if extracted.get("image"):
-            article["image_url"] = extracted["image"]
-        elif not article.get("image_url"):
-            fb = _fallback_scrape_image(article["real_url"])
-            if fb:
-                article["image_url"] = fb
-        if extracted.get("source"):
-            article["source"] = extracted["source"]
-        if extracted.get("date"):
-            pd = parse_date_bulletproof(extracted["date"])
-            if pd:
-                article["pub_date"] = pd
+        if extracted and isinstance(extracted, dict):
+            if extracted.get("title"):
+                article["title"] = extracted["title"]
+            if extracted.get("image"):
+                article["image_url"] = extracted["image"]
+            elif not article.get("image_url"):
+                fb = _fallback_scrape_image(article["real_url"])
+                if fb:
+                    article["image_url"] = fb
+            if extracted.get("source"):
+                article["source"] = extracted["source"]
+            if extracted.get("date"):
+                pd = parse_date_bulletproof(extracted["date"])
+                if pd:
+                    article["pub_date"] = pd
+        else:
+            if not article.get("image_url"):
+                fb = _fallback_scrape_image(article["real_url"])
+                if fb:
+                    article["image_url"] = fb
         
         return True
 
