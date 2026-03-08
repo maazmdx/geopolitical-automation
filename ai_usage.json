@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 305,
+  "total_calls": 308,
   "tiers": {
-    "groq": 287,
+    "groq": 290,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-07T14:54:11.109225+00:00",
-      "tier": "groq",
-      "article": "Hezbollah resistance fighters targeted the Ein Zeitim base northwest of the occupied city of Safed with a rocket barrage: Military Media statement no.8 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-07T15:30:01.749553+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Orders Israelis in Kiryat Shmona, Nahariya to Evacuate - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-07T17:52:31.762691+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fighters targeted the Haifa refinery with a squadron of combat drones: Military Media statement no. 11 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-07T18:27:15.040841+00:00",
       "tier": "groq",
@@ -507,6 +492,21 @@
       "timestamp": "2026-03-08T17:50:31.833031+00:00",
       "tier": "groq",
       "article": "Islamic Resistance fires a missile salvo at Kiryat Shmona for the second time on Sunday: Statement 13 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-08T18:37:33.622718+00:00",
+      "tier": "groq",
+      "article": "Israeli, US Targets Attacked by Iranian Army Drones - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-08T18:37:53.828259+00:00",
+      "tier": "groq",
+      "article": "Two killed in Saudi Arabia after \u2018projectile\u2019 falls on residential building"
+    },
+    {
+      "timestamp": "2026-03-08T18:38:10.888597+00:00",
+      "tier": "groq",
+      "article": "US media outlets report evacuation of Kansas City International Airport triggered by bomb threat - Al-Manar TV Lebanon"
     }
   ]
 }
