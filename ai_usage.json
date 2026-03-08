@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 264,
+  "total_calls": 268,
   "tiers": {
-    "groq": 246,
+    "groq": 250,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-07T09:27:33.391436+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fighters fire missile salvos at the Israeli settlements of Malkiyeh, Ramot Neftali and Shomera in the context of the evacuation warning issued by the Resistance command: Statements - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-07T09:27:50.827533+00:00",
-      "tier": "groq",
-      "article": "Israeli enemy strikes towns in Nabatieh region: Al-Manar correspondent in south Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-07T09:28:07.498217+00:00",
-      "tier": "groq",
-      "article": "Daraa launches $7.8 million in service projects under \u201cAbshari Horan\u201d campaign"
-    },
-    {
-      "timestamp": "2026-03-07T09:32:49.561150+00:00",
-      "tier": "groq",
-      "article": "Lebanon: Martyrs, Injuries as Israeli Enemy Escalates Aggression - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-07T09:33:12.129175+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-08T09:08:06.956040+00:00",
       "tier": "groq",
       "article": "\u2018No popular support\u2019: China warns against government change in Iran"
+    },
+    {
+      "timestamp": "2026-03-08T09:14:52.642627+00:00",
+      "tier": "groq",
+      "article": "Iran war: What is happening on day nine of US-Israel attacks?"
+    },
+    {
+      "timestamp": "2026-03-08T09:15:10.318161+00:00",
+      "tier": "groq",
+      "article": "Daraa launches $7.8 million in service projects under \u201cAbshari Horan\u201d campaign"
+    },
+    {
+      "timestamp": "2026-03-08T09:15:28.541520+00:00",
+      "tier": "groq",
+      "article": "Qalibaf: Continuation of anti-Iran war will choke off oil sales, production in region - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-08T09:15:48.014146+00:00",
+      "tier": "groq",
+      "article": "Reinforcements for the Syrian Arab Army move toward deployment line east of Aleppo"
     }
   ]
 }
