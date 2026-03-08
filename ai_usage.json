@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 296,
+  "total_calls": 300,
   "tiers": {
-    "groq": 278,
+    "groq": 282,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-07T12:58:28.713014+00:00",
-      "tier": "groq",
-      "article": "Iran Armed Forces not targeted neighboring countries"
-    },
-    {
-      "timestamp": "2026-03-07T12:59:06.934666+00:00",
-      "tier": "groq",
-      "article": "Iranian military reports casualties among US forces in region"
-    },
-    {
-      "timestamp": "2026-03-07T13:43:00.011815+00:00",
-      "tier": "groq",
-      "article": "Pezeshkian says Netanyahu has three deceptive faces"
-    },
-    {
-      "timestamp": "2026-03-07T13:43:39.502104+00:00",
-      "tier": "groq",
-      "article": "Clashes erupt between Hezbollah, Israeli forces in Lebanon"
-    },
     {
       "timestamp": "2026-03-07T13:44:18.267578+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-08T13:51:37.798030+00:00",
       "tier": "groq",
       "article": "Al Jazeera reporter boards first flight to Doha since war on Iran"
+    },
+    {
+      "timestamp": "2026-03-08T14:27:39.437505+00:00",
+      "tier": "groq",
+      "article": "Iran destroys 4 advanced THAAD radars"
+    },
+    {
+      "timestamp": "2026-03-08T14:28:41.663857+00:00",
+      "tier": "groq",
+      "article": "Iran's advanced weapons to make enemies regretful"
+    },
+    {
+      "timestamp": "2026-03-08T14:29:41.756456+00:00",
+      "tier": "groq",
+      "article": "Pope Leo urges dialogue amid Middle East war"
+    },
+    {
+      "timestamp": "2026-03-08T14:29:59.211478+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s defensive op. target only origin of aggression: Envoy"
     }
   ]
 }
