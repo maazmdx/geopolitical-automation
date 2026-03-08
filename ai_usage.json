@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 303,
+  "total_calls": 304,
   "tiers": {
-    "groq": 285,
+    "groq": 286,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-07T14:00:00.899691+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistnce fighters targeted Israeli vehciles at Fatima Gate in the Lebanese border town of Kfar Kila with rocket weapons: Hezbollah Military Media statement no. 7 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-07T14:10:24.289040+00:00",
       "tier": "groq",
@@ -507,6 +502,11 @@
       "timestamp": "2026-03-08T15:48:26.017857+00:00",
       "tier": "groq",
       "article": "\u2018Gulf countries may question US capability to protect them\u2019"
+    },
+    {
+      "timestamp": "2026-03-08T16:31:13.781078+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s FM Araghchi: Ceasefire is Rejected Unless It Leads to Permanent End of War - Al-Manar TV Lebanon"
     }
   ]
 }
