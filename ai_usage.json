@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 288,
+  "total_calls": 292,
   "tiers": {
-    "groq": 270,
+    "groq": 274,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-07T11:48:59.373375+00:00",
-      "tier": "groq",
-      "article": "Iran not yet used its new weapons against aggressors"
-    },
-    {
-      "timestamp": "2026-03-07T11:49:32.220006+00:00",
-      "tier": "groq",
-      "article": "Reinforcements for the Syrian Arab Army move toward deployment line east of Aleppo"
-    },
-    {
-      "timestamp": "2026-03-07T12:39:48.780912+00:00",
-      "tier": "groq",
-      "article": "Al-Manar correspondent in south Lebanon reports Israeli strikes on Jibsheet and Kfar Seer in the Nabatieh region - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-07T12:40:06.966042+00:00",
-      "tier": "groq",
-      "article": "Iran destroys critical US radar missile interceptors"
-    },
     {
       "timestamp": "2026-03-07T12:40:44.318941+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-08T11:24:20.819748+00:00",
       "tier": "groq",
       "article": "China urges dialogue with Washington, warns of escalation risks"
+    },
+    {
+      "timestamp": "2026-03-08T12:46:20.758517+00:00",
+      "tier": "groq",
+      "article": "Pezeshkian visits hospitals treating war victims"
+    },
+    {
+      "timestamp": "2026-03-08T12:47:21.662602+00:00",
+      "tier": "groq",
+      "article": "Enemy media: Sirens sound in the Western Galilee due to fears of drone infiltration - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-08T12:47:41.759575+00:00",
+      "tier": "groq",
+      "article": "Who pays when the war on Iran breaks air travel?"
+    },
+    {
+      "timestamp": "2026-03-08T12:47:59.630639+00:00",
+      "tier": "groq",
+      "article": "Why are Iranian leaders sending mixed messages on Gulf attacks?"
     }
   ]
 }
