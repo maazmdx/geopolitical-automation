@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 268,
+  "total_calls": 272,
   "tiers": {
-    "groq": 250,
+    "groq": 254,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-07T09:33:12.129175+00:00",
-      "tier": "groq",
-      "article": "Iran Destroys US Radars in UAE, Jordan, Satellite Images Show - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-07T09:33:30.655073+00:00",
-      "tier": "groq",
-      "article": "Syrian Army pledges strong response to new escalations by SDF in eastern Aleppo"
-    },
-    {
-      "timestamp": "2026-03-07T09:55:53.851673+00:00",
-      "tier": "groq",
-      "article": "IRGC Announces Full Success in 22nd Missile Wave of Operation True Promise 4 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-07T09:56:13.440518+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters target Israeli occupation forces at the newly-established site in Markaba border town with a missile salvo: Statement 15 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-07T09:56:29.745702+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-08T09:15:48.014146+00:00",
       "tier": "groq",
       "article": "Reinforcements for the Syrian Arab Army move toward deployment line east of Aleppo"
+    },
+    {
+      "timestamp": "2026-03-08T09:26:40.923647+00:00",
+      "tier": "groq",
+      "article": "Daraa launches $7.8 million in service projects under \u201cAbshari Horan\u201d campaign"
+    },
+    {
+      "timestamp": "2026-03-08T09:27:00.004054+00:00",
+      "tier": "groq",
+      "article": "Qalibaf, Speaker of the Iranian Parliament: You are the ones who started the war, and we are the ones who will end it - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-08T09:27:19.856775+00:00",
+      "tier": "groq",
+      "article": "Reinforcements for the Syrian Arab Army move toward deployment line east of Aleppo"
+    },
+    {
+      "timestamp": "2026-03-08T09:27:37.545765+00:00",
+      "tier": "groq",
+      "article": "Trump encourages Latin American leaders to use military action to help US fight cartels"
     }
   ]
 }
