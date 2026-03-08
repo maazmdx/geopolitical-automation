@@ -2081,7 +2081,7 @@ def fetch_instagram_posts() -> list[dict]:
                     "https://www.instagram.com/funker530/"
                 ],
                 "resultsType": "posts",
-                "resultsLimit": 50, # Set to 50 to balance API cost with enough fresh content
+                "resultsLimit": 30, # Optimized back down to 30
             }
             run = client.actor("apify/instagram-scraper").call(run_input=run_input)
             
