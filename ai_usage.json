@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 353,
+  "total_calls": 357,
   "tiers": {
-    "groq": 335,
+    "groq": 339,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T08:35:00.427208+00:00",
-      "tier": "groq",
-      "article": "Daraa launches $7.8 million in service projects under \u201cAbshari Horan\u201d campaign"
-    },
-    {
-      "timestamp": "2026-03-08T08:35:18.783877+00:00",
-      "tier": "groq",
-      "article": "Reinforcements for the Syrian Arab Army move toward deployment line east of Aleppo"
-    },
-    {
-      "timestamp": "2026-03-08T08:35:36.477210+00:00",
-      "tier": "groq",
-      "article": "Israeli attack on hotel in Lebanon\u2019s Beirut kills four"
-    },
-    {
-      "timestamp": "2026-03-08T08:47:52.812623+00:00",
-      "tier": "groq",
-      "article": "Israeli media: An anti-tank missile was fired at an Israeli Army D9 bulldozer in South Lebanon; serious injuries reported - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-08T08:48:12.517209+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-09T16:41:17.085219+00:00",
       "tier": "groq",
       "article": "Iranians deeply divided over Mojtaba Khamenei's rise to power"
+    },
+    {
+      "timestamp": "2026-03-09T16:58:09.121843+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted the settlement of Nahariya in northern occupied Palestine with a rocket barrage: Military Media statement 13 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-09T16:58:26.229999+00:00",
+      "tier": "groq",
+      "article": "What defence support could Ukraine offer Middle East states amid Iran war?"
+    },
+    {
+      "timestamp": "2026-03-09T16:58:42.526820+00:00",
+      "tier": "groq",
+      "article": "Bangladesh closes universities due to Iran war energy crisis"
+    },
+    {
+      "timestamp": "2026-03-09T16:58:58.799505+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s authorities showcase continuity as they back new leader during war"
     }
   ]
 }
