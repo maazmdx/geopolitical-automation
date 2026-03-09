@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 323,
+  "total_calls": 325,
   "tiers": {
-    "groq": 305,
+    "groq": 307,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T01:59:36.745805+00:00",
-      "tier": "groq",
-      "article": "Cuba says electricity plant successfully repaired after large blackout"
-    },
-    {
-      "timestamp": "2026-03-08T02:11:10.623964+00:00",
-      "tier": "groq",
-      "article": "Video: Satellite images reveal damage to several Iranian military bases"
-    },
     {
       "timestamp": "2026-03-08T02:11:29.151475+00:00",
       "tier": "groq",
@@ -507,6 +497,16 @@
       "timestamp": "2026-03-09T01:52:31.424147+00:00",
       "tier": "groq",
       "article": "Islamic Resistance targets with artillery shells Zionist occupation forces attempting to advance towards Aitaroun and Adaisseh border towns, South Lebanon: statements - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-09T04:22:55.309740+00:00",
+      "tier": "groq",
+      "article": "Iran Army shoots down another Israeli Hermes drone"
+    },
+    {
+      "timestamp": "2026-03-09T04:23:57.738335+00:00",
+      "tier": "groq",
+      "article": "Iran war: Oil prices jump above $100 for first time in four years"
     }
   ]
 }
