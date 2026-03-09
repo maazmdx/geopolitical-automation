@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 321,
+  "total_calls": 323,
   "tiers": {
-    "groq": 303,
+    "groq": 305,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T01:59:01.400461+00:00",
-      "tier": "groq",
-      "article": "US embassy in Baghdad attacked as US-Israel war on Iran escalates"
-    },
-    {
-      "timestamp": "2026-03-08T01:59:18.815251+00:00",
-      "tier": "groq",
-      "article": "Huge fire rages at Tehran oil depot after Israeli attack"
-    },
     {
       "timestamp": "2026-03-08T01:59:36.745805+00:00",
       "tier": "groq",
@@ -507,6 +497,16 @@
       "timestamp": "2026-03-08T23:27:40.069987+00:00",
       "tier": "groq",
       "article": "Al-Manar reporter: Missile salvos target the Israeli military movements in Misgav Am and Adaisseh after the enemy\u2019s infiltration attempts - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-09T01:52:11.743458+00:00",
+      "tier": "groq",
+      "article": "Iranian ballistic and cluster missiles hit Tel Aviv, cause major blackout in suburbs - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-09T01:52:31.424147+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance targets with artillery shells Zionist occupation forces attempting to advance towards Aitaroun and Adaisseh border towns, South Lebanon: statements - Al-Manar TV Lebanon"
     }
   ]
 }
