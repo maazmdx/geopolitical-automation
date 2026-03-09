@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 349,
+  "total_calls": 353,
   "tiers": {
-    "groq": 331,
+    "groq": 335,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T07:53:06.582690+00:00",
-      "tier": "groq",
-      "article": "Daraa launches $7.8 million in service projects under \u201cAbshari Horan\u201d campaign"
-    },
-    {
-      "timestamp": "2026-03-08T07:53:24.007433+00:00",
-      "tier": "groq",
-      "article": "IRGC issues stark warning to Israeli pilots"
-    },
-    {
-      "timestamp": "2026-03-08T07:54:23.497552+00:00",
-      "tier": "groq",
-      "article": "Reinforcements for the Syrian Arab Army move toward deployment line east of Aleppo"
-    },
-    {
-      "timestamp": "2026-03-08T08:34:38.829516+00:00",
-      "tier": "groq",
-      "article": "Israeli Ministry of Health: 1,929 injured Israelis evacuated to hospitals since the start of the war with Iran - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-08T08:35:00.427208+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-09T16:17:40.074956+00:00",
       "tier": "groq",
       "article": "Walid Khalidi, historian of the Palestinian cause, dies aged 100"
+    },
+    {
+      "timestamp": "2026-03-09T16:40:27.094585+00:00",
+      "tier": "groq",
+      "article": "NATO defenses shoot down ballistic missile in Turkey"
+    },
+    {
+      "timestamp": "2026-03-09T16:40:43.035303+00:00",
+      "tier": "groq",
+      "article": "Turkiye says Iranian ballistic missile intercepted by NATO air defences"
+    },
+    {
+      "timestamp": "2026-03-09T16:40:58.964560+00:00",
+      "tier": "groq",
+      "article": "Israeli media: Hezbollah-fired missiles hit \u201cTel Aviv\u201d - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-09T16:41:17.085219+00:00",
+      "tier": "groq",
+      "article": "Iranians deeply divided over Mojtaba Khamenei's rise to power"
     }
   ]
 }
