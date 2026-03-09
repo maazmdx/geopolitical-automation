@@ -1421,6 +1421,15 @@ def download_article_image(article: dict) -> Image.Image | None:
     }
     
     if url:
+        # V18.26 Fix: Direct Local File Bypass for Telegram Engine
+        if not url.startswith('http') and os.path.exists(url):
+            try:
+                log.info(f"  Using local image: {url}")
+                return Image.open(url).convert("RGB")
+            except Exception as e:
+                log.warning(f"  Failed local image load: {e}")
+                return None
+                
         try:
             log.info(f"  Downloading image: {url[:60]}\u2026")
             response = scraper.get(url, headers=headers, timeout=20)  # V17.1: Increased timeout
@@ -2146,6 +2155,9 @@ def fetch_ig_scrape_creators() -> list[dict]:
         
         try:
             response = requests.get(url, headers=headers, params=params, timeout=15)
+            log.info(f"  [IG-PRIMARY] Scrape Creators API status: {response.status_code}")
+            log.info(f"  [IG-PRIMARY] Scrape Creators API response: {response.text[:500]}...")
+            
             if response.status_code == 200:
                 data = response.json()
                 items = data.get("data", {}).get("items", []) if isinstance(data.get("data"), dict) else data.get("items", [])
