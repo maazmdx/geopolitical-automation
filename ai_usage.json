@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 365,
+  "total_calls": 369,
   "tiers": {
-    "groq": 347,
+    "groq": 351,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T09:15:10.318161+00:00",
-      "tier": "groq",
-      "article": "Daraa launches $7.8 million in service projects under \u201cAbshari Horan\u201d campaign"
-    },
-    {
-      "timestamp": "2026-03-08T09:15:28.541520+00:00",
-      "tier": "groq",
-      "article": "Qalibaf: Continuation of anti-Iran war will choke off oil sales, production in region - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-08T09:15:48.014146+00:00",
-      "tier": "groq",
-      "article": "Reinforcements for the Syrian Arab Army move toward deployment line east of Aleppo"
-    },
-    {
-      "timestamp": "2026-03-08T09:26:40.923647+00:00",
-      "tier": "groq",
-      "article": "Daraa launches $7.8 million in service projects under \u201cAbshari Horan\u201d campaign"
-    },
     {
       "timestamp": "2026-03-08T09:27:00.004054+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-09T20:48:44.984346+00:00",
       "tier": "groq",
       "article": "Anthropic sues Trump administration to undo US \u2018supply chain risk\u2019 tag"
+    },
+    {
+      "timestamp": "2026-03-09T22:34:36.206533+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters target a gathering of soldiers and military vehicles at the Israeli occupation site of Al-Abbad off Houla border town with a missile salvo: Statement 22 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-09T22:34:52.794123+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters target the Israeli occupation site of Menara off Houla border town with a missile salvo: Statement 21 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-09T22:35:09.010095+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters target the Israeli occupation site of Al-Abbad off Houla border town with a missile salvo: Statement 20 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-09T22:35:25.153576+00:00",
+      "tier": "groq",
+      "article": "MP Raad: Israeli Enemy Benefited from Lebanese Government Listlessness, Hezbollah Will Fight to Defend Nation - Al-Manar TV Lebanon"
     }
   ]
 }
