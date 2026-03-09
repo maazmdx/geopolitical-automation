@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 333,
+  "total_calls": 337,
   "tiers": {
-    "groq": 315,
+    "groq": 319,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T04:44:28.671261+00:00",
-      "tier": "groq",
-      "article": "Iran preparing for long-term war with enemy: Spox"
-    },
-    {
-      "timestamp": "2026-03-08T04:45:28.824127+00:00",
-      "tier": "groq",
-      "article": "Riyadh tries hard to limit scope of war: Arab media"
-    },
-    {
-      "timestamp": "2026-03-08T04:46:28.913512+00:00",
-      "tier": "groq",
-      "article": "How far will the Iran war spillover?"
-    },
-    {
-      "timestamp": "2026-03-08T05:30:24.160752+00:00",
-      "tier": "groq",
-      "article": "Flames engulf Kuwaiti high-rise amid Iranian drone strikes"
-    },
     {
       "timestamp": "2026-03-08T05:30:42.465023+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-09T08:53:36.036476+00:00",
       "tier": "groq",
       "article": "Israel unlawfully used white phosphorus in Lebanon: HRW"
+    },
+    {
+      "timestamp": "2026-03-09T10:52:27.102602+00:00",
+      "tier": "groq",
+      "article": "US Launching Missiles from Residential Areas of Neighboring Countries: Tehran - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-09T10:52:47.783163+00:00",
+      "tier": "groq",
+      "article": "Israeli Aggression Enters Second Week with Heavy Strikes on Beirut and Southern Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-09T10:53:12.816291+00:00",
+      "tier": "groq",
+      "article": "Iran says 1,255 people killed in US-Israeli attacks, mostly civilians"
+    },
+    {
+      "timestamp": "2026-03-09T10:53:29.669732+00:00",
+      "tier": "groq",
+      "article": "UAE releases video of Iranian drone interception"
     }
   ]
 }
