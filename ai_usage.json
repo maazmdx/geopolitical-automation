@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 325,
+  "total_calls": 329,
   "tiers": {
-    "groq": 307,
+    "groq": 311,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T02:11:29.151475+00:00",
-      "tier": "groq",
-      "article": "Zelenskyy offers Saudi Arabia\u2019s MBS help countering Iranian drones"
-    },
-    {
-      "timestamp": "2026-03-08T02:11:45.985914+00:00",
-      "tier": "groq",
-      "article": "More than 30 injured in nightclub bombing in northern Peru"
-    },
-    {
-      "timestamp": "2026-03-08T02:12:02.612366+00:00",
-      "tier": "groq",
-      "article": "\"Spring Sonata\" brings Syrian memory to Damascus stage"
-    },
-    {
-      "timestamp": "2026-03-08T04:24:35.624099+00:00",
-      "tier": "groq",
-      "article": "\u2018They\u2019re cancer\u2019: Trump threatens cartels, Cuba at Latin American summit"
-    },
     {
       "timestamp": "2026-03-08T04:24:52.951786+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-09T04:23:57.738335+00:00",
       "tier": "groq",
       "article": "Iran war: Oil prices jump above $100 for first time in four years"
+    },
+    {
+      "timestamp": "2026-03-09T07:08:08.487625+00:00",
+      "tier": "groq",
+      "article": "Pezeshkian, Aliyev discuss ties, latest war developments"
+    },
+    {
+      "timestamp": "2026-03-09T07:09:08.802784+00:00",
+      "tier": "groq",
+      "article": "Trump\u2019s threats to kill Iranians admission of crimes"
+    },
+    {
+      "timestamp": "2026-03-09T07:10:07.901968+00:00",
+      "tier": "groq",
+      "article": "Iran warns against continued attacks on energy infrastructure"
+    },
+    {
+      "timestamp": "2026-03-09T07:11:06.754163+00:00",
+      "tier": "groq",
+      "article": "Yemen to enter war with surprises: Military official"
     }
   ]
 }
