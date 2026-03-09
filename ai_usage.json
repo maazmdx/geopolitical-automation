@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 345,
+  "total_calls": 349,
   "tiers": {
-    "groq": 327,
+    "groq": 331,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T07:08:45.657527+00:00",
-      "tier": "groq",
-      "article": "\u2018You initiated war and Iran will end it\u2019"
-    },
-    {
-      "timestamp": "2026-03-08T07:09:45.380340+00:00",
-      "tier": "groq",
-      "article": "Iran friend to its neighbors: FM Araghchi"
-    },
-    {
-      "timestamp": "2026-03-08T07:10:44.605397+00:00",
-      "tier": "groq",
-      "article": "Reinforcements for the Syrian Arab Army move toward deployment line east of Aleppo"
-    },
-    {
-      "timestamp": "2026-03-08T07:52:07.314752+00:00",
-      "tier": "groq",
-      "article": "IRGC\u2019s Navy targets terrorist US chopper base with missiles"
-    },
     {
       "timestamp": "2026-03-08T07:53:06.582690+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-09T14:57:58.819832+00:00",
       "tier": "groq",
       "article": "Europe becoming arms powerhouse despite increased imports, says SIPRI"
+    },
+    {
+      "timestamp": "2026-03-09T16:16:45.394888+00:00",
+      "tier": "groq",
+      "article": "Israeli forces kill Palestinian journalist Amal Shamali in Gaza attack"
+    },
+    {
+      "timestamp": "2026-03-09T16:17:02.859163+00:00",
+      "tier": "groq",
+      "article": "Israeli media: Hezbollah used precision missiles in recent barrage toward \u201ccentral Israel\u201d - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-09T16:17:21.801092+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters directly hit an Israeli bulldozer and two vehicles on the southeastern outskirts of Markaba with guided missiles: Military Media statement 15 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-09T16:17:40.074956+00:00",
+      "tier": "groq",
+      "article": "Walid Khalidi, historian of the Palestinian cause, dies aged 100"
     }
   ]
 }
