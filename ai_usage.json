@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 413,
+  "total_calls": 417,
   "tiers": {
-    "groq": 395,
+    "groq": 399,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T21:26:16.773991+00:00",
-      "tier": "groq",
-      "article": "Marches for International Women\u2019s Day denounce war, abuse and oppression"
-    },
-    {
-      "timestamp": "2026-03-08T22:26:29.906658+00:00",
-      "tier": "groq",
-      "article": "In maps: Strikes across Iran and the Middle East"
-    },
-    {
-      "timestamp": "2026-03-08T22:26:48.884674+00:00",
-      "tier": "groq",
-      "article": "'Night turned into day': Iranians tell of strikes on oil depots"
-    },
-    {
-      "timestamp": "2026-03-08T22:27:09.968155+00:00",
-      "tier": "groq",
-      "article": "Who\u2019s in control in Iran and how will Gulf states react to attacks?"
-    },
     {
       "timestamp": "2026-03-08T22:27:27.216826+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-10T20:45:14.364686+00:00",
       "tier": "groq",
       "article": "Islamic Resistance fighters targeted Israeli enemy army vehicles and soldiers gathering in the settlements of Metula and Kfar Giladi on the Lebanese-Palestinian border with a barrage of rockets: Statement 28 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-10T22:38:45.370469+00:00",
+      "tier": "groq",
+      "article": "IRGC Announces New Hormuz Formula: Security in Region Either for All or for None - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-10T22:39:05.045837+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted the Al-Abbad site and its surroundings off the border town of Houla with high-quality missiles, achieving accurate and confirmed hits: Statement 27 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-10T22:39:22.418325+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted a gathering of Israeli enemy soldiers and vehicles at the newly established Hamames site, the Al-Ajal hill site, and the Fatima Gate on the Lebanese-Palestinian border with rocket salvos: Statement 29 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-10T22:39:39.268774+00:00",
+      "tier": "groq",
+      "article": "US civil rights group documents \u2018broad attack on Muslim life\u2019 in 2025"
     }
   ]
 }
