@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 369,
+  "total_calls": 373,
   "tiers": {
-    "groq": 351,
+    "groq": 355,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T09:27:00.004054+00:00",
-      "tier": "groq",
-      "article": "Qalibaf, Speaker of the Iranian Parliament: You are the ones who started the war, and we are the ones who will end it - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-08T09:27:19.856775+00:00",
-      "tier": "groq",
-      "article": "Reinforcements for the Syrian Arab Army move toward deployment line east of Aleppo"
-    },
-    {
-      "timestamp": "2026-03-08T09:27:37.545765+00:00",
-      "tier": "groq",
-      "article": "Trump encourages Latin American leaders to use military action to help US fight cartels"
-    },
-    {
-      "timestamp": "2026-03-08T09:54:50.639436+00:00",
-      "tier": "groq",
-      "article": "Iranian Ministry of Health: Since the start of the aggression, over 1,200 have been martyred and more than 10,000 civilians have been injured - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-08T09:55:12.304345+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-09T22:35:25.153576+00:00",
       "tier": "groq",
       "article": "MP Raad: Israeli Enemy Benefited from Lebanese Government Listlessness, Hezbollah Will Fight to Defend Nation - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-10T02:03:29.053143+00:00",
+      "tier": "groq",
+      "article": "Heavy missile fire from Lebanon and Iran targets \u2018Israel\u2019: media reports - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-10T02:03:46.452897+00:00",
+      "tier": "groq",
+      "article": "US blacklists Sudanese Muslim Brotherhood as \u2018terrorist\u2019 group"
+    },
+    {
+      "timestamp": "2026-03-10T02:04:02.646352+00:00",
+      "tier": "groq",
+      "article": "Prewar US intel found intervention in Iran wasn\u2019t likely to change leadership "
+    },
+    {
+      "timestamp": "2026-03-10T02:04:19.215672+00:00",
+      "tier": "groq",
+      "article": "Iran war may end \u2018pretty quickly\u2019: What Trump told Republicans"
     }
   ]
 }
