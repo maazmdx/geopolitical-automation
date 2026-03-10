@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 405,
+  "total_calls": 409,
   "tiers": {
-    "groq": 387,
+    "groq": 391,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T18:37:33.622718+00:00",
-      "tier": "groq",
-      "article": "Israeli, US Targets Attacked by Iranian Army Drones - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-08T18:37:53.828259+00:00",
-      "tier": "groq",
-      "article": "Two killed in Saudi Arabia after \u2018projectile\u2019 falls on residential building"
-    },
-    {
-      "timestamp": "2026-03-08T18:38:10.888597+00:00",
-      "tier": "groq",
-      "article": "US media outlets report evacuation of Kansas City International Airport triggered by bomb threat - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-08T19:25:33.916591+00:00",
-      "tier": "groq",
-      "article": "Zionist Kan Channel: Hezbollah has fired 400 missiles and drones at \u2018Israel\u2019 since it engaged in this war - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-08T19:25:53.759911+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-10T17:05:14.185520+00:00",
       "tier": "groq",
       "article": "Trump \u2018not happy\u2019 with choice of new Iranian leader, says talks with regime \u2018possible\u2019 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-10T19:01:19.542688+00:00",
+      "tier": "groq",
+      "article": "Huge explosions rock Doha as missile strike targets Al-Udeid US base: reports - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-10T19:01:36.305472+00:00",
+      "tier": "groq",
+      "article": "Moment \u2018Hezbollah missile\u2019 strikes Israeli radar station"
+    },
+    {
+      "timestamp": "2026-03-10T19:01:52.322295+00:00",
+      "tier": "groq",
+      "article": "WHO warns of health risks from \u2018black rain\u2019 in Iran"
+    },
+    {
+      "timestamp": "2026-03-10T19:02:08.273050+00:00",
+      "tier": "groq",
+      "article": "Canadian authorities investigating gunfire at US consulate in Toronto"
     }
   ]
 }
