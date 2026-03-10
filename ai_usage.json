@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 397,
+  "total_calls": 401,
   "tiers": {
-    "groq": 379,
+    "groq": 383,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T14:28:41.663857+00:00",
-      "tier": "groq",
-      "article": "Iran's advanced weapons to make enemies regretful"
-    },
-    {
-      "timestamp": "2026-03-08T14:29:41.756456+00:00",
-      "tier": "groq",
-      "article": "Pope Leo urges dialogue amid Middle East war"
-    },
-    {
-      "timestamp": "2026-03-08T14:29:59.211478+00:00",
-      "tier": "groq",
-      "article": "Iran\u2019s defensive op. target only origin of aggression: Envoy"
-    },
-    {
-      "timestamp": "2026-03-08T14:52:26.654779+00:00",
-      "tier": "groq",
-      "article": "Blast at US Embassy in Oslo may have terror motive, Norway police say"
-    },
     {
       "timestamp": "2026-03-08T14:52:44.311232+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-10T13:10:57.899802+00:00",
       "tier": "groq",
       "article": "IRGC shoots down Heron TP drone in suburbs of Tehran"
+    },
+    {
+      "timestamp": "2026-03-10T14:55:14.371169+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Strikes Israeli Depth, Hunts Down Enemy Soldiers and Tanks - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-10T14:55:32.758990+00:00",
+      "tier": "groq",
+      "article": "Iran to face \u2018most intense day of strikes,\u2019 Hegseth says"
+    },
+    {
+      "timestamp": "2026-03-10T14:55:48.876019+00:00",
+      "tier": "groq",
+      "article": "Israeli media: New Iranian missile launch detected, sirens set to sound in north - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-10T14:56:05.925116+00:00",
+      "tier": "groq",
+      "article": "Walk down Beirut street shows destruction after Israeli bombing"
     }
   ]
 }
