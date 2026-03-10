@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 381,
+  "total_calls": 385,
   "tiers": {
-    "groq": 363,
+    "groq": 367,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T10:53:39.836850+00:00",
-      "tier": "groq",
-      "article": "Smoke rises over Beirut after Israeli strike on Raouche building"
-    },
-    {
-      "timestamp": "2026-03-08T10:53:56.889888+00:00",
-      "tier": "groq",
-      "article": "Bahrain says water desalination plant damaged in Iranian drone attack"
-    },
-    {
-      "timestamp": "2026-03-08T10:54:14.033713+00:00",
-      "tier": "groq",
-      "article": "US, Israel bases in region our targets: Khatam al-Anbia Base\u00a0"
-    },
-    {
-      "timestamp": "2026-03-08T11:23:22.255789+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Drone Strike Hits Kiryat Shmona Following Evacuation Warning - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-08T11:23:45.391296+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-10T05:15:08.460611+00:00",
       "tier": "groq",
       "article": "Iran Army targets Israeli, American positions with drones"
+    },
+    {
+      "timestamp": "2026-03-10T06:57:23.294001+00:00",
+      "tier": "groq",
+      "article": "Woman killed in Bahrain as Gulf states intercept more Iranian missiles"
+    },
+    {
+      "timestamp": "2026-03-10T06:57:39.597672+00:00",
+      "tier": "groq",
+      "article": "IRGC downs two more MQ-9 drones"
+    },
+    {
+      "timestamp": "2026-03-10T06:58:36.777634+00:00",
+      "tier": "groq",
+      "article": "US consumers express dismay over rising gas prices after attack on Iran"
+    },
+    {
+      "timestamp": "2026-03-10T06:58:53.090530+00:00",
+      "tier": "groq",
+      "article": "Trump says some sanctions to be lifted on oil producers amid Iran war"
     }
   ]
 }
