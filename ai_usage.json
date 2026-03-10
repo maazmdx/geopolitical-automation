@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 393,
+  "total_calls": 397,
   "tiers": {
-    "groq": 375,
+    "groq": 379,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-08T13:51:00.644414+00:00",
-      "tier": "groq",
-      "article": "Israeli Channel 15: Two soldiers were killed overnight by Hezbollah missile fire at a D9 bulldozer - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-08T13:51:19.365691+00:00",
-      "tier": "groq",
-      "article": "Israeli settlers kill two Palestinians in occupied West Bank"
-    },
-    {
-      "timestamp": "2026-03-08T13:51:37.798030+00:00",
-      "tier": "groq",
-      "article": "Al Jazeera reporter boards first flight to Doha since war on Iran"
-    },
-    {
-      "timestamp": "2026-03-08T14:27:39.437505+00:00",
-      "tier": "groq",
-      "article": "Iran destroys 4 advanced THAAD radars"
-    },
     {
       "timestamp": "2026-03-08T14:28:41.663857+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-10T10:46:06.730162+00:00",
       "tier": "groq",
       "article": "IRGC destroys Tel Aviv Satellite Communications Center\u00a0"
+    },
+    {
+      "timestamp": "2026-03-10T13:10:07.748220+00:00",
+      "tier": "groq",
+      "article": "Iranian missile strikes central Israel amid escalating attacks"
+    },
+    {
+      "timestamp": "2026-03-10T13:10:24.490086+00:00",
+      "tier": "groq",
+      "article": "Lebanese Army soldier injured as Israeli drone strikes his motorcycle in the southern town of Bara\u2019asheet: Al-Manar correspondent - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-10T13:10:41.825132+00:00",
+      "tier": "groq",
+      "article": "Hundreds killed in Haiti drone strikes, including 60 civilians: Report"
+    },
+    {
+      "timestamp": "2026-03-10T13:10:57.899802+00:00",
+      "tier": "groq",
+      "article": "IRGC shoots down Heron TP drone in suburbs of Tehran"
     }
   ]
 }
