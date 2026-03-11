@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 457,
+  "total_calls": 461,
   "tiers": {
-    "groq": 439,
+    "groq": 443,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-09T18:59:53.371468+00:00",
-      "tier": "groq",
-      "article": "US military kills six in strike on alleged drug boat in the Eastern Pacific"
-    },
-    {
-      "timestamp": "2026-03-09T19:00:09.857297+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted the satellite communications station belonging to the Cyber \u200b\u200bDefense and Communications Division of the Israeli enemy army in the Ella Valley in central occupied Palestine, 160 km away from the Lebanese border, with a barrage of sophisticated missiles: Statement 17 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-09T19:00:27.398783+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted the Ramla base (Home Front Command base), located southeast of Tel Aviv and 135 km from the Lebanese-Palestinian border, with a barrage of sophisticated missiles: Statement 18 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-09T19:00:44.208292+00:00",
-      "tier": "groq",
-      "article": "Head of Hezbollah parliamentary bloc Hajj Mohammad Raad: Israeli enemy has never observed the ceasefire concluded in 2024 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-09T20:47:56.622052+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-11T20:44:59.300265+00:00",
       "tier": "groq",
       "article": "UK court rejects bid to reinstate \u2018terrorism\u2019 charge against Kneecap rapper"
+    },
+    {
+      "timestamp": "2026-03-11T22:34:21.770377+00:00",
+      "tier": "groq",
+      "article": "How Trump has addressed the deadly Iran school bombing"
+    },
+    {
+      "timestamp": "2026-03-11T22:34:38.166520+00:00",
+      "tier": "groq",
+      "article": "Israeli media: Hezbollah launched over 150 missiles and 30 drones towards \u2018Israel\u2019 during the 3 past hours - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-11T22:34:56.279270+00:00",
+      "tier": "groq",
+      "article": "Oil facilities in Oman\u2019s Salalah port ablaze after drone strikes"
+    },
+    {
+      "timestamp": "2026-03-11T22:35:20.827740+00:00",
+      "tier": "groq",
+      "article": "What\u2019s left in Iran \u2018could be taken out in an hour\u2019, says Trump"
     }
   ]
 }
