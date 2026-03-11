@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 425,
+  "total_calls": 429,
   "tiers": {
-    "groq": 407,
+    "groq": 411,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-09T07:08:08.487625+00:00",
-      "tier": "groq",
-      "article": "Pezeshkian, Aliyev discuss ties, latest war developments"
-    },
-    {
-      "timestamp": "2026-03-09T07:09:08.802784+00:00",
-      "tier": "groq",
-      "article": "Trump\u2019s threats to kill Iranians admission of crimes"
-    },
-    {
-      "timestamp": "2026-03-09T07:10:07.901968+00:00",
-      "tier": "groq",
-      "article": "Iran warns against continued attacks on energy infrastructure"
-    },
-    {
-      "timestamp": "2026-03-09T07:11:06.754163+00:00",
-      "tier": "groq",
-      "article": "Yemen to enter war with surprises: Military official"
-    },
     {
       "timestamp": "2026-03-09T08:52:41.484824+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-11T05:21:39.110191+00:00",
       "tier": "groq",
       "article": "1,255 people martyred in US-Israeli aggression on Iran"
+    },
+    {
+      "timestamp": "2026-03-11T07:04:46.830679+00:00",
+      "tier": "groq",
+      "article": "Iran war: What is happening on day 12 of US-Israel attacks?"
+    },
+    {
+      "timestamp": "2026-03-11T07:05:03.319763+00:00",
+      "tier": "groq",
+      "article": "An intercepted drone burns and falls over Erbil in Iraq"
+    },
+    {
+      "timestamp": "2026-03-11T07:05:19.381403+00:00",
+      "tier": "groq",
+      "article": "Iran warns US, Israel against attacking civilian areas"
+    },
+    {
+      "timestamp": "2026-03-11T07:06:16.836820+00:00",
+      "tier": "groq",
+      "article": "Qatar warns Gulf security is tied to global stability"
     }
   ]
 }
