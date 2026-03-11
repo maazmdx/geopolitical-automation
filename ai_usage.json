@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 421,
+  "total_calls": 425,
   "tiers": {
-    "groq": 403,
+    "groq": 407,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-09T01:52:11.743458+00:00",
-      "tier": "groq",
-      "article": "Iranian ballistic and cluster missiles hit Tel Aviv, cause major blackout in suburbs - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-09T01:52:31.424147+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance targets with artillery shells Zionist occupation forces attempting to advance towards Aitaroun and Adaisseh border towns, South Lebanon: statements - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-09T04:22:55.309740+00:00",
-      "tier": "groq",
-      "article": "Iran Army shoots down another Israeli Hermes drone"
-    },
-    {
-      "timestamp": "2026-03-09T04:23:57.738335+00:00",
-      "tier": "groq",
-      "article": "Iran war: Oil prices jump above $100 for first time in four years"
-    },
     {
       "timestamp": "2026-03-09T07:08:08.487625+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-11T02:29:00.581344+00:00",
       "tier": "groq",
       "article": "Russian attack kills four in Ukraine\u2019s Sloviansk as both sides claim gains"
+    },
+    {
+      "timestamp": "2026-03-11T05:18:44.222141+00:00",
+      "tier": "groq",
+      "article": "No projectile fired from Iran towards Turkey"
+    },
+    {
+      "timestamp": "2026-03-11T05:19:44.310196+00:00",
+      "tier": "groq",
+      "article": "Different missiles used in 35th wave of True Promise 4 Op.\u00a0"
+    },
+    {
+      "timestamp": "2026-03-11T05:20:41.709781+00:00",
+      "tier": "groq",
+      "article": "US army base in Iraqi Kurdistan shelled with missiles\u00a0"
+    },
+    {
+      "timestamp": "2026-03-11T05:21:39.110191+00:00",
+      "tier": "groq",
+      "article": "1,255 people martyred in US-Israeli aggression on Iran"
     }
   ]
 }
