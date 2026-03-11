@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 445,
+  "total_calls": 449,
   "tiers": {
-    "groq": 427,
+    "groq": 431,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-09T16:16:45.394888+00:00",
-      "tier": "groq",
-      "article": "Israeli forces kill Palestinian journalist Amal Shamali in Gaza attack"
-    },
-    {
-      "timestamp": "2026-03-09T16:17:02.859163+00:00",
-      "tier": "groq",
-      "article": "Israeli media: Hezbollah used precision missiles in recent barrage toward \u201ccentral Israel\u201d - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-09T16:17:21.801092+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters directly hit an Israeli bulldozer and two vehicles on the southeastern outskirts of Markaba with guided missiles: Military Media statement 15 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-09T16:17:40.074956+00:00",
-      "tier": "groq",
-      "article": "Walid Khalidi, historian of the Palestinian cause, dies aged 100"
-    },
     {
       "timestamp": "2026-03-09T16:40:27.094585+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-11T14:57:50.517622+00:00",
       "tier": "groq",
       "article": "4 day week, fewer car trips in Philippines as Iran fallout bites"
+    },
+    {
+      "timestamp": "2026-03-11T17:03:28.325707+00:00",
+      "tier": "groq",
+      "article": "EU and UK demand Israel stop surge in West Bank settler violence"
+    },
+    {
+      "timestamp": "2026-03-11T17:03:44.558581+00:00",
+      "tier": "groq",
+      "article": "'Even under missiles we carry on living' - how young Iranians are coping with war"
+    },
+    {
+      "timestamp": "2026-03-11T17:04:00.665082+00:00",
+      "tier": "groq",
+      "article": "Israeli enemy renews threat to strike Beirut\u2019s Dahieh - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-11T17:04:18.463430+00:00",
+      "tier": "groq",
+      "article": "UK bans Al-Quds Day march in London, prompting backlash from organisers"
     }
   ]
 }
