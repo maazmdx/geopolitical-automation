@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 449,
+  "total_calls": 453,
   "tiers": {
-    "groq": 431,
+    "groq": 435,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-09T16:40:27.094585+00:00",
-      "tier": "groq",
-      "article": "NATO defenses shoot down ballistic missile in Turkey"
-    },
-    {
-      "timestamp": "2026-03-09T16:40:43.035303+00:00",
-      "tier": "groq",
-      "article": "Turkiye says Iranian ballistic missile intercepted by NATO air defences"
-    },
-    {
-      "timestamp": "2026-03-09T16:40:58.964560+00:00",
-      "tier": "groq",
-      "article": "Israeli media: Hezbollah-fired missiles hit \u201cTel Aviv\u201d - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-09T16:41:17.085219+00:00",
-      "tier": "groq",
-      "article": "Iranians deeply divided over Mojtaba Khamenei's rise to power"
-    },
     {
       "timestamp": "2026-03-09T16:58:09.121843+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-11T17:04:18.463430+00:00",
       "tier": "groq",
       "article": "UK bans Al-Quds Day march in London, prompting backlash from organisers"
+    },
+    {
+      "timestamp": "2026-03-11T19:07:19.522309+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Fighters Strike Gatherings of Israeli Occupation Soldiers in Lebanese-Palestinian Border Area - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-11T19:07:41.761080+00:00",
+      "tier": "groq",
+      "article": "Iran war may force US to shift missile defenses from South Korea, Seoul says"
+    },
+    {
+      "timestamp": "2026-03-11T19:07:57.975851+00:00",
+      "tier": "groq",
+      "article": "Ship crew film drone strike on oil facility at Oman\u2019s Salalah port"
+    },
+    {
+      "timestamp": "2026-03-11T19:08:14.199380+00:00",
+      "tier": "groq",
+      "article": "Could the US deploy troops to Iran, and how could that play out?"
     }
   ]
 }
