@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 453,
+  "total_calls": 457,
   "tiers": {
-    "groq": 435,
+    "groq": 439,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-09T16:58:09.121843+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted the settlement of Nahariya in northern occupied Palestine with a rocket barrage: Military Media statement 13 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-09T16:58:26.229999+00:00",
-      "tier": "groq",
-      "article": "What defence support could Ukraine offer Middle East states amid Iran war?"
-    },
-    {
-      "timestamp": "2026-03-09T16:58:42.526820+00:00",
-      "tier": "groq",
-      "article": "Bangladesh closes universities due to Iran war energy crisis"
-    },
-    {
-      "timestamp": "2026-03-09T16:58:58.799505+00:00",
-      "tier": "groq",
-      "article": "Iran\u2019s authorities showcase continuity as they back new leader during war"
-    },
     {
       "timestamp": "2026-03-09T18:59:53.371468+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-11T19:08:14.199380+00:00",
       "tier": "groq",
       "article": "Could the US deploy troops to Iran, and how could that play out?"
+    },
+    {
+      "timestamp": "2026-03-11T20:44:09.551227+00:00",
+      "tier": "groq",
+      "article": "UN\u2019s failure to stop Iranian attacks sending \u2018dangerous signal\u2019: Qatar"
+    },
+    {
+      "timestamp": "2026-03-11T20:44:25.750622+00:00",
+      "tier": "groq",
+      "article": "As part of the \u201cEaten Straw\u201d operations, the Islamic Resistance fighters targeted, at 19:40 on Wednesday, the Israeli settlements, already warned to evacuate within 5-km area from the Lebanese borders, with dozens of missiles: statement 8 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-11T20:44:43.250731+00:00",
+      "tier": "groq",
+      "article": "The hidden battlefield: Censorship in the Israel\u2013Iran war"
+    },
+    {
+      "timestamp": "2026-03-11T20:44:59.300265+00:00",
+      "tier": "groq",
+      "article": "UK court rejects bid to reinstate \u2018terrorism\u2019 charge against Kneecap rapper"
     }
   ]
 }
