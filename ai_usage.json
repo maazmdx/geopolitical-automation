@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 485,
+  "total_calls": 489,
   "tiers": {
-    "groq": 467,
+    "groq": 471,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-10T08:51:33.057359+00:00",
-      "tier": "groq",
-      "article": "Iran Army strikes Haifa refinery, fuel depots with drones"
-    },
-    {
-      "timestamp": "2026-03-10T08:52:30.048006+00:00",
-      "tier": "groq",
-      "article": "Strikes shake Iran as crowds rally in support of Mojtaba Khamenei"
-    },
-    {
-      "timestamp": "2026-03-10T08:52:46.134965+00:00",
-      "tier": "groq",
-      "article": "Israeli dies from his wounds following Monday missile attack on central \u2018Israel\u2019: Hebrew media - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-10T08:53:02.982533+00:00",
-      "tier": "groq",
-      "article": "GPS jamming: The invisible battle in the Middle East"
-    },
     {
       "timestamp": "2026-03-10T10:44:36.968520+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-12T13:14:36.648475+00:00",
       "tier": "groq",
       "article": "Iran\u2019s Army Force cmdr. vows to defend country with all might"
+    },
+    {
+      "timestamp": "2026-03-12T14:59:23.831849+00:00",
+      "tier": "groq",
+      "article": "Israeli attack hits civilians at Beirut beachfront: What we know"
+    },
+    {
+      "timestamp": "2026-03-12T14:59:39.962022+00:00",
+      "tier": "groq",
+      "article": "Up to 3.2 million people displaced across Iran amid US-Israeli attacks: UN"
+    },
+    {
+      "timestamp": "2026-03-12T14:59:56.189182+00:00",
+      "tier": "groq",
+      "article": "Israel pounds Beirut suburbs after Hezbollah launches rocket barrage"
+    },
+    {
+      "timestamp": "2026-03-12T15:00:12.294685+00:00",
+      "tier": "groq",
+      "article": "Dubai high-rise building damaged in overnight drone hit"
     }
   ]
 }
