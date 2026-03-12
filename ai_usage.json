@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 469,
+  "total_calls": 473,
   "tiers": {
-    "groq": 451,
+    "groq": 455,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-10T02:03:29.053143+00:00",
-      "tier": "groq",
-      "article": "Heavy missile fire from Lebanon and Iran targets \u2018Israel\u2019: media reports - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-10T02:03:46.452897+00:00",
-      "tier": "groq",
-      "article": "US blacklists Sudanese Muslim Brotherhood as \u2018terrorist\u2019 group"
-    },
-    {
-      "timestamp": "2026-03-10T02:04:02.646352+00:00",
-      "tier": "groq",
-      "article": "Prewar US intel found intervention in Iran wasn\u2019t likely to change leadership "
-    },
-    {
-      "timestamp": "2026-03-10T02:04:19.215672+00:00",
-      "tier": "groq",
-      "article": "Iran war may end \u2018pretty quickly\u2019: What Trump told Republicans"
-    },
     {
       "timestamp": "2026-03-10T02:24:32.863226+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-12T05:24:12.944543+00:00",
       "tier": "groq",
       "article": "Powerful Iranian Armed Forces punishing Israel: FM Araghchi\u00a0"
+    },
+    {
+      "timestamp": "2026-03-12T07:06:36.942787+00:00",
+      "tier": "groq",
+      "article": "Iran targets Gulf nations with missiles, drones as oil prices soar"
+    },
+    {
+      "timestamp": "2026-03-12T07:06:53.166751+00:00",
+      "tier": "groq",
+      "article": "Students among 17 dead in RSF drone attack in Sudan\u2019s White Nile State"
+    },
+    {
+      "timestamp": "2026-03-12T07:07:09.251346+00:00",
+      "tier": "groq",
+      "article": "Who bombed the Iranian girls\u2019 school, killing more than 170? What we know"
+    },
+    {
+      "timestamp": "2026-03-12T07:07:25.453109+00:00",
+      "tier": "groq",
+      "article": "Vessels linked to aggressors not allowed cross Hormuz Strait"
     }
   ]
 }
