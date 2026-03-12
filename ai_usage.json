@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 493,
+  "total_calls": 497,
   "tiers": {
-    "groq": 475,
+    "groq": 479,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-10T13:10:07.748220+00:00",
-      "tier": "groq",
-      "article": "Iranian missile strikes central Israel amid escalating attacks"
-    },
-    {
-      "timestamp": "2026-03-10T13:10:24.490086+00:00",
-      "tier": "groq",
-      "article": "Lebanese Army soldier injured as Israeli drone strikes his motorcycle in the southern town of Bara\u2019asheet: Al-Manar correspondent - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-10T13:10:41.825132+00:00",
-      "tier": "groq",
-      "article": "Hundreds killed in Haiti drone strikes, including 60 civilians: Report"
-    },
-    {
-      "timestamp": "2026-03-10T13:10:57.899802+00:00",
-      "tier": "groq",
-      "article": "IRGC shoots down Heron TP drone in suburbs of Tehran"
-    },
     {
       "timestamp": "2026-03-10T14:55:14.371169+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-12T17:07:55.623713+00:00",
       "tier": "groq",
       "article": "Nations withdraw some equipment from NATO Arctic exercise amid Iran fallout"
+    },
+    {
+      "timestamp": "2026-03-12T19:39:49.979873+00:00",
+      "tier": "groq",
+      "article": "Israel attacks central Beirut in escalation of deadly assault on Lebanon"
+    },
+    {
+      "timestamp": "2026-03-12T19:40:06.306655+00:00",
+      "tier": "groq",
+      "article": "As part of the warning issued by the Islamic Resistance to the occupied city of Nahariya in northern occupied Palestine, Islamic Resistance fighters targeted it at 3:15 PM on Thursday, March 12, 2026, with a barrage of sophisticated missiles: Statement 18 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-12T19:40:23.314724+00:00",
+      "tier": "groq",
+      "article": "Questions mount for Hegseth over possible US involvement in strike on Iranian school"
+    },
+    {
+      "timestamp": "2026-03-12T19:40:39.475642+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s Mojtaba Khamenei vows to fight in first statement as supreme leader"
     }
   ]
 }
