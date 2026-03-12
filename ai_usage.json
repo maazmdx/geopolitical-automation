@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 461,
+  "total_calls": 465,
   "tiers": {
-    "groq": 443,
+    "groq": 447,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-09T20:47:56.622052+00:00",
-      "tier": "groq",
-      "article": "What is the US endgame in Iran, as the war escalates?"
-    },
-    {
-      "timestamp": "2026-03-09T20:48:12.610421+00:00",
-      "tier": "groq",
-      "article": "Why Israel\u2019s war on Hezbollah keeps returning"
-    },
-    {
-      "timestamp": "2026-03-09T20:48:28.879834+00:00",
-      "tier": "groq",
-      "article": "US B-1B Lancers arrive at RAF Fairford as strikes on Iran intensify "
-    },
-    {
-      "timestamp": "2026-03-09T20:48:44.984346+00:00",
-      "tier": "groq",
-      "article": "Anthropic sues Trump administration to undo US \u2018supply chain risk\u2019 tag"
-    },
     {
       "timestamp": "2026-03-09T22:34:36.206533+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-11T22:35:20.827740+00:00",
       "tier": "groq",
       "article": "What\u2019s left in Iran \u2018could be taken out in an hour\u2019, says Trump"
+    },
+    {
+      "timestamp": "2026-03-12T02:34:07.872803+00:00",
+      "tier": "groq",
+      "article": "Iran-linked hackers hit medical giant Stryker in retaliatory cyberattack"
+    },
+    {
+      "timestamp": "2026-03-12T02:34:24.218330+00:00",
+      "tier": "groq",
+      "article": "Israeli strike hits Beirut waterfront near tents of displaced"
+    },
+    {
+      "timestamp": "2026-03-12T02:34:40.421511+00:00",
+      "tier": "groq",
+      "article": "Qatar PM urges resilience and unity amid Iran strikes"
+    },
+    {
+      "timestamp": "2026-03-12T02:34:56.951049+00:00",
+      "tier": "groq",
+      "article": "Six die in Swiss bus fire after man thought to have set himself alight"
     }
   ]
 }
