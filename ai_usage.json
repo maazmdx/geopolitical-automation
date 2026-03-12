@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 497,
+  "total_calls": 501,
   "tiers": {
-    "groq": 479,
+    "groq": 483,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-10T14:55:14.371169+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Strikes Israeli Depth, Hunts Down Enemy Soldiers and Tanks - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-10T14:55:32.758990+00:00",
-      "tier": "groq",
-      "article": "Iran to face \u2018most intense day of strikes,\u2019 Hegseth says"
-    },
-    {
-      "timestamp": "2026-03-10T14:55:48.876019+00:00",
-      "tier": "groq",
-      "article": "Israeli media: New Iranian missile launch detected, sirens set to sound in north - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-10T14:56:05.925116+00:00",
-      "tier": "groq",
-      "article": "Walk down Beirut street shows destruction after Israeli bombing"
-    },
     {
       "timestamp": "2026-03-10T17:04:25.592238+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-12T19:40:39.475642+00:00",
       "tier": "groq",
       "article": "Iran\u2019s Mojtaba Khamenei vows to fight in first statement as supreme leader"
+    },
+    {
+      "timestamp": "2026-03-12T20:45:40.040634+00:00",
+      "tier": "groq",
+      "article": "Emirati minister tells BBC Iran must end strikes on Gulf"
+    },
+    {
+      "timestamp": "2026-03-12T20:45:56.387427+00:00",
+      "tier": "groq",
+      "article": "Assailant dead after vehicle ramming, gunfire at Michigan synagogue in US"
+    },
+    {
+      "timestamp": "2026-03-12T20:46:12.569636+00:00",
+      "tier": "groq",
+      "article": "Israeli media: Hezbollah, Iran fire missiles at \u2018Israel\u2019 simultaneously with Netanyahu\u2019s speech - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-12T20:46:31.213635+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted a gathering of Israeli enemy army soldiers at Al-Khazan Hill in the town of Al-Adaisseh on the Lebanese-Palestinian border with a rocket barrage: Statement 20 - Al-Manar TV Lebanon"
     }
   ]
 }

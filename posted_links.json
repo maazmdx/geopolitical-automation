@@ -1,4 +1,34 @@
 {
+  "545e8bb90de2728915aa6f79741ff53295c8146528be3cb11fa71428f069205e": {
+    "url": "QudsNen/213611",
+    "title": "ISRAEL STRIKES BACK! Flames engulf Beirut as Israeli forces unleash fury on Hay Al-Sellom suburb.",
+    "published": "2026-03-12T20:48:18.219467+00:00"
+  },
+  "5b647d991b65afa275951993e55c537dacf4664c455240cea56319ae332e0fd1": {
+    "url": "QudsNen/213618",
+    "title": "Iran on fire. US-Israeli special forces take the fight to the enemy.",
+    "published": "2026-03-12T20:47:53.688514+00:00"
+  },
+  "2a14bb4b960ba59da332d885163ff0d1e66cdd72abcf3bed872eb0137bd60211": {
+    "url": "QudsNen/213620",
+    "title": "LEBANON UNDER FIRE: Israeli airstrike rips through Nabatieh al-Fawqa, civilians caught in the crossfire #IsraeliAirstrike #Lebanon",
+    "published": "2026-03-12T20:46:53.982971+00:00"
+  },
+  "9ab527f91badaf39785e33cd04bc8e0d3c724ca52c1dc0c4f510e519f8da9340": {
+    "url": "thecradlemedia/54030",
+    "title": "BOOM! Israeli drones take out Iranian forces in Tehran. The war just got real!",
+    "published": "2026-03-12T20:46:35.926573+00:00"
+  },
+  "da0b8feabfa2f1b69d3ed24b880c885f0a636a0faa4439956603e10efe7475fd": {
+    "url": "thecradlemedia/54032",
+    "title": "UN Betrayal: US-backed resolution ignores Iran's right to self-defense, Russia exposes the truth!",
+    "published": "2026-03-12T20:46:35.190969+00:00"
+  },
+  "6d0dd2f131ca8f7511b516b26cd0508513fc765207dd032a109b8c02865b3bfc": {
+    "url": "https://www.bbc.com/news/articles/cy8lzn2ejpjo?at_medium=RSS&at_campaign=rss",
+    "title": "Emirati minister tells BBC Iran must end strikes on Gulf",
+    "published": "2026-03-12T20:20:50+00:00"
+  },
   "9f8db04d85cc0299163c5dbc826d7fbd8810edcad4d37c06916326d263091aae": {
     "url": "warmonitors/42064",
     "title": "LUCAS drone: The clone that packs a punch #militarymight #dronepower",
@@ -8,6 +38,11 @@
     "url": "DDGeopolitics/177334",
     "title": "Holy War Alert: Hezbollah drops Quran bombshell, Night of Decree sparks holy fury!",
     "published": "2026-03-12T19:43:59.050598+00:00"
+  },
+  "aa0ad6d3c5765fd9a2091b029077b752925df43dfcdc271d55dd6ff2b41b0bf7": {
+    "url": "https://english.almanar.com.lb/article/35187/",
+    "title": "Israeli media: Hezbollah, Iran fire missiles at \u2018Israel\u2019 simultaneously with Netanyahu\u2019s speech - Al-Manar TV Lebanon",
+    "published": "2026-03-12T19:43:20+00:00"
   },
   "c78e5ece6e8ddcc7008baa6fd272cd919f06f52628adb83bab7b8afe4928853d": {
     "url": "QudsNen/213603",
@@ -24,10 +59,20 @@
     "title": "JUSTICE DENIED. Israel's military drops charges on soldiers who brutally raped a Palestinian detainee. #JusticeForPalestine #WarCrimes",
     "published": "2026-03-12T19:40:42.585804+00:00"
   },
+  "24e4b9a7701f1ea28e77d82b6585a7d29287338f703b48876159408fd97856fc": {
+    "url": "https://english.almanar.com.lb/article/35152/",
+    "title": "Islamic Resistance fighters targeted a gathering of Israeli enemy army soldiers at Al-Khazan Hill in the town of Al-Adaisseh on the Lebanese-Palestinian border with a rocket barrage: Statement 20 - Al-Manar TV Lebanon",
+    "published": "2026-03-12T19:03:40+00:00"
+  },
   "2496ca84d8dc7f650b205c11769322616f9255fe14fdf064798571ed5235f213": {
     "url": "https://english.almanar.com.lb/article/35132/",
     "title": "As part of the warning issued by the Islamic Resistance to the occupied city of Nahariya in northern occupied Palestine, Islamic Resistance fighters targeted it at 3:15 PM on Thursday, March 12, 2026, with a barrage of sophisticated missiles: Statement 18 - Al-Manar TV Lebanon",
     "published": "2026-03-12T18:58:21+00:00"
+  },
+  "0aa4b040b392d03d20ea97e80ded781767fb7b1f27521c9fda6192bab09bec1d": {
+    "url": "https://www.aljazeera.com/news/2026/3/12/fbi-reports-active-shooter-situation-at-detroit-area-synagogue-in-the-us?traffic_source=rss",
+    "title": "Assailant dead after vehicle ramming, gunfire at Michigan synagogue in US",
+    "published": "2026-03-12T18:02:19+00:00"
   },
   "9d60d4b70a0e931171553166567c29fed45b52758034b9d65918476b70b9ca8b": {
     "url": "https://www.aljazeera.com/news/2026/3/12/israel-attacks-central-beirut-in-escalation-of-deadly-assault-on-lebanon?traffic_source=rss",
@@ -703,50 +748,5 @@
     "url": "QudsNen/213311",
     "title": "TAKING BACK THE LAND! Israeli settlers assert control over Mount Ebal, marking a major milestone in the fight for territory.",
     "published": "2026-03-11T09:04:52.464501+00:00"
-  },
-  "0fd3f07f3b61936931ceaae14261a2f40f0f5d20c27eb9cdc69a27419af729a3": {
-    "url": "https://www.aljazeera.com/news/2026/3/11/russia-kills-two-in-ukraines-kharkiv-war-grinds-on-focus-on-middle-east?traffic_source=rss",
-    "title": "Russia kills two in Ukraine\u2019s Kharkiv; war grinds on, focus on Middle East",
-    "published": "2026-03-11T09:03:16+00:00"
-  },
-  "aa927c9e5fe86ae696359b5b9af7f7b42999fbad582dd73da4bfaf1e845d61bf": {
-    "url": "https://en.mehrnews.com/news/242528/Powerful-Iranian-Armed-Forces-punishing-Israel-FM-Araghchi",
-    "title": "Powerful Iranian Armed Forces punishing Israel: FM Araghchi\u00a0",
-    "published": "2026-03-11T08:59:17+00:00"
-  },
-  "8f959e2e71f55d0ae9cce0c4846117ca4b802db40379302ed92866b13ae604e0": {
-    "url": "QudsNen/213313",
-    "title": "LEBANON ON FIRE! Israeli airstrikes rip through Tamnin El Tahta, claiming 10 lives and leaving destruction in its wake.",
-    "published": "2026-03-11T08:54:28.833825+00:00"
-  },
-  "b1254a63546388a7f93a83620a4b153d7d6d610b0daaeb0b21cad1ee034b7291": {
-    "url": "QudsNen/213319",
-    "title": "DEATH FROM ABOVE: Israeli airstrikes rip through Tamnine, Lebanon, killing dozens of innocent Syrian civilians. #Israel #Lebanon #War",
-    "published": "2026-03-11T08:54:27.852266+00:00"
-  },
-  "654478b7f7aa4db07282e777ed6d8ff973e02a96129a0f22d878309d62cae56a": {
-    "url": "thecradlemedia/53759",
-    "title": "IRAN'S DEADLY SECRET EXPOSED! Watch as a fragmentation missile is caught on camera in the West Bank.",
-    "published": "2026-03-11T08:54:24.553951+00:00"
-  },
-  "81a2d2f5a6dc9c23d668979534ffce87b70f7e28085f020b1f157a3f9587246a": {
-    "url": "https://english.almanar.com.lb/article/34092/",
-    "title": "Islamic Resistance in Iraq says carried out 4 operations against US bases in Iraq and abroad in last 24 hours - Al-Manar TV Lebanon",
-    "published": "2026-03-11T08:53:51+00:00"
-  },
-  "fbe50699c681d3ad04bd9a73f9fdf117e55f808b4f258a04b9b2a1f6be239fe8": {
-    "url": "https://english.almanar.com.lb/article/34117/",
-    "title": "Israeli enemy issues new evacuation threat to residents of several towns in Tyre district in south Lebanon and to residents of Haret Hreik and Burj Al-Barajneh in Beirut\u2019s Dahiyeh - Al-Manar TV Lebanon",
-    "published": "2026-03-11T08:48:22+00:00"
-  },
-  "d2103fb35b74c50ac42937846d7b20fc8898f4addfbb1c24f648a6b651a85d1a": {
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/3/11/al-jazeera-reports-from-israeli-bombing-of-beirut-apartment-block?traffic_source=rss",
-    "title": "Al Jazeera reports from Israeli bombing of Beirut apartment block",
-    "published": "2026-03-11T07:52:49+00:00"
-  },
-  "131de723619845e9307eb1ea60d0ac63086d4cee66375bd82cb362eeb468cb25": {
-    "url": "https://www.aljazeera.com/news/2026/3/11/israel-continues-to-pound-lebanon-hits-dense-area-of-central-beirut?traffic_source=rss",
-    "title": "Israel pounds Lebanon, targets residential building in central Beirut",
-    "published": "2026-03-11T07:22:14+00:00"
   }
 }
