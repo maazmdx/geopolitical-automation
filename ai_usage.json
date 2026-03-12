@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 481,
+  "total_calls": 485,
   "tiers": {
-    "groq": 463,
+    "groq": 467,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-10T06:57:23.294001+00:00",
-      "tier": "groq",
-      "article": "Woman killed in Bahrain as Gulf states intercept more Iranian missiles"
-    },
-    {
-      "timestamp": "2026-03-10T06:57:39.597672+00:00",
-      "tier": "groq",
-      "article": "IRGC downs two more MQ-9 drones"
-    },
-    {
-      "timestamp": "2026-03-10T06:58:36.777634+00:00",
-      "tier": "groq",
-      "article": "US consumers express dismay over rising gas prices after attack on Iran"
-    },
-    {
-      "timestamp": "2026-03-10T06:58:53.090530+00:00",
-      "tier": "groq",
-      "article": "Trump says some sanctions to be lifted on oil producers amid Iran war"
-    },
     {
       "timestamp": "2026-03-10T08:51:33.057359+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-12T10:49:04.654555+00:00",
       "tier": "groq",
       "article": "Iran conducts 40th wave of Operation \u201cTrue Promise-4\u201d"
+    },
+    {
+      "timestamp": "2026-03-12T13:13:44.757154+00:00",
+      "tier": "groq",
+      "article": "Iran says it targets Israeli bases, accuses Israel of targeting hospitals"
+    },
+    {
+      "timestamp": "2026-03-12T13:14:00.806677+00:00",
+      "tier": "groq",
+      "article": "Iran Launches Strikes: Two Israeli Military Bases and Shin Bet HQ Targeted - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-12T13:14:20.903294+00:00",
+      "tier": "groq",
+      "article": "'Fingers on the trigger': Deadly warnings for Iranians being urged to take action"
+    },
+    {
+      "timestamp": "2026-03-12T13:14:36.648475+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s Army Force cmdr. vows to defend country with all might"
     }
   ]
 }
