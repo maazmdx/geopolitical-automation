@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 517,
+  "total_calls": 521,
   "tiers": {
-    "groq": 499,
+    "groq": 503,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-11T02:28:11.915661+00:00",
-      "tier": "groq",
-      "article": "Iran launches wave of heavy, multi-warhead missiles"
-    },
-    {
-      "timestamp": "2026-03-11T02:28:28.061123+00:00",
-      "tier": "groq",
-      "article": "US Space Force clears design milestone, advances missile-warning constellation "
-    },
-    {
-      "timestamp": "2026-03-11T02:28:44.263317+00:00",
-      "tier": "groq",
-      "article": "Trump\u2019s sons invest in companies vying to fill gaps in US drone industry"
-    },
-    {
-      "timestamp": "2026-03-11T02:29:00.581344+00:00",
-      "tier": "groq",
-      "article": "Russian attack kills four in Ukraine\u2019s Sloviansk as both sides claim gains"
-    },
     {
       "timestamp": "2026-03-11T05:18:44.222141+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-13T07:06:50.209988+00:00",
       "tier": "groq",
       "article": "International figures slam US-Israel attack on Iran"
+    },
+    {
+      "timestamp": "2026-03-13T08:51:59.025062+00:00",
+      "tier": "groq",
+      "article": "BBC spends day with emergency teams as Israel strikes Lebanon"
+    },
+    {
+      "timestamp": "2026-03-13T08:52:15.370504+00:00",
+      "tier": "groq",
+      "article": "Two killed in Oman by drones, several also fired at Saudi Arabia"
+    },
+    {
+      "timestamp": "2026-03-13T08:52:31.551773+00:00",
+      "tier": "groq",
+      "article": "Strait of Hormuz: Sailors stranded on ships due to Iran war"
+    },
+    {
+      "timestamp": "2026-03-13T08:52:48.032489+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s defensive op. not against Bahrain\u2019s sovereignty"
     }
   ]
 }
