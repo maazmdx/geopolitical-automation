@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 537,
+  "total_calls": 541,
   "tiers": {
-    "groq": 519,
+    "groq": 523,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-11T13:14:12.957887+00:00",
-      "tier": "groq",
-      "article": "Al-Manar correspondent in south Lebanon reports Israeli strikes on Habboush and Touline - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-11T13:14:30.248828+00:00",
-      "tier": "groq",
-      "article": "Iranian army says bombed several targets in the occupied territories, including Israeli military intelligence and Unit 8200 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-11T13:14:47.933310+00:00",
-      "tier": "groq",
-      "article": "UN aid worker killed in DR Congo\u2019s rebel-held Goma"
-    },
-    {
-      "timestamp": "2026-03-11T13:15:04.224483+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance in Iraq says carried out 4 operations against US bases in Iraq and abroad in last 24 hours - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-11T14:56:57.076145+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-13T16:52:12.269222+00:00",
       "tier": "groq",
       "article": "What\u2019s happened in Gaza and the West Bank since the start of the Iran war?"
+    },
+    {
+      "timestamp": "2026-03-13T18:52:55.353325+00:00",
+      "tier": "groq",
+      "article": "As part of the Al-Quds Day operations, at 18:30 on Friday, March 13, 2026, Islamic Resistance fighters targeted a gathering of Israeli enemy army vehicles and soldiers in Wadi Hounin, off the border town of Markaba, with a rocket barrage: statement 18 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-13T18:53:13.484676+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Attacks Israeli Settlements, Soldiers on Al-Quds Day - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-13T18:53:31.304314+00:00",
+      "tier": "groq",
+      "article": "Ukraine, EU allies slam US decision to roll back Russia oil sanctions"
+    },
+    {
+      "timestamp": "2026-03-13T18:53:47.631419+00:00",
+      "tier": "groq",
+      "article": "Success uncertain, but Israelis continue to back \u2018heroic\u2019 war with Iran"
     }
   ]
 }
