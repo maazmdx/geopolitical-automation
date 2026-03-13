@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 509,
+  "total_calls": 513,
   "tiers": {
-    "groq": 491,
+    "groq": 495,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-10T20:44:25.122959+00:00",
-      "tier": "groq",
-      "article": "Unexploded missile extracted from house in western Iran"
-    },
-    {
-      "timestamp": "2026-03-10T20:44:41.702386+00:00",
-      "tier": "groq",
-      "article": "Air strikes cause black rain and 'unprecedented' pollution in Tehran, scientists say"
-    },
-    {
-      "timestamp": "2026-03-10T20:44:57.844858+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance targeted the Mishmar al-Karmel missile defense site belonging to the Israeli enemy army, south of the occupied city of Haifa, with a missile salvo: statement 25 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-10T20:45:14.364686+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted Israeli enemy army vehicles and soldiers gathering in the settlements of Metula and Kfar Giladi on the Lebanese-Palestinian border with a barrage of rockets: Statement 28 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-10T22:38:45.370469+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-13T02:32:49.302343+00:00",
       "tier": "groq",
       "article": "US Air Force KC-135 goes down in Iraq, CENTCOM says"
+    },
+    {
+      "timestamp": "2026-03-13T05:20:20.097170+00:00",
+      "tier": "groq",
+      "article": "IRGC launches 42nd wave of True Promise 4 Operation"
+    },
+    {
+      "timestamp": "2026-03-13T05:21:18.988255+00:00",
+      "tier": "groq",
+      "article": "IRGC launches 41st wave of True Promise 4 Operation"
+    },
+    {
+      "timestamp": "2026-03-13T05:22:16.188110+00:00",
+      "tier": "groq",
+      "article": "Iran not to allow any oil to reach US, Israel, partners\u00a0"
+    },
+    {
+      "timestamp": "2026-03-13T05:23:13.485567+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters launched an air attack with swarms of attack drones on the Sharagha and Yiftah barracks: Statement 26 - Al-Manar TV Lebanon"
     }
   ]
 }
