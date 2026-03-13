@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 513,
+  "total_calls": 517,
   "tiers": {
-    "groq": 495,
+    "groq": 499,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-10T22:38:45.370469+00:00",
-      "tier": "groq",
-      "article": "IRGC Announces New Hormuz Formula: Security in Region Either for All or for None - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-10T22:39:05.045837+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted the Al-Abbad site and its surroundings off the border town of Houla with high-quality missiles, achieving accurate and confirmed hits: Statement 27 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-10T22:39:22.418325+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted a gathering of Israeli enemy soldiers and vehicles at the newly established Hamames site, the Al-Ajal hill site, and the Fatima Gate on the Lebanese-Palestinian border with rocket salvos: Statement 29 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-10T22:39:39.268774+00:00",
-      "tier": "groq",
-      "article": "US civil rights group documents \u2018broad attack on Muslim life\u2019 in 2025"
-    },
     {
       "timestamp": "2026-03-11T02:28:11.915661+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-13T05:23:13.485567+00:00",
       "tier": "groq",
       "article": "Islamic Resistance fighters launched an air attack with swarms of attack drones on the Sharagha and Yiftah barracks: Statement 26 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-13T07:05:20.000572+00:00",
+      "tier": "groq",
+      "article": "Iran war: What is happening on day 14 of US-Israel attacks?"
+    },
+    {
+      "timestamp": "2026-03-13T07:05:36.287192+00:00",
+      "tier": "groq",
+      "article": "French soldier killed, others wounded in attack in Iraq, Macron says"
+    },
+    {
+      "timestamp": "2026-03-13T07:05:52.388948+00:00",
+      "tier": "groq",
+      "article": "Govt. stands by armed forces to defend Natl. sovereignty"
+    },
+    {
+      "timestamp": "2026-03-13T07:06:50.209988+00:00",
+      "tier": "groq",
+      "article": "International figures slam US-Israel attack on Iran"
     }
   ]
 }
