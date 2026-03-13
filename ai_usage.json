@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 541,
+  "total_calls": 545,
   "tiers": {
-    "groq": 523,
+    "groq": 527,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-11T14:56:57.076145+00:00",
-      "tier": "groq",
-      "article": "What happened in Ukraine missile attack in Russia\u2019s Bryansk?"
-    },
-    {
-      "timestamp": "2026-03-11T14:57:13.777330+00:00",
-      "tier": "groq",
-      "article": "Israeli Army Admits Defense Failure after Hezbollah Precision Strike on Satellite Hub - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-11T14:57:34.316320+00:00",
-      "tier": "groq",
-      "article": "Funeral held for top Iranian commanders killed in US-Israeli strikes"
-    },
-    {
-      "timestamp": "2026-03-11T14:57:50.517622+00:00",
-      "tier": "groq",
-      "article": "4 day week, fewer car trips in Philippines as Iran fallout bites"
-    },
     {
       "timestamp": "2026-03-11T17:03:28.325707+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-13T18:53:47.631419+00:00",
       "tier": "groq",
       "article": "Success uncertain, but Israelis continue to back \u2018heroic\u2019 war with Iran"
+    },
+    {
+      "timestamp": "2026-03-13T20:42:46.721047+00:00",
+      "tier": "groq",
+      "article": "Iranian missile strike in central Israel sets building ablaze"
+    },
+    {
+      "timestamp": "2026-03-13T20:43:02.903262+00:00",
+      "tier": "groq",
+      "article": "Palestinian Factions Salute Hezbollah, Iran on Al-Quds Day - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-13T20:43:19.838931+00:00",
+      "tier": "groq",
+      "article": "Al-Manar reporter: Missile salvo targets Israeli border site in the eastern sector of South Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-13T20:43:36.521218+00:00",
+      "tier": "groq",
+      "article": "What is Israel\u2019s endgame in Lebanon?"
     }
   ]
 }
