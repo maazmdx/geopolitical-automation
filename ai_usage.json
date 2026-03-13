@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 529,
+  "total_calls": 533,
   "tiers": {
-    "groq": 511,
+    "groq": 515,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-11T08:52:40.580134+00:00",
-      "tier": "groq",
-      "article": "Israel pounds Lebanon, targets residential building in central Beirut"
-    },
-    {
-      "timestamp": "2026-03-11T08:52:56.994556+00:00",
-      "tier": "groq",
-      "article": "Israeli strikes hit Beirut suburbs"
-    },
-    {
-      "timestamp": "2026-03-11T08:53:12.890341+00:00",
-      "tier": "groq",
-      "article": "Al Jazeera reports from Israeli bombing of Beirut apartment block"
-    },
-    {
-      "timestamp": "2026-03-11T08:53:28.969333+00:00",
-      "tier": "groq",
-      "article": "Pezeshkian urges Intl. condemnation of US-Israeli crimes"
-    },
     {
       "timestamp": "2026-03-11T10:47:05.602605+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-13T13:12:58.719732+00:00",
       "tier": "groq",
       "article": "Yet another US oil tanker set on fire in Persian Gulf"
+    },
+    {
+      "timestamp": "2026-03-13T14:51:13.327718+00:00",
+      "tier": "groq",
+      "article": "Four US Soldiers Killed as Refueling Plane Crashes in Iraq - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-13T14:51:33.686186+00:00",
+      "tier": "groq",
+      "article": "Air attack strikes Tehran during al-Quds Day rally"
+    },
+    {
+      "timestamp": "2026-03-13T14:51:49.984970+00:00",
+      "tier": "groq",
+      "article": "Top Iranian Officials Make Public Appearance in Al-Quds Day Rallies Despite US-Israeli Aggression - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-13T14:52:09.948018+00:00",
+      "tier": "groq",
+      "article": "US refueling aircraft struck over Iraq"
     }
   ]
 }
