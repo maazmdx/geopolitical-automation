@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 525,
+  "total_calls": 529,
   "tiers": {
-    "groq": 507,
+    "groq": 511,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-11T07:04:46.830679+00:00",
-      "tier": "groq",
-      "article": "Iran war: What is happening on day 12 of US-Israel attacks?"
-    },
-    {
-      "timestamp": "2026-03-11T07:05:03.319763+00:00",
-      "tier": "groq",
-      "article": "An intercepted drone burns and falls over Erbil in Iraq"
-    },
-    {
-      "timestamp": "2026-03-11T07:05:19.381403+00:00",
-      "tier": "groq",
-      "article": "Iran warns US, Israel against attacking civilian areas"
-    },
-    {
-      "timestamp": "2026-03-11T07:06:16.836820+00:00",
-      "tier": "groq",
-      "article": "Qatar warns Gulf security is tied to global stability"
-    },
     {
       "timestamp": "2026-03-11T08:52:40.580134+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-13T10:48:41.084474+00:00",
       "tier": "groq",
       "article": "This is what American people need to know.."
+    },
+    {
+      "timestamp": "2026-03-13T13:12:08.278394+00:00",
+      "tier": "groq",
+      "article": "Day 12 of Israeli Aggression on Lebanon: Massacre in Sidon Amid Expanding Civilian Toll - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-13T13:12:26.698998+00:00",
+      "tier": "groq",
+      "article": "Iris Dena: Bodies of 84 Iranian sailors killed in US attack to be repatriated"
+    },
+    {
+      "timestamp": "2026-03-13T13:12:42.449808+00:00",
+      "tier": "groq",
+      "article": "Dozens injured after missile attack hits northern Israel"
+    },
+    {
+      "timestamp": "2026-03-13T13:12:58.719732+00:00",
+      "tier": "groq",
+      "article": "Yet another US oil tanker set on fire in Persian Gulf"
     }
   ]
 }
