@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 589,
+  "total_calls": 593,
   "tiers": {
-    "groq": 571,
+    "groq": 575,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-12T17:07:07.453242+00:00",
-      "tier": "groq",
-      "article": "How Iran used asymmetric warfare to offset US-Israeli military power"
-    },
-    {
-      "timestamp": "2026-03-12T17:07:23.576455+00:00",
-      "tier": "groq",
-      "article": "Al Jazeera reporter sees destruction in Tehran neighbourhood"
-    },
-    {
-      "timestamp": "2026-03-12T17:07:39.558731+00:00",
-      "tier": "groq",
-      "article": "Massive destruction after Israeli strikes in Beirut neighbourhood"
-    },
-    {
-      "timestamp": "2026-03-12T17:07:55.623713+00:00",
-      "tier": "groq",
-      "article": "Nations withdraw some equipment from NATO Arctic exercise amid Iran fallout"
-    },
     {
       "timestamp": "2026-03-12T19:39:49.979873+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-14T20:35:10.977417+00:00",
       "tier": "groq",
       "article": "Protests erupt in Cuba as US restrictions spark food, energy shortages"
+    },
+    {
+      "timestamp": "2026-03-14T22:36:38.799497+00:00",
+      "tier": "groq",
+      "article": "US-Israeli strike kills 15 at Isfahan factory, Iranian media says"
+    },
+    {
+      "timestamp": "2026-03-14T22:36:54.886607+00:00",
+      "tier": "groq",
+      "article": "IRGC: 51st Wave of Operation True Promise 4 Targeted Al-Kharj US Air Base - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-14T22:37:13.560043+00:00",
+      "tier": "groq",
+      "article": "US embassy in Venezuela reopens as Trump pushes for access to resources"
+    },
+    {
+      "timestamp": "2026-03-14T22:37:29.453567+00:00",
+      "tier": "groq",
+      "article": "Iran Says Attacks on Its Islands Were Launched from UAE, Vows to Respond - Al-Manar TV Lebanon"
     }
   ]
 }
