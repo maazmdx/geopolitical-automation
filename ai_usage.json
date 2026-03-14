@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 577,
+  "total_calls": 581,
   "tiers": {
-    "groq": 559,
+    "groq": 563,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-12T10:46:49.182197+00:00",
-      "tier": "groq",
-      "article": "US Senate Democratic Leader: Donald Trump is a Liar - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-12T10:47:09.834926+00:00",
-      "tier": "groq",
-      "article": "Iran\u2019s strikes disrupt Israel ability to detect missiles"
-    },
-    {
-      "timestamp": "2026-03-12T10:48:06.745583+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fires 200 rockets at Israel overnight"
-    },
-    {
-      "timestamp": "2026-03-12T10:49:04.654555+00:00",
-      "tier": "groq",
-      "article": "Iran conducts 40th wave of Operation \u201cTrue Promise-4\u201d"
-    },
     {
       "timestamp": "2026-03-12T13:13:44.757154+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-14T14:35:23.731150+00:00",
       "tier": "groq",
       "article": "Israel kills 12 medics in attack in southern Lebanon as war ravages nation"
+    },
+    {
+      "timestamp": "2026-03-14T16:38:03.672220+00:00",
+      "tier": "groq",
+      "article": "Israel bombs Basij checkpoints in Tehran as US, Iran trade fire and jabs"
+    },
+    {
+      "timestamp": "2026-03-14T16:38:19.607555+00:00",
+      "tier": "groq",
+      "article": "Macron says France ready to facilitate ceasefire discussions between Israel and Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-14T16:38:38.730806+00:00",
+      "tier": "groq",
+      "article": "Sheltering Israeli Agent by Ukrainian Embassy in Beirut Political, Diplomatic Scandal: Hezbollah MP - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-14T16:38:58.942166+00:00",
+      "tier": "groq",
+      "article": "More US Marines and warships being moved to Middle East, reports say"
     }
   ]
 }
