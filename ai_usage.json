@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 561,
+  "total_calls": 565,
   "tiers": {
-    "groq": 543,
+    "groq": 547,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-12T02:34:07.872803+00:00",
-      "tier": "groq",
-      "article": "Iran-linked hackers hit medical giant Stryker in retaliatory cyberattack"
-    },
-    {
-      "timestamp": "2026-03-12T02:34:24.218330+00:00",
-      "tier": "groq",
-      "article": "Israeli strike hits Beirut waterfront near tents of displaced"
-    },
-    {
-      "timestamp": "2026-03-12T02:34:40.421511+00:00",
-      "tier": "groq",
-      "article": "Qatar PM urges resilience and unity amid Iran strikes"
-    },
-    {
-      "timestamp": "2026-03-12T02:34:56.951049+00:00",
-      "tier": "groq",
-      "article": "Six die in Swiss bus fire after man thought to have set himself alight"
-    },
     {
       "timestamp": "2026-03-12T05:22:42.384732+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-14T07:01:30.256983+00:00",
       "tier": "groq",
       "article": "Trump claims US \u2018way ahead of schedule\u2019 in Iran war"
+    },
+    {
+      "timestamp": "2026-03-14T08:46:31.641163+00:00",
+      "tier": "groq",
+      "article": "US Embassy in Baghdad, Iraq attacked with missile that hits helipad"
+    },
+    {
+      "timestamp": "2026-03-14T08:46:47.695241+00:00",
+      "tier": "groq",
+      "article": "Iran rejects claims of missile fired towards Turkey"
+    },
+    {
+      "timestamp": "2026-03-14T08:47:44.564783+00:00",
+      "tier": "groq",
+      "article": "North Korea fires ballistic missiles as US-South Korea hold military drills"
+    },
+    {
+      "timestamp": "2026-03-14T08:48:00.640251+00:00",
+      "tier": "groq",
+      "article": "Peace in region requires Zionist regime destruction"
     }
   ]
 }
