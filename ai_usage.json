@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 553,
+  "total_calls": 557,
   "tiers": {
-    "groq": 535,
+    "groq": 539,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-11T20:44:09.551227+00:00",
-      "tier": "groq",
-      "article": "UN\u2019s failure to stop Iranian attacks sending \u2018dangerous signal\u2019: Qatar"
-    },
-    {
-      "timestamp": "2026-03-11T20:44:25.750622+00:00",
-      "tier": "groq",
-      "article": "As part of the \u201cEaten Straw\u201d operations, the Islamic Resistance fighters targeted, at 19:40 on Wednesday, the Israeli settlements, already warned to evacuate within 5-km area from the Lebanese borders, with dozens of missiles: statement 8 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-11T20:44:43.250731+00:00",
-      "tier": "groq",
-      "article": "The hidden battlefield: Censorship in the Israel\u2013Iran war"
-    },
-    {
-      "timestamp": "2026-03-11T20:44:59.300265+00:00",
-      "tier": "groq",
-      "article": "UK court rejects bid to reinstate \u2018terrorism\u2019 charge against Kneecap rapper"
-    },
     {
       "timestamp": "2026-03-11T22:34:21.770377+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-14T02:30:58.141687+00:00",
       "tier": "groq",
       "article": "Qatar\u2019s interior minister says security situation \u2018stable\u2019 amid Iran war"
+    },
+    {
+      "timestamp": "2026-03-14T05:18:24.202500+00:00",
+      "tier": "groq",
+      "article": "Trump posts bombing video after saying US hit Kharg Island"
+    },
+    {
+      "timestamp": "2026-03-14T05:18:40.093034+00:00",
+      "tier": "groq",
+      "article": "Projectile falls, explodes in Israel\u2019s Negev"
+    },
+    {
+      "timestamp": "2026-03-14T05:18:56.106367+00:00",
+      "tier": "groq",
+      "article": "Power equations have changed in region: Gen. Fadavi"
+    },
+    {
+      "timestamp": "2026-03-14T05:19:53.512407+00:00",
+      "tier": "groq",
+      "article": "Resistant Iranians to not bow to coward attacks: FM"
     }
   ]
 }
