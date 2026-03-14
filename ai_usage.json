@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 573,
+  "total_calls": 577,
   "tiers": {
-    "groq": 555,
+    "groq": 559,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-12T08:56:15.656074+00:00",
-      "tier": "groq",
-      "article": "Israeli \u2018double-tap strike\u2019 hits displaced on Beirut seafront, kills eight"
-    },
-    {
-      "timestamp": "2026-03-12T08:56:31.847545+00:00",
-      "tier": "groq",
-      "article": "In the US-Israeli war on Iran, who will run out of missiles first?"
-    },
-    {
-      "timestamp": "2026-03-12T08:56:47.696666+00:00",
-      "tier": "groq",
-      "article": "Iraqi Resistance killed 13 US forces in attack on its bases\u00a0"
-    },
-    {
-      "timestamp": "2026-03-12T08:57:44.979520+00:00",
-      "tier": "groq",
-      "article": "US Marine Corps pursues thermal cloaks to hide troops from heat sensors"
-    },
     {
       "timestamp": "2026-03-12T10:46:49.182197+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-14T13:06:27.619734+00:00",
       "tier": "groq",
       "article": "US, Israel seeking to disintegrate Islamic states: Pezeshkian"
+    },
+    {
+      "timestamp": "2026-03-14T14:34:32.452360+00:00",
+      "tier": "groq",
+      "article": "Israeli media: Two injured in Iranian missile attack on Eilat, Jerusalem also targeted - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-14T14:34:50.639156+00:00",
+      "tier": "groq",
+      "article": "Why is Iran\u2019s Kharg Island important?"
+    },
+    {
+      "timestamp": "2026-03-14T14:35:06.742165+00:00",
+      "tier": "groq",
+      "article": "Iranian Ministry of Intelligence: 3 cells of 23 US-Israeli agents arrested in Mazandaran, Khorasan and Khuzestan - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-14T14:35:23.731150+00:00",
+      "tier": "groq",
+      "article": "Israel kills 12 medics in attack in southern Lebanon as war ravages nation"
     }
   ]
 }
