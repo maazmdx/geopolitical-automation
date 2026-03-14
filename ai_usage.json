@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 585,
+  "total_calls": 589,
   "tiers": {
-    "groq": 567,
+    "groq": 571,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-12T14:59:23.831849+00:00",
-      "tier": "groq",
-      "article": "Israeli attack hits civilians at Beirut beachfront: What we know"
-    },
-    {
-      "timestamp": "2026-03-12T14:59:39.962022+00:00",
-      "tier": "groq",
-      "article": "Up to 3.2 million people displaced across Iran amid US-Israeli attacks: UN"
-    },
-    {
-      "timestamp": "2026-03-12T14:59:56.189182+00:00",
-      "tier": "groq",
-      "article": "Israel pounds Beirut suburbs after Hezbollah launches rocket barrage"
-    },
-    {
-      "timestamp": "2026-03-12T15:00:12.294685+00:00",
-      "tier": "groq",
-      "article": "Dubai high-rise building damaged in overnight drone hit"
-    },
     {
       "timestamp": "2026-03-12T17:07:07.453242+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-14T18:45:32.311336+00:00",
       "tier": "groq",
       "article": "Trump says \u2018many countries\u2019 will send warships to Hormuz amid Iran blockade"
+    },
+    {
+      "timestamp": "2026-03-14T20:34:20.039366+00:00",
+      "tier": "groq",
+      "article": "UNESCO condemns strike on Minab girls\u2019 school: \u2018They attacked twice\u2026 How"
+    },
+    {
+      "timestamp": "2026-03-14T20:34:36.053541+00:00",
+      "tier": "groq",
+      "article": "Six killed in attacks on Ukraine as EU extends sanctions against Russians"
+    },
+    {
+      "timestamp": "2026-03-14T20:34:52.053637+00:00",
+      "tier": "groq",
+      "article": "After spotting a force of the Israeli enemy army advancing towards Al-Awida hill in the town of Al-Adaisseh on the Lebanese-Palestinian border, the Islamic Resistance fighters targeted it at 18:00 on Saturday 14/03/2026 with a guided missile and achieved confirmed hits: statement 40 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-14T20:35:10.977417+00:00",
+      "tier": "groq",
+      "article": "Protests erupt in Cuba as US restrictions spark food, energy shortages"
     }
   ]
 }
