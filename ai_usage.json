@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 633,
+  "total_calls": 637,
   "tiers": {
-    "groq": 615,
+    "groq": 619,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-13T16:51:24.040644+00:00",
-      "tier": "groq",
-      "article": "Michigan synagogue and Virginia university shootings: What we know"
-    },
-    {
-      "timestamp": "2026-03-13T16:51:40.482151+00:00",
-      "tier": "groq",
-      "article": "Turkiye says NATO defences intercepted third missile from Iran"
-    },
-    {
-      "timestamp": "2026-03-13T16:51:56.459072+00:00",
-      "tier": "groq",
-      "article": "Video shows projectile near Turkish base hosting US troops"
-    },
-    {
-      "timestamp": "2026-03-13T16:52:12.269222+00:00",
-      "tier": "groq",
-      "article": "What\u2019s happened in Gaza and the West Bank since the start of the Iran war?"
-    },
     {
       "timestamp": "2026-03-13T18:52:55.353325+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-15T20:37:05.682320+00:00",
       "tier": "groq",
       "article": "Trump calls for naval coalition to open Strait of Hormuz: Can it work?"
+    },
+    {
+      "timestamp": "2026-03-15T22:33:14.392874+00:00",
+      "tier": "groq",
+      "article": "An Israeli airstrike targets the southern suburbs of Beirut (Dahiyeh) - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-15T22:33:31.334307+00:00",
+      "tier": "groq",
+      "article": "Israeli forces kill Palestinian couple and two of their children in occupied West Bank"
+    },
+    {
+      "timestamp": "2026-03-15T22:33:47.175896+00:00",
+      "tier": "groq",
+      "article": "Israeli media: Drones infiltrate over the Western Galilee - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-15T22:34:04.602657+00:00",
+      "tier": "groq",
+      "article": "Ukraine eyes money and tech in return for Middle East drone support"
     }
   ]
 }
