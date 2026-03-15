@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 621,
+  "total_calls": 625,
   "tiers": {
-    "groq": 603,
+    "groq": 607,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-13T10:47:09.711198+00:00",
-      "tier": "groq",
-      "article": "Explosions near Tehran al-Quds Day march in solidarity with Palestinians"
-    },
-    {
-      "timestamp": "2026-03-13T10:47:25.969574+00:00",
-      "tier": "groq",
-      "article": "Casualties in Israeli strike on residential structure in Al-Fawwar area near the southern Lebanese coastal city of Sidon: Al-Manar correspondent - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-13T10:47:43.767896+00:00",
-      "tier": "groq",
-      "article": "Iran targets northern Al-Quds, Tel Aviv, US bases in region"
-    },
-    {
-      "timestamp": "2026-03-13T10:48:41.084474+00:00",
-      "tier": "groq",
-      "article": "This is what American people need to know.."
-    },
     {
       "timestamp": "2026-03-13T13:12:08.278394+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-15T14:36:46.020116+00:00",
       "tier": "groq",
       "article": "Commander of the Khatam al-Anbiya Headquarters: The people of the region must know that the United States is no longer capable of providing their security - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-15T16:38:28.499257+00:00",
+      "tier": "groq",
+      "article": "Iranian govt reveals scale of civilian casualties from US-Israeli strikes"
+    },
+    {
+      "timestamp": "2026-03-15T16:38:44.712987+00:00",
+      "tier": "groq",
+      "article": "UAE, Saudi Arabia intercept Iranian missiles and drones"
+    },
+    {
+      "timestamp": "2026-03-15T16:39:01.310523+00:00",
+      "tier": "groq",
+      "article": "Moment Iranian missile hits Tel Aviv"
+    },
+    {
+      "timestamp": "2026-03-15T16:39:17.516049+00:00",
+      "tier": "groq",
+      "article": "How Trump\u2019s unchecked power has changed the world"
     }
   ]
 }
