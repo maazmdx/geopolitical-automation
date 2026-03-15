@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 605,
+  "total_calls": 609,
   "tiers": {
-    "groq": 587,
+    "groq": 591,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-13T02:31:59.928682+00:00",
-      "tier": "groq",
-      "article": "Iranian missile strikes residential area in northern Israel"
-    },
-    {
-      "timestamp": "2026-03-13T02:32:16.183666+00:00",
-      "tier": "groq",
-      "article": "Qatar rejects attempts to \u2018drive wedge\u2019 with US over gas pause"
-    },
-    {
-      "timestamp": "2026-03-13T02:32:32.742596+00:00",
-      "tier": "groq",
-      "article": "British man charged in Dubai for alleged filming of Iranian missiles"
-    },
-    {
-      "timestamp": "2026-03-13T02:32:49.302343+00:00",
-      "tier": "groq",
-      "article": "US Air Force KC-135 goes down in Iraq, CENTCOM says"
-    },
     {
       "timestamp": "2026-03-13T05:20:20.097170+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-15T07:09:41.055967+00:00",
       "tier": "groq",
       "article": "Air defense in US embassy in Baghdad not working"
+    },
+    {
+      "timestamp": "2026-03-15T08:46:44.643923+00:00",
+      "tier": "groq",
+      "article": "US bank branches targeted in response to attack on Iranians\u2019"
+    },
+    {
+      "timestamp": "2026-03-15T08:47:42.849208+00:00",
+      "tier": "groq",
+      "article": "French ships not to join any offensive op. against Iran"
+    },
+    {
+      "timestamp": "2026-03-15T08:48:40.918323+00:00",
+      "tier": "groq",
+      "article": "US no longer a world power, must be expelled from region"
+    },
+    {
+      "timestamp": "2026-03-15T08:49:38.778132+00:00",
+      "tier": "groq",
+      "article": "Al-Quds Day rally in Toronto calls for an end to the war in Iran & Lebanon"
     }
   ]
 }
