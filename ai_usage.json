@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 617,
+  "total_calls": 621,
   "tiers": {
-    "groq": 599,
+    "groq": 603,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-13T08:51:59.025062+00:00",
-      "tier": "groq",
-      "article": "BBC spends day with emergency teams as Israel strikes Lebanon"
-    },
-    {
-      "timestamp": "2026-03-13T08:52:15.370504+00:00",
-      "tier": "groq",
-      "article": "Two killed in Oman by drones, several also fired at Saudi Arabia"
-    },
-    {
-      "timestamp": "2026-03-13T08:52:31.551773+00:00",
-      "tier": "groq",
-      "article": "Strait of Hormuz: Sailors stranded on ships due to Iran war"
-    },
-    {
-      "timestamp": "2026-03-13T08:52:48.032489+00:00",
-      "tier": "groq",
-      "article": "Iran\u2019s defensive op. not against Bahrain\u2019s sovereignty"
-    },
     {
       "timestamp": "2026-03-13T10:47:09.711198+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-15T13:03:12.822481+00:00",
       "tier": "groq",
       "article": "US, China hold trade talks in Paris to clear path to Trump-Xi summit"
+    },
+    {
+      "timestamp": "2026-03-15T14:35:56.874720+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-03-15T14:36:12.865947+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-03-15T14:36:29.151415+00:00",
+      "tier": "groq",
+      "article": "Al-Manar correspondent: Enemy warplanes attacked the town of Sharqiyah in the Nabatieh district - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-15T14:36:46.020116+00:00",
+      "tier": "groq",
+      "article": "Commander of the Khatam al-Anbiya Headquarters: The people of the region must know that the United States is no longer capable of providing their security - Al-Manar TV Lebanon"
     }
   ]
 }
