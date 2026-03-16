@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 661,
+  "total_calls": 665,
   "tiers": {
-    "groq": 643,
+    "groq": 647,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-14T08:46:31.641163+00:00",
-      "tier": "groq",
-      "article": "US Embassy in Baghdad, Iraq attacked with missile that hits helipad"
-    },
-    {
-      "timestamp": "2026-03-14T08:46:47.695241+00:00",
-      "tier": "groq",
-      "article": "Iran rejects claims of missile fired towards Turkey"
-    },
-    {
-      "timestamp": "2026-03-14T08:47:44.564783+00:00",
-      "tier": "groq",
-      "article": "North Korea fires ballistic missiles as US-South Korea hold military drills"
-    },
-    {
-      "timestamp": "2026-03-14T08:48:00.640251+00:00",
-      "tier": "groq",
-      "article": "Peace in region requires Zionist regime destruction"
-    },
     {
       "timestamp": "2026-03-14T10:36:01.345876+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-16T13:23:44.101984+00:00",
       "tier": "groq",
       "article": "Al-Manar correspondent in south Lebanon: Israeli occupation forces carried out a large bombing in the border town of Rub Al-Thalatheen - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-16T15:05:26.863490+00:00",
+      "tier": "groq",
+      "article": "Turkey\u2019s Baykar tests swarm behavior of its K2 one-way attack drone"
+    },
+    {
+      "timestamp": "2026-03-16T15:05:43.328160+00:00",
+      "tier": "groq",
+      "article": "US says it has destroyed Iran missile capacity: How is Iran still shooting?"
+    },
+    {
+      "timestamp": "2026-03-16T15:05:59.349602+00:00",
+      "tier": "groq",
+      "article": "Strait of Hormuz: Which countries\u2019 ships has Iran allowed safe passage to?"
+    },
+    {
+      "timestamp": "2026-03-16T15:06:15.483298+00:00",
+      "tier": "groq",
+      "article": "\u2018Not Our War\u2019: German DM Rejects Trump\u2019s Call for Military Support against Iran - Al-Manar TV Lebanon"
     }
   ]
 }
