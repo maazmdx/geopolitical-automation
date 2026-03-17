@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 693,
+  "total_calls": 697,
   "tiers": {
-    "groq": 675,
+    "groq": 679,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-15T02:49:11.615301+00:00",
-      "tier": "groq",
-      "article": "At 9:20 PM on Saturday, March 14, 2026, Islamic Resistance fighters targeted an Israeli enemy artillery position in the settlement of Dishon with a rocket barrage: statement 43 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-15T02:49:29.084387+00:00",
-      "tier": "groq",
-      "article": "Iran warns UAE ports and \u2018American hideouts\u2019 are targets"
-    },
-    {
-      "timestamp": "2026-03-15T02:49:45.161618+00:00",
-      "tier": "groq",
-      "article": "Israeli war jets raid the outskirts of Khiam town, South Lebanon: Al-Manar reporter - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-15T02:50:02.965694+00:00",
-      "tier": "groq",
-      "article": "Trump administration threatens news outlets over critical coverage of Iran"
-    },
     {
       "timestamp": "2026-03-15T05:43:49.922237+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-17T07:12:40.317726+00:00",
       "tier": "groq",
       "article": "EU says Iran is \u2018not Europe\u2019s war\u2019"
+    },
+    {
+      "timestamp": "2026-03-17T08:59:11.653204+00:00",
+      "tier": "groq",
+      "article": "Families search for loved ones after deadly Pakistan strikes on Kabul rehab"
+    },
+    {
+      "timestamp": "2026-03-17T08:59:27.868264+00:00",
+      "tier": "groq",
+      "article": "Israel says 'limited' ground operations have begun in Lebanon"
+    },
+    {
+      "timestamp": "2026-03-17T08:59:43.845040+00:00",
+      "tier": "groq",
+      "article": "Al-Manar correspondent in south Lebanon: Five Lebanese soldiers wounded as Israeli drone targets their vehicle while returning from duty in  Qaqaiyat Al-Jisr - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-17T09:00:00.558446+00:00",
+      "tier": "groq",
+      "article": "Wary allies show there's no quick fix to Trump's Iran crisis "
     }
   ]
 }
