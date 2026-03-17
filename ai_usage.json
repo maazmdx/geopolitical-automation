@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 681,
+  "total_calls": 685,
   "tiers": {
-    "groq": 663,
+    "groq": 667,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-14T18:44:36.539532+00:00",
-      "tier": "groq",
-      "article": "Operation \u201cEaten Straw\u201d Continues: Hezbollah Missiles Strike Israeli Soldiers, Merkava Tanks, Settlements - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-14T18:44:58.065955+00:00",
-      "tier": "groq",
-      "article": "After spotting an Israeli tank attempting to advance towards the eastern entrance of the town of Taybeh on the Lebanese-Palestinian border, Islamic Resistance fighters targeted it at 18:00 on Saturday, March 14, 2026, with a guided missile, resulting in its destruction and confirmed casualties: statement 34 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-14T18:45:16.170135+00:00",
-      "tier": "groq",
-      "article": "Two Indian ships cross Strait of Hormuz as Iran says it allowed passage"
-    },
-    {
-      "timestamp": "2026-03-14T18:45:32.311336+00:00",
-      "tier": "groq",
-      "article": "Trump says \u2018many countries\u2019 will send warships to Hormuz amid Iran blockade"
-    },
     {
       "timestamp": "2026-03-14T20:34:20.039366+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-16T22:40:50.351171+00:00",
       "tier": "groq",
       "article": "US, Israel now know \u2018what kind of nation they are dealing with\u2019"
+    },
+    {
+      "timestamp": "2026-03-17T02:29:29.853456+00:00",
+      "tier": "groq",
+      "article": "Afghanistan accuses Pakistan of air strike on drug rehab centre"
+    },
+    {
+      "timestamp": "2026-03-17T02:29:46.224456+00:00",
+      "tier": "groq",
+      "article": "Pro-Palestine protester Leqaa Kordia freed from US immigration detention"
+    },
+    {
+      "timestamp": "2026-03-17T02:30:02.216764+00:00",
+      "tier": "groq",
+      "article": "Hotel in Iraqi capital Baghdad struck as attacks on US embassy intercepted"
+    },
+    {
+      "timestamp": "2026-03-17T02:30:18.368426+00:00",
+      "tier": "groq",
+      "article": "Trump seeks to delay meeting with China\u2019s Xi by \u2018month or so\u2019 amid Iran war"
     }
   ]
 }
