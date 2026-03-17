@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 701,
+  "total_calls": 705,
   "tiers": {
-    "groq": 683,
+    "groq": 687,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-15T07:08:10.721039+00:00",
-      "tier": "groq",
-      "article": "Cars were burned and overturned by shrapnel in Tel Aviv district"
-    },
-    {
-      "timestamp": "2026-03-15T07:08:27.158315+00:00",
-      "tier": "groq",
-      "article": "Iran intercepts, downs advanced Israeli \u201cHERMES\u201d drone"
-    },
-    {
-      "timestamp": "2026-03-15T07:09:24.874938+00:00",
-      "tier": "groq",
-      "article": "FPV drone slams into US military base in Iraq"
-    },
-    {
-      "timestamp": "2026-03-15T07:09:41.055967+00:00",
-      "tier": "groq",
-      "article": "Air defense in US embassy in Baghdad not working"
-    },
     {
       "timestamp": "2026-03-15T08:46:44.643923+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-17T10:57:07.628789+00:00",
       "tier": "groq",
       "article": "EU foreign policy chief\u00a0Kaja Kallas: Nobody is ready to put their \u2060people in harm\u2019s way\u00a0in the Strait of Hormuz - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-17T13:21:41.080496+00:00",
+      "tier": "groq",
+      "article": "Lebanese Army: Soldier martyred, 4 others injured in Israeli strike on Qaqaiyat Al-Jisr in south Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-17T13:21:58.124917+00:00",
+      "tier": "groq",
+      "article": "Hebrew media reports missile impacts in several locations across so-called Gush Dan (Tel Aviv) - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-17T13:22:15.092244+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Fighters Hunt Down Israeli Merkavas, Confront Enemy Advance Attempts (Video) - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-17T13:22:33.158437+00:00",
+      "tier": "groq",
+      "article": "Are the US and Israel waging war on Iran\u2019s cultural heritage?"
     }
   ]
 }
