@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 709,
+  "total_calls": 713,
   "tiers": {
-    "groq": 691,
+    "groq": 695,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-15T10:39:41.140727+00:00",
-      "tier": "groq",
-      "article": "Trump says US may hit Iran\u2019s Kharg Island again \u2018just for fun\u2019"
-    },
-    {
-      "timestamp": "2026-03-15T10:39:57.093009+00:00",
-      "tier": "groq",
-      "article": "IRGC announces launch of wave 53 of Operation True Promise 4, which included 10 hypersonic missiles - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-15T10:40:14.774052+00:00",
-      "tier": "groq",
-      "article": "IRGC Navy chief says his forces hit three US bases"
-    },
-    {
-      "timestamp": "2026-03-15T10:41:12.403594+00:00",
-      "tier": "groq",
-      "article": "Iran war: What is happening on day 16 of US-Israel attacks?"
-    },
     {
       "timestamp": "2026-03-15T13:02:17.816803+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-17T15:03:47.055521+00:00",
       "tier": "groq",
       "article": "Al-Manar correspondent in south Lebanon: Israeli artillery shells western neighborhood of Khiam border town using white phosphorus munitions, gunfire heard - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-17T17:07:44.124628+00:00",
+      "tier": "groq",
+      "article": "Drones expand the deadly front lines of Sudan\u2019s devastating war"
+    },
+    {
+      "timestamp": "2026-03-17T17:08:00.422547+00:00",
+      "tier": "groq",
+      "article": "Israeli attacks on Lebanon may amount to war crimes, UN rights office says"
+    },
+    {
+      "timestamp": "2026-03-17T17:08:16.967754+00:00",
+      "tier": "groq",
+      "article": "What the Iran war looks like from the occupied West Bank"
+    },
+    {
+      "timestamp": "2026-03-17T17:08:34.123722+00:00",
+      "tier": "groq",
+      "article": "Israeli media: Sirens are blaring from Lebanon border till Tel Aviv - Al-Manar TV Lebanon"
     }
   ]
 }
