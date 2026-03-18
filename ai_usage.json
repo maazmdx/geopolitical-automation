@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 765,
+  "total_calls": 769,
   "tiers": {
-    "groq": 747,
+    "groq": 751,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-16T17:06:54.628314+00:00",
-      "tier": "groq",
-      "article": "At 12:30 PM on Monday, March 16, 2026, Islamic Resistance fighters shot down an Israeli Hermes 450 drone over the city of Bint Jbeil in southern Lebanon using appropriate weapons. Israeli warplanes then attacked the crash site between Bint Jbeil and the town of Aitaroun: statement 10 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-16T17:07:11.257935+00:00",
-      "tier": "groq",
-      "article": "Afghanistan says children among four killed in latest attacks by Pakistan"
-    },
-    {
-      "timestamp": "2026-03-16T17:07:28.391345+00:00",
-      "tier": "groq",
-      "article": "Israeli media: \u201cMissile fragments\u201d fall a few meters from Netanyahu\u2019s office - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-16T17:07:45.220350+00:00",
-      "tier": "groq",
-      "article": "Iran hits key UAE oil port and Dubai airport"
-    },
     {
       "timestamp": "2026-03-16T19:08:46.888237+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-18T20:47:53.794924+00:00",
       "tier": "groq",
       "article": "The Pentagon wants to field laser weapons at scale within 3 years"
+    },
+    {
+      "timestamp": "2026-03-18T22:42:06.262381+00:00",
+      "tier": "groq",
+      "article": "Leader of Ecuador-based criminal group Los Lobos arrested in Mexico City"
+    },
+    {
+      "timestamp": "2026-03-18T22:42:22.299100+00:00",
+      "tier": "groq",
+      "article": "At 22:00 on Wednesday, 18/03/2026, Islamic Resistance fighters targeted a gathering of Israeli enemy army soldiers in the Al-Zaqqaq neighborhood of the border town of Aitaroun with artillery shells: statement 27 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-18T22:42:39.333165+00:00",
+      "tier": "groq",
+      "article": "As part of the warning issued by the Islamic Resistance to a number of settlements in northern occupied Palestine, at 23:00 on Wednesday, March 18, 2026, Islamic Resistance fighters targeted the Dishon settlement with a rocket barrage: statement 30 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-18T22:42:56.455844+00:00",
+      "tier": "groq",
+      "article": "Iranians burn Trump, Netanyahu effigies at warship victim rally"
     }
   ]
 }
