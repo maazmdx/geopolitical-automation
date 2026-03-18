@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 729,
+  "total_calls": 733,
   "tiers": {
-    "groq": 711,
+    "groq": 715,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-15T20:36:11.864961+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fighters targeted a Merkava tank north of the Khiam detention center with a guided missile and hit it directly: Military Media Statement 21 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-15T20:36:29.736670+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fighters targeted a D9 bulldozer in the Taybeh Project area with a guided missile, scoring a direct hit: Military Media Statement 20 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-15T20:36:46.907551+00:00",
-      "tier": "groq",
-      "article": "IRGC: 54th wave of True Promise Operation -4 launched using Khorramshahr, Kheibar Shekan, Qadr, Imad, and Sejjil missiles, targeting key command centers, air operation hubs, military-industrial infrastructure, and Israeli troop gatherings in the occupied territories - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-15T20:37:05.682320+00:00",
-      "tier": "groq",
-      "article": "Trump calls for naval coalition to open Strait of Hormuz: Can it work?"
-    },
     {
       "timestamp": "2026-03-15T22:33:14.392874+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-18T02:35:31.432454+00:00",
       "tier": "groq",
       "article": "Colombia\u2019s Petro accuses Ecuador of bombing near border"
+    },
+    {
+      "timestamp": "2026-03-18T05:29:07.950241+00:00",
+      "tier": "groq",
+      "article": "Killing of Larijani will not destabilise Iranian political system: Minister"
+    },
+    {
+      "timestamp": "2026-03-18T05:29:24.061621+00:00",
+      "tier": "groq",
+      "article": "At 23:30 on Tuesday, 17/03/2026, the Islamic Resistance fighters targeted a gathering of Israeli enemy army vehicles in the Al-Khazzan hill in the border town of Al-Adaisseh with rocket barrages: statement 29 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-18T05:29:39.896903+00:00",
+      "tier": "groq",
+      "article": "Drone attacks hit near US embassy in Baghdad"
+    },
+    {
+      "timestamp": "2026-03-18T05:29:55.931171+00:00",
+      "tier": "groq",
+      "article": "Trump confirms meeting with China\u2019s Xi Jinping delayed as war on Iran rages"
     }
   ]
 }
