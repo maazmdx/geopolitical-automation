@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 745,
+  "total_calls": 749,
   "tiers": {
-    "groq": 727,
+    "groq": 731,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-16T07:25:38.492445+00:00",
-      "tier": "groq",
-      "article": "Rafah crossing closure leaves Gaza patients trapped without treatment"
-    },
-    {
-      "timestamp": "2026-03-16T07:25:54.693201+00:00",
-      "tier": "groq",
-      "article": "Japan begins release of oil reserves as Iran war sparks energy crisis"
-    },
-    {
-      "timestamp": "2026-03-16T07:26:10.824028+00:00",
-      "tier": "groq",
-      "article": "Stars at Oscars 2026 call for end to war in Gaza and Iran"
-    },
-    {
-      "timestamp": "2026-03-16T07:26:26.941119+00:00",
-      "tier": "groq",
-      "article": "What\u2019s the impact of the Iran war on China?"
-    },
     {
       "timestamp": "2026-03-16T09:02:49.521531+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-18T10:58:30.216997+00:00",
       "tier": "groq",
       "article": "Qatar can keep goods flowing amid tensions, customs chief says"
+    },
+    {
+      "timestamp": "2026-03-18T13:22:14.510005+00:00",
+      "tier": "groq",
+      "article": "UN revises Kabul rehab strike toll as Pakistan denies targeting civilians"
+    },
+    {
+      "timestamp": "2026-03-18T13:22:30.736025+00:00",
+      "tier": "groq",
+      "article": "Al-Manar reporter says Israeli enemy carried out fresh strike on Suhmor town in Western Bekaa - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-18T13:22:47.720612+00:00",
+      "tier": "groq",
+      "article": "Al-Manar: Veteran anchor and Head of Political Programming Department Hajj Mohammad Sherri martyred along with his wife in Israeli strike on Beirut\u2019s Zqaq Al-Blat - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-18T13:23:04.433404+00:00",
+      "tier": "groq",
+      "article": "How Iran defied Trump threats to emerge as Strait of Hormuz gatekeeper"
     }
   ]
 }
