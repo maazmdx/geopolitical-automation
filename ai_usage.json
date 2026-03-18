@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 733,
+  "total_calls": 737,
   "tiers": {
-    "groq": 715,
+    "groq": 719,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-15T22:33:14.392874+00:00",
-      "tier": "groq",
-      "article": "An Israeli airstrike targets the southern suburbs of Beirut (Dahiyeh) - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-15T22:33:31.334307+00:00",
-      "tier": "groq",
-      "article": "Israeli forces kill Palestinian couple and two of their children in occupied West Bank"
-    },
-    {
-      "timestamp": "2026-03-15T22:33:47.175896+00:00",
-      "tier": "groq",
-      "article": "Israeli media: Drones infiltrate over the Western Galilee - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-15T22:34:04.602657+00:00",
-      "tier": "groq",
-      "article": "Ukraine eyes money and tech in return for Middle East drone support"
-    },
     {
       "timestamp": "2026-03-16T02:45:01.280539+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-18T05:29:55.931171+00:00",
       "tier": "groq",
       "article": "Trump confirms meeting with China\u2019s Xi Jinping delayed as war on Iran rages"
+    },
+    {
+      "timestamp": "2026-03-18T07:07:31.447195+00:00",
+      "tier": "groq",
+      "article": "Iran fires missiles, drones across Gulf, region remains in war crosshairs"
+    },
+    {
+      "timestamp": "2026-03-18T07:07:47.477678+00:00",
+      "tier": "groq",
+      "article": "Israeli air strike flattens residential building in Beirut"
+    },
+    {
+      "timestamp": "2026-03-18T07:08:03.532821+00:00",
+      "tier": "groq",
+      "article": "At 21:45 on Tuesday, March 17, 2026, Islamic Resistance fighters targeted a gathering of Israeli enemy soldiers in Aqabat Rab Thalathin on the Lebanese-Palestinian border with a rocket barrage: statement 33 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-18T07:08:20.942021+00:00",
+      "tier": "groq",
+      "article": "Actor Sean Penn gifted a special \u2018Oscar\u2019 by Ukraine\u2019s railway company"
     }
   ]
 }
