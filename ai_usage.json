@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 801,
+  "total_calls": 805,
   "tiers": {
-    "groq": 783,
+    "groq": 787,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-17T13:21:41.080496+00:00",
-      "tier": "groq",
-      "article": "Lebanese Army: Soldier martyred, 4 others injured in Israeli strike on Qaqaiyat Al-Jisr in south Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-17T13:21:58.124917+00:00",
-      "tier": "groq",
-      "article": "Hebrew media reports missile impacts in several locations across so-called Gush Dan (Tel Aviv) - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-17T13:22:15.092244+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Fighters Hunt Down Israeli Merkavas, Confront Enemy Advance Attempts (Video) - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-17T13:22:33.158437+00:00",
-      "tier": "groq",
-      "article": "Are the US and Israel waging war on Iran\u2019s cultural heritage?"
-    },
     {
       "timestamp": "2026-03-17T15:02:54.479159+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-19T17:08:37.494209+00:00",
       "tier": "groq",
       "article": "Hezbollah Denies Kuwaiti Accusations, Reaffirms Keenness on Brotherly People - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-19T19:09:31.720011+00:00",
+      "tier": "groq",
+      "article": "Israel says Haifa oil refinery hit in Iranian missile attack"
+    },
+    {
+      "timestamp": "2026-03-19T19:09:47.915707+00:00",
+      "tier": "groq",
+      "article": "Missile strikes close to reporter during Israeli attacks in Lebanon"
+    },
+    {
+      "timestamp": "2026-03-19T19:10:04.515530+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s \u201cNasrallah\u201d Missiles Burn Haifa Oil Refinery, First Strike on US F-35 Recorded - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-19T19:10:23.596998+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance targeted at 16:45 on Thursday 19/03/2026 a gathering of soldiers of the Israeli enemy army in the Taybeh project area with artillery shells: statement 22 - Al-Manar TV Lebanon"
     }
   ]
 }
