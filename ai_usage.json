@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 809,
+  "total_calls": 813,
   "tiers": {
-    "groq": 791,
+    "groq": 795,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-17T17:07:44.124628+00:00",
-      "tier": "groq",
-      "article": "Drones expand the deadly front lines of Sudan\u2019s devastating war"
-    },
-    {
-      "timestamp": "2026-03-17T17:08:00.422547+00:00",
-      "tier": "groq",
-      "article": "Israeli attacks on Lebanon may amount to war crimes, UN rights office says"
-    },
-    {
-      "timestamp": "2026-03-17T17:08:16.967754+00:00",
-      "tier": "groq",
-      "article": "What the Iran war looks like from the occupied West Bank"
-    },
-    {
-      "timestamp": "2026-03-17T17:08:34.123722+00:00",
-      "tier": "groq",
-      "article": "Israeli media: Sirens are blaring from Lebanon border till Tel Aviv - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-17T19:08:50.204258+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-19T20:48:55.338371+00:00",
       "tier": "groq",
       "article": "European nations, Japan to join \u2018appropriate efforts\u2019 to open Hormuz Strait"
+    },
+    {
+      "timestamp": "2026-03-19T22:38:29.096150+00:00",
+      "tier": "groq",
+      "article": "How will Israel\u2019s decades-long assassination policy continue?"
+    },
+    {
+      "timestamp": "2026-03-19T22:38:45.278602+00:00",
+      "tier": "groq",
+      "article": "Israel continues Gaza attacks amid regional war, kills several Palestinians"
+    },
+    {
+      "timestamp": "2026-03-19T22:39:01.731404+00:00",
+      "tier": "groq",
+      "article": "Iran warns it will show \u2018zero restraint\u2019 if infrastructure attacked again"
+    },
+    {
+      "timestamp": "2026-03-19T22:39:17.751521+00:00",
+      "tier": "groq",
+      "article": "At 16:45 on Thursday, March 19, 2026, Islamic Resistance fighters targeted a gathering of Israeli enemy army soldiers in Khirbet al-Kassif, southwest of the town of Taybeh, with artillery shells: statement 27 - Al-Manar TV Lebanon"
     }
   ]
 }
