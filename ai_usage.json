@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 793,
+  "total_calls": 797,
   "tiers": {
-    "groq": 775,
+    "groq": 779,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-17T08:59:11.653204+00:00",
-      "tier": "groq",
-      "article": "Families search for loved ones after deadly Pakistan strikes on Kabul rehab"
-    },
-    {
-      "timestamp": "2026-03-17T08:59:27.868264+00:00",
-      "tier": "groq",
-      "article": "Israel says 'limited' ground operations have begun in Lebanon"
-    },
-    {
-      "timestamp": "2026-03-17T08:59:43.845040+00:00",
-      "tier": "groq",
-      "article": "Al-Manar correspondent in south Lebanon: Five Lebanese soldiers wounded as Israeli drone targets their vehicle while returning from duty in  Qaqaiyat Al-Jisr - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-17T09:00:00.558446+00:00",
-      "tier": "groq",
-      "article": "Wary allies show there's no quick fix to Trump's Iran crisis "
-    },
     {
       "timestamp": "2026-03-17T10:56:14.582962+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-19T13:19:18.263017+00:00",
       "tier": "groq",
       "article": "US East Asian allies in legal quandary as Trump seeks help in the Middle East"
+    },
+    {
+      "timestamp": "2026-03-19T14:58:14.433269+00:00",
+      "tier": "groq",
+      "article": "What did Arab and Muslim ministers discuss in Riyadh meeting on Iran?"
+    },
+    {
+      "timestamp": "2026-03-19T14:58:30.707384+00:00",
+      "tier": "groq",
+      "article": "VIDEO: Shelling Israeli regime site by Iranian missiles"
+    },
+    {
+      "timestamp": "2026-03-19T14:59:28.177091+00:00",
+      "tier": "groq",
+      "article": "IRGC new air defense shoots down, 2 drones, cruise missile"
+    },
+    {
+      "timestamp": "2026-03-19T15:00:25.333686+00:00",
+      "tier": "groq",
+      "article": "EU leaders slam Hungary\u2019s Orban for blocking Ukraine aid package"
     }
   ]
 }
