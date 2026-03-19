@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 769,
+  "total_calls": 773,
   "tiers": {
-    "groq": 751,
+    "groq": 755,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-16T19:08:46.888237+00:00",
-      "tier": "groq",
-      "article": "US responsible for deadly attack on Iranian school: Amnesty International"
-    },
-    {
-      "timestamp": "2026-03-16T19:09:03.113098+00:00",
-      "tier": "groq",
-      "article": "Iran missile strike damages five KC-135 tankers in Saudi Arabia, officials say"
-    },
-    {
-      "timestamp": "2026-03-16T19:09:19.570199+00:00",
-      "tier": "groq",
-      "article": "'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car"
-    },
-    {
-      "timestamp": "2026-03-16T19:09:35.698149+00:00",
-      "tier": "groq",
-      "article": "Iran officials tout \u2018Trump-burning\u2019 celebration amid battle of narratives"
-    },
     {
       "timestamp": "2026-03-16T20:43:50.483768+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-18T22:42:56.455844+00:00",
       "tier": "groq",
       "article": "Iranians burn Trump, Netanyahu effigies at warship victim rally"
+    },
+    {
+      "timestamp": "2026-03-19T02:40:06.460804+00:00",
+      "tier": "groq",
+      "article": "Qatar expels Iranian attaches after LNG facility strike"
+    },
+    {
+      "timestamp": "2026-03-19T02:40:22.523621+00:00",
+      "tier": "groq",
+      "article": "Video | Iranian Missiles Hit Tel Aviv - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-19T02:40:44.437724+00:00",
+      "tier": "groq",
+      "article": "Funerals held for Afghans killed in Pakistani strike on Kabul hospital"
+    },
+    {
+      "timestamp": "2026-03-19T02:41:00.403858+00:00",
+      "tier": "groq",
+      "article": "At 22:00 on Wednesday, March 18, 2026, Islamic Resistance fighters targeted an artillery emplacement in the settlement of Al-Menara with a rocket barrage: statement 29 - Al-Manar TV Lebanon"
     }
   ]
 }
