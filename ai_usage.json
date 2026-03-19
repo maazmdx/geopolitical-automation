@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 789,
+  "total_calls": 793,
   "tiers": {
-    "groq": 771,
+    "groq": 775,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-17T07:11:51.426781+00:00",
-      "tier": "groq",
-      "article": "At 18:00 on Monday, 16/03/2026, Islamic Resistance fighters targeted radar sites and control rooms at the Ramat David Air Base in northern occupied Palestine with a squadron of attack drones: statement 23 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-17T07:12:08.429225+00:00",
-      "tier": "groq",
-      "article": "Iran\u2019s neighbours brace for fallout as war threatens new refugee crisis"
-    },
-    {
-      "timestamp": "2026-03-17T07:12:24.492987+00:00",
-      "tier": "groq",
-      "article": "Drone sparks fire at UAE oil site as Gulf takes more hits amid Iran war"
-    },
-    {
-      "timestamp": "2026-03-17T07:12:40.317726+00:00",
-      "tier": "groq",
-      "article": "EU says Iran is \u2018not Europe\u2019s war\u2019"
-    },
     {
       "timestamp": "2026-03-17T08:59:11.653204+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-19T10:50:59.784799+00:00",
       "tier": "groq",
       "article": "Iran, Sweden FMs discuss bilateral ties, consular issues"
+    },
+    {
+      "timestamp": "2026-03-19T13:18:21.525506+00:00",
+      "tier": "groq",
+      "article": "IRGC Strikes 80 Israeli Sites, Four US Bases in Major Operation - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-19T13:18:42.842984+00:00",
+      "tier": "groq",
+      "article": "Why are Iran\u2019s South Pars gasfield, Qatar\u2019s Ras Laffan, so significant?"
+    },
+    {
+      "timestamp": "2026-03-19T13:18:59.675135+00:00",
+      "tier": "groq",
+      "article": "Israeli Aggression Continues: Fresh Raids and Crimes Against Lebanese Civilians - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-19T13:19:18.263017+00:00",
+      "tier": "groq",
+      "article": "US East Asian allies in legal quandary as Trump seeks help in the Middle East"
     }
   ]
 }
