@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 773,
+  "total_calls": 777,
   "tiers": {
-    "groq": 755,
+    "groq": 759,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-16T20:43:50.483768+00:00",
-      "tier": "groq",
-      "article": "Israeli enemy renews threat to strike Beirut\u2019s Dahieh - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-16T20:44:07.214990+00:00",
-      "tier": "groq",
-      "article": "In continuation of the two previous statements, and after targeting and destroying two Merkava tanks in the Taybeh project area with guided missiles and achieving direct hits, the Israeli enemy army brought helicopters to the area of \u200b\u200bthe operation to evacuate the casualties under heavy fire and smoke cover. The Islamic Resistance fighters targeted the evacuation area in two waves at 21:00 and 21:20 with missile salvos: statement 18 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-16T20:44:24.935592+00:00",
-      "tier": "groq",
-      "article": "At 20:50 on Monday, 16/03/2026, the Islamic Resistance fighters targeted a second Merkava tank in the Taybeh Project area with a guided missile and hit it directly: statement 17 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-16T20:44:41.979717+00:00",
-      "tier": "groq",
-      "article": "Norway\u2019s elite Arctic soldiers still dig their own snow caves to hide from drones"
-    },
     {
       "timestamp": "2026-03-16T22:40:01.195869+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-19T02:41:00.403858+00:00",
       "tier": "groq",
       "article": "At 22:00 on Wednesday, March 18, 2026, Islamic Resistance fighters targeted an artillery emplacement in the settlement of Al-Menara with a rocket barrage: statement 29 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-19T05:29:34.871363+00:00",
+      "tier": "groq",
+      "article": "Three Palestinian women killed during Iranian missile attack in West Bank"
+    },
+    {
+      "timestamp": "2026-03-19T05:29:51.186152+00:00",
+      "tier": "groq",
+      "article": "Three women killed in occupied West Bank missile attack"
+    },
+    {
+      "timestamp": "2026-03-19T05:30:07.327158+00:00",
+      "tier": "groq",
+      "article": "Lockheed tests upgraded Precision Strike Missile designed to strike ships"
+    },
+    {
+      "timestamp": "2026-03-19T05:30:23.728602+00:00",
+      "tier": "groq",
+      "article": "Could oil hit $200 a barrel? Analysts no longer think it is far-fetched"
     }
   ]
 }
