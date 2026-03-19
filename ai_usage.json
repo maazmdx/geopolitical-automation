@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 785,
+  "total_calls": 789,
   "tiers": {
-    "groq": 767,
+    "groq": 771,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-17T05:24:15.471632+00:00",
-      "tier": "groq",
-      "article": "Trump threatens to \u2018take\u2019 Cuba amid island-wide power crisis"
-    },
-    {
-      "timestamp": "2026-03-17T05:24:31.829840+00:00",
-      "tier": "groq",
-      "article": "South African fruit exports face delays as Iran war disrupts shipping"
-    },
-    {
-      "timestamp": "2026-03-17T05:24:48.164836+00:00",
-      "tier": "groq",
-      "article": "Top Democrat in US House slams Trump\u2019s \u2018reckless war of choice\u2019"
-    },
-    {
-      "timestamp": "2026-03-17T05:25:04.133659+00:00",
-      "tier": "groq",
-      "article": "Israel policy looms large over US elections in Illinois amid Iran war"
-    },
     {
       "timestamp": "2026-03-17T07:11:51.426781+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-19T08:57:07.267759+00:00",
       "tier": "groq",
       "article": "US intelligence agencies not expecting China to invade Taiwan in 2027"
+    },
+    {
+      "timestamp": "2026-03-19T10:50:10.015426+00:00",
+      "tier": "groq",
+      "article": "Strikes kill two PMF fighters in northern Iraq amid wider war, group says"
+    },
+    {
+      "timestamp": "2026-03-19T10:50:26.270920+00:00",
+      "tier": "groq",
+      "article": "Trump denies knowledge of Israeli gas field attack"
+    },
+    {
+      "timestamp": "2026-03-19T10:50:42.188794+00:00",
+      "tier": "groq",
+      "article": "Al-Manar correspondent reports Israeli air strike on Al-Hosh town in Tyre district - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-19T10:50:59.784799+00:00",
+      "tier": "groq",
+      "article": "Iran, Sweden FMs discuss bilateral ties, consular issues"
     }
   ]
 }
