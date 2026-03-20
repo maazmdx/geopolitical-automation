@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 829,
+  "total_calls": 833,
   "tiers": {
-    "groq": 811,
+    "groq": 815,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-18T05:29:07.950241+00:00",
-      "tier": "groq",
-      "article": "Killing of Larijani will not destabilise Iranian political system: Minister"
-    },
-    {
-      "timestamp": "2026-03-18T05:29:24.061621+00:00",
-      "tier": "groq",
-      "article": "At 23:30 on Tuesday, 17/03/2026, the Islamic Resistance fighters targeted a gathering of Israeli enemy army vehicles in the Al-Khazzan hill in the border town of Al-Adaisseh with rocket barrages: statement 29 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-18T05:29:39.896903+00:00",
-      "tier": "groq",
-      "article": "Drone attacks hit near US embassy in Baghdad"
-    },
-    {
-      "timestamp": "2026-03-18T05:29:55.931171+00:00",
-      "tier": "groq",
-      "article": "Trump confirms meeting with China\u2019s Xi Jinping delayed as war on Iran rages"
-    },
     {
       "timestamp": "2026-03-18T07:07:31.447195+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-20T08:55:20.313771+00:00",
       "tier": "groq",
       "article": "IRGC announces 66th wave of Operation True Promise 4: Israeli targets in Tel Aviv and south of occupied Palestine in addition to US bases in the region were struck - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-20T10:47:17.558266+00:00",
+      "tier": "groq",
+      "article": "IRGC Launches Wave 67 of Operation True Promise 4, Strikes US and Israeli Targets - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-20T10:47:37.431083+00:00",
+      "tier": "groq",
+      "article": "Iran strikes US F-35 stealth fighter jet: Ghalibaf"
+    },
+    {
+      "timestamp": "2026-03-20T10:48:35.049957+00:00",
+      "tier": "groq",
+      "article": "IRGC expounds on US Gerald Ford\u2019s retreat in a statement"
+    },
+    {
+      "timestamp": "2026-03-20T10:49:31.278333+00:00",
+      "tier": "groq",
+      "article": "High-speed combat drone production starts at new US Anduril plant in days"
     }
   ]
 }
