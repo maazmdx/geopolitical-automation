@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 849,
+  "total_calls": 853,
   "tiers": {
-    "groq": 831,
+    "groq": 835,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-18T15:08:55.672558+00:00",
-      "tier": "groq",
-      "article": "Hebrew media: Cluster missile impact in Ramat Gan, emergency forces en route to the scene - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-18T15:09:13.320874+00:00",
-      "tier": "groq",
-      "article": "Turkey deploys third NATO Patriot system to repel Iranian missiles"
-    },
-    {
-      "timestamp": "2026-03-18T15:09:29.797645+00:00",
-      "tier": "groq",
-      "article": "Turkiye says NATO bringing in more defences after missile interceptions"
-    },
-    {
-      "timestamp": "2026-03-18T15:09:46.019259+00:00",
-      "tier": "groq",
-      "article": "Israel to mount lasers on fighter jets and helicopters"
-    },
     {
       "timestamp": "2026-03-18T17:07:05.912232+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-20T19:02:22.225900+00:00",
       "tier": "groq",
       "article": "Hezbollah Denounces UN Official\u2019s Pro-Israeli Stances on Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-20T20:40:29.804248+00:00",
+      "tier": "groq",
+      "article": "UK approves US use of British bases to strike Iran missile sites targeting ships"
+    },
+    {
+      "timestamp": "2026-03-20T20:40:46.115916+00:00",
+      "tier": "groq",
+      "article": "What are the risks of turning energy sites into battlefields?"
+    },
+    {
+      "timestamp": "2026-03-20T20:41:02.403467+00:00",
+      "tier": "groq",
+      "article": "Ukraine deploys units to 5 Middle East countries to intercept drones"
+    },
+    {
+      "timestamp": "2026-03-20T20:41:18.727178+00:00",
+      "tier": "groq",
+      "article": "Who are the Gulf\u2019s military allies, and how are they helping in Iran war?"
     }
   ]
 }
