@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 837,
+  "total_calls": 841,
   "tiers": {
-    "groq": 819,
+    "groq": 823,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-18T08:57:41.996388+00:00",
-      "tier": "groq",
-      "article": "11 Civil Defense members injured in Israeli strike near their health center in the southern city of Nabatieh - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-18T08:57:59.236017+00:00",
-      "tier": "groq",
-      "article": "Aftermath of Iranian \u2018revenge\u2019 strikes on Israel leaves destruction, two ki"
-    },
-    {
-      "timestamp": "2026-03-18T08:58:15.560236+00:00",
-      "tier": "groq",
-      "article": "Iran launches \u2018revenge\u2019 missile attack on Israel after assassinations"
-    },
-    {
-      "timestamp": "2026-03-18T08:58:31.382088+00:00",
-      "tier": "groq",
-      "article": "At 21:20 on Tuesday, 17/03/2026, Islamic Resistance fighters targeted a gathering of Israeli enemy army soldiers at the Marj site off the border town of Markaba with a rocket barrage: statement 36 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-18T10:57:34.625043+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-20T13:13:34.102463+00:00",
       "tier": "groq",
       "article": "Iran vows to target US-Israel infrastructures in region"
+    },
+    {
+      "timestamp": "2026-03-20T14:51:43.363385+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s IRGC says spokesman Ali Mohammad Naini killed in US-Israeli attack"
+    },
+    {
+      "timestamp": "2026-03-20T14:51:59.510672+00:00",
+      "tier": "groq",
+      "article": "Qalibaf: Iran\u2019s Strike on US F-35 Signals \u2018Collapse of an Order\u2019 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-20T14:52:18.153507+00:00",
+      "tier": "groq",
+      "article": "Hezbollah continues to target Zionist regime's positions"
+    },
+    {
+      "timestamp": "2026-03-20T14:53:16.575886+00:00",
+      "tier": "groq",
+      "article": "More dangerous than F-35 fighter jet is weapon hunts it"
     }
   ]
 }
