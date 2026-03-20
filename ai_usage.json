@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 813,
+  "total_calls": 817,
   "tiers": {
-    "groq": 795,
+    "groq": 799,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-17T19:08:50.204258+00:00",
-      "tier": "groq",
-      "article": "Video: Man rescued from under rubble after attack in Iran"
-    },
-    {
-      "timestamp": "2026-03-17T19:09:06.538955+00:00",
-      "tier": "groq",
-      "article": "Zionist Channel 12: 20 missiles were fired from Lebanon at Galilee, air defenses activated - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-17T19:09:25.269314+00:00",
-      "tier": "groq",
-      "article": "Sheikh Qassem to Hezbollah fighters: Our choice of confronting the aggression reflects valor and readiness - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-17T19:09:43.494836+00:00",
-      "tier": "groq",
-      "article": "Patriot air defense interception is costly: Here\u2019s how it works"
-    },
     {
       "timestamp": "2026-03-17T20:44:32.423534+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-19T22:39:17.751521+00:00",
       "tier": "groq",
       "article": "At 16:45 on Thursday, March 19, 2026, Islamic Resistance fighters targeted a gathering of Israeli enemy army soldiers in Khirbet al-Kassif, southwest of the town of Taybeh, with artillery shells: statement 27 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-20T02:32:50.438863+00:00",
+      "tier": "groq",
+      "article": "Mexican military says 11 killed in raid targeting Sinaloa cartel leader"
+    },
+    {
+      "timestamp": "2026-03-20T02:33:06.907269+00:00",
+      "tier": "groq",
+      "article": "Videos show Iranian missile fragments impacting northern Israel"
+    },
+    {
+      "timestamp": "2026-03-20T02:33:23.245768+00:00",
+      "tier": "groq",
+      "article": "Who leads Iran? Assassinations leave leadership and command in question"
+    },
+    {
+      "timestamp": "2026-03-20T02:33:39.472777+00:00",
+      "tier": "groq",
+      "article": "Netanyahu says Iran\u2019s uranium enrichment abilities destroyed"
     }
   ]
 }
