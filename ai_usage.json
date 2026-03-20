@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 833,
+  "total_calls": 837,
   "tiers": {
-    "groq": 815,
+    "groq": 819,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-18T07:07:31.447195+00:00",
-      "tier": "groq",
-      "article": "Iran fires missiles, drones across Gulf, region remains in war crosshairs"
-    },
-    {
-      "timestamp": "2026-03-18T07:07:47.477678+00:00",
-      "tier": "groq",
-      "article": "Israeli air strike flattens residential building in Beirut"
-    },
-    {
-      "timestamp": "2026-03-18T07:08:03.532821+00:00",
-      "tier": "groq",
-      "article": "At 21:45 on Tuesday, March 17, 2026, Islamic Resistance fighters targeted a gathering of Israeli enemy soldiers in Aqabat Rab Thalathin on the Lebanese-Palestinian border with a rocket barrage: statement 33 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-18T07:08:20.942021+00:00",
-      "tier": "groq",
-      "article": "Actor Sean Penn gifted a special \u2018Oscar\u2019 by Ukraine\u2019s railway company"
-    },
     {
       "timestamp": "2026-03-18T08:57:41.996388+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-20T10:49:31.278333+00:00",
       "tier": "groq",
       "article": "High-speed combat drone production starts at new US Anduril plant in days"
+    },
+    {
+      "timestamp": "2026-03-20T13:12:42.688167+00:00",
+      "tier": "groq",
+      "article": "Israel says it hit Syrian army camps in the south after Druze \u2018attacked\u2019"
+    },
+    {
+      "timestamp": "2026-03-20T13:12:58.980428+00:00",
+      "tier": "groq",
+      "article": "Enemy Warplanes Strike South Lebanon Amid Ongoing Aggression - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-20T13:13:16.682703+00:00",
+      "tier": "groq",
+      "article": "Enemy media: 5 missiles launched from Iran towards Haifa in the north and Beersheba in the south - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-20T13:13:34.102463+00:00",
+      "tier": "groq",
+      "article": "Iran vows to target US-Israel infrastructures in region"
     }
   ]
 }
