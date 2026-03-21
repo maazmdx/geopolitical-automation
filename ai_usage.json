@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 857,
+  "total_calls": 861,
   "tiers": {
-    "groq": 839,
+    "groq": 843,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-18T19:07:08.610187+00:00",
-      "tier": "groq",
-      "article": "Who will answer for the Iranian schoolchildren killed in Minab?"
-    },
-    {
-      "timestamp": "2026-03-18T19:07:24.748328+00:00",
-      "tier": "groq",
-      "article": "Iran's intelligence minister Esmail Khatib killed in air strike, Israel says"
-    },
-    {
-      "timestamp": "2026-03-18T19:07:41.166389+00:00",
-      "tier": "groq",
-      "article": "'Very difficult to stop': BBC visits scene of Iran cluster bomb strike on Israel"
-    },
-    {
-      "timestamp": "2026-03-18T19:07:57.057995+00:00",
-      "tier": "groq",
-      "article": "Polish court clears extradition of Russian archaeologist to Ukraine"
-    },
     {
       "timestamp": "2026-03-18T20:47:03.627206+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-20T22:39:25.542846+00:00",
       "tier": "groq",
       "article": "Two suspected Iranian spies reportedly arrested near UK submarine base"
+    },
+    {
+      "timestamp": "2026-03-21T02:27:06.939265+00:00",
+      "tier": "groq",
+      "article": "UK allows US to use bases to strike Iranian sites targeting Strait of Hormuz"
+    },
+    {
+      "timestamp": "2026-03-21T02:27:23.074801+00:00",
+      "tier": "groq",
+      "article": "Terror groups under increased scrutiny in DNI\u2019s annual threat report"
+    },
+    {
+      "timestamp": "2026-03-21T02:27:40.100901+00:00",
+      "tier": "groq",
+      "article": "QatarEnergy CEO says warned US, industry officials against attack on energy"
+    },
+    {
+      "timestamp": "2026-03-21T02:27:56.331162+00:00",
+      "tier": "groq",
+      "article": "Iranians celebrate Persian New Year in first wartime Nowruz in decades"
     }
   ]
 }
