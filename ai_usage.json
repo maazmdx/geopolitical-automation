@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 869,
+  "total_calls": 873,
   "tiers": {
-    "groq": 851,
+    "groq": 855,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-19T02:40:06.460804+00:00",
-      "tier": "groq",
-      "article": "Qatar expels Iranian attaches after LNG facility strike"
-    },
-    {
-      "timestamp": "2026-03-19T02:40:22.523621+00:00",
-      "tier": "groq",
-      "article": "Video | Iranian Missiles Hit Tel Aviv - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-19T02:40:44.437724+00:00",
-      "tier": "groq",
-      "article": "Funerals held for Afghans killed in Pakistani strike on Kabul hospital"
-    },
-    {
-      "timestamp": "2026-03-19T02:41:00.403858+00:00",
-      "tier": "groq",
-      "article": "At 22:00 on Wednesday, March 18, 2026, Islamic Resistance fighters targeted an artillery emplacement in the settlement of Al-Menara with a rocket barrage: statement 29 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-19T05:29:34.871363+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-21T06:59:35.051584+00:00",
       "tier": "groq",
       "article": "Iranian general warns enemy leaders under watch"
+    },
+    {
+      "timestamp": "2026-03-21T08:41:27.067607+00:00",
+      "tier": "groq",
+      "article": "President calls for national unity in New Year message"
+    },
+    {
+      "timestamp": "2026-03-21T08:42:25.279880+00:00",
+      "tier": "groq",
+      "article": "Iraq's Ammar Hakim reacts to US-Israeli aggression on Iran"
+    },
+    {
+      "timestamp": "2026-03-21T08:43:23.146934+00:00",
+      "tier": "groq",
+      "article": "Texelis, Scata team up on medium-heavy vehicle that can do drone defense"
+    },
+    {
+      "timestamp": "2026-03-21T08:43:39.441003+00:00",
+      "tier": "groq",
+      "article": "India cooking gas crisis forces exodus of textile workers"
     }
   ]
 }
