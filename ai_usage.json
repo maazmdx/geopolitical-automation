@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 861,
+  "total_calls": 865,
   "tiers": {
-    "groq": 843,
+    "groq": 847,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-18T20:47:03.627206+00:00",
-      "tier": "groq",
-      "article": "Qatar says Iran missile attack sparks fire, causes damage at gas facility"
-    },
-    {
-      "timestamp": "2026-03-18T20:47:19.659225+00:00",
-      "tier": "groq",
-      "article": "Loud explosions rock Tel Aviv after heavy missile fire from Lebanon: Al-Manar reporter - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-18T20:47:37.574206+00:00",
-      "tier": "groq",
-      "article": "Trump temporarily waives century-old shipping law amid rising fuel costs"
-    },
-    {
-      "timestamp": "2026-03-18T20:47:53.794924+00:00",
-      "tier": "groq",
-      "article": "The Pentagon wants to field laser weapons at scale within 3 years"
-    },
     {
       "timestamp": "2026-03-18T22:42:06.262381+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-21T02:27:56.331162+00:00",
       "tier": "groq",
       "article": "Iranians celebrate Persian New Year in first wartime Nowruz in decades"
+    },
+    {
+      "timestamp": "2026-03-21T05:11:23.376801+00:00",
+      "tier": "groq",
+      "article": "IRGC spokesman Gen. Naeini martyred in assassination"
+    },
+    {
+      "timestamp": "2026-03-21T05:12:20.892035+00:00",
+      "tier": "groq",
+      "article": "World media outlets react Iran interception of US F-35 jet"
+    },
+    {
+      "timestamp": "2026-03-21T05:13:19.669002+00:00",
+      "tier": "groq",
+      "article": "Iran warns UAE against any attack on its islands"
+    },
+    {
+      "timestamp": "2026-03-21T05:14:16.999965+00:00",
+      "tier": "groq",
+      "article": "US, Israel may drag Caspian region into Iran war: Russia"
     }
   ]
 }
