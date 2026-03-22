@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 933,
+  "total_calls": 937,
   "tiers": {
-    "groq": 915,
+    "groq": 919,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-20T13:12:42.688167+00:00",
-      "tier": "groq",
-      "article": "Israel says it hit Syrian army camps in the south after Druze \u2018attacked\u2019"
-    },
-    {
-      "timestamp": "2026-03-20T13:12:58.980428+00:00",
-      "tier": "groq",
-      "article": "Enemy Warplanes Strike South Lebanon Amid Ongoing Aggression - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-20T13:13:16.682703+00:00",
-      "tier": "groq",
-      "article": "Enemy media: 5 missiles launched from Iran towards Haifa in the north and Beersheba in the south - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-20T13:13:34.102463+00:00",
-      "tier": "groq",
-      "article": "Iran vows to target US-Israel infrastructures in region"
-    },
     {
       "timestamp": "2026-03-20T14:51:43.363385+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-22T16:42:09.219138+00:00",
       "tier": "groq",
       "article": "Latin American presidents criticise US actions"
+    },
+    {
+      "timestamp": "2026-03-22T18:47:30.156240+00:00",
+      "tier": "groq",
+      "article": "\u2018We do it together, in confidence\u2019: Netanyahu backs US strikes on Iran"
+    },
+    {
+      "timestamp": "2026-03-22T18:47:46.504476+00:00",
+      "tier": "groq",
+      "article": "Israeli settlers target Palestinian villages in occupied West Bank, attacking people and properties"
+    },
+    {
+      "timestamp": "2026-03-22T18:48:02.871798+00:00",
+      "tier": "groq",
+      "article": "\u2018Risk of escalation is extremely high as Iran shows it can retaliate\u2019"
+    },
+    {
+      "timestamp": "2026-03-22T18:48:19.337477+00:00",
+      "tier": "groq",
+      "article": "Hezbollah attack kills one in north Israel as assault on Lebanon continues"
     }
   ]
 }
