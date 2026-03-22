@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 909,
+  "total_calls": 913,
   "tiers": {
-    "groq": 891,
+    "groq": 895,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-19T22:38:29.096150+00:00",
-      "tier": "groq",
-      "article": "How will Israel\u2019s decades-long assassination policy continue?"
-    },
-    {
-      "timestamp": "2026-03-19T22:38:45.278602+00:00",
-      "tier": "groq",
-      "article": "Israel continues Gaza attacks amid regional war, kills several Palestinians"
-    },
-    {
-      "timestamp": "2026-03-19T22:39:01.731404+00:00",
-      "tier": "groq",
-      "article": "Iran warns it will show \u2018zero restraint\u2019 if infrastructure attacked again"
-    },
-    {
-      "timestamp": "2026-03-19T22:39:17.751521+00:00",
-      "tier": "groq",
-      "article": "At 16:45 on Thursday, March 19, 2026, Islamic Resistance fighters targeted a gathering of Israeli enemy army soldiers in Khirbet al-Kassif, southwest of the town of Taybeh, with artillery shells: statement 27 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-20T02:32:50.438863+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-22T05:27:24.574398+00:00",
       "tier": "groq",
       "article": "Iran slams Grossi\u2019s remarks as violation of safeguards deal"
+    },
+    {
+      "timestamp": "2026-03-22T07:02:34.951014+00:00",
+      "tier": "groq",
+      "article": "Iran strikes Israeli F-16 fighter jet"
+    },
+    {
+      "timestamp": "2026-03-22T07:03:32.562419+00:00",
+      "tier": "groq",
+      "article": "Why does Iran\u2019s strike on Dimona matter?"
+    },
+    {
+      "timestamp": "2026-03-22T07:04:29.462028+00:00",
+      "tier": "groq",
+      "article": "Trump issues 48-hour Hormuz Strait ultimatum, threatens Iran\u2019s power plants"
+    },
+    {
+      "timestamp": "2026-03-22T07:04:45.672869+00:00",
+      "tier": "groq",
+      "article": "Martyr Esmaeil Khatib funeral in Qom"
     }
   ]
 }
