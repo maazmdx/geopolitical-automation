@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 901,
+  "total_calls": 905,
   "tiers": {
-    "groq": 883,
+    "groq": 887,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-19T19:09:31.720011+00:00",
-      "tier": "groq",
-      "article": "Israel says Haifa oil refinery hit in Iranian missile attack"
-    },
-    {
-      "timestamp": "2026-03-19T19:09:47.915707+00:00",
-      "tier": "groq",
-      "article": "Missile strikes close to reporter during Israeli attacks in Lebanon"
-    },
-    {
-      "timestamp": "2026-03-19T19:10:04.515530+00:00",
-      "tier": "groq",
-      "article": "Iran\u2019s \u201cNasrallah\u201d Missiles Burn Haifa Oil Refinery, First Strike on US F-35 Recorded - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-19T19:10:23.596998+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance targeted at 16:45 on Thursday 19/03/2026 a gathering of soldiers of the Israeli enemy army in the Taybeh project area with artillery shells: statement 22 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-19T20:48:06.330342+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-21T22:36:15.006943+00:00",
       "tier": "groq",
       "article": "At 17:20 on Saturday, 21/03/2026, Islamic Resistance fighters targeted a gathering of vehicles and soldiers of the Israeli enemy army in the Al-Maasara neighborhood of the border town of Maroun Al-Ras with artillery shells: statement 33 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-22T02:40:58.442225+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s Hypersonic Missile Kills 6, Injures Dozens in South of \u2018Israel\u2019 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-22T02:41:17.197334+00:00",
+      "tier": "groq",
+      "article": "Hamas Praises Iranian Attacks on Arad, Dimona - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-22T02:41:38.051832+00:00",
+      "tier": "groq",
+      "article": "\u2018Very difficult evening\u2019: Israel says over 100 wounded in Iranian attacks"
+    },
+    {
+      "timestamp": "2026-03-22T02:41:54.433979+00:00",
+      "tier": "groq",
+      "article": "ICC Chief Prosecutor Khan cleared of sexual misconduct by judges: Report"
     }
   ]
 }
