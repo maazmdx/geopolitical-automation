@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 941,
+  "total_calls": 945,
   "tiers": {
-    "groq": 923,
+    "groq": 927,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-20T16:56:34.551910+00:00",
-      "tier": "groq",
-      "article": "Israel strikes Syria after Druze clashes"
-    },
-    {
-      "timestamp": "2026-03-20T16:56:51.056927+00:00",
-      "tier": "groq",
-      "article": "Hezbollah\u2019s Islamic Resistance fighters targeted an Israeli Merkava in Taybe Lebanese border town with a guided missile, direct hit achieved: Military Media statement - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-20T16:57:07.545106+00:00",
-      "tier": "groq",
-      "article": "Air raid sirens blare during Eid call to prayer in Kuwait"
-    },
-    {
-      "timestamp": "2026-03-20T16:57:23.869751+00:00",
-      "tier": "groq",
-      "article": "Iran developing a \u2018vetting system\u2019 for Strait of Hormuz transit: Report"
-    },
     {
       "timestamp": "2026-03-20T19:01:32.665161+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-22T20:39:39.904224+00:00",
       "tier": "groq",
       "article": "Lebanon\u2019s Aoun warns Israeli attack on bridge \u2018prelude to ground invasion\u2019"
+    },
+    {
+      "timestamp": "2026-03-22T22:36:11.678894+00:00",
+      "tier": "groq",
+      "article": "Hezbollah fighters launched an aerial attack using a squadron of strike drones on Israeli soldiers advancing toward Khallat al-Bustan, southeast of the border town of Maroun Al-Ras, achieving confirmed hits: Military Media Statement 60 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-22T22:36:30.845771+00:00",
+      "tier": "groq",
+      "article": "Trump sends US immigration agents to airports as shutdown chaos deepens"
+    },
+    {
+      "timestamp": "2026-03-22T22:36:47.223491+00:00",
+      "tier": "groq",
+      "article": "Hezbollah fighters targeted enemy artillery positions in Al-Za\u2019oura with a squadron of attack drones: Military Media Statement 62 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-22T22:37:05.774465+00:00",
+      "tier": "groq",
+      "article": "Did Israel miscalculate Iranian military capabilities?"
     }
   ]
 }
