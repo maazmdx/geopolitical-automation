@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 969,
+  "total_calls": 973,
   "tiers": {
-    "groq": 951,
+    "groq": 955,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-21T08:41:27.067607+00:00",
-      "tier": "groq",
-      "article": "President calls for national unity in New Year message"
-    },
-    {
-      "timestamp": "2026-03-21T08:42:25.279880+00:00",
-      "tier": "groq",
-      "article": "Iraq's Ammar Hakim reacts to US-Israeli aggression on Iran"
-    },
-    {
-      "timestamp": "2026-03-21T08:43:23.146934+00:00",
-      "tier": "groq",
-      "article": "Texelis, Scata team up on medium-heavy vehicle that can do drone defense"
-    },
-    {
-      "timestamp": "2026-03-21T08:43:39.441003+00:00",
-      "tier": "groq",
-      "article": "India cooking gas crisis forces exodus of textile workers"
-    },
     {
       "timestamp": "2026-03-21T10:36:51.038270+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-23T13:22:03.347386+00:00",
       "tier": "groq",
       "article": "Trump's ultimatum and the reality he doesn\u2019t know"
+    },
+    {
+      "timestamp": "2026-03-23T15:05:00.817287+00:00",
+      "tier": "groq",
+      "article": "Trump says Iran, US seeking \u2018deal\u2019 after he pauses strikes on power plants"
+    },
+    {
+      "timestamp": "2026-03-23T15:05:17.208584+00:00",
+      "tier": "groq",
+      "article": "\u2018Substantial evidence\u2019 of double-tap strike in killing of Hind Rajab"
+    },
+    {
+      "timestamp": "2026-03-23T15:05:33.567735+00:00",
+      "tier": "groq",
+      "article": "Israeli settlers rampage through West Bank towns for second night in a row"
+    },
+    {
+      "timestamp": "2026-03-23T15:05:49.858521+00:00",
+      "tier": "groq",
+      "article": "Iran: Trump Backed Down, and We Will Defend Ourselves Until Deterrence Is Achieved - Al-Manar TV Lebanon"
     }
   ]
 }
