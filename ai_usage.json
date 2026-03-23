@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 981,
+  "total_calls": 985,
   "tiers": {
-    "groq": 963,
+    "groq": 967,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-21T14:36:59.959517+00:00",
-      "tier": "groq",
-      "article": "Iran says it will allow Japanese ships to transit the Strait of Hormuz"
-    },
-    {
-      "timestamp": "2026-03-21T14:37:16.540699+00:00",
-      "tier": "groq",
-      "article": "The spokesperson for Khatam al-Anbiya Central Headquarters: This war will continue as long as the option of attacking our land remains part of your strategies - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-21T14:37:34.069348+00:00",
-      "tier": "groq",
-      "article": "War spirals as information control tightens"
-    },
-    {
-      "timestamp": "2026-03-21T14:37:50.051130+00:00",
-      "tier": "groq",
-      "article": "Al-Manar correspondent: Two rocket salvos fired towards enemy gatherings inside the border towns in the eastern sector - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-21T16:40:53.439464+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-23T19:06:30.515570+00:00",
       "tier": "groq",
       "article": "How Israel is reacting to Trump\u2019s  \u2018de-escalation\u2019 with Iran"
+    },
+    {
+      "timestamp": "2026-03-23T20:50:16.425457+00:00",
+      "tier": "groq",
+      "article": "Trump deploys ICE agents to US airports amid staffing issues, delays"
+    },
+    {
+      "timestamp": "2026-03-23T20:50:32.391225+00:00",
+      "tier": "groq",
+      "article": "Tehran residents express distrust over Trump\u2019s war diplomacy"
+    },
+    {
+      "timestamp": "2026-03-23T20:50:48.438929+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance: Our fighters targeted a gathering of Israeli enemy army soldiers at Khallat Wardeh in the border town of Aita al-Shaab with a rocket barrage - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-23T20:51:06.871722+00:00",
+      "tier": "groq",
+      "article": "US' and Iran's options for ending war narrow the longer it goes on"
     }
   ]
 }
