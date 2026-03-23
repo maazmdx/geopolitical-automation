@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 965,
+  "total_calls": 969,
   "tiers": {
-    "groq": 947,
+    "groq": 951,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-21T06:56:41.781455+00:00",
-      "tier": "groq",
-      "article": "Iraq Resistance launches 27 attacks against enemy positions"
-    },
-    {
-      "timestamp": "2026-03-21T06:57:39.566730+00:00",
-      "tier": "groq",
-      "article": "Iran targets US \u2018Diego Garcia\u2019 base with 2 ballistic missiles"
-    },
-    {
-      "timestamp": "2026-03-21T06:58:37.354147+00:00",
-      "tier": "groq",
-      "article": "VIDEO: US drone downed by Iran Army Navy"
-    },
-    {
-      "timestamp": "2026-03-21T06:59:35.051584+00:00",
-      "tier": "groq",
-      "article": "Iranian general warns enemy leaders under watch"
-    },
     {
       "timestamp": "2026-03-21T08:41:27.067607+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-23T11:02:58.310268+00:00",
       "tier": "groq",
       "article": "Iran Threatens to Mine Gulf, Declares New Waves of Op. True Promise 4 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-23T13:21:07.738927+00:00",
+      "tier": "groq",
+      "article": "Inside Iran\u2019s Energy Resilience: Infrastructure Built to Withstand War and Sanctions - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-23T13:21:27.615299+00:00",
+      "tier": "groq",
+      "article": "Iranian Missiles Strike Deep in Occupied Territories, Israeli Media Acknowledges Reach - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-23T13:21:47.262609+00:00",
+      "tier": "groq",
+      "article": "\u2018False flag attack\u2019: Iran denies claims it fired missiles at Diego Garcia"
+    },
+    {
+      "timestamp": "2026-03-23T13:22:03.347386+00:00",
+      "tier": "groq",
+      "article": "Trump's ultimatum and the reality he doesn\u2019t know"
     }
   ]
 }
