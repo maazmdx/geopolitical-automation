@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 961,
+  "total_calls": 965,
   "tiers": {
-    "groq": 943,
+    "groq": 947,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-21T05:11:23.376801+00:00",
-      "tier": "groq",
-      "article": "IRGC spokesman Gen. Naeini martyred in assassination"
-    },
-    {
-      "timestamp": "2026-03-21T05:12:20.892035+00:00",
-      "tier": "groq",
-      "article": "World media outlets react Iran interception of US F-35 jet"
-    },
-    {
-      "timestamp": "2026-03-21T05:13:19.669002+00:00",
-      "tier": "groq",
-      "article": "Iran warns UAE against any attack on its islands"
-    },
-    {
-      "timestamp": "2026-03-21T05:14:16.999965+00:00",
-      "tier": "groq",
-      "article": "US, Israel may drag Caspian region into Iran war: Russia"
-    },
     {
       "timestamp": "2026-03-21T06:56:41.781455+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-23T09:07:52.809986+00:00",
       "tier": "groq",
       "article": "Over 81,000 civilian sites damaged in US-Israel aggression"
+    },
+    {
+      "timestamp": "2026-03-23T11:00:46.016430+00:00",
+      "tier": "groq",
+      "article": "Israeli Aggression Continues Across Southern Lebanon as Resistance Strikes Back - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-23T11:01:03.799733+00:00",
+      "tier": "groq",
+      "article": "Bahrain blast reveals another false flag claim"
+    },
+    {
+      "timestamp": "2026-03-23T11:02:00.792303+00:00",
+      "tier": "groq",
+      "article": "Kazakh president congratulates Iran on Nowruz, Eid Fitr"
+    },
+    {
+      "timestamp": "2026-03-23T11:02:58.310268+00:00",
+      "tier": "groq",
+      "article": "Iran Threatens to Mine Gulf, Declares New Waves of Op. True Promise 4 - Al-Manar TV Lebanon"
     }
   ]
 }
