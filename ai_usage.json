@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 977,
+  "total_calls": 981,
   "tiers": {
-    "groq": 959,
+    "groq": 963,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-21T13:02:22.869732+00:00",
-      "tier": "groq",
-      "article": "US-Israeli strikes target Natanz enrichment facility"
-    },
-    {
-      "timestamp": "2026-03-21T13:03:21.731464+00:00",
-      "tier": "groq",
-      "article": "Drone strike near Iraqi intelligence headquarters in Baghdad kills officer"
-    },
-    {
-      "timestamp": "2026-03-21T13:03:37.793379+00:00",
-      "tier": "groq",
-      "article": "Extensive Damage in Rishon LeZion Caused by Iranian Missile - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-21T13:03:58.736209+00:00",
-      "tier": "groq",
-      "article": "US judge sides with New York Times against Pentagon journalism policies"
-    },
     {
       "timestamp": "2026-03-21T14:36:59.959517+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-23T17:05:28.364233+00:00",
       "tier": "groq",
       "article": "Has Iran brought down an \u2018unkillable\u2019 US F-35 jet?"
+    },
+    {
+      "timestamp": "2026-03-23T19:05:41.033413+00:00",
+      "tier": "groq",
+      "article": "How the Iran war is about to hit your wallet"
+    },
+    {
+      "timestamp": "2026-03-23T19:05:57.105615+00:00",
+      "tier": "groq",
+      "article": "UK PM Starmer says no threat from Iran on Britain, calls for de-escalation"
+    },
+    {
+      "timestamp": "2026-03-23T19:06:13.126761+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance: Our fighters targeted the air defense system in the settlement of Ma\u2019alot-Tarshiha with a swarm of attack drones - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-23T19:06:30.515570+00:00",
+      "tier": "groq",
+      "article": "How Israel is reacting to Trump\u2019s  \u2018de-escalation\u2019 with Iran"
     }
   ]
 }
