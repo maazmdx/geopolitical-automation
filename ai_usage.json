@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 949,
+  "total_calls": 953,
   "tiers": {
-    "groq": 931,
+    "groq": 935,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-20T20:40:29.804248+00:00",
-      "tier": "groq",
-      "article": "UK approves US use of British bases to strike Iran missile sites targeting ships"
-    },
-    {
-      "timestamp": "2026-03-20T20:40:46.115916+00:00",
-      "tier": "groq",
-      "article": "What are the risks of turning energy sites into battlefields?"
-    },
-    {
-      "timestamp": "2026-03-20T20:41:02.403467+00:00",
-      "tier": "groq",
-      "article": "Ukraine deploys units to 5 Middle East countries to intercept drones"
-    },
-    {
-      "timestamp": "2026-03-20T20:41:18.727178+00:00",
-      "tier": "groq",
-      "article": "Who are the Gulf\u2019s military allies, and how are they helping in Iran war?"
-    },
     {
       "timestamp": "2026-03-20T22:38:35.100366+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-23T02:42:13.593049+00:00",
       "tier": "groq",
       "article": "Trump\u2019s changing messages on Iran war: What does it say about US strategy?"
+    },
+    {
+      "timestamp": "2026-03-23T05:46:54.758575+00:00",
+      "tier": "groq",
+      "article": "210 children martyred by US, Israel since start of Iran war"
+    },
+    {
+      "timestamp": "2026-03-23T05:47:52.971625+00:00",
+      "tier": "groq",
+      "article": "Iran warns enemy against attacks on infrastructures"
+    },
+    {
+      "timestamp": "2026-03-23T05:48:50.543026+00:00",
+      "tier": "groq",
+      "article": "Brothers search rubble for missing sibling under Tehran rubble after strike"
+    },
+    {
+      "timestamp": "2026-03-23T05:49:06.734431+00:00",
+      "tier": "groq",
+      "article": "Expecting restraint from Iran unrealistic: Baghaei"
     }
   ]
 }
