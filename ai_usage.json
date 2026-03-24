@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1005,
+  "total_calls": 1009,
   "tiers": {
-    "groq": 987,
+    "groq": 991,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-22T05:25:54.872595+00:00",
-      "tier": "groq",
-      "article": "What we know about Iran\u2019s latest attacks on Israel"
-    },
-    {
-      "timestamp": "2026-03-22T05:26:10.848232+00:00",
-      "tier": "groq",
-      "article": "Iranian strike hits near Israeli nuclear facility after Tehran says its site targeted"
-    },
-    {
-      "timestamp": "2026-03-22T05:26:27.042307+00:00",
-      "tier": "groq",
-      "article": "Iranian Army\u2019s drones target Israeli military sites"
-    },
-    {
-      "timestamp": "2026-03-22T05:27:24.574398+00:00",
-      "tier": "groq",
-      "article": "Iran slams Grossi\u2019s remarks as violation of safeguards deal"
-    },
     {
       "timestamp": "2026-03-22T07:02:34.951014+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-24T09:04:06.599595+00:00",
       "tier": "groq",
       "article": "Iran FM urges Russia, China to block US actions at UNSC"
+    },
+    {
+      "timestamp": "2026-03-24T11:00:13.657376+00:00",
+      "tier": "groq",
+      "article": "Lebanese Ministry of Public Health reports three Lebanese martyred, including a child, and four injured in an Israeli airstrike on the town of Bchamoun in Aley District - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-24T11:00:31.798632+00:00",
+      "tier": "groq",
+      "article": "Where do reported US-Iran \u2018negotiations\u2019 leave Israel?"
+    },
+    {
+      "timestamp": "2026-03-24T11:00:47.747658+00:00",
+      "tier": "groq",
+      "article": "Drone footage shows aftermath of Iranian missile attack in Tel Aviv"
+    },
+    {
+      "timestamp": "2026-03-24T11:01:03.666812+00:00",
+      "tier": "groq",
+      "article": "Iran, Oman FMs discuss Strait of Hormuz developments"
     }
   ]
 }
