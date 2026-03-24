@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1029,
+  "total_calls": 1033,
   "tiers": {
-    "groq": 1011,
+    "groq": 1015,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-22T16:41:20.951588+00:00",
-      "tier": "groq",
-      "article": "Iranian authorities taunt US, Israel, EU amid strikes and assassinations"
-    },
-    {
-      "timestamp": "2026-03-22T16:41:37.053736+00:00",
-      "tier": "groq",
-      "article": "Did Iran launch missiles at US-UK base on Diego Garcia? Here\u2019s what to know"
-    },
-    {
-      "timestamp": "2026-03-22T16:41:53.205967+00:00",
-      "tier": "groq",
-      "article": "Israeli firefighters battle vehicles blaze after missile attack from Lebano"
-    },
-    {
-      "timestamp": "2026-03-22T16:42:09.219138+00:00",
-      "tier": "groq",
-      "article": "Latin American presidents criticise US actions"
-    },
     {
       "timestamp": "2026-03-22T18:47:30.156240+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-24T20:52:51.064947+00:00",
       "tier": "groq",
       "article": "Is the US talking to Iran\u2019s Mohammad Bagher Ghalibaf, and who is he?"
+    },
+    {
+      "timestamp": "2026-03-24T22:42:00.423817+00:00",
+      "tier": "groq",
+      "article": "Iraq to summon US, Iran envoys over deadly attacks: PM\u2019s office"
+    },
+    {
+      "timestamp": "2026-03-24T22:42:16.875730+00:00",
+      "tier": "groq",
+      "article": "Deadly Iran school strike casts shadow over Pentagon\u2019s AI targeting push"
+    },
+    {
+      "timestamp": "2026-03-24T22:42:33.256866+00:00",
+      "tier": "groq",
+      "article": "Building collapses after Iranian missile strike on Israel"
+    },
+    {
+      "timestamp": "2026-03-24T22:42:49.525650+00:00",
+      "tier": "groq",
+      "article": "Chinese corvette recently trained its weapons on Philippine frigate, officials confirm"
     }
   ]
 }
