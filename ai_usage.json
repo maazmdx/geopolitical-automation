@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1021,
+  "total_calls": 1025,
   "tiers": {
-    "groq": 1003,
+    "groq": 1007,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-22T13:04:41.256403+00:00",
-      "tier": "groq",
-      "article": "Israeli Escalation Intensifies in Southern Lebanon with Widespread Airstrikes - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-22T13:05:01.328765+00:00",
-      "tier": "groq",
-      "article": "Hezbollah unleashes wave of strikes against Israeli positions"
-    },
-    {
-      "timestamp": "2026-03-22T13:05:58.750049+00:00",
-      "tier": "groq",
-      "article": "Moment Iranian strike hits central Tel Aviv"
-    },
-    {
-      "timestamp": "2026-03-22T13:06:14.780131+00:00",
-      "tier": "groq",
-      "article": "Trump threatens to \u2018obliterate\u2019 Iran power plants unless Hormuz Strait open"
-    },
     {
       "timestamp": "2026-03-22T14:37:39.114860+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-24T17:10:09.378534+00:00",
       "tier": "groq",
       "article": "The \u2018simple maneuver\u2019 of opening Hormuz strait carries great risks, analysts say"
+    },
+    {
+      "timestamp": "2026-03-24T19:13:46.765882+00:00",
+      "tier": "groq",
+      "article": "Israeli defences questioned as Iran continues to cause damage"
+    },
+    {
+      "timestamp": "2026-03-24T19:14:03.663246+00:00",
+      "tier": "groq",
+      "article": "Mothers of the Plaza de Mayo reflect on 50th anniversary of Argentina coup"
+    },
+    {
+      "timestamp": "2026-03-24T19:14:20.003334+00:00",
+      "tier": "groq",
+      "article": "UN experts urge Israel to free Gaza doctor amid reports of \u2018severe torture\u2019"
+    },
+    {
+      "timestamp": "2026-03-24T19:14:36.133451+00:00",
+      "tier": "groq",
+      "article": "Why has India arrested US, Ukrainian nationals under \u2018anti-terror\u2019 laws?"
     }
   ]
 }
