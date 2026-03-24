@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1025,
+  "total_calls": 1029,
   "tiers": {
-    "groq": 1007,
+    "groq": 1011,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-22T14:37:39.114860+00:00",
-      "tier": "groq",
-      "article": "Al-Manar correspondent: Israeli warplanes unleash carpet of fire over towns in Nabatieh, staging successive strikes on Shoukine, Maifadoun, Zawatr, Kfartibneet and Nabatieh Al-Fawqa - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-22T14:37:56.014353+00:00",
-      "tier": "groq",
-      "article": "Iran Shows No Sign of Backing down, Vows Response to Trump\u2019s \u201cUltimatum\u201d - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-22T14:38:16.573478+00:00",
-      "tier": "groq",
-      "article": "Casualties as Iran Missiles Hit Tel Aviv, Surrounding Areas: Videos - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-22T14:38:36.093943+00:00",
-      "tier": "groq",
-      "article": "Drone footage captures flooding across Oahu, Hawaii"
-    },
     {
       "timestamp": "2026-03-22T16:41:20.951588+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-24T19:14:36.133451+00:00",
       "tier": "groq",
       "article": "Why has India arrested US, Ukrainian nationals under \u2018anti-terror\u2019 laws?"
+    },
+    {
+      "timestamp": "2026-03-24T20:52:00.481405+00:00",
+      "tier": "groq",
+      "article": "Russia hits Ukraine with rare daytime barrage as new offensive begins"
+    },
+    {
+      "timestamp": "2026-03-24T20:52:17.052345+00:00",
+      "tier": "groq",
+      "article": "What impact is the war on Iran having on Israel?"
+    },
+    {
+      "timestamp": "2026-03-24T20:52:33.348618+00:00",
+      "tier": "groq",
+      "article": "Zionist media: 3 injuries in missile fire at central \u2018Israel\u2019 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-24T20:52:51.064947+00:00",
+      "tier": "groq",
+      "article": "Is the US talking to Iran\u2019s Mohammad Bagher Ghalibaf, and who is he?"
     }
   ]
 }
