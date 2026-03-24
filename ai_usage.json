@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 993,
+  "total_calls": 997,
   "tiers": {
-    "groq": 975,
+    "groq": 979,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-21T20:37:44.757920+00:00",
-      "tier": "groq",
-      "article": "Zionist media: The number of wounded in Dimona has reached 22 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-21T20:38:02.735507+00:00",
-      "tier": "groq",
-      "article": "EU urges members to start storing winter gas as Iran war causes price surge"
-    },
-    {
-      "timestamp": "2026-03-21T20:38:19.305466+00:00",
-      "tier": "groq",
-      "article": "Joe Kent speaks out against Iran war at prayer event after resigning"
-    },
-    {
-      "timestamp": "2026-03-21T20:38:35.572395+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Fighters Fiercely Clash with Occupation Forces in Khiam and Naqoura, Destroying Merkava - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-21T22:35:24.616682+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-24T02:34:12.159235+00:00",
       "tier": "groq",
       "article": "Israeli settlers vandalise school, raise Israeli flag in occupied West Bank"
+    },
+    {
+      "timestamp": "2026-03-24T05:30:04.433887+00:00",
+      "tier": "groq",
+      "article": "IRGC launches 78th wave of Operation True Promise 4"
+    },
+    {
+      "timestamp": "2026-03-24T05:31:02.207745+00:00",
+      "tier": "groq",
+      "article": "Disruption in Strait of Hormuz result of US actions: Araghchi"
+    },
+    {
+      "timestamp": "2026-03-24T05:31:59.394222+00:00",
+      "tier": "groq",
+      "article": "Financial institutions funding US military legitimate targets"
+    },
+    {
+      "timestamp": "2026-03-24T05:32:56.623282+00:00",
+      "tier": "groq",
+      "article": "Iran Army launches drone attack on Israeli, American targets"
     }
   ]
 }
