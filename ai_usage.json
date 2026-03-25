@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1037,
+  "total_calls": 1041,
   "tiers": {
-    "groq": 1019,
+    "groq": 1023,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-22T20:38:44.511176+00:00",
-      "tier": "groq",
-      "article": "Operation Eaten Straw: Hezbollah Demonstrates Advanced Firepower, Tactical Precision - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-22T20:39:04.484581+00:00",
-      "tier": "groq",
-      "article": "Israeli air strikes on Gaza kill four Palestinians"
-    },
-    {
-      "timestamp": "2026-03-22T20:39:21.273242+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fighters targeted the Birkat Risha Israeli site opposite the border town of Yaroun with a rocket salvo: Military Media statement 40 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-22T20:39:39.904224+00:00",
-      "tier": "groq",
-      "article": "Lebanon\u2019s Aoun warns Israeli attack on bridge \u2018prelude to ground invasion\u2019"
-    },
     {
       "timestamp": "2026-03-22T22:36:11.678894+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-25T02:38:59.309519+00:00",
       "tier": "groq",
       "article": "Philippine president declares energy emergency as impact of Iran war felt"
+    },
+    {
+      "timestamp": "2026-03-25T05:28:19.035850+00:00",
+      "tier": "groq",
+      "article": "Over 5,000 Zionists injured amid Iran war"
+    },
+    {
+      "timestamp": "2026-03-25T05:29:17.173721+00:00",
+      "tier": "groq",
+      "article": "Armed forces to continue to defend nation until full victory"
+    },
+    {
+      "timestamp": "2026-03-25T05:30:15.539292+00:00",
+      "tier": "groq",
+      "article": "Parsi: No deal \u2018\u2019without both sides giving something to the other\u2019"
+    },
+    {
+      "timestamp": "2026-03-25T05:30:31.868972+00:00",
+      "tier": "groq",
+      "article": "What we know about the US\u2019s 15-point plan Iran proposal"
     }
   ]
 }
