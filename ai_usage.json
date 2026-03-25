@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1057,
+  "total_calls": 1061,
   "tiers": {
-    "groq": 1039,
+    "groq": 1043,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-23T09:07:02.958237+00:00",
-      "tier": "groq",
-      "article": "Iran war: What\u2019s happening on day 24 of US-Israel attacks?"
-    },
-    {
-      "timestamp": "2026-03-23T09:07:19.134806+00:00",
-      "tier": "groq",
-      "article": "\u2018Unprecedented\u2019: Israel, US carry out extensive strikes across Iran"
-    },
-    {
-      "timestamp": "2026-03-23T09:07:34.949729+00:00",
-      "tier": "groq",
-      "article": "Israeli media: Initial reports of missile impact in Ashkelon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-23T09:07:52.809986+00:00",
-      "tier": "groq",
-      "article": "Over 81,000 civilian sites damaged in US-Israel aggression"
-    },
     {
       "timestamp": "2026-03-23T11:00:46.016430+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-25T13:26:46.617450+00:00",
       "tier": "groq",
       "article": "Iranian attacks amount to violation of sovereignty, Gulf states tell UN"
+    },
+    {
+      "timestamp": "2026-03-25T15:09:22.275168+00:00",
+      "tier": "groq",
+      "article": "Hezbollah reports 49 precise strikes so far on Wednesday, targeting Israeli Merkava tanks, army gatherings of vehicles and soldiers, artillery positions, military outposts, and strategic infrastructure with guided missiles, rocket barrages, and attack drones in response to aggression against Lebanese areas: Military media statements - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-25T15:09:39.243471+00:00",
+      "tier": "groq",
+      "article": "Missiles overhead, silence below: Israel\u2019s home front holds firm"
+    },
+    {
+      "timestamp": "2026-03-25T15:09:55.256180+00:00",
+      "tier": "groq",
+      "article": "Belarus\u2019s leader makes first visit to North Korea in bid to deepen ties"
+    },
+    {
+      "timestamp": "2026-03-25T15:10:11.534343+00:00",
+      "tier": "groq",
+      "article": "Hezbollah\u2019s Sheikh Qassem: Negotiation Under Fire Is Surrender, National Unity Vital to Defend Lebanon - Al-Manar TV Lebanon"
     }
   ]
 }
