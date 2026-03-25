@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1061,
+  "total_calls": 1065,
   "tiers": {
-    "groq": 1043,
+    "groq": 1047,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-23T11:00:46.016430+00:00",
-      "tier": "groq",
-      "article": "Israeli Aggression Continues Across Southern Lebanon as Resistance Strikes Back - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-23T11:01:03.799733+00:00",
-      "tier": "groq",
-      "article": "Bahrain blast reveals another false flag claim"
-    },
-    {
-      "timestamp": "2026-03-23T11:02:00.792303+00:00",
-      "tier": "groq",
-      "article": "Kazakh president congratulates Iran on Nowruz, Eid Fitr"
-    },
-    {
-      "timestamp": "2026-03-23T11:02:58.310268+00:00",
-      "tier": "groq",
-      "article": "Iran Threatens to Mine Gulf, Declares New Waves of Op. True Promise 4 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-23T13:21:07.738927+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-25T15:10:11.534343+00:00",
       "tier": "groq",
       "article": "Hezbollah\u2019s Sheikh Qassem: Negotiation Under Fire Is Surrender, National Unity Vital to Defend Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-25T17:13:09.091425+00:00",
+      "tier": "groq",
+      "article": "Deadly US attack on Iraqi military base sparks condemnation"
+    },
+    {
+      "timestamp": "2026-03-25T17:13:25.277360+00:00",
+      "tier": "groq",
+      "article": "Is war turning Tehran\u2019s air into a chemical weapon?"
+    },
+    {
+      "timestamp": "2026-03-25T17:13:41.454212+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted a gathering of Israeli enemy soldiers and vehicles in the Taybeh project for the second time with a drone strike: statement 55 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-25T17:13:58.523462+00:00",
+      "tier": "groq",
+      "article": "Estonia, Latvia report drone incursions from Russian airspace"
     }
   ]
 }
