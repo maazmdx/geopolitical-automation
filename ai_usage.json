@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1033,
+  "total_calls": 1037,
   "tiers": {
-    "groq": 1015,
+    "groq": 1019,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-22T18:47:30.156240+00:00",
-      "tier": "groq",
-      "article": "\u2018We do it together, in confidence\u2019: Netanyahu backs US strikes on Iran"
-    },
-    {
-      "timestamp": "2026-03-22T18:47:46.504476+00:00",
-      "tier": "groq",
-      "article": "Israeli settlers target Palestinian villages in occupied West Bank, attacking people and properties"
-    },
-    {
-      "timestamp": "2026-03-22T18:48:02.871798+00:00",
-      "tier": "groq",
-      "article": "\u2018Risk of escalation is extremely high as Iran shows it can retaliate\u2019"
-    },
-    {
-      "timestamp": "2026-03-22T18:48:19.337477+00:00",
-      "tier": "groq",
-      "article": "Hezbollah attack kills one in north Israel as assault on Lebanon continues"
-    },
     {
       "timestamp": "2026-03-22T20:38:44.511176+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-24T22:42:49.525650+00:00",
       "tier": "groq",
       "article": "Chinese corvette recently trained its weapons on Philippine frigate, officials confirm"
+    },
+    {
+      "timestamp": "2026-03-25T02:38:10.014736+00:00",
+      "tier": "groq",
+      "article": "Lockheed launches Hellfire missile from 10-foot cargo container"
+    },
+    {
+      "timestamp": "2026-03-25T02:38:26.430933+00:00",
+      "tier": "groq",
+      "article": "Iranian missiles cause injuries and major damage across Israel"
+    },
+    {
+      "timestamp": "2026-03-25T02:38:42.803033+00:00",
+      "tier": "groq",
+      "article": "TKMS and ST Engineering to create submarine service \u2018hub\u2019 in Singapore"
+    },
+    {
+      "timestamp": "2026-03-25T02:38:59.309519+00:00",
+      "tier": "groq",
+      "article": "Philippine president declares energy emergency as impact of Iran war felt"
     }
   ]
 }
