@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1081,
+  "total_calls": 1085,
   "tiers": {
-    "groq": 1063,
+    "groq": 1067,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-23T20:50:16.425457+00:00",
-      "tier": "groq",
-      "article": "Trump deploys ICE agents to US airports amid staffing issues, delays"
-    },
-    {
-      "timestamp": "2026-03-23T20:50:32.391225+00:00",
-      "tier": "groq",
-      "article": "Tehran residents express distrust over Trump\u2019s war diplomacy"
-    },
-    {
-      "timestamp": "2026-03-23T20:50:48.438929+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance: Our fighters targeted a gathering of Israeli enemy army soldiers at Khallat Wardeh in the border town of Aita al-Shaab with a rocket barrage - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-23T20:51:06.871722+00:00",
-      "tier": "groq",
-      "article": "US' and Iran's options for ending war narrow the longer it goes on"
-    },
     {
       "timestamp": "2026-03-23T22:42:37.638779+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-26T02:46:05.088854+00:00",
       "tier": "groq",
       "article": "Philippines farmers feeling the pinch of the war on Iran"
+    },
+    {
+      "timestamp": "2026-03-26T05:48:45.949534+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Strikes Israeli War Ministry HQ (Kirya) in Tel Aviv - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-26T05:49:06.526103+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Military Media Explains Merkava Convoy Ambush in Taybeh-Qantara Area, South Lebanon: 10 Tanks, 2 Bulldozers Destroyed - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-26T05:49:24.591814+00:00",
+      "tier": "groq",
+      "article": "Videos show wave of missiles fired from Lebanon to Israel"
+    },
+    {
+      "timestamp": "2026-03-26T05:49:40.622185+00:00",
+      "tier": "groq",
+      "article": "Iran FM hails German\u2019s president for condemning aggression"
     }
   ]
 }
