@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1089,
+  "total_calls": 1093,
   "tiers": {
-    "groq": 1071,
+    "groq": 1075,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-24T02:33:20.815949+00:00",
-      "tier": "groq",
-      "article": "Israeli media: A large Iranian cluster missile directly hits a building in Haifa; ambulance teams rush to the scene - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-24T02:33:40.011302+00:00",
-      "tier": "groq",
-      "article": "US and UK teaming up to destroy underwater drones"
-    },
-    {
-      "timestamp": "2026-03-24T02:33:56.092574+00:00",
-      "tier": "groq",
-      "article": "Trump says Iran \u2018wants peace\u2019 after US military did \u2018great job\u2019"
-    },
-    {
-      "timestamp": "2026-03-24T02:34:12.159235+00:00",
-      "tier": "groq",
-      "article": "Israeli settlers vandalise school, raise Israeli flag in occupied West Bank"
-    },
     {
       "timestamp": "2026-03-24T05:30:04.433887+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-26T07:22:09.406855+00:00",
       "tier": "groq",
       "article": "Strait of Hormuz not closed: Iran FM Araghchi"
+    },
+    {
+      "timestamp": "2026-03-26T09:06:59.960510+00:00",
+      "tier": "groq",
+      "article": "Human cost of war: Four killed in Iran, Abu Dhabi as conflict expands"
+    },
+    {
+      "timestamp": "2026-03-26T09:07:16.103914+00:00",
+      "tier": "groq",
+      "article": "IRGC targets Israeli satellite center"
+    },
+    {
+      "timestamp": "2026-03-26T09:08:13.384675+00:00",
+      "tier": "groq",
+      "article": "Hezbollah\u2019s Islamic Resistance fighters targeted the Israeli settlement of Metula with a swarm of attack drones: Military Media statement no. 23 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-26T09:08:30.202277+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters launched a squadron of attack drones at Iron Dome systems at the Poriya base, west of Lake Tiberias: Hezbollah Military Media statement no. 26 - Al-Manar TV Lebanon"
     }
   ]
 }
