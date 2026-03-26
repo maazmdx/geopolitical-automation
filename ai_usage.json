@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1109,
+  "total_calls": 1113,
   "tiers": {
-    "groq": 1091,
+    "groq": 1095,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-24T13:25:11.515372+00:00",
-      "tier": "groq",
-      "article": "Israeli Aggression Against Lebanon Continues: Martyrs in Bshamoun, Tyre District, and East of Sidon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-24T13:25:30.370658+00:00",
-      "tier": "groq",
-      "article": "\u2019Terrified\u2019 Israeli residents recount Iranian missile attack"
-    },
-    {
-      "timestamp": "2026-03-24T13:25:46.536229+00:00",
-      "tier": "groq",
-      "article": "No need for minelaying in Persian Gulf due to high dominance"
-    },
-    {
-      "timestamp": "2026-03-24T13:26:43.427710+00:00",
-      "tier": "groq",
-      "article": "Are Middle East attacks pushing Asia towards an energy crisis?"
-    },
     {
       "timestamp": "2026-03-24T15:07:43.759235+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-26T17:13:23.899267+00:00",
       "tier": "groq",
       "article": "France to boost\u00a0munitions\u00a0spending by nearly $10 billion through 2030"
+    },
+    {
+      "timestamp": "2026-03-26T19:18:31.814813+00:00",
+      "tier": "groq",
+      "article": "Iranian missiles cause widespread damage across Israel in latest wave"
+    },
+    {
+      "timestamp": "2026-03-26T19:18:47.961651+00:00",
+      "tier": "groq",
+      "article": "Spokesperson of the \u201cIsraeli\u201d enemy army: An officer from Battalion 77 of the 7th Armored Brigade is killed in a battle in southern Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-26T19:19:06.398448+00:00",
+      "tier": "groq",
+      "article": "Al-Manar correspondent: Two Merkava tanks were targeted with guided missiles in the town of Qantara, southern Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-26T19:19:25.379946+00:00",
+      "tier": "groq",
+      "article": "North Korea\u2019s Kim meets Lukashenko, slams \u2018pressure \u200bon Belarus from West\u2019"
     }
   ]
 }
