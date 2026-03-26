@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1113,
+  "total_calls": 1117,
   "tiers": {
-    "groq": 1095,
+    "groq": 1099,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-24T15:07:43.759235+00:00",
-      "tier": "groq",
-      "article": "Hezbollah reports 34 precise strikes on Monday, targeting Israeli Merkava tanks, army gatherings, artillery positions, military outposts, and strategic infrastructure with guided missiles, rocket barrages, and attack drones in response to aggression against Lebanese areas: Military media statements - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-24T15:08:01.033417+00:00",
-      "tier": "groq",
-      "article": "Al-Manar correspondent in south Lebanon reports rocket barrage targeted Israeli troop concentrations at the border with occupied Palestine - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-24T15:08:18.443306+00:00",
-      "tier": "groq",
-      "article": "China maps ocean floor as it prepares for submarine warfare with US"
-    },
-    {
-      "timestamp": "2026-03-24T15:08:34.853487+00:00",
-      "tier": "groq",
-      "article": "QatarEnergy declares force majeure on some LNG contracts due to Iran war"
-    },
     {
       "timestamp": "2026-03-24T17:09:14.829428+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-26T19:19:25.379946+00:00",
       "tier": "groq",
       "article": "North Korea\u2019s Kim meets Lukashenko, slams \u2018pressure \u200bon Belarus from West\u2019"
+    },
+    {
+      "timestamp": "2026-03-26T20:43:18.487180+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted at 16:30 on Thursday, 26-03-2026, three (3) Merkava tanks and a D9 bulldozer in Al-Qantara town with guided missiles, achieving confirmed hits: statement 65 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-26T20:43:36.071231+00:00",
+      "tier": "groq",
+      "article": "Tehran\u2019s \u2018toll booth\u2019: How Iran picks who to let through Strait of Hormuz"
+    },
+    {
+      "timestamp": "2026-03-26T20:43:52.415864+00:00",
+      "tier": "groq",
+      "article": "Pentagon boss claims Iran now has \u2018no navy, no navy leader\u2019"
+    },
+    {
+      "timestamp": "2026-03-26T20:44:08.589150+00:00",
+      "tier": "groq",
+      "article": "Israel sends more troops into southern Lebanon as ground invasion expands"
     }
   ]
 }
