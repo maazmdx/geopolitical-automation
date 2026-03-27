@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1157,
+  "total_calls": 1161,
   "tiers": {
-    "groq": 1139,
+    "groq": 1143,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-25T15:09:22.275168+00:00",
-      "tier": "groq",
-      "article": "Hezbollah reports 49 precise strikes so far on Wednesday, targeting Israeli Merkava tanks, army gatherings of vehicles and soldiers, artillery positions, military outposts, and strategic infrastructure with guided missiles, rocket barrages, and attack drones in response to aggression against Lebanese areas: Military media statements - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-25T15:09:39.243471+00:00",
-      "tier": "groq",
-      "article": "Missiles overhead, silence below: Israel\u2019s home front holds firm"
-    },
-    {
-      "timestamp": "2026-03-25T15:09:55.256180+00:00",
-      "tier": "groq",
-      "article": "Belarus\u2019s leader makes first visit to North Korea in bid to deepen ties"
-    },
-    {
-      "timestamp": "2026-03-25T15:10:11.534343+00:00",
-      "tier": "groq",
-      "article": "Hezbollah\u2019s Sheikh Qassem: Negotiation Under Fire Is Surrender, National Unity Vital to Defend Lebanon - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-25T17:13:09.091425+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-27T19:07:10.372450+00:00",
       "tier": "groq",
       "article": "Saudi, UAE, Iraq: Can three pipelines help oil escape Strait of Hormuz?"
+    },
+    {
+      "timestamp": "2026-03-27T20:48:31.954939+00:00",
+      "tier": "groq",
+      "article": "Smoke rises over Beirut suburbs after massive Israeli airstrike"
+    },
+    {
+      "timestamp": "2026-03-27T20:48:48.391267+00:00",
+      "tier": "groq",
+      "article": "Israel attacks major industrial and nuclear sites in Iran"
+    },
+    {
+      "timestamp": "2026-03-27T20:49:04.424735+00:00",
+      "tier": "groq",
+      "article": "Drone reveals extent of Iranian missile damage in Israeli city of Arad"
+    },
+    {
+      "timestamp": "2026-03-27T20:49:20.502442+00:00",
+      "tier": "groq",
+      "article": "Norway to add more than $11bn to defence budget over 10 years"
     }
   ]
 }
