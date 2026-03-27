@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1153,
+  "total_calls": 1157,
   "tiers": {
-    "groq": 1135,
+    "groq": 1139,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-25T13:24:34.122280+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Resistance Strikes Israeli Enemy Hard: Epic Clashes and Relentless Rocket Attacks - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-25T13:24:52.833548+00:00",
-      "tier": "groq",
-      "article": "Iran army targets US carrier with Qadir cruise missiles"
-    },
-    {
-      "timestamp": "2026-03-25T13:25:49.759195+00:00",
-      "tier": "groq",
-      "article": "Pezeshkian, Macron discuss de-escalation of tension in region"
-    },
-    {
-      "timestamp": "2026-03-25T13:26:46.617450+00:00",
-      "tier": "groq",
-      "article": "Iranian attacks amount to violation of sovereignty, Gulf states tell UN"
-    },
     {
       "timestamp": "2026-03-25T15:09:22.275168+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-27T17:05:55.363616+00:00",
       "tier": "groq",
       "article": "Iran expert says US ground invasion could cause a global economic meltdown"
+    },
+    {
+      "timestamp": "2026-03-27T19:06:19.994864+00:00",
+      "tier": "groq",
+      "article": "Combat zone widens in Lebanon as Israel and Hezbollah escalate attacks"
+    },
+    {
+      "timestamp": "2026-03-27T19:06:36.243054+00:00",
+      "tier": "groq",
+      "article": "Hezbollah fighters targeted 3 Merkava tanks and a gathering of Israeli enemy soldiers in the town of Al-Bayyada using attack drones and a guided missile, scoring direct hits; the tanks were seen burning: Military Media Statements 37, 39, 40 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-27T19:06:53.748434+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters intercepted a warplane in the skies over Beirut with a surface-to-air missile: statement 36 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-27T19:07:10.372450+00:00",
+      "tier": "groq",
+      "article": "Saudi, UAE, Iraq: Can three pipelines help oil escape Strait of Hormuz?"
     }
   ]
 }
