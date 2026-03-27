@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1125,
+  "total_calls": 1129,
   "tiers": {
-    "groq": 1107,
+    "groq": 1111,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-24T20:52:00.481405+00:00",
-      "tier": "groq",
-      "article": "Russia hits Ukraine with rare daytime barrage as new offensive begins"
-    },
-    {
-      "timestamp": "2026-03-24T20:52:17.052345+00:00",
-      "tier": "groq",
-      "article": "What impact is the war on Iran having on Israel?"
-    },
-    {
-      "timestamp": "2026-03-24T20:52:33.348618+00:00",
-      "tier": "groq",
-      "article": "Zionist media: 3 injuries in missile fire at central \u2018Israel\u2019 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-24T20:52:51.064947+00:00",
-      "tier": "groq",
-      "article": "Is the US talking to Iran\u2019s Mohammad Bagher Ghalibaf, and who is he?"
-    },
     {
       "timestamp": "2026-03-24T22:42:00.423817+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-27T02:48:23.973343+00:00",
       "tier": "groq",
       "article": "Islamic Resistance fighters targeted Israeli enemy artillery positions in Ma\u2019aliya, west of Ma\u2019alot-Tarshiha settlement, with a swarm of attack drones: statement 86 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-27T05:49:18.578816+00:00",
+      "tier": "groq",
+      "article": "Russia has requested consultations with UNSC over strikes on civilian targets in Iran: AP - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-27T05:49:36.943514+00:00",
+      "tier": "groq",
+      "article": "First responders rescue man from Tehran building hit by air strike"
+    },
+    {
+      "timestamp": "2026-03-27T05:49:52.982231+00:00",
+      "tier": "groq",
+      "article": "Red Crescent video shows aftermath of strike on homes in Iran\u2019s Urmia"
+    },
+    {
+      "timestamp": "2026-03-27T05:50:09.340395+00:00",
+      "tier": "groq",
+      "article": "Iran committed to abiding by UN Charter, Intl. obligations"
     }
   ]
 }
