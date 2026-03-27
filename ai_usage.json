@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1133,
+  "total_calls": 1137,
   "tiers": {
-    "groq": 1115,
+    "groq": 1119,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-25T02:38:10.014736+00:00",
-      "tier": "groq",
-      "article": "Lockheed launches Hellfire missile from 10-foot cargo container"
-    },
-    {
-      "timestamp": "2026-03-25T02:38:26.430933+00:00",
-      "tier": "groq",
-      "article": "Iranian missiles cause injuries and major damage across Israel"
-    },
-    {
-      "timestamp": "2026-03-25T02:38:42.803033+00:00",
-      "tier": "groq",
-      "article": "TKMS and ST Engineering to create submarine service \u2018hub\u2019 in Singapore"
-    },
-    {
-      "timestamp": "2026-03-25T02:38:59.309519+00:00",
-      "tier": "groq",
-      "article": "Philippine president declares energy emergency as impact of Iran war felt"
-    },
     {
       "timestamp": "2026-03-25T05:28:19.035850+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-27T07:19:37.969130+00:00",
       "tier": "groq",
       "article": "US-Israel war on Iran: What\u2019s happening on day 28 of attacks?"
+    },
+    {
+      "timestamp": "2026-03-27T09:03:53.122365+00:00",
+      "tier": "groq",
+      "article": "At 09:00 Friday, Islamic Resistance fighters struck an Israeli force that had infiltrated a house on the outskirts of Al-Bayada with a guided missile, scoring a direct hit: Hezbollah Military Media statement no. 12 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-27T09:04:10.415276+00:00",
+      "tier": "groq",
+      "article": "Iran urges UN to condemn assassination plots on officials"
+    },
+    {
+      "timestamp": "2026-03-27T09:05:09.903462+00:00",
+      "tier": "groq",
+      "article": "Israel says it has killed Iran's navy chief overseeing Strait of Hormuz blockade"
+    },
+    {
+      "timestamp": "2026-03-27T09:05:25.948523+00:00",
+      "tier": "groq",
+      "article": "Iran calls for regional unity against vicious Israeli plots"
     }
   ]
 }
