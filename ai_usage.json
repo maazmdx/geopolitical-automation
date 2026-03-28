@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1197,
+  "total_calls": 1201,
   "tiers": {
-    "groq": 1179,
+    "groq": 1183,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-26T13:28:10.549302+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Military Media announces two drone strikes targeting Kerem Ben Zimra and Liman barracks: statements no, 34, 35 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T13:28:27.602793+00:00",
-      "tier": "groq",
-      "article": "Europe can\u2019t rely on US for air-defense missiles, top EU official says"
-    },
-    {
-      "timestamp": "2026-03-26T13:28:43.814799+00:00",
-      "tier": "groq",
-      "article": "Israeli Channel 12: Iran has launched eight waves of missiles since this morning - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T13:29:01.082207+00:00",
-      "tier": "groq",
-      "article": "Iranian Intelligence arrests 39 mercenaries in Tehran"
-    },
     {
       "timestamp": "2026-03-26T15:14:09.068216+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-28T16:43:15.351688+00:00",
       "tier": "groq",
       "article": "Enemy media: Sirens sound in Ramot Naftali due to fears of drone infiltration - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T18:52:53.101746+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Military Media Honors Martyred Journalists, Affirms Their Legacy Immortal - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T18:53:12.811232+00:00",
+      "tier": "groq",
+      "article": "At least 22 migrants die off Greece after 6 days at sea"
+    },
+    {
+      "timestamp": "2026-03-28T18:53:29.354579+00:00",
+      "tier": "groq",
+      "article": "As war rages, Iranian politicians push for exit from nuclear weapons treaty"
+    },
+    {
+      "timestamp": "2026-03-28T18:53:45.617973+00:00",
+      "tier": "groq",
+      "article": "Israeli forces intensify attacks on Beirut"
     }
   ]
 }
