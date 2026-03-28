@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1201,
+  "total_calls": 1205,
   "tiers": {
-    "groq": 1183,
+    "groq": 1187,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-26T15:14:09.068216+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted an Israeli helicopter in the skies over Kfarkela with an air defense missile, forcing it to retreat: Hezbollah Military Media statement no. 40 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T15:14:26.199721+00:00",
-      "tier": "groq",
-      "article": "Israeli media: The latest missile and drone launches by Iran and Hezbollah in Lebanon were carried out simultaneously - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T15:14:43.744945+00:00",
-      "tier": "groq",
-      "article": "Israeli media: Sirens sound in central \u2018Israel\u2019 as a new wave of missiles launched from Iran - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T15:15:00.847724+00:00",
-      "tier": "groq",
-      "article": "Cuban president says Raul Castro involved in US talks amid oil blockade"
-    },
     {
       "timestamp": "2026-03-26T17:12:34.293101+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-28T18:53:45.617973+00:00",
       "tier": "groq",
       "article": "Israeli forces intensify attacks on Beirut"
+    },
+    {
+      "timestamp": "2026-03-28T20:39:20.507472+00:00",
+      "tier": "groq",
+      "article": "Missiles hit southern Israeli city of Eilat"
+    },
+    {
+      "timestamp": "2026-03-28T20:39:36.404740+00:00",
+      "tier": "groq",
+      "article": "\u2018Far right won\u2019t take over our streets\u2019: Huge crowds march through London"
+    },
+    {
+      "timestamp": "2026-03-28T20:39:52.519642+00:00",
+      "tier": "groq",
+      "article": "Protests in Yemen against US-Israeli attacks as Houthis warn of action"
+    },
+    {
+      "timestamp": "2026-03-28T20:40:08.497610+00:00",
+      "tier": "groq",
+      "article": "Hezbollah fighters struck an Israeli occupation army force in a house in Al-Bayyada with an attack drone, scoring a direct hit, and followed up by targeting the arriving evacuation team with rockets and artillery: Military Media Statement 18 - Al-Manar TV Lebanon"
     }
   ]
 }
