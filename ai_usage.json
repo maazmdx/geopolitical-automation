@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1177,
+  "total_calls": 1181,
   "tiers": {
-    "groq": 1159,
+    "groq": 1163,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-26T02:45:15.433704+00:00",
-      "tier": "groq",
-      "article": "Pentagon announces major surge in missile production "
-    },
-    {
-      "timestamp": "2026-03-26T02:45:31.440569+00:00",
-      "tier": "groq",
-      "article": "Further to the reports of clashes in the town of Taybeh, the height of Al-Muhaysibat, and at the entrance to the town of Qantara, at 22:10 on Wednesday, March 25, 2026, the Islamic Resistance fighters targeted the forces brought in to withdraw the destroyed vehicles and evacuate the wounded with rocket salvos and artillery shells: statement 79 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T02:45:49.034916+00:00",
-      "tier": "groq",
-      "article": "US tells Iran to accept defeat or Trump will \u2018unleash hell\u2019"
-    },
-    {
-      "timestamp": "2026-03-26T02:46:05.088854+00:00",
-      "tier": "groq",
-      "article": "Philippines farmers feeling the pinch of the war on Iran"
-    },
     {
       "timestamp": "2026-03-26T05:48:45.949534+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-28T07:10:20.996183+00:00",
       "tier": "groq",
       "article": "Sailing to and from enemy's allies ports at Hormuz banned"
+    },
+    {
+      "timestamp": "2026-03-28T08:47:43.538785+00:00",
+      "tier": "groq",
+      "article": "Yemen\u2019s Houthis launch missile attack on Israel as war on Iran intensifies"
+    },
+    {
+      "timestamp": "2026-03-28T08:47:59.579968+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s Bushehr NPP comes under attack for 3rd time: AEOI"
+    },
+    {
+      "timestamp": "2026-03-28T08:48:56.163878+00:00",
+      "tier": "groq",
+      "article": "Attack on Minab School blatant violation of international law"
+    },
+    {
+      "timestamp": "2026-03-28T08:49:52.778233+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted at 23:00 on Friday, 27-03-2026 Ramot Naftali barracks with a squadron of assault drones: statement 54 - Al-Manar TV Lebanon"
     }
   ]
 }
