@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1165,
+  "total_calls": 1169,
   "tiers": {
-    "groq": 1147,
+    "groq": 1151,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-25T19:06:20.458050+00:00",
-      "tier": "groq",
-      "article": "\u201cAfter observing the advance of an Israeli armored force in the town of Taybeh towards the Muhaysibat area, Islamic Resistance fighters targeted them at 6:50 PM on Wednesday, March 25, 2026, with guided missiles, resulting in the destruction of four Merkava tanks and a D9 bulldozer. Clashes are still ongoing at the time of this statement\u201d, statement 63 read - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-25T19:06:37.952367+00:00",
-      "tier": "groq",
-      "article": "\u2018Keffiyehs seized, left to die\u2019: Inside the Palestine Action hunger strike"
-    },
-    {
-      "timestamp": "2026-03-25T19:06:54.316212+00:00",
-      "tier": "groq",
-      "article": "\u201cIslamic Resistance fighters targeted at 20:15 on Wednesday, 25-03-2026, two Merkava tanks with guided missiles, destroying them and raising the total number of destroyed tanks to eight (8). The confrontations remain ongoing as of this statement,\u201d statement 66 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-25T19:07:11.088035+00:00",
-      "tier": "groq",
-      "article": "Pentagon inks deal with BAE, Lockheed to quadruple THAAD seeker production"
-    },
     {
       "timestamp": "2026-03-25T20:48:44.602288+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-27T22:43:26.548140+00:00",
       "tier": "groq",
       "article": "US diplomat Marco Rubio denounces settler violence, tolls in Hormuz strait"
+    },
+    {
+      "timestamp": "2026-03-28T02:37:31.361282+00:00",
+      "tier": "groq",
+      "article": "Rescue workers rush to save lives after south Tehran missile strike"
+    },
+    {
+      "timestamp": "2026-03-28T02:37:47.810181+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters early Saturday killed a large number of Israeli soldiers in a firm ambush in Taybeh area: Military Media statement 1 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T02:38:05.140084+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance targeted, at 18:30 on Friday, 27-03-2026, the Stella Maris base (a strategic base for maritime surveillance and monitoring along the northern coast) with a precision missile: statement 55 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T02:38:22.634510+00:00",
+      "tier": "groq",
+      "article": "US Space Command provides update on phased headquarters relocation to Alabama"
     }
   ]
 }
