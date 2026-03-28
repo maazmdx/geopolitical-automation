@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1181,
+  "total_calls": 1185,
   "tiers": {
-    "groq": 1163,
+    "groq": 1167,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-26T05:48:45.949534+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Strikes Israeli War Ministry HQ (Kirya) in Tel Aviv - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T05:49:06.526103+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Military Media Explains Merkava Convoy Ambush in Taybeh-Qantara Area, South Lebanon: 10 Tanks, 2 Bulldozers Destroyed - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T05:49:24.591814+00:00",
-      "tier": "groq",
-      "article": "Videos show wave of missiles fired from Lebanon to Israel"
-    },
-    {
-      "timestamp": "2026-03-26T05:49:40.622185+00:00",
-      "tier": "groq",
-      "article": "Iran FM hails German\u2019s president for condemning aggression"
-    },
     {
       "timestamp": "2026-03-26T07:20:37.307631+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-28T08:49:52.778233+00:00",
       "tier": "groq",
       "article": "Islamic Resistance fighters targeted at 23:00 on Friday, 27-03-2026 Ramot Naftali barracks with a squadron of assault drones: statement 54 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T10:42:03.858380+00:00",
+      "tier": "groq",
+      "article": "Philippine transport strikers say Marcos Jr failing to control oil prices"
+    },
+    {
+      "timestamp": "2026-03-28T10:42:20.254393+00:00",
+      "tier": "groq",
+      "article": "Nepal\u2019s ex-PM Oli detained over alleged role in deadly protest crackdown"
+    },
+    {
+      "timestamp": "2026-03-28T10:42:36.473008+00:00",
+      "tier": "groq",
+      "article": "Iran FM slams Israeli assassination of diplomats in Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T10:43:35.085675+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted at 20:55 on Friday, 27-03-2026, a gathering of Israeli enemy soldiers near the water tank in Deir Seryan town with a rocket barrage: statement 56 - Al-Manar TV Lebanon"
     }
   ]
 }
