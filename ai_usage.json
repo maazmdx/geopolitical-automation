@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1193,
+  "total_calls": 1197,
   "tiers": {
-    "groq": 1175,
+    "groq": 1179,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-26T11:32:53.337244+00:00",
-      "tier": "groq",
-      "article": "IRGC Launches 82nd Wave of Strikes on US-Israeli Assets with Drones, Missiles - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T11:33:13.064671+00:00",
-      "tier": "groq",
-      "article": "Hezbollah\u2019s Islamic Resistance fighters carried out more strikes on Israeli targets including Liman Barracks and Krayot area in Haifa: statements no 30, 31 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T11:33:29.683017+00:00",
-      "tier": "groq",
-      "article": "Iranian naval commander Alireza Tangsiri killed in attack, Israel says"
-    },
-    {
-      "timestamp": "2026-03-26T11:33:45.833092+00:00",
-      "tier": "groq",
-      "article": "Hezbollah leader vows continuation of ops. against enemy"
-    },
     {
       "timestamp": "2026-03-26T13:28:10.549302+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-28T14:42:21.162270+00:00",
       "tier": "groq",
       "article": "Presidents Aoun and Salam condemn the targeting of journalists: a blatant crime and a violation of international law - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T16:42:24.943392+00:00",
+      "tier": "groq",
+      "article": "Three journalists killed in Israeli strike on marked press car in Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T16:42:41.598186+00:00",
+      "tier": "groq",
+      "article": "Hezbollah fighters targeted Merkava tanks in northern occupied Palestine, striking one near the reservoir in Qantara with a guided missile, another in the town of Al-Bayyada with a loitering munition, scoring direct hits: Military Media Statements 19, 20 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T16:42:59.201442+00:00",
+      "tier": "groq",
+      "article": "Ukraine\u2019s Zelenskyy agrees to defense cooperation with UAE, Qatar"
+    },
+    {
+      "timestamp": "2026-03-28T16:43:15.351688+00:00",
+      "tier": "groq",
+      "article": "Enemy media: Sirens sound in Ramot Naftali due to fears of drone infiltration - Al-Manar TV Lebanon"
     }
   ]
 }
