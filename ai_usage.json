@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1189,
+  "total_calls": 1193,
   "tiers": {
-    "groq": 1171,
+    "groq": 1175,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-26T09:06:59.960510+00:00",
-      "tier": "groq",
-      "article": "Human cost of war: Four killed in Iran, Abu Dhabi as conflict expands"
-    },
-    {
-      "timestamp": "2026-03-26T09:07:16.103914+00:00",
-      "tier": "groq",
-      "article": "IRGC targets Israeli satellite center"
-    },
-    {
-      "timestamp": "2026-03-26T09:08:13.384675+00:00",
-      "tier": "groq",
-      "article": "Hezbollah\u2019s Islamic Resistance fighters targeted the Israeli settlement of Metula with a swarm of attack drones: Military Media statement no. 23 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T09:08:30.202277+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters launched a squadron of attack drones at Iron Dome systems at the Poriya base, west of Lake Tiberias: Hezbollah Military Media statement no. 26 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-26T11:32:53.337244+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-28T13:07:07.635919+00:00",
       "tier": "groq",
       "article": "Spokesperson for the Khatam al-Anbiya Central Headquarters: IRGC targeted location of US forces stationed at the Al-Kharj base in Saudi Arabia - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T14:41:25.099347+00:00",
+      "tier": "groq",
+      "article": "Hezbollah reports 16 precise strikes so far on Saturday, targeting Israeli occupation army gatherings of vehicles and soldiers and strategic infrastructure with guided missiles, rocket barrages, and attack drones in response to aggression against Lebanese areas: Military media statements - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T14:41:43.966262+00:00",
+      "tier": "groq",
+      "article": "Enemy Raids Across South and Bekaa Leave Dozens Martyred, Wounded - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T14:42:03.178518+00:00",
+      "tier": "groq",
+      "article": "Resistance Media Icon Ali Shoaib Martyred in Israeli Aggression on Journalist Vehicle - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T14:42:21.162270+00:00",
+      "tier": "groq",
+      "article": "Presidents Aoun and Salam condemn the targeting of journalists: a blatant crime and a violation of international law - Al-Manar TV Lebanon"
     }
   ]
 }
