@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1185,
+  "total_calls": 1189,
   "tiers": {
-    "groq": 1167,
+    "groq": 1171,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-26T07:20:37.307631+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance strikes the 7th Merkava tank in Qantara town, South Lebanon, with a guided missile: statement 13 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T07:20:54.613895+00:00",
-      "tier": "groq",
-      "article": "UN approves Iran request to investigate Minab school massacre"
-    },
-    {
-      "timestamp": "2026-03-26T07:21:52.544022+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted a Merkava tank near the reservoir in the town of Qantara with a guided missile, achieving a confirmed hit. This brings the number of tanks targeted in the town today to 8: statement 16 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T07:22:09.406855+00:00",
-      "tier": "groq",
-      "article": "Strait of Hormuz not closed: Iran FM Araghchi"
-    },
     {
       "timestamp": "2026-03-26T09:06:59.960510+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-28T10:43:35.085675+00:00",
       "tier": "groq",
       "article": "Islamic Resistance fighters targeted at 20:55 on Friday, 27-03-2026, a gathering of Israeli enemy soldiers near the water tank in Deir Seryan town with a rocket barrage: statement 56 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T13:06:12.828393+00:00",
+      "tier": "groq",
+      "article": "Yemen Officially Enters the Fight: Ballistic Missiles Strike Israeli Targets - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-28T13:06:35.172422+00:00",
+      "tier": "groq",
+      "article": "Russian strikes on Ukraine kill 4 as deal to end war dims"
+    },
+    {
+      "timestamp": "2026-03-28T13:06:51.612778+00:00",
+      "tier": "groq",
+      "article": "At least 15 US troops wounded in Iran strike on Saudi airbase: Reports"
+    },
+    {
+      "timestamp": "2026-03-28T13:07:07.635919+00:00",
+      "tier": "groq",
+      "article": "Spokesperson for the Khatam al-Anbiya Central Headquarters: IRGC targeted location of US forces stationed at the Al-Kharj base in Saudi Arabia - Al-Manar TV Lebanon"
     }
   ]
 }
