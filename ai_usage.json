@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1221,
+  "total_calls": 1225,
   "tiers": {
-    "groq": 1203,
+    "groq": 1207,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-27T02:47:33.770315+00:00",
-      "tier": "groq",
-      "article": "At least nine people dead, dozens missing as boat sinks off Djibouti coast"
-    },
-    {
-      "timestamp": "2026-03-27T02:47:50.189228+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted gatherings of soldiers and vehicles of the Israeli enemy army in the town square of Qantara and its surroundings with waves of rocket salvos and artillery shells: statement 87 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-27T02:48:07.812626+00:00",
-      "tier": "groq",
-      "article": "Why Iraq is the most fragile front in the US-Israel war on Iran"
-    },
-    {
-      "timestamp": "2026-03-27T02:48:23.973343+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted Israeli enemy artillery positions in Ma\u2019aliya, west of Ma\u2019alot-Tarshiha settlement, with a swarm of attack drones: statement 86 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-27T05:49:18.578816+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-29T07:13:22.857478+00:00",
       "tier": "groq",
       "article": "Aircraft carrier USS Gerald R. Ford arrives in Croatia for repairs"
+    },
+    {
+      "timestamp": "2026-03-29T08:51:27.912028+00:00",
+      "tier": "groq",
+      "article": "Thick plumes of smoke rise over Iraq\u2019s Mosul after strikes"
+    },
+    {
+      "timestamp": "2026-03-29T08:51:43.698363+00:00",
+      "tier": "groq",
+      "article": "Toddler rescued after US-Israeli strike on Iran"
+    },
+    {
+      "timestamp": "2026-03-29T08:51:59.766200+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s IRGC claims attacks on UAE, Bahrain aluminium facilities"
+    },
+    {
+      "timestamp": "2026-03-29T08:52:15.826372+00:00",
+      "tier": "groq",
+      "article": "Pakistan hosts top Saudi, Turkish, Egyptian diplomats over war in Iran"
     }
   ]
 }
