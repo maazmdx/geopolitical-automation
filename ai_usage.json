@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1225,
+  "total_calls": 1229,
   "tiers": {
-    "groq": 1207,
+    "groq": 1211,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-27T05:49:18.578816+00:00",
-      "tier": "groq",
-      "article": "Russia has requested consultations with UNSC over strikes on civilian targets in Iran: AP - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-27T05:49:36.943514+00:00",
-      "tier": "groq",
-      "article": "First responders rescue man from Tehran building hit by air strike"
-    },
-    {
-      "timestamp": "2026-03-27T05:49:52.982231+00:00",
-      "tier": "groq",
-      "article": "Red Crescent video shows aftermath of strike on homes in Iran\u2019s Urmia"
-    },
-    {
-      "timestamp": "2026-03-27T05:50:09.340395+00:00",
-      "tier": "groq",
-      "article": "Iran committed to abiding by UN Charter, Intl. obligations"
-    },
     {
       "timestamp": "2026-03-27T07:16:46.289157+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-29T08:52:15.826372+00:00",
       "tier": "groq",
       "article": "Pakistan hosts top Saudi, Turkish, Egyptian diplomats over war in Iran"
+    },
+    {
+      "timestamp": "2026-03-29T10:41:29.643356+00:00",
+      "tier": "groq",
+      "article": "Israeli enemy forces struck an ambulance in the southern Lebanese city of Bint Jbeil, killing a paramedic and a wounded civilian whom the paramedic was evacuating: Al-Manar correspondent - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-29T10:41:46.521286+00:00",
+      "tier": "groq",
+      "article": "US-Israel war on Iran: What\u2019s happening on day 30 of attacks?"
+    },
+    {
+      "timestamp": "2026-03-29T10:42:02.518666+00:00",
+      "tier": "groq",
+      "article": "Dozens detained in Tel Aviv as anti-war protest turns violent"
+    },
+    {
+      "timestamp": "2026-03-29T10:42:18.608618+00:00",
+      "tier": "groq",
+      "article": "Analyst says that Iran\u2019s interest is in an extended war"
     }
   ]
 }
