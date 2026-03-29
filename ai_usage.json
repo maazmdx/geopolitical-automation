@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1209,
+  "total_calls": 1213,
   "tiers": {
-    "groq": 1191,
+    "groq": 1195,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-26T19:18:31.814813+00:00",
-      "tier": "groq",
-      "article": "Iranian missiles cause widespread damage across Israel in latest wave"
-    },
-    {
-      "timestamp": "2026-03-26T19:18:47.961651+00:00",
-      "tier": "groq",
-      "article": "Spokesperson of the \u201cIsraeli\u201d enemy army: An officer from Battalion 77 of the 7th Armored Brigade is killed in a battle in southern Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T19:19:06.398448+00:00",
-      "tier": "groq",
-      "article": "Al-Manar correspondent: Two Merkava tanks were targeted with guided missiles in the town of Qantara, southern Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-26T19:19:25.379946+00:00",
-      "tier": "groq",
-      "article": "North Korea\u2019s Kim meets Lukashenko, slams \u2018pressure \u200bon Belarus from West\u2019"
-    },
     {
       "timestamp": "2026-03-26T20:43:18.487180+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-28T22:38:07.963989+00:00",
       "tier": "groq",
       "article": "Palestine Action supporters arrested as London\u2019s Met Police reverse policy"
+    },
+    {
+      "timestamp": "2026-03-29T02:49:15.532726+00:00",
+      "tier": "groq",
+      "article": "Attacks in Iraq kill PMF fighters; Kurdish region president \u2018targeted\u2019"
+    },
+    {
+      "timestamp": "2026-03-29T02:49:31.732083+00:00",
+      "tier": "groq",
+      "article": "Hezbollah fighters targeted a Merkava tank in the town of Bayyada with a guided missile and achieved a direct hit: Military Media Statement 26 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-29T02:49:50.380946+00:00",
+      "tier": "groq",
+      "article": "\u2018A welcome gesture\u2019: Pakistan seals Iran deal to send ships through Hormuz"
+    },
+    {
+      "timestamp": "2026-03-29T02:50:06.772316+00:00",
+      "tier": "groq",
+      "article": "Hezbollah fighters targeted the Nasharim base southeast of Haifa with a swarm of attack drones: Military Media Statement 30 - Al-Manar TV Lebanon"
     }
   ]
 }
