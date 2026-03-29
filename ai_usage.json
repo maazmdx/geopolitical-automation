@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1243,
+  "total_calls": 1247,
   "tiers": {
-    "groq": 1225,
+    "groq": 1229,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-27T13:18:18.425295+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Fighters Engage Israeli Forces, Hunt Down Tanks Amid Continued Rocket Barrages - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-27T13:18:39.465819+00:00",
-      "tier": "groq",
-      "article": "Over a million Iranian troops organized for ground battle"
-    },
-    {
-      "timestamp": "2026-03-27T15:00:11.218965+00:00",
-      "tier": "groq",
-      "article": "UN human rights chief calls on US to conclude probe into Iran school strike"
-    },
-    {
-      "timestamp": "2026-03-27T15:00:27.576323+00:00",
-      "tier": "groq",
-      "article": "Is Trump's pause on attacking Iranian energy for diplomacy or an escalation?"
-    },
     {
       "timestamp": "2026-03-27T15:00:43.688251+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-29T18:56:34.996980+00:00",
       "tier": "groq",
       "article": "Islamic Resistance fighters targeted a gathering of Israeli enemy army soldiers in the Al-Shaqa plain in the border town of Aitaroun with a rocket barrage: statement 39 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-29T20:43:22.612711+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters carried out at 10:00 PM on Sunday, 29-03-2026, a raid on an \u201cIsraeli\u201d force positioned near the Husayniyah of Maroun Al-Ras border town, engaging it with light and medium weapons, sniper rifles, and direct rocket shells, resulting in the destruction of a Merkava tank and causing casualties among the force, leaving them killed and wounded: statement 54 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-29T20:43:40.553626+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted at 5:10 PM on Sunday, 29-03-2026, an \u201cIsraeli\u201d enemy army infrastructure in Katzrin settlement in the occupied Syrian Golan with a missile barrage: statement 52 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-29T20:43:57.839922+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted at 8:50 PM on Sunday, 29-03-2026, Nahariya settlement with a missile barrage: statement 48 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-29T20:44:15.003768+00:00",
+      "tier": "groq",
+      "article": "\u201cNo Kings\u201d Protests Sweep Across US, Millions March Against Trump\u2019s Policies* - Al-Manar TV Lebanon"
     }
   ]
 }
