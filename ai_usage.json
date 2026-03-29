@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1247,
+  "total_calls": 1251,
   "tiers": {
-    "groq": 1229,
+    "groq": 1233,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-27T15:00:43.688251+00:00",
-      "tier": "groq",
-      "article": "Wildlife killed, reefs damaged in \u2018active\u2019 Gulf of Mexico oil spill"
-    },
-    {
-      "timestamp": "2026-03-27T15:00:59.971054+00:00",
-      "tier": "groq",
-      "article": "What is LNG and what is it used for?"
-    },
-    {
-      "timestamp": "2026-03-27T17:05:03.124623+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fighters targeted a gathering of Israeli soldiers east of the Sa\u2019sa\u2019 settlement with a drone strike, another in Al-Bayyada with a rocket barrage: Military Media Statements 27, 28 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-27T17:05:22.759462+00:00",
-      "tier": "groq",
-      "article": "Japan sprinkles fresh missiles across its islands to fend off would-be attackers"
-    },
     {
       "timestamp": "2026-03-27T17:05:39.250290+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-29T20:44:15.003768+00:00",
       "tier": "groq",
       "article": "\u201cNo Kings\u201d Protests Sweep Across US, Millions March Against Trump\u2019s Policies* - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-29T22:41:03.857272+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted the Giv\u2019at Yo\u2019af drone control base east of the occupied city of Safed with a missile salvo: statement 65 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-29T22:41:22.030216+00:00",
+      "tier": "groq",
+      "article": "Cuba is not alone, deputy FM says as US threats grow"
+    },
+    {
+      "timestamp": "2026-03-29T22:41:38.117263+00:00",
+      "tier": "groq",
+      "article": "Houthis open new front against Israel, is Red Sea shipping at risk?"
+    },
+    {
+      "timestamp": "2026-03-29T22:41:54.142019+00:00",
+      "tier": "groq",
+      "article": "Israeli police bar priest from Jerusalem\u2019s Holy Sepulchre on Palm Sunday"
     }
   ]
 }
