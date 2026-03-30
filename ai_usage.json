@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1287,
+  "total_calls": 1291,
   "tiers": {
-    "groq": 1269,
+    "groq": 1273,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-28T13:06:51.612778+00:00",
-      "tier": "groq",
-      "article": "At least 15 US troops wounded in Iran strike on Saudi airbase: Reports"
-    },
-    {
-      "timestamp": "2026-03-28T13:07:07.635919+00:00",
-      "tier": "groq",
-      "article": "Spokesperson for the Khatam al-Anbiya Central Headquarters: IRGC targeted location of US forces stationed at the Al-Kharj base in Saudi Arabia - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-28T14:41:25.099347+00:00",
-      "tier": "groq",
-      "article": "Hezbollah reports 16 precise strikes so far on Saturday, targeting Israeli occupation army gatherings of vehicles and soldiers and strategic infrastructure with guided missiles, rocket barrages, and attack drones in response to aggression against Lebanese areas: Military media statements - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-28T14:41:43.966262+00:00",
-      "tier": "groq",
-      "article": "Enemy Raids Across South and Bekaa Leave Dozens Martyred, Wounded - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-28T14:42:03.178518+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-30T20:55:40.146388+00:00",
       "tier": "groq",
       "article": "Kharg Island: How the US could seize Iran's key oil terminal"
+    },
+    {
+      "timestamp": "2026-03-30T22:45:59.304396+00:00",
+      "tier": "groq",
+      "article": "Palestinians convicted of deadly attacks face death penalty under new Israeli law"
+    },
+    {
+      "timestamp": "2026-03-30T22:46:15.867151+00:00",
+      "tier": "groq",
+      "article": "UN condemns killing of Indonesian peacekeepers in Lebanon"
+    },
+    {
+      "timestamp": "2026-03-30T22:46:32.102690+00:00",
+      "tier": "groq",
+      "article": "\u2018We have to destroy Iran\u2019s ability to launch missiles\u2019, Rubio says"
+    },
+    {
+      "timestamp": "2026-03-30T22:46:48.050753+00:00",
+      "tier": "groq",
+      "article": "The US Navy wants you ... to make \u2018Drone Killer\u2019 ammunition"
     }
   ]
 }
