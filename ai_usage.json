@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1251,
+  "total_calls": 1255,
   "tiers": {
-    "groq": 1233,
+    "groq": 1237,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-27T17:05:39.250290+00:00",
-      "tier": "groq",
-      "article": "US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon"
-    },
-    {
-      "timestamp": "2026-03-27T17:05:55.363616+00:00",
-      "tier": "groq",
-      "article": "Iran expert says US ground invasion could cause a global economic meltdown"
-    },
-    {
-      "timestamp": "2026-03-27T19:06:19.994864+00:00",
-      "tier": "groq",
-      "article": "Combat zone widens in Lebanon as Israel and Hezbollah escalate attacks"
-    },
-    {
-      "timestamp": "2026-03-27T19:06:36.243054+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fighters targeted 3 Merkava tanks and a gathering of Israeli enemy soldiers in the town of Al-Bayyada using attack drones and a guided missile, scoring direct hits; the tanks were seen burning: Military Media Statements 37, 39, 40 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-27T19:06:53.748434+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-29T22:41:54.142019+00:00",
       "tier": "groq",
       "article": "Israeli police bar priest from Jerusalem\u2019s Holy Sepulchre on Palm Sunday"
+    },
+    {
+      "timestamp": "2026-03-30T02:53:57.140118+00:00",
+      "tier": "groq",
+      "article": "How will the Houthis\u2019 involvement shape the war?"
+    },
+    {
+      "timestamp": "2026-03-30T02:54:13.560852+00:00",
+      "tier": "groq",
+      "article": "Iranian attack damages Kuwait power and desalination plant, kills worker"
+    },
+    {
+      "timestamp": "2026-03-30T02:54:29.706753+00:00",
+      "tier": "groq",
+      "article": "Oil tops $116 a barrel as Iran accuses US of preparing invasion"
+    },
+    {
+      "timestamp": "2026-03-30T02:54:45.687625+00:00",
+      "tier": "groq",
+      "article": "Republican US lawmaker demands Congress vote on any Iran troop deployment"
     }
   ]
 }
