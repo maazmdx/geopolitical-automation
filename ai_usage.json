@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1315,
+  "total_calls": 1319,
   "tiers": {
-    "groq": 1297,
+    "groq": 1301,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-29T05:48:39.687034+00:00",
-      "tier": "groq",
-      "article": "What happens in the occupied West Bank under the shadow of the Iran war"
-    },
-    {
-      "timestamp": "2026-03-29T05:48:55.925308+00:00",
-      "tier": "groq",
-      "article": "Reza Pahlavi pledges to \u2018make Iran great again\u2019 at 2026 CPAC conference"
-    },
-    {
-      "timestamp": "2026-03-29T07:12:33.607120+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fighters directly hit a newly established IOF artillery post in the town of Arab Al-Luwayza, near Ghajar, with a barrage of rockets and artillery shells: Military Media Statement 29 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-29T07:12:50.719598+00:00",
-      "tier": "groq",
-      "article": "Could Ukraine\u2019s drone expertise serve Gulf countries?"
-    },
     {
       "timestamp": "2026-03-29T07:13:06.888002+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-31T13:32:00.713654+00:00",
       "tier": "groq",
       "article": "Iranian Red Crescent: US-Israeli aggression targeted 113,570 civilian sites, including 90,063 homes, 307 medical facilities, and 760 schools - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-31T15:11:49.455771+00:00",
+      "tier": "groq",
+      "article": "Cancer drug facility, religious site hit in Israeli-US strikes on Iran"
+    },
+    {
+      "timestamp": "2026-03-31T15:12:05.647205+00:00",
+      "tier": "groq",
+      "article": "Israeli occupation army renews its threat of strikes to the southern suburbs of Beirut (Dahiyeh) - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-31T15:12:23.499339+00:00",
+      "tier": "groq",
+      "article": "IRGC: We continue to target US forces\u2019 hiding places and drone control centers at Al-Dhafra, Victoria, and Ali Al Salem bases, using attack drones and precision missiles - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-31T15:12:40.403293+00:00",
+      "tier": "groq",
+      "article": "A Gaza mother waits in agony: Did Israel kill her daughter, or arrest her?"
     }
   ]
 }
