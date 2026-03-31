@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1327,
+  "total_calls": 1331,
   "tiers": {
-    "groq": 1309,
+    "groq": 1313,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-29T10:42:02.518666+00:00",
-      "tier": "groq",
-      "article": "Dozens detained in Tel Aviv as anti-war protest turns violent"
-    },
-    {
-      "timestamp": "2026-03-29T10:42:18.608618+00:00",
-      "tier": "groq",
-      "article": "Analyst says that Iran\u2019s interest is in an extended war"
-    },
-    {
-      "timestamp": "2026-03-29T13:09:18.087990+00:00",
-      "tier": "groq",
-      "article": "Targeting the Lifeline in Lebanon: Israeli Escalation Mounts as Strikes Hit Paramedics in South - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-29T13:09:37.645561+00:00",
-      "tier": "groq",
-      "article": "Hezbollah\u2019s Islamic Resistance fighters shell Israeli concentrations along border, pound settlements in 15 operations carried out so far on Sunday, Military Media statements indicate - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-29T13:09:54.548280+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-31T19:12:34.638676+00:00",
       "tier": "groq",
       "article": "Israel says it will keep control over part of southern Lebanon after war with Hezbollah ends"
+    },
+    {
+      "timestamp": "2026-03-31T20:53:59.274661+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance targeted the Stella Maris base (a strategic base for maritime surveillance and monitoring along the northern coast) at 08:00 PM on Tuesday, March 31, 2026, with a salvo of advanced rockets: statement 22 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-31T20:54:31.415377+00:00",
+      "tier": "groq",
+      "article": "How Pakistan positioned itself at the center of global crisis management"
+    },
+    {
+      "timestamp": "2026-03-31T20:55:17.672262+00:00",
+      "tier": "groq",
+      "article": "As part of the \u201cKhaybar 2\u201d operations wave, and within the framework of the warning issued by the Islamic Resistance to the occupied city of Nahariya in northern occupied Palestine, the fighters of the Islamic Resistance targeted it at 08:00 PM on Tuesday, March 31, 2026, with a rocket salvo: statement 26 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-31T20:56:04.813410+00:00",
+      "tier": "groq",
+      "article": "Why Iran believes it can outlast the US"
     }
   ]
 }
