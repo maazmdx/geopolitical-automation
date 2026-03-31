@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1319,
+  "total_calls": 1323,
   "tiers": {
-    "groq": 1301,
+    "groq": 1305,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-29T07:13:06.888002+00:00",
-      "tier": "groq",
-      "article": "One month in, disapproval high but US lawmakers take no action on Iran war"
-    },
-    {
-      "timestamp": "2026-03-29T07:13:22.857478+00:00",
-      "tier": "groq",
-      "article": "Aircraft carrier USS Gerald R. Ford arrives in Croatia for repairs"
-    },
-    {
-      "timestamp": "2026-03-29T08:51:27.912028+00:00",
-      "tier": "groq",
-      "article": "Thick plumes of smoke rise over Iraq\u2019s Mosul after strikes"
-    },
-    {
-      "timestamp": "2026-03-29T08:51:43.698363+00:00",
-      "tier": "groq",
-      "article": "Toddler rescued after US-Israeli strike on Iran"
-    },
     {
       "timestamp": "2026-03-29T08:51:59.766200+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-31T15:12:40.403293+00:00",
       "tier": "groq",
       "article": "A Gaza mother waits in agony: Did Israel kill her daughter, or arrest her?"
+    },
+    {
+      "timestamp": "2026-03-31T17:05:23.328218+00:00",
+      "tier": "groq",
+      "article": "What\u2019s Israel\u2019s death penalty law that only applies to Palestinians?"
+    },
+    {
+      "timestamp": "2026-03-31T17:06:10.119056+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Attacks Turn South Lebanon to Graveyard for Israeli Soldiers, Katz\u2019s \u201cBuffer Zone\u201d to a Hell - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-03-31T17:06:30.466803+00:00",
+      "tier": "groq",
+      "article": "Italy turns away Middle East-bound US military aircraft from Sicily stopover"
+    },
+    {
+      "timestamp": "2026-03-31T17:07:13.055842+00:00",
+      "tier": "groq",
+      "article": "UN aid chief warns of new Israeli occupation in southern Lebanon"
     }
   ]
 }
