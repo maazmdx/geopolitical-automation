@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1339,
+  "total_calls": 1343,
   "tiers": {
-    "groq": 1321,
+    "groq": 1325,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-29T18:55:44.059256+00:00",
-      "tier": "groq",
-      "article": "Netanyahu orders military to expand invasion of southern Lebanon"
-    },
-    {
-      "timestamp": "2026-03-29T18:56:00.519882+00:00",
-      "tier": "groq",
-      "article": "After spotting a force from the Israeli enemy army positioned inside a house on the outskirts of the town of Beit Leef, the Islamic Resistance fighters targeted it at 20:00 on Saturday, March 28, 2026, with a drone strike and achieved direct hits: statement 46 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-29T18:56:18.013909+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted at 5:40 PM on Sunday, 29-03-2026, a hostile helicopter in the airspace of Al-Naqoura border town with a surface-to-air missile, forcing it to withdraw: statement 42 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-29T18:56:34.996980+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted a gathering of Israeli enemy army soldiers in the Al-Shaqa plain in the border town of Aitaroun with a rocket barrage: statement 39 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-29T20:43:22.612711+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-01T03:01:07.627008+00:00",
       "tier": "groq",
       "article": "Ukraine to ask US mediators to pass on Easter ceasefire offer to Russia"
+    },
+    {
+      "timestamp": "2026-04-01T06:00:33.351243+00:00",
+      "tier": "groq",
+      "article": "US journalist Shelly Kittleson kidnapped in Baghdad"
+    },
+    {
+      "timestamp": "2026-04-01T06:01:18.616525+00:00",
+      "tier": "groq",
+      "article": "Trump tells allies \u2018get your own oil\u2019, says Iran war could end in 2-3 weeks"
+    },
+    {
+      "timestamp": "2026-04-01T06:01:34.564877+00:00",
+      "tier": "groq",
+      "article": "'You're no longer my sister' - rows erupt as war divides Iranian families"
+    },
+    {
+      "timestamp": "2026-04-01T06:01:50.676472+00:00",
+      "tier": "groq",
+      "article": "Pope Leo urges Trump to end war on Iran"
     }
   ]
 }
