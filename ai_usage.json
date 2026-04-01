@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1335,
+  "total_calls": 1339,
   "tiers": {
-    "groq": 1317,
+    "groq": 1321,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-29T16:43:04.633518+00:00",
-      "tier": "groq",
-      "article": "Funeral held for Lebanese journalists killed in Israeli strike"
-    },
-    {
-      "timestamp": "2026-03-29T16:43:20.687221+00:00",
-      "tier": "groq",
-      "article": "Iran hits industrial zone in southern Israel"
-    },
-    {
-      "timestamp": "2026-03-29T16:43:36.506269+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance targeted a gathering of \u201cIsraeli\u201d enemy soldiers and military vehicles in Khallat al-Hujja in the border town of Aitaroun at 02:00 PM on Sunday, March 29, 2026, with a rocket salvo: statement 21 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-29T16:43:53.075144+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance targeted a gathering of \u201cIsraeli\u201d enemy soldiers in the town of Alma al-Shaab on Sunday, March 29, 2026, at 12:30 PM and 02:55 PM, with a swarm of attack drones: statement 24 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-29T18:55:44.059256+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-03-31T22:43:11.676309+00:00",
       "tier": "groq",
       "article": "Islamic Resistance fighters targeted it at 20:25 on Tuesday, March 31, 2026, with a swarm of attack drones: statement 43 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-01T02:59:31.905031+00:00",
+      "tier": "groq",
+      "article": "Al-Sharaa says Syria to stay out of war on Iran unless attacked"
+    },
+    {
+      "timestamp": "2026-04-01T03:00:03.346770+00:00",
+      "tier": "groq",
+      "article": "Emergency workers search for victims of Israeli airstrikes on Beirut"
+    },
+    {
+      "timestamp": "2026-04-01T03:00:49.667506+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters have been fiercely clashing with Israeli enemy forces in the vicinity of the fortress in the town of Shamaa, using light and medium weapons. Simultaneously, the enemy forces were targeted with rockets and artillery shells. The fighters targeted a military vehicle with a guided missile, scoring a direct hit. Clashes are still ongoing: statement 3 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-01T03:01:07.627008+00:00",
+      "tier": "groq",
+      "article": "Ukraine to ask US mediators to pass on Easter ceasefire offer to Russia"
     }
   ]
 }
