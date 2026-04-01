@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1343,
+  "total_calls": 1347,
   "tiers": {
-    "groq": 1325,
+    "groq": 1329,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-29T20:43:22.612711+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters carried out at 10:00 PM on Sunday, 29-03-2026, a raid on an \u201cIsraeli\u201d force positioned near the Husayniyah of Maroun Al-Ras border town, engaging it with light and medium weapons, sniper rifles, and direct rocket shells, resulting in the destruction of a Merkava tank and causing casualties among the force, leaving them killed and wounded: statement 54 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-29T20:43:40.553626+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted at 5:10 PM on Sunday, 29-03-2026, an \u201cIsraeli\u201d enemy army infrastructure in Katzrin settlement in the occupied Syrian Golan with a missile barrage: statement 52 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-29T20:43:57.839922+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted at 8:50 PM on Sunday, 29-03-2026, Nahariya settlement with a missile barrage: statement 48 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-29T20:44:15.003768+00:00",
-      "tier": "groq",
-      "article": "\u201cNo Kings\u201d Protests Sweep Across US, Millions March Against Trump\u2019s Policies* - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-03-29T22:41:03.857272+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-01T06:01:50.676472+00:00",
       "tier": "groq",
       "article": "Pope Leo urges Trump to end war on Iran"
+    },
+    {
+      "timestamp": "2026-04-01T07:51:38.685537+00:00",
+      "tier": "groq",
+      "article": "Yemeni Armed Forces Strike Southern Occupied Palestine in Coordinated Operation with Iran, Hezbollah - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-01T07:52:12.663314+00:00",
+      "tier": "groq",
+      "article": "Palestinian media repors general strike in occupied Al-Quds in protest against Israeli Knesset\u2019s death penalty law against Palestinian prisoners - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-01T07:52:58.352216+00:00",
+      "tier": "groq",
+      "article": "Israeli media: Iran launched 9 ballistic missiles at \u2018Israel\u2019 since this morning - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-01T07:53:16.109633+00:00",
+      "tier": "groq",
+      "article": "After Strait of Hormuz opens, turmoil would still last months, analysts say"
     }
   ]
 }
