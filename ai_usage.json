@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1379,
+  "total_calls": 1383,
   "tiers": {
-    "groq": 1361,
+    "groq": 1365,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-30T19:10:30.794274+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted a gathering of Israeli enemy army soldiers near the port of Naqoura with a drone strike and achieved direct hits. The enemy worked to evacuate the casualties under heavy smoke cover: statement 34 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-30T19:10:48.004711+00:00",
-      "tier": "groq",
-      "article": "Lebanese Health Ministry reports 1,247 martyred and 3,680 wounded since the onset of the Israeli aggression - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-30T19:11:05.350079+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Deals More Painful Blows to Israeli Occupation Forces, Tanks, Sites, and Bases - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-30T19:11:26.699770+00:00",
-      "tier": "groq",
-      "article": "Ukraine\u2019s drone masters eye Iran war to kickstart export ambitions"
-    },
     {
       "timestamp": "2026-03-30T20:54:49.060252+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-01T22:48:43.130679+00:00",
       "tier": "groq",
       "article": "\u2018Ukrainian housewives\u2019 and Skyranger delays \u2013 German defense poster child Rheinmetall is in hot water"
+    },
+    {
+      "timestamp": "2026-04-02T02:43:12.696211+00:00",
+      "tier": "groq",
+      "article": "Zionist media: New Iranian missile strike targets central \u2018Israel\u2019 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-02T02:43:44.858911+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted the headquarters of the 146th Division in Ja\u2019atun with a rocket barrage: statement 60 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-02T02:44:02.467227+00:00",
+      "tier": "groq",
+      "article": "Ukraine claims near-90% air-defense success in March as attacks increase"
+    },
+    {
+      "timestamp": "2026-04-02T02:44:19.202327+00:00",
+      "tier": "groq",
+      "article": "Magnitude 7.4 quake hits off Indonesia\u2019s Ternate, tsunami warning lifted"
     }
   ]
 }
