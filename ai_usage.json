@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1395,
+  "total_calls": 1399,
   "tiers": {
-    "groq": 1377,
+    "groq": 1381,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-31T06:01:18.299711+00:00",
-      "tier": "groq",
-      "article": "Enemy media: The army used air power, tanks, and artillery to target militants who attacked the Israeli force - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-31T06:01:37.608045+00:00",
-      "tier": "groq",
-      "article": "Merz: Most Syrian refugees in Germany expected to return home in three years"
-    },
-    {
-      "timestamp": "2026-03-31T06:01:53.903367+00:00",
-      "tier": "groq",
-      "article": "Pentagon denies that Hegseth\u2019s broker sought investment before Iran war"
-    },
-    {
-      "timestamp": "2026-03-31T06:02:09.750234+00:00",
-      "tier": "groq",
-      "article": "Spain closes airspace to US warplanes involved in war on Iran"
-    },
     {
       "timestamp": "2026-03-31T07:24:52.003787+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-02T09:09:35.688567+00:00",
       "tier": "groq",
       "article": "Trump\u2019s national address on Iran \u2019embarrassing, incoherent\u2019"
+    },
+    {
+      "timestamp": "2026-04-02T11:00:25.493000+00:00",
+      "tier": "groq",
+      "article": "Nearly 1,200 children killed or injured in Yemen despite truce: NGO"
+    },
+    {
+      "timestamp": "2026-04-02T11:01:10.763224+00:00",
+      "tier": "groq",
+      "article": "\u2018Orban constantly vetoes\u2019: Europe braces for Hungary election"
+    },
+    {
+      "timestamp": "2026-04-02T11:01:26.902940+00:00",
+      "tier": "groq",
+      "article": "Iran war: What is happening on day 34 of US-Israel attacks?"
+    },
+    {
+      "timestamp": "2026-04-02T11:02:09.726760+00:00",
+      "tier": "groq",
+      "article": "Enemy Police: Shrapnel hits multiple sites in Upper Galilee after rocket attack from Lebanon - Al-Manar TV Lebanon"
     }
   ]
 }
