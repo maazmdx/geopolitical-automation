@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1415,
+  "total_calls": 1419,
   "tiers": {
-    "groq": 1397,
+    "groq": 1401,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-31T15:11:49.455771+00:00",
-      "tier": "groq",
-      "article": "Cancer drug facility, religious site hit in Israeli-US strikes on Iran"
-    },
-    {
-      "timestamp": "2026-03-31T15:12:05.647205+00:00",
-      "tier": "groq",
-      "article": "Israeli occupation army renews its threat of strikes to the southern suburbs of Beirut (Dahiyeh) - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-31T15:12:23.499339+00:00",
-      "tier": "groq",
-      "article": "IRGC: We continue to target US forces\u2019 hiding places and drone control centers at Al-Dhafra, Victoria, and Ali Al Salem bases, using attack drones and precision missiles - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-31T15:12:40.403293+00:00",
-      "tier": "groq",
-      "article": "A Gaza mother waits in agony: Did Israel kill her daughter, or arrest her?"
-    },
     {
       "timestamp": "2026-03-31T17:05:23.328218+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-02T19:06:16.601226+00:00",
       "tier": "groq",
       "article": "Can Starmer\u2019s 40-nation coalition open the Strait of Hormuz?"
+    },
+    {
+      "timestamp": "2026-04-02T20:42:48.758236+00:00",
+      "tier": "groq",
+      "article": "Yemeni Ballistic Missiles Hit Tel Aviv, Armed Forces Consider Updating Strikes - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-02T20:43:24.324825+00:00",
+      "tier": "groq",
+      "article": "Golden Dome, ships and missiles top Trump\u2019s $1.5 trillion defense wish list"
+    },
+    {
+      "timestamp": "2026-04-02T20:44:10.422731+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted at 09:15 on Thursday, 02-04-2026, a D9 bulldozer at the Tahrir Triangle [Liberation Triangle] with a direct missile, achieving a confirmed hit: statement 42 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-02T20:44:28.107110+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted at 15:00 on Thursday, 02-04-2026, a gathering of \u201cIsraeli\u201d enemy army soldiers and vehicles at Ghadmatha Hill and Friz Hill in Ainatha town with artillery shells: statement 43 - Al-Manar TV Lebanon"
     }
   ]
 }
