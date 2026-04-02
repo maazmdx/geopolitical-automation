@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1387,
+  "total_calls": 1391,
   "tiers": {
-    "groq": 1369,
+    "groq": 1373,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-30T22:45:59.304396+00:00",
-      "tier": "groq",
-      "article": "Palestinians convicted of deadly attacks face death penalty under new Israeli law"
-    },
-    {
-      "timestamp": "2026-03-30T22:46:15.867151+00:00",
-      "tier": "groq",
-      "article": "UN condemns killing of Indonesian peacekeepers in Lebanon"
-    },
-    {
-      "timestamp": "2026-03-30T22:46:32.102690+00:00",
-      "tier": "groq",
-      "article": "\u2018We have to destroy Iran\u2019s ability to launch missiles\u2019, Rubio says"
-    },
-    {
-      "timestamp": "2026-03-30T22:46:48.050753+00:00",
-      "tier": "groq",
-      "article": "The US Navy wants you ... to make \u2018Drone Killer\u2019 ammunition"
-    },
     {
       "timestamp": "2026-03-31T02:47:07.050003+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-02T05:50:13.033713+00:00",
       "tier": "groq",
       "article": "Trump urges countries \u2018get involved\u2019 in war on Iran if they can\u2019t get fuel"
+    },
+    {
+      "timestamp": "2026-04-02T07:21:56.624241+00:00",
+      "tier": "groq",
+      "article": "Khatam Al-Anbiya HQ: Strategic Capabilities Beyond Enemy Reach, Response Ongoing - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-02T07:22:15.066712+00:00",
+      "tier": "groq",
+      "article": "FBI agents from US arrive in Cuba to probe lethal speedboat shooting"
+    },
+    {
+      "timestamp": "2026-04-02T07:22:47.302164+00:00",
+      "tier": "groq",
+      "article": "Trump offers few answers as he seeks to calm nerves over Iran war"
+    },
+    {
+      "timestamp": "2026-04-02T07:23:33.740911+00:00",
+      "tier": "groq",
+      "article": "NASA moon mission a \u2018contrast\u2019 to US war on Iran, says US senator"
     }
   ]
 }

@@ -1,4 +1,34 @@
 {
+  "e87e69b5a055dc2535aaf390084924107298c8196605eb408890c1cb3beab48b": {
+    "url": "BellumActaNews/169920",
+    "title": "Evangelical support for Israel outpaces Jewish backing, Trump reveals",
+    "published": "2026-04-02T07:28:42.342538+00:00"
+  },
+  "684859031447b9ca97426cef5307f794835e4cf1fc2af8a0c454409db5cd05d8": {
+    "url": "BellumActaNews/169921",
+    "title": "US President Trump calls for allies to secure Strait of Hormuz. Who will answer the call?",
+    "published": "2026-04-02T07:27:07.561625+00:00"
+  },
+  "def5916acb9edd92618f5fd071928dd6c3897f0e8db4e3ae225a334855c0d35a": {
+    "url": "QudsNen/217076",
+    "title": "HEZBOLLAH ON THE RISE? Rocket attacks escalate in northern Palestine. #MilitaryIntelligence #OSINT",
+    "published": "2026-04-02T07:24:04.035306+00:00"
+  },
+  "9f932e21abd98c745de5c101dcf407214494de65d3d9f035887abf8a1447c814": {
+    "url": "QudsNen/217078",
+    "title": "HEZBOLLAH'S DESTRUCTION UNLEASHED: Terror group shells innocent civilians in Kiryat Shmona, northern occupied Palestine.",
+    "published": "2026-04-02T07:24:02.737254+00:00"
+  },
+  "114e425529c17a0c91affde1acd8d533c3d779e7ed5fbf1d5d9a26f19d1d7425": {
+    "url": "QudsNen/217081",
+    "title": "Livestock unleashed by Israeli settlers in Masafer Yatta, disrupting Palestinian life. #SettlerAggression #Palestine",
+    "published": "2026-04-02T07:24:01.076121+00:00"
+  },
+  "86e4511c80dadca6afb44151b7f7703ef68be469efe1eab7207775c112cc52bf": {
+    "url": "https://english.almanar.com.lb/article/49677/",
+    "title": "Khatam Al-Anbiya HQ: Strategic Capabilities Beyond Enemy Reach, Response Ongoing - Al-Manar TV Lebanon",
+    "published": "2026-04-02T06:48:13+00:00"
+  },
   "0bf292d5b48f5713f798e2075f0daab05135fef541170f381cfa0e51b5a62b77": {
     "url": "BellumActaNews/169929",
     "title": "US Space Force crushes the final frontier, Artemis II crew proves their mettle in space!",
@@ -39,6 +69,11 @@
     "title": "Trump urges countries \u2018get involved\u2019 in war on Iran if they can\u2019t get fuel",
     "published": "2026-04-02T04:54:53+00:00"
   },
+  "d9ff3aca7766ae87cc3ba146ddb8c54932440df4cb8b7b7de322ac77a36e8f5d": {
+    "url": "https://www.bbc.com/news/articles/cnv81ven263o?at_medium=RSS&at_campaign=rss",
+    "title": "Trump offers few answers as he seeks to calm nerves over Iran war",
+    "published": "2026-04-02T03:22:51+00:00"
+  },
   "8b0e4526845421f1ed5ab306a6717b020bf77a3850bf62e1ee60023e1ace60f3": {
     "url": "DDGeopolitics/180250",
     "title": "Iran's aggression sparks chaos in occupied territory. Explosions rock the north.",
@@ -68,6 +103,11 @@
     "url": "https://www.aljazeera.com/news/2026/4/1/magnitude-7-4-quake-hits-off-indonesias-ternate-tsunami-warning-triggered?traffic_source=rss",
     "title": "Magnitude 7.4 quake hits off Indonesia\u2019s Ternate, tsunami warning lifted",
     "published": "2026-04-01T23:54:08+00:00"
+  },
+  "d978d0f755f00369ebb1b30d6bef27bd508144ee5d3c27a0c16aabded978e5d6": {
+    "url": "https://www.aljazeera.com/news/2026/4/1/fbi-agents-from-us-arrive-in-cuba-to-probe-lethal-speedboat-shooting?traffic_source=rss",
+    "title": "FBI agents from US arrive in Cuba to probe lethal speedboat shooting",
+    "published": "2026-04-01T23:31:14+00:00"
   },
   "d796d577549585f4227f08bb90254e53d6cd8852c117bd5036ea94d5deb56535": {
     "url": "https://www.aljazeera.com/news/2026/4/1/first-troops-from-un-backed-gang-suppression-force-arrive-in-haiti?traffic_source=rss",
@@ -118,6 +158,11 @@
     "url": "https://english.almanar.com.lb/article/49592/",
     "title": "Islamic Resistance fighters targeted a Merkava tank near the Qantara school with a guided missile, and it was seen burning: statement 57 - Al-Manar TV Lebanon",
     "published": "2026-04-01T21:27:31+00:00"
+  },
+  "cd833f89c06ffd3ef6799613e3e62dd305607465aef763453126d3140087157c": {
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/4/1/nasa-moon-mission-a-contrast-to-us-war-on-iran-says-us-senator?traffic_source=rss",
+    "title": "NASA moon mission a \u2018contrast\u2019 to US war on Iran, says US senator",
+    "published": "2026-04-01T21:20:21+00:00"
   },
   "36685b5f0dce5a1b7a02b901a6b6347c04bd875ef5948c38ce0f3a0d970b2f42": {
     "url": "https://www.aljazeera.com/news/2026/4/1/spacex-files-to-go-public-paving-way-to-make-elon-musk-first-trillionaire?traffic_source=rss",
@@ -703,50 +748,5 @@
     "url": "https://english.almanar.com.lb/article/48512/",
     "title": "Islamic Resistance targeted the Nashrim base southeast of the city of Haifa at 08:00 PM on Tuesday, March 31, 2026, with a salvo of advanced rockets and a swarm of loitering attack drones: statement 23 - Al-Manar TV Lebanon",
     "published": "2026-03-31T17:59:51+00:00"
-  },
-  "ef54e75ac58352cd1fd8efbdcb9ab1d69a02352930fbd7f9b2e70a7e155830f9": {
-    "url": "https://english.almanar.com.lb/article/48502/",
-    "title": "Islamic Resistance targeted the Stella Maris base (a strategic base for maritime surveillance and monitoring along the northern coast) at 08:00 PM on Tuesday, March 31, 2026, with a salvo of advanced rockets: statement 22 - Al-Manar TV Lebanon",
-    "published": "2026-03-31T17:59:11+00:00"
-  },
-  "01cc3d8a83bba7bb833a2dc549a3fc410df547f5d6ab9a50be11cb9fdf146e66": {
-    "url": "QudsNen/216824",
-    "title": "BEIRUT BURNING! Israeli airstrike destroys residential building in Dahieh. #ISRAEL #LEBANON #AIRSTRIKE",
-    "published": "2026-03-31T17:11:11.612774+00:00"
-  },
-  "258bd86bf2c561b72d0e3420663ecade7c3c4d739df3534ba2dfa8aa78a09432": {
-    "url": "QudsNen/216836",
-    "title": "BOMBS AWAY! Israeli airstrikes rip through Mansourieh, Lebanon. #MilitaryStrike #LebanonUnderFire",
-    "published": "2026-03-31T17:10:03.373474+00:00"
-  },
-  "e563a74d4729edf6212318691a5342905873c780179baf722543061004aa3576": {
-    "url": "QudsNen/216841",
-    "title": "LEBANON STRIKES BACK! Israeli airpower takes out a vehicle near the Al-Ma'liyeh checkpoint, showing no mercy to those who harbor terror.",
-    "published": "2026-03-31T17:09:09.545428+00:00"
-  },
-  "d6f1ac50c0b5a9064246e4298caea91494ab596ff8ded32f616d066f0b924207": {
-    "url": "thecradlemedia/56136",
-    "title": "US President tells allies to step up and take control of Hormuz, or fight for themselves in the war on Iran. #US #Hormuz #Iran",
-    "published": "2026-03-31T17:07:18.740932+00:00"
-  },
-  "a4a626efc11844ff0e3dacb67355ee7ca9cffd2351f7406d396deda391914ef8": {
-    "url": "thecradlemedia/56137",
-    "title": "Israel's War on Iran's Medicine: Israel bombs Iran's cancer hospitals and pharmacies, leaving patients and families in the dark.",
-    "published": "2026-03-31T17:07:17.324127+00:00"
-  },
-  "27964b748d477c707622fc85ef70d339c2667a8cb9814b3ea20424f10048421b": {
-    "url": "https://www.aljazeera.com/video/the-take-2/2026/3/31/aje-onl-tt_irn_whatcouldendthewar_av_v2-310326?traffic_source=rss",
-    "title": "Why Iran believes it can outlast the US",
-    "published": "2026-03-31T17:04:51+00:00"
-  },
-  "dcddade9be5bc1f4010f8ddff46e38f6db2dd5e92a8ad06638281d7d41950a61": {
-    "url": "https://english.almanar.com.lb/article/48492/",
-    "title": "Hezbollah Denies Baseless Allegations Made by Bahraini Ministry of Interior - Al-Manar TV Lebanon",
-    "published": "2026-03-31T16:53:59+00:00"
-  },
-  "e976cf5d3cd6de2774dc249cdca6d3b34a25684f7308f6db3628c6d66d5a3336": {
-    "url": "https://www.aljazeera.com/news/2026/3/31/un-humanitarian-chief-warns-of-new-israeli-occupation-in-southern-lebanon?traffic_source=rss",
-    "title": "UN aid chief warns of new Israeli occupation in southern Lebanon",
-    "published": "2026-03-31T16:24:19+00:00"
   }
 }
