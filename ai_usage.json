@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1435,
+  "total_calls": 1439,
   "tiers": {
-    "groq": 1417,
+    "groq": 1421,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-01T02:59:31.905031+00:00",
-      "tier": "groq",
-      "article": "Al-Sharaa says Syria to stay out of war on Iran unless attacked"
-    },
-    {
-      "timestamp": "2026-04-01T03:00:03.346770+00:00",
-      "tier": "groq",
-      "article": "Emergency workers search for victims of Israeli airstrikes on Beirut"
-    },
-    {
-      "timestamp": "2026-04-01T03:00:49.667506+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters have been fiercely clashing with Israeli enemy forces in the vicinity of the fortress in the town of Shamaa, using light and medium weapons. Simultaneously, the enemy forces were targeted with rockets and artillery shells. The fighters targeted a military vehicle with a guided missile, scoring a direct hit. Clashes are still ongoing: statement 3 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-01T03:01:07.627008+00:00",
-      "tier": "groq",
-      "article": "Ukraine to ask US mediators to pass on Easter ceasefire offer to Russia"
-    },
     {
       "timestamp": "2026-04-01T06:00:33.351243+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-03T07:22:19.802433+00:00",
       "tier": "groq",
       "article": "'Be serious... don't speak every day': Macron criticises Trump approach to Iran war"
+    },
+    {
+      "timestamp": "2026-04-03T09:02:43.324108+00:00",
+      "tier": "groq",
+      "article": "Iran condemns US-Israeli \u2018moral collapse\u2019 after attacks on civilian sites"
+    },
+    {
+      "timestamp": "2026-04-03T09:03:29.276300+00:00",
+      "tier": "groq",
+      "article": "UK and allies discuss sanctions to stop Iran blocking Strait of Hormuz"
+    },
+    {
+      "timestamp": "2026-04-03T09:03:45.410412+00:00",
+      "tier": "groq",
+      "article": "Israeli Channel 12 cites Israeli army: Disarming Hezbollah is not a war objective at this stage - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-03T09:04:02.433782+00:00",
+      "tier": "groq",
+      "article": "The Israeli army acknowledges that statements about disarming Hezbollah as a war objective were overly ambitious: Hebrew media - Al-Manar TV Lebanon"
     }
   ]
 }
