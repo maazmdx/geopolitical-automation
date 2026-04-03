@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1455,
+  "total_calls": 1459,
   "tiers": {
-    "groq": 1437,
+    "groq": 1441,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-01T13:47:30.857737+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fighters engaged an Israeli warplane in southern Lebanon with a surface-to-air missile: Military Media Statement 20 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-01T13:48:02.616515+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fighters targeted the Kiryat Shmona Israeli settlement for the fourth time on Wednesday with a barrage of precision missiles: Military Media Statement 21 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-01T13:48:48.417077+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance: Kiryat Shmona settlement targeted for fourth time with precision missile barrage - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-01T13:49:05.578095+00:00",
-      "tier": "groq",
-      "article": "UK finds pro-Palestine protest organisers guilty of breaching police rules"
-    },
     {
       "timestamp": "2026-04-01T15:11:22.777373+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-03T16:52:26.183970+00:00",
       "tier": "groq",
       "article": "Al-Manar correspondent in south Lebanon reports clashes between Hezbollah resistance fighters and Israeli occupation forces in the border town of Shamaa - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-03T18:59:00.143993+00:00",
+      "tier": "groq",
+      "article": "Israeli media: New Iranian missiles target the North - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-03T18:59:38.244262+00:00",
+      "tier": "groq",
+      "article": "US F-15E fighter jet shot down over Iran"
+    },
+    {
+      "timestamp": "2026-04-03T18:59:54.389902+00:00",
+      "tier": "groq",
+      "article": "India to acquire more air defense systems and drones for modern warfare"
+    },
+    {
+      "timestamp": "2026-04-03T19:00:44.566497+00:00",
+      "tier": "groq",
+      "article": "Crew member rescued after US fighter jet downed over Iran, US media reports"
     }
   ]
 }
