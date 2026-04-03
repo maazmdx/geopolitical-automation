@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1463,
+  "total_calls": 1467,
   "tiers": {
-    "groq": 1445,
+    "groq": 1449,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-01T17:47:26.214161+00:00",
-      "tier": "groq",
-      "article": "Hezbollah\u2019s Surface-to-Air Missiles Challenge Israeli Superiority, Heavy Rocket Salvos Strike Enemy - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-01T17:47:46.417414+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted a gathering of Israeli enemy army soldiers in the Deir Siryan school playground with a drone strike: statement 45 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-01T17:48:19.003841+00:00",
-      "tier": "groq",
-      "article": "Iran denies Trump\u2019s claim Iranian president requested ceasefire"
-    },
-    {
-      "timestamp": "2026-04-01T17:49:04.533832+00:00",
-      "tier": "groq",
-      "article": "Lebanon faces growing displacement crisis"
-    },
     {
       "timestamp": "2026-04-01T19:12:58.984898+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-03T20:45:34.316044+00:00",
       "tier": "groq",
       "article": "Iran release videos of US aircraft searching for pilots shot down in Iran"
+    },
+    {
+      "timestamp": "2026-04-03T22:41:00.967749+00:00",
+      "tier": "groq",
+      "article": "Survivors of Iran bridge attack recall terror of US-Israeli strike"
+    },
+    {
+      "timestamp": "2026-04-03T22:41:36.248961+00:00",
+      "tier": "groq",
+      "article": "US warns its citizens to leave Lebanon citing escalating security risks"
+    },
+    {
+      "timestamp": "2026-04-03T22:41:52.523097+00:00",
+      "tier": "groq",
+      "article": "Trump says with more time, US can \u2018take the oil\u2019 in Iran"
+    },
+    {
+      "timestamp": "2026-04-03T22:42:08.853927+00:00",
+      "tier": "groq",
+      "article": "A-10 Warthog crashes near Strait of Hormuz"
     }
   ]
 }
