@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1447,
+  "total_calls": 1451,
   "tiers": {
-    "groq": 1429,
+    "groq": 1433,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-01T09:16:34.608339+00:00",
-      "tier": "groq",
-      "article": "Al-Manar correspondent says four people martyred, seven others injured in four Israeli strikes on Suhmor town in Western Bekaa at dawn on Wednesday - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-01T09:16:51.628822+00:00",
-      "tier": "groq",
-      "article": "Lebanese Health Ministry says 7 people martyred, 21 others injured in Israeli strikes on Beirut\u2019s Jnah, Khalde - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-01T09:17:07.361458+00:00",
-      "tier": "groq",
-      "article": "Israeli police inspect damage on the road after missile impact"
-    },
-    {
-      "timestamp": "2026-04-01T09:17:23.369011+00:00",
-      "tier": "groq",
-      "article": "Judge temporarily halts Trump\u2019s $400m White House ballroom project"
-    },
     {
       "timestamp": "2026-04-01T11:04:43.015808+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-03T13:19:13.691056+00:00",
       "tier": "groq",
       "article": "Al-Manar correspondent in Lebanon\u2019s Western Bekaa: Casualties as Israeli enemy commits massacre in Ahl Al-Bayt Mosque in Suhmor - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-03T14:51:36.706385+00:00",
+      "tier": "groq",
+      "article": "France orders its fifth and final FDI frigate from Naval Group, completing fleet plan"
+    },
+    {
+      "timestamp": "2026-04-03T14:52:16.323269+00:00",
+      "tier": "groq",
+      "article": "Hezbollah\u2019s Islamic Resistance fighters fired barrages of rockets targeting Israeli settlements of Kiryat Shmona, Metula and Kfar Yuval as part of earlier warning to evacuate northern Israeli settlements: Military Media statement no. 19 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-03T14:53:09.557173+00:00",
+      "tier": "groq",
+      "article": "How the US and Israel are waging war on Iran\u2019s medicines, vaccines"
+    },
+    {
+      "timestamp": "2026-04-03T14:53:26.092062+00:00",
+      "tier": "groq",
+      "article": "Iran war: International law experts allege violations in Iran war"
     }
   ]
 }
