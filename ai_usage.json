@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1439,
+  "total_calls": 1443,
   "tiers": {
-    "groq": 1421,
+    "groq": 1425,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-01T06:00:33.351243+00:00",
-      "tier": "groq",
-      "article": "US journalist Shelly Kittleson kidnapped in Baghdad"
-    },
-    {
-      "timestamp": "2026-04-01T06:01:18.616525+00:00",
-      "tier": "groq",
-      "article": "Trump tells allies \u2018get your own oil\u2019, says Iran war could end in 2-3 weeks"
-    },
-    {
-      "timestamp": "2026-04-01T06:01:34.564877+00:00",
-      "tier": "groq",
-      "article": "'You're no longer my sister' - rows erupt as war divides Iranian families"
-    },
-    {
-      "timestamp": "2026-04-01T06:01:50.676472+00:00",
-      "tier": "groq",
-      "article": "Pope Leo urges Trump to end war on Iran"
-    },
     {
       "timestamp": "2026-04-01T07:51:38.685537+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-03T09:04:02.433782+00:00",
       "tier": "groq",
       "article": "The Israeli army acknowledges that statements about disarming Hezbollah as a war objective were overly ambitious: Hebrew media - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-03T10:52:43.524279+00:00",
+      "tier": "groq",
+      "article": "Iran Strikes US Military Sites in Gulf with Missiles and Drones - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-03T10:53:24.259540+00:00",
+      "tier": "groq",
+      "article": "Kuwait desalination plant, oil refinery hit by missile and drone strikes"
+    },
+    {
+      "timestamp": "2026-04-03T10:54:16.361231+00:00",
+      "tier": "groq",
+      "article": "'This has got me worried': Iranians fear what comes next after US strike on Karaj bridge"
+    },
+    {
+      "timestamp": "2026-04-03T10:54:32.542858+00:00",
+      "tier": "groq",
+      "article": "Cuba to pardon more than 2,000 prisoners amid US pressure"
     }
   ]
 }
