@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1443,
+  "total_calls": 1447,
   "tiers": {
-    "groq": 1425,
+    "groq": 1429,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-01T07:51:38.685537+00:00",
-      "tier": "groq",
-      "article": "Yemeni Armed Forces Strike Southern Occupied Palestine in Coordinated Operation with Iran, Hezbollah - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-01T07:52:12.663314+00:00",
-      "tier": "groq",
-      "article": "Palestinian media repors general strike in occupied Al-Quds in protest against Israeli Knesset\u2019s death penalty law against Palestinian prisoners - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-01T07:52:58.352216+00:00",
-      "tier": "groq",
-      "article": "Israeli media: Iran launched 9 ballistic missiles at \u2018Israel\u2019 since this morning - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-01T07:53:16.109633+00:00",
-      "tier": "groq",
-      "article": "After Strait of Hormuz opens, turmoil would still last months, analysts say"
-    },
     {
       "timestamp": "2026-04-01T09:16:34.608339+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-03T10:54:32.542858+00:00",
       "tier": "groq",
       "article": "Cuba to pardon more than 2,000 prisoners amid US pressure"
+    },
+    {
+      "timestamp": "2026-04-03T13:17:26.520719+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s IRGC Blames \u2018Israel\u2019 for \u2018False Flag\u2019 Attacks on Kuwait - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-03T13:18:04.397519+00:00",
+      "tier": "groq",
+      "article": "33rd Day of Israeli Aggression on Lebanon: Casualties in Continuous Strikes - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-03T13:18:53.436830+00:00",
+      "tier": "groq",
+      "article": "Enemy Entity Rocked: Spidor Station Hit, Buildings East of Tel Aviv Severely Damaged - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-03T13:19:13.691056+00:00",
+      "tier": "groq",
+      "article": "Al-Manar correspondent in Lebanon\u2019s Western Bekaa: Casualties as Israeli enemy commits massacre in Ahl Al-Bayt Mosque in Suhmor - Al-Manar TV Lebanon"
     }
   ]
 }
