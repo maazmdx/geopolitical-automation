@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1431,
+  "total_calls": 1435,
   "tiers": {
-    "groq": 1413,
+    "groq": 1417,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-31T22:41:30.883511+00:00",
-      "tier": "groq",
-      "article": "Peacekeepers killed by roadside explosion in Lebanon, initial report finds"
-    },
-    {
-      "timestamp": "2026-03-31T22:42:17.992039+00:00",
-      "tier": "groq",
-      "article": "Iran\u2019s FM confirms contact with US envoy Witkoff, denies talks under way"
-    },
-    {
-      "timestamp": "2026-03-31T22:42:34.242030+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted the Ras al-Naqoura naval site with a swarm of attack drones: statement 45 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-31T22:43:11.676309+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted it at 20:25 on Tuesday, March 31, 2026, with a swarm of attack drones: statement 43 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-01T02:59:31.905031+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-03T05:48:31.937209+00:00",
       "tier": "groq",
       "article": "US War Secretary Orders Army Chief of Staff to Step Down - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-03T07:20:35.489040+00:00",
+      "tier": "groq",
+      "article": "Russia sending second ship with oil to Cuba amid US blockade"
+    },
+    {
+      "timestamp": "2026-04-03T07:20:51.576776+00:00",
+      "tier": "groq",
+      "article": "How China\u2019s \u2018teapot\u2019 refineries are cushioning it from Iran war oil crisis"
+    },
+    {
+      "timestamp": "2026-04-03T07:21:26.695316+00:00",
+      "tier": "groq",
+      "article": "Oil shock triggers global price spikes as Iran war drags on"
+    },
+    {
+      "timestamp": "2026-04-03T07:22:19.802433+00:00",
+      "tier": "groq",
+      "article": "'Be serious... don't speak every day': Macron criticises Trump approach to Iran war"
     }
   ]
 }
