@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1427,
+  "total_calls": 1431,
   "tiers": {
-    "groq": 1409,
+    "groq": 1413,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-03-31T20:53:59.274661+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance targeted the Stella Maris base (a strategic base for maritime surveillance and monitoring along the northern coast) at 08:00 PM on Tuesday, March 31, 2026, with a salvo of advanced rockets: statement 22 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-31T20:54:31.415377+00:00",
-      "tier": "groq",
-      "article": "How Pakistan positioned itself at the center of global crisis management"
-    },
-    {
-      "timestamp": "2026-03-31T20:55:17.672262+00:00",
-      "tier": "groq",
-      "article": "As part of the \u201cKhaybar 2\u201d operations wave, and within the framework of the warning issued by the Islamic Resistance to the occupied city of Nahariya in northern occupied Palestine, the fighters of the Islamic Resistance targeted it at 08:00 PM on Tuesday, March 31, 2026, with a rocket salvo: statement 26 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-03-31T20:56:04.813410+00:00",
-      "tier": "groq",
-      "article": "Why Iran believes it can outlast the US"
-    },
     {
       "timestamp": "2026-03-31T22:41:30.883511+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-03T02:48:03.271009+00:00",
       "tier": "groq",
       "article": "What might end Israel\u2019s war on Iran?"
+    },
+    {
+      "timestamp": "2026-04-03T05:46:48.600480+00:00",
+      "tier": "groq",
+      "article": "Bipartisan group of senators vow to keep US in NATO despite Trump threats"
+    },
+    {
+      "timestamp": "2026-04-03T05:47:29.760207+00:00",
+      "tier": "groq",
+      "article": "Hegseth asks Army\u2019s top general to retire, fires two others as Iran war rages"
+    },
+    {
+      "timestamp": "2026-04-03T05:47:45.802031+00:00",
+      "tier": "groq",
+      "article": "US defense stocks see no Iran war lift after early surge "
+    },
+    {
+      "timestamp": "2026-04-03T05:48:31.937209+00:00",
+      "tier": "groq",
+      "article": "US War Secretary Orders Army Chief of Staff to Step Down - Al-Manar TV Lebanon"
     }
   ]
 }
