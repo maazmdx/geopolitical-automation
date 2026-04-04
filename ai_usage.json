@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1471,
+  "total_calls": 1475,
   "tiers": {
-    "groq": 1453,
+    "groq": 1457,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-01T20:53:37.488261+00:00",
-      "tier": "groq",
-      "article": "Central Israel hit by one of Iran\u2019s largest missile barrages in weeks"
-    },
-    {
-      "timestamp": "2026-04-01T20:54:14.891552+00:00",
-      "tier": "groq",
-      "article": "Palestinians in West Bank protest, strike against Israeli death penalty law"
-    },
-    {
-      "timestamp": "2026-04-01T20:55:08.209128+00:00",
-      "tier": "groq",
-      "article": "Is the US running out of Tomahawk missiles? Here\u2019s what the experts say"
-    },
-    {
-      "timestamp": "2026-04-01T20:56:01.130439+00:00",
-      "tier": "groq",
-      "article": "\u2018This is an apartheid regime\u2019: Critics decry Israel\u2019s new death penalty law"
-    },
     {
       "timestamp": "2026-04-01T22:47:05.002898+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-04T02:38:03.842036+00:00",
       "tier": "groq",
       "article": "Omani, French and Japanese vessels transit the Strait of Hormuz"
+    },
+    {
+      "timestamp": "2026-04-04T05:28:35.686891+00:00",
+      "tier": "groq",
+      "article": "Iranian missile attack hits residential areas in central Israel"
+    },
+    {
+      "timestamp": "2026-04-04T05:28:51.912153+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted a gathering of Israeli enemy soldiers and vehicles at the Al-Malikiyah site with artillery shells: statement 37 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-04T05:29:21.679593+00:00",
+      "tier": "groq",
+      "article": "Iran war: What is happening on day 36 of US-Israeli attacks?"
+    },
+    {
+      "timestamp": "2026-04-04T05:30:07.780090+00:00",
+      "tier": "groq",
+      "article": "NASA unveils first images of Earth from Artemis II"
     }
   ]
 }
