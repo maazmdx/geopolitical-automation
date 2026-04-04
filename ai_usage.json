@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1475,
+  "total_calls": 1477,
   "tiers": {
-    "groq": 1457,
+    "groq": 1459,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-01T22:47:05.002898+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted a Merkava tank at the Jenejel height in the town of Qantara with a guided missile, and it was seen burning: statement 58 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-01T22:47:37.231675+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted a Merkava tank near the Qantara school with a guided missile, and it was seen burning: statement 57 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-01T22:47:53.761601+00:00",
       "tier": "groq",
@@ -507,6 +497,16 @@
       "timestamp": "2026-04-04T05:30:07.780090+00:00",
       "tier": "groq",
       "article": "NASA unveils first images of Earth from Artemis II"
+    },
+    {
+      "timestamp": "2026-04-04T07:11:42.079647+00:00",
+      "tier": "groq",
+      "article": "Loyalty to Resistance Bloc: Lebanon Won\u2019t Be Subject to Zionist Hegemony - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-04T07:12:02.666196+00:00",
+      "tier": "groq",
+      "article": "Palestinian Christians in Gaza mark Good Friday"
     }
   ]
 }
