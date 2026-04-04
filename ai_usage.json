@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1481,
+  "total_calls": 1485,
   "tiers": {
-    "groq": 1463,
+    "groq": 1467,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-02T02:44:02.467227+00:00",
-      "tier": "groq",
-      "article": "Ukraine claims near-90% air-defense success in March as attacks increase"
-    },
-    {
-      "timestamp": "2026-04-02T02:44:19.202327+00:00",
-      "tier": "groq",
-      "article": "Magnitude 7.4 quake hits off Indonesia\u2019s Ternate, tsunami warning lifted"
-    },
-    {
-      "timestamp": "2026-04-02T05:48:53.925981+00:00",
-      "tier": "groq",
-      "article": "First troops from UN-backed Gang Suppression Force arrive in Haiti"
-    },
-    {
-      "timestamp": "2026-04-02T05:49:41.173498+00:00",
-      "tier": "groq",
-      "article": "Trump\u2019s primetime speech on Iran war: Key takeaways"
-    },
     {
       "timestamp": "2026-04-02T05:49:57.086284+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-04T08:54:01.010021+00:00",
       "tier": "groq",
       "article": "Israeli drones spotted flying at low-altitude over Beirut\u2019s Dahiyeh and Mount Lebanon: Al-Manar correspondent in south Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-04T10:43:31.138217+00:00",
+      "tier": "groq",
+      "article": "Iran executes two convicted members of banned opposition group"
+    },
+    {
+      "timestamp": "2026-04-04T10:43:47.474827+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s IRGC: We have no connection to the attack on the US embassy in Riyadh, our targets are defined according to our prior warnings - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-04T10:44:05.436470+00:00",
+      "tier": "groq",
+      "article": "Hezbollah\u2019s Islamic Resistance fighters targeted the Liman barracks north of the Nahariya settlement with a squadron of attack drones: Military Media statement no. 4 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-04T10:44:23.073146+00:00",
+      "tier": "groq",
+      "article": "Khatam Al-Anbiya HQ: Any attack on Iranian embassies or diplomatic missions will trigger a reciprocal response, rendering all diplomatic facilities of the Zionist entity across the region legitimate targets - Al-Manar TV Lebanon"
     }
   ]
 }
