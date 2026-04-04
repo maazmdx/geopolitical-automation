@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1489,
+  "total_calls": 1493,
   "tiers": {
-    "groq": 1471,
+    "groq": 1475,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-02T07:22:47.302164+00:00",
-      "tier": "groq",
-      "article": "Trump offers few answers as he seeks to calm nerves over Iran war"
-    },
-    {
-      "timestamp": "2026-04-02T07:23:33.740911+00:00",
-      "tier": "groq",
-      "article": "NASA moon mission a \u2018contrast\u2019 to US war on Iran, says US senator"
-    },
-    {
-      "timestamp": "2026-04-02T09:08:28.918461+00:00",
-      "tier": "groq",
-      "article": "Iran Attack Leaves Casualties, Damage in Tel Aviv, Occupied Palestine - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-02T09:09:03.813003+00:00",
-      "tier": "groq",
-      "article": "Al-Manar Correspondent: Occupation Artillery and Warplanes Strike Dbin in Two Waves; Three Raids on Khiam, One on Rashaya al-Fakhar - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-02T09:09:19.740616+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-04T13:09:55.765474+00:00",
       "tier": "groq",
       "article": "Watch: Israeli Armor in Hezbollah Crosshairs - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-04T14:39:54.269590+00:00",
+      "tier": "groq",
+      "article": "Israeli strikes damage hospital in Lebanon\u2019s Tyre; ground invasion advances"
+    },
+    {
+      "timestamp": "2026-04-04T14:40:37.869011+00:00",
+      "tier": "groq",
+      "article": "At least four people killed in Russian attacks on Ukraine"
+    },
+    {
+      "timestamp": "2026-04-04T14:40:53.991894+00:00",
+      "tier": "groq",
+      "article": "Widening Israeli Aggression on Lebanon Leaves Casualties, Trail of Damage - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-04T14:41:14.282329+00:00",
+      "tier": "groq",
+      "article": "Projectile hits near Iran\u2019s Bushehr nuclear plant, killing one: IAEA"
     }
   ]
 }
