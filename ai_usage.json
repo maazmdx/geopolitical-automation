@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1523,
+  "total_calls": 1527,
   "tiers": {
-    "groq": 1505,
+    "groq": 1509,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-03T02:45:52.053656+00:00",
-      "tier": "groq",
-      "article": "Iran vows retaliation after deadly US strike on bridge in Karaj"
-    },
-    {
-      "timestamp": "2026-04-03T02:46:24.283760+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted at 20:00 on Thursday, 02-04-2026, \u201cIsraeli\u201d artillery bunkers in Kherbat Ma\u2018ar with a squadron of loitering drones: statement 47 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-03T02:47:17.341931+00:00",
-      "tier": "groq",
-      "article": "As war drags on, US reiterates Trump open to diplomacy with Iran"
-    },
-    {
-      "timestamp": "2026-04-03T02:48:03.271009+00:00",
-      "tier": "groq",
-      "article": "What might end Israel\u2019s war on Iran?"
-    },
     {
       "timestamp": "2026-04-03T05:46:48.600480+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-05T08:56:25.854968+00:00",
       "tier": "groq",
       "article": "Trump seeks to end the war without it becoming \u2018an abject failure\u2019"
+    },
+    {
+      "timestamp": "2026-04-05T10:44:13.293428+00:00",
+      "tier": "groq",
+      "article": "Al-Manar correspondent: A drone strike targeted a motorcycle on the road to Rashidieh camp - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-05T10:44:44.515762+00:00",
+      "tier": "groq",
+      "article": "Israeli missile sirens sound in Safad and Katzrin, Upper Galilee and occupied Golan Heights - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-05T10:45:01.718165+00:00",
+      "tier": "groq",
+      "article": "Ukraine hits port in Russia\u2019s Primorsk, oil refinery in Nizhny Novgorod"
+    },
+    {
+      "timestamp": "2026-04-05T10:45:44.355474+00:00",
+      "tier": "groq",
+      "article": "Humiliating Defeat : Iran Shoots Down Multiple US Warplanes in Failed Pilot Rescue Mission - Al-Manar TV Lebanon"
     }
   ]
 }
