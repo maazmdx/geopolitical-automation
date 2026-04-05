@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1509,
+  "total_calls": 1513,
   "tiers": {
-    "groq": 1491,
+    "groq": 1495,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-02T17:06:32.208244+00:00",
-      "tier": "groq",
-      "article": "Burkina Faso military, allies committing \u2018horrific\u2019 civilian abuses: HRW"
-    },
-    {
-      "timestamp": "2026-04-02T17:06:48.328243+00:00",
-      "tier": "groq",
-      "article": "Iran's focus on survival means same regime still firmly in place"
-    },
-    {
-      "timestamp": "2026-04-02T19:05:27.404797+00:00",
-      "tier": "groq",
-      "article": "Videos capture projectile falling in central Israel after Iran strike"
-    },
-    {
-      "timestamp": "2026-04-02T19:05:43.725326+00:00",
-      "tier": "groq",
-      "article": "Argentina expels Iranian diplomat amid rift over blacklisting IRGC"
-    },
     {
       "timestamp": "2026-04-02T19:05:59.675592+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-04T22:41:13.852010+00:00",
       "tier": "groq",
       "article": "Hezbollah fighters targeted the newly established headquarters of the artillery battalion command of the 146th Division, south of the settlement of Kabri, with a squadron of attack drones: Military Media Statement 32 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-05T02:54:17.306406+00:00",
+      "tier": "groq",
+      "article": "Israeli measures tighten grip on Hebron\u2019s Ibrahimi Mosque"
+    },
+    {
+      "timestamp": "2026-04-05T02:54:56.945894+00:00",
+      "tier": "groq",
+      "article": "How will Pakistan deal with the fallout from Iran war?"
+    },
+    {
+      "timestamp": "2026-04-05T02:55:46.278513+00:00",
+      "tier": "groq",
+      "article": "US satellite firm Planet Labs announces blackout on war on Iran images"
+    },
+    {
+      "timestamp": "2026-04-05T02:56:02.509293+00:00",
+      "tier": "groq",
+      "article": "Israeli police arrest antiwar protesters in Tel Aviv"
     }
   ]
 }
