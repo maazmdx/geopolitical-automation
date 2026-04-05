@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1519,
+  "total_calls": 1523,
   "tiers": {
-    "groq": 1501,
+    "groq": 1505,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-02T22:38:41.315478+00:00",
-      "tier": "groq",
-      "article": "IRGC Launches Massive Strikes on Tel Aviv, Haifa in Wave 91 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-02T22:39:16.712199+00:00",
-      "tier": "groq",
-      "article": "9-year-old boy recounts airstrike in Lebanon that killed whole family"
-    },
-    {
-      "timestamp": "2026-04-02T22:39:32.688815+00:00",
-      "tier": "groq",
-      "article": "At least 43 people killed in ADF attack in northeast DR Congo, army says"
-    },
-    {
-      "timestamp": "2026-04-02T22:40:19.729949+00:00",
-      "tier": "groq",
-      "article": "US Homeland Security shutdown to stretch on, despite Senate passing funding"
-    },
     {
       "timestamp": "2026-04-03T02:45:52.053656+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-05T07:19:43.907414+00:00",
       "tier": "groq",
       "article": "Khatam al-Anbiya Central Headquarters: Enemy aircraft penetrating south of Isfahan were targeted, including two Black Hawk helicopters and a C-130 military transport plane - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-05T08:55:33.733634+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance Strikes Israeli Warship Off Lebanese Coast - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-05T08:55:53.812945+00:00",
+      "tier": "groq",
+      "article": "Yemen\u2019s Houthis claim cluster missile attack on Israel\u2019s Ben Gurion airport"
+    },
+    {
+      "timestamp": "2026-04-05T08:56:09.905175+00:00",
+      "tier": "groq",
+      "article": "The commander of the Nahal Brigade in the enemy army, regarding the Beit Lev ambush last week: Hezbollah operatives opened fire on the force at point-blank range, and within a short time, four Israeli soldiers were killed - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-05T08:56:25.854968+00:00",
+      "tier": "groq",
+      "article": "Trump seeks to end the war without it becoming \u2018an abject failure\u2019"
     }
   ]
 }
