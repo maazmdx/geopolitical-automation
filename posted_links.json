@@ -1,4 +1,29 @@
 {
+  "2f1b0314310bed37f12efb0f013031e83b27993ce7697302d76bb78725e22010": {
+    "url": "QudsNen/217808",
+    "title": "Tear gas rains down on Hebron. The resistance will rise.",
+    "published": "2026-04-06T20:58:07.185242+00:00"
+  },
+  "923d850ce1a6f1ca32dd36bcebac2d7e3b71605566ca303a11a824fa1bee7057": {
+    "url": "QudsNen/217809",
+    "title": "Israeli airstrikes in Maarakeh, Lebanon: 1 strike, multiple casualties. #IsraeliAggression",
+    "published": "2026-04-06T20:57:01.782242+00:00"
+  },
+  "875c00f961f22a22edb7d41ed62c64f5b3fcf99aa9341876eb58f70fa9b17092": {
+    "url": "QudsNen/217810",
+    "title": "Israel blocks aid to Gaza kids. MSF fights back with 3D-printed hope.",
+    "published": "2026-04-06T20:56:49.158460+00:00"
+  },
+  "f36de1173dfbce9b40c9dc60b9521b7663d75effff57ef40d38d2bd25cbaa7ce": {
+    "url": "thecradlemedia/56814",
+    "title": "IRAN TAKES STAND: Tehran rejects US ceasefire, demands total victory in 10-point plan",
+    "published": "2026-04-06T20:49:37.289215+00:00"
+  },
+  "3a3a4e8b916ee0bba6b5fe13dc2384bffd7b02b6514d1a75a2e9f50185006b9a": {
+    "url": "thecradlemedia/56825",
+    "title": "IRANIAN HEROES DOWN ENEMY, FALL IN BATTLE. FOUR TOP OFFICERS KILLED IN ACTION.",
+    "published": "2026-04-06T20:49:36.580073+00:00"
+  },
   "4ff12505fa621376dcf605a21e3fc12943dc4b78632d96eb6a3da5d5052e6105": {
     "url": "QudsNen/217795",
     "title": "BOOM: US threatens Iran with relentless strikes, 'even more than today'!",
@@ -24,10 +49,20 @@
     "title": "NETANYAHU STANDS STRONG AGAINST IRAN! Netanyahu tells Trump: no ceasefire until Iran backs down!",
     "published": "2026-04-06T19:12:04.103077+00:00"
   },
+  "c1a00d996b8643b76e8efab4425ad14d4d4290cfc0acc18b391431c6a1d42355": {
+    "url": "https://www.bbc.com/news/articles/c77md512n71o?at_medium=RSS&at_campaign=rss",
+    "title": "Ten killed in Israeli strikes and clashes between Hamas and militia in Gaza, local sources say",
+    "published": "2026-04-06T19:11:20+00:00"
+  },
   "bbe55ed272a16b80f51e9e7371d01317b166bbbbe72e931c5ce07b156fd7091a": {
     "url": "https://www.aljazeera.com/video/newsfeed/2026/4/6/hegseth-says-strikes-on-iran-increasing-as-hormuz-deadline-looms?traffic_source=rss",
     "title": "Hegseth says strikes on Iran increasing as Hormuz deadline looms",
     "published": "2026-04-06T18:18:16+00:00"
+  },
+  "8d7954848c0fc562e660f8cb2aeccf50d09c8f2c6e3083738d043050d9492e58": {
+    "url": "https://www.aljazeera.com/video/the-take-2/2026/4/6/aje-onl-tt_irn_energyrevisited_av_v2-060426?traffic_source=rss",
+    "title": "How Asia became ground zero for the oil crisis",
+    "published": "2026-04-06T17:47:40+00:00"
   },
   "2ac3b116a7ff52c72f8f1c6806d704b9d0ff188e58068d177d1af16b9b4d25df": {
     "url": "https://www.aljazeera.com/news/2026/4/6/trump-warns-deadline-final-as-iran-pushes-proposal-to-end-war?traffic_source=rss",
@@ -58,6 +93,11 @@
     "url": "thecradlemedia/56811",
     "title": "BREAKING: Kurdish warriors reject US arms claims, ready to take down Iran's brutal regime!",
     "published": "2026-04-06T17:02:53.720461+00:00"
+  },
+  "3811bb0e5b5d3dc21d53b9744259444764ef9d9020188134ece9f58781089b58": {
+    "url": "https://www.aljazeera.com/news/2026/4/6/who-employee-killed-several-injured-in-israeli-attack-in-gaza-say-medics?traffic_source=rss",
+    "title": "Israeli army fire on WHO vehicle in southern Gaza kills one, medics report",
+    "published": "2026-04-06T15:58:34+00:00"
   },
   "82ef76802ebddba86b8d51f1f0c9c3086ed7fc410ad4066e084cfb408b6e9098": {
     "url": "https://www.bbc.com/news/articles/cvgl0ng8z0do?at_medium=RSS&at_campaign=rss",
@@ -138,6 +178,11 @@
     "url": "thecradlemedia/56782",
     "title": "Gaza under fire. Israel's dual front war intensifies.",
     "published": "2026-04-06T13:25:41.936159+00:00"
+  },
+  "f77ae0feaeea334fbae460ea443a652b141b169bac6f58c70645a701da24e959": {
+    "url": "https://www.aljazeera.com/news/2026/4/6/how-us-operation-to-rescue-air-officer-from-iran-unfolded?traffic_source=rss",
+    "title": "How US operation to rescue air officer from Iran unfolded",
+    "published": "2026-04-06T12:42:47+00:00"
   },
   "cb5e04cd23bff9d432aa18aa983aa1fd98c5553ad9a3d0ddf2c1d2f1991b46b6": {
     "url": "https://english.almanar.com.lb/article/52337/",
@@ -703,50 +748,5 @@
     "url": "https://english.almanar.com.lb/article/51757/",
     "title": "The commander of the Nahal Brigade in the enemy army, regarding the Beit Lev ambush last week: Hezbollah operatives opened fire on the force at point-blank range, and within a short time, four Israeli soldiers were killed - Al-Manar TV Lebanon",
     "published": "2026-04-05T08:29:44+00:00"
-  },
-  "58a833d54e2fe6b1921adfed4e7ba9a054fa762ef1b06fccbe1a5bb8a762828c": {
-    "url": "https://english.almanar.com.lb/article/51712/",
-    "title": "Islamic Resistance Strikes Israeli Warship Off Lebanese Coast - Al-Manar TV Lebanon",
-    "published": "2026-04-05T08:16:57+00:00"
-  },
-  "0198d0a058d24063c03986ea979d4d3f4194d3db11f5879aa9036a7e2de07487": {
-    "url": "https://www.aljazeera.com/video/quotable/2026/4/5/trump-seeks-to-end-the-war-without-it-becoming-an-abject?traffic_source=rss",
-    "title": "Trump seeks to end the war without it becoming \u2018an abject failure\u2019",
-    "published": "2026-04-05T07:58:05+00:00"
-  },
-  "6bf6bc56c2c7a86ef437e297dc82a00c09e6af70a2b936089983b8c8632862d9": {
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/4/5/yemens-houthis-claim-cluster-missile-attack-on-israels-ben-gurion-airport?traffic_source=rss",
-    "title": "Yemen\u2019s Houthis claim cluster missile attack on Israel\u2019s Ben Gurion airport",
-    "published": "2026-04-05T07:45:37+00:00"
-  },
-  "28837c5ec9207bf068c4affd5d6c7eab68ba4ce0b27cefc0bbaca05cd4c60be9": {
-    "url": "warmonitors/43154",
-    "title": "BREAKING: Terror strikes Kuwait! Explosions rock key facilities. #KuwaitUnderAttack",
-    "published": "2026-04-05T07:23:11.969986+00:00"
-  },
-  "d9cc67f84c781750c91273321ec170d087fc7282c0cce17472b9f5afcb5f32d7": {
-    "url": "QudsNen/217501",
-    "title": "DEATH FROM ABOVE: Israeli airstrikes continue to ravage Gaza, killing innocent civilians. #GazaUnderAttack #IsraeliAggression",
-    "published": "2026-04-05T07:22:45.230771+00:00"
-  },
-  "05b73fc790e72364487e5e39e848de2ef64136c0234caa86b99bdb79f8bdf56d": {
-    "url": "QudsNen/217515",
-    "title": "IRGC STRIKES BACK: US aircraft destroyed, IRGC's air defenses prove unstoppable!",
-    "published": "2026-04-05T07:20:35.200888+00:00"
-  },
-  "0feec74c62c4aabfe04fe832ebbf803d3584021a508779abe63fb9fc8b9f9b97": {
-    "url": "Middle_East_Spectator/30256",
-    "title": "Iran's aggression knows no bounds! Kuwait's energy infrastructure under attack!",
-    "published": "2026-04-05T07:20:32.195820+00:00"
-  },
-  "26f2e3ab0df4ac4750fed053f7c3d0d23fcaaa57c5ec3f21c932735eabadfe16": {
-    "url": "thecradlemedia/56647",
-    "title": "Israeli warship BURNED by Hezbollah's precision strike! Israel's aggression met with fierce resistance.",
-    "published": "2026-04-05T07:20:03.450520+00:00"
-  },
-  "43cbd4bfce822b2a3d836f8437b4e4f3611e9a8e213ed6feb17ad84f6a258ec2": {
-    "url": "https://english.almanar.com.lb/article/51692/",
-    "title": "Khatam al-Anbiya Central Headquarters: Enemy aircraft penetrating south of Isfahan were targeted, including two Black Hawk helicopters and a C-130 military transport plane - Al-Manar TV Lebanon",
-    "published": "2026-04-05T07:11:38+00:00"
   }
 }

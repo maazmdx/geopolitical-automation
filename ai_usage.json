@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1583,
+  "total_calls": 1587,
   "tiers": {
-    "groq": 1565,
+    "groq": 1569,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-04T10:44:05.436470+00:00",
-      "tier": "groq",
-      "article": "Hezbollah\u2019s Islamic Resistance fighters targeted the Liman barracks north of the Nahariya settlement with a squadron of attack drones: Military Media statement no. 4 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-04T10:44:23.073146+00:00",
-      "tier": "groq",
-      "article": "Khatam Al-Anbiya HQ: Any attack on Iranian embassies or diplomatic missions will trigger a reciprocal response, rendering all diplomatic facilities of the Zionist entity across the region legitimate targets - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-04T13:09:03.696342+00:00",
-      "tier": "groq",
-      "article": "Iran Science Minister says US-Israeli strikes hit 30 universities across Islamic Republic since war began - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-04T13:09:21.081352+00:00",
-      "tier": "groq",
-      "article": "Fresh wave of missiles launched from Iran, impacts reported in occupied territories - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-04T13:09:38.509407+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-06T19:12:00.800651+00:00",
       "tier": "groq",
       "article": "Trump\u2019s \u2018Bridge Day\u2019 threat: Can a last-ditch ceasefire plan work?"
+    },
+    {
+      "timestamp": "2026-04-06T20:48:21.377056+00:00",
+      "tier": "groq",
+      "article": "Ten killed in Israeli strikes and clashes between Hamas and militia in Gaza, local sources say"
+    },
+    {
+      "timestamp": "2026-04-06T20:48:37.559854+00:00",
+      "tier": "groq",
+      "article": "Israeli army fire on WHO vehicle in southern Gaza kills one, medics report"
+    },
+    {
+      "timestamp": "2026-04-06T20:49:17.972682+00:00",
+      "tier": "groq",
+      "article": "How US operation to rescue air officer from Iran unfolded"
+    },
+    {
+      "timestamp": "2026-04-06T20:49:34.006251+00:00",
+      "tier": "groq",
+      "article": "How Asia became ground zero for the oil crisis"
     }
   ]
 }
