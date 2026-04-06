@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1587,
+  "total_calls": 1591,
   "tiers": {
-    "groq": 1569,
+    "groq": 1573,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-04T13:09:38.509407+00:00",
-      "tier": "groq",
-      "article": "Israeli Resistance fighters fired barrages of rockets targeting newly established Israeli enemy artillery positions in the settlements of Yir\u2019on and Avivim: Hezbollah Military Media statements no. 13, 14 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-04T13:09:55.765474+00:00",
-      "tier": "groq",
-      "article": "Watch: Israeli Armor in Hezbollah Crosshairs - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-04T14:39:54.269590+00:00",
-      "tier": "groq",
-      "article": "Israeli strikes damage hospital in Lebanon\u2019s Tyre; ground invasion advances"
-    },
-    {
-      "timestamp": "2026-04-04T14:40:37.869011+00:00",
-      "tier": "groq",
-      "article": "At least four people killed in Russian attacks on Ukraine"
-    },
     {
       "timestamp": "2026-04-04T14:40:53.991894+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-06T20:49:34.006251+00:00",
       "tier": "groq",
       "article": "How Asia became ground zero for the oil crisis"
+    },
+    {
+      "timestamp": "2026-04-06T22:48:08.467391+00:00",
+      "tier": "groq",
+      "article": "Lebanon\u2019s Hezbollah and Yemen\u2019s Houthis join Iran in strike on Israel"
+    },
+    {
+      "timestamp": "2026-04-06T22:48:48.188862+00:00",
+      "tier": "groq",
+      "article": "Israeli air strike kills at least 10 Palestinians near Gaza school"
+    },
+    {
+      "timestamp": "2026-04-06T22:49:34.774018+00:00",
+      "tier": "groq",
+      "article": "Why is Iran\u2019s Bushehr nuclear power plant being attacked?"
+    },
+    {
+      "timestamp": "2026-04-06T22:50:26.652054+00:00",
+      "tier": "groq",
+      "article": "US Army wants new grenade launcher, ammunition to be able to destroy drones "
     }
   ]
 }
