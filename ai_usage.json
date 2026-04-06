@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1567,
+  "total_calls": 1571,
   "tiers": {
-    "groq": 1549,
+    "groq": 1553,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-04T02:36:22.445570+00:00",
-      "tier": "groq",
-      "article": "Video shows the moment a Russian drone hit an apartment in Ukraine"
-    },
-    {
-      "timestamp": "2026-04-04T02:36:55.538327+00:00",
-      "tier": "groq",
-      "article": "Will force be used to reopen Strait of Hormuz?"
-    },
-    {
-      "timestamp": "2026-04-04T02:37:47.776157+00:00",
-      "tier": "groq",
-      "article": "US unemployment rate drops despite economic uncertainty and Iran war"
-    },
-    {
-      "timestamp": "2026-04-04T02:38:03.842036+00:00",
-      "tier": "groq",
-      "article": "Omani, French and Japanese vessels transit the Strait of Hormuz"
-    },
     {
       "timestamp": "2026-04-04T05:28:35.686891+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-06T11:08:01.118541+00:00",
       "tier": "groq",
       "article": "Trump declares victory after pilot rescue, but threats to US aircraft and personnel remain in Iran"
+    },
+    {
+      "timestamp": "2026-04-06T13:24:03.798160+00:00",
+      "tier": "groq",
+      "article": "Four Israelis Killed in Iranian Missile Attack on Haifa - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-06T13:24:38.056534+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s IRGC Navy says missile attack targeted Israeli-linked cargo ship, leaving it on fire - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-06T13:24:54.962574+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted an Israeli Merkava with a guided missile in the border town of Rshaf, confirmed hit scored: Hezbollah Military Media statement 8 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-06T13:25:38.973192+00:00",
+      "tier": "groq",
+      "article": "Trump issues expletive-laden threat to Iran over Hormuz Strait blockage"
     }
   ]
 }
