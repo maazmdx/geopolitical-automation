@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1555,
+  "total_calls": 1559,
   "tiers": {
-    "groq": 1537,
+    "groq": 1541,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-03T18:59:00.143993+00:00",
-      "tier": "groq",
-      "article": "Israeli media: New Iranian missiles target the North - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-03T18:59:38.244262+00:00",
-      "tier": "groq",
-      "article": "US F-15E fighter jet shot down over Iran"
-    },
-    {
-      "timestamp": "2026-04-03T18:59:54.389902+00:00",
-      "tier": "groq",
-      "article": "India to acquire more air defense systems and drones for modern warfare"
-    },
-    {
-      "timestamp": "2026-04-03T19:00:44.566497+00:00",
-      "tier": "groq",
-      "article": "Crew member rescued after US fighter jet downed over Iran, US media reports"
-    },
     {
       "timestamp": "2026-04-03T20:44:21.604237+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-06T02:57:29.559326+00:00",
       "tier": "groq",
       "article": "Pope warns world is becoming \u2018indifferent\u2019 to violence"
+    },
+    {
+      "timestamp": "2026-04-06T06:06:25.584509+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted a gathering of Israeli enemy soldiers and vehicles at the Friz hill in the town of Ainatha with a barrage of rockets and artillery shells: statement 27 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-06T06:06:57.369271+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted a newly established command headquarters of the Israeli enemy army in the town of Taybeh with a squadron of attack drones: statement 30 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-06T06:07:43.664366+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted a gathering of vehicles and soldiers of the Israeli enemy army in the vicinity of the Marj site opposite the border town of Markaba with a squadron of attack drones: statement 29 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-06T06:07:59.894650+00:00",
+      "tier": "groq",
+      "article": "Hamas armed wing rejects disarmament while Israel continues attacks"
     }
   ]
 }
