@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1559,
+  "total_calls": 1563,
   "tiers": {
-    "groq": 1541,
+    "groq": 1545,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-03T20:44:21.604237+00:00",
-      "tier": "groq",
-      "article": "Drone strike on Sudan hospital kills 10, medical charity MSF says"
-    },
-    {
-      "timestamp": "2026-04-03T20:45:00.656737+00:00",
-      "tier": "groq",
-      "article": "At least one killed at UAE\u2019s Habshan gas facility after intercepted attack"
-    },
-    {
-      "timestamp": "2026-04-03T20:45:16.731702+00:00",
-      "tier": "groq",
-      "article": "Israeli media: Sirens sounded in Haifa after a massive missile fire from Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-03T20:45:34.316044+00:00",
-      "tier": "groq",
-      "article": "Iran release videos of US aircraft searching for pilots shot down in Iran"
-    },
     {
       "timestamp": "2026-04-03T22:41:00.967749+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-06T06:07:59.894650+00:00",
       "tier": "groq",
       "article": "Hamas armed wing rejects disarmament while Israel continues attacks"
+    },
+    {
+      "timestamp": "2026-04-06T09:18:46.751169+00:00",
+      "tier": "groq",
+      "article": "Iran\u2019s top university bombed as US, Israel intensify attacks; 34 killed"
+    },
+    {
+      "timestamp": "2026-04-06T09:19:28.938908+00:00",
+      "tier": "groq",
+      "article": "Israeli Strikes Pound South, Bekaa as Dahiyeh Threats Resurface - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-06T09:19:47.751213+00:00",
+      "tier": "groq",
+      "article": "AlManar correspondent says 3 citizens martyred, 3 others injured in an Israeli strike on Mashghara in Western Bekaa - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-06T09:20:22.089334+00:00",
+      "tier": "groq",
+      "article": "'We are at the edge of a battlefield': BBC reports near Strait of Hormuz"
     }
   ]
 }
