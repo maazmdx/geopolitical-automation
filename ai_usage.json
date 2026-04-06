@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1575,
+  "total_calls": 1579,
   "tiers": {
-    "groq": 1557,
+    "groq": 1561,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-04T07:11:42.079647+00:00",
-      "tier": "groq",
-      "article": "Loyalty to Resistance Bloc: Lebanon Won\u2019t Be Subject to Zionist Hegemony - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-04T07:12:02.666196+00:00",
-      "tier": "groq",
-      "article": "Palestinian Christians in Gaza mark Good Friday"
-    },
-    {
-      "timestamp": "2026-04-04T08:52:35.381519+00:00",
-      "tier": "groq",
-      "article": "Citizen martyred, 6 other wounded in Israeli strike on Al-Qatrani town in Western Bekaa: Al-Manar correspondent - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-04T08:53:07.794702+00:00",
-      "tier": "groq",
-      "article": "Al-Manar correspondent in south Lebanon reports Israeli strikes on Shehabieyh, Jwayya, Kawnin, Shaqra, Srifa, Beit Yahoun, Haris and Tyre in the early hours of Saturday - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-04T08:53:24.666947+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-06T14:57:25.413515+00:00",
       "tier": "groq",
       "article": "\u2018Cocktail of Hindutva and welfarism\u2019: How Modi\u2019s BJP is wooing Assam voters"
+    },
+    {
+      "timestamp": "2026-04-06T17:00:13.947412+00:00",
+      "tier": "groq",
+      "article": "'We're sinking deeper': Iranians brace for infrastructure strikes as Trump deadline nears"
+    },
+    {
+      "timestamp": "2026-04-06T17:00:57.449044+00:00",
+      "tier": "groq",
+      "article": "Yemeni Armed Forces Announces New Joint Attack with Iran & Hezbollah, Striking Israeli Military Targets in Eilat - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-06T17:01:50.978015+00:00",
+      "tier": "groq",
+      "article": "Ukraine missile maker targets \u2018game changer\u2019 air defense system by 2027"
+    },
+    {
+      "timestamp": "2026-04-06T17:02:44.312264+00:00",
+      "tier": "groq",
+      "article": "Trump says US armed Iranian dissidents via Kurds weeks before launching war"
     }
   ]
 }
