@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1603,
+  "total_calls": 1607,
   "tiers": {
-    "groq": 1585,
+    "groq": 1589,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-04T20:43:24.664938+00:00",
-      "tier": "groq",
-      "article": "Vehicle engulfed in flames after Israeli drone strike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-04T20:43:40.930256+00:00",
-      "tier": "groq",
-      "article": "Iran\u2019s Khatam Al-Anbiya HQ: Iraq Exempt from Strait of Hormuz Restrictions - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-04T22:39:55.513075+00:00",
-      "tier": "groq",
-      "article": "Indonesia receives bodies of peacekeepers killed in southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-04T22:40:38.894673+00:00",
-      "tier": "groq",
-      "article": "Trump says Iran has 48 hours to make deal as search for US pilot continues"
-    },
     {
       "timestamp": "2026-04-04T22:40:55.235553+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-07T07:28:28.411613+00:00",
       "tier": "groq",
       "article": "US-Israeli bombs will not halt Iran\u2019s nuclear technology in service of humanity: AEOI - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-07T09:11:28.184551+00:00",
+      "tier": "groq",
+      "article": "Iran Strikes Ali Al Salem Air Base in Kuwait, Wounds 15 US Troops - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-07T09:11:46.061151+00:00",
+      "tier": "groq",
+      "article": "Iran war: What is happening on day 39 of US-Israeli attacks?"
+    },
+    {
+      "timestamp": "2026-04-07T09:12:19.170507+00:00",
+      "tier": "groq",
+      "article": "Lebanon: Martyrs and Wounded in Renewed Israeli Aggression on Southern Towns - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-07T09:12:38.691448+00:00",
+      "tier": "groq",
+      "article": "Academics Protest Over Attacks on Universities and Hospitals"
     }
   ]
 }
