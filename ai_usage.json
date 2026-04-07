@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1595,
+  "total_calls": 1599,
   "tiers": {
-    "groq": 1577,
+    "groq": 1581,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-04T16:44:45.465670+00:00",
-      "tier": "groq",
-      "article": "Israeli media report approximately 82,000 sirens have been recorded so far in occupied Palestine since the onset of war - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-04T16:45:03.223061+00:00",
-      "tier": "groq",
-      "article": "Iran reports new attacks on Bushehr nuclear plant, sparking IAEA warning"
-    },
-    {
-      "timestamp": "2026-04-04T18:53:01.197396+00:00",
-      "tier": "groq",
-      "article": "Operation Eaten Straw: Hezbollah Fighters Relentlessly Hit Key Israeli Sites, Army Gatherings - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-04T18:53:19.823286+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fighters targeted a gathering of Israeli occupation army soldiers in the town of Al-Bayyada with a drone strike, achieving a direct hit: Military Media Statement 26 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-04T18:53:47.513372+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-07T02:49:17.389996+00:00",
       "tier": "groq",
       "article": "Islamic Resistance fighters targeted at 17:50 on Monday 06-04-2026 a gathering of \u201cIsraeli\u201d enemy soldiers in Margaliot settlement with a swarm of loitering drones: statement 32 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-07T05:53:55.021044+00:00",
+      "tier": "groq",
+      "article": "Trump\u2019s threat to strike Iran\u2019s power plants looms"
+    },
+    {
+      "timestamp": "2026-04-07T05:54:26.883010+00:00",
+      "tier": "groq",
+      "article": "Trump claims Iranians begging US to keep bombing Iran"
+    },
+    {
+      "timestamp": "2026-04-07T05:55:17.199808+00:00",
+      "tier": "groq",
+      "article": "North Korea keeping Iran at arm\u2019s length, reports Seoul"
+    },
+    {
+      "timestamp": "2026-04-07T05:56:09.379627+00:00",
+      "tier": "groq",
+      "article": "Trade minister announces round-the-clock management to supply goods, control market"
     }
   ]
 }
