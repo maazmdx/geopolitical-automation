@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1675,
+  "total_calls": 1679,
   "tiers": {
-    "groq": 1657,
+    "groq": 1661,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-06T17:00:13.947412+00:00",
-      "tier": "groq",
-      "article": "'We're sinking deeper': Iranians brace for infrastructure strikes as Trump deadline nears"
-    },
-    {
-      "timestamp": "2026-04-06T17:00:57.449044+00:00",
-      "tier": "groq",
-      "article": "Yemeni Armed Forces Announces New Joint Attack with Iran & Hezbollah, Striking Israeli Military Targets in Eilat - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-06T17:01:50.978015+00:00",
-      "tier": "groq",
-      "article": "Ukraine missile maker targets \u2018game changer\u2019 air defense system by 2027"
-    },
-    {
-      "timestamp": "2026-04-06T17:02:44.312264+00:00",
-      "tier": "groq",
-      "article": "Trump says US armed Iranian dissidents via Kurds weeks before launching war"
-    },
     {
       "timestamp": "2026-04-06T19:09:38.140465+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-08T20:57:19.596386+00:00",
       "tier": "groq",
       "article": "US forces will be \u2018hanging around\u2019 Middle East after Iran ceasefire, Hegseth says"
+    },
+    {
+      "timestamp": "2026-04-08T22:48:51.986313+00:00",
+      "tier": "groq",
+      "article": "\u2018Heinous crime\u2019: Al Jazeera condemns Israeli killing of journalist"
+    },
+    {
+      "timestamp": "2026-04-08T22:49:30.915220+00:00",
+      "tier": "groq",
+      "article": "\u2018Even the street cats ran\u2019: Inside Israel\u2019s deadliest attack on Beirut"
+    },
+    {
+      "timestamp": "2026-04-08T22:49:47.288676+00:00",
+      "tier": "groq",
+      "article": "Devastation in Beirut after Israeli strikes reduce homes to rubble"
+    },
+    {
+      "timestamp": "2026-04-08T22:50:03.601699+00:00",
+      "tier": "groq",
+      "article": "Ecuador recalls its ambassador from Colombia over Jorge Glas comments"
     }
   ]
 }
