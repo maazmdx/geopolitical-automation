@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1643,
+  "total_calls": 1647,
   "tiers": {
-    "groq": 1625,
+    "groq": 1629,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-05T20:41:44.044492+00:00",
-      "tier": "groq",
-      "article": "Israeli air strike hits crowd in Gaza City"
-    },
-    {
-      "timestamp": "2026-04-05T20:42:16.170506+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted the Meron air operations and control base in northern occupied Palestine with a missile barrage: statement 21 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-05T20:43:08.135193+00:00",
-      "tier": "groq",
-      "article": "Hamas armed wing says disarmament demands not acceptable"
-    },
-    {
-      "timestamp": "2026-04-05T20:43:24.481565+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Deals Decisive Blows to Israeli Power, Arrogant Enemy Being Gradually Contained by Mighty Fighters - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-05T22:41:34.989165+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-08T05:56:18.754925+00:00",
       "tier": "groq",
       "article": "Outpaced by the US, China\u2019s military places selective bets on artificial intelligence"
+    },
+    {
+      "timestamp": "2026-04-08T07:58:26.921783+00:00",
+      "tier": "groq",
+      "article": "Al-Manar correspondent in south Lebanon reports strikes on towns of Al-Mansouri, Jmeijmeh and Khirbet Selm - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-08T07:58:58.485602+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters will target gatherings of Israeli enemy army soldiers at the Ramot Naftali barracks with a rocket salvo: statement 47 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-08T07:59:14.872928+00:00",
+      "tier": "groq",
+      "article": "Iran ceasefire deal gives Trump a way out of war - but at a high cost"
+    },
+    {
+      "timestamp": "2026-04-08T08:00:05.883973+00:00",
+      "tier": "groq",
+      "article": "Oil prices plunge on US-Iran ceasefire deal to reopen Strait of Hormuz"
     }
   ]
 }
