@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1635,
+  "total_calls": 1639,
   "tiers": {
-    "groq": 1617,
+    "groq": 1621,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-05T16:44:19.260734+00:00",
-      "tier": "groq",
-      "article": "At least 14 people killed in Israeli strikes across Lebanon"
-    },
-    {
-      "timestamp": "2026-04-05T16:45:02.422407+00:00",
-      "tier": "groq",
-      "article": "Trump threatens \u2018hell\u2019 for Iran over Hormuz Strait as deadline approaches"
-    },
-    {
-      "timestamp": "2026-04-05T16:45:49.516538+00:00",
-      "tier": "groq",
-      "article": "Zionist Enemy Escalates War on Lebanon: Air Raids on South, Dahieh Leave Massacres and Massive Destruction - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-05T16:46:09.025728+00:00",
-      "tier": "groq",
-      "article": "Italian PM says the Gulf is \u2018fundamental\u2019 for Europe\u2019s security"
-    },
     {
       "timestamp": "2026-04-05T18:54:17.049694+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-07T22:48:16.431832+00:00",
       "tier": "groq",
       "article": "French couple leave Iran after more than three years in jail"
+    },
+    {
+      "timestamp": "2026-04-08T02:49:20.321550+00:00",
+      "tier": "groq",
+      "article": "White House confirms two-week suspension of strikes on Iran"
+    },
+    {
+      "timestamp": "2026-04-08T02:49:58.560060+00:00",
+      "tier": "groq",
+      "article": "Pakistan appeals to Trump to extend deadline, Iran to reopen Hormuz Strait"
+    },
+    {
+      "timestamp": "2026-04-08T02:50:46.974926+00:00",
+      "tier": "groq",
+      "article": "Soldiers Were Crawling and Unable to Raise Heads: Israeli Channel 12 Discloses More Details of Hezbollah\u2019s Litani River Ambush - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-08T02:51:07.231860+00:00",
+      "tier": "groq",
+      "article": "How is the US-Israel war on Iran affecting Russian-Iranian relations?"
     }
   ]
 }
