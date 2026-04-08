@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1639,
+  "total_calls": 1643,
   "tiers": {
-    "groq": 1621,
+    "groq": 1625,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-05T18:54:17.049694+00:00",
-      "tier": "groq",
-      "article": "Iranian missile strikes industrial area in southern Israel"
-    },
-    {
-      "timestamp": "2026-04-05T18:54:47.892091+00:00",
-      "tier": "groq",
-      "article": "Israeli air strikes, shelling across Lebanon add to rising death toll"
-    },
-    {
-      "timestamp": "2026-04-05T18:55:32.867375+00:00",
-      "tier": "groq",
-      "article": "Video captures Iranian missile striking residential building in Haifa"
-    },
-    {
-      "timestamp": "2026-04-05T18:55:50.934207+00:00",
-      "tier": "groq",
-      "article": "US special forces rescue second F-15 airman from Iran"
-    },
     {
       "timestamp": "2026-04-05T20:41:44.044492+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-08T02:51:07.231860+00:00",
       "tier": "groq",
       "article": "How is the US-Israel war on Iran affecting Russian-Iranian relations?"
+    },
+    {
+      "timestamp": "2026-04-08T05:54:46.538907+00:00",
+      "tier": "groq",
+      "article": "Iranians commemorate victims of Minab school strike"
+    },
+    {
+      "timestamp": "2026-04-08T05:55:18.767338+00:00",
+      "tier": "groq",
+      "article": "White House spokesperson: President Trump has been briefed on Pakistan\u2019s proposal for a two-week ceasefire, and a response will be forthcoming - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-08T05:55:35.602105+00:00",
+      "tier": "groq",
+      "article": "Djibouti and the Horn of Africa: new front in the war on Iran"
+    },
+    {
+      "timestamp": "2026-04-08T05:56:18.754925+00:00",
+      "tier": "groq",
+      "article": "Outpaced by the US, China\u2019s military places selective bets on artificial intelligence"
     }
   ]
 }
