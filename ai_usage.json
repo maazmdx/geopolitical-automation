@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1667,
+  "total_calls": 1671,
   "tiers": {
-    "groq": 1649,
+    "groq": 1653,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-06T13:24:03.798160+00:00",
-      "tier": "groq",
-      "article": "Four Israelis Killed in Iranian Missile Attack on Haifa - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-06T13:24:38.056534+00:00",
-      "tier": "groq",
-      "article": "Iran\u2019s IRGC Navy says missile attack targeted Israeli-linked cargo ship, leaving it on fire - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-06T13:24:54.962574+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted an Israeli Merkava with a guided missile in the border town of Rshaf, confirmed hit scored: Hezbollah Military Media statement 8 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-06T13:25:38.973192+00:00",
-      "tier": "groq",
-      "article": "Trump issues expletive-laden threat to Iran over Hormuz Strait blockage"
-    },
     {
       "timestamp": "2026-04-06T14:56:04.650481+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-08T17:13:05.340684+00:00",
       "tier": "groq",
       "article": "\u201cOn the Brink of Great Victory\u201d: Hezbollah Calls on Displaced Civilians to Hold Off Return - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-08T19:27:33.854504+00:00",
+      "tier": "groq",
+      "article": "Israeli attack kills Al Jazeera journalist Mohammed Wishah in Gaza"
+    },
+    {
+      "timestamp": "2026-04-08T19:27:50.193256+00:00",
+      "tier": "groq",
+      "article": "Hezbollah on Israeli Massacres against Innocent Civilians in Lebanon: Martyrs Blood Won\u2019t Be in Vain - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-08T19:28:26.742535+00:00",
+      "tier": "groq",
+      "article": "Iran Plans Military Response to Israeli Attacks on Lebanon, Considers even Exiting Ceasefire Agreement - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-08T19:29:20.145218+00:00",
+      "tier": "groq",
+      "article": "Jeremy Bowen: Ceasefire means respite for civilians, but it might not last long"
     }
   ]
 }
