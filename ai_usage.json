@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1715,
+  "total_calls": 1719,
   "tiers": {
-    "groq": 1697,
+    "groq": 1701,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-07T15:18:51.490782+00:00",
-      "tier": "groq",
-      "article": "One gunman killed and two injured in shooting at Israeli consulate in Istanbul "
-    },
-    {
-      "timestamp": "2026-04-07T15:19:31.686320+00:00",
-      "tier": "groq",
-      "article": "Ukraine, Russia kill several civilians in tit-for-tat attacks"
-    },
-    {
-      "timestamp": "2026-04-07T15:20:23.121639+00:00",
-      "tier": "groq",
-      "article": "WHO suspends Gaza medical evacuations after contractor killed by Israeli troops"
-    },
-    {
-      "timestamp": "2026-04-07T15:21:09.481756+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted infrastructure belonging to the Israeli enemy army in the occupied city of Safed and in the settlement of Rosh Pina with rocket salvos: statement 37 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-07T17:09:44.140645+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-09T19:20:43.266754+00:00",
       "tier": "groq",
       "article": "India\u2019s Assam and Kerala states hold legislative assembly elections"
+    },
+    {
+      "timestamp": "2026-04-09T21:43:54.854653+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted at 18:00 on Thursday 09-04-2026 an \u201cIsraeli\u201d enemy military bulldozer of type D9 in Rashaf town with a guided missile, achieving a direct hit: statement 34 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-09T21:44:11.398732+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted infrastructure belonging to the Israeli enemy army in the occupied city of Haifa with a barrage of sophisticated missiles: 39 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-09T21:44:37.689115+00:00",
+      "tier": "groq",
+      "article": "UK says three Russian submarines tracked during \u2018covert\u2019 operation"
+    },
+    {
+      "timestamp": "2026-04-09T21:44:53.939421+00:00",
+      "tier": "groq",
+      "article": "Hospitals in Beirut struggle to deal with casualties after Israeli attacks"
     }
   ]
 }
