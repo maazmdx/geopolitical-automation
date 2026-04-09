@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1695,
+  "total_calls": 1699,
   "tiers": {
-    "groq": 1677,
+    "groq": 1681,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-07T05:53:55.021044+00:00",
-      "tier": "groq",
-      "article": "Trump\u2019s threat to strike Iran\u2019s power plants looms"
-    },
-    {
-      "timestamp": "2026-04-07T05:54:26.883010+00:00",
-      "tier": "groq",
-      "article": "Trump claims Iranians begging US to keep bombing Iran"
-    },
-    {
-      "timestamp": "2026-04-07T05:55:17.199808+00:00",
-      "tier": "groq",
-      "article": "North Korea keeping Iran at arm\u2019s length, reports Seoul"
-    },
-    {
-      "timestamp": "2026-04-07T05:56:09.379627+00:00",
-      "tier": "groq",
-      "article": "Trade minister announces round-the-clock management to supply goods, control market"
-    },
     {
       "timestamp": "2026-04-07T07:26:49.459280+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-09T09:20:31.310657+00:00",
       "tier": "groq",
       "article": "For Gulf states, Hormuz uncertainty casts shadow over US-Iran ceasefire"
+    },
+    {
+      "timestamp": "2026-04-09T11:08:13.498276+00:00",
+      "tier": "groq",
+      "article": "Watch: Hezbollah Hits Israeli Warship in Bold Coastal Strike - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-09T11:08:48.434719+00:00",
+      "tier": "groq",
+      "article": "Lebanese Army Command mourns four soldiers martyred Wednesday in Israeli strikes in Sidon, Shamshtar and Hermel - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-09T11:09:06.245950+00:00",
+      "tier": "groq",
+      "article": "Several people reported killed in fresh Israeli attacks on Lebanon"
+    },
+    {
+      "timestamp": "2026-04-09T11:09:47.676544+00:00",
+      "tier": "groq",
+      "article": "Hezbollah\u2019s Islamic Resistance fighters fired a barrage of rockets targeting the Israeli settlement of Kiryat Shmona in retaliation to the enemy\u2019s violation of the ceasefire agreement: statement 4 - Al-Manar TV Lebanon"
     }
   ]
 }
