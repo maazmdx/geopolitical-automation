@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1691,
+  "total_calls": 1695,
   "tiers": {
-    "groq": 1673,
+    "groq": 1677,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-07T02:48:17.477334+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted at 17:50 on Monday 06-04-2026 a gathering of \u201cIsraeli\u201d enemy soldiers in Al-Malkiya site with a loitering drone, achieving a direct hit: statement 31 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-07T02:48:34.185295+00:00",
-      "tier": "groq",
-      "article": "Trump says US could charge for Strait of Hormuz passage amid Iran war"
-    },
-    {
-      "timestamp": "2026-04-07T02:49:01.518612+00:00",
-      "tier": "groq",
-      "article": "Protesters swarm US embassy in Tel Aviv, demanding end of wars"
-    },
-    {
-      "timestamp": "2026-04-07T02:49:17.389996+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted at 17:50 on Monday 06-04-2026 a gathering of \u201cIsraeli\u201d enemy soldiers in Margaliot settlement with a swarm of loitering drones: statement 32 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-07T05:53:55.021044+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-09T07:47:51.567500+00:00",
       "tier": "groq",
       "article": "Negotiators face huge task to close gaps in rival Iran peace proposals"
+    },
+    {
+      "timestamp": "2026-04-09T09:18:40.105570+00:00",
+      "tier": "groq",
+      "article": "JD Vance says Iran would be \u2018dumb\u2019 to let talks collapse over Lebanon"
+    },
+    {
+      "timestamp": "2026-04-09T09:19:21.039956+00:00",
+      "tier": "groq",
+      "article": "Ansarullah Condemns Israeli Massacre in Lebanon: Targeting Civilians Signals Desperation - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-09T09:20:15.059824+00:00",
+      "tier": "groq",
+      "article": "Ukraine\u2019s veterans\u2019 theatre turns war wounds into catharsis"
+    },
+    {
+      "timestamp": "2026-04-09T09:20:31.310657+00:00",
+      "tier": "groq",
+      "article": "For Gulf states, Hormuz uncertainty casts shadow over US-Iran ceasefire"
     }
   ]
 }
