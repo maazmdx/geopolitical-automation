@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1719,
+  "total_calls": 1723,
   "tiers": {
-    "groq": 1701,
+    "groq": 1705,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-07T17:09:44.140645+00:00",
-      "tier": "groq",
-      "article": "Fire erupts near industrial site in Saudi Arabia after Iranian strikes"
-    },
-    {
-      "timestamp": "2026-04-07T17:10:22.640386+00:00",
-      "tier": "groq",
-      "article": "Iran\u2019s other would-be WMD program lies in ruins following strikes by Israel and the US"
-    },
-    {
-      "timestamp": "2026-04-07T17:10:39.026915+00:00",
-      "tier": "groq",
-      "article": "Russia confirms 16 Cameroonian soldiers killed in Ukraine war"
-    },
-    {
-      "timestamp": "2026-04-07T17:11:26.852729+00:00",
-      "tier": "groq",
-      "article": "How rescue of US airman in remote part of Iran unfolded"
-    },
     {
       "timestamp": "2026-04-07T19:15:40.908095+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-09T21:44:53.939421+00:00",
       "tier": "groq",
       "article": "Hospitals in Beirut struggle to deal with casualties after Israeli attacks"
+    },
+    {
+      "timestamp": "2026-04-09T22:48:15.270312+00:00",
+      "tier": "groq",
+      "article": "Sirens sounded in Tel Aviv and Ashdod after missile fire from Lebanon: Israeli media - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-09T22:48:54.075135+00:00",
+      "tier": "groq",
+      "article": "US led \u2018historic\u2019 foreign aid decline in 2025 amid Trump cuts: OECD"
+    },
+    {
+      "timestamp": "2026-04-09T22:49:45.287637+00:00",
+      "tier": "groq",
+      "article": "Iran says it \u2018would be dumb\u2019 for US to let Netanyahu kill diplomacy"
+    },
+    {
+      "timestamp": "2026-04-09T22:50:01.381739+00:00",
+      "tier": "groq",
+      "article": "Democrats in US slam Pam Bondi for refusing to appear for Epstein hearing"
     }
   ]
 }
