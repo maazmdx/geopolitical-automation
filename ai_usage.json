@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1711,
+  "total_calls": 1715,
   "tiers": {
-    "groq": 1693,
+    "groq": 1697,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-07T13:49:36.443526+00:00",
-      "tier": "groq",
-      "article": "IRGC Launches Pink Missile on Tel Aviv in Response to Young Girl\u2019s Call - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-07T13:50:10.175646+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fighters have been engaged in ongoing, intense clashes with an Israeli force on the eastern outskirts of Bint Jbeil since Tuesday noon, using light and medium weapons while also launching rockets and artillery, including a direct missile strike that successfully hit a Merkava tank: Military Media Statement 26 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-07T13:50:27.094645+00:00",
-      "tier": "groq",
-      "article": "Iranian missile strike damages cars and street in Israel"
-    },
-    {
-      "timestamp": "2026-04-07T13:51:09.263221+00:00",
-      "tier": "groq",
-      "article": "Taiwanese opposition leader to meet China\u2019s Xi in a test of diplomatic skill"
-    },
     {
       "timestamp": "2026-04-07T15:18:51.490782+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-09T17:17:28.483042+00:00",
       "tier": "groq",
       "article": "Humanitarian situation in Sudan at \u2018catastrophic levels\u2019, says NGO"
+    },
+    {
+      "timestamp": "2026-04-09T19:18:33.276538+00:00",
+      "tier": "groq",
+      "article": "Does a US-Iran ceasefire mean the end of the war?"
+    },
+    {
+      "timestamp": "2026-04-09T19:19:06.263605+00:00",
+      "tier": "groq",
+      "article": "Sidon residents recall horror of Israeli strikes after Iran ceasefire"
+    },
+    {
+      "timestamp": "2026-04-09T19:19:51.561000+00:00",
+      "tier": "groq",
+      "article": "Israeli media: Hezbollah is expected to fire missiles at Tel Aviv in the coming hours - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-09T19:20:43.266754+00:00",
+      "tier": "groq",
+      "article": "India\u2019s Assam and Kerala states hold legislative assembly elections"
     }
   ]
 }
