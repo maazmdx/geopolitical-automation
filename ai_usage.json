@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1699,
+  "total_calls": 1703,
   "tiers": {
-    "groq": 1681,
+    "groq": 1685,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-07T07:26:49.459280+00:00",
-      "tier": "groq",
-      "article": "Israeli media: Iranian missile makes impact in Ramat Hasharon, Tel Aviv - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-07T07:27:07.245761+00:00",
-      "tier": "groq",
-      "article": "Clock ticks on Trump's Iran ultimatum with little sign of breakthrough"
-    },
-    {
-      "timestamp": "2026-04-07T07:27:42.288458+00:00",
-      "tier": "groq",
-      "article": "Trump threatens to take out Iran in 'one night' if no deal before deadline"
-    },
-    {
-      "timestamp": "2026-04-07T07:28:28.411613+00:00",
-      "tier": "groq",
-      "article": "US-Israeli bombs will not halt Iran\u2019s nuclear technology in service of humanity: AEOI - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-07T09:11:28.184551+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-09T11:09:47.676544+00:00",
       "tier": "groq",
       "article": "Hezbollah\u2019s Islamic Resistance fighters fired a barrage of rockets targeting the Israeli settlement of Kiryat Shmona in retaliation to the enemy\u2019s violation of the ceasefire agreement: statement 4 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-09T13:54:59.894822+00:00",
+      "tier": "groq",
+      "article": "Israeli Enemy Pounds Lebanon Amid National Mourning: Dozens Martyred, Injured in Fresh Strikes - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-09T13:55:41.917518+00:00",
+      "tier": "groq",
+      "article": "Funeral held for Al Jazeera\u2019s Wishah killed in Israeli strike in Gaza"
+    },
+    {
+      "timestamp": "2026-04-09T13:56:28.123982+00:00",
+      "tier": "groq",
+      "article": "BBC at the site of Israeli air strikes in Beirut"
+    },
+    {
+      "timestamp": "2026-04-09T13:56:44.321005+00:00",
+      "tier": "groq",
+      "article": "Researchers propose \u2018rewilding\u2019 Europe\u2019s borderlands to repel enemies"
     }
   ]
 }
