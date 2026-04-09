@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1683,
+  "total_calls": 1687,
   "tiers": {
-    "groq": 1665,
+    "groq": 1669,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-06T20:48:21.377056+00:00",
-      "tier": "groq",
-      "article": "Ten killed in Israeli strikes and clashes between Hamas and militia in Gaza, local sources say"
-    },
-    {
-      "timestamp": "2026-04-06T20:48:37.559854+00:00",
-      "tier": "groq",
-      "article": "Israeli army fire on WHO vehicle in southern Gaza kills one, medics report"
-    },
-    {
-      "timestamp": "2026-04-06T20:49:17.972682+00:00",
-      "tier": "groq",
-      "article": "How US operation to rescue air officer from Iran unfolded"
-    },
-    {
-      "timestamp": "2026-04-06T20:49:34.006251+00:00",
-      "tier": "groq",
-      "article": "How Asia became ground zero for the oil crisis"
-    },
     {
       "timestamp": "2026-04-06T22:48:08.467391+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-09T02:43:09.934477+00:00",
       "tier": "groq",
       "article": "Trump administration signals it is mulling NATO withdrawal after Iran war"
+    },
+    {
+      "timestamp": "2026-04-09T05:55:58.377760+00:00",
+      "tier": "groq",
+      "article": "As US claims victory, Iran emerges bruised but with leverage over Hormuz"
+    },
+    {
+      "timestamp": "2026-04-09T05:56:44.867990+00:00",
+      "tier": "groq",
+      "article": "Trump slams NATO over Iran after meeting Rutte, renews Greenland threat"
+    },
+    {
+      "timestamp": "2026-04-09T05:57:01.051320+00:00",
+      "tier": "groq",
+      "article": "\u2018Israel must be restrained for US-Iran ceasefire to hold\u2019"
+    },
+    {
+      "timestamp": "2026-04-09T05:57:17.220667+00:00",
+      "tier": "groq",
+      "article": "Israel backs US-Iran ceasefire but Netanyahu's war goals remain unfulfilled"
     }
   ]
 }
