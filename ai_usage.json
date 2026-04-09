@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1707,
+  "total_calls": 1711,
   "tiers": {
-    "groq": 1689,
+    "groq": 1693,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-07T11:05:33.377382+00:00",
-      "tier": "groq",
-      "article": "Palestine weekly wrap: Protests sweep West Bank after death penalty law"
-    },
-    {
-      "timestamp": "2026-04-07T11:06:15.505009+00:00",
-      "tier": "groq",
-      "article": "Synagogue in Tehran \u2018completely destroyed\u2019 in US-Israeli attack"
-    },
-    {
-      "timestamp": "2026-04-07T11:07:01.632407+00:00",
-      "tier": "groq",
-      "article": "US-Israeli strikes destroy buildings in northern Iran"
-    },
-    {
-      "timestamp": "2026-04-07T11:07:17.988775+00:00",
-      "tier": "groq",
-      "article": "Iran releases on bail Japan national jailed amid antigovernment protests"
-    },
     {
       "timestamp": "2026-04-07T13:49:36.443526+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-09T15:30:23.544762+00:00",
       "tier": "groq",
       "article": "Four die, dozens rescued in attempted Channel crossing from France to UK"
+    },
+    {
+      "timestamp": "2026-04-09T17:15:32.782250+00:00",
+      "tier": "groq",
+      "article": "Israel bombed Gaza on 36 of the past 40 days while the war raged in Iran"
+    },
+    {
+      "timestamp": "2026-04-09T17:16:20.428586+00:00",
+      "tier": "groq",
+      "article": "What is Iran\u2019s Strait of Hormuz protocol and will other nations accept it?"
+    },
+    {
+      "timestamp": "2026-04-09T17:17:11.810943+00:00",
+      "tier": "groq",
+      "article": "UK says it deployed military to deter Russian submarines from attack on undersea cables"
+    },
+    {
+      "timestamp": "2026-04-09T17:17:28.483042+00:00",
+      "tier": "groq",
+      "article": "Humanitarian situation in Sudan at \u2018catastrophic levels\u2019, says NGO"
     }
   ]
 }
