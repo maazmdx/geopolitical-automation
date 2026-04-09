@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1703,
+  "total_calls": 1707,
   "tiers": {
-    "groq": 1685,
+    "groq": 1689,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-07T09:11:28.184551+00:00",
-      "tier": "groq",
-      "article": "Iran Strikes Ali Al Salem Air Base in Kuwait, Wounds 15 US Troops - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-07T09:11:46.061151+00:00",
-      "tier": "groq",
-      "article": "Iran war: What is happening on day 39 of US-Israeli attacks?"
-    },
-    {
-      "timestamp": "2026-04-07T09:12:19.170507+00:00",
-      "tier": "groq",
-      "article": "Lebanon: Martyrs and Wounded in Renewed Israeli Aggression on Southern Towns - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-07T09:12:38.691448+00:00",
-      "tier": "groq",
-      "article": "Academics Protest Over Attacks on Universities and Hospitals"
-    },
     {
       "timestamp": "2026-04-07T11:05:33.377382+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-09T13:56:44.321005+00:00",
       "tier": "groq",
       "article": "Researchers propose \u2018rewilding\u2019 Europe\u2019s borderlands to repel enemies"
+    },
+    {
+      "timestamp": "2026-04-09T15:28:32.130804+00:00",
+      "tier": "groq",
+      "article": "Israeli attacks on Lebanon aimed to undermine ceasefire, critics say"
+    },
+    {
+      "timestamp": "2026-04-09T15:29:17.729207+00:00",
+      "tier": "groq",
+      "article": "Israeli strikes in Lebanon 'grave violation' of ceasefire, Iran minister tells BBC"
+    },
+    {
+      "timestamp": "2026-04-09T15:29:34.236155+00:00",
+      "tier": "groq",
+      "article": "Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz"
+    },
+    {
+      "timestamp": "2026-04-09T15:30:23.544762+00:00",
+      "tier": "groq",
+      "article": "Four die, dozens rescued in attempted Channel crossing from France to UK"
     }
   ]
 }
