@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1727,
+  "total_calls": 1731,
   "tiers": {
-    "groq": 1709,
+    "groq": 1713,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-07T20:56:08.416299+00:00",
-      "tier": "groq",
-      "article": "Mediterranean migrant deaths mounting towards 1,000 in 2026: UN"
-    },
-    {
-      "timestamp": "2026-04-07T20:56:49.906736+00:00",
-      "tier": "groq",
-      "article": "US Navy seeks 1,200% increase in Tomahawk missile procurement for 2027"
-    },
-    {
-      "timestamp": "2026-04-07T20:57:43.508387+00:00",
-      "tier": "groq",
-      "article": "US denies nuclear plan as deadline on threat to Iran \u2018civilisation\u2019 looms"
-    },
-    {
-      "timestamp": "2026-04-07T20:58:33.628001+00:00",
-      "tier": "groq",
-      "article": "Shelly Kittleson: US journalist to be released after kidnap in Iraq, militia says"
-    },
     {
       "timestamp": "2026-04-07T22:47:08.694902+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-10T02:57:40.434055+00:00",
       "tier": "groq",
       "article": "Rafah crossing restrictions derail Palestinian student\u2019s academic dreams"
+    },
+    {
+      "timestamp": "2026-04-10T06:05:40.581643+00:00",
+      "tier": "groq",
+      "article": "Kuwait blames Iran for drone strike, Iran denies responsibility"
+    },
+    {
+      "timestamp": "2026-04-10T06:06:12.172507+00:00",
+      "tier": "groq",
+      "article": "Netanyahu: \u2018No ceasefire in Lebanon\u2019, Israel open to peace talks"
+    },
+    {
+      "timestamp": "2026-04-10T06:07:04.754824+00:00",
+      "tier": "groq",
+      "article": "Ceasefire or no ceasefire, the Middle East's reshuffling is not yet done"
+    },
+    {
+      "timestamp": "2026-04-10T06:07:21.324374+00:00",
+      "tier": "groq",
+      "article": "Khamenei says Tehran \u2018astonished the world\u2019 during US-Israeli war on Iran"
     }
   ]
 }
