@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1763,
+  "total_calls": 1767,
   "tiers": {
-    "groq": 1745,
+    "groq": 1749,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-08T17:11:29.228813+00:00",
-      "tier": "groq",
-      "article": "Israel launches 100 air strikes in 10 minutes across Lebanon"
-    },
-    {
-      "timestamp": "2026-04-08T17:12:00.847615+00:00",
-      "tier": "groq",
-      "article": "More Israeli airstrikes target Beirut and Mount Lebanon: Al-Manar reporters - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-08T17:12:47.219859+00:00",
-      "tier": "groq",
-      "article": "Lebanese health minister: Preliminary toll of Israeli airstrikes reached 89 martyrs and outnumbered 722 injuries - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-08T17:13:05.340684+00:00",
-      "tier": "groq",
-      "article": "\u201cOn the Brink of Great Victory\u201d: Hezbollah Calls on Displaced Civilians to Hold Off Return - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-08T19:27:33.854504+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-10T20:49:49.607469+00:00",
       "tier": "groq",
       "article": "Can Iran negotiations lead to peace?"
+    },
+    {
+      "timestamp": "2026-04-10T22:46:50.623019+00:00",
+      "tier": "groq",
+      "article": "Ukrainian drone makers visit Paris looking for co-production deals"
+    },
+    {
+      "timestamp": "2026-04-10T22:47:37.142228+00:00",
+      "tier": "groq",
+      "article": "JD Vance expects \u2018positive\u2019 US-Iran war talks as he departs for Pakistan"
+    },
+    {
+      "timestamp": "2026-04-10T22:47:53.172859+00:00",
+      "tier": "groq",
+      "article": "Iranian Delegation, Headed by Qalibaf, Arrives in Islamabad, Pakistan - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-10T22:48:12.930146+00:00",
+      "tier": "groq",
+      "article": "Lebanon and Israel officials to meet in US on Tuesday"
     }
   ]
 }
