@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1759,
+  "total_calls": 1763,
   "tiers": {
-    "groq": 1741,
+    "groq": 1745,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-08T15:19:37.819585+00:00",
-      "tier": "groq",
-      "article": "How Pakistan helped secure a fragile ceasefire between the US and Iran"
-    },
-    {
-      "timestamp": "2026-04-08T15:20:14.915559+00:00",
-      "tier": "groq",
-      "article": "Scenes of chaos, destruction as Israel bombards Lebanon"
-    },
-    {
-      "timestamp": "2026-04-08T15:21:08.373893+00:00",
-      "tier": "groq",
-      "article": "Empty ships and shut wells: Why the Iran war oil crisis is not over yet"
-    },
-    {
-      "timestamp": "2026-04-08T15:22:01.454621+00:00",
-      "tier": "groq",
-      "article": "Trump condemned over threat that Iran's 'civilisation will die'"
-    },
     {
       "timestamp": "2026-04-08T17:11:29.228813+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-10T19:06:29.807558+00:00",
       "tier": "groq",
       "article": "Netanyahu removes Spain from Gaza coordination centre over \u2018hostility\u2019"
+    },
+    {
+      "timestamp": "2026-04-10T20:48:30.736560+00:00",
+      "tier": "groq",
+      "article": "Pakistan sets modest goal for US-Iran summit: A deal to keep talks going"
+    },
+    {
+      "timestamp": "2026-04-10T20:49:17.131847+00:00",
+      "tier": "groq",
+      "article": "New tensions emerge before US-Iran war ceasefire talks in Pakistan"
+    },
+    {
+      "timestamp": "2026-04-10T20:49:33.516972+00:00",
+      "tier": "groq",
+      "article": "US-Iran negotiations in Islamabad: What to expect?"
+    },
+    {
+      "timestamp": "2026-04-10T20:49:49.607469+00:00",
+      "tier": "groq",
+      "article": "Can Iran negotiations lead to peace?"
     }
   ]
 }
