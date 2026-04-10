@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1755,
+  "total_calls": 1759,
   "tiers": {
-    "groq": 1737,
+    "groq": 1741,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-08T13:32:12.133779+00:00",
-      "tier": "groq",
-      "article": "Hundreds of Martyrs & Injuries in Dozens of Israeli Airstrikes across Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-08T13:32:46.398559+00:00",
-      "tier": "groq",
-      "article": "Israeli enemy launches a series of powerful air strikes targeting several areas across Lebanon including southern Lebanon, Beirut, Sidon, Dahiyeh, Mount Lebanon and Bekaa - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-08T13:33:03.588813+00:00",
-      "tier": "groq",
-      "article": "US politicians react to Trump\u2019s Iran ceasefire with caution, relief"
-    },
-    {
-      "timestamp": "2026-04-08T13:33:53.722955+00:00",
-      "tier": "groq",
-      "article": "US-Iran ceasefire deal: What are the terms, and what\u2019s next?"
-    },
     {
       "timestamp": "2026-04-08T15:19:37.819585+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-10T17:18:44.961810+00:00",
       "tier": "groq",
       "article": "Islamic Resistance fighters targeted the Kiryat Shmona barracks and the Beit Hillel base with swarms of attack drones: statement 41 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-10T19:05:09.116019+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Continues Bombarding \u2018Israel\u2019, Confronting Occupation Army Advance in Bint Jbeil, South Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-10T19:05:56.840982+00:00",
+      "tier": "groq",
+      "article": "Russia suffers \u2018record\u2019 soldier casualties as Ukraine ups drone production"
+    },
+    {
+      "timestamp": "2026-04-10T19:06:12.742939+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted at 18:00 on Friday 10-04-2026 Shraga base (the administrative headquarters of the Golani Brigade command) north of the occupied city of Acre with a rocket barrage and a swarm of loitering drones: statement 45 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-10T19:06:29.807558+00:00",
+      "tier": "groq",
+      "article": "Netanyahu removes Spain from Gaza coordination centre over \u2018hostility\u2019"
     }
   ]
 }
