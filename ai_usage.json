@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1805,
+  "total_calls": 1809,
   "tiers": {
-    "groq": 1787,
+    "groq": 1791,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-09T15:29:34.236155+00:00",
-      "tier": "groq",
-      "article": "Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz"
-    },
-    {
-      "timestamp": "2026-04-09T15:30:23.544762+00:00",
-      "tier": "groq",
-      "article": "Four die, dozens rescued in attempted Channel crossing from France to UK"
-    },
-    {
-      "timestamp": "2026-04-09T17:15:32.782250+00:00",
-      "tier": "groq",
-      "article": "Israel bombed Gaza on 36 of the past 40 days while the war raged in Iran"
-    },
-    {
-      "timestamp": "2026-04-09T17:16:20.428586+00:00",
-      "tier": "groq",
-      "article": "What is Iran\u2019s Strait of Hormuz protocol and will other nations accept it?"
-    },
     {
       "timestamp": "2026-04-09T17:17:11.810943+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-11T20:42:55.559823+00:00",
       "tier": "groq",
       "article": "Israeli media: While Netanyahu was telling Zionists about war achievements, Hezbollah was firing combat drones at \u2018Israel\u2019 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-11T22:41:46.151644+00:00",
+      "tier": "groq",
+      "article": "Lebanese government rejection of ceasefire helped Israeli enemy to commit Wednesday\u2019s massacres: Hezbollah lawmaker Hussein Al-Hajj Hasan - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-11T22:42:17.305335+00:00",
+      "tier": "groq",
+      "article": "Pope Leo urges world leaders to reject war and negotiate peace"
+    },
+    {
+      "timestamp": "2026-04-11T22:42:33.389374+00:00",
+      "tier": "groq",
+      "article": "Russia-Ukraine Orthodox Easter ceasefire begins"
+    },
+    {
+      "timestamp": "2026-04-11T22:42:49.499997+00:00",
+      "tier": "groq",
+      "article": "Iran Denies CENTCOM\u2019s Claim, Reiterates Full Control over Strait of Hormuz - Al-Manar TV Lebanon"
     }
   ]
 }
