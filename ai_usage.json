@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1781,
+  "total_calls": 1785,
   "tiers": {
-    "groq": 1763,
+    "groq": 1767,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-09T02:42:52.481680+00:00",
-      "tier": "groq",
-      "article": "Israeli media: Fierce clashes between Hezbollah and the Israeli army in the Khiam plain after the latter attempted to advance - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-09T02:43:09.934477+00:00",
-      "tier": "groq",
-      "article": "Trump administration signals it is mulling NATO withdrawal after Iran war"
-    },
-    {
-      "timestamp": "2026-04-09T05:55:58.377760+00:00",
-      "tier": "groq",
-      "article": "As US claims victory, Iran emerges bruised but with leverage over Hormuz"
-    },
-    {
-      "timestamp": "2026-04-09T05:56:44.867990+00:00",
-      "tier": "groq",
-      "article": "Trump slams NATO over Iran after meeting Rutte, renews Greenland threat"
-    },
     {
       "timestamp": "2026-04-09T05:57:01.051320+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-11T08:57:58.111533+00:00",
       "tier": "groq",
       "article": "Tasnim Iranian news agency: The release of Iranian assets and a ceasefire in Lebanon are among the preconditions for starting negotiations with Washington - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-11T10:44:29.452270+00:00",
+      "tier": "groq",
+      "article": "Israeli drone attack kills Palestinians near Gaza mosque"
+    },
+    {
+      "timestamp": "2026-04-11T10:45:00.863179+00:00",
+      "tier": "groq",
+      "article": "Hezbollah\u2019s Islamic Resistance fighters have carried out 9 operations against Israeli targets along the border and in northern Israeli settlements since midnight: Military Media statements - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-11T10:45:19.508303+00:00",
+      "tier": "groq",
+      "article": "Video: Vance arrives in Pakistan for talks with Iran"
+    },
+    {
+      "timestamp": "2026-04-11T10:45:35.536970+00:00",
+      "tier": "groq",
+      "article": "Israel rejects ceasefire with Hezbollah ahead of Lebanon talks next week"
     }
   ]
 }
