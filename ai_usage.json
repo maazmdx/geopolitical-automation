@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1789,
+  "total_calls": 1793,
   "tiers": {
-    "groq": 1771,
+    "groq": 1775,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-09T07:47:35.078570+00:00",
-      "tier": "groq",
-      "article": "Three life terms for Kashmir\u2019s Aasiya Andrabi fit India\u2019s \u2018broader pattern\u2019"
-    },
-    {
-      "timestamp": "2026-04-09T07:47:51.567500+00:00",
-      "tier": "groq",
-      "article": "Negotiators face huge task to close gaps in rival Iran peace proposals"
-    },
-    {
-      "timestamp": "2026-04-09T09:18:40.105570+00:00",
-      "tier": "groq",
-      "article": "JD Vance says Iran would be \u2018dumb\u2019 to let talks collapse over Lebanon"
-    },
-    {
-      "timestamp": "2026-04-09T09:19:21.039956+00:00",
-      "tier": "groq",
-      "article": "Ansarullah Condemns Israeli Massacre in Lebanon: Targeting Civilians Signals Desperation - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-09T09:20:15.059824+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-11T13:13:01.078288+00:00",
       "tier": "groq",
       "article": "Hezbollah\u2019s Fadlallah: Autonomy-Lacking Gov\u2019t Prolonging Israeli Aggression at Expense of Civilian Lives - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-11T14:44:42.608308+00:00",
+      "tier": "groq",
+      "article": "Lebanon mourns security forces killed in Israeli strike"
+    },
+    {
+      "timestamp": "2026-04-11T14:44:59.023998+00:00",
+      "tier": "groq",
+      "article": "Libya approves first unified budget in more than a decade"
+    },
+    {
+      "timestamp": "2026-04-11T14:45:16.182345+00:00",
+      "tier": "groq",
+      "article": "US-Iran talks on ending war begin in Pakistan"
+    },
+    {
+      "timestamp": "2026-04-11T14:45:38.512990+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters fired successive barrages of rockets and artillery shells targeting gatherings of Israeli soldiers and vehicles in Bint Jbeil and Maroun Al-Ras border towns: Hezbollah Military Media statement 12 - Al-Manar TV Lebanon"
     }
   ]
 }
