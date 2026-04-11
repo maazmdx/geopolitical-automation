@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1771,
+  "total_calls": 1775,
   "tiers": {
-    "groq": 1753,
+    "groq": 1757,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-08T20:55:41.332571+00:00",
-      "tier": "groq",
-      "article": "Why ceasefire deal with US has unsettled Iran's hardliners"
-    },
-    {
-      "timestamp": "2026-04-08T20:56:20.545830+00:00",
-      "tier": "groq",
-      "article": "Vance warns Iran ceasefire hinges on good faith talks"
-    },
-    {
-      "timestamp": "2026-04-08T20:56:36.621766+00:00",
-      "tier": "groq",
-      "article": "Lebanese Prime Minister declares Thursday a national day of mourning for the martyrs and wounded of the Israeli attacks, and ordered the closure of government departments, public institutions, and municipalities: memo - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-08T20:57:19.596386+00:00",
-      "tier": "groq",
-      "article": "US forces will be \u2018hanging around\u2019 Middle East after Iran ceasefire, Hegseth says"
-    },
     {
       "timestamp": "2026-04-08T22:48:51.986313+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-11T02:41:41.235794+00:00",
       "tier": "groq",
       "article": "Brazil announces US partnership to intercept weapons, drug trafficking"
+    },
+    {
+      "timestamp": "2026-04-11T05:31:43.089365+00:00",
+      "tier": "groq",
+      "article": "Pentagon, Lockheed Martin agree to $4.7 billion PAC-3 interceptor deal"
+    },
+    {
+      "timestamp": "2026-04-11T05:32:23.548008+00:00",
+      "tier": "groq",
+      "article": "Trump says Strait of Hormuz to reopen \u2018soon\u2019 as US, Iran head to talks"
+    },
+    {
+      "timestamp": "2026-04-11T05:33:12.898591+00:00",
+      "tier": "groq",
+      "article": "Colombia responds to Ecuador\u2019s tariff hike with 100-percent import tax"
+    },
+    {
+      "timestamp": "2026-04-11T05:34:02.363944+00:00",
+      "tier": "groq",
+      "article": "Pentagon, FAA sign agreement on deploying anti-drone laser system near Mexico"
     }
   ]
 }
