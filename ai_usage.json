@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1819,
+  "total_calls": 1823,
   "tiers": {
-    "groq": 1801,
+    "groq": 1805,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-09T22:48:15.270312+00:00",
-      "tier": "groq",
-      "article": "Sirens sounded in Tel Aviv and Ashdod after missile fire from Lebanon: Israeli media - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-09T22:48:54.075135+00:00",
-      "tier": "groq",
-      "article": "US led \u2018historic\u2019 foreign aid decline in 2025 amid Trump cuts: OECD"
-    },
-    {
-      "timestamp": "2026-04-09T22:49:45.287637+00:00",
-      "tier": "groq",
-      "article": "Iran says it \u2018would be dumb\u2019 for US to let Netanyahu kill diplomacy"
-    },
-    {
-      "timestamp": "2026-04-09T22:50:01.381739+00:00",
-      "tier": "groq",
-      "article": "Democrats in US slam Pam Bondi for refusing to appear for Epstein hearing"
-    },
     {
       "timestamp": "2026-04-10T02:56:05.460836+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-12T09:00:25.346421+00:00",
       "tier": "groq",
       "article": "What happened in 40 days of war on Iran"
+    },
+    {
+      "timestamp": "2026-04-12T10:47:37.680597+00:00",
+      "tier": "groq",
+      "article": "Al-Manar correspondent: Warplanes carried out an airstrike on the town of Al-Shahabiya, resulting in casualties - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-12T10:47:55.032865+00:00",
+      "tier": "groq",
+      "article": "Al-Manar correspondent: Enemy warplanes attacked the town of Nabatieh al-Fawqa in southern Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-12T10:48:11.774172+00:00",
+      "tier": "groq",
+      "article": "Iranian Parliament Speaker Mohammad Bagher Ghalibaf, in a post on X: Before the negotiations, we affirmed that we possess good intentions and the necessary will, but due to the experience of the previous two wars, we have no trust in the opposing side - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-12T10:48:28.720103+00:00",
+      "tier": "groq",
+      "article": "Qalibaf: US Failed to Earn Trust in Islamabad Talks despite Iran\u2019s Proposals - Al-Manar TV Lebanon"
     }
   ]
 }
