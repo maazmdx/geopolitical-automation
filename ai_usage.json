@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1831,
+  "total_calls": 1833,
   "tiers": {
-    "groq": 1813,
+    "groq": 1815,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-10T08:01:12.309340+00:00",
-      "tier": "groq",
-      "article": "Trump again chides NATO for failing to back US operations in Iran"
-    },
-    {
-      "timestamp": "2026-04-10T08:01:57.775346+00:00",
-      "tier": "groq",
-      "article": "Iran war: Ceasefire talks to Lebanon, what\u2019s happening on day 42?"
-    },
     {
       "timestamp": "2026-04-10T08:02:13.786444+00:00",
       "tier": "groq",
@@ -507,6 +497,16 @@
       "timestamp": "2026-04-12T14:49:20.459490+00:00",
       "tier": "groq",
       "article": "US-Iran ceasefire talks: What are the key sticking points?"
+    },
+    {
+      "timestamp": "2026-04-12T16:48:55.407977+00:00",
+      "tier": "groq",
+      "article": "US Navy to blockade Strait of Hormuz \u2018effective immediately,\u2019 Trump says"
+    },
+    {
+      "timestamp": "2026-04-12T16:49:34.844806+00:00",
+      "tier": "groq",
+      "article": "Trump says US to blockade ships crossing Strait of Hormuz"
     }
   ]
 }
