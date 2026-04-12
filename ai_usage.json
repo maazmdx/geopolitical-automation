@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1809,
+  "total_calls": 1813,
   "tiers": {
-    "groq": 1791,
+    "groq": 1795,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-09T17:17:11.810943+00:00",
-      "tier": "groq",
-      "article": "UK says it deployed military to deter Russian submarines from attack on undersea cables"
-    },
-    {
-      "timestamp": "2026-04-09T17:17:28.483042+00:00",
-      "tier": "groq",
-      "article": "Humanitarian situation in Sudan at \u2018catastrophic levels\u2019, says NGO"
-    },
-    {
-      "timestamp": "2026-04-09T19:18:33.276538+00:00",
-      "tier": "groq",
-      "article": "Does a US-Iran ceasefire mean the end of the war?"
-    },
-    {
-      "timestamp": "2026-04-09T19:19:06.263605+00:00",
-      "tier": "groq",
-      "article": "Sidon residents recall horror of Israeli strikes after Iran ceasefire"
-    },
     {
       "timestamp": "2026-04-09T19:19:51.561000+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-11T22:42:49.499997+00:00",
       "tier": "groq",
       "article": "Iran Denies CENTCOM\u2019s Claim, Reiterates Full Control over Strait of Hormuz - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-12T02:59:29.324025+00:00",
+      "tier": "groq",
+      "article": "Concerns after satellite provider restricts Iran images following US pressure"
+    },
+    {
+      "timestamp": "2026-04-12T03:00:15.596037+00:00",
+      "tier": "groq",
+      "article": "US says two naval ships \u2018transited\u2019 Strait of Hormuz for mine-clearing"
+    },
+    {
+      "timestamp": "2026-04-12T03:00:31.586653+00:00",
+      "tier": "groq",
+      "article": "Pakistan sends fighter jets to Saudi Arabia amid fragile US-Iran ceasefire"
+    },
+    {
+      "timestamp": "2026-04-12T03:00:47.683218+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted a Merkava tank on Al-Awida hill in the border town of Al-Adaisseh with a loitering glider and achieved a confirmed hit: statement 34 - Al-Manar TV Lebanon"
     }
   ]
 }
