@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1823,
+  "total_calls": 1827,
   "tiers": {
-    "groq": 1805,
+    "groq": 1809,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-10T02:56:05.460836+00:00",
-      "tier": "groq",
-      "article": "US-Iran ceasefire: Uncertainty over what\u2019s next"
-    },
-    {
-      "timestamp": "2026-04-10T02:56:38.407970+00:00",
-      "tier": "groq",
-      "article": "Iran: Strait of Hormuz open with restrictions"
-    },
-    {
-      "timestamp": "2026-04-10T02:57:24.433532+00:00",
-      "tier": "groq",
-      "article": "Iran\u2019s Supreme Leader Mojtaba Khamenei says \u2018we seek compensation, not war\u2019"
-    },
-    {
-      "timestamp": "2026-04-10T02:57:40.434055+00:00",
-      "tier": "groq",
-      "article": "Rafah crossing restrictions derail Palestinian student\u2019s academic dreams"
-    },
     {
       "timestamp": "2026-04-10T06:05:40.581643+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-12T10:48:28.720103+00:00",
       "tier": "groq",
       "article": "Qalibaf: US Failed to Earn Trust in Islamabad Talks despite Iran\u2019s Proposals - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-12T13:12:02.784904+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Rejects Syrian Ministry of Interior\u2019s Accusations as False and Fabricated - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-12T13:12:22.475460+00:00",
+      "tier": "groq",
+      "article": "Itamar Ben-Gvir, Israel\u2019s far-right National Security Minister, stormed the Al-Aqsa Mosque in occupied Jerusalem on Sunday for the second time in a week - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-12T13:12:39.485047+00:00",
+      "tier": "groq",
+      "article": "Who is running US foreign policy? Varsha Gandikota and Jeremy Scahill"
+    },
+    {
+      "timestamp": "2026-04-12T13:12:55.705505+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted at 11:10 on Sunday 12-04-2026 Kiryat Shmona barracks with a swarm of loitering drones - Al-Manar TV Lebanon"
     }
   ]
 }
