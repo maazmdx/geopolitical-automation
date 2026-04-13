@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1838,
+  "total_calls": 1840,
   "tiers": {
-    "groq": 1820,
+    "groq": 1822,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-10T09:21:55.391210+00:00",
-      "tier": "groq",
-      "article": "Russia and Ukraine agree to 32-hour Orthodox Easter ceasefire"
-    },
-    {
-      "timestamp": "2026-04-10T11:07:26.474887+00:00",
-      "tier": "groq",
-      "article": "Hezbollah MP Raad: Israeli Strikes Attempt to Compensate for Battlefield Failure - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-10T11:08:26.184744+00:00",
       "tier": "groq",
@@ -507,6 +497,16 @@
       "timestamp": "2026-04-12T20:44:27.700122+00:00",
       "tier": "groq",
       "article": "How shaky is the Iran-US ceasefire?"
+    },
+    {
+      "timestamp": "2026-04-13T03:03:43.011167+00:00",
+      "tier": "groq",
+      "article": "Oil prices surge past $103 a barrel after US announces blockade of Iran"
+    },
+    {
+      "timestamp": "2026-04-13T03:04:24.748269+00:00",
+      "tier": "groq",
+      "article": "US military threatens to blockade all Iranian ports starting on Monday"
     }
   ]
 }
