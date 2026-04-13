@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1865,
+  "total_calls": 1869,
   "tiers": {
-    "groq": 1847,
+    "groq": 1851,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-10T22:47:53.172859+00:00",
-      "tier": "groq",
-      "article": "Iranian Delegation, Headed by Qalibaf, Arrives in Islamabad, Pakistan - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-10T22:48:12.930146+00:00",
-      "tier": "groq",
-      "article": "Lebanon and Israel officials to meet in US on Tuesday"
-    },
-    {
-      "timestamp": "2026-04-11T02:39:57.712934+00:00",
-      "tier": "groq",
-      "article": "Israeli strike on government building kills Lebanese officers"
-    },
-    {
-      "timestamp": "2026-04-11T02:40:34.204674+00:00",
-      "tier": "groq",
-      "article": "US federal court hears new case against Trump tariffs"
-    },
     {
       "timestamp": "2026-04-11T02:40:50.444227+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-13T19:27:06.594080+00:00",
       "tier": "groq",
       "article": "Trump warns Tehran ships \u2018will be eliminated\u2019 as US blockades Iranian ports"
+    },
+    {
+      "timestamp": "2026-04-13T21:03:51.518800+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-13T21:04:25.298569+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-13T21:04:41.660877+00:00",
+      "tier": "groq",
+      "article": "Armed Forces\u2019 strategic reserves sufficiently supplied: Defense Ministry spox"
+    },
+    {
+      "timestamp": "2026-04-13T21:05:24.161796+00:00",
+      "tier": "groq",
+      "article": "What do we know about sea mines in and around the Strait of Hormuz?"
     }
   ]
 }
