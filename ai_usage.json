@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1849,
+  "total_calls": 1853,
   "tiers": {
-    "groq": 1831,
+    "groq": 1835,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-10T15:01:59.557161+00:00",
-      "tier": "groq",
-      "article": "Trump says Iran's handling of Strait of Hormuz is 'not the agreement we have'"
-    },
-    {
-      "timestamp": "2026-04-10T15:02:15.862379+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted at 13:50 on Friday 10-04-2026 an \u201cIsraeli\u201d enemy artillery bunker in Ne\u2019ot Mordechai settlement with a swarm of loitering drones: statement 23 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-10T17:16:58.660659+00:00",
-      "tier": "groq",
-      "article": "Palestinian shot dead during Israeli settler attack on occupied West Bank village"
-    },
-    {
-      "timestamp": "2026-04-10T17:17:39.580719+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted a gathering of Israeli enemy soldiers at Al-Awida Hill in the border town of Al-Adaisseh with a drone strike, achieving a direct hit: statement 43 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-10T17:18:28.747827+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-13T11:33:39.012722+00:00",
       "tier": "groq",
       "article": "US blockade of Iran would worsen global energy crisis, analysts say"
+    },
+    {
+      "timestamp": "2026-04-13T13:53:25.529456+00:00",
+      "tier": "groq",
+      "article": "At least six killed in Israeli strikes in southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-13T13:54:03.885107+00:00",
+      "tier": "groq",
+      "article": "What Iran is saying about US plan to blockade ports"
+    },
+    {
+      "timestamp": "2026-04-13T13:54:20.073694+00:00",
+      "tier": "groq",
+      "article": "Turkey pushes for larger role in Europe\u2019s defense as Trump questions NATO"
+    },
+    {
+      "timestamp": "2026-04-13T13:54:36.369814+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted at 16:00 on Monday 13-04-2026 Shraga base (the administrative headquarters of the Golani Brigade command) north of the occupied city of Acre with a swarm of loitering drones: statement 29 - Al-Manar TV Lebanon"
     }
   ]
 }
