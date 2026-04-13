@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1845,
+  "total_calls": 1849,
   "tiers": {
-    "groq": 1827,
+    "groq": 1831,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-10T13:26:26.007983+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance launched a squadron of attack drones towards Kiryat Shmona barracks: Hezbollah Military Media statement 20 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-10T13:26:43.120976+00:00",
-      "tier": "groq",
-      "article": "\u2018Closer to a break than ever\u2019: Can NATO survive if Trump pulls the US out?"
-    },
-    {
-      "timestamp": "2026-04-10T15:01:09.247697+00:00",
-      "tier": "groq",
-      "article": "Gaza father searches for his children\u2019s remains in the rubble for years"
-    },
-    {
-      "timestamp": "2026-04-10T15:01:42.123966+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted at 01:00 on Friday 10-04-2026 the military naval base at Ashdod port with qualitative missiles: statement 22 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-10T15:01:59.557161+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-13T10:06:49.392226+00:00",
       "tier": "groq",
       "article": "Iranian armed forces fully prepared amid diplomatic efforts: Government spox"
+    },
+    {
+      "timestamp": "2026-04-13T11:32:03.502144+00:00",
+      "tier": "groq",
+      "article": "Quds Force chief: US, Zionist regime will leave region empty-handed"
+    },
+    {
+      "timestamp": "2026-04-13T11:32:36.367807+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance fighters targeted at 11:00 on Monday 13-04-2026\u00a0Al-Oweida Hill in Odaisseh border town with a swarm of loitering drones, which led to a fire breaking out at the site: Hezbollah Military Media statement 7 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-13T11:33:22.123652+00:00",
+      "tier": "groq",
+      "article": "Approach of military vessels toward Strait of Hormuz breach of ceasefire, IRGC warns"
+    },
+    {
+      "timestamp": "2026-04-13T11:33:39.012722+00:00",
+      "tier": "groq",
+      "article": "US blockade of Iran would worsen global energy crisis, analysts say"
     }
   ]
 }
