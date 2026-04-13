@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1857,
+  "total_calls": 1861,
   "tiers": {
-    "groq": 1839,
+    "groq": 1843,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-10T19:06:12.742939+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted at 18:00 on Friday 10-04-2026 Shraga base (the administrative headquarters of the Golani Brigade command) north of the occupied city of Acre with a rocket barrage and a swarm of loitering drones: statement 45 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-10T19:06:29.807558+00:00",
-      "tier": "groq",
-      "article": "Netanyahu removes Spain from Gaza coordination centre over \u2018hostility\u2019"
-    },
-    {
-      "timestamp": "2026-04-10T20:48:30.736560+00:00",
-      "tier": "groq",
-      "article": "Pakistan sets modest goal for US-Iran summit: A deal to keep talks going"
-    },
-    {
-      "timestamp": "2026-04-10T20:49:17.131847+00:00",
-      "tier": "groq",
-      "article": "New tensions emerge before US-Iran war ceasefire talks in Pakistan"
-    },
     {
       "timestamp": "2026-04-10T20:49:33.516972+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-13T15:26:02.018099+00:00",
       "tier": "groq",
       "article": "Security in Persian Gulf, Sea of Oman must be for all or none: IRGC"
+    },
+    {
+      "timestamp": "2026-04-13T17:11:32.832026+00:00",
+      "tier": "groq",
+      "article": "\u201cSpider Web\u201d Complex Chases Israeli Army in Bint Jbeil, Hezbollah Missiles & Drones Strike Enemy Everywhere - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-13T17:12:13.280774+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-13T17:12:59.864845+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-13T17:13:52.424973+00:00",
+      "tier": "groq",
+      "article": "Pakistan eyes narrow window to resuscitate US-Iran talks after breakdown"
     }
   ]
 }
