@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1889,
+  "total_calls": 1893,
   "tiers": {
-    "groq": 1871,
+    "groq": 1875,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-11T14:44:42.608308+00:00",
-      "tier": "groq",
-      "article": "Lebanon mourns security forces killed in Israeli strike"
-    },
-    {
-      "timestamp": "2026-04-11T14:44:59.023998+00:00",
-      "tier": "groq",
-      "article": "Libya approves first unified budget in more than a decade"
-    },
-    {
-      "timestamp": "2026-04-11T14:45:16.182345+00:00",
-      "tier": "groq",
-      "article": "US-Iran talks on ending war begin in Pakistan"
-    },
-    {
-      "timestamp": "2026-04-11T14:45:38.512990+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters fired successive barrages of rockets and artillery shells targeting gatherings of Israeli soldiers and vehicles in Bint Jbeil and Maroun Al-Ras border towns: Hezbollah Military Media statement 12 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-11T16:44:17.218123+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-14T13:58:42.108994+00:00",
       "tier": "groq",
       "article": "Sanctioned tankers transit Strait of Hormuz amid US blockade"
+    },
+    {
+      "timestamp": "2026-04-14T15:21:28.038124+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Fighters Valiantly Defend Lebanese Territory, Israeli Soldiers Killed and Wounded in Close-Range Clashes - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-14T15:22:08.905763+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-14T15:22:25.085962+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-14T15:23:06.940147+00:00",
+      "tier": "groq",
+      "article": "Iran condemns desecration of Al-Aqsa Mosque"
     }
   ]
 }
