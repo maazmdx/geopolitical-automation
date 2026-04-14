@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1873,
+  "total_calls": 1877,
   "tiers": {
-    "groq": 1855,
+    "groq": 1859,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-11T05:33:12.898591+00:00",
-      "tier": "groq",
-      "article": "Colombia responds to Ecuador\u2019s tariff hike with 100-percent import tax"
-    },
-    {
-      "timestamp": "2026-04-11T05:34:02.363944+00:00",
-      "tier": "groq",
-      "article": "Pentagon, FAA sign agreement on deploying anti-drone laser system near Mexico"
-    },
-    {
-      "timestamp": "2026-04-11T07:10:55.876058+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted gatherings of Israeli enemy soldiers and vehicles in the hills of Friz and Ghadmatha in the town of Ainatha with artillery shells: statement 53 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-11T07:11:28.453804+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted gatherings of Israeli enemy soldiers and vehicles in the towns of Al-Bayada and Shama with rocket barrages and artillery shells: statement 55 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-11T08:56:11.685566+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-13T22:57:27.918987+00:00",
       "tier": "groq",
       "article": "Sheikh Qassem: Your Excellency, they are pressuring you to confront your people, and they will not be satisfied until everything collapses in favor of \u201cIsrael\u201d - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-14T02:56:19.802642+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-14T02:56:36.487889+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-14T02:56:53.459836+00:00",
+      "tier": "groq",
+      "article": "UAE, Saudi Arabia intercept Iranian missiles and drones"
+    },
+    {
+      "timestamp": "2026-04-14T02:57:09.662179+00:00",
+      "tier": "groq",
+      "article": "Sheikh Qassem: The only path that achieves sovereignty and saves Lebanon is the implementation of the agreement\u2019s terms, and first and foremost, the aggression must be completely stopped - Al-Manar TV Lebanon"
     }
   ]
 }
