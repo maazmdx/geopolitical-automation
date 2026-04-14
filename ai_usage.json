@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1881,
+  "total_calls": 1885,
   "tiers": {
-    "groq": 1863,
+    "groq": 1867,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-11T10:44:29.452270+00:00",
-      "tier": "groq",
-      "article": "Israeli drone attack kills Palestinians near Gaza mosque"
-    },
-    {
-      "timestamp": "2026-04-11T10:45:00.863179+00:00",
-      "tier": "groq",
-      "article": "Hezbollah\u2019s Islamic Resistance fighters have carried out 9 operations against Israeli targets along the border and in northern Israeli settlements since midnight: Military Media statements - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-11T10:45:19.508303+00:00",
-      "tier": "groq",
-      "article": "Video: Vance arrives in Pakistan for talks with Iran"
-    },
-    {
-      "timestamp": "2026-04-11T10:45:35.536970+00:00",
-      "tier": "groq",
-      "article": "Israel rejects ceasefire with Hezbollah ahead of Lebanon talks next week"
-    },
     {
       "timestamp": "2026-04-11T13:11:24.798610+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-14T09:31:28.910229+00:00",
       "tier": "groq",
       "article": "Starmer says UK will not join Trump's blockade of Iran's ports in the Strait of Hormuz"
+    },
+    {
+      "timestamp": "2026-04-14T11:13:54.049003+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-14T11:14:27.762880+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-14T11:15:13.247886+00:00",
+      "tier": "groq",
+      "article": "Al-Manar correspondents across southern Lebanon report strikes by Israeli warplanes on Shebaa and Qlaileh - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-14T11:15:30.256547+00:00",
+      "tier": "groq",
+      "article": "US Navy should rely on allies to boost maritime industrial base, report says"
     }
   ]
 }
