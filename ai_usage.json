@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1877,
+  "total_calls": 1881,
   "tiers": {
-    "groq": 1859,
+    "groq": 1863,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-11T08:56:11.685566+00:00",
-      "tier": "groq",
-      "article": "At least seven Palestinians killed in Israeli attacks on Gaza"
-    },
-    {
-      "timestamp": "2026-04-11T08:56:55.271099+00:00",
-      "tier": "groq",
-      "article": "Dozens Martyred as Israeli Airstrikes Intensify Across Southern Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-11T08:57:41.516821+00:00",
-      "tier": "groq",
-      "article": "Al-Manar correspondents in south Lebanon reports Israeli strikes on towns of Tebnine, Khima, Yuhmor Al-Shaqeef, Al-Qantara - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-11T08:57:58.111533+00:00",
-      "tier": "groq",
-      "article": "Tasnim Iranian news agency: The release of Iranian assets and a ceasefire in Lebanon are among the preconditions for starting negotiations with Washington - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-11T10:44:29.452270+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-14T02:57:09.662179+00:00",
       "tier": "groq",
       "article": "Sheikh Qassem: The only path that achieves sovereignty and saves Lebanon is the implementation of the agreement\u2019s terms, and first and foremost, the aggression must be completely stopped - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-14T09:29:50.834570+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-14T09:30:24.422042+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-14T09:31:12.806806+00:00",
+      "tier": "groq",
+      "article": "US military kills two men in new strike on vessel in eastern Pacific"
+    },
+    {
+      "timestamp": "2026-04-14T09:31:28.910229+00:00",
+      "tier": "groq",
+      "article": "Starmer says UK will not join Trump's blockade of Iran's ports in the Strait of Hormuz"
     }
   ]
 }
