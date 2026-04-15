@@ -18,7 +18,10 @@ yfinance>=0.2.36
 google-genai>=1.0.0
 openai
 trafilatura
-yt-dlp
 yt-dlp==2026.3.3
 apify-client>=1.6.1
 wikipedia>=1.4.0
+# V19.1: Global OSINT Syndicate — new dependencies
+newsapi-python>=0.2.7
+telethon>=1.36.0
+cryptg>=0.4.0

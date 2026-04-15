@@ -2,9 +2,18 @@ name: Geopolitical News Automation
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 */5 * * *"      # V18.30: Run every 5 hours
+    - cron: "0 0 * * *"        # V19.0: Midnight Run — reinforcement learning analysis
   workflow_dispatch:
-    # Allow manual trigger
+    inputs:
+      run_mode:
+        description: "Run mode: normal (post content) or midnight_analysis (learn from engagement)"
+        required: false
+        default: "normal"
+        type: choice
+        options:
+          - normal
+          - midnight_analysis
 
 permissions:
   contents: write
@@ -33,9 +42,22 @@ jobs:
           path: |
             posted_links.json
             ai_usage.json
+            brain_weights.json
           key: usage-trackers-${{ github.run_id }}
           restore-keys: |
             usage-trackers-
+
+      - name: Determine run mode
+        id: mode
+        run: |
+          # V19.0: Detect midnight cron vs normal cron vs manual dispatch
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run_mode=${{ github.event.inputs.run_mode || 'normal' }}" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "0 0 * * *" ]; then
+            echo "run_mode=midnight_analysis" >> $GITHUB_OUTPUT
+          else
+            echo "run_mode=normal" >> $GITHUB_OUTPUT
+          fi
 
       - name: Run geopolitical news automation
         env:
@@ -47,6 +69,16 @@ jobs:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           APIFY_TOKEN_NEW: ${{ secrets.APIFY_TOKEN_NEW }}
           SCRAPE_CREATORS_API_KEY: ${{ secrets.SCRAPE_CREATORS_API_KEY }}
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          DRIVE_ROOT_ID: ${{ secrets.DRIVE_ROOT_ID }}
+          # V19.1: Global OSINT Syndicate — new data source APIs
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TG_SESSION_STRING: ${{ secrets.TG_SESSION_STRING }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          RUN_MODE: ${{ steps.mode.outputs.run_mode }}
         run: |
           python main.py
 
@@ -56,6 +88,8 @@ jobs:
             git config user.name "GitHub Actions Bot"
             git config user.email "actions@github.com"
             git add posted_links.json ai_usage.json
+            # V19.0: Also commit brain_weights.json if it was generated
+            [ -f brain_weights.json ] && git add brain_weights.json
             git diff --cached --quiet || git commit -m "chore: update usage trackers [skip ci]"
             git pull --rebase --autostash
             git push

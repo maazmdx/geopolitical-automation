@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 """
-Geopolitical Breaking News Automation — v17.0
-==============================================
-IG Clone & Rebrand Engine + Axis of Resistance feeds.
-Apify Instagram scraping, AI caption rewriting, V16.4 branding.
-Groq Llama 3 for summarization, entity extraction, keyword
-highlighting. Hybrid video/image pipeline.
+Geopolitical Breaking News Automation — v19.1 (Global OSINT Syndicate)
+======================================================================
+3-Tier article sourcing (NewsAPI → GDELT → RSS) + Telethon native
+Telegram video hunting + YouTube Data API fallback → Pillow news cards
++ FFmpeg vertical video → Google Drive output.
+Self-learning via LLM dedup, cross-source triangulation, and
+reinforcement learning feedback loop. Groq Llama 3 / Gemini 2.5 Flash
+for GOAT Mode caption generation.
 """
 
 import os
+import asyncio
 import trafilatura
 import sys
 import json
@@ -21,9 +24,10 @@ import subprocess
 import random
 import textwrap
 from difflib import SequenceMatcher
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from io import BytesIO
+from urllib.parse import quote as url_quote
 
 import yt_dlp
 import feedparser
@@ -34,13 +38,28 @@ from bs4 import BeautifulSoup
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance, ImageFilter, ImageOps
 import pillow_avif
 
+# V19.1: Telethon native Telegram client
+try:
+    from telethon import TelegramClient
+    from telethon.sessions import StringSession
+    from telethon.tl.types import InputMessagesFilterVideo
+    TELETHON_AVAILABLE = True
+except ImportError:
+    TELETHON_AVAILABLE = False
+
+# V19.1: NewsAPI Python wrapper
+try:
+    from newsapi import NewsApiClient
+    NEWSAPI_AVAILABLE = True
+except ImportError:
+    NEWSAPI_AVAILABLE = False
+
 # V17.0: Apify Instagram Scraping
 try:
     from apify_client import ApifyClient
     APIFY_AVAILABLE = True
 except ImportError:
     APIFY_AVAILABLE = False
-    log_msg = "apify-client not installed, Instagram engine disabled"
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -80,6 +99,7 @@ ACTORS_DIR = BASE_DIR / "assets" / "actors"
 POSTED_LINKS_FILE = BASE_DIR / "posted_links.json"
 AI_USAGE_FILE = BASE_DIR / "ai_usage.json"
 DARK_MAP_FILE = BASE_DIR / "assets" / "dark_world_map.png"
+BRAIN_WEIGHTS_FILE = BASE_DIR / "brain_weights.json"  # V19.0: Reinforcement learning weights
 
 CARD_WIDTH = 1080
 CARD_HEIGHT = 1080
@@ -96,8 +116,8 @@ SUMMARY_CHAR_LIMIT = 500         # V7.0: Groq generates 450-480 chars
 LINE_SPACING_MULT = 1.3          # summary line-height multiplier
 FLAG_SCALE_DOWN = 0.85           # 15% smaller flags
 MIN_EXTRACT_CHARS = 150
-BATCH_SIZE = 4                   # V16.7: 4 posts per run
-MAX_VIDEOS = 2                   # V16.7: Cap video generation at 2 per run
+BATCH_SIZE = 4                   # V18.30: 4 AI-generated News Cards per run
+MAX_VIDEOS = 5                   # V18.30: 5 Telegram OSINT videos per run
 HIGHLIGHT_COLOR = "#FBBF24"      # V7.0: keyword highlight gold
 MAX_ARTICLE_AGE_HOURS = 24       # V15.6: 24h strict freshness window
 
@@ -111,14 +131,30 @@ TARGET_IG_CHANNELS = [
     "irgc.intel",
 ]
 
-_IG_REWRITE_PROMPT = """You are a military OSINT copywriter. I will give you a caption from another news page. Rewrite it completely in your own words so it is unique. Keep the exact same meaning, facts, and numbers. Use very simple, aggressive, triumphant English. Keep it under 3 short sentences.
+# ---------------------------------------------------------------------------
+# V19.1: GOAT MODE — Real-Time Clock Injection
+# ---------------------------------------------------------------------------
+
+def _goat_timestamp() -> str:
+    """V19.1: Returns current UTC time string for real-time caption injection."""
+    return datetime.now(timezone.utc).strftime("%B %d, %Y at %H:%M UTC")
+
+_IG_REWRITE_PROMPT = """You are an elite OSINT analyst and social media growth expert for the breaking news channel @geopolitics.
+I will give you a caption from another news source. Rewrite it completely in your own words so it is unique.
+
+The current real-time clock is: {current_time}.
 
 Original caption:
 {caption}
 
-Return strict JSON with exactly 2 keys:
-- "rewritten_caption": The rewritten caption text.
+Return strict JSON with exactly 3 keys:
+- "rewritten_caption": Rewrite following this STRICT structure:
+  1. THE HOOK: Start with a hard-hitting, real-time breaking news indicator using an emoji (e.g., 🚨 BREAKING:, ⚡ JUST IN:). You MUST reference the current time or state that this is happening "right now" or "minutes ago".
+  2. THE BRIEF: Write 2 clinical, objective sentences explaining exactly WHAT is happening on the ground.
+  3. THE MACRO: Add 1 sentence explaining the broader GEOPOLITICAL IMPACT (why this shifts the balance of power).
+  4. THE ENGAGEMENT TRAP: End the text with one sharp, highly analytical question designed to force people to debate in the comments + "👇".
 - "image_hook": Write 1 to 2 sentences summarizing this like a viral military Twitter post. Extremely simple English.
+- "dynamic_hashtags": Generate 5-7 hyper-specific hashtags based ONLY on the exact entities, cities, weapons, or leaders mentioned. THE SPAM BAN: You are strictly FORBIDDEN from using generic, mass-produced hashtags like #news, #worldnews, #geopolitics, #war, or #viral. Every tag must be strictly unique to the tactical event. Always end the block with your branded tag #geopolitics.
 
 Return ONLY the JSON object, no markdown, no explanation."""
 
@@ -256,42 +292,6 @@ REJECTION_KEYWORDS = [
     "lifestyle", "wellness", "fitness", "diet", "weight loss",
 ]
 
-# ---------------------------------------------------------------------------
-# Country Detection Map
-# ---------------------------------------------------------------------------
-
-COUNTRY_MAP = {
-    "united states": "us", "u.s.": "us", "america": "us", "washington": "us",
-    "pentagon": "us", "white house": "us",
-    "russia": "ru", "moscow": "ru", "kremlin": "ru",
-    "ukraine": "ua", "kyiv": "ua", "kiev": "ua",
-    "china": "cn", "beijing": "cn",
-    "iran": "ir", "tehran": "ir",
-    "israel": "il", "tel aviv": "il", "jerusalem": "il", "idf": "il",
-    "palestine": "ps", "gaza": "ps", "hamas": "ps",
-    "north korea": "kp", "pyongyang": "kp",
-    "south korea": "kr", "seoul": "kr",
-    "taiwan": "tw", "taipei": "tw",
-    "turkey": "tr", "ankara": "tr",
-    "india": "in", "new delhi": "in",
-    "pakistan": "pk", "islamabad": "pk",
-    "syria": "sy", "damascus": "sy",
-    "iraq": "iq", "baghdad": "iq",
-    "saudi": "sa", "riyadh": "sa",
-    "japan": "jp", "tokyo": "jp",
-    "uk": "gb", "britain": "gb", "london": "gb",
-    "france": "fr", "paris": "fr",
-    "germany": "de", "berlin": "de",
-    "nato": "nato",
-    "european union": "eu", "eu ": "eu",
-    "yemen": "ye", "houthi": "ye",
-    "lebanon": "lb", "hezbollah": "lb",
-    "egypt": "eg", "cairo": "eg",
-    "poland": "pl", "warsaw": "pl",
-    "afghanistan": "af", "kabul": "af", "taliban": "af",
-    "ethiopia": "et", "sudan": "sd", "myanmar": "mm",
-    "somalia": "so", "libya": "ly",
-}
 
 # ---------------------------------------------------------------------------
 # Colors
@@ -429,13 +429,105 @@ def resolve_google_news_url(url: str) -> str:
 
 
 # ===========================================================================
-# 2. ARTICLE FETCHING
+# 2. ARTICLE FETCHING — V19.1 3-TIER OSINT ENGINE
 # ===========================================================================
 
-def fetch_articles() -> list[dict]:
+def _fetch_newsapi() -> list[dict]:
+    """V19.1 Tier 1: NewsAPI — Pull breaking conflict news via 'everything' endpoint."""
+    api_key = os.environ.get("NEWS_API_KEY", "")
+    if not api_key:
+        log.info("  [TIER 1] NEWS_API_KEY not set. Skipping NewsAPI.")
+        return []
+    if not NEWSAPI_AVAILABLE:
+        log.warning("  [TIER 1] newsapi-python not installed. Skipping NewsAPI.")
+        return []
+
     articles = []
-    
-    # ENFORCED PRIORITY: Parse Direct RSS Feeds First (Bypassing Google JS Walls)
+    try:
+        client = NewsApiClient(api_key=api_key)
+        # Build query from top combat keywords
+        query_terms = " OR ".join(COMBAT_KEYWORDS[:8])
+        log.info(f"  [TIER 1] NewsAPI query: {query_terms[:80]}…")
+
+        result = client.get_everything(
+            q=query_terms,
+            language="en",
+            sort_by="publishedAt",
+            page_size=20,
+        )
+
+        for item in result.get("articles", []):
+            title = (item.get("title") or "").strip()
+            link = (item.get("url") or "").strip()
+            if not title or not link or title == "[Removed]":
+                continue
+            pub_date = parse_date_bulletproof(item.get("publishedAt"))
+            articles.append({
+                "title": title,
+                "link": link,
+                "summary": (item.get("description") or "").strip(),
+                "source": f"NewsAPI:{(item.get('source', {}).get('name', 'Unknown'))}",
+                "pub_date": pub_date,
+                "image_url": item.get("urlToImage"),
+                "full_text": None,
+            })
+        log.info(f"  [TIER 1] NewsAPI returned {len(articles)} articles.")
+    except Exception as exc:
+        log.warning(f"  [TIER 1] NewsAPI failed: {exc}")
+    return articles
+
+
+def _fetch_gdelt() -> list[dict]:
+    """V19.1 Tier 2: GDELT 2.0 Doc API — Real-time global event monitoring (no API key)."""
+    articles = []
+    try:
+        # Build query from top combat keywords
+        query_terms = " OR ".join(COMBAT_KEYWORDS[:5])
+        params = {
+            "query": query_terms,
+            "mode": "artlist",
+            "format": "json",
+            "maxrecords": 15,
+            "timespan": "24h",
+        }
+        log.info(f"  [TIER 2] GDELT query: {query_terms[:80]}…")
+        resp = requests.get(
+            "https://api.gdeltproject.org/api/v2/doc/doc",
+            params=params,
+            headers=HTTP_HEADERS,
+            timeout=20,
+        )
+        if resp.status_code != 200:
+            log.warning(f"  [TIER 2] GDELT returned HTTP {resp.status_code}")
+            return []
+
+        data = resp.json()
+        for item in data.get("articles", []):
+            title = (item.get("title") or "").strip()
+            link = (item.get("url") or "").strip()
+            if not title or not link:
+                continue
+            pub_date = parse_date_bulletproof(item.get("seendate"))
+            articles.append({
+                "title": title,
+                "link": link,
+                "summary": "",
+                "source": f"GDELT:{(item.get('domain', 'Unknown'))}",
+                "pub_date": pub_date,
+                "image_url": item.get("socialimage"),
+                "full_text": None,
+            })
+        log.info(f"  [TIER 2] GDELT returned {len(articles)} articles.")
+    except Exception as exc:
+        log.warning(f"  [TIER 2] GDELT failed: {exc}")
+    return articles
+
+
+def _fetch_rss() -> list[dict]:
+    """V19.1 Tier 3: Direct RSS Feeds + Google News RSS (preserved from legacy)."""
+    articles = []
+
+    # Direct RSS Feeds
     for source_name, url in RSS_FEEDS.items():
         log.info(f"Fetching RSS: {source_name}")
         try:
@@ -479,11 +571,13 @@ def fetch_articles() -> list[dict]:
         except Exception as exc:
             log.warning(f"RSS {source_name} failed: {exc}")
 
-    # Fallback to Google News scraping after direct feeds are processed
+    # Google News RSS search
     for query in GOOGLE_NEWS_QUERIES:
-        log.info(f"Fetching RSS: {source_name}")
+        gn_url = f"https://news.google.com/rss/search?q={url_quote(query)}&hl=en-US&gl=US&ceid=US:en"
+        gn_source = f"GoogleNews:{query[:30]}"
+        log.info(f"Fetching Google News RSS: {gn_source}")
         try:
-            feed = feedparser.parse(url)
+            feed = feedparser.parse(gn_url)
             for entry in feed.get("entries", []):
                 title = entry.get("title", "").strip()
                 link = entry.get("link", "").strip()
@@ -507,24 +601,55 @@ def fetch_articles() -> list[dict]:
                                 break
                     if image_url:
                         break
-                # V15.8: Chronological cutoff — stop parsing if we hit old news
+                # V15.8: Chronological cutoff
                 if pub_date:
                     _cut_now = datetime.now(timezone.utc)
                     _cut_pub = pub_date if pub_date.tzinfo else pub_date.replace(tzinfo=timezone.utc)
                     _cut_age = (_cut_now - _cut_pub).total_seconds() / 3600
                     if _cut_age > 48 and _cut_age < 700:
-                        log.info(f"  [SKIP] Reached old news in {source_name} feed ({_cut_age:.0f}h). Moving to next source.")
+                        log.info(f"  [SKIP] Reached old news in {gn_source} ({_cut_age:.0f}h). Moving to next query.")
                         break
                 articles.append({
                     "title": title, "link": link, "summary": summary,
-                    "source": source_name, "pub_date": pub_date,
+                    "source": gn_source, "pub_date": pub_date,
                     "image_url": image_url, "full_text": None,
                 })
         except Exception as exc:
-            log.warning(f"RSS {source_name} failed: {exc}")
+            log.warning(f"Google News RSS {gn_source} failed: {exc}")
 
-    log.info(f"Total articles fetched: {len(articles)}")
     return articles
+
+
+def fetch_articles() -> list[dict]:
+    """V19.1: 3-Tier OSINT Article Sourcing — NewsAPI → GDELT → RSS."""
+    log.info("\n" + "=" * 60)
+    log.info("V19.1: 3-Tier OSINT Article Sourcing")
+    log.info("=" * 60)
+
+    # Tier 1: NewsAPI (premium structured data)
+    log.info("\n--- TIER 1: NewsAPI ---")
+    tier1 = _fetch_newsapi()
+
+    # Tier 2: GDELT (global real-time event monitoring)
+    log.info("\n--- TIER 2: GDELT 2.0 ---")
+    tier2 = _fetch_gdelt()
+
+    # Tier 3: RSS (direct feeds + Google News)
+    log.info("\n--- TIER 3: RSS Feeds ---")
+    tier3 = _fetch_rss()
+
+    # Merge & deduplicate by URL hash
+    all_articles = tier1 + tier2 + tier3
+    seen_hashes = set()
+    deduped = []
+    for a in all_articles:
+        h = url_hash(a.get("link", ""))
+        if h not in seen_hashes:
+            seen_hashes.add(h)
+            deduped.append(a)
+
+    log.info(f"Total articles fetched: {len(all_articles)} (T1:{len(tier1)} T2:{len(tier2)} T3:{len(tier3)}) → {len(deduped)} after dedup")
+    return deduped
 
 
 # ===========================================================================
@@ -644,12 +769,61 @@ def is_posted(link: str, posted: dict) -> bool:
     return url_hash(link) in posted
 
 def _is_headline_duplicate(headline: str, posted: dict) -> bool:
-    """V8.9: Semantic dedup — reject if headline is >60% similar to any posted."""
+    """V19.0: Deep Semantic Memory — LLM-based dedup with SequenceMatcher fallback."""
+    if not headline or not posted:
+        return False
+
+    # Extract last 20 posted headlines for comparison
+    recent_entries = sorted(
+        posted.values(),
+        key=lambda x: x.get("published", ""),
+        reverse=True
+    )[:20]
+    recent_titles = [e.get("title", "").strip() for e in recent_entries if e.get("title", "").strip()]
+
+    if not recent_titles:
+        return False
+
+    # === PRIMARY: LLM Semantic Check via Groq (Tier 1) ===
+    groq_key = os.environ.get("GROQ_API_KEY")
+    if groq_key:
+        try:
+            from groq import Groq
+            client = Groq(api_key=groq_key)
+
+            titles_block = "\n".join(f"- {t}" for t in recent_titles)
+            dedup_prompt = (
+                f"Compare this new headline to this list of our last {len(recent_titles)} posted headlines. "
+                f"Reply with 'DUPLICATE' if it covers the exact same event, or 'UNIQUE' if it is a genuinely new development.\n\n"
+                f"New headline: {headline}\n\n"
+                f"Posted headlines:\n{titles_block}\n\n"
+                f"Reply with ONLY one word: DUPLICATE or UNIQUE."
+            )
+
+            response = client.chat.completions.create(
+                model="llama-3.1-8b-instant",
+                messages=[{"role": "user", "content": dedup_prompt}],
+                temperature=0.0,
+                max_tokens=10,
+            )
+            verdict = (response.choices[0].message.content or "").strip().upper()
+            if "DUPLICATE" in verdict:
+                log.info(f"  [V19.0 DEDUP] LLM verdict: DUPLICATE for '{headline[:50]}'")
+                return True
+            elif "UNIQUE" in verdict:
+                log.info(f"  [V19.0 DEDUP] LLM verdict: UNIQUE for '{headline[:50]}'")
+                return False
+            else:
+                log.warning(f"  [V19.0 DEDUP] Ambiguous LLM response: '{verdict}'. Falling back to SequenceMatcher.")
+        except Exception as e:
+            log.warning(f"  [V19.0 DEDUP] Groq dedup failed: {e}. Falling back to SequenceMatcher.")
+
+    # === FALLBACK: SequenceMatcher (V8.9 legacy) ===
     headline_lower = headline.lower().strip()
     for entry in posted.values():
         old_title = entry.get("title", "").lower().strip()
         if old_title and SequenceMatcher(None, headline_lower, old_title).ratio() > 0.60:
-            log.info(f"  Semantic dedup: '{headline[:50]}' ~= '{old_title[:50]}'")
+            log.info(f"  Semantic dedup (fallback): '{headline[:50]}' ~= '{old_title[:50]}'")
             return True
     return False
 
@@ -824,9 +998,9 @@ def _is_too_old(article: dict) -> bool:
     if not pub.tzinfo:
         pub = pub.replace(tzinfo=timezone.utc)
     age_hours = (now - pub).total_seconds() / 3600
-    # V15.6: Fix broken Iranian server timestamps
-    if age_hours > 100 or age_hours < 0:
-        log.info(f"  [FIX] Bypassing date parser error (age={age_hours:.1f}h). Assuming live RSS feed article is fresh.")
+    # V18.27: Only bypass negative timestamps (clock skew), not genuinely old articles
+    if age_hours < 0:
+        log.info(f"  [FIX] Bypassing clock skew (age={age_hours:.1f}h). Assuming fresh.")
         age_hours = 1.0  # Treat as 1 hour old
     if age_hours > MAX_ARTICLE_AGE_HOURS:
         log.info(f"  Rejected (age: {age_hours:.1f}h > {MAX_ARTICLE_AGE_HOURS}h)")
@@ -949,58 +1123,165 @@ def select_and_extract_batch(articles: list[dict], posted: dict) -> list[dict]:
                     final_batch.append(a)
                     log.info(f"  \u2713 Fallback Slot Filled ({len(final_batch)}/{BATCH_SIZE})")
 
+    # V19.0: OSINT Triangulation — bundle + cross-reference similar articles
+    if len(final_batch) >= 2:
+        final_batch = _triangulate_articles(final_batch)
+
     return final_batch
 
 
+
+
 # ===========================================================================
-# 7A. MARKET DATA (yfinance)
+# 6B. V19.0 OSINT TRIANGULATION ENGINE
 # ===========================================================================
 
-def get_market_data() -> str:
-    """V8.0: Fetch Brent Crude & Gold prices via yfinance."""
-    try:
-        import yfinance as yf
-        parts = []
-        for ticker, name in [("BZ=F", "Brent Crude"), ("GC=F", "Gold")]:
-            t = yf.Ticker(ticker)
-            hist = t.history(period="2d")
-            if len(hist) >= 2:
-                price = hist["Close"].iloc[-1]
-                prev = hist["Close"].iloc[-2]
-                pct = ((price - prev) / prev) * 100
-                sign = "+" if pct >= 0 else ""
-                parts.append(f"{name}: ${price:.2f} ({sign}{pct:.1f}%)")
-            elif len(hist) == 1:
-                price = hist["Close"].iloc[-1]
-                parts.append(f"{name}: ${price:.0f}")
-        if parts:
-            return " | ".join(parts)
-        return ""
-    except ImportError:
-        log.warning("  yfinance not installed, skipping market data")
-        return ""
-    except Exception as exc:
-        log.warning(f"  Market data error: {exc}")
-        return ""
+_TRIANGULATION_PROMPT_TEMPLATE = """You are an elite OSINT analyst and social media growth expert for the breaking news channel @geopolitics.
+I am providing multiple reports on the same event from different sources. Cross-reference them, eliminate bias, and output one unified, verified intelligence brief.
+
+The current real-time clock is: {current_time}.
+
+Report 1:
+Headline: {headline_1}
+Source: {source_1}
+Text: {text_1}
+
+Report 2:
+Headline: {headline_2}
+Source: {source_2}
+Text: {text_2}
+
+Return strict JSON with exactly 6 keys:
+- "instagram_caption": Write a highly engaging, algorithm-optimized caption using this STRICT structure:
+  1. THE HOOK: Start with a hard-hitting, real-time breaking news indicator using an emoji (e.g., 🚨 BREAKING:, ⚡ JUST IN:). You MUST reference the current time or state that this is happening "right now" or "minutes ago".
+  2. THE BRIEF: Write 2 clinical, objective sentences summarizing the verified facts from both reports. Eliminate any single-source bias.
+  3. THE MACRO: Add 1 sentence explaining the broader GEOPOLITICAL IMPACT (why this shifts the balance of power).
+  4. THE ENGAGEMENT TRAP: End the text with one sharp, highly analytical question designed to force people to debate in the comments + "👇".
+- "dynamic_hashtags": Generate 5-7 hyper-specific hashtags based ONLY on the exact entities, cities, weapons, or leaders mentioned. THE SPAM BAN: You are strictly FORBIDDEN from using generic, mass-produced hashtags like #news, #worldnews, #geopolitics, #war, or #viral. Every tag must be strictly unique to the tactical event. Always end the block with your branded tag #geopolitics.
+- "flags": A list of up to two 2-letter ISO country codes (lowercase) of the PRIMARY nations physically involved.
+- "threat_level": Rate the geopolitical severity as an integer from 1 to 10.
+- "video_overlays": An array of 5 to 7 short, punchy sentences (MAXIMUM 40 characters per sentence) that tell the verified story.
+- "image_hook": Write exactly 1 to 2 sentences summarizing the verified event. Write it like a viral military Twitter post.
+
+Return ONLY the JSON object, no markdown, no explanation."""
+
+def _jaccard_similarity(title_a: str, title_b: str) -> float:
+    """V19.0: Jaccard similarity on title word sets for triangulation clustering."""
+    words_a = set(title_a.lower().split())
+    words_b = set(title_b.lower().split())
+    if not words_a or not words_b:
+        return 0.0
+    intersection = words_a & words_b
+    union = words_a | words_b
+    return len(intersection) / len(union)
+
+def _triangulate_articles(batch: list[dict]) -> list[dict]:
+    """V19.0: OSINT Triangulation — find similar article pairs, cross-reference via AI."""
+    if len(batch) < 2:
+        return batch
+
+    log.info("  [V19.0 TRIANGULATION] Scanning batch for cross-referenceable clusters...")
+    used_indices = set()
+    merged_articles = []
+
+    for i in range(len(batch)):
+        if i in used_indices:
+            continue
+        best_match = -1
+        best_sim = 0.0
+        for j in range(i + 1, len(batch)):
+            if j in used_indices:
+                continue
+            sim = _jaccard_similarity(
+                batch[i].get("title", ""),
+                batch[j].get("title", "")
+            )
+            if sim > best_sim:
+                best_sim = sim
+                best_match = j
+
+        if best_sim > 0.40 and best_match >= 0:
+            # Found a cluster — triangulate
+            a1, a2 = batch[i], batch[best_match]
+            log.info(f"  [TRIANGULATION] Clustering: '{a1['title'][:40]}' + '{a2['title'][:40]}' (sim={best_sim:.2f})")
+            used_indices.add(i)
+            used_indices.add(best_match)
+
+            try:
+                prompt = _TRIANGULATION_PROMPT_TEMPLATE.format(
+                    current_time=_goat_timestamp(),
+                    headline_1=a1.get("title", ""),
+                    source_1=a1.get("source", "Unknown"),
+                    text_1=(a1.get("full_text") or a1.get("summary", ""))[:2000],
+                    headline_2=a2.get("title", ""),
+                    source_2=a2.get("source", "Unknown"),
+                    text_2=(a2.get("full_text") or a2.get("summary", ""))[:2000],
+                )
+
+                # Use the existing AI waterfall for triangulation
+                tri_result = _run_ai_waterfall_raw(prompt)
+                if tri_result:
+                    parsed = _parse_ai_result(tri_result)
+                    if parsed:
+                        # Build merged article
+                        merged = {
+                            "title": a1.get("title", ""),  # Keep primary title
+                            "link": a1.get("link", ""),
+                            "real_url": a1.get("real_url", a1.get("link", "")),
+                            "source": f"{a1.get('source', '')} + {a2.get('source', '')}",
+                            "pub_date": a1.get("pub_date") or a2.get("pub_date"),
+                            "image_url": a1.get("image_url") or a2.get("image_url"),
+                            "full_text": a1.get("full_text", ""),
+                            "summary": a1.get("summary", ""),
+                            "instagram_caption": parsed.get("instagram_caption", ""),
+                            "countries": parsed.get("countries", []),
+                            "threat_level": parsed.get("threat_level", 8),
+                            "video_overlays": parsed.get("video_overlays", []),
+                            "image_hook": parsed.get("image_hook", ""),
+                            "_triangulated": True,  # Flag: skip re-summarization in main loop
+                        }
+                        merged_articles.append(merged)
+                        log.info(f"  [TRIANGULATION] \u2713 Merged into verified intelligence brief.")
+                        continue
+            except Exception as e:
+                log.warning(f"  [TRIANGULATION] AI merge failed: {e}. Keeping articles separate.")
+
+            # If merge failed, keep both
+            merged_articles.append(batch[i])
+            merged_articles.append(batch[best_match])
+        else:
+            # No match found — keep solo
+            merged_articles.append(batch[i])
+
+    log.info(f"  [TRIANGULATION] Result: {len(batch)} articles -> {len(merged_articles)} (after merge)")
+    return merged_articles
 
 
 # ===========================================================================
 # 7B. UNIFIED AI BRAIN — GROQ → GEMINI FAILOVER
 # ===========================================================================
 
-_AI_PROMPT_TEMPLATE = """Act as a high-level military intelligence officer. Read this raw text, ignoring ads/menus.
+_AI_PROMPT_TEMPLATE = """You are an elite OSINT analyst and social media growth expert for the breaking news channel @geopolitics. Read this raw text, ignoring ads/menus.
+
+The current real-time clock is: {current_time}.
 
 Headline: {headline}
 
 Article text:
 {text}
 
-Return strict JSON with exactly 5 keys:
-- "instagram_caption": Write exactly one engaging, easy-to-understand paragraph summarizing the news. Explain it in simple English. Do not use standard robotic news words. Make it sound human.
-- "flags": A list of up to two 2-letter ISO country codes (lowercase) of the PRIMARY nations physically involved in this specific event. DO NOT blindly default to "us" and "ir". If the strike happens in Bahrain, you MUST include "bh". If it involves Ukraine, include "ua". Be highly specific to the article text.
-- "threat_level": Rate the geopolitical severity of this event as an integer from 1 to 10. (1-4 = low/diplomatic, 5-7 = medium/tensions, 8-10 = high/war/missile strike/casualties). Return ONLY the integer.
-- "video_overlays": An array of 5 to 7 short, punchy Hinglish sentences (MAXIMUM 40 characters per sentence) that tell the story of this event. These will be flashed sequentially on a video like an Al Jazeera news reel. Make them aggressive and informative.
-- "image_hook": Write exactly 1 to 2 sentences summarizing the event. Write it like a viral military Twitter post. Left-aligned style. If there is a massive dollar cost to US/Israel, include it. Extremely simple English.
+Return strict JSON with exactly 6 keys:
+- "instagram_caption": Write a highly engaging, algorithm-optimized caption using this STRICT structure:
+  1. THE HOOK: Start with a hard-hitting, real-time breaking news indicator using an emoji (e.g., \"🚨 BREAKING:\", \"⚡ JUST IN:\"). You MUST reference the current time or state that this is happening \"right now\" or \"minutes ago\".
+  2. THE BRIEF: Write 2 clinical, objective sentences explaining exactly WHAT is happening on the ground.
+  3. THE MACRO: Add 1 sentence explaining the broader GEOPOLITICAL IMPACT (why this shifts the balance of power).
+  4. THE ENGAGEMENT TRAP: End the text with one sharp, highly analytical question designed to force people to debate in the comments + \"👇\".
+  Use simple English. No robotic language.
+- "dynamic_hashtags": Generate exactly 5-7 hyper-specific hashtags based ONLY on the exact entities, cities, weapons, or leaders mentioned. THE SPAM BAN: You are strictly FORBIDDEN from using generic, mass-produced hashtags like #news, #worldnews, #geopolitics, #war, or #viral. Every tag must be strictly unique to the tactical event. Always end the block with your branded tag #geopolitics.
+- "flags": A list of up to two 2-letter ISO country codes (lowercase) of the PRIMARY nations physically involved in this specific event. DO NOT blindly default to \"us\" and \"ir\". Be highly specific to the article text.
+- "threat_level": Rate the geopolitical severity as an integer from 1 to 10. Return ONLY the integer.
+- "video_overlays": An array of 5 to 7 short, punchy Hinglish sentences (MAXIMUM 40 characters per sentence) that tell the story of this event.
+- "image_hook": Write exactly 1 to 2 sentences summarizing the event like a viral military Twitter post. Extremely simple English.
 
 Return ONLY the JSON object, no markdown, no explanation."""
 
@@ -1035,79 +1316,6 @@ def _strip_markdown_json(text: str) -> str:
     return cleaned_text
 
 
-# Category icon mapping for flag-less articles
-ICON_CATEGORIES = {
-    "un": ["united nations", "un ", "unsc", "security council", "general assembly"],
-    "nato": ["nato", "otan", "stoltenberg", "rutte", "north atlantic treaty"],
-    "military": ["military", "army", "navy", "pentagon", "troops", "soldier",
-                 "base", "defense", "weapon", "missile", "airstrike", "war",
-                 "combat", "battalion", "brigade", "drone strike", "bombing"],
-    "defense": ["boeing", "lockheed", "raytheon", "northrop", "bae systems",
-                "defense contractor", "fighter jet", "f-35", "f-16"],
-    "space": ["spacex", "nasa", "blue origin", "esa", "rocket", "satellite",
-              "orbit", "astronaut", "iss"],
-    "ai": ["openai", "anthropic", "chatgpt", "claude", "sam altman", "deepmind",
-           "artificial intelligence"],
-    "google": ["google", "alphabet", "sundar pichai", "gemini", "youtube", "android"],
-    "meta": ["meta", "facebook", "zuckerberg", "instagram", "whatsapp", "threads"],
-    "apple": ["apple", "tim cook", "iphone", "ios", "macbook", "vision pro"],
-    "microsoft": ["microsoft", "satya nadella", "windows", "azure", "xbox"],
-    "social": ["tiktok", "x ", "twitter", "elon musk", "bytedance", "social media",
-               "algorithm"],
-    "cyber": ["cyber", "hack", "ransomware", "malware", "data breach",
-             "infrastructure strike", "digital", "tech"],
-    "diplomacy": ["summit", "treaty", "diplomat", "ambassador",
-                  "ceasefire", "negotiations", "talks", "accord", "peace",
-                  "handshake", "alliance", "g7", "g20", "asean", "eu", "brics"],
-    "finance": ["sanctions", "tariff", "trade war", "economy", "oil",
-               "crude", "inflation", "market", "treasury", "bank",
-               "currency", "dollar", "embargo", "imf", "world bank"],
-}
-
-ICON_DIR = Path(__file__).parent / "assets" / "icons"
-ICON_DIR.mkdir(parents=True, exist_ok=True)
-
-# V8.4: Real Logos Database for dynamic downloads
-LOGO_DOMAINS = {
-    "un": "un.org",
-    "nato": "nato.int",
-    "military": "defense.gov",
-    "defense": "lockheedmartin.com",
-    "space": "nasa.gov",
-    "ai": "openai.com",
-    "google": "google.com",
-    "meta": "meta.com",
-    "apple": "apple.com",
-    "microsoft": "microsoft.com",
-    "social": "x.com",
-    "cyber": "cybercom.mil",
-    "diplomacy": "state.gov",
-    "finance": "imf.org",
-}
-
-def download_category_icon(category: str, dest_path: Path) -> bool:
-    """V8.4: Download real corporate/org logo via Clearbit, or generic globe."""
-    if category == "globe":
-        url = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Globe_icon_grey.svg/512px-Globe_icon_grey.svg.png"
-    else:
-        domain = LOGO_DOMAINS.get(category)
-        if not domain:
-            return False
-        url = f"https://logo.clearbit.com/{domain}"
-        
-    try:
-        import requests
-        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
-        if r.status_code == 200:
-            with open(dest_path, "wb") as f:
-                f.write(r.content)
-            log.info(f"  Downloaded real logo for '{category}' from {url}")
-            return True
-        else:
-            log.warning(f"  Logo download failed for '{category}': HTTP {r.status_code}")
-    except Exception as exc:
-        log.warning(f"  Failed to download logo for '{category}': {exc}")
-    return False
 
 
 def generate_intelligence_cascade(article_title: str, article_text: str) -> dict | None:
@@ -1117,7 +1325,7 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
     No time.sleep() needed, it just falls back instantly on hit rate limits.
     """
     input_text = article_text[:4000] if len(article_text) > 4000 else article_text
-    prompt = _AI_PROMPT_TEMPLATE.format(headline=article_title, text=input_text)
+    prompt = _AI_PROMPT_TEMPLATE.format(current_time=_goat_timestamp(), headline=article_title, text=input_text)
 
     # === ATTEMPT 1: GROQ (Meta Llama 3) ===
     groq_key = os.environ.get("GROQ_API_KEY")
@@ -1220,39 +1428,198 @@ def generate_intelligence_cascade(article_title: str, article_text: str) -> dict
     raise Exception("All 3 AI APIs failed in cascade.")
 
 
-def _fallback_summary(text: str, headline: str) -> dict:
-    """V7.0: Regex-based fallback when Groq is unavailable."""
-    text = _deep_scrub(text)
-    sentences = re.split(r'(?<=[.!?])\s+', text.strip())
-    good = [s.strip() for s in sentences if len(s.strip()) > 30]
+def _run_ai_waterfall_raw(prompt: str) -> dict | None:
+    """V19.0: Raw AI waterfall for arbitrary prompts (used by triangulation & RL loop)."""
+    # === ATTEMPT 1: GROQ ===
+    groq_key = os.environ.get("GROQ_API_KEY")
+    if groq_key:
+        try:
+            from groq import Groq
+            client = Groq(api_key=groq_key)
+            response = client.chat.completions.create(
+                model="llama-3.1-8b-instant",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.3,
+                max_tokens=4000,
+                response_format={"type": "json_object"},
+            )
+            resp_text = _strip_markdown_json(response.choices[0].message.content or "")
+            if resp_text:
+                return json.loads(resp_text)
+        except Exception as e:
+            log.warning(f"  [AI RAW] Groq failed: {e}")
 
-    s1 = good[0] if good else headline
-    s2 = good[1] if len(good) > 1 else ""
+    # === ATTEMPT 2: GEMINI ===
+    gemini_key = os.environ.get("GEMINI_API_KEY")
+    if gemini_key:
+        try:
+            from google import genai
+            client = genai.Client(api_key=gemini_key)
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=prompt,
+            )
+            resp_text = _strip_markdown_json(response.text if response.text else "")
+            if resp_text:
+                return json.loads(resp_text)
+        except Exception as e:
+            log.warning(f"  [AI RAW] Gemini failed: {e}")
 
-    if s2:
-        summary = f"{s1}\n\nTHE BIG PICTURE: {s2}"
+    # === ATTEMPT 3: OPENROUTER ===
+    or_key = os.environ.get("OPENROUTER_API_KEY")
+    if or_key:
+        try:
+            from openai import OpenAI
+            client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=or_key)
+            response = client.chat.completions.create(
+                model="google/gemini-2.0-flash-lite-preview-02-05:free",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.3,
+                max_tokens=4000,
+                response_format={"type": "json_object"},
+            )
+            resp_text = _strip_markdown_json(response.choices[0].message.content or "")
+            if resp_text:
+                return json.loads(resp_text)
+        except Exception as e:
+            log.warning(f"  [AI RAW] OpenRouter failed: {e}")
+
+    return None
+
+
+# ===========================================================================
+# 7C. V19.0 REINFORCEMENT LEARNING LOOP (MIDNIGHT RUN)
+# ===========================================================================
+
+def load_brain_weights() -> None:
+    """V19.0: Load learned engagement weights and inject into scoring systems."""
+    if not BRAIN_WEIGHTS_FILE.exists():
+        log.info("  [BRAIN] No brain_weights.json found. Running with default keywords.")
+        return
+
+    try:
+        with open(BRAIN_WEIGHTS_FILE, "r") as f:
+            data = json.load(f)
+
+        keywords = data.get("boosted_keywords", [])
+        if not keywords:
+            log.info("  [BRAIN] brain_weights.json exists but has no boosted keywords.")
+            return
+
+        injected = 0
+        for kw in keywords:
+            kw_lower = kw.lower().strip()
+            if kw_lower and kw_lower not in COMBAT_KEYWORDS:
+                COMBAT_KEYWORDS.append(kw_lower)
+                injected += 1
+            if kw_lower and kw_lower not in KINETIC_KEYWORDS:
+                KINETIC_KEYWORDS.append(kw_lower)  # Brain-boosted for kinetic scoring
+
+        log.info(f"  [BRAIN] \u2728 Loaded {injected} brain-boosted keywords: {keywords}")
+        log.info(f"  [BRAIN] COMBAT_KEYWORDS now: {len(COMBAT_KEYWORDS)} | KINETIC_KEYWORDS now: {len(KINETIC_KEYWORDS)}")
+    except Exception as e:
+        log.warning(f"  [BRAIN] Failed to load brain_weights.json: {e}")
+
+
+def analyze_past_performance() -> None:
+    """V19.0: Midnight Run — fetch IG engagement data via Meta Graph API and generate brain weights."""
+    log.info("\n" + "=" * 60)
+    log.info("V19.0: MIDNIGHT RUN — Reinforcement Learning Analysis")
+    log.info("=" * 60)
+
+    meta_token = os.environ.get("META_ACCESS_TOKEN", "")
+    ig_user_id = os.environ.get("META_IG_USER_ID", "")
+
+    performance_data = []
+
+    # === Phase 1: Fetch engagement data from Meta Graph API ===
+    if meta_token and ig_user_id:
+        log.info("  [MIDNIGHT] Fetching Instagram engagement via Meta Graph API...")
+        try:
+            url = f"https://graph.facebook.com/v19.0/{ig_user_id}/media"
+            params = {
+                "fields": "id,caption,like_count,comments_count,timestamp",
+                "limit": 10,
+                "access_token": meta_token,
+            }
+            resp = requests.get(url, params=params, timeout=15)
+            resp.raise_for_status()
+            media_items = resp.json().get("data", [])
+
+            for item in media_items:
+                performance_data.append({
+                    "caption": (item.get("caption") or "")[:300],
+                    "likes": item.get("like_count", 0),
+                    "comments": item.get("comments_count", 0),
+                    "engagement": item.get("like_count", 0) + item.get("comments_count", 0),
+                })
+
+            log.info(f"  [MIDNIGHT] Fetched {len(performance_data)} posts from Meta API.")
+        except Exception as e:
+            log.warning(f"  [MIDNIGHT] Meta Graph API failed: {e}. Falling back to local data.")
     else:
-        summary = s1
+        log.info("  [MIDNIGHT] No META_ACCESS_TOKEN/META_IG_USER_ID. Using local posted_links data.")
 
-    if len(summary) > SUMMARY_CHAR_LIMIT:
-        summary = summary[:SUMMARY_CHAR_LIMIT - 1] + "\u2026"
+    # === Phase 1B: Fallback to local posted_links.json ===
+    if not performance_data:
+        log.info("  [MIDNIGHT] Generating weights from local posted_links history...")
+        posted = load_posted()
+        recent = sorted(
+            posted.values(),
+            key=lambda x: x.get("published", ""),
+            reverse=True
+        )[:10]
+        for entry in recent:
+            title = entry.get("title", "")
+            if title:
+                performance_data.append({
+                    "caption": title[:300],
+                    "likes": 0,
+                    "comments": 0,
+                    "engagement": 0,
+                })
 
-    # Keyword scan for countries
-    hl = headline.lower()
-    codes = []
-    seen = set()
-    for keyword, code in ENTITY_TO_FLAG.items():
-        if keyword in hl and code not in seen:
-            codes.append(code)
-            seen.add(code)
-            if len(codes) >= 2:
-                break
+    if not performance_data:
+        log.info("  [MIDNIGHT] No performance data available. Skipping brain weight generation.")
+        return
 
-    return {
-        "summary": summary,
-        "countries": codes,
-        "keywords": [],
-    }
+    # === Phase 2: Feed to AI for keyword extraction ===
+    perf_text = "\n".join(
+        f"- Caption: \"{p['caption']}\" | Likes: {p['likes']} | Comments: {p['comments']} | Total Engagement: {p['engagement']}"
+        for p in performance_data
+    )
+
+    rl_prompt = (
+        "Analyze this Instagram performance data from a geopolitics/military news page. "
+        "What topics/keywords generated the most engagement? "
+        "Output a JSON object with exactly 1 key:\n"
+        '- "boosted_keywords": A JSON list of exactly 5 high-priority keywords to target tomorrow. '
+        "These should be specific military/geopolitical terms (e.g. 'drone strike', 'F-35', 'hypersonic') "
+        "not generic words.\n\n"
+        f"Performance data:\n{perf_text}\n\n"
+        "Return ONLY the JSON object, no markdown, no explanation."
+    )
+
+    try:
+        result = _run_ai_waterfall_raw(rl_prompt)
+        if result and "boosted_keywords" in result:
+            keywords = result["boosted_keywords"]
+            if isinstance(keywords, list) and len(keywords) > 0:
+                brain_data = {
+                    "generated_at": datetime.now(timezone.utc).isoformat(),
+                    "boosted_keywords": [str(kw).lower().strip() for kw in keywords[:5]],
+                    "source_posts_analyzed": len(performance_data),
+                }
+                with open(BRAIN_WEIGHTS_FILE, "w") as f:
+                    json.dump(brain_data, f, indent=2)
+                log.info(f"  [MIDNIGHT] \u2728 Brain weights saved: {brain_data['boosted_keywords']}")
+            else:
+                log.warning("  [MIDNIGHT] AI returned empty/invalid keyword list.")
+        else:
+            log.warning("  [MIDNIGHT] AI did not return boosted_keywords key.")
+    except Exception as e:
+        log.error(f"  [MIDNIGHT] Brain weight generation failed: {e}")
+
 
 
 def generate_internal_summary(article: dict) -> dict:
@@ -1482,61 +1849,6 @@ def download_article_image(article: dict) -> Image.Image | None:
     return None
 
 
-# ===========================================================================
-# 10. OPENCV SMART CROP
-# ===========================================================================
-
-def smart_crop(img: Image.Image, target_w: int, target_h: int) -> Image.Image:
-    try:
-        import cv2
-        import numpy as np
-
-        cv_img = cv2.cvtColor(np.array(img.convert("RGB")), cv2.COLOR_RGB2BGR)
-        h, w = cv_img.shape[:2]
-        focal_x, focal_y = w // 2, h // 2
-
-        cascade_paths = [
-            cv2.data.haarcascades + "haarcascade_frontalface_default.xml",
-            cv2.data.haarcascades + "haarcascade_profileface.xml",
-            cv2.data.haarcascades + "haarcascade_upperbody.xml",
-            "/usr/share/opencv4/haarcascades/haarcascade_frontalface_default.xml",
-        ]
-        
-        found_focus = False
-        gray = cv2.cvtColor(cv_img, cv2.COLOR_BGR2GRAY)
-        
-        for cp in cascade_paths:
-            if os.path.exists(cp):
-                objects = cv2.CascadeClassifier(cp).detectMultiScale(gray, 1.1, 4, minSize=(30, 30))
-                if len(objects) > 0:
-                    largest = max(objects, key=lambda f: f[2] * f[3])
-                    focal_x = largest[0] + largest[2] // 2
-                    focal_y = largest[1] + largest[3] // 2
-                    log.info(f"  Subject detected via {os.path.basename(cp)} at ({focal_x}, {focal_y})")
-                    found_focus = True
-                    break
-
-        if not found_focus:
-            edges = cv2.Canny(gray, 50, 150)
-            m = cv2.moments(edges)
-            if m["m00"] > 0:
-                focal_x = int(m["m10"] / m["m00"])
-                focal_y = int(m["m01"] / m["m00"])
-                log.info(f"  No subject detected. Used mass center at ({focal_x}, {focal_y})")
-
-        scale = max(target_w / w, target_h / h)
-        nw, nh = int(w * scale), int(h * scale)
-        resized = img.resize((nw, nh), Image.LANCZOS)
-        fx_r, fy_r = int(focal_x * scale), int(focal_y * scale)
-        x1 = max(0, min(fx_r - target_w // 2, nw - target_w))
-        y1 = max(0, min(fy_r - target_h // 2, nh - target_h))
-        return resized.crop((x1, y1, x1 + target_w, y1 + target_h))
-
-    except ImportError:
-        pass
-    except Exception:
-        pass
-    return _center_crop(img, target_w, target_h)
 
 
 def _center_crop(img: Image.Image, tw: int, th: int) -> Image.Image:
@@ -1662,30 +1974,6 @@ def _pixel_wrap(draw, text: str, font, max_width: int, max_lines: int) -> list[s
     return lines[:max_lines]
 
 
-def _auto_scale(draw, text: str, font_name: str, max_width: int, max_lines: int,
-                start: int, minimum: int) -> tuple:
-    for size in range(start, minimum - 1, -2):
-        font = _load_font(font_name, size)
-        lines = _pixel_wrap(draw, text, font, max_width, max_lines)
-        if len(lines) <= max_lines:
-            # V6.0: Check if text was truncated; add ellipsis if so
-            all_words = text.split()
-            wrapped_words = " ".join(lines).split()
-            if len(wrapped_words) < len(all_words) and lines:
-                last = lines[-1]
-                if not last.endswith("\u2026"):
-                    lines[-1] = last.rstrip(".,;:!? ") + "\u2026"
-            return font, lines
-    font = _load_font(font_name, minimum)
-    lines = _pixel_wrap(draw, text, font, max_width, max_lines)
-    # Same truncation check at minimum size
-    all_words = text.split()
-    wrapped_words = " ".join(lines).split()
-    if len(wrapped_words) < len(all_words) and lines:
-        last = lines[-1]
-        if not last.endswith("\u2026"):
-            lines[-1] = last.rstrip(".,;:!? ") + "\u2026"
-    return font, lines
 
 
 # ===========================================================================
@@ -1748,11 +2036,12 @@ def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> No
         news_img = None  # V17.7: Skip logic handled in main loop
 
     # ── Apply rounded corners to news image ──
-    news_img = news_img.convert("RGBA")
-    mask = Image.new("L", news_img.size, 0)
-    mask_draw = ImageDraw.Draw(mask)
-    mask_draw.rounded_rectangle((0, 0, news_img.size[0], news_img.size[1]), radius=40, fill=255)
-    news_img.putalpha(mask)
+    if news_img is not None:
+        news_img = news_img.convert("RGBA")
+        mask = Image.new("L", news_img.size, 0)
+        mask_draw = ImageDraw.Draw(mask)
+        mask_draw.rounded_rectangle((0, 0, news_img.size[0], news_img.size[1]), radius=40, fill=255)
+        news_img.putalpha(mask)
 
     # ── Prepare flags (top-left) ──
     countries = detect_countries(article)
@@ -1807,11 +2096,12 @@ def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> No
     text_bottom = 150 + text_height
 
     # ── Paste rounded-corner news image below text ──
-    img_y = max(text_bottom + 40, 430)  # At least y=430, or 40px below text
-    # Clamp so image doesn't overflow canvas
-    if img_y + 550 > CARD_HEIGHT - 60:
-        img_y = CARD_HEIGHT - 550 - 60
-    canvas.paste(news_img, (pad_x, img_y), news_img)
+    if news_img is not None:
+        img_y = max(text_bottom + 40, 430)  # At least y=430, or 40px below text
+        # Clamp so image doesn't overflow canvas
+        if img_y + 550 > CARD_HEIGHT - 60:
+            img_y = CARD_HEIGHT - 550 - 60
+        canvas.paste(news_img, (pad_x, img_y), news_img)
 
     # ── @geopoliticsoficial watermark — bottom right, light gray ──
     if font_path:
@@ -1829,18 +2119,25 @@ def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> No
 # ===========================================================================
 
 def generate_caption(article: dict, output_path: Path) -> None:
-    """V14.1: Clean, human-readable Instagram caption."""
-    headline = smart_typography(article.get("title", ""))
+    """V18.30: Algorithm-optimized Instagram caption with dynamic hashtags."""
     instagram_caption = article.get("instagram_caption", "News update.")
     source = article.get("source", "Unknown")
     link = article.get("real_url", article.get("link", ""))
+    dynamic_hashtags = article.get("dynamic_hashtags", "")
 
-    caption_content = f"\U0001f6a8 BREAKING: {headline}\n\n"
-    caption_content += f"{instagram_caption}\n\n"
+    # Build dynamic hashtag string from AI output
+    if isinstance(dynamic_hashtags, list):
+        hashtag_str = " ".join(dynamic_hashtags)
+    elif isinstance(dynamic_hashtags, str) and dynamic_hashtags.strip():
+        hashtag_str = dynamic_hashtags
+    else:
+        hashtag_str = "#geopolitics"
+
+    caption_content = f"{instagram_caption}\n\n"
     caption_content += f"\U0001f4f0 Source: {source}\n"
     caption_content += f"\U0001f517 {link}\n\n"
-    caption_content += "Follow @geopoliticsofical for daily intelligence. \U0001f30d\n\n"
-    caption_content += "#Geopolitics #Military #IRGC #BreakingNews #MiddleEast\n"
+    caption_content += f"Follow @geopoliticsoficial for daily intelligence. \U0001f30d\n\n"
+    caption_content += f"{hashtag_str}\n"
 
     output_path.write_text(caption_content, encoding="utf-8")
     log.info(f"  Caption saved: {output_path}")
@@ -1925,7 +2222,7 @@ def format_vertical_video(input_video: str, headline: str, output_filepath: Path
         log.info("  [OSINT] Processing video with FFmpeg vertical filters...")
         
         # 1. Set up the 9:16 Mirror Blur and Watermark
-        watermark_text = "@geopoliticsofical"
+        watermark_text = "@geopoliticsoficial"
         fc = "[0:v]split=2[bg][fg];"
         fc += "[bg]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:20[bg_blurred];"
         fc += "[fg]scale=1080:1920:force_original_aspect_ratio=decrease[fg_scaled];"
@@ -1955,7 +2252,7 @@ def format_vertical_video(input_video: str, headline: str, output_filepath: Path
         filter_complex_str = fc + ";" + ";".join(overlay_nodes)
 
         command = [
-            'ffmpeg', '-y', '-i', str(temp_raw), '-t', '90',
+            'ffmpeg', '-y', '-i', str(Path(input_video)), '-t', '90',
             '-filter_complex', filter_complex_str,
             '-map', f'[{last_node}]', '-map', '0:a?',
             '-c:v', 'libx264', '-preset', 'fast', '-c:a', 'aac', str(output_filepath)
@@ -1963,28 +2260,34 @@ def format_vertical_video(input_video: str, headline: str, output_filepath: Path
         
         subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT, check=True)
         
-        # V14.1: Build simplified OSINT Video Caption
+        # V18.30: Build algorithm-optimized OSINT Video Caption
         instagram_caption = parsed_json.get("instagram_caption", "News update.")
+        dynamic_hashtags = parsed_json.get("dynamic_hashtags", "")
+        if isinstance(dynamic_hashtags, list):
+            hashtag_str = " ".join(dynamic_hashtags)
+        elif isinstance(dynamic_hashtags, str) and dynamic_hashtags.strip():
+            hashtag_str = dynamic_hashtags
+        else:
+            hashtag_str = "#geopolitics"
 
-        video_caption_content = f"\U0001f6a8 BREAKING: {headline}\n\n"
-        video_caption_content += f"{instagram_caption}\n\n"
+        video_caption_content = f"{instagram_caption}\n\n"
         video_caption_content += f"\U0001f4f0 Source: {headline}\n"
         video_caption_content += f"\U0001f517 {article_url}\n\n"
-        video_caption_content += "Follow @geopoliticsofical for daily intelligence. \U0001f30d\n\n"
-        video_caption_content += "#Geopolitics #Military #IRGC #BreakingNews #MiddleEast\n"
+        video_caption_content += "Follow @geopoliticsoficial for daily intelligence. \U0001f30d\n\n"
+        video_caption_content += f"{hashtag_str}\n"
 
         with open(caption_filepath, "w", encoding="utf-8") as vf:
             vf.write(video_caption_content)
         
         # Cleanup
-        if temp_raw.exists():
-            temp_raw.unlink()
+        if Path(input_video).exists():
+            Path(input_video).unlink()
             
         return True
     except Exception as e:
         print(f"  [INFO] No extractable/processable video found on this page. ({e})")
-        if 'temp_raw' in locals() and temp_raw.exists():
-            temp_raw.unlink()
+        if Path(input_video).exists():
+            Path(input_video).unlink()
         return False
 
 
@@ -2050,7 +2353,7 @@ def upload_files_to_drive(file_paths: list[Path]):
     if not svc:
         return
     try:
-        ROOT_ID = "1AVFFrHH89quUE8wMO_C5XHu7T62RuBNZ"
+        ROOT_ID = os.getenv("DRIVE_ROOT_ID", "1AVFFrHH89quUE8wMO_C5XHu7T62RuBNZ")
         
         # User requested new folder structure: DD_FN----Date_FolderNumber-1,2,3
         target_folder_id = find_or_create_folder(svc, folder_name, ROOT_ID)
@@ -2064,194 +2367,178 @@ def upload_files_to_drive(file_paths: list[Path]):
 
 
 # ===========================================================================
-# 17. MAIN ORCHESTRATOR (V8.9 — Image-Only Engine)
+# 17. MAIN ORCHESTRATOR (V18.30 — Content Factory)
 # ===========================================================================
 
-
-# ===========================================================================
-# 17A. V17.0 INSTAGRAM CLONE & REBRAND ENGINE
-# ===========================================================================
-
-def fetch_ig_apify(image_count: int) -> list[dict]:
-    """V18.25: Emergency Fallback IG Engine via Apify. Images ONLY."""
-    if image_count >= 5:
-        return []
-        
-    if not APIFY_AVAILABLE:
-        log.warning("  [IG] apify-client not installed. Skipping Instagram fallback engine.")
-        return []
-    
-    apify_tokens = [
-        os.environ.get("APIFY_TOKEN_NEW", ""),
-        os.environ.get("APIFY_TOKEN", "")
-    ]
-    valid_tokens = [t for t in apify_tokens if t]
-    
-    if not valid_tokens:
-        log.warning("  [IG] No valid APIFY_TOKEN found. Skipping Instagram fallback engine.")
-        return []
-    
-    posts = []
-    IG_SOURCES = ["thecradlemedia", "almayadeenenglish", "irna_en", "funker530", "presstv", "tehrantimes"]
-    target_url = f"https://www.instagram.com/{random.choice(IG_SOURCES)}/"
-    
-    for token in valid_tokens:
-        client = ApifyClient(token)
-        try:
-            print(f"  [IG-FALLBACK] Triggering Apify Instagram Scraper on {target_url}...")
-            run_input = {
-                "directUrls": [target_url],
-                "resultsType": "posts",
-                "resultsLimit": 15,
-            }
-            run = client.actor("apify/instagram-scraper").call(run_input=run_input)
-            
-            print("  [IG-FALLBACK] Fetching dataset results...")
-            for item in client.dataset(run["defaultDatasetId"]).iterate_items():
-                post = {
-                    "caption": item.get("caption", ""),
-                    "image_url": item.get("displayUrl", ""),
-                    "video_url": item.get("videoUrl", ""),
-                    "is_video": item.get("isVideo", False),
-                    "owner": item.get("ownerUsername", "Unknown"),
-                    "timestamp": item.get("timestamp", ""),
-                    "url": item.get("url", ""),
-                }
-                if post["is_video"]:
-                    log.info(f"  [IG-FALLBACK] Skipping video from @{post['owner']}. Videos are strictly Telegram only.")
-                    continue
-                    
-                if post["caption"] or post["image_url"]:
-                    posts.append(post)
-                    log.info(f"  [IG-FALLBACK] Found image post from @{post['owner']}: {post['caption'][:50]}...")
-            
-            break # Success
-            
-        except Exception as e:
-            log.warning(f"  [IG-FALLBACK] Apify API limit reached or failed with token {token[:12]}: {e}. Trying next token...")
-            continue
-    
-    log.info(f"  [IG-FALLBACK] Total posts fetched: {len(posts)}")
-    return posts
-
-def fetch_ig_scrape_creators() -> list[dict]:
-    """V18.24: Primary IG Engine via Scrape Creators API."""
-    IG_SOURCES = ["thecradlemedia", "almayadeenenglish", "irna_en", "funker530"]
-    api_key = os.environ.get("SCRAPE_CREATORS_API_KEY", "")
-    posts = []
-    
-    if not api_key:
-        log.warning("  [IG-PRIMARY] No SCRAPE_CREATORS_API_KEY found/provided. Scrape Creators bypassed.")
-        return posts
-        
-    print("  [SYSTEM] Engaging Primary IG Engine: Scrape Creators API...")
-    for source in IG_SOURCES:
-        url = "https://scrapecreator.p.rapidapi.com/v1/instagram/user/posts"
-        headers = {
-            "x-rapidapi-key": api_key,
-            "x-rapidapi-host": "scrapecreator.p.rapidapi.com"
-        }
-        params = {"username": source, "limit": "10"}
-        
-        try:
-            response = requests.get(url, headers=headers, params=params, timeout=15)
-            log.info(f"  [IG-PRIMARY] Scrape Creators API status: {response.status_code}")
-            log.info(f"  [IG-PRIMARY] Scrape Creators API response: {response.text[:500]}...")
-            
-            if response.status_code == 200:
-                data = response.json()
-                items = data.get("data", {}).get("items", []) if isinstance(data.get("data"), dict) else data.get("items", [])
-                if not items and isinstance(data, list):
-                    items = data
-                    
-                for item in items:
-                    caption = item.get("caption", item.get("text", ""))
-                    if isinstance(caption, dict):
-                        caption = caption.get("text", "")
-                        
-                    video_url = item.get("video_url")
-                    if not video_url and isinstance(item.get("video_versions"), list) and len(item.get("video_versions")) > 0:
-                        video_url = item["video_versions"][0].get("url", "")
-                        
-                    image_url = item.get("image_url", item.get("display_url", item.get("thumbnail_url", "")))
-                    post_url = item.get("url", item.get("permalink", f"https://instagram.com/p/{item.get('shortcode', '')}"))
-                    
-                    is_video = True if video_url else False
-                    if is_video:
-                        log.info(f"  [IG-PRIMARY] Skipping video from {source}. Videos are strictly Telegram only.")
-                        continue
-                    
-                    if caption or image_url:
-                        posts.append({
-                            "caption": caption,
-                            "image_url": image_url,
-                            "video_url": video_url,
-                            "is_video": is_video,
-                            "owner": source,
-                            "timestamp": item.get("timestamp", ""),
-                            "url": post_url
-                        })
-        except Exception as e:
-            log.warning(f"  [IG-PRIMARY] Scrape Creators failed for {source}: {e}")
-            
-    log.info(f"  [IG-PRIMARY] Total Scrape Creators posts fetched: {len(posts)}")
-    return posts
 
 def run_telegram_hunter(posted_links, successful_post_counter, image_count, tg_video_count, tg_image_count, drive_queue):
-    print("  [SYSTEM] Engaging Telegram Quota Hunter (Target: 2 Images, 3 Videos)...")
-    
+    """V19.1: Telethon native Telegram video hunter with BS4 fallback."""
+    print("  [SYSTEM] Engaging Telegram Video Hunter (Target: 5 Videos)...")
+
     TG_CHANNELS = [
-        'thecradlemedia', 'middle_east_spectator', 'ResistanceTrench', 
-        'RNN_webed', 'PalestineResist', 'QudsNen', 'DDGeopolitics', 
+        'thecradlemedia', 'middle_east_spectator', 'ResistanceTrench',
+        'RNN_webed', 'PalestineResist', 'QudsNen', 'DDGeopolitics',
         'warmonitors', 'BellumActaNews', 'militarywave', 'presstv', 'CensoredMen'
     ]
-    
-    for channel in TG_CHANNELS:
-        if tg_image_count >= 2 and tg_video_count >= 3:
-            print("  [TG] Quotas fully met! Exiting Telegram engine.")
-            break
-            
-        url = f"https://t.me/s/{channel}"
-        try:
-            response = requests.get(url, timeout=15)
-            soup = BeautifulSoup(response.text, 'html.parser')
-            messages = soup.find_all('div', class_='tgme_widget_message')
-            
-            for msg in reversed(messages):
-                if tg_image_count >= 2 and tg_video_count >= 3:
+
+    # --- V19.1: PRIMARY — Telethon Native Client ---
+    tg_api_id = os.environ.get("TG_API_ID", "")
+    tg_api_hash = os.environ.get("TG_API_HASH", "")
+    tg_session = os.environ.get("TG_SESSION_STRING", "")
+
+    if TELETHON_AVAILABLE and tg_api_id and tg_api_hash and tg_session:
+        log.info("  [TG] Telethon credentials found. Using native MTProto client.")
+
+        async def _telethon_hunt():
+            nonlocal successful_post_counter, image_count, tg_video_count, tg_image_count
+
+            client = TelegramClient(
+                StringSession(tg_session),
+                int(tg_api_id),
+                tg_api_hash,
+            )
+            await client.start()
+            log.info("  [TG] Telethon connected ✓")
+
+            for channel in TG_CHANNELS:
+                if tg_video_count >= MAX_VIDEOS:
+                    log.info("  [TG] Video quota fully met! Exiting Telegram engine.")
                     break
-                    
-                msg_link = msg.get('data-post')
-                if not msg_link or is_posted(msg_link, posted_links):
+
+                try:
+                    entity = await client.get_entity(channel)
+                    log.info(f"  [TG] Scanning channel: {channel}")
+
+                    async for message in client.iter_messages(
+                        entity, limit=20, filter=InputMessagesFilterVideo
+                    ):
+                        if tg_video_count >= MAX_VIDEOS:
+                            break
+
+                        # Dedup check
+                        msg_link = f"tg://{channel}/{message.id}"
+                        if is_posted(msg_link, posted_links):
+                            continue
+
+                        # Combat relevance filter
+                        caption_text = message.text or ""
+                        if not is_combat_relevant(caption_text):
+                            continue
+
+                        # Download video natively via Telethon
+                        temp_video_path = str(BASE_DIR / "videos" / f"temp_tg_raw_{successful_post_counter:02d}.mp4")
+                        log.info(f"  [TG] Downloading video from {channel}/{message.id}...")
+                        await client.download_media(message, file=temp_video_path)
+
+                        if not os.path.exists(temp_video_path):
+                            log.warning(f"  [TG] Download failed for {channel}/{message.id}")
+                            continue
+
+                        print(f"  [TG] ✓ Video downloaded from {channel}")
+
+                        # AI rewrite for GOAT Mode caption
+                        rewrite_result = rewrite_caption_ai(caption_text)
+                        if not rewrite_result:
+                            rewritten_caption = caption_text[:200]
+                            image_hook = rewritten_caption[:80]
+                        else:
+                            rewritten_caption = rewrite_result.get("rewritten_caption", "News update.")
+                            image_hook = rewrite_result.get("image_hook", rewritten_caption[:80])
+
+                        clean_caption = re.sub(r'[\*"]', '', rewritten_caption).strip()
+
+                        final_file_path = OUTPUT_DIR / f"{successful_post_counter:02d}_Video.mp4"
+                        caption_path = OUTPUT_DIR / f"{successful_post_counter:02d}_Caption.txt"
+
+                        # FFmpeg 9:16 processing
+                        print("  [TG] Applying FFmpeg vertical processing...")
+                        ffmpeg_cmd = [
+                            'ffmpeg', '-y', '-i', temp_video_path,
+                            '-vf', 'split[original][copy];[copy]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:20[blurred];[original]scale=1080:1920:force_original_aspect_ratio=decrease[scaled];[blurred][scaled]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2',
+                            '-c:v', 'libx264', '-crf', '23', '-preset', 'fast', '-c:a', 'aac', '-b:a', '128k',
+                            '-t', '90',
+                            str(final_file_path)
+                        ]
+                        res = subprocess.run(ffmpeg_cmd, capture_output=True)
+                        if res.returncode != 0:
+                            log.error(f"  [TG] FFmpeg failed: {res.stderr.decode('utf-8', errors='replace')[:200]}")
+                            if os.path.exists(temp_video_path):
+                                os.unlink(temp_video_path)
+                            continue
+
+                        # Cleanup raw
+                        if os.path.exists(temp_video_path):
+                            os.unlink(temp_video_path)
+
+                        # Build GOAT Mode caption with dynamic hashtags
+                        dynamic_hashtags = rewrite_result.get("dynamic_hashtags", "") if rewrite_result else ""
+                        if isinstance(dynamic_hashtags, list):
+                            hashtag_str = " ".join(dynamic_hashtags)
+                        elif isinstance(dynamic_hashtags, str) and dynamic_hashtags.strip():
+                            hashtag_str = dynamic_hashtags
+                        else:
+                            hashtag_str = "#geopolitics"
+
+                        with open(caption_path, "w", encoding="utf-8") as f:
+                            f.write(f"{clean_caption}\n\nFollow @geopoliticsoficial for daily intelligence. \U0001f30d\n\n{hashtag_str}\n")
+
+                        drive_queue.extend([Path(final_file_path), Path(caption_path)])
+                        tg_video_count += 1
+                        successful_post_counter += 1
+                        mark_posted(msg_link, None, posted_links, title=image_hook)
+                        log.info(f"  [TG] ✓ Video {tg_video_count}/{MAX_VIDEOS} processed from {channel}")
+
+                except Exception as e:
+                    log.warning(f"  [TG] Telethon error on {channel}: {e}")
                     continue
-                    
-                text_div = msg.find('div', class_='tgme_widget_message_text')
-                caption = text_div.text if text_div else ""
-                
-                if not is_combat_relevant(caption):
-                    continue
-                    
-                video_tag = msg.find('video')
-                photo_tag = msg.find('a', class_='tgme_widget_message_photo_wrap')
-                
-                media_url = None
-                is_video = False
-                
-                if video_tag and video_tag.get('src'):
-                    if tg_video_count >= 3:
+
+            await client.disconnect()
+
+        try:
+            asyncio.run(_telethon_hunt())
+        except Exception as e:
+            log.error(f"  [TG] Telethon async execution failed: {e}. Falling back to BS4...")
+            # Fall through to BS4 fallback below
+
+    else:
+        # --- FALLBACK: Legacy BS4 HTML Scraping ---
+        if not TELETHON_AVAILABLE:
+            log.info("  [TG] Telethon not installed. Using BS4 HTML scraping fallback.")
+        else:
+            log.info("  [TG] TG_API_ID/TG_API_HASH/TG_SESSION_STRING not set. Using BS4 fallback.")
+
+        for channel in TG_CHANNELS:
+            if tg_video_count >= MAX_VIDEOS:
+                print("  [TG] Video quota fully met! Exiting Telegram engine.")
+                break
+
+            url = f"https://t.me/s/{channel}"
+            try:
+                response = requests.get(url, timeout=15)
+                soup = BeautifulSoup(response.text, 'html.parser')
+                messages = soup.find_all('div', class_='tgme_widget_message')
+
+                for msg in reversed(messages):
+                    if tg_video_count >= MAX_VIDEOS:
+                        break
+
+                    msg_link = msg.get('data-post')
+                    if not msg_link or is_posted(msg_link, posted_links):
                         continue
+
+                    text_div = msg.find('div', class_='tgme_widget_message_text')
+                    caption = text_div.text if text_div else ""
+
+                    if not is_combat_relevant(caption):
+                        continue
+
+                    video_tag = msg.find('video')
+                    if not (video_tag and video_tag.get('src')):
+                        continue  # Video-only mode
+
                     media_url = video_tag['src']
-                    is_video = True
-                elif photo_tag and photo_tag.get('style'):
-                    if tg_image_count >= 2:
-                        continue
-                    match = re.search(r"url\('(.+?)'\)", photo_tag['style'])
-                    if match:
-                        media_url = match.group(1)
-                        
-                if media_url:
-                    print(f"  [TG] Found valid combat media from {channel}")
-                    
+                    print(f"  [TG-BS4] Found valid combat video from {channel}")
+
                     rewrite_result = rewrite_caption_ai(caption)
                     if not rewrite_result:
                         rewritten_caption = caption[:200]
@@ -2259,73 +2546,184 @@ def run_telegram_hunter(posted_links, successful_post_counter, image_count, tg_v
                     else:
                         rewritten_caption = rewrite_result.get("rewritten_caption", "News update.")
                         image_hook = rewrite_result.get("image_hook", rewritten_caption[:80])
-                        
+
                     clean_caption = re.sub(r'[\*"]', '', rewritten_caption).strip()
-                    
-                    final_file_path = OUTPUT_DIR / f"{successful_post_counter:02d}_{'Video.mp4' if is_video else 'Image.png'}"
+
+                    final_file_path = OUTPUT_DIR / f"{successful_post_counter:02d}_Video.mp4"
                     caption_path = OUTPUT_DIR / f"{successful_post_counter:02d}_Caption.txt"
-                    
+
                     media_resp = requests.get(media_url, stream=True, timeout=30)
                     media_resp.raise_for_status()
-                    
-                    if is_video:
-                        temp_video_path = os.path.join("videos", f"temp_tg_raw_{successful_post_counter:02d}.mp4")
-                        with open(temp_video_path, 'wb') as f:
-                            for chunk in media_resp.iter_content(chunk_size=8192):
-                                f.write(chunk)
-                                
-                        print("  [TG] Applying FFmpeg processing to Telegram Video...")
-                        ffmpeg_cmd = [
-                            'ffmpeg', '-y', '-i', temp_video_path,
-                            '-vf', 'split[original][copy];[copy]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:20[blurred];[original]scale=1080:1920:force_original_aspect_ratio=decrease[scaled];[blurred][scaled]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2',
-                            '-c:v', 'libx264', '-crf', '23', '-preset', 'fast', '-c:a', 'aac', '-b:a', '128k',
-                            str(final_file_path)
-                        ]
-                        res = subprocess.run(ffmpeg_cmd, capture_output=True)
-                        if res.returncode != 0:
-                            log.error(f"  [TG] FFmpeg failed: {res.stderr.decode('utf-8')}")
-                            continue
-                            
-                        hashtags = "\n\n#Geopolitics #Military #OSINT #BreakingNews #Defense"
-                        with open(caption_path, "w", encoding="utf-8") as f:
-                            f.write(f"🚨 BREAKING:\n\n{clean_caption}{hashtags}\n")
-                            
-                        drive_queue.extend([Path(final_file_path), Path(caption_path)])
-                        tg_video_count += 1
-                        successful_post_counter += 1
-                        mark_posted(msg_link, None, posted_links, title=image_hook)
+
+                    temp_video_path = os.path.join("videos", f"temp_tg_raw_{successful_post_counter:02d}.mp4")
+                    with open(temp_video_path, 'wb') as f:
+                        for chunk in media_resp.iter_content(chunk_size=8192):
+                            f.write(chunk)
+
+                    print("  [TG-BS4] Applying FFmpeg processing...")
+                    ffmpeg_cmd = [
+                        'ffmpeg', '-y', '-i', temp_video_path,
+                        '-vf', 'split[original][copy];[copy]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:20[blurred];[original]scale=1080:1920:force_original_aspect_ratio=decrease[scaled];[blurred][scaled]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2',
+                        '-c:v', 'libx264', '-crf', '23', '-preset', 'fast', '-c:a', 'aac', '-b:a', '128k',
+                        str(final_file_path)
+                    ]
+                    res = subprocess.run(ffmpeg_cmd, capture_output=True)
+                    if res.returncode != 0:
+                        log.error(f"  [TG-BS4] FFmpeg failed: {res.stderr.decode('utf-8', errors='replace')[:200]}")
+                        continue
+
+                    dynamic_hashtags = rewrite_result.get("dynamic_hashtags", "") if rewrite_result else ""
+                    if isinstance(dynamic_hashtags, list):
+                        hashtag_str = " ".join(dynamic_hashtags)
+                    elif isinstance(dynamic_hashtags, str) and dynamic_hashtags.strip():
+                        hashtag_str = dynamic_hashtags
                     else:
-                        temp_img_path = os.path.join("videos", f"temp_tg_raw_{successful_post_counter:02d}.jpg")
-                        with open(temp_img_path, 'wb') as f:
-                            for chunk in media_resp.iter_content(chunk_size=8192):
-                                f.write(chunk)
-                                
-                        tg_article = {
-                            "title": image_hook,
-                            "image_hook": image_hook,
-                            "instagram_caption": clean_caption,
-                            "source": channel,
-                            "real_url": msg_link,
-                            "link": msg_link,
-                            "image_url": temp_img_path,
-                            "threat_level": 8,
-                            "video_overlays": [],
-                            "countries": [],
-                        }
-                        
-                        generate_card(tg_article, final_file_path, threat_level=8)
-                        generate_caption(tg_article, caption_path)
-                        
-                        drive_queue.extend([Path(final_file_path), Path(caption_path)])
-                        image_count += 1
-                        tg_image_count += 1
-                        successful_post_counter += 1
-                        mark_posted(msg_link, None, posted_links, title=image_hook)
-                    
-        except Exception as e:
-            print(f"  [ERROR] Telegram scraping failed for {channel}: {e}")
-            
+                        hashtag_str = "#geopolitics"
+
+                    with open(caption_path, "w", encoding="utf-8") as f:
+                        f.write(f"{clean_caption}\n\nFollow @geopoliticsoficial for daily intelligence. \U0001f30d\n\n{hashtag_str}\n")
+
+                    drive_queue.extend([Path(final_file_path), Path(caption_path)])
+                    tg_video_count += 1
+                    successful_post_counter += 1
+                    mark_posted(msg_link, None, posted_links, title=image_hook)
+
+            except Exception as e:
+                print(f"  [ERROR] Telegram BS4 scraping failed for {channel}: {e}")
+
     return successful_post_counter, image_count, tg_video_count, tg_image_count
+
+
+def run_youtube_hunter(posted_links, successful_post_counter, tg_video_count, drive_queue):
+    """V19.1: YouTube Data API v3 + yt-dlp fallback video hunter."""
+    yt_api_key = os.environ.get("YOUTUBE_API_KEY", "")
+    if not yt_api_key:
+        log.info("  [YT] YOUTUBE_API_KEY not set. Skipping YouTube hunter.")
+        return successful_post_counter, tg_video_count
+
+    remaining = MAX_VIDEOS - tg_video_count
+    if remaining <= 0:
+        log.info("  [YT] Video quota already met. Skipping YouTube hunter.")
+        return successful_post_counter, tg_video_count
+
+    log.info(f"  [YT] YouTube hunter engaged. Filling {remaining} remaining video slots...")
+
+    try:
+        from googleapiclient.discovery import build as yt_build
+        youtube = yt_build("youtube", "v3", developerKey=yt_api_key)
+
+        # Build search query from top kinetic keywords
+        search_query = " | ".join(KINETIC_KEYWORDS[:5]) + " news"
+        published_after = (datetime.now(timezone.utc) - timedelta(hours=24)).isoformat()
+
+        log.info(f"  [YT] Search query: {search_query[:60]}…")
+
+        search_response = youtube.search().list(
+            q=search_query,
+            part="snippet",
+            type="video",
+            order="date",
+            maxResults=min(remaining + 2, 10),  # Over-fetch slightly for filtering
+            publishedAfter=published_after,
+            videoDuration="short",
+            relevanceLanguage="en",
+        ).execute()
+
+        items = search_response.get("items", [])
+        log.info(f"  [YT] Found {len(items)} YouTube results.")
+
+        class YTDLPLogger:
+            def debug(self, msg): pass
+            def warning(self, msg): pass
+            def error(self, msg): pass
+
+        for item in items:
+            if tg_video_count >= MAX_VIDEOS:
+                break
+
+            video_id = item.get("id", {}).get("videoId", "")
+            snippet = item.get("snippet", {})
+            title = snippet.get("title", "")
+            description = snippet.get("description", "")
+
+            if not video_id or not title:
+                continue
+
+            # Combat relevance check
+            combined_text = f"{title} {description}"
+            if not is_combat_relevant(combined_text):
+                log.info(f"  [YT] Skipping non-combat video: {title[:50]}…")
+                continue
+
+            video_url = f"https://www.youtube.com/watch?v={video_id}"
+            if is_posted(video_url, posted_links):
+                continue
+
+            # Download with yt-dlp
+            temp_raw = str(BASE_DIR / "videos" / f"temp_yt_raw_{successful_post_counter:02d}.mp4")
+            ydl_opts = {
+                'outtmpl': temp_raw,
+                'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
+                'quiet': True,
+                'no_warnings': True,
+                'logger': YTDLPLogger(),
+                'match_filter': lambda info, *args, **kwargs: 'Video is too long' if info.get('duration', 0) > 180 else None,
+                'extractor_args': {'youtube': {'player_client': ['android']}},
+            }
+
+            try:
+                log.info(f"  [YT] Downloading: {title[:60]}…")
+                with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                    ydl.download([video_url])
+
+                if not os.path.exists(temp_raw):
+                    log.warning(f"  [YT] Download failed for {video_id}")
+                    continue
+
+                # AI rewrite caption
+                rewrite_result = rewrite_caption_ai(f"{title}. {description[:500]}")
+                if not rewrite_result:
+                    rewritten_caption = title[:200]
+                    image_hook = title[:80]
+                else:
+                    rewritten_caption = rewrite_result.get("rewritten_caption", "News update.")
+                    image_hook = rewrite_result.get("image_hook", rewritten_caption[:80])
+
+                clean_caption = re.sub(r'[\*"]', '', rewritten_caption).strip()
+
+                final_file_path = OUTPUT_DIR / f"{successful_post_counter:02d}_Video.mp4"
+                caption_path = OUTPUT_DIR / f"{successful_post_counter:02d}_Caption.txt"
+
+                # Build parsed_json for format_vertical_video
+                parsed_json = {
+                    "instagram_caption": clean_caption,
+                    "video_overlays": rewrite_result.get("video_overlays", [title]) if rewrite_result else [title],
+                    "dynamic_hashtags": rewrite_result.get("dynamic_hashtags", "") if rewrite_result else "",
+                }
+
+                success = format_vertical_video(
+                    temp_raw, title, final_file_path, caption_path, video_url, parsed_json
+                )
+
+                if success:
+                    drive_queue.extend([Path(final_file_path), Path(caption_path)])
+                    tg_video_count += 1
+                    successful_post_counter += 1
+                    mark_posted(video_url, None, posted_links, title=image_hook)
+                    log.info(f"  [YT] ✓ Video {tg_video_count}/{MAX_VIDEOS} processed from YouTube")
+
+            except Exception as e:
+                log.warning(f"  [YT] Failed to process video {video_id}: {e}")
+                if os.path.exists(temp_raw):
+                    os.unlink(temp_raw)
+                continue
+
+    except ImportError:
+        log.warning("  [YT] google-api-python-client not available for YouTube search.")
+    except Exception as e:
+        log.error(f"  [YT] YouTube hunter failed: {e}")
+
+    return successful_post_counter, tg_video_count
 
 
 def rewrite_caption_ai(original_caption: str) -> dict | None:
@@ -2333,7 +2731,7 @@ def rewrite_caption_ai(original_caption: str) -> dict | None:
     if not original_caption.strip():
         return None
     
-    prompt = _IG_REWRITE_PROMPT.format(caption=original_caption[:2000])
+    prompt = _IG_REWRITE_PROMPT.format(current_time=_goat_timestamp(), caption=original_caption[:2000])
     
     # Reuse the same 3-tier API waterfall
     # Attempt Groq first
@@ -2375,114 +2773,20 @@ def rewrite_caption_ai(original_caption: str) -> dict | None:
     return None
 
 
-def process_instagram_batch(ig_posts: list[dict], drive_queue: list[Path], posted_links: dict, image_count: int) -> tuple[int, int]:
-    """V18.25: Process Instagram image posts with strict quotas and duplicate tracking."""
-    global successful_post_counter
-    if not ig_posts:
-        return 0, image_count
-    
-    prefix = get_filename_prefix()
-    ig_count = 0
-    
-    MAX_IG_IMAGES = 5
-    
-    for idx, post in enumerate(ig_posts, 1):
-        if image_count >= MAX_IG_IMAGES:
-            log.info("  [IG] All quotas met. Stopping Instagram batch.")
-            break
-            
-        try:
-            ig_url = post.get("url", "")
-            if is_posted(ig_url, posted_links):
-                log.info(f"  [IG] Skipping {ig_url} (Already posted / Duplicate).")
-                continue
-                
-            log.info(f"\n{'=' * 40}")
-            log.info(f"  [IG] Processing IG post from @{post['owner']} ({ig_url})")
-            
-            # Extract and check caption against the strict combat gatekeeper
-            caption = post.get("caption", "")
-            if not is_combat_relevant(caption):
-                log.info("  [IG] Skipped: Out of context (No combat keywords in caption).")
-                continue
-            
-            # AI Rewrite the caption
-            rewrite_result = rewrite_caption_ai(caption)
-            if not rewrite_result:
-                log.warning("  [IG] Caption rewrite failed. Using original caption.")
-                rewritten_caption = post.get("caption", "News update.")[:200]
-                image_hook = rewritten_caption[:80]
-            else:
-                rewritten_caption = rewrite_result.get("rewritten_caption", "News update.")
-                image_hook = rewrite_result.get("image_hook", rewritten_caption[:80])
-            
-            # Build a fake article dict to reuse existing functions
-            ig_article = {
-                "title": image_hook,
-                "image_hook": image_hook,
-                "instagram_caption": rewritten_caption,
-                "source": f"@{post['owner']}",
-                "real_url": ig_url,
-                "link": ig_url,
-                "image_url": post.get("image_url", ""),
-                "threat_level": 8,
-                "video_overlays": [],
-                "countries": [],
-            }
-            
-            # Clean AI artifacts like ** and "
-            clean_caption = re.sub(r'[\*"]', '', rewritten_caption).strip()
-            
-            video_url = post.get("video_url")
-            is_video = True if video_url else False
-            
-            if is_video:
-                log.info("  [IG] Skipped: Videos are strictly handled by Telegram Engine.")
-                continue
-            else:
-                # === IMAGE MODE ===
-                if image_count < MAX_IG_IMAGES:
-                    log.info("  [IG] Processing as IMAGE...")
-                    png = Path(RUN_DIR) / f"{successful_post_counter:02d}_Image.png"
-                    txt = Path(RUN_DIR) / f"{successful_post_counter:02d}_Caption.txt"
-                    
-                    try:
-                        # Ensure we clean caption for text generation too
-                        ig_article["instagram_caption"] = clean_caption
-                        
-                        generate_card(ig_article, png, threat_level=8)
-                        # We also overwrite the caption file directly to match the hashtags requested
-                        generate_caption(ig_article, txt)
-                        
-                        hashtags = "\n\n#Geopolitics #Military #OSINT #BreakingNews #Defense"
-                        with open(txt, "w", encoding="utf-8") as f:
-                            f.write(f"🚨 BREAKING:\n\n{clean_caption}{hashtags}\n")
-                        
-                        drive_queue.extend([png, txt])
-                        ig_count += 1
-                        image_count += 1
-                        successful_post_counter += 1
-                        mark_posted(ig_url, None, posted_links, title=image_hook)
-                        log.info(f"  [IG] ✓ Image {image_count}/{MAX_IG_IMAGES} successfully generated.")
-                    except Exception as e:
-                        log.error(f"  [IG] Card generation failed: {e}")
-                else:
-                    log.info("  [IG] Image quota met. Skipping excess image.")
-            
-            # Rate limit
-            time.sleep(5)
-            
-        except Exception as e:
-            log.error(f"  [IG] Failed processing IG post: {e}")
-            continue
-    
-    log.info(f"  [IG] Instagram batch complete: {ig_count} total image posts processed.")
-    return ig_count, image_count
-
 def main() -> None:
     log.info("=" * 60)
-    log.info("Geopolitical Breaking News v17.0 — IG Clone + Omni-Channel Engine")
+    log.info("Geopolitical Breaking News v19.1 — Global OSINT Syndicate")
     log.info("=" * 60)
+
+    # V19.0: Load brain weights from reinforcement learning loop
+    load_brain_weights()
+
+    # V19.0: Midnight Run gate — if triggered by midnight cron, run analysis and exit
+    run_mode = os.environ.get("RUN_MODE", "normal")
+    if run_mode == "midnight_analysis":
+        analyze_past_performance()
+        log.info("  [MIDNIGHT] Analysis complete. Exiting without posting.")
+        return
 
     # Ensure output directories exist for both static cards and video assets.
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -2490,18 +2794,18 @@ def main() -> None:
 
     articles = fetch_articles()
     if not articles:
-        log.info("No articles. Proceeding to IG engine...")
+        log.info("No articles fetched. Proceeding to video engines...")
         articles = []
 
     geo = filter_geopolitics(articles)
     if not geo:
-        log.info("No geopolitics articles. Proceeding to IG engine...")
+        log.info("No geopolitics articles. Proceeding to video engines...")
         geo = []
 
     posted = load_posted()
     batch = select_and_extract_batch(geo, posted) if geo else []
     if not batch:
-        log.info("No extractable RSS articles found. Proceeding to IG engine...")
+        log.info("No extractable articles found. Proceeding to video engines...")
 
     log.info(f"Batch: {len(batch)} articles selected for processing")
 
@@ -2512,17 +2816,22 @@ def main() -> None:
     carousel_caption = ""
     prefix = get_filename_prefix()
     
-    # V18.25 Multi-Agent Quotas
-    run_video = True
+    # V19.1 Content Quotas
     tg_video_count = 0
     tg_image_count = 0
     image_count = 0
 
-    
     # Store dynamic files for Drive
     drive_upload_queue = []
     
     global successful_post_counter
+
+    # --------------------------------------------------
+    # PHASE 1: 3-Tier News Card Generation (Target: 4 cards)
+    # --------------------------------------------------
+    log.info("\n" + "=" * 60)
+    log.info("V19.1 Phase 1: News Card Generation (Target: %d cards)", BATCH_SIZE)
+    log.info("=" * 60)
 
     for idx, article in enumerate(batch, 1):
         try:
@@ -2531,10 +2840,11 @@ def main() -> None:
             log.info(f"Source: {article['source']} | {article.get('real_url', article['link'])[:60]}\u2026")
 
             # Try AI generation, if it throws rate limits/errors, it will be caught below
-            article = generate_internal_summary(article)
+            # V19.0: Skip re-summarization for triangulated articles (already AI-processed)
+            if not article.get("_triangulated"):
+                article = generate_internal_summary(article)
 
             # V17.7: Strict "No Image = Skip" Rule
-            # Download image first to verify quality before generating text
             temp_img = download_article_image(article)
             fallback = get_locator_map(article) or get_actor_image(article) if not temp_img else None
             if not temp_img and not fallback:
@@ -2547,7 +2857,6 @@ def main() -> None:
             png = OUTPUT_DIR / f"{successful_post_counter:02d}_Image.png"
             txt = OUTPUT_DIR / f"{successful_post_counter:02d}_Caption.txt"
 
-            
             threat_level = int(article.get("threat_level", 8))
             generate_card(article, png, threat_level=threat_level)
             generate_caption(article, txt)
@@ -2556,17 +2865,9 @@ def main() -> None:
             successful_post_counter += 1
             image_count += 1
 
-            
-            # Append local txt to combined string
+            # Append local txt to combined carousel string
             if txt.exists():
                 carousel_caption += txt.read_text(encoding="utf-8") + "\n\n---\n\n"
-
-            # V16.7: Decoupled Video Generation with Quota Cap
-            if run_video:
-                # V18.25: Local Generation (if any) could theoretically cap, but 
-                # here we just let it run if run_video is True for local files,
-                # though user requested all video from TG. We skip internal RSS video creation.
-                log.info("  [RSS] Video generation skipped. Videos handled exclusively by Telegram.")
 
             posted = mark_posted(
                 article.get("real_url", article["link"]),
@@ -2575,7 +2876,7 @@ def main() -> None:
             )
             save_posted(posted)
             processed_count += 1
-            log.info(f"  Card {processed_count} complete \u2713")
+            log.info(f"  Card {processed_count}/{BATCH_SIZE} complete \u2713")
 
             # Stop after BATCH_SIZE valid articles
             if processed_count >= BATCH_SIZE:
@@ -2592,42 +2893,44 @@ def main() -> None:
             continue
 
     # --------------------------------------------------
-    # V18.24 MULTI-AGENT HYBRID ENGINE
+    # PHASE 2: Telethon Video Hunting (Target: 5 videos)
     # --------------------------------------------------
     log.info("\n" + "=" * 60)
-    log.info("V18.24: Starting Multi-Agent Hybrid Engine...")
+    log.info("V19.1 Phase 2: Telegram Video Hunting (Target: %d videos)", MAX_VIDEOS)
     log.info("=" * 60)
     
-    # Engine 1: Scrape Creators API
-    ig_posts = fetch_ig_scrape_creators()
-    ig_processed, image_count = process_instagram_batch(
-        ig_posts, drive_upload_queue, posted, image_count
-    )
-    log.info(f"  [IG-PRIMARY] {ig_processed} primary IG image posts processed.")
-    
-    # Engine 2: Telegram Hunter
     successful_post_counter, image_count, tg_video_count, tg_image_count = run_telegram_hunter(
         posted, successful_post_counter, image_count, tg_video_count, tg_image_count, drive_upload_queue
     )
-    
-    # Emergency Fallback: Apify
-    apify_processed = 0
-    if not ig_posts and image_count < 5:
-        log.info("  [SYSTEM] Scrape Creators returned 0. Engaging Apify Fallback...")
-        fallback_posts = fetch_ig_apify(image_count)
-        apify_processed, image_count = process_instagram_batch(
-            fallback_posts, drive_upload_queue, posted, image_count
-        )
-        log.info(f"  [IG-FALLBACK] {apify_processed} fallback IG image posts processed.")
-        
-    save_posted(posted) # V18.0: Save posted duplicate tracker after engines run
 
-    # ----------------------------------------------------
-    # V11.0 CAROUSEL COMPILATION & DRIVE UPLOAD
+    # --------------------------------------------------
+    # PHASE 3: YouTube Fallback (Fill remaining video quota)
+    # --------------------------------------------------
+    if tg_video_count < MAX_VIDEOS:
+        log.info("\n" + "=" * 60)
+        log.info("V19.1 Phase 3: YouTube Fallback (Need %d more videos)", MAX_VIDEOS - tg_video_count)
+        log.info("=" * 60)
+
+        successful_post_counter, tg_video_count = run_youtube_hunter(
+            posted, successful_post_counter, tg_video_count, drive_upload_queue
+        )
+    else:
+        log.info("\n[PHASE 3] Video quota met. Skipping YouTube hunter.")
+
+    save_posted(posted)  # Save posted duplicate tracker after all engines run
+
+    # --------------------------------------------------
+    # PHASE 4: Carousel Compilation & Drive Upload
+    # --------------------------------------------------
+    log.info("\n" + "=" * 60)
+    log.info("V19.1 Phase 4: Drive Upload")
+    log.info("=" * 60)
+
     if carousel_caption:
         combo_txt = Path(RUN_DIR) / f"{FN}_Carousel_Combined.txt"
         combo_txt.write_text(carousel_caption, encoding="utf-8")
         drive_upload_queue.append(combo_txt)
+        log.info(f"  Carousel Combined caption saved: {combo_txt.name}")
         
     if drive_upload_queue:
         # Sort files alphabetically/numerically so 1.png and 1.txt upload together
@@ -2643,9 +2946,10 @@ def main() -> None:
         upload_files_to_drive(all_ups)
 
     log.info("\n" + "=" * 60)
-    log.info(f"Run complete. {processed_count} RSS cards + {ig_processed} IG posts + {apify_processed} Fallback posts. {failed_count} failed.")
+    log.info(f"V19.1 Run complete. {processed_count} cards + {tg_video_count} videos. {failed_count} failed.")
     log.info("=" * 60)
 
 
 if __name__ == "__main__":
     main()
+
