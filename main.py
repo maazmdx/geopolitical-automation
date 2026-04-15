@@ -2535,11 +2535,21 @@ def run_telegram_hunter(posted_links, successful_post_counter, image_count, tg_v
 
                     rewrite_result = rewrite_caption_ai(caption)
                     if not rewrite_result:
-                        rewritten_caption = caption[:200]
+                        rewritten_caption = str(caption or "")[:200]
                         image_hook = rewritten_caption[:80]
                     else:
-                        rewritten_caption = rewrite_result.get("rewritten_caption", "News update.")
-                        image_hook = rewrite_result.get("image_hook", rewritten_caption[:80])
+                        rewritten_caption_raw = rewrite_result.get("rewritten_caption", "News update.")
+                        if isinstance(rewritten_caption_raw, str):
+                            rewritten_caption = rewritten_caption_raw
+                        else:
+                            rewritten_caption = str(rewritten_caption_raw or "News update.")
+                        rewritten_caption = rewritten_caption[:200]
+
+                        image_hook_raw = rewrite_result.get("image_hook")
+                        if isinstance(image_hook_raw, str) and image_hook_raw.strip():
+                            image_hook = image_hook_raw[:80]
+                        else:
+                            image_hook = rewritten_caption[:80]
 
                     clean_caption = re.sub(r'[\*"]', '', rewritten_caption).strip()
 
