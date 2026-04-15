@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1917,
+  "total_calls": 1921,
   "tiers": {
-    "groq": 1899,
+    "groq": 1903,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-12T09:00:07.769043+00:00",
-      "tier": "groq",
-      "article": "Al-Manar correspondent: Israeli airstrikes target Al-Shahabiya and the vicinity of the Lebanese army barracks in Tyre - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-12T09:00:25.346421+00:00",
-      "tier": "groq",
-      "article": "What happened in 40 days of war on Iran"
-    },
-    {
-      "timestamp": "2026-04-12T10:47:37.680597+00:00",
-      "tier": "groq",
-      "article": "Al-Manar correspondent: Warplanes carried out an airstrike on the town of Al-Shahabiya, resulting in casualties - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-12T10:47:55.032865+00:00",
-      "tier": "groq",
-      "article": "Al-Manar correspondent: Enemy warplanes attacked the town of Nabatieh al-Fawqa in southern Lebanon - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-12T10:48:11.774172+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-15T06:08:25.108271+00:00",
       "tier": "groq",
       "article": "Islamic Resistance fighters targeted a gathering of Israeli enemy army soldiers in the vicinity of the border town of Naqoura with bombs dropped from a helicopter, hitting them directly: statement 33 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-15T08:35:54.728926+00:00",
+      "tier": "groq",
+      "article": "File photos: A look at Kamal Kharrazi\u2019s career in Islamic Republic"
+    },
+    {
+      "timestamp": "2026-04-15T08:36:12.118501+00:00",
+      "tier": "groq",
+      "article": "US forces kill 4 people in latest strike on vessels in eastern Pacific"
+    },
+    {
+      "timestamp": "2026-04-15T08:36:28.374636+00:00",
+      "tier": "groq",
+      "article": "Hezbollah\u2019s Military Media statements 4, 5 on Wednesday set out two earlier rocket strikes targeting Israeli gatherings in the northern outskirts of Bint Jbeil town - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-15T08:36:46.100431+00:00",
+      "tier": "groq",
+      "article": "US blockade of Iran ports 'irresponsible and dangerous', China says"
     }
   ]
 }
