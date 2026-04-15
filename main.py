@@ -2534,15 +2534,8 @@ def run_telegram_hunter(posted_links, successful_post_counter, image_count, tg_v
                     print(f"  [TG-BS4] Found valid combat video from {channel}")
 
                     rewrite_result = rewrite_caption_ai(caption)
-                    rewritten_caption_raw = (
-                        rewrite_result.get("rewritten_caption", "News update.")
-                        if rewrite_result
-                        else (caption or "")
-                    )
-                    if isinstance(rewritten_caption_raw, str):
-                        rewritten_caption = rewritten_caption_raw
-                    else:
-                        rewritten_caption = "News update." if rewritten_caption_raw is None else str(rewritten_caption_raw)
+                    rewritten_caption_raw = rewrite_result.get("rewritten_caption") if rewrite_result else caption
+                    rewritten_caption = "News update." if rewritten_caption_raw is None else str(rewritten_caption_raw)
                     rewritten_caption = rewritten_caption[:200]
 
                     if rewrite_result:
