@@ -1,6 +1,8 @@
 import json
+import os
 import tempfile
 import unittest
+from contextlib import contextmanager
 from pathlib import Path
 from unittest.mock import Mock, patch
 
@@ -21,6 +23,15 @@ class ExchangeCodeTests(unittest.TestCase):
         }
         (self.cwd / "credentials.json").write_text(json.dumps(creds), encoding="utf-8")
 
+    @contextmanager
+    def _in_temp_cwd(self):
+        old_cwd = Path.cwd()
+        try:
+            os.chdir(self.cwd)
+            yield
+        finally:
+            os.chdir(old_cwd)
+
     @patch("exchange.requests.post")
     def test_writes_token_json_on_successful_exchange(self, mock_post):
         response = Mock()
@@ -30,13 +41,8 @@ class ExchangeCodeTests(unittest.TestCase):
         }
         mock_post.return_value = response
 
-        old_cwd = Path.cwd()
-        try:
-            import os
-            os.chdir(self.cwd)
+        with self._in_temp_cwd():
             exchange.exchange_code()
-        finally:
-            os.chdir(old_cwd)
 
         token_path = self.cwd / "token.json"
         self.assertTrue(token_path.exists())
@@ -53,13 +59,8 @@ class ExchangeCodeTests(unittest.TestCase):
         response.json.return_value = {"error": "invalid_grant"}
         mock_post.return_value = response
 
-        old_cwd = Path.cwd()
-        try:
-            import os
-            os.chdir(self.cwd)
+        with self._in_temp_cwd():
             exchange.exchange_code()
-        finally:
-            os.chdir(old_cwd)
 
         self.assertFalse((self.cwd / "token.json").exists())
 
