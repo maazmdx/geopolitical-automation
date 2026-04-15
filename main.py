@@ -2541,10 +2541,8 @@ def run_telegram_hunter(posted_links, successful_post_counter, image_count, tg_v
                     )
                     if isinstance(rewritten_caption_raw, str):
                         rewritten_caption = rewritten_caption_raw
-                    elif rewritten_caption_raw is None:
-                        rewritten_caption = "News update."
                     else:
-                        rewritten_caption = str(rewritten_caption_raw)
+                        rewritten_caption = "News update." if rewritten_caption_raw is None else str(rewritten_caption_raw)
                     rewritten_caption = rewritten_caption[:200]
 
                     if rewrite_result:
