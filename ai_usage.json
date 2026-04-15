@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 1921,
+  "total_calls": 1925,
   "tiers": {
-    "groq": 1903,
+    "groq": 1907,
     "gemini": 18
   },
   "log": [
-    {
-      "timestamp": "2026-04-12T10:48:11.774172+00:00",
-      "tier": "groq",
-      "article": "Iranian Parliament Speaker Mohammad Bagher Ghalibaf, in a post on X: Before the negotiations, we affirmed that we possess good intentions and the necessary will, but due to the experience of the previous two wars, we have no trust in the opposing side - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-12T10:48:28.720103+00:00",
-      "tier": "groq",
-      "article": "Qalibaf: US Failed to Earn Trust in Islamabad Talks despite Iran\u2019s Proposals - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-12T13:12:02.784904+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Rejects Syrian Ministry of Interior\u2019s Accusations as False and Fabricated - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-12T13:12:22.475460+00:00",
-      "tier": "groq",
-      "article": "Itamar Ben-Gvir, Israel\u2019s far-right National Security Minister, stormed the Al-Aqsa Mosque in occupied Jerusalem on Sunday for the second time in a week - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-12T13:12:39.485047+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-15T08:36:46.100431+00:00",
       "tier": "groq",
       "article": "US blockade of Iran ports 'irresponsible and dangerous', China says"
+    },
+    {
+      "timestamp": "2026-04-15T09:34:45.469839+00:00",
+      "tier": "groq",
+      "article": "Israeli Aggression Claims Four Martyrs from One Family as Aid Vehicle Targeted in Saadiyat - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-15T09:35:03.693694+00:00",
+      "tier": "groq",
+      "article": "MP Hassan Fadlallah: The resistance fighters are surprising the enemy with their strikes from inside and outside the city of Bint Jbeil - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-15T09:35:20.552703+00:00",
+      "tier": "groq",
+      "article": "IDF Troops Find Hezbollah Anti-Tank Launcher Aimed at Northern Israel, Strike Command Centers in Southern Lebanon - VINnews"
+    },
+    {
+      "timestamp": "2026-04-15T09:35:36.406987+00:00",
+      "tier": "groq",
+      "article": "The Israeli town on the frontline with Hezbollah"
     }
   ]
 }
