@@ -2891,10 +2891,12 @@ def main() -> None:
     log.info("\n" + "=" * 60)
     log.info("V19.1 Phase 2: Telegram Video Hunting (Target: %d videos)", MAX_VIDEOS)
     log.info("=" * 60)
-    
-    successful_post_counter, image_count, tg_video_count, tg_image_count = run_telegram_hunter(
-        posted, successful_post_counter, image_count, tg_video_count, tg_image_count, drive_upload_queue
-    )
+    try:
+        successful_post_counter, image_count, tg_video_count, tg_image_count = run_telegram_hunter(
+            posted, successful_post_counter, image_count, tg_video_count, tg_image_count, drive_upload_queue
+        )
+    except Exception as e:
+        log.error(f"[PHASE 2] Telegram video engine failed: {e}")
 
     # --------------------------------------------------
     # PHASE 3: YouTube Fallback (Fill remaining video quota)
@@ -2903,10 +2905,12 @@ def main() -> None:
         log.info("\n" + "=" * 60)
         log.info("V19.1 Phase 3: YouTube Fallback (Need %d more videos)", MAX_VIDEOS - tg_video_count)
         log.info("=" * 60)
-
-        successful_post_counter, tg_video_count = run_youtube_hunter(
-            posted, successful_post_counter, tg_video_count, drive_upload_queue
-        )
+        try:
+            successful_post_counter, tg_video_count = run_youtube_hunter(
+                posted, successful_post_counter, tg_video_count, drive_upload_queue
+            )
+        except Exception as e:
+            log.error(f"[PHASE 3] YouTube fallback engine failed: {e}")
     else:
         log.info("\n[PHASE 3] Video quota met. Skipping YouTube hunter.")
 
@@ -2945,4 +2949,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
