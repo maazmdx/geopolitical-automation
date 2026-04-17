@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2039,
+  "total_calls": 2043,
   "tiers": {
-    "groq": 2020,
+    "groq": 2024,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-15T17:20:09.337603+00:00",
-      "tier": "groq",
-      "article": "Attacks on heritage sites a crime against future: Iranian artist"
-    },
-    {
-      "timestamp": "2026-04-15T17:20:24.093623+00:00",
-      "tier": "groq",
-      "article": "Israeli media: Army warns Northern border residents of intensive missile fire by Hezbollah - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-15T17:20:42.495887+00:00",
-      "tier": "groq",
-      "article": "Every 27 minutes, someone is killed in Sudan\u2019s war"
-    },
-    {
-      "timestamp": "2026-04-15T17:21:04.922195+00:00",
-      "tier": "groq",
-      "article": "Double standards? Why Iran\u2019s nukes are scrutinised, Israel gets a pass"
-    },
     {
       "timestamp": "2026-04-15T19:33:32.968875+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-17T20:59:28.845246+00:00",
       "tier": "groq",
       "article": "Lebanon President Joseph Aoun: Our position is to solidify the ceasefire, ensure the withdrawal of the Israeli army, secure the release of prisoners, and resolve border disputes - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-17T22:50:07.652684+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-17T22:50:23.851450+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-17T22:50:47.046293+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-17T22:51:03.168943+00:00",
+      "tier": "groq",
+      "article": "Iran Announces Reopening of Strait of Hormuz as Ceasefire in Lebanon Has Taken Effect - Al-Manar TV Lebanon"
     }
   ]
 }
