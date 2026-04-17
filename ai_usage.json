@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2027,
+  "total_calls": 2031,
   "tiers": {
-    "groq": 2008,
+    "groq": 2012,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-15T11:15:52.671100+00:00",
-      "tier": "groq",
-      "article": "Iran says $270bn war loss must be compensated, as fresh talks with US loom"
-    },
-    {
-      "timestamp": "2026-04-15T11:16:08.837497+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted at 10:55 on Wednesday Metat barracks with a swarm of loitering drones: Hezbollah Military Media statement 7 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-15T13:32:55.468076+00:00",
-      "tier": "groq",
-      "article": "Watch |Hezbollah Fighters Challenge Netanyahu, Strike Kiryat Shmona in Defiant Message - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-15T13:33:27.179483+00:00",
-      "tier": "groq",
-      "article": "Iran citizen held in France over pro-Palestine comments returns home"
-    },
     {
       "timestamp": "2026-04-15T13:56:19.492699+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-17T15:07:44.252167+00:00",
       "tier": "groq",
       "article": "Hezbollah: Islamic Resistance fighters will keep their hands on the trigger, maintaining constant readiness to respond to any treachery aggression or breach by the enemy - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-17T17:02:01.383489+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-17T17:02:34.380164+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-17T17:02:51.862606+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-17T17:03:09.958135+00:00",
+      "tier": "groq",
+      "article": "Ghalibaf: Lebanon ceasefire achieved through Hezbollah resistance, unity"
     }
   ]
 }
