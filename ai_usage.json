@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2047,
+  "total_calls": 2051,
   "tiers": {
-    "groq": 2028,
+    "groq": 2032,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-15T21:04:17.638490+00:00",
-      "tier": "groq",
-      "article": "Attacks on heritage sites a crime against future: Iranian artist"
-    },
-    {
-      "timestamp": "2026-04-15T21:04:29.707864+00:00",
-      "tier": "groq",
-      "article": "Every 27 minutes, someone is killed in Sudan\u2019s war"
-    },
-    {
-      "timestamp": "2026-04-15T21:05:06.195161+00:00",
-      "tier": "groq",
-      "article": "Hezbollah rockets prompt Israeli strikes near Beirut amid market certainty - Crypto Briefing"
-    },
-    {
-      "timestamp": "2026-04-15T21:05:08.747073+00:00",
-      "tier": "groq",
-      "article": "US sending 10,000 more troops to Middle East despite Iran ceasefire"
-    },
     {
       "timestamp": "2026-04-15T22:57:17.022496+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-18T02:50:05.306172+00:00",
       "tier": "groq",
       "article": "Ceasefire with Israel brings respite to Lebanon, but obstacles to peace remain"
+    },
+    {
+      "timestamp": "2026-04-18T05:49:50.349782+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-18T05:50:22.683984+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-18T05:51:08.860966+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-18T05:51:25.104194+00:00",
+      "tier": "groq",
+      "article": "Lebanese Ministry of Health: One martyr and two wounded as a result of an Israeli enemy raid on a bicycle and a motorcycle in the town of Kunine, Bint Jbeil district - Al-Manar TV Lebanon"
     }
   ]
 }
