@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2075,
+  "total_calls": 2079,
   "tiers": {
-    "groq": 2056,
+    "groq": 2060,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-16T15:54:25.922195+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Intensifies Precision Operations Against Israeli Enemy, Directly Hits Four Merakava Tanks at Once - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-16T15:54:54.939100+00:00",
-      "tier": "groq",
-      "article": "Lockheed Martin Secures $1.36 billion for Hypersonic Missile Program - Overt Defense -"
-    },
-    {
-      "timestamp": "2026-04-16T15:55:12.071007+00:00",
-      "tier": "groq",
-      "article": "IRGC dismantles several US-Israeli-linked terrorist teams in southeast Iran"
-    },
-    {
-      "timestamp": "2026-04-16T15:55:31.675840+00:00",
-      "tier": "groq",
-      "article": "US defence secretary Pete Hegseth attacks press coverage of war on Iran"
-    },
     {
       "timestamp": "2026-04-16T17:29:27.972519+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-18T16:53:39.324208+00:00",
       "tier": "groq",
       "article": "Commercial ships must pay tolls for passing through Hormuz"
+    },
+    {
+      "timestamp": "2026-04-18T18:59:35.299818+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-18T19:00:08.056621+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-18T19:00:24.154275+00:00",
+      "tier": "groq",
+      "article": "Iranian Army hit over 40 strategic Israeli targets during war, says spokesperson"
+    },
+    {
+      "timestamp": "2026-04-18T19:00:41.543144+00:00",
+      "tier": "groq",
+      "article": "Majority of Zionists oppose re-election of Netanyahu as PM"
     }
   ]
 }
