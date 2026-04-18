@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2071,
+  "total_calls": 2075,
   "tiers": {
-    "groq": 2052,
+    "groq": 2056,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-16T14:03:39.794158+00:00",
-      "tier": "groq",
-      "article": "Kyiv hit by deadly missile attack amid shortage of interceptors"
-    },
-    {
-      "timestamp": "2026-04-16T14:04:02.577167+00:00",
-      "tier": "groq",
-      "article": "Watch: Hezbollah Fighters Fly Drones to Strike Kiryat Shmona Israeli Settlement - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-16T14:04:24.602630+00:00",
-      "tier": "groq",
-      "article": "Israeli air attack destroys buildings around south Lebanon hospital"
-    },
-    {
-      "timestamp": "2026-04-16T14:05:12.963911+00:00",
-      "tier": "groq",
-      "article": "US Navy destroyer intercepts Iranian-flagged vessel trying to skirt blockade"
-    },
     {
       "timestamp": "2026-04-16T15:54:25.922195+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-18T14:51:34.849488+00:00",
       "tier": "groq",
       "article": "Khatam al-Anbiya Headquarters: Based on previous agreements in the negotiations and in good faith, approval has been granted for the passage of a limited number of commercial vessels - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-18T16:51:58.777284+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-18T16:52:36.705036+00:00",
+      "tier": "groq",
+      "article": "French soldier serving with UNIFIL killed in Lebanon attack"
+    },
+    {
+      "timestamp": "2026-04-18T16:53:23.177540+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-18T16:53:39.324208+00:00",
+      "tier": "groq",
+      "article": "Commercial ships must pay tolls for passing through Hormuz"
     }
   ]
 }
