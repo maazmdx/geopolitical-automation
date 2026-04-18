@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2059,
+  "total_calls": 2063,
   "tiers": {
-    "groq": 2040,
+    "groq": 2044,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-16T06:13:22.410007+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted at 14:00 on Tuesday 14-04-2026 a Merkava tank at the northeastern outskirts of Bint Jbeil city with a guided missile, achieving a direct hit: Statement 1 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-16T06:13:43.925579+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Fighters Fiercely Clash with Israeli Occupation Soldiers in Bint Jbeil & Border Towns, Prevent Enemy Advance - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-16T06:14:00.185970+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance fighters targeted gatherings of vehicles and soldiers of the Israeli enemy army in the east of Bint Jbeil city with rocket barrages and artillery shells: statement 32 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-16T06:14:26.665279+00:00",
-      "tier": "groq",
-      "article": "White House offers no hint of Iran war cost as it seeks military funding surge"
-    },
     {
       "timestamp": "2026-04-16T09:35:24.556386+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-18T09:04:27.887819+00:00",
       "tier": "groq",
       "article": "Aoun Says Lebanon Enters \u2018New Stage\u2019 after Ceasefire - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-18T10:49:55.618661+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-18T10:50:28.972754+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-18T10:51:15.436797+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-18T10:52:08.130761+00:00",
+      "tier": "groq",
+      "article": "Air Force unit executes test of Anduril\u2019s semiautonomous combat drone"
     }
   ]
 }
