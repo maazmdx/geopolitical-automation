@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2067,
+  "total_calls": 2071,
   "tiers": {
-    "groq": 2048,
+    "groq": 2052,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-16T11:05:43.315031+00:00",
-      "tier": "groq",
-      "article": "US military kills three in new Eastern Pacific boat strike"
-    },
-    {
-      "timestamp": "2026-04-16T11:06:05.510658+00:00",
-      "tier": "groq",
-      "article": "AeroVironment launches new multifunctional drone variant"
-    },
-    {
-      "timestamp": "2026-04-16T11:06:27.297597+00:00",
-      "tier": "groq",
-      "article": "Iran\u2019s drone production surged tenfold since June war: Army official"
-    },
-    {
-      "timestamp": "2026-04-16T11:06:46.993635+00:00",
-      "tier": "groq",
-      "article": "White House offers no hint of Iran war cost as it seeks military funding surge"
-    },
     {
       "timestamp": "2026-04-16T14:03:39.794158+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-18T13:15:19.930653+00:00",
       "tier": "groq",
       "article": "Iran says Strait of Hormuz is 'open' but tracking shows few ships moving"
+    },
+    {
+      "timestamp": "2026-04-18T14:50:07.914190+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-18T14:50:40.906180+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-18T14:50:57.286388+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-18T14:51:34.849488+00:00",
+      "tier": "groq",
+      "article": "Khatam al-Anbiya Headquarters: Based on previous agreements in the negotiations and in good faith, approval has been granted for the passage of a limited number of commercial vessels - Al-Manar TV Lebanon"
     }
   ]
 }
