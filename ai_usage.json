@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2063,
+  "total_calls": 2067,
   "tiers": {
-    "groq": 2044,
+    "groq": 2048,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-16T09:35:24.556386+00:00",
-      "tier": "groq",
-      "article": "Lebanon: Israeli Enemy Escalates Aerial Attacks across South, Bekaa - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-16T09:35:59.863958+00:00",
-      "tier": "groq",
-      "article": "US military kills three in new Eastern Pacific boat strike"
-    },
-    {
-      "timestamp": "2026-04-16T09:36:02.533423+00:00",
-      "tier": "groq",
-      "article": "Israeli air attack destroys buildings around south Lebanon hospital"
-    },
-    {
-      "timestamp": "2026-04-16T09:36:19.396875+00:00",
-      "tier": "groq",
-      "article": "AeroVironment launches new multifunctional drone variant"
-    },
     {
       "timestamp": "2026-04-16T11:05:43.315031+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-18T10:52:08.130761+00:00",
       "tier": "groq",
       "article": "Air Force unit executes test of Anduril\u2019s semiautonomous combat drone"
+    },
+    {
+      "timestamp": "2026-04-18T13:14:23.624584+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-18T13:14:40.556874+00:00",
+      "tier": "groq",
+      "article": "Ambulance crew in south Lebanon describes Israel\u2019s \u2018triple-tap\u2019 attack"
+    },
+    {
+      "timestamp": "2026-04-18T13:15:03.233600+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-18T13:15:19.930653+00:00",
+      "tier": "groq",
+      "article": "Iran says Strait of Hormuz is 'open' but tracking shows few ships moving"
     }
   ]
 }
