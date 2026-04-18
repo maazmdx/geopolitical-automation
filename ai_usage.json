@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2083,
+  "total_calls": 2087,
   "tiers": {
-    "groq": 2064,
+    "groq": 2068,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-16T18:06:11.883960+00:00",
-      "tier": "groq",
-      "article": "France readies AI-powered combat data-management similar to US \u2018Maven\u2019"
-    },
-    {
-      "timestamp": "2026-04-16T18:06:38.078444+00:00",
-      "tier": "groq",
-      "article": "EU pumps over $1 billion into defense R&D, centered around  Ukraine war lessons"
-    },
-    {
-      "timestamp": "2026-04-16T18:07:02.856743+00:00",
-      "tier": "groq",
-      "article": "Hezbollah fighters targeted the Shraga base, the administrative headquarters of the Golani Brigade north of the occupied city of Acre, Israeli settlement of Shlomi with attack drones, rocket barrages: Military Media Statements 31, 32 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-16T18:08:00.611667+00:00",
-      "tier": "groq",
-      "article": "How the US military could clear mines from the Strait of Hormuz"
-    },
     {
       "timestamp": "2026-04-16T19:32:37.370274+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-18T20:47:28.689958+00:00",
       "tier": "groq",
       "article": "Iran, Turkey to expand agricultural, border coop.: minister"
+    },
+    {
+      "timestamp": "2026-04-18T22:42:07.996199+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-18T22:42:24.765880+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-18T22:42:47.816807+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-18T22:43:40.020343+00:00",
+      "tier": "groq",
+      "article": "Displaced Lebanese return as Israeli shelling violates ceasefire in south"
     }
   ]
 }
