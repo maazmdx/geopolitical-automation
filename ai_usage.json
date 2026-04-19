@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2107,
+  "total_calls": 2111,
   "tiers": {
-    "groq": 2088,
+    "groq": 2092,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-17T07:33:26.412998+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-17T07:33:58.938234+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-17T07:34:44.969419+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-17T07:35:01.021598+00:00",
-      "tier": "groq",
-      "article": "Celebrations on the road as people begin returning to southern Lebanon"
-    },
     {
       "timestamp": "2026-04-17T09:27:01.206533+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-19T07:49:56.765511+00:00",
       "tier": "groq",
       "article": "Lebanon ceasefire result of resistance sacrifices: Qassem"
+    },
+    {
+      "timestamp": "2026-04-19T08:30:49.238344+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-19T08:31:21.485209+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-19T08:31:37.781153+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-19T08:31:54.034582+00:00",
+      "tier": "groq",
+      "article": "Mexico, Spain and Brazil call for Cuba\u2019s sovereignty to be protected"
     }
   ]
 }
