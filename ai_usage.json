@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2119,
+  "total_calls": 2123,
   "tiers": {
-    "groq": 2100,
+    "groq": 2104,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-17T13:33:36.684494+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-17T13:33:53.636566+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-17T13:34:09.848128+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-17T13:34:26.279310+00:00",
-      "tier": "groq",
-      "article": "Israel-Lebanon ceasefire: What we know about the deal"
-    },
     {
       "timestamp": "2026-04-17T15:06:08.867021+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-19T10:47:13.679381+00:00",
       "tier": "groq",
       "article": "Bulgarians head to polls for eighth time in five years"
+    },
+    {
+      "timestamp": "2026-04-19T13:11:59.576607+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-19T13:12:16.340990+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-19T13:12:38.708622+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-19T13:12:55.122235+00:00",
+      "tier": "groq",
+      "article": "Pezeshkian: Trump has no right to deny a people their rights and to say that Iran cannot benefit from its nuclear rights - Al-Manar TV Lebanon"
     }
   ]
 }
