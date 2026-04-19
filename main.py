@@ -2155,6 +2155,10 @@ def fetch_ig_scrape_creators() -> list[dict]:
             log.info(f"  [IG-PRIMARY] Scrape Creators API status: {response.status_code}")
             log.info(f"  [IG-PRIMARY] Scrape Creators API response: {response.text[:500]}...")
             
+            if response.status_code == 404:
+                log.warning("  [IG-PRIMARY] Scrape Creators API endpoint deprecated (404) — skipping entirely.")
+                break
+            
             if response.status_code == 200:
                 data = response.json()
                 items = data.get("data", {}).get("items", []) if isinstance(data.get("data"), dict) else data.get("items", [])
@@ -2262,8 +2266,12 @@ def run_telegram_hunter(posted_links, successful_post_counter, image_count, tg_v
                     final_file_path = OUTPUT_DIR / f"{successful_post_counter:02d}_{'Video.mp4' if is_video else 'Image.png'}"
                     caption_path = OUTPUT_DIR / f"{successful_post_counter:02d}_Caption.txt"
                     
-                    media_resp = requests.get(media_url, stream=True, timeout=30)
-                    media_resp.raise_for_status()
+                    try:
+                        media_resp = requests.get(media_url, stream=True, timeout=45)
+                        media_resp.raise_for_status()
+                    except requests.exceptions.Timeout:
+                        log.warning(f"  [TG] Media download timed out for {media_url} — skipping.")
+                        continue
                     
                     if is_video:
                         temp_video_path = os.path.join("videos", f"temp_tg_raw_{successful_post_counter:02d}.mp4")
@@ -2278,7 +2286,11 @@ def run_telegram_hunter(posted_links, successful_post_counter, image_count, tg_v
                             '-c:v', 'libx264', '-crf', '23', '-preset', 'fast', '-c:a', 'aac', '-b:a', '128k',
                             str(final_file_path)
                         ]
-                        res = subprocess.run(ffmpeg_cmd, capture_output=True)
+                        try:
+                            res = subprocess.run(ffmpeg_cmd, capture_output=True, timeout=90)
+                        except subprocess.TimeoutExpired:
+                            log.warning(f"  [TG] FFmpeg timed out processing {temp_video_path} — skipping.")
+                            continue
                         if res.returncode != 0:
                             log.error(f"  [TG] FFmpeg failed: {res.stderr.decode('utf-8')}")
                             continue
