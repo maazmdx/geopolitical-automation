@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2103,
+  "total_calls": 2107,
   "tiers": {
-    "groq": 2084,
+    "groq": 2088,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-17T06:14:44.725566+00:00",
-      "tier": "groq",
-      "article": "Trump calls war on Iran a \u2018little diversion\u2019"
-    },
-    {
-      "timestamp": "2026-04-17T06:15:07.251556+00:00",
-      "tier": "groq",
-      "article": "Extra $475 Million Puts Hypersonic Interceptor Program Back on Track - Air & Space Forces Magazine"
-    },
-    {
-      "timestamp": "2026-04-17T06:15:24.214455+00:00",
-      "tier": "groq",
-      "article": "Iran welcomes ceasefire in Lebanon"
-    },
-    {
-      "timestamp": "2026-04-17T06:15:49.405137+00:00",
-      "tier": "groq",
-      "article": "How Israel\u2019s war upended daily life in Lebanon"
-    },
     {
       "timestamp": "2026-04-17T07:33:26.412998+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-19T07:03:05.657342+00:00",
       "tier": "groq",
       "article": "Iran considers naval blockade 'violation of ceasefire'"
+    },
+    {
+      "timestamp": "2026-04-19T07:48:29.177508+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-19T07:49:01.665291+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-19T07:49:17.626322+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-19T07:49:56.765511+00:00",
+      "tier": "groq",
+      "article": "Lebanon ceasefire result of resistance sacrifices: Qassem"
     }
   ]
 }
