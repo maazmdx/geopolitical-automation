@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2135,
+  "total_calls": 2139,
   "tiers": {
-    "groq": 2116,
+    "groq": 2120,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-17T20:58:02.731238+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-17T20:58:36.146698+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-17T20:58:51.907837+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-17T20:59:28.845246+00:00",
-      "tier": "groq",
-      "article": "Lebanon President Joseph Aoun: Our position is to solidify the ceasefire, ensure the withdrawal of the Israeli army, secure the release of prisoners, and resolve border disputes - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-17T22:50:07.652684+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-19T19:03:00.459962+00:00",
       "tier": "groq",
       "article": "Iran urges EU to abandon hypocrisy over international law"
+    },
+    {
+      "timestamp": "2026-04-19T20:47:29.069094+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-19T20:48:01.512505+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-19T20:48:47.469695+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-19T20:49:03.949406+00:00",
+      "tier": "groq",
+      "article": "Iranian diplomat rejects Trump's claims on enriched uranium"
     }
   ]
 }
