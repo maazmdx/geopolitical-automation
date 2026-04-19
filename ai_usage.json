@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2091,
+  "total_calls": 2095,
   "tiers": {
-    "groq": 2072,
+    "groq": 2076,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-16T21:08:06.575161+00:00",
-      "tier": "groq",
-      "article": "Starlink outage hit drone tests, exposing Pentagon\u2019s growing reliance on SpaceX"
-    },
-    {
-      "timestamp": "2026-04-16T21:08:32.129929+00:00",
-      "tier": "groq",
-      "article": "Who is keeping the fight alive in Sudan\u2019s war?"
-    },
-    {
-      "timestamp": "2026-04-16T21:08:51.479085+00:00",
-      "tier": "groq",
-      "article": "More than $5 trillion in US taxes. Who gets it?"
-    },
-    {
-      "timestamp": "2026-04-16T21:09:11.373616+00:00",
-      "tier": "groq",
-      "article": "AOC, Boebert join calls for sexual misconduct accountability in Congress"
-    },
     {
       "timestamp": "2026-04-16T22:57:20.327688+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-19T03:21:01.545804+00:00",
       "tier": "groq",
       "article": "More enemy mercenary cells dismantled in several Iranian provinces"
+    },
+    {
+      "timestamp": "2026-04-19T05:28:03.468327+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-19T05:28:36.281231+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-19T05:28:52.262820+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-19T05:29:08.354387+00:00",
+      "tier": "groq",
+      "article": "Strait of Hormuz has returned to previous state: MP"
     }
   ]
 }
