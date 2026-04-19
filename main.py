@@ -47,24 +47,21 @@ except ImportError:
 # ---------------------------------------------------------------------------
 
 BASE_DIR = Path(__file__).resolve().parent
-# Track run number for DD_NN format
+# Track run number — global sequential counter
 tracker_file = BASE_DIR / "run_tracker.json"
-today_dd = datetime.now(timezone.utc).strftime("%d")
 run_nn = 1
 
 if os.path.exists(tracker_file):
     try:
         with open(tracker_file, "r") as f:
             tracker = json.load(f)
-        if tracker.get("date") == today_dd:
-            run_nn = tracker.get("run_number", 0) + 1
+        run_nn = tracker.get("global_run_number", 0) + 1
     except Exception: pass
 
 with open(tracker_file, "w") as f:
-    json.dump({"date": today_dd, "run_number": run_nn}, f)
+    json.dump({"global_run_number": run_nn}, f)
 
-FN = f"{today_dd}_{run_nn}" # e.g., 08_1
-folder_name = f"DD_FN----{FN}"
+folder_name = str(run_nn)
 RUN_DIR = BASE_DIR / "output" / folder_name
 os.makedirs(RUN_DIR, exist_ok=True)
 os.makedirs(BASE_DIR / "videos", exist_ok=True)
@@ -2624,11 +2621,6 @@ def main() -> None:
 
     # ----------------------------------------------------
     # V11.0 CAROUSEL COMPILATION & DRIVE UPLOAD
-    if carousel_caption:
-        combo_txt = Path(RUN_DIR) / f"{FN}_Carousel_Combined.txt"
-        combo_txt.write_text(carousel_caption, encoding="utf-8")
-        drive_upload_queue.append(combo_txt)
-        
     if drive_upload_queue:
         # Sort files alphabetically/numerically so 1.png and 1.txt upload together
         raw_files = [f for f in os.listdir(RUN_DIR) if os.path.isfile(os.path.join(RUN_DIR, f))]
