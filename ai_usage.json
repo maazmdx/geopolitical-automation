@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2111,
+  "total_calls": 2115,
   "tiers": {
-    "groq": 2092,
+    "groq": 2096,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-17T09:27:01.206533+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-17T09:27:33.338708+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-17T09:28:20.238276+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-17T09:28:36.378351+00:00",
-      "tier": "groq",
-      "article": "Financial Times, quoting a European government official: Expectations are very low for today\u2019s European summit on the Strait of Hormuz - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-17T11:05:58.643861+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-19T08:31:54.034582+00:00",
       "tier": "groq",
       "article": "Mexico, Spain and Brazil call for Cuba\u2019s sovereignty to be protected"
+    },
+    {
+      "timestamp": "2026-04-19T09:02:03.318026+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-19T09:02:34.849991+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-19T09:03:21.059930+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-19T09:04:07.737338+00:00",
+      "tier": "groq",
+      "article": "Iran seeks world free of nuclear arms"
     }
   ]
 }
