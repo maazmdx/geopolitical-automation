@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2099,
+  "total_calls": 2103,
   "tiers": {
-    "groq": 2080,
+    "groq": 2084,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-17T03:03:19.975383+00:00",
-      "tier": "groq",
-      "article": "Ursa Major\u2019s Hadley rocket engine logs 10 hypersonic flights with Stratolaunch - AeroTime"
-    },
-    {
-      "timestamp": "2026-04-17T03:03:42.974360+00:00",
-      "tier": "groq",
-      "article": "People in Beirut wary of trusting Israel will uphold Lebanon ceasefire"
-    },
-    {
-      "timestamp": "2026-04-17T03:04:00.867736+00:00",
-      "tier": "groq",
-      "article": "What role is China playing in the Iran war and how is it affected?"
-    },
-    {
-      "timestamp": "2026-04-17T03:04:23.623976+00:00",
-      "tier": "groq",
-      "article": "Combat search and rescue\u2019s uncertain future: As A-10s phase out, US Air Force faces questions of what comes next"
-    },
     {
       "timestamp": "2026-04-17T06:14:44.725566+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-19T06:04:51.904741+00:00",
       "tier": "groq",
       "article": "20 ships turned back at Strait of Hormuz"
+    },
+    {
+      "timestamp": "2026-04-19T07:02:01.680113+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-19T07:02:33.981068+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-19T07:02:49.733940+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-19T07:03:05.657342+00:00",
+      "tier": "groq",
+      "article": "Iran considers naval blockade 'violation of ceasefire'"
     }
   ]
 }
