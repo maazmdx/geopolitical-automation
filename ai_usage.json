@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2131,
+  "total_calls": 2135,
   "tiers": {
-    "groq": 2112,
+    "groq": 2116,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-17T19:12:43.010105+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-17T19:13:15.645406+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-17T19:13:31.757067+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-17T19:14:08.921321+00:00",
-      "tier": "groq",
-      "article": "Army, IRGC have \u2018finger on trigger\u2019 for \u2018powerful\u2019 response to any aggression: IRGC"
-    },
     {
       "timestamp": "2026-04-17T20:58:02.731238+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-19T16:53:28.323681+00:00",
       "tier": "groq",
       "article": "Third Day of Lebanon Ceasefire: People Inspect Houses Amid Continued Israeli Violations - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-19T19:01:49.417914+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-19T19:02:23.482341+00:00",
+      "tier": "groq",
+      "article": "Watch: Hezbollah Drone and Missile Strikes on Israeli Infrastructure, Merkava Tank - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-19T19:02:44.042883+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-19T19:03:00.459962+00:00",
+      "tier": "groq",
+      "article": "Iran urges EU to abandon hypocrisy over international law"
     }
   ]
 }
