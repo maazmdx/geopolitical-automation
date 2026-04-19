@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2095,
+  "total_calls": 2099,
   "tiers": {
-    "groq": 2076,
+    "groq": 2080,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-16T22:57:20.327688+00:00",
-      "tier": "groq",
-      "article": "NASA\u2019s supersonic \u2018Son of Concorde\u2019 plane close to take-off - KTEN"
-    },
-    {
-      "timestamp": "2026-04-16T22:57:37.526143+00:00",
-      "tier": "groq",
-      "article": "Displaced Lebanese wary as ceasefire between Israel and Hezbollah begins"
-    },
-    {
-      "timestamp": "2026-04-16T22:57:55.414876+00:00",
-      "tier": "groq",
-      "article": "Netflix cofounder Hastings to step down after it lost Warner Bros deal"
-    },
-    {
-      "timestamp": "2026-04-16T22:58:13.171481+00:00",
-      "tier": "groq",
-      "article": "Qatar hosts talks aimed at putting Iran peace process back on track"
-    },
     {
       "timestamp": "2026-04-17T03:03:19.975383+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-19T05:29:08.354387+00:00",
       "tier": "groq",
       "article": "Strait of Hormuz has returned to previous state: MP"
+    },
+    {
+      "timestamp": "2026-04-19T06:03:17.297540+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-19T06:03:49.622311+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-19T06:04:35.871931+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-19T06:04:51.904741+00:00",
+      "tier": "groq",
+      "article": "20 ships turned back at Strait of Hormuz"
     }
   ]
 }
