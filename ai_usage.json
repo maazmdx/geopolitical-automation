@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2147,
+  "total_calls": 2151,
   "tiers": {
-    "groq": 2128,
+    "groq": 2132,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-18T05:49:50.349782+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-18T05:50:22.683984+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-18T05:51:08.860966+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-18T05:51:25.104194+00:00",
-      "tier": "groq",
-      "article": "Lebanese Ministry of Health: One martyr and two wounded as a result of an Israeli enemy raid on a bicycle and a motorcycle in the town of Kunine, Bint Jbeil district - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-18T07:20:55.474755+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-20T03:26:12.983300+00:00",
       "tier": "groq",
       "article": "Era of imposing security from across oceans come to an end"
+    },
+    {
+      "timestamp": "2026-04-20T06:23:49.113114+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-20T06:24:21.817266+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-20T06:25:08.013552+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-20T06:25:24.214444+00:00",
+      "tier": "groq",
+      "article": "Hezbollah: We reiterate what we have repeatedly stated\u2014there is no presence of ours inside Syrian territory, and we have no activity there of any kind or form - Al-Manar TV Lebanon"
     }
   ]
 }
