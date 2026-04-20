@@ -108,14 +108,15 @@ TARGET_IG_CHANNELS = [
     "irgc.intel",
 ]
 
-_IG_REWRITE_PROMPT = """You are a military OSINT copywriter. I will give you a caption from another news page. Rewrite it completely in your own words so it is unique. Keep the exact same meaning, facts, and numbers. Use very simple, aggressive, triumphant English. Keep it under 3 short sentences.
+_IG_REWRITE_PROMPT = """You are a professional military OSINT journalist. I will give you a caption from another news page. Rewrite it completely in your own words so it is unique, objective, and detailed. Keep the exact same meaning, facts, and numbers. Use precise, professional journalistic English (like Reuters or BBC). Keep it under 3-4 sentences.
 
 Original caption:
 {caption}
 
-Return strict JSON with exactly 2 keys:
-- "rewritten_caption": The rewritten caption text.
-- "image_hook": Write 1 to 2 sentences summarizing this like a viral military Twitter post. Extremely simple English.
+Return strict JSON with exactly 3 keys:
+- "rewritten_caption": The detailed, professional rewritten caption text.
+- "image_hook": Write a precise, professional, and objective journalistic headline for this event. Do NOT include any hashtags or emojis in this field.
+- "hashtags": A list of 3 to 5 highly specific hashtags related ONLY to this exact event and location. Do NOT use generic spam tags like #News or #Geopolitics. (e.g. ["#Baghdad", "#DroneStrike", "#IraqSecurity"]).
 
 Return ONLY the JSON object, no markdown, no explanation."""
 
@@ -151,7 +152,14 @@ RSS_FEEDS = {
     "Defense News": "https://www.defensenews.com/arc/outboundfeeds/rss/",
     "Defense Post": "https://www.thedefensepost.com/feed/",
     "BBC ME": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
-    "Defense Update": "https://defense-update.com/feed/"
+    "Defense Update": "https://defense-update.com/feed/",
+    "Al Arabiya": "https://english.alarabiya.net/feed/default",
+    "RT News": "https://www.rt.com/rss/news/",
+    "TASS": "https://tass.com/rss/v2.xml",
+    "Jerusalem Post": "https://www.jpost.com/rss/rssfeedsfrontpage",
+    "War on the Rocks": "https://warontherocks.com/feed/",
+    "The Cradle": "https://thecradle.co/feed",
+    "South China Morning Post": "https://www.scmp.com/rss/318206/feed",
 }
 
 GOOGLE_NEWS_QUERIES = [
@@ -1774,15 +1782,11 @@ def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> No
         text_content = " ".join(words[:15])
     text_content = smart_typography(text_content)
 
-    # ── V18.11: Premium Typography Engine ──
-    max_text_height = 280  # Space between flags (y=150) and image (y=430)
-    
-    # Force a smaller max font size for an elegant, premium look
-    font_size = 38
-    
-    # Wrap text wider to form a robust paragraph
-    wrap_width = 45
-    line_spacing = 20  # Increased for breathability
+    # ── V17.6: Pixel-Perfect Typography Engine ──
+    max_text_height = 280
+    font_size = 44
+    line_spacing = 15
+    max_text_width = CARD_WIDTH - (pad_x * 2) - 20 # 960px
 
     while font_size > 20:
         if font_path:
@@ -1790,13 +1794,28 @@ def generate_card(article: dict, output_path: Path, threat_level: int = 8) -> No
         else:
             font = _load_font("header", font_size)
             
-        wrapped_text = textwrap.fill(text_content, width=wrap_width)
-        # Calculate total height of wrapped text
+        words = text_content.split()
+        lines = []
+        current_line = ""
+        for word in words:
+            test_line = f"{current_line} {word}".strip() if current_line else word
+            try: tw = draw.textlength(test_line, font=font)
+            except AttributeError:
+                bbox = draw.textbbox((0, 0), test_line, font=font)
+                tw = bbox[2] - bbox[0]
+                
+            if tw <= max_text_width:
+                current_line = test_line
+            else:
+                if current_line: lines.append(current_line)
+                current_line = word
+        if current_line: lines.append(current_line)
+            
+        wrapped_text = "\n".join(lines)
         bbox = draw.multiline_textbbox((0, 0), wrapped_text, font=font, spacing=line_spacing)
         text_height = bbox[3] - bbox[1]
-        if text_height <= max_text_height:
-            break  # It fits!
-        font_size -= 2  # Shrink font and try again
+        if text_height <= max_text_height: break
+        font_size -= 2
 
     # ── Draw left-aligned text ──
     draw.multiline_text((pad_x, 150), wrapped_text, fill="black", font=font, align="left", spacing=line_spacing)
@@ -1832,12 +1851,19 @@ def generate_caption(article: dict, output_path: Path) -> None:
     source = article.get("source", "Unknown")
     link = article.get("real_url", article.get("link", ""))
 
+    # V17.6: Dynamic hashtags from AI, fallback to defaults
+    dynamic_hashtags = article.get("hashtags", [])
+    if dynamic_hashtags and isinstance(dynamic_hashtags, list):
+        hashtag_line = " ".join(dynamic_hashtags)
+    else:
+        hashtag_line = "#Geopolitics #Military #IRGC #BreakingNews #MiddleEast"
+
     caption_content = f"\U0001f6a8 BREAKING: {headline}\n\n"
     caption_content += f"{instagram_caption}\n\n"
     caption_content += f"\U0001f4f0 Source: {source}\n"
     caption_content += f"\U0001f517 {link}\n\n"
     caption_content += "Follow @geopoliticsofical for daily intelligence. \U0001f30d\n\n"
-    caption_content += "#Geopolitics #Military #IRGC #BreakingNews #MiddleEast\n"
+    caption_content += f"{hashtag_line}\n"
 
     output_path.write_text(caption_content, encoding="utf-8")
     log.info(f"  Caption saved: {output_path}")
@@ -2201,7 +2227,14 @@ def fetch_ig_scrape_creators() -> list[dict]:
 def run_telegram_hunter(posted_links, successful_post_counter, image_count, tg_video_count, tg_image_count, drive_queue):
     print("  [SYSTEM] Engaging Telegram Quota Hunter (Target: 2 Images, 4 Videos)...")
     
-    TG_CHANNELS = ['thecradlemedia', 'middle_east_spectator', 'ResistanceTrench', 'RNN_webed', 'PalestineResist', 'QudsNen', 'DDGeopolitics', 'warmonitors', 'BellumActaNews', 'militarywave', 'presstv', 'CensoredMen', 'intelslava', 'milinfolive', 'boris_rozhin', 'Slavyangrad', 'RVvoenkor', 'infantmilitario', 'mod_russia_en', 'CyberspecNews', 'Fighter_bomber', 'voin_dv', 'grey_zone']
+    TG_CHANNELS = [
+        'thecradlemedia', 'middle_east_spectator', 'ResistanceTrench', 'RNN_webed', 
+        'PalestineResist', 'QudsNen', 'DDGeopolitics', 'warmonitors', 'BellumActaNews', 
+        'militarywave', 'presstv', 'CensoredMen', 'intelslava', 'milinfolive', 
+        'boris_rozhin', 'Slavyangrad', 'RVvoenkor', 'infantmilitario', 'mod_russia_en', 
+        'CyberspecNews', 'Fighter_bomber', 'voin_dv', 'grey_zone', 'osint_defender', 
+        'IntelRepublic', 'two_majors', 'wargonzo', 'EurasianChoice', 'idfofficial'
+    ]
     
     for channel in TG_CHANNELS:
         if tg_image_count >= 2 and tg_video_count >= 4:
@@ -2494,7 +2527,7 @@ def run_reddit_fallback(posted_links, successful_post_counter, tg_video_count, d
     print(f"  [SYSTEM] Engaging Stealth Reddit Fallback (Need {4 - tg_video_count} more videos)...")
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/123.0.0.0 Safari/537.36'}
     
-    for sub in ['CombatFootage', 'DroneCombat', 'UkraineWarVideoReport']:
+    for sub in ['CombatFootage', 'DroneCombat', 'UkraineWarVideoReport', 'MilitaryGfys', 'DestroyedTanks']:
         if tg_video_count >= 4:
             break
         try:
