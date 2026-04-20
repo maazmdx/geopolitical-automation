@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2143,
+  "total_calls": 2147,
   "tiers": {
-    "groq": 2124,
+    "groq": 2128,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-18T02:49:09.346250+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-18T02:49:25.791099+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-18T02:49:48.778733+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-18T02:50:05.306172+00:00",
-      "tier": "groq",
-      "article": "Ceasefire with Israel brings respite to Lebanon, but obstacles to peace remain"
-    },
     {
       "timestamp": "2026-04-18T05:49:50.349782+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-19T22:43:49.662440+00:00",
       "tier": "groq",
       "article": "Trump to send US delegation to Pakistan for possible Iran talks"
+    },
+    {
+      "timestamp": "2026-04-20T03:24:46.550816+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-20T03:25:19.578598+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-20T03:25:35.954547+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-20T03:26:12.983300+00:00",
+      "tier": "groq",
+      "article": "Era of imposing security from across oceans come to an end"
     }
   ]
 }
