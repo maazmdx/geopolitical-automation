@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2159,
+  "total_calls": 2163,
   "tiers": {
-    "groq": 2140,
+    "groq": 2144,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-18T10:49:55.618661+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-18T10:50:28.972754+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-18T10:51:15.436797+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-18T10:52:08.130761+00:00",
-      "tier": "groq",
-      "article": "Air Force unit executes test of Anduril\u2019s semiautonomous combat drone"
-    },
     {
       "timestamp": "2026-04-18T13:14:23.624584+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-20T08:16:32.011759+00:00",
       "tier": "groq",
       "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
+    },
+    {
+      "timestamp": "2026-04-20T10:07:18.147329+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-20T10:07:50.477881+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-20T10:08:36.654938+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-20T10:08:52.850834+00:00",
+      "tier": "groq",
+      "article": "Houthis threaten to block Bab el-Mandeb Strait if US hinders peace"
     }
   ]
 }
