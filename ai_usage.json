@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2171,
+  "total_calls": 2175,
   "tiers": {
-    "groq": 2152,
+    "groq": 2156,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-18T16:51:58.777284+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-18T16:52:36.705036+00:00",
-      "tier": "groq",
-      "article": "French soldier serving with UNIFIL killed in Lebanon attack"
-    },
-    {
-      "timestamp": "2026-04-18T16:53:23.177540+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-18T16:53:39.324208+00:00",
-      "tier": "groq",
-      "article": "Commercial ships must pay tolls for passing through Hormuz"
-    },
     {
       "timestamp": "2026-04-18T18:59:35.299818+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-20T15:22:33.572240+00:00",
       "tier": "groq",
       "article": "Families of Minab school martyrs urge Pope to be voice of their voiceless children"
+    },
+    {
+      "timestamp": "2026-04-20T17:13:10.199142+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-20T17:13:42.951612+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-20T17:13:59.504198+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-20T17:14:16.650788+00:00",
+      "tier": "groq",
+      "article": "IRGC Navy responds to US navy shooting at Iranian vessel"
     }
   ]
 }
