@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2179,
+  "total_calls": 2183,
   "tiers": {
-    "groq": 2160,
+    "groq": 2164,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-18T20:46:22.061362+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-18T20:46:55.636614+00:00",
-      "tier": "groq",
-      "article": "IRGC says 8 terrorists killed or wounded in op. in Iraqi Kurd"
-    },
-    {
-      "timestamp": "2026-04-18T20:47:12.672906+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-18T20:47:28.689958+00:00",
-      "tier": "groq",
-      "article": "Iran, Turkey to expand agricultural, border coop.: minister"
-    },
     {
       "timestamp": "2026-04-18T22:42:07.996199+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-20T19:15:55.779443+00:00",
       "tier": "groq",
       "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
+    },
+    {
+      "timestamp": "2026-04-20T20:55:59.174210+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-20T20:56:31.668010+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-20T20:56:47.773507+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-20T20:57:32.032201+00:00",
+      "tier": "groq",
+      "article": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC"
     }
   ]
 }
