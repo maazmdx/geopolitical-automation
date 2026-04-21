@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2211,
+  "total_calls": 2215,
   "tiers": {
-    "groq": 2192,
+    "groq": 2196,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-19T09:02:03.318026+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-19T09:02:34.849991+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-19T09:03:21.059930+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-19T09:04:07.737338+00:00",
-      "tier": "groq",
-      "article": "Iran seeks world free of nuclear arms"
-    },
     {
       "timestamp": "2026-04-19T10:45:44.992188+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-21T15:22:02.632177+00:00",
       "tier": "groq",
       "article": "US Army turns to Ukraine-tested drones to counter Iranian UAV threat "
+    },
+    {
+      "timestamp": "2026-04-21T17:13:06.004028+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-21T17:13:22.211295+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-21T17:13:37.970350+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-21T17:13:58.189450+00:00",
+      "tier": "groq",
+      "article": "Prof. Schlevogt\u2019s Compass No. 55: Fortification via the V-Strategy \u2013 the Poisoned Chalice Equation"
     }
   ]
 }
