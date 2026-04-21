@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2207,
+  "total_calls": 2211,
   "tiers": {
-    "groq": 2188,
+    "groq": 2192,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-19T08:30:49.238344+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-19T08:31:21.485209+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-19T08:31:37.781153+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-19T08:31:54.034582+00:00",
-      "tier": "groq",
-      "article": "Mexico, Spain and Brazil call for Cuba\u2019s sovereignty to be protected"
-    },
     {
       "timestamp": "2026-04-19T09:02:03.318026+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-21T13:57:09.080708+00:00",
       "tier": "groq",
       "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
+    },
+    {
+      "timestamp": "2026-04-21T15:20:31.157631+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-21T15:21:04.839241+00:00",
+      "tier": "groq",
+      "article": "Three ligers, tiger injured in Ukrainian strike on predator rehabilitation center"
+    },
+    {
+      "timestamp": "2026-04-21T15:21:23.484846+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-21T15:22:02.632177+00:00",
+      "tier": "groq",
+      "article": "US Army turns to Ukraine-tested drones to counter Iranian UAV threat "
     }
   ]
 }

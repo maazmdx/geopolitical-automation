@@ -1,4 +1,34 @@
 {
+  "9d337911e6df0e46610c1cc99534cc19c346ee984b4de84227f8810c20c3039c": {
+    "url": "BellumActaNews/171395",
+    "title": "Trump Claims Swift Victory in Vietnam War if He Were President",
+    "published": "2026-04-21T15:27:36.621690+00:00"
+  },
+  "23ddd6c19df0c008f0bd4474d65488d717c36b007eee1c0d5795cbbd427d984d": {
+    "url": "DDGeopolitics/182527",
+    "title": "US Forces Board Sanctioned Tanker in Indian Ocean",
+    "published": "2026-04-21T15:27:33.141773+00:00"
+  },
+  "2b7f0f67252ceec5a4b2a663bcebb7076b421dacac8859f26b745dc5d2c4b21e": {
+    "url": "DDGeopolitics/182542",
+    "title": "UAE Minister's Comments Highlight Stark Differences in Regional Power Dynamics",
+    "published": "2026-04-21T15:26:42.701003+00:00"
+  },
+  "6054b340d80304615ad562818034e3082a4f0ca0c9b9215e88939ec2f581c9e8": {
+    "url": "thecradlemedia/58028",
+    "title": "Iran's IRGC Representative Outlines Conditions for Negotiations",
+    "published": "2026-04-21T15:24:13.051940+00:00"
+  },
+  "bce66322b86698e3391f031bb4ef2d07e45b49b591ae9b31d23e7d625cd990a4": {
+    "url": "thecradlemedia/58033",
+    "title": "Pakistan Awaits Iran's Decision on Peace Talks Amid Ongoing Ceasefire",
+    "published": "2026-04-21T15:22:19.871823+00:00"
+  },
+  "1f58ff7fadb784a43ad5bff3295e43b25bd1c5ea6a8265bd0bdb3bff076dfb3f": {
+    "url": "thecradlemedia/58034",
+    "title": "Iranian Academic Warns of Imminent Threat to Persian Gulf Shipping",
+    "published": "2026-04-21T15:22:13.317831+00:00"
+  },
   "1bb26cdd1e8a8a8f248d91ccb069e9670139bf2a97808804021bcf415c83e7cd": {
     "url": "QudsNen/220009",
     "title": "Israeli Airstrikes Hit Deir Siryan in Southern Lebanon",
@@ -28,6 +58,11 @@
     "url": "thecradlemedia/58026",
     "title": "US Navy Seizes Iranian-Linked Vessel in Indo-Pacific",
     "published": "2026-04-21T13:57:15.127405+00:00"
+  },
+  "7d046310f6b102aba7d9f79dbbdf9763b8794c078b5be87919d0b03e0ec31123": {
+    "url": "https://tass.com/emergencies/2120305",
+    "title": "Three ligers, tiger injured in Ukrainian strike on predator rehabilitation center",
+    "published": "2026-04-21T12:53:02+00:00"
   },
   "f9de52e02d5296cfc0a9e290051f13935675fc1d3e8b6e5e0682c43e2f8622cb": {
     "url": "BellumActaNews/171360",
@@ -268,6 +303,11 @@
     "url": "thecradlemedia/57966",
     "title": "US-Backed Disarmament Plan Sparks Gaza Tensions",
     "published": "2026-04-20T17:14:23.132825+00:00"
+  },
+  "a7794b329a648c8466a2379d42b76ee02af9bc9ff689d41a99a06a489af844c8": {
+    "url": "https://www.defensenews.com/unmanned/2026/04/20/us-army-turns-to-ukraine-tested-drones-to-counter-iranian-uav-threat/",
+    "title": "US Army turns to Ukraine-tested drones to counter Iranian UAV threat ",
+    "published": "2026-04-20T16:31:07+00:00"
   },
   "93a6ed4b0c1a7aed866f08a77b49eb0380a7c6397ee46ad476d31dc4c4fd8be1": {
     "url": "presstv/186344",
@@ -708,45 +748,5 @@
     "url": "DDGeopolitics/182325",
     "title": "RUSSIA STANDS TALL: Leaders pay respects to WWII heroes in Leningrad Region #WWII #RussiaStrong",
     "published": "2026-04-19T08:33:33.800149+00:00"
-  },
-  "90ae0c5697d6581014832c7809e1144207bd01266a95ea8d11c26a41d9e45ddc": {
-    "url": "thecradlemedia/57875",
-    "title": "Iran's chokehold on Hormuz must break. UAE minister vows to take down Tehran's entire arsenal!",
-    "published": "2026-04-19T08:31:57.638609+00:00"
-  },
-  "642a1d3594455661fb1bf66e5ba457ebe1fb7a80de4672ae1e126535b5bcd428": {
-    "url": "warmonitors/43718",
-    "title": "HEZBOLLAH STRIKES BACK! Israeli operative taken down in Lebanon, a major victory for resistance forces!",
-    "published": "2026-04-19T07:51:39.060092+00:00"
-  },
-  "8ba5ebc96c9ee33064c71a3f43032dbc097a9344107adb6f2e73b5b61e67ca0b": {
-    "url": "QudsNen/219648",
-    "title": "BREAKING: Occupied Jerusalem under attack. Israeli forces raze Palestinian homes with impunity. #JusticeForPalestine #Occupation",
-    "published": "2026-04-19T07:50:04.268623+00:00"
-  },
-  "1875a0f6b11c4f4b3a39adee4932f525ba36d7a06d98cfd28e1e9ab6b6130cfb": {
-    "url": "https://english.almanar.com.lb/article/60177/",
-    "title": "Pezeshkian: Trump has no right to deny a people their rights and to say that Iran cannot benefit from its nuclear rights - Al-Manar TV Lebanon",
-    "published": "2026-04-19T07:34:04+00:00"
-  },
-  "3bbcae124cbac743d48cb1da3d2d5885a1f26c0b04868125c2a1f624b837ac73": {
-    "url": "DDGeopolitics/182306",
-    "title": "NORTH KOREA ON THE LOOSE! Ballistic missile fired in defiance of international law",
-    "published": "2026-04-19T07:04:31.719531+00:00"
-  },
-  "e01bad7e19337837eb1752656c46be5cc47b73a4813b792cc74598bb6522465a": {
-    "url": "QudsNen/219639",
-    "title": "US aircraft surge in Israel - War with Iran looming?",
-    "published": "2026-04-19T07:04:29.828617+00:00"
-  },
-  "7b636c63669d95a3541cf5e7053f61d824718f99ed96fa8abd72ae30575c2b87": {
-    "url": "QudsNen/219640",
-    "title": "Israeli aggression in the West Bank: settlers steal from Palestinian farmers. #FreePalestine #JusticeForPalestine",
-    "published": "2026-04-19T07:04:28.535973+00:00"
-  },
-  "7d30e0c345d56a977da8080729ccf400eb6a1cfa480651604f998839303123b5": {
-    "url": "https://en.mehrnews.com/news/243772/Iranian-diplomat-rejects-Trump-s-claims-on-enriched-uranium",
-    "title": "Iranian diplomat rejects Trump's claims on enriched uranium",
-    "published": "2026-04-19T06:06:50+00:00"
   }
 }
