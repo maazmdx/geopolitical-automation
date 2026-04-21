@@ -1,4 +1,34 @@
 {
+  "f9de52e02d5296cfc0a9e290051f13935675fc1d3e8b6e5e0682c43e2f8622cb": {
+    "url": "BellumActaNews/171360",
+    "title": "France Vows to Support Strengthening of Lebanese Army Amid Hezbollah Concerns",
+    "published": "2026-04-21T11:26:54.331197+00:00"
+  },
+  "f5dadcea50dae11747ad05e72cb146437d8c07f92343a6f446511a0a22ffc80a": {
+    "url": "BellumActaNews/171361",
+    "title": "French Presidential Candidate Criticizes Trump's War Objectives in Middle East",
+    "published": "2026-04-21T11:23:55.345166+00:00"
+  },
+  "fd24604cbca872e5b3d388ab39684c31a5ce62c6009d9b0a4e6796d5628b8df9": {
+    "url": "DDGeopolitics/182500",
+    "title": "Konstantinovka Hit by Russian FAB-3000 Glide Bomb Strike",
+    "published": "2026-04-21T11:20:55.634861+00:00"
+  },
+  "ab4ed20f4a89902207ff211bb6c0b7ee9f987f5f128d94999c8361fa00f0d737": {
+    "url": "QudsNen/219973",
+    "title": "Israeli Forces Mark Memorial Day in Ruins of Tulkarm Refugee Camp",
+    "published": "2026-04-21T11:19:04.765039+00:00"
+  },
+  "66780e86ed20a405cb698f2a23cc9ee201987c01729e4c3d3b46177b324f0f64": {
+    "url": "thecradlemedia/57992",
+    "title": "Moscow Detains Israeli Citizens at Airport on Suspicion of Iran War Involvement",
+    "published": "2026-04-21T11:18:07.462814+00:00"
+  },
+  "1ae70804cbc19b25a55baf5a007cb6abf1d74da9bc82b02e5b5b61a33bdf8d7e": {
+    "url": "thecradlemedia/57998",
+    "title": "US Bars Antisemitic World Cup Attendees, Envoy Says",
+    "published": "2026-04-21T11:18:06.381192+00:00"
+  },
   "cc5c38c949b0e71243fdf15be62c3d7136b216233804eb1a79f82174f5155230": {
     "url": "militarywave/23497",
     "title": "Israeli Soldier's Alleged War Crimes Admission Sparks Outrage",
@@ -238,6 +268,11 @@
     "url": "thecradlemedia/57956",
     "title": "Israeli Drone Targets Caf\u00e9 in South Lebanon, Injuring Two",
     "published": "2026-04-20T15:22:36.018639+00:00"
+  },
+  "6fdfdec346773df4fc713ca23f7029069de217fb3c6c21504f8f4d31c1ed0058": {
+    "url": "https://en.mehrnews.com/news/243824/Trump-blockade-of-Iran-hampering-efforts-to-resume-talks",
+    "title": "Trump blockade of Iran hampering efforts to resume talks",
+    "published": "2026-04-20T14:17:30+00:00"
   },
   "7d2d23fe148fabb85ab63d2905817ca7c5054354db8ba6c5f577cc7417086037": {
     "url": "militarywave/23503",
@@ -713,40 +748,5 @@
     "url": "presstv/186177",
     "title": "TRUMP'S MIDEAST MESS! US Vice President Kamala Harris calls out Trump for getting pulled into a war with Iran against the people's will!",
     "published": "2026-04-19T05:30:26.504078+00:00"
-  },
-  "82b44f7611bf101e7db0a53e72b734a4eeed1f63e4f7e52e95c5c64192e3fcb0": {
-    "url": "QudsNen/219617",
-    "title": "IRAN UNDER SIEGE: Trump threatens force to stop nuke ambitions, US-Iran team-up to seize uranium!",
-    "published": "2026-04-19T05:29:15.549843+00:00"
-  },
-  "c2e02d0c9f2af35a45522a56262001a201262df378c1eeb2d6dc9342e430ac57": {
-    "url": "Middle_East_Spectator/31165",
-    "title": "TEHRAN TAKEDOWN: Iran's war machine crippled by secret deal with Qatar!",
-    "published": "2026-04-19T05:29:12.422803+00:00"
-  },
-  "6604a9126d1308e6383ce59302833cb3fc8e9fac9a08438c3dcaa698c06c19ae": {
-    "url": "BellumActaNews/171237",
-    "title": "US vs Iran: No nukes, no missiles, PEACE NOW!",
-    "published": "2026-04-19T03:26:42.464775+00:00"
-  },
-  "acb3270f8c533e50594fe1c126ee1b1f692c4ae17507d9206a5592add4194c87": {
-    "url": "Middle_East_Spectator/31171",
-    "title": "IRAN'S MISSILE THREAT RISES FROM THE ASHES - 60% of launchers online, 70% of prewar power ready to strike!",
-    "published": "2026-04-19T03:21:06.060837+00:00"
-  },
-  "4d77c151a526345e9be4974f2c1749dc637b7a39d2b3c82f892df03a42a75e70": {
-    "url": "thecradlemedia/57856",
-    "title": "US PIRATES BLOCKING HORMUZ. Iran stands strong against maritime aggression!",
-    "published": "2026-04-19T03:21:04.658406+00:00"
-  },
-  "aece21a9a5962f446fb0ae0d6764d4b66d2360d78e2bbef3dde80c59a3259ac7": {
-    "url": "https://en.mehrnews.com/news/243767/Iran-seeks-world-free-of-nuclear-arms",
-    "title": "Iran seeks world free of nuclear arms",
-    "published": "2026-04-19T02:55:58+00:00"
-  },
-  "86ad2584340ed9adc4a53700c523dec0a0df9c79cb4bcb426283c9247f24cc0b": {
-    "url": "thecradlemedia/57857",
-    "title": "Khiam under siege! Israeli forces block all roads and blow up the town, crushing resistance!",
-    "published": "2026-04-18T22:43:50.864782+00:00"
   }
 }

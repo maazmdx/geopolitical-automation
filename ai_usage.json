@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2199,
+  "total_calls": 2203,
   "tiers": {
-    "groq": 2180,
+    "groq": 2184,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-19T07:02:01.680113+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-19T07:02:33.981068+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-19T07:02:49.733940+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-19T07:03:05.657342+00:00",
-      "tier": "groq",
-      "article": "Iran considers naval blockade 'violation of ceasefire'"
-    },
     {
       "timestamp": "2026-04-19T07:48:29.177508+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-21T09:50:25.598791+00:00",
       "tier": "groq",
       "article": "US Air Force wants better infrared jammers for its combat rescue helicopters"
+    },
+    {
+      "timestamp": "2026-04-21T11:16:57.604561+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-21T11:17:29.747759+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-21T11:17:45.521233+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-21T11:18:01.559130+00:00",
+      "tier": "groq",
+      "article": "Trump blockade of Iran hampering efforts to resume talks"
     }
   ]
 }
