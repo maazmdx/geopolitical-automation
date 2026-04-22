@@ -1,4 +1,34 @@
 {
+  "291253d5018ccd285280c02c84c74c92e77a1f8f2973451c60ced6824b599c2b": {
+    "url": "QudsNen/220136",
+    "title": "Israeli Forces Confront Protesters at Al-Mughayir Funeral",
+    "published": "2026-04-22T11:18:26.835657+00:00"
+  },
+  "cc1eea558ed4131b5d266d16f46824092e3c0d09db1d9778e616d34516f65db5": {
+    "url": "QudsNen/220138",
+    "title": "Israeli Drone Strike Injures Palestinian in Southern Gaza",
+    "published": "2026-04-22T11:17:32.541240+00:00"
+  },
+  "8fa2e42ade93931032f694ac81d2e6f1242414145d7a2dee5d69552f6f97de58": {
+    "url": "Middle_East_Spectator/31341",
+    "title": "Iranian Drones Strike Kurdish Separatist Training Camp in Iraqi Kurdistan",
+    "published": "2026-04-22T11:16:39.159619+00:00"
+  },
+  "0d7eb7e812fd82e5298734dd48cd1996a31ecf4a1675b152f7c894ce52655dfc": {
+    "url": "thecradlemedia/58064",
+    "title": "Israeli Forces Raid Bakery in Occupied West Bank",
+    "published": "2026-04-22T11:16:13.034377+00:00"
+  },
+  "00b496b303d8e863e633f596342cb2a9509e823682d5a86d42c1e0de195c1465": {
+    "url": "thecradlemedia/58073",
+    "title": "Lebanese Army Removes Unexploded Israeli Munition in Beirut",
+    "published": "2026-04-22T11:13:42.838875+00:00"
+  },
+  "1586a6becf1295edd646eb3b460b8a0a90d254ec33691c38f0c81fd493b92413": {
+    "url": "thecradlemedia/58076",
+    "title": "Global Coalition Seeks to Reopen Strait of Hormuz",
+    "published": "2026-04-22T11:13:40.848072+00:00"
+  },
   "65897bcabee57003b9a241c2862785936b718bbeaf292946fbd307d56a14d8d8": {
     "url": "presstv/186631",
     "title": "Qalibaf Slams US Over Iran Conflict",
@@ -298,6 +328,11 @@
     "url": "https://tass.com/emergencies/2120305",
     "title": "Three ligers, tiger injured in Ukrainian strike on predator rehabilitation center",
     "published": "2026-04-21T12:53:02+00:00"
+  },
+  "a904ce0e35d5c70fd904c3e5231e72075399eac717cac5f2b12331a3f1c7a069": {
+    "url": "https://www.tehrantimes.com/news/525652/Petro-Yuan-A-silent-earthquake-in-global-economy",
+    "title": "\u2018Petro-Yuan\u2019: A silent earthquake in global economy",
+    "published": "2026-04-21T11:55:24+00:00"
   },
   "f9de52e02d5296cfc0a9e290051f13935675fc1d3e8b6e5e0682c43e2f8622cb": {
     "url": "BellumActaNews/171360",
@@ -713,40 +748,5 @@
     "url": "OSINT_defender/278",
     "title": "Massive Fire Engulfs Valero Oil Refinery in Port Arthur, Texas",
     "published": "2026-04-20T07:45:28.813300+00:00"
-  },
-  "ba90e488f6a174311285116253a350b7bb00c55f1e32595445a1452a7dcd96ac": {
-    "url": "CyberspecNews/105554",
-    "title": "Tuapse Oil Depot Fire After Drone Attacks",
-    "published": "2026-04-20T07:41:55.921774+00:00"
-  },
-  "69996302a9963b85d5f45159aed29e101bfb802c63f9ecc91f5a986f067a880e": {
-    "url": "mod_russia_en/26517",
-    "title": "Russian Forces Claim Successful Strike Against Enemy Deployment in Krasny Liman",
-    "published": "2026-04-20T07:41:12.716112+00:00"
-  },
-  "19422529ae6487dd472f028754239b131e1c20c2e2075c55ce3e0d5b2264e20a": {
-    "url": "DDGeopolitics/182397",
-    "title": "Russia Designates Ukrainian Actions as Genocide Amid US-Iran Tensions Escalate",
-    "published": "2026-04-20T07:30:33.065305+00:00"
-  },
-  "6e8c96d23a9026e38ec8410ba1478834507d6d8749bac041969ce2d3a3275453": {
-    "url": "QudsNen/219788",
-    "title": "Israeli Forces Raid Palestinian Home in Anabta, West Bank",
-    "published": "2026-04-20T07:30:30.997434+00:00"
-  },
-  "1ab17fa9023dfc1a49f9d8e289798dbe822db0a99941c0f77d89875f6b969f41": {
-    "url": "CyberspecNews/105558",
-    "title": "DRONE DOWN! Russian forces dealt another blow in Ukraine - a Jet Geran drone bites the dust!",
-    "published": "2026-04-20T06:43:54.952266+00:00"
-  },
-  "fa687e963858b964de6c417b746410e2c8ac6fbf1884566fb218f32fd49934ff": {
-    "url": "CyberspecNews/105559",
-    "title": "Russian armor gets smashed by Ukrainian drone tech!",
-    "published": "2026-04-20T06:42:54.812568+00:00"
-  },
-  "846e76560953275550e5d74f5d8ffc767bcef453cafe9cb7fdeac9dd9c747c16": {
-    "url": "intelslava/86770",
-    "title": "Israeli Navy got ROASTED by Hezbollah's drone! Lebanon just got a whole lot more interesting...",
-    "published": "2026-04-20T06:38:18.406656+00:00"
   }
 }
