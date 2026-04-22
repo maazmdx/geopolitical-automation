@@ -1,4 +1,39 @@
 {
+  "7d53aa46f8fe8eb3aac8df82354994ac100fe308534540c8b6c02a10c775d767": {
+    "url": "mod_russia_en/26535",
+    "title": "Russian Forces Conduct Aerial Strikes in Zaporozhye and Kharkov Regions",
+    "published": "2026-04-22T19:32:06.907461+00:00"
+  },
+  "08cceba7b2b2bbbcf35c2299416e30e6eda2c539f8da7abf7a2a86dc2a344950": {
+    "url": "mod_russia_en/26542",
+    "title": "Ukrainian Forces Liberate Grishino, Improve Tactical Situation",
+    "published": "2026-04-22T19:30:59.816524+00:00"
+  },
+  "ead1fa5fe89e0e206507ce26c169c1f8e9b693b7a982b1c394c854bbec2932a8": {
+    "url": "mod_russia_en/26549",
+    "title": "Russian Forces Destroy Ukrainian Fortifications in Krasny Liman",
+    "published": "2026-04-22T19:29:25.194503+00:00"
+  },
+  "5b3d3a262fe45fdd62dab0f259e6abc304242840b653f38f4a7395ec3434a5ff": {
+    "url": "mod_russia_en/26552",
+    "title": "Russian Forces Capture Strategic Stronghold in Ukraine's Zaporozhye Region",
+    "published": "2026-04-22T19:27:56.174492+00:00"
+  },
+  "491bef2d7d2946c8bb39ad1618e221c22d9102ce9ae4d855128d9e97025bd500": {
+    "url": "Middle_East_Spectator/31370",
+    "title": "Hezbollah Claims Responsibility for Drone Attack on Israeli Forces in Southern Lebanon",
+    "published": "2026-04-22T19:26:22.949978+00:00"
+  },
+  "bf0b43fd57d10294ec4de06e6e796f04641434596cd01d2da07768a43d0cd058": {
+    "url": "thecradlemedia/58118",
+    "title": "Israeli Military Strikes in Southern Lebanon Raise Concerns Over Rescue Efforts",
+    "published": "2026-04-22T19:26:20.711447+00:00"
+  },
+  "28403b463d3ab806f8af566c1fd99b183f99cb4db2fc74825a1f6bd89fdadcbd": {
+    "url": "https://www.aljazeera.com/news/2026/4/22/at-least-four-killed-in-israeli-strikes-on-lebanon-journalists-wounded?traffic_source=rss",
+    "title": "At least four killed in Israeli attacks on Lebanon, journalists wounded",
+    "published": "2026-04-22T18:10:52+00:00"
+  },
   "9d6e8d160796d2f047157c0c97251aa912dfae02f8b6642cde2a6db002b98465": {
     "url": "intelslava/86872",
     "title": "Moscow FSB Foils Alleged Ukrainian-Linked Bomb Plot",
@@ -278,6 +313,11 @@
     "url": "QudsNen/220069",
     "title": "US Capitol Protest: Veterans Arrested Over Iran War Opposition",
     "published": "2026-04-21T21:05:55.188873+00:00"
+  },
+  "880590a24b8a69d4a565d9fe160cbb2a4bacf3d314a8cb8c6b2a9cf791577ad8": {
+    "url": "https://en.mehrnews.com/news/243868/Iran-s-silence-prevails-as-Trump-extends-ceasefire",
+    "title": "Iran\u2019s silence prevails as Trump extends ceasefire",
+    "published": "2026-04-21T21:05:43+00:00"
   },
   "adcf4a2abf0c517cc7d7ae5127e75d0e130708b92ad8823dcf4305e81c88661d": {
     "url": "Middle_East_Spectator/31307",
@@ -708,45 +748,5 @@
     "url": "thecradlemedia/57963",
     "title": "Hezbollah's FPV Drones Pose Threat to Israeli Troops in South Lebanon",
     "published": "2026-04-20T17:14:24.610775+00:00"
-  },
-  "bd9c0a8fddbcce1b435fd430760a3acc52ecf4a38c65ec256997247a1aa84e78": {
-    "url": "thecradlemedia/57966",
-    "title": "US-Backed Disarmament Plan Sparks Gaza Tensions",
-    "published": "2026-04-20T17:14:23.132825+00:00"
-  },
-  "a7794b329a648c8466a2379d42b76ee02af9bc9ff689d41a99a06a489af844c8": {
-    "url": "https://www.defensenews.com/unmanned/2026/04/20/us-army-turns-to-ukraine-tested-drones-to-counter-iranian-uav-threat/",
-    "title": "US Army turns to Ukraine-tested drones to counter Iranian UAV threat ",
-    "published": "2026-04-20T16:31:07+00:00"
-  },
-  "93a6ed4b0c1a7aed866f08a77b49eb0380a7c6397ee46ad476d31dc4c4fd8be1": {
-    "url": "presstv/186344",
-    "title": "US-Israeli Airstrikes Hit Sports and Entertainment Complexes in Tehran",
-    "published": "2026-04-20T15:33:32.943196+00:00"
-  },
-  "63f85545f594f1d412091e4d37d44d0d6b72e53895c2173811a6ec3f5cd0625f": {
-    "url": "presstv/186354",
-    "title": "IRGC Quds Force Commander Warns Against External Interference in Iraqi Politics",
-    "published": "2026-04-20T15:30:49.894363+00:00"
-  },
-  "55e8ff8cb0fa7b80f28767b4e3fd8a3c3bd1263892ea75bbfc6e3f390875f1bc": {
-    "url": "militarywave/23502",
-    "title": "Military Training in Conflict Zones: 'Forging Warriors'",
-    "published": "2026-04-20T15:28:45.941516+00:00"
-  },
-  "e5c456441812f1c91e08d252ce53ec654087a89f37eb4fb463d5ed06ccd9e4ed": {
-    "url": "BellumActaNews/171327",
-    "title": "US Marines Seize Iranian Cargo Ship in Latest Maritime Operation",
-    "published": "2026-04-20T15:24:18.191559+00:00"
-  },
-  "52938859d993c228201339693f45e941e1f5390feecf676b17fab86c0f22d874": {
-    "url": "thecradlemedia/57955",
-    "title": "Trump Denies Israeli Involvement in Iran Conflict",
-    "published": "2026-04-20T15:22:38.777767+00:00"
-  },
-  "483fdb1b1cada1c034b60207ca24ab37e178de9df676ed9008bcadac31a148ed": {
-    "url": "thecradlemedia/57956",
-    "title": "Israeli Drone Targets Caf\u00e9 in South Lebanon, Injuring Two",
-    "published": "2026-04-20T15:22:36.018639+00:00"
   }
 }
