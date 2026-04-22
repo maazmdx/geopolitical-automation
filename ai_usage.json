@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2247,
+  "total_calls": 2251,
   "tiers": {
-    "groq": 2228,
+    "groq": 2232,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-20T06:23:49.113114+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-20T06:24:21.817266+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-20T06:25:08.013552+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-20T06:25:24.214444+00:00",
-      "tier": "groq",
-      "article": "Hezbollah: We reiterate what we have repeatedly stated\u2014there is no presence of ours inside Syrian territory, and we have no activity there of any kind or form - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-04-20T07:24:16.992092+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-22T13:57:15.851573+00:00",
       "tier": "groq",
       "article": "Iran condemns US seizure of Touska vessel as \u201ca terrorist act\u201d"
+    },
+    {
+      "timestamp": "2026-04-22T15:23:21.788758+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-22T15:23:55.035440+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-22T15:24:11.048269+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-22T15:24:52.498724+00:00",
+      "tier": "groq",
+      "article": "3 EU states push for Israel pact suspension"
     }
   ]
 }
