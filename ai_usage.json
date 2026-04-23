@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2271,
+  "total_calls": 2275,
   "tiers": {
-    "groq": 2252,
+    "groq": 2256,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-20T17:13:10.199142+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-20T17:13:42.951612+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-20T17:13:59.504198+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-20T17:14:16.650788+00:00",
-      "tier": "groq",
-      "article": "IRGC Navy responds to US navy shooting at Iranian vessel"
-    },
     {
       "timestamp": "2026-04-20T19:14:16.687691+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-23T03:01:19.787708+00:00",
       "tier": "groq",
       "article": "Mossad spy Mahdi Farid executed in Iran"
+    },
+    {
+      "timestamp": "2026-04-23T06:13:30.088575+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-23T06:14:02.599203+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-23T06:14:18.539664+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-23T06:14:35.229643+00:00",
+      "tier": "groq",
+      "article": "Tehran strongly rejects sabotage plans in Azerbaijan"
     }
   ]
 }

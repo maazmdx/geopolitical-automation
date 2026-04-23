@@ -1,4 +1,34 @@
 {
+  "1407ef9df4abfc1af425acf4e9bc42533b882bccfaeba7df8fb01f6da6f2a981": {
+    "url": "presstv/186766",
+    "title": "Iranians Overwhelmingly Support Leadership Amid Regional Tensions",
+    "published": "2026-04-23T06:26:01.229728+00:00"
+  },
+  "ff4a84789c88f00ad23a3b7d2080de12509b63f13293b30d01ebad3218e8e711": {
+    "url": "BellumActaNews/171492",
+    "title": "FBI Warns of Transnational Repression Targeting US-Based Critics of Foreign Governments",
+    "published": "2026-04-23T06:22:57.238005+00:00"
+  },
+  "efd4c257245c19102e1677ca9c3f0a380d052b435e691cb9581cd0cdfe56dcff": {
+    "url": "DDGeopolitics/182613",
+    "title": "Iran's IRGC Navy Deploys Speedboats Amid Tensions with U.S.",
+    "published": "2026-04-23T06:19:53.584953+00:00"
+  },
+  "cc5adb6be2eb7bc0b8abeb6edadd66a795c5e37857b3bac645170534871f75b9": {
+    "url": "DDGeopolitics/182623",
+    "title": "Global Tensions Escalate as Ukraine Resumes Oil Supplies, EU Rebuffs Israel Proposal",
+    "published": "2026-04-23T06:16:52.733169+00:00"
+  },
+  "8cdbfdcfe19b4de052eb5e7aa1afb9f856c58359598c5f95e53f3ebaa6ae7775": {
+    "url": "DDGeopolitics/182627",
+    "title": "Konstantinovka Sabotage Teams Destroyed, DPR Claims",
+    "published": "2026-04-23T06:16:50.886850+00:00"
+  },
+  "c0a21414d9176624fd2686afbd3719f9544dbc05feb14ca7c89463ede0ea9387": {
+    "url": "QudsNen/220258",
+    "title": "Iran Demands End to Maritime Blockades for Ceasefire",
+    "published": "2026-04-23T06:14:44.199439+00:00"
+  },
   "8578511aff539ac49fcb48a93fffe7cb8e1b323a3cf0c961d345db8621714c3b": {
     "url": "militarywave/23513",
     "title": "Israel Considers Gaza Airstrikes Amid Hamas Disarmament Row",
@@ -228,6 +258,11 @@
     "url": "thecradlemedia/58096",
     "title": "FedEx Accused of Aiding Israel's Gaza Operations Through Covert Component Transit",
     "published": "2026-04-22T13:57:21.462376+00:00"
+  },
+  "0201051026a7851e976a6b8471251ee0cc90e9028d285e8d0049ef3dbb56ace5": {
+    "url": "https://en.mehrnews.com/news/243884/Tehran-strongly-rejects-sabotage-plans-in-Azerbaijan",
+    "title": "Tehran strongly rejects sabotage plans in Azerbaijan",
+    "published": "2026-04-22T11:34:36+00:00"
   },
   "291253d5018ccd285280c02c84c74c92e77a1f8f2973451c60ced6824b599c2b": {
     "url": "QudsNen/220136",
@@ -713,40 +748,5 @@
     "url": "presstv/186427",
     "title": "Romania Power Plant Explosion Rocks Bucharest",
     "published": "2026-04-21T03:02:56.226180+00:00"
-  },
-  "8e491cb23e1090bfb87f62497142fbe64abec8e05fba36318bc0155887f11da2": {
-    "url": "militarywave/23493",
-    "title": "Drone Operators Undergo Intensive Training Exercises",
-    "published": "2026-04-21T03:01:15.138157+00:00"
-  },
-  "9f620d6ae2b40c7f3df4f0df71fec8daebf2c08f24eb66900bbbfa9ca245d8ee": {
-    "url": "Middle_East_Spectator/31249",
-    "title": "Trump Compares U.S.-Iran Conflict to World War I and II",
-    "published": "2026-04-21T02:59:50.138621+00:00"
-  },
-  "4cee2d9f9fef627851f109f479785f958c8ee451c586870d4bab7329fabba4f4": {
-    "url": "Middle_East_Spectator/31250",
-    "title": "US President Trump Claims Progress in Iran Conflict Amid Economic Blockade",
-    "published": "2026-04-21T02:59:45.873830+00:00"
-  },
-  "f1cf575b4e479ac248db8d5a1b7d2b0e363cf593457c1681508e8489526e5551": {
-    "url": "QudsNen/219910",
-    "title": "Israeli Soldier Faces Internal Disciplinary Action Over Jesus Statue Vandalism in Southern Lebanon",
-    "published": "2026-04-20T23:08:47.494970+00:00"
-  },
-  "d80045a379cabfc5a2333829eaf1fd50f7c4ae89811ea7dd4192020713ada721": {
-    "url": "QudsNen/219911",
-    "title": "US Capitol Police Detain Protesters Honoring Iranian Martyrs",
-    "published": "2026-04-20T23:05:48.404246+00:00"
-  },
-  "1ca2f106e804679866c58410094a626de934e069ac186f2a1654c3bcada7d832": {
-    "url": "QudsNen/219915",
-    "title": "Veterans, Activists Detained at U.S. Capitol Protest",
-    "published": "2026-04-20T23:02:46.265812+00:00"
-  },
-  "d3793ee8ffc8596bd28b7ddca59a848dd493803b21c2d745941b4b4a92278c67": {
-    "url": "QudsNen/219921",
-    "title": "Israel-bound Vessel Diverted Amid Allegations of Military Supply Chain Involvement",
-    "published": "2026-04-20T22:58:34.414809+00:00"
   }
 }
