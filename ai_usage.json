@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2295,
+  "total_calls": 2299,
   "tiers": {
-    "groq": 2276,
+    "groq": 2280,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-21T09:48:51.200448+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-21T09:49:23.525348+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-21T09:50:09.409729+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-21T09:50:25.598791+00:00",
-      "tier": "groq",
-      "article": "US Air Force wants better infrared jammers for its combat rescue helicopters"
-    },
     {
       "timestamp": "2026-04-21T11:16:57.604561+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-23T19:23:11.365089+00:00",
       "tier": "groq",
       "article": "US Army seeks \u2018last mile\u2019 robot for medevac and resupply"
+    },
+    {
+      "timestamp": "2026-04-23T21:02:16.696243+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-23T21:02:50.340712+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-23T21:03:06.822253+00:00",
+      "tier": "groq",
+      "article": "At least 125,000 civilian sites in Iran attacked by US, Israel \u2014 envoy to Russia"
+    },
+    {
+      "timestamp": "2026-04-23T21:03:27.248959+00:00",
+      "tier": "groq",
+      "article": "US Navy secretary exits administration effective immediately"
     }
   ]
 }
