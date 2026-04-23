@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2279,
+  "total_calls": 2283,
   "tiers": {
-    "groq": 2260,
+    "groq": 2264,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-20T20:55:59.174210+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-20T20:56:31.668010+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-20T20:56:47.773507+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-20T20:57:32.032201+00:00",
-      "tier": "groq",
-      "article": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC"
-    },
     {
       "timestamp": "2026-04-20T22:55:32.780175+00:00",
       "tier": "groq",
@@ -505,6 +485,26 @@
     },
     {
       "timestamp": "2026-04-23T09:54:40.762971+00:00",
+      "tier": "groq",
+      "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
+    },
+    {
+      "timestamp": "2026-04-23T11:18:55.127504+00:00",
+      "tier": "groq",
+      "article": "What we know about Israel killing Lebanese journalist Amal Khalil"
+    },
+    {
+      "timestamp": "2026-04-23T11:19:12.133039+00:00",
+      "tier": "groq",
+      "article": "Houthis say their strike prevented US military plane from landing in Israel"
+    },
+    {
+      "timestamp": "2026-04-23T11:19:42.152034+00:00",
+      "tier": "groq",
+      "article": "Israeli strike on school in Gaza Strip kills 18 people \u2014 TV"
+    },
+    {
+      "timestamp": "2026-04-23T11:20:00.913270+00:00",
       "tier": "groq",
       "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
     }
