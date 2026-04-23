@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2287,
+  "total_calls": 2291,
   "tiers": {
-    "groq": 2268,
+    "groq": 2272,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-21T02:58:08.111999+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-21T02:58:40.920820+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-21T02:58:56.951201+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-21T02:59:36.474314+00:00",
-      "tier": "groq",
-      "article": "US naval blockade violates ceasefire, UN charter"
-    },
     {
       "timestamp": "2026-04-21T06:07:46.526713+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-23T13:59:27.458559+00:00",
       "tier": "groq",
       "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
+    },
+    {
+      "timestamp": "2026-04-23T17:44:16.111190+00:00",
+      "tier": "groq",
+      "article": "France, Poland plan to conduct nuclear exercises over Baltic Sea \u2014 website"
+    },
+    {
+      "timestamp": "2026-04-23T17:44:53.964660+00:00",
+      "tier": "groq",
+      "article": "Iran slams use of neighbors' soil by enemy for attacks"
+    },
+    {
+      "timestamp": "2026-04-23T17:45:11.416646+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-23T17:45:48.777271+00:00",
+      "tier": "groq",
+      "article": "Ceasefire vIolations, blockade, threats barriers to talks"
     }
   ]
 }
