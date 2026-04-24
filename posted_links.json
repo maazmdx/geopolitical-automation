@@ -1,4 +1,34 @@
 {
+  "004ee34dcb156420dad52203455b1d748fcb5e45938befd8360aea20efc24f65": {
+    "url": "QudsNen/220465",
+    "title": "Hezbollah Claims Downing of Israeli Drone Over Tyre, Lebanon",
+    "published": "2026-04-24T15:22:36.517269+00:00"
+  },
+  "c3dd10c645a85aa16d6c86ba404cc06e4d1c3bf03689f4167c7c267a467d2cef": {
+    "url": "QudsNen/220468",
+    "title": "US Deploys Second Aircraft Carrier to Strait of Hormuz Blockade",
+    "published": "2026-04-24T15:22:21.528489+00:00"
+  },
+  "e556a5d92e00a9510ccafea07b5358c67081d013d7cd2bfd5cb5b1f004cc78f7": {
+    "url": "QudsNen/220469",
+    "title": "Israeli Airstrike Hits Palestinian Gathering in Gaza City",
+    "published": "2026-04-24T15:21:41.373218+00:00"
+  },
+  "804d0e7752c3cf30859a04b28e36400a933b3ea3992228db905102b4396eedd0": {
+    "url": "QudsNen/220480",
+    "title": "Israeli Settlers Establish Outpost on Palestinian Land in Southern Nablus",
+    "published": "2026-04-24T15:21:08.707789+00:00"
+  },
+  "66b990be7e0641214508644980a6d1790c67c6bc6a4d571117d0e61fb2404f0f": {
+    "url": "thecradlemedia/58258",
+    "title": "US Seizes Iranian Cargo Ship, Trump Suggests Chinese Involvement",
+    "published": "2026-04-24T15:18:33.692821+00:00"
+  },
+  "e90746dc5c7a1c85b2d32c33f30cc64c139b254ed8b18245cdb3d2ab3b368826": {
+    "url": "thecradlemedia/58261",
+    "title": "US Continues Maritime Blockade Against Iranian Ports",
+    "published": "2026-04-24T15:18:32.246024+00:00"
+  },
   "483665aec138742c1632a4330055599f4949faad3b8d214308c35d5f0efb1b63": {
     "url": "QudsNen/220473",
     "title": "Israeli Airstrikes Hit Deir Amess in Southern Lebanon",
@@ -88,6 +118,11 @@
     "url": "thecradlemedia/58215",
     "title": "US Soldier Charged with Exploiting Classified Info for Personal Gain in Venezuela Raid",
     "published": "2026-04-24T09:52:27.749931+00:00"
+  },
+  "423af091fb85125a5a8500bc53107ae2ab20aad400e015efe25d2f774715bb49": {
+    "url": "https://warontherocks.com/cogs-of-war/airwaves-of-power-why-the-pentagon-should-shift-to-a-commercial-first-spectrum-model/",
+    "title": "Airwaves of Power: Why the Pentagon Should Shift to a Commercial-First Spectrum Model",
+    "published": "2026-04-24T08:00:32+00:00"
   },
   "2b748bb0f8a8d245a3f86cf231bae2002dd9938b98235443bbaee5a01bd2e024": {
     "url": "BellumActaNews/171575",
@@ -283,6 +318,11 @@
     "url": "https://tass.com/world/2121691",
     "title": "At least 125,000 civilian sites in Iran attacked by US, Israel \u2014 envoy to Russia",
     "published": "2026-04-23T16:42:03+00:00"
+  },
+  "8ca8d4d0936b87ea0149fd13c0115ab440eab7ff25a76e4aded3a328ddcc2fdd": {
+    "url": "https://www.defensenews.com/global/europe/2026/04/23/as-iran-saps-us-focus-the-troop-math-for-monitoring-a-ukraine-peace-deal-looks-grim/",
+    "title": "As Iran saps US focus, the troop math for monitoring a Ukraine peace deal looks grim",
+    "published": "2026-04-23T15:23:46+00:00"
   },
   "fa6fbceddc2c1c90981e1a8c033d061a6d6503a29832ea28134a7d2ee8424e7b": {
     "url": "CensoredMen/203",
@@ -708,45 +748,5 @@
     "url": "thecradlemedia/58064",
     "title": "Israeli Forces Raid Bakery in Occupied West Bank",
     "published": "2026-04-22T11:16:13.034377+00:00"
-  },
-  "00b496b303d8e863e633f596342cb2a9509e823682d5a86d42c1e0de195c1465": {
-    "url": "thecradlemedia/58073",
-    "title": "Lebanese Army Removes Unexploded Israeli Munition in Beirut",
-    "published": "2026-04-22T11:13:42.838875+00:00"
-  },
-  "1586a6becf1295edd646eb3b460b8a0a90d254ec33691c38f0c81fd493b92413": {
-    "url": "thecradlemedia/58076",
-    "title": "Global Coalition Seeks to Reopen Strait of Hormuz",
-    "published": "2026-04-22T11:13:40.848072+00:00"
-  },
-  "65897bcabee57003b9a241c2862785936b718bbeaf292946fbd307d56a14d8d8": {
-    "url": "presstv/186631",
-    "title": "Qalibaf Slams US Over Iran Conflict",
-    "published": "2026-04-22T09:39:13.443640+00:00"
-  },
-  "cdf0bec37a0b3bc6b29d44ffcce89e61355af898a5c97bc152d7b89759f1903a": {
-    "url": "warmonitors/43807",
-    "title": "Iran Attacks Two Ships in Strait of Hormuz",
-    "published": "2026-04-22T09:33:58.461912+00:00"
-  },
-  "ef3c26cacc447b7990398a7bb9fc6be20f9b72de23705233a87bafa62302e9f0": {
-    "url": "QudsNen/220115",
-    "title": "Israeli Drone Kills Palestinian Youth in Northern Gaza Strip",
-    "published": "2026-04-22T09:32:59.846772+00:00"
-  },
-  "0b74666047b3fc55718ed7b422d24ec5702508cc37ed938b735f8c7565163e6b": {
-    "url": "QudsNen/220127",
-    "title": "Israeli Airstrike Hits Tyre, Lebanon",
-    "published": "2026-04-22T09:31:47.206251+00:00"
-  },
-  "8bfc813b38b03472f7b8ef9de54a1c8bb8cbf131c2cb3adadf079c12024f071a": {
-    "url": "thecradlemedia/58056",
-    "title": "Iran Dismisses US Ceasefire Proposal, Threatens Military Response",
-    "published": "2026-04-22T09:31:29.460327+00:00"
-  },
-  "668f994acb9de3afcee27174589978810db7e60ae4761da84052392f3497acef": {
-    "url": "thecradlemedia/58058",
-    "title": "Iran Demands End to US Naval Blockade for Diplomatic Talks to Resume",
-    "published": "2026-04-22T09:31:24.579868+00:00"
   }
 }

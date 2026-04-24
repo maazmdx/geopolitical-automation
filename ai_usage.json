@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2323,
+  "total_calls": 2327,
   "tiers": {
-    "groq": 2304,
+    "groq": 2308,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-21T22:44:02.673558+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-21T22:44:35.380465+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-21T22:44:51.591793+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Strikes Military Target in Galilee in Response to Israeli Violations - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-21T22:45:29.998223+00:00",
-      "tier": "groq",
-      "article": "Iran denounces Israeli violation of Somalia\u2019s sovereignty"
-    },
     {
       "timestamp": "2026-04-22T02:57:02.094837+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-24T13:48:46.995265+00:00",
       "tier": "groq",
       "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
+    },
+    {
+      "timestamp": "2026-04-24T15:16:41.541955+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-24T15:17:15.133882+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-24T15:18:08.208805+00:00",
+      "tier": "groq",
+      "article": "Airwaves of Power: Why the Pentagon Should Shift to a Commercial-First Spectrum Model"
+    },
+    {
+      "timestamp": "2026-04-24T15:18:24.416854+00:00",
+      "tier": "groq",
+      "article": "As Iran saps US focus, the troop math for monitoring a Ukraine peace deal looks grim"
     }
   ]
 }
