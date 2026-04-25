@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2355,
+  "total_calls": 2359,
   "tiers": {
-    "groq": 2336,
+    "groq": 2340,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-22T19:24:34.876434+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-22T19:25:14.329763+00:00",
-      "tier": "groq",
-      "article": "At least four killed in Israeli attacks on Lebanon, journalists wounded"
-    },
-    {
-      "timestamp": "2026-04-22T19:26:00.299454+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-22T19:26:16.496612+00:00",
-      "tier": "groq",
-      "article": "Iran\u2019s silence prevails as Trump extends ceasefire"
-    },
     {
       "timestamp": "2026-04-22T21:02:51.081666+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-25T07:30:05.584580+00:00",
       "tier": "groq",
       "article": "Israel anti-Iran remarks failed attempt to justify aggression"
+    },
+    {
+      "timestamp": "2026-04-25T09:00:43.621143+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-25T09:01:16.863255+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-25T09:02:10.136332+00:00",
+      "tier": "groq",
+      "article": "How Iran turned pressure into initiative"
+    },
+    {
+      "timestamp": "2026-04-25T09:02:27.692142+00:00",
+      "tier": "groq",
+      "article": "NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing"
     }
   ]
 }
