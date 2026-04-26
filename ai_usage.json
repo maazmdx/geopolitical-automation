@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2399,
+  "total_calls": 2403,
   "tiers": {
-    "groq": 2380,
+    "groq": 2384,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-23T22:57:07.955883+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-23T22:57:41.357033+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-23T22:58:27.619079+00:00",
-      "tier": "groq",
-      "article": "At least 10 people injured in shooting in Louisiana, US"
-    },
-    {
-      "timestamp": "2026-04-23T22:59:21.313560+00:00",
-      "tier": "groq",
-      "article": "Iran says Strait of Hormuz cannot be re-opened due to ceasefire breaches"
-    },
     {
       "timestamp": "2026-04-24T03:00:44.984031+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-26T09:11:57.927118+00:00",
       "tier": "groq",
       "article": "Zelensky\u2019s methods akin to those of Dzhokhar Dudayev\u2019s terrorists \u2014 Russian MFA"
+    },
+    {
+      "timestamp": "2026-04-26T10:55:40.885804+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-26T10:55:57.187020+00:00",
+      "tier": "groq",
+      "article": "Civilians account for nearly half of US-Israeli war victims: Iran"
+    },
+    {
+      "timestamp": "2026-04-26T10:56:13.730627+00:00",
+      "tier": "groq",
+      "article": "Russian forces strike Ukrainian transport, energy infrastructure over past day"
+    },
+    {
+      "timestamp": "2026-04-26T10:56:31.967776+00:00",
+      "tier": "groq",
+      "article": "Russia ready to resume cooperation with Germany, but will not impose itself \u2014 ambassador"
     }
   ]
 }
