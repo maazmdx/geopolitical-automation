@@ -1,4 +1,34 @@
 {
+  "5a554ec98ec94969cb9c4e417d65532802a822447a2addd9310584225537d3be": {
+    "url": "presstv/187207",
+    "title": "Iran's Deterrent Power on Full Display Amid Regional Tensions",
+    "published": "2026-04-26T09:17:36.859976+00:00"
+  },
+  "59070da64bde8911f7b14268ad87f299ecc6dd07f4c89a0fd7995129b71a3039": {
+    "url": "DDGeopolitics/182856",
+    "title": "Russia's State Duma Chairman Meets with North Korean Leader in Pyongyang",
+    "published": "2026-04-26T09:14:58.127389+00:00"
+  },
+  "edeef12daf030c765a4caccb8e6355b93a6adb480cea168500abf226745fa89e": {
+    "url": "QudsNen/220659",
+    "title": "Palestinian Child Loses Hand in Israeli Airstrike",
+    "published": "2026-04-26T09:12:49.710099+00:00"
+  },
+  "7d8bb00e7bdcb29d846287c5b574260227e606505e0fd663b5abb44a08f9c39d": {
+    "url": "QudsNen/220674",
+    "title": "Israel Airstrikes Zawtar Al-Sharqiya in Breach of Ceasefire",
+    "published": "2026-04-26T09:12:16.771440+00:00"
+  },
+  "b6f1fc2e1d5f52d71063e67d4eda2c9d3bd9dee2a963beff1b07b4008a319e4f": {
+    "url": "thecradlemedia/58339",
+    "title": "Israeli Military Operations in Southern Lebanon Escalate",
+    "published": "2026-04-26T09:12:03.982679+00:00"
+  },
+  "04f0c6725664739802457adafe9b887cd299ed657ef77ffb170fb6def2fdda6b": {
+    "url": "thecradlemedia/58342",
+    "title": "Israel Sees Sharp Rise in Military Suicides Amid Prolonged War",
+    "published": "2026-04-26T09:12:03.215893+00:00"
+  },
   "42ec665878646bdb61651a2483461bd0dc9b04d470d1b73822f3cb9855f8593e": {
     "url": "mod_russia_en/26593",
     "title": "Russian Defence Ministry Awards State Honours to Tsentr Group of Forces Servicemen",
@@ -228,6 +258,11 @@
     "url": "BellumActaNews/171654",
     "title": "Tuareg Separatists Seize Military Base in Kidal, Mali",
     "published": "2026-04-25T13:23:32.218530+00:00"
+  },
+  "6108279bd4e5cb34ec9f5834d8d084daf199ea4ef5e262d89082f15641df9e1c": {
+    "url": "https://tass.com/politics/2122435",
+    "title": "Zelensky\u2019s methods akin to those of Dzhokhar Dudayev\u2019s terrorists \u2014 Russian MFA",
+    "published": "2026-04-25T13:23:23+00:00"
   },
   "182103a64e1eed330649ee0acba54a411271d32b5f0858b63d62e2bdd96065d4": {
     "url": "QudsNen/220591",
@@ -713,40 +748,5 @@
     "url": "https://en.mehrnews.com/news/243923/Israel-anti-Iran-remarks-failed-attempt-to-justify-aggression",
     "title": "Israel anti-Iran remarks failed attempt to justify aggression",
     "published": "2026-04-24T07:58:01+00:00"
-  },
-  "2b748bb0f8a8d245a3f86cf231bae2002dd9938b98235443bbaee5a01bd2e024": {
-    "url": "BellumActaNews/171575",
-    "title": "Armenian Church Members Honor Genocide Victims with Torchlight March in Yerevan",
-    "published": "2026-04-24T06:22:26.254250+00:00"
-  },
-  "70e9367694b41c9db2f93310786df8cd86c34179b479dcf6c2d51ad9fc4720c3": {
-    "url": "DDGeopolitics/182710",
-    "title": "Drone Attack Rocks Dnepropetrovsk, Ukraine",
-    "published": "2026-04-24T06:20:18.858208+00:00"
-  },
-  "1180d3493137757209de07170206bdffe20332e65f9cd4f02e46b744b164513d": {
-    "url": "QudsNen/220417",
-    "title": "Israeli Police Crack Down on Anti-Zionist Protesters in Jerusalem's Mea Shearim",
-    "published": "2026-04-24T06:20:12.845905+00:00"
-  },
-  "b25d304c7d596e42a9b05f835d1d6e62f7b66983504dcfe881ce33cf1d3122ec": {
-    "url": "QudsNen/220418",
-    "title": "Israeli Settlers Conduct Provocative Patrols in Masafer Yatta",
-    "published": "2026-04-24T06:18:26.476191+00:00"
-  },
-  "27bd97dee31d7b50c44fdd8c74e7a5607fc6fddd5dca4b111a23f39ccd2f3b36": {
-    "url": "QudsNen/220419",
-    "title": "Israeli Warplanes Strike Khirbet Selm in Southern Lebanon",
-    "published": "2026-04-24T06:17:02.031094+00:00"
-  },
-  "5f245fe12687ae6cf5bebc09c9c8e3bd353967d714107450309164ac96255ff1": {
-    "url": "QudsNen/220420",
-    "title": "Israeli Forces Bomb Target in Touline, Southern Lebanon",
-    "published": "2026-04-24T06:17:00.159636+00:00"
-  },
-  "d5e3851d1133e04787b8e177267143b5ab8b06b9a1767daf7349287a1cf28dd0": {
-    "url": "https://en.mehrnews.com/news/243915/Significant-unity-among-Iranians-shatters-enemy-ranks-Leader",
-    "title": "Significant unity among Iranians shatters enemy ranks: Leader",
-    "published": "2026-04-24T05:03:26+00:00"
   }
 }
