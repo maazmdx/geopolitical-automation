@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2391,
+  "total_calls": 2395,
   "tiers": {
-    "groq": 2372,
+    "groq": 2376,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-23T19:22:01.293888+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-23T19:22:34.695867+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-23T19:22:50.802833+00:00",
-      "tier": "groq",
-      "article": "Israeli Attacks on South Lebanon Towns Leave Martyrs, Injuries - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-23T19:23:11.365089+00:00",
-      "tier": "groq",
-      "article": "US Army seeks \u2018last mile\u2019 robot for medevac and resupply"
-    },
     {
       "timestamp": "2026-04-23T21:02:16.696243+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-26T03:26:41.489526+00:00",
       "tier": "groq",
       "article": "US mistakenly considers itself world\u2019s most powerful country \u2014 Jeffrey Sachs"
+    },
+    {
+      "timestamp": "2026-04-26T06:14:46.570266+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-26T06:15:18.682913+00:00",
+      "tier": "groq",
+      "article": "Air defenses down 71 targets over Sevastopol overnight \u2014 governor"
+    },
+    {
+      "timestamp": "2026-04-26T06:16:05.471968+00:00",
+      "tier": "groq",
+      "article": "Dozens killed, injured in Colombia bomb blast"
+    },
+    {
+      "timestamp": "2026-04-26T06:16:53.469887+00:00",
+      "tier": "groq",
+      "article": "EU fears US leader may skip G7, NATO summits \u2014 newspaper"
     }
   ]
 }
