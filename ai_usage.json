@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2411,
+  "total_calls": 2415,
   "tiers": {
-    "groq": 2392,
+    "groq": 2396,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-24T09:50:47.549539+00:00",
-      "tier": "groq",
-      "article": "Israel delivers 17 strikes on Beirut\u2019s southern suburbs \u2014 TV"
-    },
-    {
-      "timestamp": "2026-04-24T09:51:21.285501+00:00",
-      "tier": "groq",
-      "article": "Ukraine strikes hotel in ZNPP satellite city of Energodar with drone"
-    },
-    {
-      "timestamp": "2026-04-24T09:51:39.631336+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-24T09:52:16.037866+00:00",
-      "tier": "groq",
-      "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
-    },
     {
       "timestamp": "2026-04-24T11:12:12.775077+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-26T14:53:58.330657+00:00",
       "tier": "groq",
       "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
+    },
+    {
+      "timestamp": "2026-04-26T16:53:35.819941+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-26T16:54:09.188929+00:00",
+      "tier": "groq",
+      "article": "Hezbollah drones attack Israeli positions in al-Bayada in southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-26T16:54:29.114539+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Military Media to Israelis: Don\u2019t Let Netanyahu Deceive You, All Buffer Zones in Lebanon Can\u2019t Protect You - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-26T16:54:49.379278+00:00",
+      "tier": "groq",
+      "article": "Palestinians in West Bank and some in Gaza vote in local elections"
     }
   ]
 }

@@ -1,4 +1,39 @@
 {
+  "e9255b36386fcd125dbfa903fd02905060ccd680d58fed96c688d48687fcd029": {
+    "url": "intelslava/87116",
+    "title": "Russian Warplanes Strike Mali-Based Militant Group",
+    "published": "2026-04-26T17:04:02.062754+00:00"
+  },
+  "985a4893b9e70202b381e94fde0445177b22054d3bd2277b0b9c8f5e1e1663e4": {
+    "url": "presstv/187269",
+    "title": "Iran Demonstrates Military Resilience Amid US-Israeli Aggression",
+    "published": "2026-04-26T17:03:03.058686+00:00"
+  },
+  "a25d74acdc80e3ae6b548a0a7edbd1de1a7c8bbc6deb750a195f78ca40cc37da": {
+    "url": "presstv/187277",
+    "title": "Iran Strait of Hormuz Closure Disrupts Global Energy and Trade",
+    "published": "2026-04-26T17:00:30.854270+00:00"
+  },
+  "30ffce8f69d9124f0c168f53287660e560851b88ceae6ce4470e99785bdfc1fe": {
+    "url": "BellumActaNews/171758",
+    "title": "Iran Faces Three-Day Deadline for Oil Infrastructure Shutdown",
+    "published": "2026-04-26T16:57:57.826440+00:00"
+  },
+  "a865e1b4bdea78c612c09b08aebc411147e1e6777d8ed6a8d0473aa2437c19aa": {
+    "url": "thecradlemedia/58344",
+    "title": "Iranian F-5 Jet Penetrates US Air Defenses in Kuwait",
+    "published": "2026-04-26T16:54:53.586647+00:00"
+  },
+  "a3511cb47535f21f91c04d3442eaa6aa8ac7516aceedf4aed2d34e21900c84a7": {
+    "url": "thecradlemedia/58350",
+    "title": "Iran's President Raisi Rejects US Naval Blockade Talks",
+    "published": "2026-04-26T16:54:52.299739+00:00"
+  },
+  "cfd477260fb370670fce9404dae5e471ba3c91dcf7fc51ec2b7e096955559a81": {
+    "url": "https://tass.com/world/2122625",
+    "title": "Hezbollah drones attack Israeli positions in al-Bayada in southern Lebanon",
+    "published": "2026-04-26T15:40:11+00:00"
+  },
   "4293d5412827070098eac003a113ed0d325b97c854da7903017cfe198e4b5b2e": {
     "url": "BellumActaNews/171749",
     "title": "Russia's Africa Corps Conducts Drone-Enabled Airstrikes in Mali",
@@ -68,6 +103,11 @@
     "url": "https://english.almanar.com.lb/article/62892/",
     "title": "Islamic Resistance Strikes Gatherings of Israeli Soldiers in Taybeh, South Lebanon - Al-Manar TV Lebanon",
     "published": "2026-04-26T13:10:52+00:00"
+  },
+  "bfcb21555020eb63b90be9e2d12a57c5540f5e41e721719180433ebeee6f5544": {
+    "url": "https://english.almanar.com.lb/article/62812/",
+    "title": "Hezbollah Military Media to Israelis: Don\u2019t Let Netanyahu Deceive You, All Buffer Zones in Lebanon Can\u2019t Protect You - Al-Manar TV Lebanon",
+    "published": "2026-04-26T11:49:09+00:00"
   },
   "86267a504b32a42505bdf46c21eb59e001f1f00fa41f7a695d46cd25a0575fa3": {
     "url": "https://thecradle.co/articles-id/37343",
@@ -303,6 +343,11 @@
     "url": "QudsNen/220635",
     "title": "Braverman Accused of Sexual Misconduct Amid UK Ambassador Nomination",
     "published": "2026-04-25T19:05:41.033708+00:00"
+  },
+  "f18c9bbbda9041b469dc759d90a2c67a6f18e0722b6cf8fb8d6878582d55a36e": {
+    "url": "https://www.bbc.com/news/articles/cn4vej3x0wxo?at_medium=RSS&at_campaign=rss",
+    "title": "Palestinians in West Bank and some in Gaza vote in local elections",
+    "published": "2026-04-25T17:01:55+00:00"
   },
   "9a3d515dd726b0fcce2e022513762d5da38573fa603f29382d27abfb946e2508": {
     "url": "presstv/187119",
@@ -703,50 +748,5 @@
     "url": "BellumActaNews/171601",
     "title": "Netanyahu Confirms Talks with Trump on Iran, Lebanon",
     "published": "2026-04-24T17:11:44.541407+00:00"
-  },
-  "bcf2d3a9dd52c52ef553d66b3df551ece68e49649f2a9c41df5008fef4f8dee1": {
-    "url": "warmonitors/43859",
-    "title": "Pope Carries Photograph of Muslim Child Killed in Lebanon as Reminder Against War",
-    "published": "2026-04-24T17:09:35.134510+00:00"
-  },
-  "7314148b41798f5367947057ee68b4a33f71d5a20d62bb5ce9c30ae858541580": {
-    "url": "Middle_East_Spectator/31447",
-    "title": "Hezbollah Fighters Killed in Air Strike in Bint Jbeil, Lebanon",
-    "published": "2026-04-24T17:07:33.263244+00:00"
-  },
-  "0b8b4d44c1cd193894f12177672bea4b316b708e85c29c27c5bca77b7673ac1f": {
-    "url": "thecradlemedia/58265",
-    "title": "Hezbollah Condemns Truce Extension with Israel, Continues Rocket Fire",
-    "published": "2026-04-24T17:07:01.571035+00:00"
-  },
-  "70f7a8f3c224a79ae2457577e49f5d8a76816230d57bf051fe3ace816a6be96c": {
-    "url": "thecradlemedia/58268",
-    "title": "Iranian FM Embarks on Regional Diplomatic Tour",
-    "published": "2026-04-24T17:07:00.110825+00:00"
-  },
-  "8b9331294c1e77d23d39971a091d8f94381f0c171045ae42bd5a54314599ef9c": {
-    "url": "https://www.defensenews.com/industry/techwatch/2026/04/24/the-us-military-wants-a-fleet-of-missile-killing-laser-drones/",
-    "title": "The US military wants a fleet of missile-killing laser drones",
-    "published": "2026-04-24T16:00:27+00:00"
-  },
-  "004ee34dcb156420dad52203455b1d748fcb5e45938befd8360aea20efc24f65": {
-    "url": "QudsNen/220465",
-    "title": "Hezbollah Claims Downing of Israeli Drone Over Tyre, Lebanon",
-    "published": "2026-04-24T15:22:36.517269+00:00"
-  },
-  "c3dd10c645a85aa16d6c86ba404cc06e4d1c3bf03689f4167c7c267a467d2cef": {
-    "url": "QudsNen/220468",
-    "title": "US Deploys Second Aircraft Carrier to Strait of Hormuz Blockade",
-    "published": "2026-04-24T15:22:21.528489+00:00"
-  },
-  "e556a5d92e00a9510ccafea07b5358c67081d013d7cd2bfd5cb5b1f004cc78f7": {
-    "url": "QudsNen/220469",
-    "title": "Israeli Airstrike Hits Palestinian Gathering in Gaza City",
-    "published": "2026-04-24T15:21:41.373218+00:00"
-  },
-  "804d0e7752c3cf30859a04b28e36400a933b3ea3992228db905102b4396eedd0": {
-    "url": "QudsNen/220480",
-    "title": "Israeli Settlers Establish Outpost on Palestinian Land in Southern Nablus",
-    "published": "2026-04-24T15:21:08.707789+00:00"
   }
 }
