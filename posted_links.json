@@ -1,4 +1,34 @@
 {
+  "b1c44ad6f2c0640f5575569b49f8eb020d801f3bf4712d5720e3f21d0a20f29a": {
+    "url": "DDGeopolitics/182951",
+    "title": "Hezbollah Drone Targets IDF Rescue Team in Southern Lebanon",
+    "published": "2026-04-26T20:56:40.573769+00:00"
+  },
+  "06d4af0df4d1ec19c4887a660773fef2c78f9882695497042cfaea71de8ff990": {
+    "url": "QudsNen/220749",
+    "title": "Hezbollah Targets Israeli Forces in Al Taybeh, Southern Lebanon",
+    "published": "2026-04-26T20:54:09.097638+00:00"
+  },
+  "d30c807a688d89d46380fdce444373c486377e96316856a2650c3c623d1678a6": {
+    "url": "QudsNen/220750",
+    "title": "Iran Signals Continued Leverage in Conflict",
+    "published": "2026-04-26T20:52:53.596568+00:00"
+  },
+  "5c630682a3c42c362277b9e1f5a80baa7e0190a9095a7f12369feab240a4ec4a": {
+    "url": "QudsNen/220754",
+    "title": "Israeli Artillery Strikes Eastern Gaza",
+    "published": "2026-04-26T20:52:52.201808+00:00"
+  },
+  "5bd533e10ab99b4797462f9ea98b3d560985298690d1167fa0b51b2ffa4233e6": {
+    "url": "Middle_East_Spectator/31531",
+    "title": "Hezbollah Targets IDF Rescue Force with FPV Drone in Lebanon",
+    "published": "2026-04-26T20:52:48.085809+00:00"
+  },
+  "ce34c187c1e269b5379821d506db3da339b5b72ee0aee4639c8a0ca09f4badb7": {
+    "url": "thecradlemedia/58366",
+    "title": "Israeli Rescue Force Targeted by Drone in Southern Lebanon",
+    "published": "2026-04-26T20:51:30.799673+00:00"
+  },
   "ddfc1c9e9bb258018a3682bb33126c314a98d204075de356cf975d84e0ffd33d": {
     "url": "mod_russia_en/26607",
     "title": "Ukrainian Troops Train in Zaporozhye Region",
@@ -718,35 +748,5 @@
     "url": "https://tass.com/emergencies/2122343",
     "title": "Fragments of downed drone damage three apartment buildings in Kaluga",
     "published": "2026-04-24T22:11:26+00:00"
-  },
-  "e0d3808cbd5c62bd27e7bc5eee1f7120ffc0799ca5f1db80b1b6e04a50e690ee": {
-    "url": "https://tass.com/world/2122341",
-    "title": "US deploys some 15,000 troops in Mideast with three aircraft carrier strike groups",
-    "published": "2026-04-24T21:50:30+00:00"
-  },
-  "020d21b1a18b4aed34720485f51a3c03928551f9f9eb370cd2fe5605dfdcd63f": {
-    "url": "mod_russia_en/26567",
-    "title": "Russian Artillery Strikes AFU Stronghold in Dnepropetrovsk Region",
-    "published": "2026-04-24T21:06:58.719881+00:00"
-  },
-  "b0aefae2adba2bc1587e990ae2f5d904e1b020e96c3a86945a2850ce1483a3d8": {
-    "url": "mod_russia_en/26578",
-    "title": "Russian Forces Use Drone-Launched Guided Munition in Dnepropetrovsk Direction",
-    "published": "2026-04-24T21:05:22.907358+00:00"
-  },
-  "1845074fbcf4f60cdbf53d6dcdf5738a394f42589e7633956c44c67fc9f496a3": {
-    "url": "Slavyangrad/162631",
-    "title": "Freelance Journalist Exposes War Crimes and Media Manipulation",
-    "published": "2026-04-24T21:04:02.513887+00:00"
-  },
-  "9b4338297c5f71281ff05312bc8ad2aa6a9d1dc993e0b528a91f5493842e98d1": {
-    "url": "Slavyangrad/162647",
-    "title": "Ukraine's War Effort Hinges on EU Financial Support",
-    "published": "2026-04-24T21:02:57.910779+00:00"
-  },
-  "01210339b425debfd7dd0e7f091d193c256a59595b1ec6c0dc14d223c5380848": {
-    "url": "Middle_East_Spectator/31459",
-    "title": "Iranian Diplomat Seeks Pakistani Mediation in Islamabad",
-    "published": "2026-04-24T21:01:26.047242+00:00"
   }
 }
