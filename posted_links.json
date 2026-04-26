@@ -1,4 +1,34 @@
 {
+  "ddfc1c9e9bb258018a3682bb33126c314a98d204075de356cf975d84e0ffd33d": {
+    "url": "mod_russia_en/26607",
+    "title": "Ukrainian Troops Train in Zaporozhye Region",
+    "published": "2026-04-26T19:16:18.981995+00:00"
+  },
+  "5971da0548680d3e34931135dea703ba5eac8915a62d39f2426bb1a0925472b1": {
+    "url": "Slavyangrad/162807",
+    "title": "Russian Forces Withdraw Wounded from Kidal Military Base Amid Mali Conflict",
+    "published": "2026-04-26T19:15:03.215072+00:00"
+  },
+  "7d20d6309f2b8461057f69602634a2929a9a5201f335ddb245f0328ce15b776d": {
+    "url": "presstv/187288",
+    "title": "US-Israel Airstrikes Fuel Fears of Nuclear Proliferation",
+    "published": "2026-04-26T19:13:26.290409+00:00"
+  },
+  "627a06c0cd5e630db49835381c52f5b4d0b7cb249f8729a5345efe899fbd5931": {
+    "url": "presstv/187292",
+    "title": "Iran's Resilience Amid US Sanctions",
+    "published": "2026-04-26T19:10:51.910724+00:00"
+  },
+  "c61e5be5948a62011c65e42c9d4f885a72b18ada419782e43bcb255b4e39498e": {
+    "url": "QudsNen/220739",
+    "title": "Israeli Airstrikes Hit Jabal al-Botm in Southern Lebanon",
+    "published": "2026-04-26T19:08:13.467077+00:00"
+  },
+  "1d1b2c63fc7110d5db2f4bec043397c2e8d5d02cadcc618a00696a3b47a924e3": {
+    "url": "Middle_East_Spectator/31515",
+    "title": "Israel Deploys Iron Dome to UAE Amid Regional Tensions",
+    "published": "2026-04-26T19:08:09.855086+00:00"
+  },
   "e9255b36386fcd125dbfa903fd02905060ccd680d58fed96c688d48687fcd029": {
     "url": "intelslava/87116",
     "title": "Russian Warplanes Strike Mali-Based Militant Group",
@@ -254,6 +284,11 @@
     "title": "Drone Crash in Gaza Carries Illicit Substances Amid Surge in Drug Trafficking",
     "published": "2026-04-26T03:26:51.830463+00:00"
   },
+  "275ff3c89ad364307c794fbc5ea228f6e726a124f1c0b207c017b117f6128a1f": {
+    "url": "https://www.rt.com/news/639070-colombia-roadside-bomb-victims/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+    "title": "Roadside bomb carnage kills 12 in Colombia",
+    "published": "2026-04-25T23:45:02+00:00"
+  },
   "b327c5a82cbb8111a0fb7a674d8b2694d8cefa247271630a27ebada027a7282f": {
     "url": "presstv/187148",
     "title": "Iranian Child Participates in Missile Firing Exercise Targeting Trump Image",
@@ -284,6 +319,11 @@
     "title": "Iran's Foreign Minister Heads to Islamabad for Talks on US-Israeli Conflict Framework",
     "published": "2026-04-25T22:49:48.408912+00:00"
   },
+  "0b7ebd115b25fde480785886a74839901d7890b60a3707503dda61997970b06e": {
+    "url": "https://www.rt.com/news/639068-trump-cancels-envoys-trip-pakistan-iran/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+    "title": "Trump cancels Pakistan trip for Witkoff, Kushner amid stalled Iran talks",
+    "published": "2026-04-25T21:07:46+00:00"
+  },
   "fa6fbceddc2c1c90981e1a8c033d061a6d6503a29832ea28134a7d2ee8424e7b": {
     "url": "CensoredMen/203",
     "title": "Israel Escalates Strikes in Lebanon Amid Iran Ceasefire",
@@ -313,6 +353,11 @@
     "url": "thecradlemedia/58331",
     "title": "Iran's Araghchi Seeks Pakistan's Help to End Regional Conflict",
     "published": "2026-04-25T20:49:07.561394+00:00"
+  },
+  "e40bc7eb139aec560cda89526dab431fbc61a83197df46a160872c9ffb51ca1b": {
+    "url": "https://tass.com/emergencies/2122475",
+    "title": "Four people, including two children, injured near Belgorod in Ukrainian drone attack",
+    "published": "2026-04-25T20:27:56+00:00"
   },
   "cc063616b83151c177310b528793b9b67998378e9ec37788c1b0c629a2a6b62e": {
     "url": "presstv/187128",
@@ -703,50 +748,5 @@
     "url": "Middle_East_Spectator/31459",
     "title": "Iranian Diplomat Seeks Pakistani Mediation in Islamabad",
     "published": "2026-04-24T21:01:26.047242+00:00"
-  },
-  "4b80ac039fc2dc8386ae54dade55663404ae9d4874bf8685858f43622e2c893e": {
-    "url": "thecradlemedia/58255",
-    "title": "UAE Presidential Advisor Warns Rebuilding Ties with Iran Will Take Years",
-    "published": "2026-04-24T21:01:16.986520+00:00"
-  },
-  "e04220aabc575137e3025abff49215527adaf71086c85eaafa6ea63bad45b5f1": {
-    "url": "Slavyangrad/162632",
-    "title": "Forest Fires Wreak Havoc in Georgia, US",
-    "published": "2026-04-24T19:14:44.398133+00:00"
-  },
-  "5cc25ecd297c23339bf540cb8150ed47eec77d2bad4bcd76fd9e90087698dce9": {
-    "url": "Slavyangrad/162644",
-    "title": "Ukraine's Military Strategy in Question as Analyst Predicts 'Frozen' Front Line",
-    "published": "2026-04-24T19:14:28.240317+00:00"
-  },
-  "b12781748d8574bb033393ff394d751d9fc005cb208cba19fd76d2a5fd39b4bb": {
-    "url": "intelslava/87006",
-    "title": "US Tankers Gather at Ben-Gurion Airport Amid Iran Tensions",
-    "published": "2026-04-24T19:13:18.492063+00:00"
-  },
-  "f5055388d134185b706b0ccaeeea0b3df57e38f3b1394036028b2663caf0782c": {
-    "url": "QudsNen/220498",
-    "title": "Israeli Airstrike Kills Palestinian in Khan Younis",
-    "published": "2026-04-24T19:08:00.979584+00:00"
-  },
-  "51ae001970cc33e2f65c3811134fb4cbda88986b8ec8dff535c83ea2e0344c65": {
-    "url": "thecradlemedia/58257",
-    "title": "UK PM Pledges to Ban Iran's IRGC Amid Synagogue Arson Probe",
-    "published": "2026-04-24T19:06:37.743251+00:00"
-  },
-  "2a3bd16b3c69060b71e6bab9766ecf814cf66f5fd285c32cdb0ec00eca3e0799": {
-    "url": "thecradlemedia/58263",
-    "title": "Iran Conflict Drives Up Polyester Costs in India and Bangladesh",
-    "published": "2026-04-24T19:06:35.786147+00:00"
-  },
-  "7775d85762cca93fff0ee9dec751c84bb187271d1c09db11fed331f6ec38c525": {
-    "url": "BellumActaNews/171598",
-    "title": "US and EU Strengthen Critical Minerals Supply Chain",
-    "published": "2026-04-24T17:14:26.013407+00:00"
-  },
-  "c212b1887606af2fc941e52a91840a983c8521875d37859e23d68032498d4740": {
-    "url": "BellumActaNews/171601",
-    "title": "Netanyahu Confirms Talks with Trump on Iran, Lebanon",
-    "published": "2026-04-24T17:11:44.541407+00:00"
   }
 }

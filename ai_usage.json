@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2415,
+  "total_calls": 2419,
   "tiers": {
-    "groq": 2396,
+    "groq": 2400,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-24T11:12:12.775077+00:00",
-      "tier": "groq",
-      "article": "Israel delivers 17 strikes on Beirut\u2019s southern suburbs \u2014 TV"
-    },
-    {
-      "timestamp": "2026-04-24T11:12:46.198404+00:00",
-      "tier": "groq",
-      "article": "Ukraine strikes hotel in ZNPP satellite city of Energodar with drone"
-    },
-    {
-      "timestamp": "2026-04-24T11:13:05.247108+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-24T11:13:22.560677+00:00",
-      "tier": "groq",
-      "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
-    },
     {
       "timestamp": "2026-04-24T13:47:10.046866+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-26T16:54:49.379278+00:00",
       "tier": "groq",
       "article": "Palestinians in West Bank and some in Gaza vote in local elections"
+    },
+    {
+      "timestamp": "2026-04-26T19:05:49.043474+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-26T19:06:27.832884+00:00",
+      "tier": "groq",
+      "article": "Roadside bomb carnage kills 12 in Colombia"
+    },
+    {
+      "timestamp": "2026-04-26T19:07:14.643596+00:00",
+      "tier": "groq",
+      "article": "Four people, including two children, injured near Belgorod in Ukrainian drone attack"
+    },
+    {
+      "timestamp": "2026-04-26T19:08:05.058435+00:00",
+      "tier": "groq",
+      "article": "Trump cancels Pakistan trip for Witkoff, Kushner amid stalled Iran talks"
     }
   ]
 }
