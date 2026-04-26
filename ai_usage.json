@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2403,
+  "total_calls": 2407,
   "tiers": {
-    "groq": 2384,
+    "groq": 2388,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-24T03:00:44.984031+00:00",
-      "tier": "groq",
-      "article": "Israel delivers 17 strikes on Beirut\u2019s southern suburbs \u2014 TV"
-    },
-    {
-      "timestamp": "2026-04-24T03:01:19.043546+00:00",
-      "tier": "groq",
-      "article": "Ukraine strikes hotel in ZNPP satellite city of Energodar with drone"
-    },
-    {
-      "timestamp": "2026-04-24T03:01:37.670162+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-24T03:01:53.963904+00:00",
-      "tier": "groq",
-      "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
-    },
     {
       "timestamp": "2026-04-24T06:15:23.870935+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-26T10:56:31.967776+00:00",
       "tier": "groq",
       "article": "Russia ready to resume cooperation with Germany, but will not impose itself \u2014 ambassador"
+    },
+    {
+      "timestamp": "2026-04-26T13:17:07.806465+00:00",
+      "tier": "groq",
+      "article": "Iranian F-5 breached air defenses, bombed US base in first such strike since Korean War: Report"
+    },
+    {
+      "timestamp": "2026-04-26T13:17:42.562458+00:00",
+      "tier": "groq",
+      "article": "Islamic Resistance Strikes Gatherings of Israeli Soldiers in Taybeh, South Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-26T13:18:03.160620+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-26T13:18:39.366137+00:00",
+      "tier": "groq",
+      "article": "Not all is lost in Russian-German relations \u2014 Russian ambassador"
     }
   ]
 }
