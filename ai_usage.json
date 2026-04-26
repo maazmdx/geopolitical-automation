@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2387,
+  "total_calls": 2391,
   "tiers": {
-    "groq": 2368,
+    "groq": 2372,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-23T17:44:16.111190+00:00",
-      "tier": "groq",
-      "article": "France, Poland plan to conduct nuclear exercises over Baltic Sea \u2014 website"
-    },
-    {
-      "timestamp": "2026-04-23T17:44:53.964660+00:00",
-      "tier": "groq",
-      "article": "Iran slams use of neighbors' soil by enemy for attacks"
-    },
-    {
-      "timestamp": "2026-04-23T17:45:11.416646+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-23T17:45:48.777271+00:00",
-      "tier": "groq",
-      "article": "Ceasefire vIolations, blockade, threats barriers to talks"
-    },
     {
       "timestamp": "2026-04-23T19:22:01.293888+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-25T22:49:44.681628+00:00",
       "tier": "groq",
       "article": "Galaxy Gas: The legal high ruining American children\u2019s lives"
+    },
+    {
+      "timestamp": "2026-04-26T03:25:13.335091+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-26T03:25:45.874250+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-26T03:26:01.876763+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-26T03:26:41.489526+00:00",
+      "tier": "groq",
+      "article": "US mistakenly considers itself world\u2019s most powerful country \u2014 Jeffrey Sachs"
     }
   ]
 }

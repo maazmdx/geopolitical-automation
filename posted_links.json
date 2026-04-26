@@ -1,4 +1,34 @@
 {
+  "a999c4814fb60b86c835238cc38ddde726d9b8b578694a6dc7b638dfb67353dd": {
+    "url": "intelslava/87080",
+    "title": "Iranian Anti-Aircraft Gun Destroyed Near Bushehr Nuclear Power Plant",
+    "published": "2026-04-26T03:31:57.322775+00:00"
+  },
+  "bada57815f80ed2adc2cf8c1b1316ad4063b30f3331b06b81b5b5f6919d1cf72": {
+    "url": "intelslava/87083",
+    "title": "Car Bomb Explodes Outside Police Station in Dunmurry, Northern Ireland",
+    "published": "2026-04-26T03:30:57.541930+00:00"
+  },
+  "71e58933d4dba82e7dccee8adec4643241d72b3df96663b12cc6f24d19b14d18": {
+    "url": "intelslava/87085",
+    "title": "IDF Destroys Solar Panels in Southern Lebanon",
+    "published": "2026-04-26T03:29:19.280462+00:00"
+  },
+  "9a06cb72abc3234056d7fb2d9ff08a27ddeb30185195d800375a68581bd17ad3": {
+    "url": "DDGeopolitics/182849",
+    "title": "Shooting Incident at White House Correspondents' Dinner",
+    "published": "2026-04-26T03:27:39.666341+00:00"
+  },
+  "376fa387e8e4c86acde07cad71a03b026e4795ca8927921b037b1744713bf6ae": {
+    "url": "QudsNen/220631",
+    "title": "Israeli Artillery Strikes Al-Maaliya in Southern Lebanon",
+    "published": "2026-04-26T03:26:53.425390+00:00"
+  },
+  "4333f0da21575055a88ecd7c1e99e4dc46049600651d638846593233871786cc": {
+    "url": "QudsNen/220637",
+    "title": "Drone Crash in Gaza Carries Illicit Substances Amid Surge in Drug Trafficking",
+    "published": "2026-04-26T03:26:51.830463+00:00"
+  },
   "b327c5a82cbb8111a0fb7a674d8b2694d8cefa247271630a27ebada027a7282f": {
     "url": "presstv/187148",
     "title": "Iranian Child Participates in Missile Firing Exercise Targeting Trump Image",
@@ -308,6 +338,11 @@
     "url": "QudsNen/220549",
     "title": "US Airlift Continues to Transport Munitions to Middle East",
     "published": "2026-04-25T05:56:36.124630+00:00"
+  },
+  "6312fde62fb5fdb2171025467876d5d4863ac765996e1e75ab43bc92bf75ba9d": {
+    "url": "https://tass.com/world/2122379",
+    "title": "US mistakenly considers itself world\u2019s most powerful country \u2014 Jeffrey Sachs",
+    "published": "2026-04-25T04:46:21+00:00"
   },
   "63e22c7ed2a61c733da8cdde5c01c7db6539538807b644be6a1b281193f6274b": {
     "url": "https://tass.com/world/2122371",
@@ -713,40 +748,5 @@
     "url": "https://www.rt.com/news/638991-trump-putin-miami-g20/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
     "title": "Trump says Putin at Miami G20 would be \u2018helpful\u2019",
     "published": "2026-04-24T00:12:14+00:00"
-  },
-  "18f1e29eeb0872aab053c353808b4ef7e7ff6ca2a96728a343ed2965d461c515": {
-    "url": "warmonitors/43845",
-    "title": "Hezbollah Rockets Trigger Iron Dome Deployment in Northern Israel",
-    "published": "2026-04-23T23:02:28.206550+00:00"
-  },
-  "97472996920e0068425571ee3a71789bcd31a8bf4d44f8cc7d4f305bc8d04592": {
-    "url": "QudsNen/220388",
-    "title": "US Envoy Blames Hezbollah for Regional Tensions",
-    "published": "2026-04-23T23:02:18.200115+00:00"
-  },
-  "cfc3a24d685ad34f0ec1bf29396e1ebffa5510628d3ba05e4161a1f9c3f71636": {
-    "url": "QudsNen/220390",
-    "title": "Trump Links Iran Deal to Hezbollah Funding",
-    "published": "2026-04-23T23:01:45.287024+00:00"
-  },
-  "46be8854fa2c541cc8fa1ca6104bf1f4b9bd265f0355aa84269073f34936c197": {
-    "url": "Middle_East_Spectator/31415",
-    "title": "Iran Air Defenses Activated Amid Regional Tensions",
-    "published": "2026-04-23T23:01:11.032369+00:00"
-  },
-  "8cfd04e8cf0a5bab8532639fe80e218b42133ccffd6d5d08ac1ec22e39226a23": {
-    "url": "Middle_East_Spectator/31416",
-    "title": "Trump Asserts US Leverage in Iran Conflict Talks",
-    "published": "2026-04-23T23:01:10.050843+00:00"
-  },
-  "45873e8355840e302973894ef1e9e4dc66a90a324ad102c020b769b88de45567": {
-    "url": "thecradlemedia/58198",
-    "title": "Trump Extends Israel-Lebanon Ceasefire, Pledges Restraint",
-    "published": "2026-04-23T23:01:07.634806+00:00"
-  },
-  "d059eeb7c9e8090467a39387046190e6138951f3c87994f067eacebf7854d3ac": {
-    "url": "https://www.rt.com/news/638990-trump-nuclear-weapons-iran/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "Trump rules out nuking Iran after threats to destroy civilization",
-    "published": "2026-04-23T22:28:31+00:00"
   }
 }
