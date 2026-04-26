@@ -1,4 +1,34 @@
 {
+  "76a71053e5f3403b86679a9fb3ae3ae57b46d39c9b6e9ad77ddfae9433293562": {
+    "url": "BellumActaNews/171769",
+    "title": "Drone Strike Hits Israeli Troops in Southern Lebanon",
+    "published": "2026-04-26T22:56:30.574736+00:00"
+  },
+  "728fe477409a87b239918cf25703c6cb3be591bcb1739da56394854d995c32a6": {
+    "url": "warmonitors/43890",
+    "title": "Hezbollah Drone Crashes Near Israeli Evacuation",
+    "published": "2026-04-26T22:54:02.369641+00:00"
+  },
+  "65c2480ab436bd6e3d101e2995b1578ea1be1e6e796bc42de77e9e0107066d18": {
+    "url": "DDGeopolitics/182950",
+    "title": "Hezbollah Drone Targets IDF Rescue Team in Southern Lebanon",
+    "published": "2026-04-26T22:51:34.033419+00:00"
+  },
+  "045108ca5b8e229c9606f159d961bb770b0457298573bc4184d0b0a598337949": {
+    "url": "QudsNen/220760",
+    "title": "Israeli Artillery Strikes Eastern Gaza Strip",
+    "published": "2026-04-26T22:50:18.941912+00:00"
+  },
+  "d6fbad1566ccdbf653a128c13375e02738d54806bc8a91d2b0d9642e6b683c76": {
+    "url": "QudsNen/220765",
+    "title": "Israeli Tanks Open Fire in Eastern Gaza Strip",
+    "published": "2026-04-26T22:49:42.767664+00:00"
+  },
+  "ae989750907674c071be57343d5f4b657254d526b9faa115a3cef7bc42206c79": {
+    "url": "QudsNen/220766",
+    "title": "Israeli Airstrikes on Qalaouiyeh Leave 13 Dead, 30 Injured",
+    "published": "2026-04-26T22:49:41.665597+00:00"
+  },
   "b1c44ad6f2c0640f5575569b49f8eb020d801f3bf4712d5720e3f21d0a20f29a": {
     "url": "DDGeopolitics/182951",
     "title": "Hezbollah Drone Targets IDF Rescue Team in Southern Lebanon",
@@ -718,35 +748,5 @@
     "url": "OSINT_defender/276",
     "title": "US A-10 Fighter Refuels Over CENTCOM Area of Responsibility",
     "published": "2026-04-24T22:52:02.407487+00:00"
-  },
-  "ae62de189ba58a5ce94ebd210a9705b4161277bae160e9ca0dfba4d6bb7c727b": {
-    "url": "OSINT_defender/278",
-    "title": "Massive Fire Engulfs Valero Oil Refinery in Port Arthur, Texas",
-    "published": "2026-04-24T22:50:31.405155+00:00"
-  },
-  "7c8139d49e0083784d89963905419071e986009977504c3de31a1a60fac3cdb4": {
-    "url": "OSINT_defender/279",
-    "title": "Iranian Ballistic Missiles Strike Tel Aviv, Central Israel",
-    "published": "2026-04-24T22:50:14.527504+00:00"
-  },
-  "4f6afea61b140c86fdd9510b6f389605e63bb71c3add997439dec7d8de83e379": {
-    "url": "DDGeopolitics/182747",
-    "title": "Dnepropetrovsk Fire Following Russian Drone Strike",
-    "published": "2026-04-24T22:47:44.859574+00:00"
-  },
-  "a004f814b2928630ad1fd67c2a5e1cf3202e9609736528c932ee6a8b1871f4e0": {
-    "url": "QudsNen/220516",
-    "title": "Israel Asserts Control Over 5% of Lebanon's Territory Amid Ongoing Invasion",
-    "published": "2026-04-24T22:46:25.560473+00:00"
-  },
-  "0adc8a3e786fbc4ff447451d19929052381a4b385db671e9b9666932780485ee": {
-    "url": "QudsNen/220517",
-    "title": "Hezbollah Responds to Israeli Ceasefire Violations with Five Military Operations",
-    "published": "2026-04-24T22:46:24.317909+00:00"
-  },
-  "3c3f275286ed39f3dca04ed14826c642a682d164f91fc3bcff6f8b15c83c7d14": {
-    "url": "https://tass.com/emergencies/2122343",
-    "title": "Fragments of downed drone damage three apartment buildings in Kaluga",
-    "published": "2026-04-24T22:11:26+00:00"
   }
 }
