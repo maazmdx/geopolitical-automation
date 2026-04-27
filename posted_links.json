@@ -1,4 +1,34 @@
 {
+  "a801c679c27ee6ca643fb2243a996960e828cca806c667f33f41022da22fba8c": {
+    "url": "presstv/187311",
+    "title": "Hezbollah Retaliates Against Israeli Positions in Southern Lebanon",
+    "published": "2026-04-27T03:38:41.612544+00:00"
+  },
+  "699a97307197e7ab2bcccb199c5de0644096df76ce692a5254d99b0eedee0bef": {
+    "url": "presstv/187313",
+    "title": "Israeli Bombardment Hits Safad Al-Battikh in Southern Lebanon",
+    "published": "2026-04-27T03:36:52.034472+00:00"
+  },
+  "40cc370af9d6d9612ea7489426f1e5130bd395849a033339464512727e0df8d2": {
+    "url": "presstv/187315",
+    "title": "Hezbollah Drone Strike Misses Israeli Rescue Helicopter",
+    "published": "2026-04-27T03:36:32.405646+00:00"
+  },
+  "cf699839d7c15871f208918fb16f4ea3e72cb848eee5439938745a105a4c211c": {
+    "url": "presstv/187316",
+    "title": "Hezbollah Supporters Rally in Beirut's Southern Suburb",
+    "published": "2026-04-27T03:34:04.875833+00:00"
+  },
+  "201a3736180981a2d91d37a08d12757a26fef77b985739ad6ec8fd1b3390b2ce": {
+    "url": "QudsNen/220771",
+    "title": "US Forces Redirect 38 Vessels Amid Ongoing Tensions",
+    "published": "2026-04-27T03:31:25.314823+00:00"
+  },
+  "004bfb5ead9be556ba5422ec993b7f381b97c5f0ce8b0568801438d84c409f52": {
+    "url": "QudsNen/220775",
+    "title": "Iran Proposes Phased Deal to Reopen Hormuz Strait and End War",
+    "published": "2026-04-27T03:31:19.600450+00:00"
+  },
   "76a71053e5f3403b86679a9fb3ae3ae57b46d39c9b6e9ad77ddfae9433293562": {
     "url": "BellumActaNews/171769",
     "title": "Drone Strike Hits Israeli Troops in Southern Lebanon",
@@ -718,35 +748,5 @@
     "url": "BellumActaNews/171630",
     "title": "Hamas Militants Clash with Civilians in Gaza City",
     "published": "2026-04-25T02:50:02.984289+00:00"
-  },
-  "fc26bec401e8b07182c19a1dd6a13ba128aa5edf5d9cc5599d79aa199aa8b0a2": {
-    "url": "DDGeopolitics/182752",
-    "title": "Explosions Rock Dnepropetrovsk, Ukraine",
-    "published": "2026-04-25T02:49:35.309447+00:00"
-  },
-  "d1a2440c0f8ca1a61f0fa832cd391beed437eaf933e0cc14ba49a556030abd57": {
-    "url": "QudsNen/220537",
-    "title": "Israeli Troops Accused of Looting in Southern Lebanon",
-    "published": "2026-04-25T02:49:07.925452+00:00"
-  },
-  "cf0d982a95fa5fb263cda4953b71778f2e3061035eb9c519d5c8698bff7c8a4f": {
-    "url": "thecradlemedia/58280",
-    "title": "Hezbollah's Precision Strike Exposes Israeli Tank Vulnerabilities",
-    "published": "2026-04-25T02:49:04.451965+00:00"
-  },
-  "1381b86d09a2e10d27dbb6d9cd775b348468d0647fcf79ccb85ea120a02d1d71": {
-    "url": "https://tass.com/world/2122355",
-    "title": "At least six Lebanese people killed by Israeli strikes in past day \u2014 ministry",
-    "published": "2026-04-25T00:17:26+00:00"
-  },
-  "bcf6e2978c14b854b94b651e6962acb0bb08abdc5ff8ea1b3c3a70a4d51ba3df": {
-    "url": "https://www.rt.com/news/639039-galaxy-gas-legal-high/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "Galaxy Gas: The legal high ruining American children\u2019s lives",
-    "published": "2026-04-24T23:56:48+00:00"
-  },
-  "3fb4207b023e7e425d0e178102b247c020db0c3a8fe42955f82d627756856c72": {
-    "url": "OSINT_defender/276",
-    "title": "US A-10 Fighter Refuels Over CENTCOM Area of Responsibility",
-    "published": "2026-04-24T22:52:02.407487+00:00"
   }
 }
