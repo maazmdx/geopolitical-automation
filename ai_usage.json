@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2443,
+  "total_calls": 2447,
   "tiers": {
-    "groq": 2424,
+    "groq": 2428,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-25T02:47:31.911886+00:00",
-      "tier": "groq",
-      "article": "At least six Lebanese people killed by Israeli strikes in past day \u2014 ministry"
-    },
-    {
-      "timestamp": "2026-04-25T02:48:05.276455+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-25T02:48:21.329009+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-25T02:49:00.374446+00:00",
-      "tier": "groq",
-      "article": "Significant unity among Iranians shatters enemy ranks: Leader"
-    },
     {
       "timestamp": "2026-04-25T05:53:12.978070+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-27T14:06:42.588462+00:00",
       "tier": "groq",
       "article": "US tightens green card screening over Israel criticism and protest activity"
+    },
+    {
+      "timestamp": "2026-04-27T17:28:45.203816+00:00",
+      "tier": "groq",
+      "article": "Lebanon Latest: Israel\u2019s deadly attacks amid ceasefire breaches"
+    },
+    {
+      "timestamp": "2026-04-27T17:29:01.296193+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-27T17:29:28.797166+00:00",
+      "tier": "groq",
+      "article": "Ukrainian strikes on Zaporozhye NPP are crime against humanity \u2014 Russian expert"
+    },
+    {
+      "timestamp": "2026-04-27T17:30:15.399626+00:00",
+      "tier": "groq",
+      "article": "Russia\u2019s Battlegroup South destroys 62 Ukrainian dugouts, shelters over past 24 hours"
     }
   ]
 }
