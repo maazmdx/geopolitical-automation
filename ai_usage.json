@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2439,
+  "total_calls": 2443,
   "tiers": {
-    "groq": 2420,
+    "groq": 2424,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-24T22:45:08.523791+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-24T22:45:41.719721+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-24T22:45:57.859788+00:00",
-      "tier": "groq",
-      "article": "US deploys some 15,000 troops in Mideast with three aircraft carrier strike groups"
-    },
-    {
-      "timestamp": "2026-04-24T22:46:16.589225+00:00",
-      "tier": "groq",
-      "article": "US special forces soldier charged over $400,000 bet on Maduro raid"
-    },
     {
       "timestamp": "2026-04-25T02:47:31.911886+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-27T10:24:48.733790+00:00",
       "tier": "groq",
       "article": "Brits protest US use of UK bases against Iran"
+    },
+    {
+      "timestamp": "2026-04-27T14:05:04.757586+00:00",
+      "tier": "groq",
+      "article": "Netanyahu&#039;s trial delayed once more over &#039;security meeting&#039; on Lebanon"
+    },
+    {
+      "timestamp": "2026-04-27T14:05:35.642897+00:00",
+      "tier": "groq",
+      "article": "VIDEO: Students in Turkey tear up Trump, Netanyahu photos"
+    },
+    {
+      "timestamp": "2026-04-27T14:06:24.900411+00:00",
+      "tier": "groq",
+      "article": "IN BRIEF: Staff member killed in Ukrainian drone strike on Zaporozhye nuke plant"
+    },
+    {
+      "timestamp": "2026-04-27T14:06:42.588462+00:00",
+      "tier": "groq",
+      "article": "US tightens green card screening over Israel criticism and protest activity"
     }
   ]
 }
