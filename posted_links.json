@@ -1,4 +1,34 @@
 {
+  "5b8084f69c01aca0c7ad7e03d8ab14820ac0e569f903bfb09c83e6ea47ae6856": {
+    "url": "presstv/187439",
+    "title": "Israeli Airstrikes Hit Southern Lebanon",
+    "published": "2026-04-27T21:15:16.836805+00:00"
+  },
+  "1d9d980f6d6e0f4124be036c08c31359fadabcfa6b5b6386a56068f0cea0c878": {
+    "url": "warmonitors/43901",
+    "title": "Drone Strike Causes Devastation in Eastern Syria",
+    "published": "2026-04-27T21:14:41.606845+00:00"
+  },
+  "6c19c45d66efb1e7c57cc439589596b7c8468bb79ce96eb214a6eb3aaa765a99": {
+    "url": "QudsNen/220881",
+    "title": "Israeli Airstrike in Tabriz Leaves 4 Dead, 1 Survivor",
+    "published": "2026-04-27T21:13:41.127539+00:00"
+  },
+  "4437a3a6402b5fbf5a2d96612fd19edd932150d135b2e4d328189b27ffbe9514": {
+    "url": "QudsNen/220882",
+    "title": "Israeli Settlers Set Fire to Home in Jalud, West Bank",
+    "published": "2026-04-27T21:11:42.107925+00:00"
+  },
+  "c611cf0007dcee34413262ef9459f399ef32c60c6b8965de2ca21a7c21b8454b": {
+    "url": "thecradlemedia/58405",
+    "title": "EU Chief Urges Caution on Lifting Iran Sanctions",
+    "published": "2026-04-27T21:10:34.087873+00:00"
+  },
+  "2d14ac4245734b331118194117d1f66d432ad9c2747556dd2f224eac12b17f61": {
+    "url": "thecradlemedia/58408",
+    "title": "Spain Warns of Rising Fuel Costs Amid US-Israeli Conflict",
+    "published": "2026-04-27T21:10:32.842829+00:00"
+  },
   "9c0c6933d3268644a83d464cdb4fef1c32d5468438425424445d472b7605fa60": {
     "url": "presstv/187425",
     "title": "Iran's FM Araghchi Meets with Russian President Putin",
@@ -718,35 +748,5 @@
     "url": "presstv/187119",
     "title": "Israeli Airstrike Targets Residential Building in Southern Lebanon",
     "published": "2026-04-25T16:58:45.556352+00:00"
-  },
-  "c15c16821006e2f2ce2ebd5985d69a0c776713428e80548464ba15bd507c25c5": {
-    "url": "QudsNen/220623",
-    "title": "Israeli Airstrikes Hit Southern Lebanon Villages",
-    "published": "2026-04-25T16:58:25.717017+00:00"
-  },
-  "892de9ce9c5c8d52d960a948736e57ebabfb5acfc9d4cc8e838ad1a2fbb2e7c3": {
-    "url": "QudsNen/220627",
-    "title": "Israeli Airstrikes Hit Residential Building in Southern Lebanon",
-    "published": "2026-04-25T16:58:10.800991+00:00"
-  },
-  "074f52a5b01046925527c3bc7462efe175e88e65169c7677de51bf3aeb72969b": {
-    "url": "Middle_East_Spectator/31480",
-    "title": "Israeli Airstrikes Hit Southern Lebanon",
-    "published": "2026-04-25T16:57:52.200763+00:00"
-  },
-  "032b946ed07402675b2e7c63b0fcbea1d5b40f57ee1dd239d6be2a1716aa0e69": {
-    "url": "thecradlemedia/58327",
-    "title": "US Oil Exports Soar Amid Hormuz Strait Disruptions",
-    "published": "2026-04-25T16:57:36.571749+00:00"
-  },
-  "ab9c0fc0843868e260ef536e17b1e16bf8b56269185d5a9641c5bc0f79baf106": {
-    "url": "thecradlemedia/58329",
-    "title": "Israeli Forces Carry Out Explosions in Taybeh, Lebanon",
-    "published": "2026-04-25T16:57:34.767603+00:00"
-  },
-  "e1451fa282398b2a6e30506e35516acb27e6bf79011111275b8c39d2aa9d472e": {
-    "url": "intelslava/87041",
-    "title": "Tuareg Separatists Occupy Military Base in Kidal, Mali",
-    "published": "2026-04-25T14:57:49.595208+00:00"
   }
 }

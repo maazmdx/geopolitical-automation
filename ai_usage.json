@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2451,
+  "total_calls": 2455,
   "tiers": {
-    "groq": 2432,
+    "groq": 2436,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-25T07:28:32.272925+00:00",
-      "tier": "groq",
-      "article": "Resumption of hostilities against Iran may lead to new world war \u2014 Jeffrey Sachs"
-    },
-    {
-      "timestamp": "2026-04-25T07:29:06.646601+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-25T07:29:22.803836+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-25T07:30:05.584580+00:00",
-      "tier": "groq",
-      "article": "Israel anti-Iran remarks failed attempt to justify aggression"
-    },
     {
       "timestamp": "2026-04-25T09:00:43.621143+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-27T19:35:42.178705+00:00",
       "tier": "groq",
       "article": "Iranian FM Araghchi warns Americans may have to cancel summer vacations"
+    },
+    {
+      "timestamp": "2026-04-27T21:09:28.376255+00:00",
+      "tier": "groq",
+      "article": "Ukraine strikes hotel in ZNPP satellite city of Energodar with drone"
+    },
+    {
+      "timestamp": "2026-04-27T21:09:47.025248+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-27T21:10:10.135819+00:00",
+      "tier": "groq",
+      "article": "Trump says urged Putin against responding to Ukraine's recent strikes on Russia"
+    },
+    {
+      "timestamp": "2026-04-27T21:10:28.325501+00:00",
+      "tier": "groq",
+      "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
     }
   ]
 }
