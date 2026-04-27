@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2435,
+  "total_calls": 2439,
   "tiers": {
-    "groq": 2416,
+    "groq": 2420,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-24T20:59:32.365783+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-24T21:00:06.373418+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-24T21:00:22.630555+00:00",
-      "tier": "groq",
-      "article": "UAE, Saudi Arabia intercept Iranian missiles and drones"
-    },
-    {
-      "timestamp": "2026-04-24T21:01:07.030670+00:00",
-      "tier": "groq",
-      "article": "Couple discovers Lebanon home destroyed by Israel from satellite image"
-    },
     {
       "timestamp": "2026-04-24T22:45:08.523791+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-27T06:36:42.260959+00:00",
       "tier": "groq",
       "article": "Araghchi, Sultan of Oman discuss latest regional developments"
+    },
+    {
+      "timestamp": "2026-04-27T10:23:44.189002+00:00",
+      "tier": "groq",
+      "article": "VIDEO: Dozens killed, injured at Shahid Rajaee port blast"
+    },
+    {
+      "timestamp": "2026-04-27T10:24:16.578767+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-27T10:24:32.683781+00:00",
+      "tier": "groq",
+      "article": "War and neglect fuel deadly measles epidemic in Sudan\u2019s Darfur"
+    },
+    {
+      "timestamp": "2026-04-27T10:24:48.733790+00:00",
+      "tier": "groq",
+      "article": "Brits protest US use of UK bases against Iran"
     }
   ]
 }
