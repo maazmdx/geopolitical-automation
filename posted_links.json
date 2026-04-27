@@ -1,4 +1,34 @@
 {
+  "828332a136881a3a9c2683331d39072d7abaa367d6bd69b2c9d69623f72e7a79": {
+    "url": "DDGeopolitics/182960",
+    "title": "Mali Crisis Deepens Amid Reports of Kidal Fighting",
+    "published": "2026-04-27T06:40:25.624172+00:00"
+  },
+  "2dbb334e3a29599de98c92280c2993f0f2e7f6ad5f436d4ef240e4a1f3ac4e4c": {
+    "url": "DDGeopolitics/182962",
+    "title": "Odessa Under Drone Attack: Infrastructure Damaged in Multiple Districts",
+    "published": "2026-04-27T06:40:24.134640+00:00"
+  },
+  "39922d0cd4b539a99e13ac6eed743ef5a89cd3c145731879cd43fa29df2bac52": {
+    "url": "QudsNen/220770",
+    "title": "Israeli Soldier Killed in Hezbollah Drone Attack in Southern Lebanon",
+    "published": "2026-04-27T06:40:01.087291+00:00"
+  },
+  "17675214e8d4ef9373d0d6565350e67217fe1bb73616f5c27edeb56ba43058b1": {
+    "url": "QudsNen/220779",
+    "title": "Suicide Drone Targets Israeli Forces in Southern Lebanon",
+    "published": "2026-04-27T06:39:59.889115+00:00"
+  },
+  "2d1faca818782d0643908b973629d9b5ba2244f4d92fa17ac37801de8057d934": {
+    "url": "QudsNen/220783",
+    "title": "Israeli Forces Detain Dozens in Jerusalem Area Raids",
+    "published": "2026-04-27T06:37:29.406827+00:00"
+  },
+  "dbe68892cc92a710c987d2295781480aae0c9b01b1e0909674bd77ba46d1781e": {
+    "url": "QudsNen/220789",
+    "title": "Israeli Forces Raid Home in Qalandia Refugee Camp",
+    "published": "2026-04-27T06:37:09.033812+00:00"
+  },
   "a801c679c27ee6ca643fb2243a996960e828cca806c667f33f41022da22fba8c": {
     "url": "presstv/187311",
     "title": "Hezbollah Retaliates Against Israeli Positions in Southern Lebanon",
@@ -59,6 +89,11 @@
     "title": "Israeli Airstrikes on Qalaouiyeh Leave 13 Dead, 30 Injured",
     "published": "2026-04-26T22:49:41.665597+00:00"
   },
+  "a4e6c829e0be4f4a4f6e937866fdc891dd9504e98726398cb3a973ae144f7d5a": {
+    "url": "https://tass.com/world/2122691",
+    "title": "Magnitude 6 earthquake strikes Japan",
+    "published": "2026-04-26T21:12:00+00:00"
+  },
   "b1c44ad6f2c0640f5575569b49f8eb020d801f3bf4712d5720e3f21d0a20f29a": {
     "url": "DDGeopolitics/182951",
     "title": "Hezbollah Drone Targets IDF Rescue Team in Southern Lebanon",
@@ -88,6 +123,11 @@
     "url": "thecradlemedia/58366",
     "title": "Israeli Rescue Force Targeted by Drone in Southern Lebanon",
     "published": "2026-04-26T20:51:30.799673+00:00"
+  },
+  "5d99842136d2b689e42932fac02196bb09ccd5109faf01f8e6954cdb43ac6189": {
+    "url": "https://tass.com/world/2122687",
+    "title": "At least 20 people killed in terror attack on Pan-American Highway in Colombia",
+    "published": "2026-04-26T20:28:02+00:00"
   },
   "ddfc1c9e9bb258018a3682bb33126c314a98d204075de356cf975d84e0ffd33d": {
     "url": "mod_russia_en/26607",
@@ -303,6 +343,11 @@
     "url": "thecradlemedia/58342",
     "title": "Israel Sees Sharp Rise in Military Suicides Amid Prolonged War",
     "published": "2026-04-26T09:12:03.215893+00:00"
+  },
+  "58e5d792b005948a4008d59f2675b36c945157c214a39756d865e795782056aa": {
+    "url": "https://en.mehrnews.com/news/243992/Araghchi-Sultan-of-Oman-discuss-latest-regional-developments",
+    "title": "Araghchi, Sultan of Oman discuss latest regional developments",
+    "published": "2026-04-26T08:06:44+00:00"
   },
   "42ec665878646bdb61651a2483461bd0dc9b04d470d1b73822f3cb9855f8593e": {
     "url": "mod_russia_en/26593",
@@ -703,50 +748,5 @@
     "url": "presstv/187029",
     "title": "Hezbollah Drone Strike Hits Israeli Military Vehicle in Quneitra",
     "published": "2026-04-25T06:02:41.298333+00:00"
-  },
-  "2c67a74c6de150bb130a08da851dbe501f0e5cd7f1abf3ccba7841c3be425aaf": {
-    "url": "presstv/187032",
-    "title": "Iran Official Rejects Limitations on Ballistic Missile Program",
-    "published": "2026-04-25T05:59:39.623453+00:00"
-  },
-  "194c2e6aa6c1542761cd2c526ce9dc1609622e8f252b9fbb8b65606628f64d1c": {
-    "url": "QudsNen/220534",
-    "title": "Israeli Air Strike Kills Lebanese Journalist, Wounds Colleague",
-    "published": "2026-04-25T05:56:39.367425+00:00"
-  },
-  "a75db379edd5de2ef92c2ccc16aa93a18e04fb32bc433f5f4f00ca14ef0e4913": {
-    "url": "QudsNen/220536",
-    "title": "Israeli Artillery Strikes Eastern Gaza Strip",
-    "published": "2026-04-25T05:56:37.793750+00:00"
-  },
-  "e951e6b0ec74e9082e56c560f72e85811fbe22e5b8701b49a9cc5b6ce37cc356": {
-    "url": "QudsNen/220549",
-    "title": "US Airlift Continues to Transport Munitions to Middle East",
-    "published": "2026-04-25T05:56:36.124630+00:00"
-  },
-  "6312fde62fb5fdb2171025467876d5d4863ac765996e1e75ab43bc92bf75ba9d": {
-    "url": "https://tass.com/world/2122379",
-    "title": "US mistakenly considers itself world\u2019s most powerful country \u2014 Jeffrey Sachs",
-    "published": "2026-04-25T04:46:21+00:00"
-  },
-  "63e22c7ed2a61c733da8cdde5c01c7db6539538807b644be6a1b281193f6274b": {
-    "url": "https://tass.com/world/2122371",
-    "title": "Resumption of hostilities against Iran may lead to new world war \u2014 Jeffrey Sachs",
-    "published": "2026-04-25T03:12:44+00:00"
-  },
-  "9e79d9abc0aabbfd1ad490454b7cf322310316cea46031f561fb44ef11a59a21": {
-    "url": "CyberspecNews/105939",
-    "title": "UK to Designate Iran's IRGC as Terrorist Organization",
-    "published": "2026-04-25T02:53:40.901953+00:00"
-  },
-  "5b92ca77f18eb95f38c8294888460e2ad18a3f44fa9fe793ebd7e6656de03667": {
-    "url": "boris_rozhin/208171",
-    "title": "Ukraine Deploys Drone-Hunting Drones from Modified Polish Aircraft",
-    "published": "2026-04-25T02:52:35.367313+00:00"
-  },
-  "fd4c67a10e922c46a5aef78a0fb85ef431288b72cb44d92d9baa300c2dd5119b": {
-    "url": "BellumActaNews/171630",
-    "title": "Hamas Militants Clash with Civilians in Gaza City",
-    "published": "2026-04-25T02:50:02.984289+00:00"
   }
 }
