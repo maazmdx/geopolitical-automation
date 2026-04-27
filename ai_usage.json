@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2447,
+  "total_calls": 2451,
   "tiers": {
-    "groq": 2428,
+    "groq": 2432,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-25T05:53:12.978070+00:00",
-      "tier": "groq",
-      "article": "Israel delivers 17 strikes on Beirut\u2019s southern suburbs \u2014 TV"
-    },
-    {
-      "timestamp": "2026-04-25T05:53:46.200567+00:00",
-      "tier": "groq",
-      "article": "Ukraine strikes hotel in ZNPP satellite city of Energodar with drone"
-    },
-    {
-      "timestamp": "2026-04-25T05:54:32.701010+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-25T05:55:20.243776+00:00",
-      "tier": "groq",
-      "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
-    },
     {
       "timestamp": "2026-04-25T07:28:32.272925+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-27T17:30:15.399626+00:00",
       "tier": "groq",
       "article": "Russia\u2019s Battlegroup South destroys 62 Ukrainian dugouts, shelters over past 24 hours"
+    },
+    {
+      "timestamp": "2026-04-27T19:33:28.310121+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-27T19:34:05.748091+00:00",
+      "tier": "groq",
+      "article": "Ceasefire at risk as Pakistan and Afghanistan report cross-border attacks"
+    },
+    {
+      "timestamp": "2026-04-27T19:34:51.036045+00:00",
+      "tier": "groq",
+      "article": "IRGC neutralizes over 15 US heavy missiles in Hormozgan"
+    },
+    {
+      "timestamp": "2026-04-27T19:35:42.178705+00:00",
+      "tier": "groq",
+      "article": "Iranian FM Araghchi warns Americans may have to cancel summer vacations"
     }
   ]
 }
