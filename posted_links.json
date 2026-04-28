@@ -1,4 +1,34 @@
 {
+  "b6de727ac0c99dfe493229dac131ab6f6dd43370a004c635516160b992a36b80": {
+    "url": "mod_russia_en/26626",
+    "title": "Russian Forces Neutralize Ukrainian Soldiers in Konstantinovka",
+    "published": "2026-04-28T10:32:26.259907+00:00"
+  },
+  "fc88b96fe8bfc462034ca9af4229452ffd7b95dac7ff847d5a6d629bda7f3dd2": {
+    "url": "intelslava/87202",
+    "title": "Drone Attack Ignites Fire at Tuapse Oil Refinery",
+    "published": "2026-04-28T10:31:11.006860+00:00"
+  },
+  "bf25a706abd17fcdcc951853fa9fbd0456e2a0187c60104ded396db99344818d": {
+    "url": "intelslava/87207",
+    "title": "Tuapse Oil Refinery Hit by Drone Attack",
+    "published": "2026-04-28T10:29:37.699118+00:00"
+  },
+  "cf7b8b13bd1dd9327ffacff30f421d17d53c32b7383546d0a95aaafb28e77e44": {
+    "url": "presstv/187509",
+    "title": "Handala Hacktivists Claim Access to US Navy Personnel Identities in Persian Gulf",
+    "published": "2026-04-28T10:29:07.292648+00:00"
+  },
+  "4eef5124ad0dee6fe4df6128b99de3814d8cd5df4e7d7f1d850947ceab5c8a11": {
+    "url": "thecradlemedia/58443",
+    "title": "Israeli Airstrikes Hit Southern Lebanon",
+    "published": "2026-04-28T10:26:01.928588+00:00"
+  },
+  "39c1d654124f7bb3f76b07449a2a23f36dfa95322670129803eb44fe3311891a": {
+    "url": "thecradlemedia/58447",
+    "title": "UK Braces for Economic Fallout as Iran Conflict Escalates",
+    "published": "2026-04-28T10:25:59.453275+00:00"
+  },
   "e943d3850334cf494cecedd9b109b64320166e2e30ea80b67368811969e10617": {
     "url": "mod_russia_en/26613",
     "title": "Russian Forces Strike AFU Positions in Zaporizhzhia Region",
@@ -718,35 +748,5 @@
     "url": "https://tass.com/emergencies/2122565",
     "title": "Air defenses down 71 targets over Sevastopol overnight \u2014 governor",
     "published": "2026-04-26T04:36:59+00:00"
-  },
-  "0da8c633cf2b99715ad9834634787d73df05bcb641b6b24d19a04a4693c1f82f": {
-    "url": "https://en.mehrnews.com/news/243982/Dozens-killed-injured-in-Colombia-bomb-blast",
-    "title": "Dozens killed, injured in Colombia bomb blast",
-    "published": "2026-04-26T04:04:10+00:00"
-  },
-  "a999c4814fb60b86c835238cc38ddde726d9b8b578694a6dc7b638dfb67353dd": {
-    "url": "intelslava/87080",
-    "title": "Iranian Anti-Aircraft Gun Destroyed Near Bushehr Nuclear Power Plant",
-    "published": "2026-04-26T03:31:57.322775+00:00"
-  },
-  "bada57815f80ed2adc2cf8c1b1316ad4063b30f3331b06b81b5b5f6919d1cf72": {
-    "url": "intelslava/87083",
-    "title": "Car Bomb Explodes Outside Police Station in Dunmurry, Northern Ireland",
-    "published": "2026-04-26T03:30:57.541930+00:00"
-  },
-  "71e58933d4dba82e7dccee8adec4643241d72b3df96663b12cc6f24d19b14d18": {
-    "url": "intelslava/87085",
-    "title": "IDF Destroys Solar Panels in Southern Lebanon",
-    "published": "2026-04-26T03:29:19.280462+00:00"
-  },
-  "9a06cb72abc3234056d7fb2d9ff08a27ddeb30185195d800375a68581bd17ad3": {
-    "url": "DDGeopolitics/182849",
-    "title": "Shooting Incident at White House Correspondents' Dinner",
-    "published": "2026-04-26T03:27:39.666341+00:00"
-  },
-  "376fa387e8e4c86acde07cad71a03b026e4795ca8927921b037b1744713bf6ae": {
-    "url": "QudsNen/220631",
-    "title": "Israeli Artillery Strikes Al-Maaliya in Southern Lebanon",
-    "published": "2026-04-26T03:26:53.425390+00:00"
   }
 }
