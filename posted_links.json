@@ -1,4 +1,34 @@
 {
+  "5eb564ed342c022b4d8ee48a7a6843b3a79dda1146fc7fd3dcb8b3de5b419c35": {
+    "url": "CyberspecNews/106218",
+    "title": "Israeli Armoured Vehicle Hit in Drone Strike in Southern Lebanon",
+    "published": "2026-04-28T23:21:36.664432+00:00"
+  },
+  "b5df89f0680f9bd7ca46b09f4ffbb28111c5ac3a79e47d287cb810f2bd9abba7": {
+    "url": "mod_russia_en/26631",
+    "title": "Russian Forces Utilize TOS-2 Crew to Clear Enemy Shelters in Zaporozhye Region",
+    "published": "2026-04-28T23:19:24.555329+00:00"
+  },
+  "00f9090c035998414f62263e9d2fdeaf4cbb32adecbe713ee7e7418040bec79a": {
+    "url": "mod_russia_en/26633",
+    "title": "Russian Forces Target Ukrainian Drone Command Post in Eastern Ukraine",
+    "published": "2026-04-28T23:17:46.526906+00:00"
+  },
+  "93843b7541fbe553cfee1bbea035680e1a61c3030360d69fae840775590f8e5a": {
+    "url": "mod_russia_en/26642",
+    "title": "Russian Artillery Strikes Ukrainian Stronghold in Kharkov Region",
+    "published": "2026-04-28T23:16:54.006771+00:00"
+  },
+  "91b29f71fa850d1edfad17b56b42fad29ac000fb4bc1b984cfff655a33e18de7": {
+    "url": "QudsNen/221062",
+    "title": "Israeli Artillery Strikes Eastern Gaza City",
+    "published": "2026-04-28T23:06:33.661424+00:00"
+  },
+  "46dbf9a27820b3498f1d23b562ab963ee060fb8edbe0bd6ee0a83d06ea6f5a49": {
+    "url": "QudsNen/221064",
+    "title": "UAE Withdraws from OPEC Amid Regional Tensions",
+    "published": "2026-04-28T23:06:25.902606+00:00"
+  },
   "dba6999848cfb204a364407bb3d4821c8f42aa33648c18abdadffb7fb00662ad": {
     "url": "mod_russia_en/26643",
     "title": "Russian Defence Ministry Honours Dnepr Group of Forces Volunteers",
@@ -238,6 +268,11 @@
     "url": "https://tass.com/world/2123229",
     "title": "Brazil condemns killing of its citizens in Israeli strike on Lebanon \u2014 MFA",
     "published": "2026-04-28T02:55:01+00:00"
+  },
+  "d70c77211472da22795aedebd1fe95df2f43b8a95551f89614a5551904b6e4cd": {
+    "url": "https://www.defensenews.com/industry/techwatch/2026/04/28/why-aircraft-carriers-are-the-best-and-worst-place-for-laser-weapons/",
+    "title": "Why aircraft carriers are the best (and worst) place for laser weapons",
+    "published": "2026-04-28T01:44:19+00:00"
   },
   "bbc26e5dedba6718e35e153a6c217bcde7a6ab27184648ee9701ef537b34998e": {
     "url": "https://tass.com/world/2123215",
@@ -713,40 +748,5 @@
     "url": "DDGeopolitics/182910",
     "title": "Mali Security Forces Neutralize Terrorist Threat",
     "published": "2026-04-26T14:57:16.456723+00:00"
-  },
-  "bd99d96a53f18940b390051514e55b79c19347ec17d5e8782b44ac95d398c591": {
-    "url": "QudsNen/220725",
-    "title": "Israeli Airstrikes Hit Arnoun in Southern Lebanon",
-    "published": "2026-04-26T14:54:24.467751+00:00"
-  },
-  "95372210c1bd5c700748d8ffc98f6f00fe29cedf3357700f2de78cb0ba44a6aa": {
-    "url": "thecradlemedia/58356",
-    "title": "Israeli Airstrikes Escalate in South Lebanon Amid Hezbollah Rocket Fire",
-    "published": "2026-04-26T14:54:03.592912+00:00"
-  },
-  "c1f7f7c8e0db15bb71bf1bbc0fa3ed813910a951d28d69ad64045f405ced23bb": {
-    "url": "thecradlemedia/58359",
-    "title": "Israel's Netanyahu Corruption Trial: Plea Deal or Pardon?",
-    "published": "2026-04-26T14:54:02.951497+00:00"
-  },
-  "b7a95a0960a3714c563d846082f4d030267fc5622828c8e90ade6247de7dce89": {
-    "url": "https://www.rt.com/news/639113-us-rejecting-green-cards-antisemitic/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "US tightens green card screening over Israel criticism and protest activity",
-    "published": "2026-04-26T14:52:48+00:00"
-  },
-  "eb357bf3b07f1c7bc99ab9c44ded7852ad805c3122b3dfafb75bc51d091d6cd4": {
-    "url": "https://www.rt.com/news/639110-lebanese-reporter-israeli-attack/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "Lebanese journalist recounts Israeli strike that killed colleague Amal Khalil",
-    "published": "2026-04-26T14:48:03+00:00"
-  },
-  "13d076560bf21cfd09ec3deef87062bec84fa51bbacd618c825b6f68eeca637d": {
-    "url": "QudsNen/220708",
-    "title": "Israeli Airstrikes Devastate Safad Al-Battikh, Southern Lebanon",
-    "published": "2026-04-26T13:23:12.830411+00:00"
-  },
-  "7e7f7f43e8a8e26fdee2dd59527611cef4a142e0e8cf88cc222a3567a48adf03": {
-    "url": "Middle_East_Spectator/31508",
-    "title": "Israel Launches Airstrikes in Southern Lebanon",
-    "published": "2026-04-26T13:22:49.694011+00:00"
   }
 }

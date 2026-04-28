@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2487,
+  "total_calls": 2491,
   "tiers": {
-    "groq": 2468,
+    "groq": 2472,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-26T03:25:13.335091+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-26T03:25:45.874250+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-26T03:26:01.876763+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-26T03:26:41.489526+00:00",
-      "tier": "groq",
-      "article": "US mistakenly considers itself world\u2019s most powerful country \u2014 Jeffrey Sachs"
-    },
     {
       "timestamp": "2026-04-26T06:14:46.570266+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-28T21:15:20.390010+00:00",
       "tier": "groq",
       "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
+    },
+    {
+      "timestamp": "2026-04-28T23:04:45.083832+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-28T23:05:17.835834+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-28T23:05:34.087061+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-28T23:06:18.630394+00:00",
+      "tier": "groq",
+      "article": "Why aircraft carriers are the best (and worst) place for laser weapons"
     }
   ]
 }
