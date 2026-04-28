@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2471,
+  "total_calls": 2475,
   "tiers": {
-    "groq": 2452,
+    "groq": 2456,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-25T16:55:21.301264+00:00",
-      "tier": "groq",
-      "article": "Houthis say their strike prevented US military plane from landing in Israel"
-    },
-    {
-      "timestamp": "2026-04-25T16:55:54.322961+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-25T16:56:41.245458+00:00",
-      "tier": "groq",
-      "article": "Israeli strike on school in Gaza Strip kills 18 people \u2014 TV"
-    },
-    {
-      "timestamp": "2026-04-25T16:57:29.445704+00:00",
-      "tier": "groq",
-      "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
-    },
     {
       "timestamp": "2026-04-25T19:04:20.963674+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-28T10:25:53.822111+00:00",
       "tier": "groq",
       "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
+    },
+    {
+      "timestamp": "2026-04-28T14:22:53.187408+00:00",
+      "tier": "groq",
+      "article": "Amnesty calls for US strike on Yemen to be investigated as war crime"
+    },
+    {
+      "timestamp": "2026-04-28T14:23:31.515369+00:00",
+      "tier": "groq",
+      "article": "Mali\u2019s Defense Minister Camara assassinated in car-bomb attack on his residence"
+    },
+    {
+      "timestamp": "2026-04-28T14:24:18.086460+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-28T14:25:05.415535+00:00",
+      "tier": "groq",
+      "article": "US seizure of Iranian vessel puts patients at risk \u2013 IRCS official tells RT"
     }
   ]
 }
