@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2475,
+  "total_calls": 2479,
   "tiers": {
-    "groq": 2456,
+    "groq": 2460,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-25T19:04:20.963674+00:00",
-      "tier": "groq",
-      "article": "Houthis say their strike prevented US military plane from landing in Israel"
-    },
-    {
-      "timestamp": "2026-04-25T19:04:53.685004+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-25T19:05:10.254024+00:00",
-      "tier": "groq",
-      "article": "Israeli strike on school in Gaza Strip kills 18 people \u2014 TV"
-    },
-    {
-      "timestamp": "2026-04-25T19:05:30.795888+00:00",
-      "tier": "groq",
-      "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
-    },
     {
       "timestamp": "2026-04-25T20:47:58.820135+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-28T14:25:05.415535+00:00",
       "tier": "groq",
       "article": "US seizure of Iranian vessel puts patients at risk \u2013 IRCS official tells RT"
+    },
+    {
+      "timestamp": "2026-04-28T17:54:59.208305+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-28T17:55:15.566261+00:00",
+      "tier": "groq",
+      "article": "Taliban accuses Pakistan of war crimes"
+    },
+    {
+      "timestamp": "2026-04-28T17:55:49.206250+00:00",
+      "tier": "groq",
+      "article": "\u2018War crime\u2019: Afghan-Pakistan truce under strain after university strike"
+    },
+    {
+      "timestamp": "2026-04-28T17:56:38.228806+00:00",
+      "tier": "groq",
+      "article": "US Army eyes a heavier, hybrid-powered Infantry Squad Vehicle"
     }
   ]
 }
