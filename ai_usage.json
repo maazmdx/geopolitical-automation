@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2463,
+  "total_calls": 2467,
   "tiers": {
-    "groq": 2444,
+    "groq": 2448,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-25T13:17:39.405789+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-25T13:18:16.311622+00:00",
-      "tier": "groq",
-      "article": "Hamas, Resistance groups decry Israeli attack on Gaza"
-    },
-    {
-      "timestamp": "2026-04-25T13:19:02.886576+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-25T13:19:19.090462+00:00",
-      "tier": "groq",
-      "article": "Discounts on Russian oil to keep narrowing even if Strait of Hormuz opens \u2014 analyst"
-    },
     {
       "timestamp": "2026-04-25T14:49:54.663649+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-28T03:37:14.246685+00:00",
       "tier": "groq",
       "article": "Resistance front stronger than ever, stands with Hezbollah: Top IRGC cmdr"
+    },
+    {
+      "timestamp": "2026-04-28T06:38:06.863410+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-28T06:38:23.519988+00:00",
+      "tier": "groq",
+      "article": "US has no defense against hypersonic weapons, advanced cruise missiles \u2014 Pentagon"
+    },
+    {
+      "timestamp": "2026-04-28T06:38:48.832737+00:00",
+      "tier": "groq",
+      "article": "Ukrainian strikes kill over 20 civilians in past week \u2014 Russian diplomat"
+    },
+    {
+      "timestamp": "2026-04-28T06:39:06.265156+00:00",
+      "tier": "groq",
+      "article": "US, still claiming domination, displays most hostile behavior \u2014 Russian Foreign Ministry"
     }
   ]
 }

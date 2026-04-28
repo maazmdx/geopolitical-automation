@@ -1,4 +1,39 @@
 {
+  "e943d3850334cf494cecedd9b109b64320166e2e30ea80b67368811969e10617": {
+    "url": "mod_russia_en/26613",
+    "title": "Russian Forces Strike AFU Positions in Zaporizhzhia Region",
+    "published": "2026-04-28T06:45:14.480543+00:00"
+  },
+  "0b968fe55d3ff3710f277663bf8a936ad1a2f324d45b7d92e2e879183576c3cd": {
+    "url": "mod_russia_en/26617",
+    "title": "Russian Defence Minister Inspects Military Base in Kyrgyzstan",
+    "published": "2026-04-28T06:43:32.647077+00:00"
+  },
+  "fa6fbceddc2c1c90981e1a8c033d061a6d6503a29832ea28134a7d2ee8424e7b": {
+    "url": "CensoredMen/203",
+    "title": "Israel Intensifies Strikes on Lebanon Amid Iran-US Ceasefire",
+    "published": "2026-04-28T06:42:22.721675+00:00"
+  },
+  "d8b1dcb40b26b946edfee06b991cf7ada1095825c42902d78db231702003dbe7": {
+    "url": "DDGeopolitics/183020",
+    "title": "Drone Activity Observed Over Odessa, Ukraine",
+    "published": "2026-04-28T06:39:35.934115+00:00"
+  },
+  "0c0e22de2e61c1249d69b5295b02966d886461d27820b43b738293227a913232": {
+    "url": "QudsNen/220932",
+    "title": "Hezbollah Drone Attacks Pose Challenge to Israeli Forces in Southern Lebanon",
+    "published": "2026-04-28T06:39:13.707306+00:00"
+  },
+  "d99466b928423687220d9bc07072a20e02d60228804eea44a496c672d257a3df": {
+    "url": "QudsNen/220933",
+    "title": "US-Iran Tensions Send Oil Prices Soaring",
+    "published": "2026-04-28T06:39:12.548253+00:00"
+  },
+  "a8d6619f62d8299ae4a03bc72a3d71b6fef7a768a49dfc883e64b9f296e520cb": {
+    "url": "https://tass.com/politics/2123245",
+    "title": "Ukrainian strikes kill over 20 civilians in past week \u2014 Russian diplomat",
+    "published": "2026-04-28T05:31:32+00:00"
+  },
   "1efa9c5326954e011bf3022a80869dcd4015632282d12af6e50972fafc5a2aa8": {
     "url": "Slavyangrad/162925",
     "title": "Iran Conflict Escalates Amid US Concerns",
@@ -33,6 +68,11 @@
     "url": "https://tass.com/world/2123229",
     "title": "Brazil condemns killing of its citizens in Israeli strike on Lebanon \u2014 MFA",
     "published": "2026-04-28T02:55:01+00:00"
+  },
+  "bbc26e5dedba6718e35e153a6c217bcde7a6ab27184648ee9701ef537b34998e": {
+    "url": "https://tass.com/world/2123215",
+    "title": "US has no defense against hypersonic weapons, advanced cruise missiles \u2014 Pentagon",
+    "published": "2026-04-28T00:25:30+00:00"
   },
   "c1c75c796578ca752716e1cdbbe5b74ad0535a0b667cc0b0fe2f9e72cbbc7d8c": {
     "url": "intelslava/87174",
@@ -213,6 +253,11 @@
     "url": "https://thecradle.co/articles-id/37354",
     "title": "Netanyahu&#039;s trial delayed once more over &#039;security meeting&#039; on Lebanon",
     "published": "2026-04-27T11:54:19+00:00"
+  },
+  "3f4ddb2053f214010a461b0b2c030b8ae3bb05c6bf3b986c5856609845451c7d": {
+    "url": "https://tass.com/politics/2122939",
+    "title": "US, still claiming domination, displays most hostile behavior \u2014 Russian Foreign Ministry",
+    "published": "2026-04-27T11:46:53+00:00"
   },
   "544cc29fa5b5be2ad2fd497d2bb0426447bff22a45e15350d755d68c153cbdb0": {
     "url": "https://tass.com/emergencies/2122931",
@@ -703,50 +748,5 @@
     "url": "QudsNen/220631",
     "title": "Israeli Artillery Strikes Al-Maaliya in Southern Lebanon",
     "published": "2026-04-26T03:26:53.425390+00:00"
-  },
-  "4333f0da21575055a88ecd7c1e99e4dc46049600651d638846593233871786cc": {
-    "url": "QudsNen/220637",
-    "title": "Drone Crash in Gaza Carries Illicit Substances Amid Surge in Drug Trafficking",
-    "published": "2026-04-26T03:26:51.830463+00:00"
-  },
-  "275ff3c89ad364307c794fbc5ea228f6e726a124f1c0b207c017b117f6128a1f": {
-    "url": "https://www.rt.com/news/639070-colombia-roadside-bomb-victims/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "Roadside bomb carnage kills 12 in Colombia",
-    "published": "2026-04-25T23:45:02+00:00"
-  },
-  "b327c5a82cbb8111a0fb7a674d8b2694d8cefa247271630a27ebada027a7282f": {
-    "url": "presstv/187148",
-    "title": "Iranian Child Participates in Missile Firing Exercise Targeting Trump Image",
-    "published": "2026-04-25T22:53:30.988334+00:00"
-  },
-  "b794ae75f260dcdbc34f45f86e92aa0a464e200073ed52a07e24536d3004cd7e": {
-    "url": "presstv/187154",
-    "title": "Israeli Airstrike Hits Haddatha, Southern Lebanon",
-    "published": "2026-04-25T22:53:12.241473+00:00"
-  },
-  "08c0153a748af9c13909a39e7bdbfd2a4b5aa88236eeada51b7f5b7dc6581910": {
-    "url": "presstv/187156",
-    "title": "Bombing on Bus in Colombia Leaves Multiple Fatalities",
-    "published": "2026-04-25T22:52:45.878133+00:00"
-  },
-  "de0ed79fe82ae8c23b210408bc04166b58c77e81fdac2655107db73fe4ed55fc": {
-    "url": "warmonitors/43875",
-    "title": "Russian Soldier Killed by Drone in Ukraine",
-    "published": "2026-04-25T22:52:29.530107+00:00"
-  },
-  "b24377438f9f99207cb7878e70a7e55f807294d0e74064c49cfda45a386d8e72": {
-    "url": "QudsNen/220638",
-    "title": "Israel Resumes Strikes on Hezbollah Targets in Lebanon Amid Ceasefire Collapse",
-    "published": "2026-04-25T22:49:52.282944+00:00"
-  },
-  "036f3db5daf4cbd17ff0f3361cc5270d408acc03929aeb40c87946774fcb3762": {
-    "url": "thecradlemedia/58334",
-    "title": "Iran's Foreign Minister Heads to Islamabad for Talks on US-Israeli Conflict Framework",
-    "published": "2026-04-25T22:49:48.408912+00:00"
-  },
-  "0b7ebd115b25fde480785886a74839901d7890b60a3707503dda61997970b06e": {
-    "url": "https://www.rt.com/news/639068-trump-cancels-envoys-trip-pakistan-iran/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "Trump cancels Pakistan trip for Witkoff, Kushner amid stalled Iran talks",
-    "published": "2026-04-25T21:07:46+00:00"
   }
 }
