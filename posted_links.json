@@ -1,4 +1,39 @@
 {
+  "1efa9c5326954e011bf3022a80869dcd4015632282d12af6e50972fafc5a2aa8": {
+    "url": "Slavyangrad/162925",
+    "title": "Iran Conflict Escalates Amid US Concerns",
+    "published": "2026-04-28T03:43:25.444779+00:00"
+  },
+  "99155b1153ab02954a24b660bbce97e291cbf519e0260f25b7aae9f343c940f2": {
+    "url": "presstv/187465",
+    "title": "US Military Interventions Marred by Deception, Former Aide Claims",
+    "published": "2026-04-28T03:40:56.074182+00:00"
+  },
+  "87e8ccb616b9915ae499414bbd262d6592ddfb177f313adccfb84115e94e0a84": {
+    "url": "BellumActaNews/171843",
+    "title": "Rubio Warns of Iran's Limited Options Amid Ongoing Conflict",
+    "published": "2026-04-28T03:38:47.759170+00:00"
+  },
+  "5444708bc4372b9c7ff2f71fe646de2964f56d92001facc1c9654d20c37ece77": {
+    "url": "BellumActaNews/171847",
+    "title": "US Secretary of State Rubio Addresses Israeli-Lebanese Peace Talks",
+    "published": "2026-04-28T03:37:54.925139+00:00"
+  },
+  "5f07ddfdb38f71fe399d5b3912a0d47fe833834ac53c388f363028547bf56066": {
+    "url": "QudsNen/220918",
+    "title": "Trump Rejects Iran's Proposal to Reopen Hormuz",
+    "published": "2026-04-28T03:37:22.483907+00:00"
+  },
+  "93e8acc89786fd1457ede3c0a1a4e031c0e14b0512a785759ce8d41d8fc87d41": {
+    "url": "QudsNen/220919",
+    "title": "Israeli Artillery Strikes Eastern Gaza",
+    "published": "2026-04-28T03:37:21.223017+00:00"
+  },
+  "3d87ea76e2ad55f452f7ece8e8a2c97a9b64b463ac433fbad86fb8b5b4042636": {
+    "url": "https://tass.com/world/2123229",
+    "title": "Brazil condemns killing of its citizens in Israeli strike on Lebanon \u2014 MFA",
+    "published": "2026-04-28T02:55:01+00:00"
+  },
   "c1c75c796578ca752716e1cdbbe5b74ad0535a0b667cc0b0fe2f9e72cbbc7d8c": {
     "url": "intelslava/87174",
     "title": "Mali Base Hit by Militant Drone Strikes",
@@ -58,6 +93,11 @@
     "url": "thecradlemedia/58408",
     "title": "Spain Warns of Rising Fuel Costs Amid US-Israeli Conflict",
     "published": "2026-04-27T21:10:32.842829+00:00"
+  },
+  "fd52056a88260f30f8f76a4894a48dce27fcd9d93d4893f8dac0c12b899ff4c1": {
+    "url": "https://tass.com/politics/2123189",
+    "title": "Russian diplomat calls for dropping hawkish plans to resume Middle East war",
+    "published": "2026-04-27T20:10:01+00:00"
   },
   "9c0c6933d3268644a83d464cdb4fef1c32d5468438425424445d472b7605fa60": {
     "url": "presstv/187425",
@@ -208,6 +248,11 @@
     "url": "thecradlemedia/58375",
     "title": "Israel's Containment Strategy in Lebanon Sparks Military Analyst Criticism",
     "published": "2026-04-27T10:24:52.494311+00:00"
+  },
+  "226b042d955ee258b0f7c42f6bea0efcf4c5213f24245538b26b543a65e20300": {
+    "url": "https://en.irna.ir/news/86138755/Resistance-front-stronger-than-ever-stands-with-Hezbollah-Top",
+    "title": "Resistance front stronger than ever, stands with Hezbollah: Top IRGC cmdr",
+    "published": "2026-04-27T10:05:31+00:00"
   },
   "b99b5d0bdf62f536c47040d7d3868bda60d6c0fec1a78fdb02096001788c08fa": {
     "url": "https://www.rt.com/news/639142-iran-us-talks-stall/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
@@ -703,50 +748,5 @@
     "url": "https://www.rt.com/news/639068-trump-cancels-envoys-trip-pakistan-iran/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
     "title": "Trump cancels Pakistan trip for Witkoff, Kushner amid stalled Iran talks",
     "published": "2026-04-25T21:07:46+00:00"
-  },
-  "fa6fbceddc2c1c90981e1a8c033d061a6d6503a29832ea28134a7d2ee8424e7b": {
-    "url": "CensoredMen/203",
-    "title": "Israel Escalates Strikes in Lebanon Amid Iran Ceasefire",
-    "published": "2026-04-25T20:57:10.498220+00:00"
-  },
-  "8c08f47f4e218e0e62783eb3e52e0cc043bf2c3621ff7095341313bad3da788f": {
-    "url": "presstv/187127",
-    "title": "Israeli Airstrike Injures Palestinians in Gaza City",
-    "published": "2026-04-25T20:54:26.673832+00:00"
-  },
-  "f0ae53e7d7619d6b03548f066d08cee32f416d1febe9e4c33a1ec88be1ead00f": {
-    "url": "presstv/187139",
-    "title": "Tel Aviv Protests Demand Netanyahu Accountability",
-    "published": "2026-04-25T20:52:32.440570+00:00"
-  },
-  "746a55a0f7d8de1251d4b095248c5452b58ca3b40df97483775b44ae295512be": {
-    "url": "presstv/187140",
-    "title": "Iran Warns US of Decisive Response Over Regional Blockade",
-    "published": "2026-04-25T20:51:56.301859+00:00"
-  },
-  "4d8e1718eac5280f5503922dc5e30223e7adf551aa98c3209f6c6e2ff3280f00": {
-    "url": "QudsNen/220639",
-    "title": "Israeli Airstrikes Resume in Southern Lebanon",
-    "published": "2026-04-25T20:49:10.694923+00:00"
-  },
-  "98e668b2bb7a273143264ba7dca4f235a1d38f064dd865b9cfffcfb06f19d002": {
-    "url": "thecradlemedia/58331",
-    "title": "Iran's Araghchi Seeks Pakistan's Help to End Regional Conflict",
-    "published": "2026-04-25T20:49:07.561394+00:00"
-  },
-  "e40bc7eb139aec560cda89526dab431fbc61a83197df46a160872c9ffb51ca1b": {
-    "url": "https://tass.com/emergencies/2122475",
-    "title": "Four people, including two children, injured near Belgorod in Ukrainian drone attack",
-    "published": "2026-04-25T20:27:56+00:00"
-  },
-  "cc063616b83151c177310b528793b9b67998378e9ec37788c1b0c629a2a6b62e": {
-    "url": "presstv/187128",
-    "title": "Israeli Airstrikes in Gaza Leave Dozens Dead",
-    "published": "2026-04-25T19:10:49.367284+00:00"
-  },
-  "e42e4d6cf7677876c7049d08573da15a8ce1b01d7a09ad663d0fdf9f7dd50163": {
-    "url": "militarywave/23535",
-    "title": "Gaza Ceasefire Fails to Halt Israeli Airstrikes",
-    "published": "2026-04-25T19:08:45.938442+00:00"
   }
 }

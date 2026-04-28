@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2459,
+  "total_calls": 2463,
   "tiers": {
-    "groq": 2440,
+    "groq": 2444,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-25T10:54:19.107187+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-25T10:54:51.481653+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-25T10:55:37.520803+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-25T10:55:53.751345+00:00",
-      "tier": "groq",
-      "article": "IRGC Navy seizes Epaminondas container ship in Hormuz Strait"
-    },
     {
       "timestamp": "2026-04-25T13:17:39.405789+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-27T23:04:14.642329+00:00",
       "tier": "groq",
       "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
+    },
+    {
+      "timestamp": "2026-04-28T03:35:33.116532+00:00",
+      "tier": "groq",
+      "article": "Brazil condemns killing of its citizens in Israeli strike on Lebanon \u2014 MFA"
+    },
+    {
+      "timestamp": "2026-04-28T03:36:07.627820+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-28T03:36:55.878982+00:00",
+      "tier": "groq",
+      "article": "Russian diplomat calls for dropping hawkish plans to resume Middle East war"
+    },
+    {
+      "timestamp": "2026-04-28T03:37:14.246685+00:00",
+      "tier": "groq",
+      "article": "Resistance front stronger than ever, stands with Hezbollah: Top IRGC cmdr"
     }
   ]
 }
