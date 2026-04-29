@@ -1,4 +1,34 @@
 {
+  "281f39670fb2419e68a122855a9565d88f592f30621926ff3972eeb1b6f94ac2": {
+    "url": "presstv/187680",
+    "title": "Iran Displays Shahed-136 Drones in Nationwide Rallies",
+    "published": "2026-04-29T17:56:54.128219+00:00"
+  },
+  "a092b3118b2a5713986e008ffa7dcf7e529e77d6ad02e5239ea6fc968f50ad22": {
+    "url": "BellumActaNews/171921",
+    "title": "British King Charles Presents Trump with HMS Trump Submarine Bell",
+    "published": "2026-04-29T17:56:21.445829+00:00"
+  },
+  "e2cedc09d2fdd1820befe5291b56d79297223ac819f2e40f7c83000bef9cc821": {
+    "url": "DDGeopolitics/183110",
+    "title": "US Analyst Expressed Confidence in War Efforts",
+    "published": "2026-04-29T17:50:19.127713+00:00"
+  },
+  "349ffef5a50b027d0e60b5c64bb8e4307c747e1abb9a5c4756da4c64fad39442": {
+    "url": "thecradlemedia/58559",
+    "title": "Iranian Parliament Speaker Warns of External Plots, Emphasizes Unity",
+    "published": "2026-04-29T17:48:23.375966+00:00"
+  },
+  "9915f44534fb9c6fda2d6adc7a9ce83d853d66daf8f822ea999bf0f9dfda5813": {
+    "url": "thecradlemedia/58563",
+    "title": "US Defense Secretary Hegseth Defends War in Iran Amid War Crimes Allegations",
+    "published": "2026-04-29T17:48:22.518101+00:00"
+  },
+  "a1a80f8f40380f5c2fe23f7964502352854d06ea606c68aac176953a637d41b9": {
+    "url": "thecradlemedia/58564",
+    "title": "Lebanon Food Insecurity Soars Amid Israeli Conflict",
+    "published": "2026-04-29T17:46:59.540151+00:00"
+  },
   "881dedfb93db5d52d967353fa4e72fd4b90f109d5e08c47a30a2889b3f432f2b": {
     "url": "intelslava/87244",
     "title": "Russian Forces Destroy Unidentified USV in Crimea",
@@ -238,6 +268,11 @@
     "url": "thecradlemedia/58491",
     "title": "US-Iran Nuclear Deal Talks Stall Amid Ongoing Economic Blockade",
     "published": "2026-04-28T19:53:09.413959+00:00"
+  },
+  "6715ffa9891517a419032bbf1a19369077a9bad47031af924ea6fdead7e67f3b": {
+    "url": "https://www.defensenews.com/news/pentagon-congress/2026/04/28/pentagons-fy27-budget-seeks-85-f-35s-but-most-ride-on-reconciliation/",
+    "title": "Pentagon\u2019s FY27 budget seeks 85 F-35s, but most ride on reconciliation ",
+    "published": "2026-04-28T17:59:31+00:00"
   },
   "a0efafe6eea1fd4bbcfa67fe9ad06838b9cee48293897495e05e102d1b0a35f5": {
     "url": "QudsNen/221008",
@@ -713,40 +748,5 @@
     "url": "DDGeopolitics/182960",
     "title": "Mali Crisis Deepens Amid Reports of Kidal Fighting",
     "published": "2026-04-27T06:40:25.624172+00:00"
-  },
-  "2dbb334e3a29599de98c92280c2993f0f2e7f6ad5f436d4ef240e4a1f3ac4e4c": {
-    "url": "DDGeopolitics/182962",
-    "title": "Odessa Under Drone Attack: Infrastructure Damaged in Multiple Districts",
-    "published": "2026-04-27T06:40:24.134640+00:00"
-  },
-  "39922d0cd4b539a99e13ac6eed743ef5a89cd3c145731879cd43fa29df2bac52": {
-    "url": "QudsNen/220770",
-    "title": "Israeli Soldier Killed in Hezbollah Drone Attack in Southern Lebanon",
-    "published": "2026-04-27T06:40:01.087291+00:00"
-  },
-  "17675214e8d4ef9373d0d6565350e67217fe1bb73616f5c27edeb56ba43058b1": {
-    "url": "QudsNen/220779",
-    "title": "Suicide Drone Targets Israeli Forces in Southern Lebanon",
-    "published": "2026-04-27T06:39:59.889115+00:00"
-  },
-  "2d1faca818782d0643908b973629d9b5ba2244f4d92fa17ac37801de8057d934": {
-    "url": "QudsNen/220783",
-    "title": "Israeli Forces Detain Dozens in Jerusalem Area Raids",
-    "published": "2026-04-27T06:37:29.406827+00:00"
-  },
-  "dbe68892cc92a710c987d2295781480aae0c9b01b1e0909674bd77ba46d1781e": {
-    "url": "QudsNen/220789",
-    "title": "Israeli Forces Raid Home in Qalandia Refugee Camp",
-    "published": "2026-04-27T06:37:09.033812+00:00"
-  },
-  "a801c679c27ee6ca643fb2243a996960e828cca806c667f33f41022da22fba8c": {
-    "url": "presstv/187311",
-    "title": "Hezbollah Retaliates Against Israeli Positions in Southern Lebanon",
-    "published": "2026-04-27T03:38:41.612544+00:00"
-  },
-  "699a97307197e7ab2bcccb199c5de0644096df76ce692a5254d99b0eedee0bef": {
-    "url": "presstv/187313",
-    "title": "Israeli Bombardment Hits Safad Al-Battikh in Southern Lebanon",
-    "published": "2026-04-27T03:36:52.034472+00:00"
   }
 }
