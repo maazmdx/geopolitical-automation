@@ -1,4 +1,34 @@
 {
+  "fcceadd847c8d03b461fac0c8d31313b89049d49e83ecad4cdc13a7d5a0cbfb7": {
+    "url": "BellumActaNews/171949",
+    "title": "UK Police Raid Shia Sect Over Slavery and Forced Marriage Allegations",
+    "published": "2026-04-29T21:23:35.351662+00:00"
+  },
+  "cf936ca6aa9db0d1f994874a0923f9e4bc4972a968100ced9f2cd964320bf8d0": {
+    "url": "BellumActaNews/171950",
+    "title": "Israeli Navy Blocks Gaza-Bound Flotilla Near Crete",
+    "published": "2026-04-29T21:20:48.162747+00:00"
+  },
+  "4a2cf6f8d7fe2180d271b2770c74248b3ab90f478cc1468acb624a4bdb35aa16": {
+    "url": "QudsNen/221203",
+    "title": "Israeli Drone Firm Touts Ease of Use, Despite Crash Incident",
+    "published": "2026-04-29T21:17:44.375180+00:00"
+  },
+  "568faa9bbc6f4617bf34081cef7873343fde6464273a021fbefdd841f1a9e5fe": {
+    "url": "QudsNen/221205",
+    "title": "Gaza Flotilla Confrontation: Military Frigate Deploys Amid Speedboat Approach",
+    "published": "2026-04-29T21:15:10.150716+00:00"
+  },
+  "7497ab86319f1e7e750a432f7c2b2396a392e113b69f7c96d1fcae7ce316cc82": {
+    "url": "thecradlemedia/58552",
+    "title": "Israeli Warplanes Strike Malikiya in South Lebanon",
+    "published": "2026-04-29T21:14:37.913378+00:00"
+  },
+  "cd9bd7f746989a6f92b6037b7e917999be203b0d20608d4cd835cc9ef91d1944": {
+    "url": "thecradlemedia/58555",
+    "title": "Lebanon's Humanitarian Crisis Deepens Amid Ongoing Conflict",
+    "published": "2026-04-29T21:14:35.096759+00:00"
+  },
   "1d17579d6a61ec5995aefded6b23daba741f172df7debb86ee07f4e243621af9": {
     "url": "intelslava/87263",
     "title": "Russian Missile Strike Hits Ukrainian Forces in Ryasne",
@@ -163,6 +193,11 @@
     "url": "QudsNen/221088",
     "title": "Hezbollah Suicide Drones Pose Challenge to Israeli Military",
     "published": "2026-04-29T06:34:11.488709+00:00"
+  },
+  "9f1b2627be453ec0bffb6fe8505528d7c97e2dbaea8e1d612b83a9868aa98eb4": {
+    "url": "https://en.irna.ir/photo/86140466/In-photos-Government-spokesperson-s-press-conference",
+    "title": "In photos: Government spokesperson\u2019s press conference",
+    "published": "2026-04-29T06:21:32+00:00"
   },
   "872819bd63688b335b1bb300ed75f8054f2ec63b41172bed81d1c82a9a9a82e9": {
     "url": "https://www.aljazeera.com/video/newsfeed/2026/4/29/afghan-students-recount-harrowing-university-strike?traffic_source=rss",
@@ -713,40 +748,5 @@
     "url": "https://tass.com/politics/2122939",
     "title": "US, still claiming domination, displays most hostile behavior \u2014 Russian Foreign Ministry",
     "published": "2026-04-27T11:46:53+00:00"
-  },
-  "544cc29fa5b5be2ad2fd497d2bb0426447bff22a45e15350d755d68c153cbdb0": {
-    "url": "https://tass.com/emergencies/2122931",
-    "title": "IN BRIEF: Staff member killed in Ukrainian drone strike on Zaporozhye nuke plant",
-    "published": "2026-04-27T11:36:02+00:00"
-  },
-  "d5079d880d92d1999176d8600d7fcc66238b421cd863abecac0e38dada83b996": {
-    "url": "QudsNen/220809",
-    "title": "U.S. Military Transport Aircraft Activity Rises Over Middle East",
-    "published": "2026-04-27T10:31:56.678119+00:00"
-  },
-  "7bd1d05fc5b37fe5c386b147c40a1d672dda15b68347f69f86b04aef4c0c43ba": {
-    "url": "QudsNen/220812",
-    "title": "Israeli Forces Raid Nablus' Old City Marketplace",
-    "published": "2026-04-27T10:31:00.942910+00:00"
-  },
-  "35a9555c74b816c84a7cb615336230f71899303c6f7189f2638b03b15f4ddef3": {
-    "url": "QudsNen/220819",
-    "title": "Israeli Forces Conduct Home-to-Home Raids in Qalandia Refugee Camp",
-    "published": "2026-04-27T10:29:00.309996+00:00"
-  },
-  "cd2a79fa9bbcbf125d1ece4cce4924b0222a42119d7d0d8000dc1d8ea2f8948c": {
-    "url": "QudsNen/220827",
-    "title": "Israeli Forces Detain Palestinian Minor in Nablus",
-    "published": "2026-04-27T10:27:13.456821+00:00"
-  },
-  "f0814bee8216e0cf8f32d5ccb7f5477131a56136a91e8d89fc3a513aa5c7f688": {
-    "url": "thecradlemedia/58373",
-    "title": "Iranian Foreign Minister Seeks Russian Support Amid Regional Tensions",
-    "published": "2026-04-27T10:24:57.894977+00:00"
-  },
-  "869a8e2f6b28e99ad23613c0b025e1eb827592b7738a601d7a4022c67160694d": {
-    "url": "thecradlemedia/58375",
-    "title": "Israel's Containment Strategy in Lebanon Sparks Military Analyst Criticism",
-    "published": "2026-04-27T10:24:52.494311+00:00"
   }
 }

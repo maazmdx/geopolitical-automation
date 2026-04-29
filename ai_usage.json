@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2515,
+  "total_calls": 2519,
   "tiers": {
-    "groq": 2496,
+    "groq": 2500,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-26T19:05:49.043474+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-26T19:06:27.832884+00:00",
-      "tier": "groq",
-      "article": "Roadside bomb carnage kills 12 in Colombia"
-    },
-    {
-      "timestamp": "2026-04-26T19:07:14.643596+00:00",
-      "tier": "groq",
-      "article": "Four people, including two children, injured near Belgorod in Ukrainian drone attack"
-    },
-    {
-      "timestamp": "2026-04-26T19:08:05.058435+00:00",
-      "tier": "groq",
-      "article": "Trump cancels Pakistan trip for Witkoff, Kushner amid stalled Iran talks"
-    },
     {
       "timestamp": "2026-04-26T20:48:30.266361+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-29T19:49:42.867923+00:00",
       "tier": "groq",
       "article": "US special relationship is 'probably Israel', says UK ambassador"
+    },
+    {
+      "timestamp": "2026-04-29T21:12:57.503332+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-29T21:13:13.743848+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-29T21:13:36.926515+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-29T21:14:21.975042+00:00",
+      "tier": "groq",
+      "article": "In photos: Government spokesperson\u2019s press conference"
     }
   ]
 }
