@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2495,
+  "total_calls": 2499,
   "tiers": {
-    "groq": 2476,
+    "groq": 2480,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-26T09:10:53.055261+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-26T09:11:25.349661+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-26T09:11:41.786415+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-26T09:11:57.927118+00:00",
-      "tier": "groq",
-      "article": "Zelensky\u2019s methods akin to those of Dzhokhar Dudayev\u2019s terrorists \u2014 Russian MFA"
-    },
     {
       "timestamp": "2026-04-26T10:55:40.885804+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-29T03:38:01.837865+00:00",
       "tier": "groq",
       "article": "US, allies directly responsible for Hormuz Strait disruptions"
+    },
+    {
+      "timestamp": "2026-04-29T06:32:35.853107+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-29T06:33:07.823587+00:00",
+      "tier": "groq",
+      "article": "Afghan students recount harrowing university strike"
+    },
+    {
+      "timestamp": "2026-04-29T06:33:23.869669+00:00",
+      "tier": "groq",
+      "article": "Lebanon death toll from Israeli attacks tops 2,500"
+    },
+    {
+      "timestamp": "2026-04-29T06:34:04.228883+00:00",
+      "tier": "groq",
+      "article": "Rubio rejects Iranian control over Strait of Hormuz"
     }
   ]
 }
