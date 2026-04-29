@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2499,
+  "total_calls": 2503,
   "tiers": {
-    "groq": 2480,
+    "groq": 2484,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-26T10:55:40.885804+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-26T10:55:57.187020+00:00",
-      "tier": "groq",
-      "article": "Civilians account for nearly half of US-Israeli war victims: Iran"
-    },
-    {
-      "timestamp": "2026-04-26T10:56:13.730627+00:00",
-      "tier": "groq",
-      "article": "Russian forces strike Ukrainian transport, energy infrastructure over past day"
-    },
-    {
-      "timestamp": "2026-04-26T10:56:31.967776+00:00",
-      "tier": "groq",
-      "article": "Russia ready to resume cooperation with Germany, but will not impose itself \u2014 ambassador"
-    },
     {
       "timestamp": "2026-04-26T13:17:07.806465+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-29T06:34:04.228883+00:00",
       "tier": "groq",
       "article": "Rubio rejects Iranian control over Strait of Hormuz"
+    },
+    {
+      "timestamp": "2026-04-29T10:14:24.698354+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-29T10:14:41.507941+00:00",
+      "tier": "groq",
+      "article": "Former US officials criticise Pentagon silence on deadly Iran school attack"
+    },
+    {
+      "timestamp": "2026-04-29T10:14:57.819361+00:00",
+      "tier": "groq",
+      "article": "Kinzhal missiles strike terror into Ukrainian troops \u2014 Russian security source"
+    },
+    {
+      "timestamp": "2026-04-29T10:15:14.888355+00:00",
+      "tier": "groq",
+      "article": "NATO could deal with Trump \u2018drama\u2019 by holding fewer summits \u2013 Reuters"
     }
   ]
 }
