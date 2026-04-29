@@ -1,4 +1,34 @@
 {
+  "2c319a29398c8a2e19e35f62413263bf4646f8eb4f8e9c3cbde062c6d55b4d3f": {
+    "url": "intelslava/87245",
+    "title": "Russian Drones Strike Infrastructure in Eastern Ukraine",
+    "published": "2026-04-29T03:48:52.483933+00:00"
+  },
+  "83655076f304c316eea6295fc9bced9cd8e8895071460494cdabfd40280ddf1c": {
+    "url": "intelslava/87246",
+    "title": "Russian Forces Destroy Ukrainian Self-Propelled Howitzer in Zaporizhzhia Oblast",
+    "published": "2026-04-29T03:48:45.582003+00:00"
+  },
+  "99543bbb1223262d92a855f96ecede8e9eb236691a30f0415870a60b8638c6d7": {
+    "url": "presstv/187592",
+    "title": "US-Iran Conflict: Rising Military Costs",
+    "published": "2026-04-29T03:44:56.932385+00:00"
+  },
+  "b76a36545259ed9f7a2ec71bada4fd0d87319b3b4c594879286150d6e94c9b2d": {
+    "url": "QudsNen/221070",
+    "title": "Former FBI Director James Comey Faces Arrest Warrant",
+    "published": "2026-04-29T03:40:15.321702+00:00"
+  },
+  "94483d3ff11b0913744eb237ad4a97fd06c9224b03bafc37fc780295a27c3948": {
+    "url": "QudsNen/221072",
+    "title": "Israeli Artillery Strikes Eastern Gaza City",
+    "published": "2026-04-29T03:38:14.415384+00:00"
+  },
+  "5e707131714ff237a8de71e14ffe97ff3b9017e9c7e1f01d62302fc050e05493": {
+    "url": "QudsNen/221074",
+    "title": "Trump Orders Extended Naval Blockade of Iran",
+    "published": "2026-04-29T03:38:13.196797+00:00"
+  },
   "5eb564ed342c022b4d8ee48a7a6843b3a79dda1146fc7fd3dcb8b3de5b419c35": {
     "url": "CyberspecNews/106218",
     "title": "Israeli Armoured Vehicle Hit in Drone Strike in Southern Lebanon",
@@ -198,6 +228,11 @@
     "url": "thecradlemedia/58447",
     "title": "UK Braces for Economic Fallout as Iran Conflict Escalates",
     "published": "2026-04-28T10:25:59.453275+00:00"
+  },
+  "015843db31e6ec785755bd83624cc799efd2ada91204b9d28427556f99313b54": {
+    "url": "https://en.mehrnews.com/news/244043/US-allies-directly-responsible-for-Hormuz-Strait-disruptions",
+    "title": "US, allies directly responsible for Hormuz Strait disruptions",
+    "published": "2026-04-28T07:12:09+00:00"
   },
   "e943d3850334cf494cecedd9b109b64320166e2e30ea80b67368811969e10617": {
     "url": "mod_russia_en/26613",
@@ -713,40 +748,5 @@
     "url": "presstv/187277",
     "title": "Iran Strait of Hormuz Closure Disrupts Global Energy and Trade",
     "published": "2026-04-26T17:00:30.854270+00:00"
-  },
-  "30ffce8f69d9124f0c168f53287660e560851b88ceae6ce4470e99785bdfc1fe": {
-    "url": "BellumActaNews/171758",
-    "title": "Iran Faces Three-Day Deadline for Oil Infrastructure Shutdown",
-    "published": "2026-04-26T16:57:57.826440+00:00"
-  },
-  "a865e1b4bdea78c612c09b08aebc411147e1e6777d8ed6a8d0473aa2437c19aa": {
-    "url": "thecradlemedia/58344",
-    "title": "Iranian F-5 Jet Penetrates US Air Defenses in Kuwait",
-    "published": "2026-04-26T16:54:53.586647+00:00"
-  },
-  "a3511cb47535f21f91c04d3442eaa6aa8ac7516aceedf4aed2d34e21900c84a7": {
-    "url": "thecradlemedia/58350",
-    "title": "Iran's President Raisi Rejects US Naval Blockade Talks",
-    "published": "2026-04-26T16:54:52.299739+00:00"
-  },
-  "cfd477260fb370670fce9404dae5e471ba3c91dcf7fc51ec2b7e096955559a81": {
-    "url": "https://tass.com/world/2122625",
-    "title": "Hezbollah drones attack Israeli positions in al-Bayada in southern Lebanon",
-    "published": "2026-04-26T15:40:11+00:00"
-  },
-  "4293d5412827070098eac003a113ed0d325b97c854da7903017cfe198e4b5b2e": {
-    "url": "BellumActaNews/171749",
-    "title": "Russia's Africa Corps Conducts Drone-Enabled Airstrikes in Mali",
-    "published": "2026-04-26T15:01:57.920271+00:00"
-  },
-  "c0c7b0a684801504a94e470f2138025ab75924fff264b011b4d265138e2c8242": {
-    "url": "BellumActaNews/171754",
-    "title": "Emirati Jets Escort Syrian President's Plane with National Markings Concealed",
-    "published": "2026-04-26T15:01:11.867952+00:00"
-  },
-  "dd4d83510f61378b11401e64914d52aafc6da908e37f13936c08d3b8b0d4aa48": {
-    "url": "DDGeopolitics/182910",
-    "title": "Mali Security Forces Neutralize Terrorist Threat",
-    "published": "2026-04-26T14:57:16.456723+00:00"
   }
 }

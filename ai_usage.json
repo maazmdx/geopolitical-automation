@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2491,
+  "total_calls": 2495,
   "tiers": {
-    "groq": 2472,
+    "groq": 2476,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-26T06:14:46.570266+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-26T06:15:18.682913+00:00",
-      "tier": "groq",
-      "article": "Air defenses down 71 targets over Sevastopol overnight \u2014 governor"
-    },
-    {
-      "timestamp": "2026-04-26T06:16:05.471968+00:00",
-      "tier": "groq",
-      "article": "Dozens killed, injured in Colombia bomb blast"
-    },
-    {
-      "timestamp": "2026-04-26T06:16:53.469887+00:00",
-      "tier": "groq",
-      "article": "EU fears US leader may skip G7, NATO summits \u2014 newspaper"
-    },
     {
       "timestamp": "2026-04-26T09:10:53.055261+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-28T23:06:18.630394+00:00",
       "tier": "groq",
       "article": "Why aircraft carriers are the best (and worst) place for laser weapons"
+    },
+    {
+      "timestamp": "2026-04-29T03:36:30.430993+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-29T03:37:02.826075+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-29T03:37:18.731238+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-29T03:38:01.837865+00:00",
+      "tier": "groq",
+      "article": "US, allies directly responsible for Hormuz Strait disruptions"
     }
   ]
 }
