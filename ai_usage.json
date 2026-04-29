@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2511,
+  "total_calls": 2515,
   "tiers": {
-    "groq": 2492,
+    "groq": 2496,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-26T16:53:35.819941+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-26T16:54:09.188929+00:00",
-      "tier": "groq",
-      "article": "Hezbollah drones attack Israeli positions in al-Bayada in southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-26T16:54:29.114539+00:00",
-      "tier": "groq",
-      "article": "Hezbollah Military Media to Israelis: Don\u2019t Let Netanyahu Deceive You, All Buffer Zones in Lebanon Can\u2019t Protect You - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-26T16:54:49.379278+00:00",
-      "tier": "groq",
-      "article": "Palestinians in West Bank and some in Gaza vote in local elections"
-    },
     {
       "timestamp": "2026-04-26T19:05:49.043474+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-29T17:46:57.006352+00:00",
       "tier": "groq",
       "article": "Pentagon\u2019s FY27 budget seeks 85 F-35s, but most ride on reconciliation "
+    },
+    {
+      "timestamp": "2026-04-29T19:47:30.353374+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-29T19:48:03.222372+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-29T19:48:49.285550+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-29T19:49:42.867923+00:00",
+      "tier": "groq",
+      "article": "US special relationship is 'probably Israel', says UK ambassador"
     }
   ]
 }
