@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2503,
+  "total_calls": 2507,
   "tiers": {
-    "groq": 2484,
+    "groq": 2488,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-26T13:17:07.806465+00:00",
-      "tier": "groq",
-      "article": "Iranian F-5 breached air defenses, bombed US base in first such strike since Korean War: Report"
-    },
-    {
-      "timestamp": "2026-04-26T13:17:42.562458+00:00",
-      "tier": "groq",
-      "article": "Islamic Resistance Strikes Gatherings of Israeli Soldiers in Taybeh, South Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-04-26T13:18:03.160620+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-26T13:18:39.366137+00:00",
-      "tier": "groq",
-      "article": "Not all is lost in Russian-German relations \u2014 Russian ambassador"
-    },
     {
       "timestamp": "2026-04-26T14:52:23.716304+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-29T10:15:14.888355+00:00",
       "tier": "groq",
       "article": "NATO could deal with Trump \u2018drama\u2019 by holding fewer summits \u2013 Reuters"
+    },
+    {
+      "timestamp": "2026-04-29T14:09:22.569877+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-29T14:10:02.198747+00:00",
+      "tier": "groq",
+      "article": "Israeli 'double-tap' strike kills three rescue workers in Lebanon, officials say"
+    },
+    {
+      "timestamp": "2026-04-29T14:10:18.436300+00:00",
+      "tier": "groq",
+      "article": "China strike tests YJ-20 hypersonic anti-ship missiles"
+    },
+    {
+      "timestamp": "2026-04-29T14:10:54.918719+00:00",
+      "tier": "groq",
+      "article": "US gas prices hit four-year high amid stalemate in Iran truce talks"
     }
   ]
 }

@@ -1,4 +1,39 @@
 {
+  "881dedfb93db5d52d967353fa4e72fd4b90f109d5e08c47a30a2889b3f432f2b": {
+    "url": "intelslava/87244",
+    "title": "Russian Forces Destroy Unidentified USV in Crimea",
+    "published": "2026-04-29T14:31:43.150504+00:00"
+  },
+  "cca5f4224fdc7ce3964553d9f1a65e03efcecfaf6d2443c64a8eb26a5b066e13": {
+    "url": "intelslava/87248",
+    "title": "Drone Attack Hits Industrial Site in Russia's Perm Region",
+    "published": "2026-04-29T14:30:23.585686+00:00"
+  },
+  "da1e83c4fb93cedc15e05ec937ce8109ac9073698afd420fd7827a57b86602f1": {
+    "url": "DDGeopolitics/183072",
+    "title": "Malian and Russian Forces Disprove ISGS Claims in M\u00e9naka",
+    "published": "2026-04-29T14:14:40.413024+00:00"
+  },
+  "09c96030cca61d759061b83f57a7534d198c9e5ac4555b2700958b91fd5dd76a": {
+    "url": "DDGeopolitics/183076",
+    "title": "Ship on Fire Off Odessa After Explosion",
+    "published": "2026-04-29T14:14:27.461042+00:00"
+  },
+  "41271c062bb20b9e30c1955f776bb7f444fab253307a0a05b7181d9723b10e13": {
+    "url": "thecradlemedia/58543",
+    "title": "Saudi Aramco Halts LPG Shipments Amid War Damage",
+    "published": "2026-04-29T14:11:00.695316+00:00"
+  },
+  "d16752b0265eb91e01eb9f5fc1659868937c2eb3fda2571a973ae103eba6a476": {
+    "url": "thecradlemedia/58545",
+    "title": "Iran Threatens Military Action Over US Naval Blockade in Strait of Hormuz",
+    "published": "2026-04-29T14:10:59.098890+00:00"
+  },
+  "6befa1f78911cd5cec643c2dcc60621f11e20198deeda70da63f5b41d84cb1ee": {
+    "url": "https://www.bbc.com/news/articles/cvgz5rgv4n3o?at_medium=RSS&at_campaign=rss",
+    "title": "Israeli 'double-tap' strike kills three rescue workers in Lebanon, officials say",
+    "published": "2026-04-29T13:59:09+00:00"
+  },
   "e9d154d3678ea19d946900525a18abef89f41715ee8d3b9b55a10d9289511381": {
     "url": "DDGeopolitics/183078",
     "title": "US Military Conducts Strike on Iranian TV Station",
@@ -33,6 +68,11 @@
     "url": "https://tass.com/defense/2123985",
     "title": "Kinzhal missiles strike terror into Ukrainian troops \u2014 Russian security source",
     "published": "2026-04-29T08:11:30+00:00"
+  },
+  "86618cc13ad5e0916325a266766da66dd5db0acf49f78781ae3b3652f3b2157e": {
+    "url": "https://en.mehrnews.com/news/244079/China-strike-tests-YJ-20-hypersonic-anti-ship-missiles",
+    "title": "China strike tests YJ-20 hypersonic anti-ship missiles",
+    "published": "2026-04-29T07:14:59+00:00"
   },
   "043a9a7450599285a5557e8ee79a346faed9ac5693774b1628700d739fa11191": {
     "url": "presstv/187601",
@@ -228,6 +268,11 @@
     "url": "thecradlemedia/58486",
     "title": "UAE Leaves OPEC Amid Rising Tensions with Saudi Arabia",
     "published": "2026-04-28T17:56:40.295845+00:00"
+  },
+  "fc364302329319107a3cbdecdf8e104e8ab37eb39cc47e1f4a84e86a1ff8b604": {
+    "url": "https://thecradle.co/articles-id/37391",
+    "title": "US gas prices hit four-year high amid stalemate in Iran truce talks",
+    "published": "2026-04-28T17:27:32+00:00"
   },
   "7d58959544a10285a353969c0584e18b06c943b3e320e1c3db25e48b7f6e4f2f": {
     "url": "https://www.rt.com/news/639224-afghanistan-pakistan-war-crimes/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
@@ -703,50 +748,5 @@
     "url": "presstv/187313",
     "title": "Israeli Bombardment Hits Safad Al-Battikh in Southern Lebanon",
     "published": "2026-04-27T03:36:52.034472+00:00"
-  },
-  "40cc370af9d6d9612ea7489426f1e5130bd395849a033339464512727e0df8d2": {
-    "url": "presstv/187315",
-    "title": "Hezbollah Drone Strike Misses Israeli Rescue Helicopter",
-    "published": "2026-04-27T03:36:32.405646+00:00"
-  },
-  "cf699839d7c15871f208918fb16f4ea3e72cb848eee5439938745a105a4c211c": {
-    "url": "presstv/187316",
-    "title": "Hezbollah Supporters Rally in Beirut's Southern Suburb",
-    "published": "2026-04-27T03:34:04.875833+00:00"
-  },
-  "201a3736180981a2d91d37a08d12757a26fef77b985739ad6ec8fd1b3390b2ce": {
-    "url": "QudsNen/220771",
-    "title": "US Forces Redirect 38 Vessels Amid Ongoing Tensions",
-    "published": "2026-04-27T03:31:25.314823+00:00"
-  },
-  "004bfb5ead9be556ba5422ec993b7f381b97c5f0ce8b0568801438d84c409f52": {
-    "url": "QudsNen/220775",
-    "title": "Iran Proposes Phased Deal to Reopen Hormuz Strait and End War",
-    "published": "2026-04-27T03:31:19.600450+00:00"
-  },
-  "76a71053e5f3403b86679a9fb3ae3ae57b46d39c9b6e9ad77ddfae9433293562": {
-    "url": "BellumActaNews/171769",
-    "title": "Drone Strike Hits Israeli Troops in Southern Lebanon",
-    "published": "2026-04-26T22:56:30.574736+00:00"
-  },
-  "728fe477409a87b239918cf25703c6cb3be591bcb1739da56394854d995c32a6": {
-    "url": "warmonitors/43890",
-    "title": "Hezbollah Drone Crashes Near Israeli Evacuation",
-    "published": "2026-04-26T22:54:02.369641+00:00"
-  },
-  "65c2480ab436bd6e3d101e2995b1578ea1be1e6e796bc42de77e9e0107066d18": {
-    "url": "DDGeopolitics/182950",
-    "title": "Hezbollah Drone Targets IDF Rescue Team in Southern Lebanon",
-    "published": "2026-04-26T22:51:34.033419+00:00"
-  },
-  "045108ca5b8e229c9606f159d961bb770b0457298573bc4184d0b0a598337949": {
-    "url": "QudsNen/220760",
-    "title": "Israeli Artillery Strikes Eastern Gaza Strip",
-    "published": "2026-04-26T22:50:18.941912+00:00"
-  },
-  "d6fbad1566ccdbf653a128c13375e02738d54806bc8a91d2b0d9642e6b683c76": {
-    "url": "QudsNen/220765",
-    "title": "Israeli Tanks Open Fire in Eastern Gaza Strip",
-    "published": "2026-04-26T22:49:42.767664+00:00"
   }
 }
