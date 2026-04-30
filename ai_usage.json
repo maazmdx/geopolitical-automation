@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2547,
+  "total_calls": 2551,
   "tiers": {
-    "groq": 2528,
+    "groq": 2532,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-27T19:33:28.310121+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-27T19:34:05.748091+00:00",
-      "tier": "groq",
-      "article": "Ceasefire at risk as Pakistan and Afghanistan report cross-border attacks"
-    },
-    {
-      "timestamp": "2026-04-27T19:34:51.036045+00:00",
-      "tier": "groq",
-      "article": "IRGC neutralizes over 15 US heavy missiles in Hormozgan"
-    },
-    {
-      "timestamp": "2026-04-27T19:35:42.178705+00:00",
-      "tier": "groq",
-      "article": "Iranian FM Araghchi warns Americans may have to cancel summer vacations"
-    },
     {
       "timestamp": "2026-04-27T21:09:28.376255+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-30T19:34:41.494938+00:00",
       "tier": "groq",
       "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
+    },
+    {
+      "timestamp": "2026-04-30T21:08:30.529150+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-30T21:09:06.883706+00:00",
+      "tier": "groq",
+      "article": "The Trump Administration Hasn\u2019t Forgotten America\u2019s Backyard"
+    },
+    {
+      "timestamp": "2026-04-30T21:09:53.018446+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-30T21:10:09.270251+00:00",
+      "tier": "groq",
+      "article": "Why China is holding back as global crises test its great-power role"
     }
   ]
 }
