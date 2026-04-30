@@ -1,4 +1,34 @@
 {
+  "abefbd74f32c5d3813c537d54104ff24db81dace6f9baa52a8247e1f9d1a2f64": {
+    "url": "QudsNen/221289",
+    "title": "Gaza Disability Crisis Deepens Amid Israeli Restrictions",
+    "published": "2026-04-30T10:24:00.127601+00:00"
+  },
+  "b747124a373a0acf23f06d668fcabac0f774614d0e179fb173b01dcfc8434dd1": {
+    "url": "thecradlemedia/58571",
+    "title": "Israeli Warplanes Drop Incendiary Balloons Over South Lebanon",
+    "published": "2026-04-30T10:20:58.135459+00:00"
+  },
+  "5230f00132f52a3232ae490a16b5988397ac83eb80107312781a523106a0f026": {
+    "url": "thecradlemedia/58577",
+    "title": "Hezbollah Drone Strike Ignites Fire in Western Galilee",
+    "published": "2026-04-30T10:20:25.805711+00:00"
+  },
+  "01565f2b0283fe537593876116a4d0480e8ffa5d82ff21bf42ed447b1e95fdbf": {
+    "url": "thecradlemedia/58585",
+    "title": "Israeli Forces Detain, Assault Palestinians in Masafer Yatta",
+    "published": "2026-04-30T10:18:56.736776+00:00"
+  },
+  "0ae99427f2b6243d5f49b66022b556667988078a99b29a081991397c0620c899": {
+    "url": "thecradlemedia/58587",
+    "title": "Microsoft Reverses 'West Bank' Map Change Amid Criticism",
+    "published": "2026-04-30T10:16:14.846758+00:00"
+  },
+  "de5d178c5e955838743a04ce8d46a511c15befe23e28656a328239419e251f1e": {
+    "url": "thecradlemedia/58589",
+    "title": "Trump Pressures Herzog to Pardon Netanyahu Amid Corruption Trial",
+    "published": "2026-04-30T10:16:12.993694+00:00"
+  },
   "f5ee2abd8e6dce5256f5a9ed0418d2b58ddf3cd1d5d483565e07bd43c0ab84d7": {
     "url": "presstv/187737",
     "title": "Iran Unveils 'Intimidating' Military Asset Amid Regional Tensions",
@@ -213,6 +243,11 @@
     "url": "https://www.bbc.com/news/articles/cvgz5rgv4n3o?at_medium=RSS&at_campaign=rss",
     "title": "Israeli 'double-tap' strike kills three rescue workers in Lebanon, officials say",
     "published": "2026-04-29T13:59:09+00:00"
+  },
+  "ae42b823039dc4d1d8f30253575f1f0c7b00483d21c1a8a6790750463fd04e7d": {
+    "url": "https://en.irna.ir/news/86140906/Gaza-death-toll-mounts-to-72-599",
+    "title": "Gaza death toll mounts to 72,599",
+    "published": "2026-04-29T10:46:30+00:00"
   },
   "e9d154d3678ea19d946900525a18abef89f41715ee8d3b9b55a10d9289511381": {
     "url": "DDGeopolitics/183078",
@@ -713,40 +748,5 @@
     "url": "https://tass.com/politics/2123189",
     "title": "Russian diplomat calls for dropping hawkish plans to resume Middle East war",
     "published": "2026-04-27T20:10:01+00:00"
-  },
-  "9c0c6933d3268644a83d464cdb4fef1c32d5468438425424445d472b7605fa60": {
-    "url": "presstv/187425",
-    "title": "Iran's FM Araghchi Meets with Russian President Putin",
-    "published": "2026-04-27T19:44:16.956943+00:00"
-  },
-  "ee66d7c1bd3a7218cd81e937d4bc640c9e24743fb8ff8810fe91c39c8e06f7bf": {
-    "url": "presstv/187431",
-    "title": "IRGC Quds Force Chief Dismisses Israeli Claims on Hezbollah's Power",
-    "published": "2026-04-27T19:41:17.318465+00:00"
-  },
-  "c637867fc511cb4d9ea92eb389bab1b74ce896a89e5d36a3623106673a49fc09": {
-    "url": "presstv/187436",
-    "title": "Putin Vows Support for Peace in West Asia Amid US-Israeli Conflict with Iran",
-    "published": "2026-04-27T19:38:59.060793+00:00"
-  },
-  "f296de0160342e65e86a30ef9d9f3777fdbd8a997b6e651b231e373ea4e80bb4": {
-    "url": "QudsNen/220874",
-    "title": "Palestinian Children Defy Israeli Military Raid in Qalandia Refugee Camp",
-    "published": "2026-04-27T19:36:25.400882+00:00"
-  },
-  "13fec47f5b3f9acffca701b49e5aabf40d92f5f96277d8677ca9194e46f93298": {
-    "url": "thecradlemedia/58409",
-    "title": "Israel Escalates Attacks in Lebanon Amid Tensions with Hezbollah",
-    "published": "2026-04-27T19:35:50.755455+00:00"
-  },
-  "186d2aa4e0b9caea81fb9f0187a568c6e4adfc784cb17576adb331423164bdc7": {
-    "url": "thecradlemedia/58414",
-    "title": "Bahrain Revokes Citizenship of Dozens Amid Crackdown on Dissidents",
-    "published": "2026-04-27T19:35:49.582863+00:00"
-  },
-  "c34694151d04e37bce40d3a25fb2ee73453671c8c069873a9dcf6b822a8c1488": {
-    "url": "https://www.defensenews.com/industry/techwatch/2026/04/27/us-army-eyes-a-heavier-hybrid-powered-infantry-squad-vehicle/",
-    "title": "US Army eyes a heavier, hybrid-powered Infantry Squad Vehicle",
-    "published": "2026-04-27T18:26:22+00:00"
   }
 }

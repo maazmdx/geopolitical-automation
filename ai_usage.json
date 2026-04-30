@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2531,
+  "total_calls": 2535,
   "tiers": {
-    "groq": 2512,
+    "groq": 2516,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-27T06:35:32.804949+00:00",
-      "tier": "groq",
-      "article": "At least 20 people killed in terror attack on Pan-American Highway in Colombia"
-    },
-    {
-      "timestamp": "2026-04-27T06:36:07.599848+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-27T06:36:23.834364+00:00",
-      "tier": "groq",
-      "article": "Magnitude 6 earthquake strikes Japan"
-    },
-    {
-      "timestamp": "2026-04-27T06:36:42.260959+00:00",
-      "tier": "groq",
-      "article": "Araghchi, Sultan of Oman discuss latest regional developments"
-    },
     {
       "timestamp": "2026-04-27T10:23:44.189002+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-30T06:38:25.825754+00:00",
       "tier": "groq",
       "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
+    },
+    {
+      "timestamp": "2026-04-30T10:14:03.968971+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-30T10:14:36.352267+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-30T10:15:22.809328+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-30T10:16:08.193309+00:00",
+      "tier": "groq",
+      "article": "Gaza death toll mounts to 72,599"
     }
   ]
 }
