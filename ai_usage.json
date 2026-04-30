@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2551,
+  "total_calls": 2555,
   "tiers": {
-    "groq": 2532,
+    "groq": 2536,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-27T21:09:28.376255+00:00",
-      "tier": "groq",
-      "article": "Ukraine strikes hotel in ZNPP satellite city of Energodar with drone"
-    },
-    {
-      "timestamp": "2026-04-27T21:09:47.025248+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-27T21:10:10.135819+00:00",
-      "tier": "groq",
-      "article": "Trump says urged Putin against responding to Ukraine's recent strikes on Russia"
-    },
-    {
-      "timestamp": "2026-04-27T21:10:28.325501+00:00",
-      "tier": "groq",
-      "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
-    },
     {
       "timestamp": "2026-04-27T23:02:07.250206+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-30T21:10:09.270251+00:00",
       "tier": "groq",
       "article": "Why China is holding back as global crises test its great-power role"
+    },
+    {
+      "timestamp": "2026-04-30T23:01:55.874345+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-30T23:02:28.588967+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-04-30T23:02:44.701810+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-04-30T23:03:24.862564+00:00",
+      "tier": "groq",
+      "article": "US President Donald Trump has threatened to pull the troops from Germany"
     }
   ]
 }

@@ -1,4 +1,34 @@
 {
+  "8a5c1abaee48969f5daeda0042a7d6e4cedeaa83c270971af11796910e7e9649": {
+    "url": "DDGeopolitics/183180",
+    "title": "US Senator Criticizes Department of War Crimes and Unholy Crusades Head's Alleged Partisan Approach",
+    "published": "2026-04-30T23:08:27.927536+00:00"
+  },
+  "0d8f03b2254bd660d0b2bc7cd2852d6bbb2d85de57335775573512acbb0a36b2": {
+    "url": "DDGeopolitics/183185",
+    "title": "Iranian Air Defenses Engage Hostile Drones Over Tehran",
+    "published": "2026-04-30T23:05:59.552520+00:00"
+  },
+  "ad4810da2a06bdd2f3e67ad63c9c2aa47f4d02a1a813f92552957423021f7c11": {
+    "url": "Middle_East_Spectator/31634",
+    "title": "Israeli Soldier Killed in Drone Attack in Southern Lebanon",
+    "published": "2026-04-30T23:04:54.951714+00:00"
+  },
+  "b142453e1e0e255c82297ad9f2c5c991908e9ebd1f7570c296c7baa11d009415": {
+    "url": "Middle_East_Spectator/31647",
+    "title": "Iran Diplomat's Alleged IRGC Ties Spark Expert Debate",
+    "published": "2026-04-30T23:04:53.154897+00:00"
+  },
+  "2cfb4d8c504f556161ca0d140e849f1a839777d4d9de0b1bbb363fe44f5e0f2a": {
+    "url": "Middle_East_Spectator/31648",
+    "title": "Iranian Air Defenses Intercept Quadcopters Over Tehran",
+    "published": "2026-04-30T23:04:51.532949+00:00"
+  },
+  "34eaeccdd8e73954d00afab19e963398fa7b3e4101f1e20f926fe04f09820b63": {
+    "url": "Middle_East_Spectator/31649",
+    "title": "Iranian Drones Target Kurdish Militant Hideouts in Erbil, Iraq",
+    "published": "2026-04-30T23:03:50.384637+00:00"
+  },
   "32a75dc3077bc14dafbbaf5b21cac3e0622fa3d0d57801dc770bff065bf3543c": {
     "url": "QudsNen/221356",
     "title": "Iran Air Defense on High Alert in Tehran",
@@ -228,6 +258,11 @@
     "url": "Middle_East_Spectator/31612",
     "title": "US Seeks International Partners for Strait of Hormuz Coalition",
     "published": "2026-04-30T03:39:21.065034+00:00"
+  },
+  "70462ae4e9aee69073199b937b8d705cf4af749fc690fbb322e82d6a03191233": {
+    "url": "https://www.rt.com/news/639286-trump-germany-troops-merz/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+    "title": "US President Donald Trump has threatened to pull the troops from Germany",
+    "published": "2026-04-30T03:18:42+00:00"
   },
   "e9e0fc509db1c212e344c3dd9ce95962a1268d41e33ec6976c8282615f557073": {
     "url": "intelslava/87270",
@@ -713,40 +748,5 @@
     "url": "mod_russia_en/26626",
     "title": "Russian Forces Neutralize Ukrainian Soldiers in Konstantinovka",
     "published": "2026-04-28T10:32:26.259907+00:00"
-  },
-  "fc88b96fe8bfc462034ca9af4229452ffd7b95dac7ff847d5a6d629bda7f3dd2": {
-    "url": "intelslava/87202",
-    "title": "Drone Attack Ignites Fire at Tuapse Oil Refinery",
-    "published": "2026-04-28T10:31:11.006860+00:00"
-  },
-  "bf25a706abd17fcdcc951853fa9fbd0456e2a0187c60104ded396db99344818d": {
-    "url": "intelslava/87207",
-    "title": "Tuapse Oil Refinery Hit by Drone Attack",
-    "published": "2026-04-28T10:29:37.699118+00:00"
-  },
-  "cf7b8b13bd1dd9327ffacff30f421d17d53c32b7383546d0a95aaafb28e77e44": {
-    "url": "presstv/187509",
-    "title": "Handala Hacktivists Claim Access to US Navy Personnel Identities in Persian Gulf",
-    "published": "2026-04-28T10:29:07.292648+00:00"
-  },
-  "3095809073e5268444afad2313a4d1b2ec784c9ef278c0a4f07ef0010bfe3601": {
-    "url": "https://www.rt.com/news/639199-trump-drama-nato-summits/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "NATO could deal with Trump \u2018drama\u2019 by holding fewer summits \u2013 Reuters",
-    "published": "2026-04-28T10:28:07+00:00"
-  },
-  "4eef5124ad0dee6fe4df6128b99de3814d8cd5df4e7d7f1d850947ceab5c8a11": {
-    "url": "thecradlemedia/58443",
-    "title": "Israeli Airstrikes Hit Southern Lebanon",
-    "published": "2026-04-28T10:26:01.928588+00:00"
-  },
-  "39c1d654124f7bb3f76b07449a2a23f36dfa95322670129803eb44fe3311891a": {
-    "url": "thecradlemedia/58447",
-    "title": "UK Braces for Economic Fallout as Iran Conflict Escalates",
-    "published": "2026-04-28T10:25:59.453275+00:00"
-  },
-  "4f0cdb524a9e9c99146852ce094e3acf4dd521d53bcd6d0c2dac9bb14c2266b5": {
-    "url": "https://www.rt.com/news/639197-iran-hormuz-economic-nuclear-weapon-rubio/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "Rubio rejects Iranian control over Strait of Hormuz",
-    "published": "2026-04-28T07:42:04+00:00"
   }
 }
