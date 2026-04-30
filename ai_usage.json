@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2539,
+  "total_calls": 2543,
   "tiers": {
-    "groq": 2520,
+    "groq": 2524,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-27T14:05:04.757586+00:00",
-      "tier": "groq",
-      "article": "Netanyahu&#039;s trial delayed once more over &#039;security meeting&#039; on Lebanon"
-    },
-    {
-      "timestamp": "2026-04-27T14:05:35.642897+00:00",
-      "tier": "groq",
-      "article": "VIDEO: Students in Turkey tear up Trump, Netanyahu photos"
-    },
-    {
-      "timestamp": "2026-04-27T14:06:24.900411+00:00",
-      "tier": "groq",
-      "article": "IN BRIEF: Staff member killed in Ukrainian drone strike on Zaporozhye nuke plant"
-    },
-    {
-      "timestamp": "2026-04-27T14:06:42.588462+00:00",
-      "tier": "groq",
-      "article": "US tightens green card screening over Israel criticism and protest activity"
-    },
     {
       "timestamp": "2026-04-27T17:28:45.203816+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-30T14:11:01.643238+00:00",
       "tier": "groq",
       "article": "Martyr Larijani was a source of inspiration and guide: SNSC"
+    },
+    {
+      "timestamp": "2026-04-30T17:30:25.292187+00:00",
+      "tier": "groq",
+      "article": "Houthis say their strike prevented US military plane from landing in Israel"
+    },
+    {
+      "timestamp": "2026-04-30T17:30:57.987885+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-30T17:31:44.494699+00:00",
+      "tier": "groq",
+      "article": "Lebanese Army: A soldier and several members of his family were killed in an Israeli airstrike that targeted their home in the town of Kfar Rumman - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-04-30T17:32:00.370256+00:00",
+      "tier": "groq",
+      "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
     }
   ]
 }
