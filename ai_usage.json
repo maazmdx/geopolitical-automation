@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2543,
+  "total_calls": 2547,
   "tiers": {
-    "groq": 2524,
+    "groq": 2528,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-27T17:28:45.203816+00:00",
-      "tier": "groq",
-      "article": "Lebanon Latest: Israel\u2019s deadly attacks amid ceasefire breaches"
-    },
-    {
-      "timestamp": "2026-04-27T17:29:01.296193+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-27T17:29:28.797166+00:00",
-      "tier": "groq",
-      "article": "Ukrainian strikes on Zaporozhye NPP are crime against humanity \u2014 Russian expert"
-    },
-    {
-      "timestamp": "2026-04-27T17:30:15.399626+00:00",
-      "tier": "groq",
-      "article": "Russia\u2019s Battlegroup South destroys 62 Ukrainian dugouts, shelters over past 24 hours"
-    },
     {
       "timestamp": "2026-04-27T19:33:28.310121+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-04-30T17:32:00.370256+00:00",
       "tier": "groq",
       "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
+    },
+    {
+      "timestamp": "2026-04-30T19:33:02.192144+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-04-30T19:33:34.651663+00:00",
+      "tier": "groq",
+      "article": "Lebanese girl mourns paramedic father killed in Israeli strike"
+    },
+    {
+      "timestamp": "2026-04-30T19:34:21.786528+00:00",
+      "tier": "groq",
+      "article": "Ukraine strikes hotel in ZNPP satellite city of Energodar with drone"
+    },
+    {
+      "timestamp": "2026-04-30T19:34:41.494938+00:00",
+      "tier": "groq",
+      "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
     }
   ]
 }
