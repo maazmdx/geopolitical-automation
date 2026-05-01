@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2563,
+  "total_calls": 2567,
   "tiers": {
-    "groq": 2544,
+    "groq": 2548,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-28T06:38:06.863410+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-28T06:38:23.519988+00:00",
-      "tier": "groq",
-      "article": "US has no defense against hypersonic weapons, advanced cruise missiles \u2014 Pentagon"
-    },
-    {
-      "timestamp": "2026-04-28T06:38:48.832737+00:00",
-      "tier": "groq",
-      "article": "Ukrainian strikes kill over 20 civilians in past week \u2014 Russian diplomat"
-    },
-    {
-      "timestamp": "2026-04-28T06:39:06.265156+00:00",
-      "tier": "groq",
-      "article": "US, still claiming domination, displays most hostile behavior \u2014 Russian Foreign Ministry"
-    },
     {
       "timestamp": "2026-04-28T10:24:24.758219+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-01T06:47:08.751464+00:00",
       "tier": "groq",
       "article": "Iran to set \"new legal rules\" for Persian Gulf, Hormuz Strait"
+    },
+    {
+      "timestamp": "2026-05-01T09:55:03.848079+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-01T09:55:36.394645+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-01T09:55:52.648922+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-05-01T09:56:33.858056+00:00",
+      "tier": "groq",
+      "article": "US to pitch new Strait of Hormuz framework to other nations, WSJ and Reuters report"
     }
   ]
 }

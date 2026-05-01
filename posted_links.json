@@ -1,4 +1,34 @@
 {
+  "cc53640e3de02b5a12247f789f5b302fc64301f059b4c2da8790afc9a8041ebf": {
+    "url": "DDGeopolitics/183211",
+    "title": "Russia-Ukraine Conflict: Geran Drone Strikes Widen Across Multiple Regions",
+    "published": "2026-05-01T10:00:26.174460+00:00"
+  },
+  "208da154475b405335953e4c8072d559eea4387cd2d2dd536edd9f4521f60655": {
+    "url": "thecradlemedia/58667",
+    "title": "Israeli Airstrike Targets Tyre, Lebanon",
+    "published": "2026-05-01T09:59:52.256130+00:00"
+  },
+  "ec44b67ef42f61f0a6b00d050cdf209acee89597560b4ee124f1c09ebeeb09bd": {
+    "url": "thecradlemedia/58668",
+    "title": "Gaza Resistance Ambush Targets Israel-Backed Collaborators",
+    "published": "2026-05-01T09:59:50.304674+00:00"
+  },
+  "deb47cfad347ed91c811f3872b65aaf55089dfd3bb4269d2d8f589d0b029f745": {
+    "url": "thecradlemedia/58670",
+    "title": "Israeli Drone Strike Hits Open Land in Tyre, Lebanon",
+    "published": "2026-05-01T09:57:27.994986+00:00"
+  },
+  "375e4854d1f8ede2d08aeb4092f82eb38a94fd32164eec9621939666a484af15": {
+    "url": "thecradlemedia/58672",
+    "title": "Iran Disputes US Estimates of Potential Conflict Cost",
+    "published": "2026-05-01T09:57:05.643586+00:00"
+  },
+  "bbbc5628fb741392fa65080b45b195f0c10f4d28c9df8d1c0a04c1dc2f3dfac0": {
+    "url": "thecradlemedia/58674",
+    "title": "Israeli Forces Demolish Abandoned Hezbollah Tunnel in Southern Lebanon",
+    "published": "2026-05-01T09:57:05.064891+00:00"
+  },
   "f893acf2565ca9fae5a85ffda5627cfed6b0b13b167a240e7e047184484b1db3": {
     "url": "presstv/187858",
     "title": "US Military Depletes Key Assets Amid Tensions with Iran",
@@ -223,6 +253,11 @@
     "url": "https://tass.com/politics/2124987",
     "title": "Russia's envoy to OSCE sees Franco-Polish drills as preparations for war with Russia",
     "published": "2026-04-30T12:32:33+00:00"
+  },
+  "a7971b8ab4a1e7e4cc57545b9e33c07f18e21bd234cb711e2d7cfd4c3e438901": {
+    "url": "https://www.rt.com/news/639290-us-hormuz-rubio-pitch/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+    "title": "US to pitch new Strait of Hormuz framework to other nations, WSJ and Reuters report",
+    "published": "2026-04-30T11:26:31+00:00"
   },
   "265814490dadb5929ae5b17ae072d260f32f5202fd23dbadcff7805572d73cec": {
     "url": "https://en.mehrnews.com/news/244113/Iran-to-put-an-end-to-enemy-s-abuses-of-Hormuz-Strait-Leader",
@@ -713,40 +748,5 @@
     "url": "QudsNen/221037",
     "title": "Israeli Commander Reveals Intense Bombardment of Gaza at Conflict's Start",
     "published": "2026-04-28T19:54:29.196846+00:00"
-  },
-  "ba42d6ab41ca93e564c8df5dd98a77979f7912b0aa9c0b856d484387c685a867": {
-    "url": "thecradlemedia/58489",
-    "title": "US-Iran Tensions Escalate as Turkish Strategist Warns of Global Economic Collapse",
-    "published": "2026-04-28T19:53:13.761428+00:00"
-  },
-  "960c8295ed043e99d302637265c68de88ccdff8dc9a37efe0c3ba01db851f22c": {
-    "url": "thecradlemedia/58491",
-    "title": "US-Iran Nuclear Deal Talks Stall Amid Ongoing Economic Blockade",
-    "published": "2026-04-28T19:53:09.413959+00:00"
-  },
-  "6715ffa9891517a419032bbf1a19369077a9bad47031af924ea6fdead7e67f3b": {
-    "url": "https://www.defensenews.com/news/pentagon-congress/2026/04/28/pentagons-fy27-budget-seeks-85-f-35s-but-most-ride-on-reconciliation/",
-    "title": "Pentagon\u2019s FY27 budget seeks 85 F-35s, but most ride on reconciliation ",
-    "published": "2026-04-28T17:59:31+00:00"
-  },
-  "a0efafe6eea1fd4bbcfa67fe9ad06838b9cee48293897495e05e102d1b0a35f5": {
-    "url": "QudsNen/221008",
-    "title": "Lebanon Under Fire: Israeli Airstrikes Hit Bazouriyeh",
-    "published": "2026-04-28T17:58:59.208360+00:00"
-  },
-  "f216b04f6489c03ea362e2ed932def04f8fb5f9071175e4f03a5fe579746d954": {
-    "url": "QudsNen/221012",
-    "title": "Israeli Forces Destroy Infrastructure in Qantara, Southern Lebanon",
-    "published": "2026-04-28T17:58:47.493247+00:00"
-  },
-  "0ca18340e9a4b6182cc884809e236d158d10e626bf406b5d66bd1bb1c81d4e3e": {
-    "url": "QudsNen/221014",
-    "title": "Israeli Airstrikes Hit Jouya, Southern Lebanon",
-    "published": "2026-04-28T17:58:35.719914+00:00"
-  },
-  "d7e2f7f8d27ba8449edc8187a8352ff8b90b402353b1379edef81b936184d65f": {
-    "url": "thecradlemedia/58482",
-    "title": "Mourning in Beirut's Shatila Camp for Hamas Fighters Killed in Lebanon Clashes",
-    "published": "2026-04-28T17:57:41.935658+00:00"
   }
 }
