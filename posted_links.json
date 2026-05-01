@@ -1,4 +1,34 @@
 {
+  "5e05c889df000146f837093a4ae38883b0e63e00ef249a4fa3e058c059f5bcab": {
+    "url": "DDGeopolitics/183218",
+    "title": "Hezbollah Forces Launch Retaliatory Strikes in Southern Lebanon",
+    "published": "2026-05-01T13:38:11.652205+00:00"
+  },
+  "7121c10d4d133413d6421ad88f42f202754c1cf56e125a78144143d11df095c3": {
+    "url": "DDGeopolitics/183219",
+    "title": "Hezbollah Claims Success in Southern Lebanon Amid Ongoing Israel Ceasefire",
+    "published": "2026-05-01T13:36:28.732074+00:00"
+  },
+  "e170efc4acb32115f0b8a05a79b977a0d6e1988836c962b2e96f7ee47b24700b": {
+    "url": "Middle_East_Spectator/31654",
+    "title": "Israeli Vehicle Struck by Drone in Northern Israel",
+    "published": "2026-05-01T13:36:06.221284+00:00"
+  },
+  "be59f708ab58c24fe5c29c4b167514d77b3befe2f2167328ce5aa9aaf85ca473": {
+    "url": "thecradlemedia/58696",
+    "title": "Hezbollah Drone Strike Hits Israeli Military Vehicle in Misgav Am",
+    "published": "2026-05-01T13:34:23.034328+00:00"
+  },
+  "1159e1502898b40098dfa80ddbc05391c4b850d1b12ae7cefd91ea2b45561e8f": {
+    "url": "thecradlemedia/58711",
+    "title": "Trump Congratulates Iraq's PM Nominee, Eyes Stronger Ties",
+    "published": "2026-05-01T13:32:30.324763+00:00"
+  },
+  "36baa7ba66052fcbe69cff10b1e0f8dc56cc1f4e3419a52d712cdd099b922740": {
+    "url": "thecradlemedia/58712",
+    "title": "Handala Hacker Collective Threatens to Expose US Official Behind Iran Sanctions",
+    "published": "2026-05-01T13:32:23.127949+00:00"
+  },
   "0c2772735215b90cded5a5e914190307e28155a7dfff398467eff1859b08353d": {
     "url": "intelslava/87309",
     "title": "Iran Conducts Drone Strikes against Kurdish Camps in Iraqi Kurdistan",
@@ -278,6 +308,11 @@
     "url": "thecradlemedia/58625",
     "title": "Israeli Airstrike Causes Devastation in Kfar Joz, South Lebanon",
     "published": "2026-04-30T14:11:16.169237+00:00"
+  },
+  "7b021b7c8f09cca9147f4c66d06bb74db76f76a2c5db9760bb4789717a94f87d": {
+    "url": "https://www.rt.com/news/639303-uk-nato-navy-jenkins/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+    "title": "Britain to create anti-Russian naval force",
+    "published": "2026-04-30T13:40:54+00:00"
   },
   "9e194686c5dbbc7e5f317a3f6eb23c90538cfedd5d77ed6c1949bdbc480d722a": {
     "url": "https://tass.com/politics/2124987",
@@ -713,40 +748,5 @@
     "url": "mod_russia_en/26633",
     "title": "Russian Forces Target Ukrainian Drone Command Post in Eastern Ukraine",
     "published": "2026-04-28T23:17:46.526906+00:00"
-  },
-  "93843b7541fbe553cfee1bbea035680e1a61c3030360d69fae840775590f8e5a": {
-    "url": "mod_russia_en/26642",
-    "title": "Russian Artillery Strikes Ukrainian Stronghold in Kharkov Region",
-    "published": "2026-04-28T23:16:54.006771+00:00"
-  },
-  "91b29f71fa850d1edfad17b56b42fad29ac000fb4bc1b984cfff655a33e18de7": {
-    "url": "QudsNen/221062",
-    "title": "Israeli Artillery Strikes Eastern Gaza City",
-    "published": "2026-04-28T23:06:33.661424+00:00"
-  },
-  "46dbf9a27820b3498f1d23b562ab963ee060fb8edbe0bd6ee0a83d06ea6f5a49": {
-    "url": "QudsNen/221064",
-    "title": "UAE Withdraws from OPEC Amid Regional Tensions",
-    "published": "2026-04-28T23:06:25.902606+00:00"
-  },
-  "dba6999848cfb204a364407bb3d4821c8f42aa33648c18abdadffb7fb00662ad": {
-    "url": "mod_russia_en/26643",
-    "title": "Russian Defence Ministry Honours Dnepr Group of Forces Volunteers",
-    "published": "2026-04-28T21:31:02.846009+00:00"
-  },
-  "30b1d97b1f6d06e8bd6e9ab6c6a359e76be4e94ac6cb14b68922296e87b2bdc7": {
-    "url": "mod_russia_en/26644",
-    "title": "Russian Forces Target Ukrainian Positions in Zaporozhye Region",
-    "published": "2026-04-28T21:29:10.564478+00:00"
-  },
-  "1a648af90b2e64206d5e8f756d575216fb4f037b3ad6015f97f2a36edb7191f2": {
-    "url": "QudsNen/221045",
-    "title": "Israeli Occupation Forces Raid Homes in Masafer Yatta",
-    "published": "2026-04-28T21:18:07.729303+00:00"
-  },
-  "b8a091a7d85373260dabe19f5d579c510a2414569cc606aa1f5f0998e12760c9": {
-    "url": "QudsNen/221050",
-    "title": "Hezbollah Claims Drone Strike on Israeli APC in Qantara, Lebanon",
-    "published": "2026-04-28T21:16:21.648582+00:00"
   }
 }

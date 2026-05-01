@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2571,
+  "total_calls": 2575,
   "tiers": {
-    "groq": 2552,
+    "groq": 2556,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-28T14:22:53.187408+00:00",
-      "tier": "groq",
-      "article": "Amnesty calls for US strike on Yemen to be investigated as war crime"
-    },
-    {
-      "timestamp": "2026-04-28T14:23:31.515369+00:00",
-      "tier": "groq",
-      "article": "Mali\u2019s Defense Minister Camara assassinated in car-bomb attack on his residence"
-    },
-    {
-      "timestamp": "2026-04-28T14:24:18.086460+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-28T14:25:05.415535+00:00",
-      "tier": "groq",
-      "article": "US seizure of Iranian vessel puts patients at risk \u2013 IRCS official tells RT"
-    },
     {
       "timestamp": "2026-04-28T17:54:59.208305+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-01T11:16:36.114854+00:00",
       "tier": "groq",
       "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
+    },
+    {
+      "timestamp": "2026-05-01T13:30:43.906334+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-01T13:31:16.472324+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-01T13:32:02.540391+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-05-01T13:32:18.743583+00:00",
+      "tier": "groq",
+      "article": "Britain to create anti-Russian naval force"
     }
   ]
 }
