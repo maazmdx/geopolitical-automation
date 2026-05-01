@@ -1,4 +1,34 @@
 {
+  "fa6fbceddc2c1c90981e1a8c033d061a6d6503a29832ea28134a7d2ee8424e7b": {
+    "url": "CensoredMen/203",
+    "title": "Israel Intensifies Strikes in Lebanon Amid Ceasefire Dispute",
+    "published": "2026-05-01T03:59:20.189276+00:00"
+  },
+  "1d21a58cbe99f60af7da365daf9308c2a345aa641f640eb2dfded3b58e955605": {
+    "url": "CensoredMen/205",
+    "title": "Israel Threatens to Destroy Final Bridge Linking Lebanon's Litani River",
+    "published": "2026-05-01T03:56:36.364225+00:00"
+  },
+  "736caa13091b85cb1597da2b3db2dcfb26224cc2619dcf4f941b427d74788265": {
+    "url": "QudsNen/221380",
+    "title": "Israeli Forces Intercept Gaza-Bound Humanitarian Vessel",
+    "published": "2026-05-01T03:53:11.853991+00:00"
+  },
+  "3ce05794fe651207fb8f04d737690b4d6e2c2a4448f1e2af2647124fb6415ad1": {
+    "url": "QudsNen/221383",
+    "title": "Israel Intercepts Global Sumud Flotilla in International Waters",
+    "published": "2026-05-01T03:50:56.433443+00:00"
+  },
+  "8a59928349f4d7ffaa29ca4ba01da81ffb4bba517891cd1dc20b04e8aff15bf4": {
+    "url": "Middle_East_Spectator/31628",
+    "title": "Hormuz Strait Closure Sends Oil Prices Soaring",
+    "published": "2026-05-01T03:50:53.798089+00:00"
+  },
+  "b8b563659dd95e22d41ff4d32d65c4346ce6d1542d9e6999ba36a8ced704b11a": {
+    "url": "Middle_East_Spectator/31651",
+    "title": "French Nun Assaulted on Mount Zion",
+    "published": "2026-05-01T03:50:52.803742+00:00"
+  },
   "8a5c1abaee48969f5daeda0042a7d6e4cedeaa83c270971af11796910e7e9649": {
     "url": "DDGeopolitics/183180",
     "title": "US Senator Criticizes Department of War Crimes and Unholy Crusades Head's Alleged Partisan Approach",
@@ -223,6 +253,11 @@
     "url": "QudsNen/221258",
     "title": "Israeli Forces Seize Control of Gaza Aid Flotilla Vessels",
     "published": "2026-04-30T06:38:36.434363+00:00"
+  },
+  "c6e4b76c6aed17781bfcc5cba7ff5b1e5218673fe28441a479687e2bfe2becce": {
+    "url": "https://en.mehrnews.com/news/244104/Iran-s-all-enriched-uranium-under-IAEA-supervision-mission",
+    "title": "Iran\u2019s all enriched uranium \u2018under IAEA supervision\u2019: Mission",
+    "published": "2026-04-30T06:31:18+00:00"
   },
   "d6b84d5a370c91ac3216206a569ea1b47f7fdca07431cad08150106f421c8fad": {
     "url": "https://warontherocks.com/the-trump-administration-hasnt-forgotten-americas-backyard/",
@@ -713,40 +748,5 @@
     "url": "QudsNen/221006",
     "title": "Israeli Airstrikes Hit Wadi Jilo Periphery in Southern Lebanon",
     "published": "2026-04-28T14:26:00.948183+00:00"
-  },
-  "30903dd38f72663cae64f40ddefe1b3a313ebd64bd908de726ff36f8bb8a483f": {
-    "url": "thecradlemedia/58470",
-    "title": "Mossad Chief Claims Significant Infiltration in Iran and Lebanon",
-    "published": "2026-04-28T14:25:37.227447+00:00"
-  },
-  "6c72821219fd2207623503f9515a76f7f6201e2a61113737bc2d0363c043ecdb": {
-    "url": "thecradlemedia/58472",
-    "title": "Israeli Airstrike Kills Four in Gaza",
-    "published": "2026-04-28T14:25:35.840951+00:00"
-  },
-  "baa6ac3de0577ca82940605276b2494d60e4352061b76f5397477047b042eae8": {
-    "url": "thecradlemedia/58477",
-    "title": "Israeli Airstrike Targets Wadi Jilo Village in South Lebanon",
-    "published": "2026-04-28T14:25:33.769901+00:00"
-  },
-  "ae142a6ec3292322f7101bfbeed705725cd6bd3fd7b75516918fbf11fd9e26bc": {
-    "url": "https://tass.com/defense/2123603",
-    "title": "Mali\u2019s Defense Minister Camara assassinated in car-bomb attack on his residence",
-    "published": "2026-04-28T12:57:04+00:00"
-  },
-  "f3c1916b20bc08bdead7cd380d8c9b5eff429f9157b046c71da7a39e3c7fed81": {
-    "url": "https://www.aljazeera.com/news/2026/4/28/war-crime-afghan-pakistan-truce-under-strain-after-university-strike?traffic_source=rss",
-    "title": "\u2018War crime\u2019: Afghan-Pakistan truce under strain after university strike",
-    "published": "2026-04-28T12:48:47+00:00"
-  },
-  "d2ef7063fb3ec43d876fcf889d209b1668f848a4591d27aeea579429ab3f62e0": {
-    "url": "https://www.aljazeera.com/news/2026/4/28/amnesty-calls-for-us-strike-on-yemen-to-be-investigated-as-war-crime?traffic_source=rss",
-    "title": "Amnesty calls for US strike on Yemen to be investigated as war crime",
-    "published": "2026-04-28T11:27:06+00:00"
-  },
-  "b6de727ac0c99dfe493229dac131ab6f6dd43370a004c635516160b992a36b80": {
-    "url": "mod_russia_en/26626",
-    "title": "Russian Forces Neutralize Ukrainian Soldiers in Konstantinovka",
-    "published": "2026-04-28T10:32:26.259907+00:00"
   }
 }
