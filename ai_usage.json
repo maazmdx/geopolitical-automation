@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2591,
+  "total_calls": 2595,
   "tiers": {
-    "groq": 2572,
+    "groq": 2576,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-29T03:36:30.430993+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-29T03:37:02.826075+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-29T03:37:18.731238+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-29T03:38:01.837865+00:00",
-      "tier": "groq",
-      "article": "US, allies directly responsible for Hormuz Strait disruptions"
-    },
     {
       "timestamp": "2026-04-29T06:32:35.853107+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-01T21:02:32.253919+00:00",
       "tier": "groq",
       "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
+    },
+    {
+      "timestamp": "2026-05-01T22:58:59.585154+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-01T22:59:32.017876+00:00",
+      "tier": "groq",
+      "article": "At least eight people killed in Israeli strikes on southern Lebanon \u2014 authorities"
+    },
+    {
+      "timestamp": "2026-05-01T23:00:21.783015+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-01T23:01:09.193577+00:00",
+      "tier": "groq",
+      "article": "Reporters Without Borders have accusing Israel of \u201cabducting\u201d journalists"
     }
   ]
 }
