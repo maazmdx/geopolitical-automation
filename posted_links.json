@@ -1,4 +1,34 @@
 {
+  "f893acf2565ca9fae5a85ffda5627cfed6b0b13b167a240e7e047184484b1db3": {
+    "url": "presstv/187858",
+    "title": "US Military Depletes Key Assets Amid Tensions with Iran",
+    "published": "2026-05-01T06:54:52.682499+00:00"
+  },
+  "61448187e2d45f9ab68a21fc8c99253bac7d3b32f015037586e6d621502e145c": {
+    "url": "presstv/187861",
+    "title": "US Senator Criticizes Trump's Iran War Strategy",
+    "published": "2026-05-01T06:51:53.027403+00:00"
+  },
+  "c1db88287e206e8974706474488ea785683043fd85820e9d33acefdc5f4b6ed2": {
+    "url": "presstv/187870",
+    "title": "Bahraini Activist's Memory Honored in Bani Jamra",
+    "published": "2026-05-01T06:49:17.306942+00:00"
+  },
+  "a9a5432434610a758f908b72c0149e6f5df3f2b2290ebf824a6d7e67338c09f5": {
+    "url": "DDGeopolitics/183190",
+    "title": "Russia Celebrates Spring and Labor Day",
+    "published": "2026-05-01T06:48:20.478318+00:00"
+  },
+  "f849d236285052ff62e1b4529141e0a71ab5cfddabc99fef037487231ec1c151": {
+    "url": "DDGeopolitics/183195",
+    "title": "Ukrainian Drone Strike Hits Tank in Tuapse, Russia",
+    "published": "2026-05-01T06:48:18.342894+00:00"
+  },
+  "267ebcd44e11863294ef36adf7551ccae8c65158f704544a325ce557409f5cad": {
+    "url": "QudsNen/221401",
+    "title": "NYPD Raids Spark Gaza Solidarity Protests, Two Years On",
+    "published": "2026-05-01T06:48:15.983942+00:00"
+  },
   "fa6fbceddc2c1c90981e1a8c033d061a6d6503a29832ea28134a7d2ee8424e7b": {
     "url": "CensoredMen/203",
     "title": "Israel Intensifies Strikes in Lebanon Amid Ceasefire Dispute",
@@ -193,6 +223,11 @@
     "url": "https://tass.com/politics/2124987",
     "title": "Russia's envoy to OSCE sees Franco-Polish drills as preparations for war with Russia",
     "published": "2026-04-30T12:32:33+00:00"
+  },
+  "265814490dadb5929ae5b17ae072d260f32f5202fd23dbadcff7805572d73cec": {
+    "url": "https://en.mehrnews.com/news/244113/Iran-to-put-an-end-to-enemy-s-abuses-of-Hormuz-Strait-Leader",
+    "title": "Iran to set \"new legal rules\" for Persian Gulf, Hormuz Strait",
+    "published": "2026-04-30T10:45:36+00:00"
   },
   "abefbd74f32c5d3813c537d54104ff24db81dace6f9baa52a8247e1f9d1a2f64": {
     "url": "QudsNen/221289",
@@ -713,40 +748,5 @@
     "url": "thecradlemedia/58482",
     "title": "Mourning in Beirut's Shatila Camp for Hamas Fighters Killed in Lebanon Clashes",
     "published": "2026-04-28T17:57:41.935658+00:00"
-  },
-  "47838fedf55a42f2844238e1170df9c0b7098f3ca152109e5c89f3ff62b0a9ab": {
-    "url": "thecradlemedia/58485",
-    "title": "Israeli Airstrike Kills Two in Southern Lebanon",
-    "published": "2026-04-28T17:56:42.533651+00:00"
-  },
-  "bf03916d7035eea423ae24dec7c8151502b9f6f5774747eb4e6285b5ad94b686": {
-    "url": "thecradlemedia/58486",
-    "title": "UAE Leaves OPEC Amid Rising Tensions with Saudi Arabia",
-    "published": "2026-04-28T17:56:40.295845+00:00"
-  },
-  "fc364302329319107a3cbdecdf8e104e8ab37eb39cc47e1f4a84e86a1ff8b604": {
-    "url": "https://thecradle.co/articles-id/37391",
-    "title": "US gas prices hit four-year high amid stalemate in Iran truce talks",
-    "published": "2026-04-28T17:27:32+00:00"
-  },
-  "7d58959544a10285a353969c0584e18b06c943b3e320e1c3db25e48b7f6e4f2f": {
-    "url": "https://www.rt.com/news/639224-afghanistan-pakistan-war-crimes/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "Taliban accuses Pakistan of war crimes",
-    "published": "2026-04-28T15:18:20+00:00"
-  },
-  "c210a2cc96781d754699a387d46dd68e364c874c6cae06b5274b4ee54d5d7691": {
-    "url": "DDGeopolitics/183031",
-    "title": "Ukraine Targets Russia's Tuapse Oil Refinery in Drone Strike",
-    "published": "2026-04-28T14:28:23.390873+00:00"
-  },
-  "1636d6f7a16b40452d6edbb71f6a5aaf74460e8e92cc49725e6b1111002bb747": {
-    "url": "QudsNen/221005",
-    "title": "Israeli Airstrike Kills Four Palestinians in Gaza City",
-    "published": "2026-04-28T14:27:14.658016+00:00"
-  },
-  "5b1a7681b70bfbbe5f587238c553d5be5309afd39962cd68473f93a6e1712d98": {
-    "url": "QudsNen/221006",
-    "title": "Israeli Airstrikes Hit Wadi Jilo Periphery in Southern Lebanon",
-    "published": "2026-04-28T14:26:00.948183+00:00"
   }
 }

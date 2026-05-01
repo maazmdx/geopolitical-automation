@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2559,
+  "total_calls": 2563,
   "tiers": {
-    "groq": 2540,
+    "groq": 2544,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-28T03:35:33.116532+00:00",
-      "tier": "groq",
-      "article": "Brazil condemns killing of its citizens in Israeli strike on Lebanon \u2014 MFA"
-    },
-    {
-      "timestamp": "2026-04-28T03:36:07.627820+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-28T03:36:55.878982+00:00",
-      "tier": "groq",
-      "article": "Russian diplomat calls for dropping hawkish plans to resume Middle East war"
-    },
-    {
-      "timestamp": "2026-04-28T03:37:14.246685+00:00",
-      "tier": "groq",
-      "article": "Resistance front stronger than ever, stands with Hezbollah: Top IRGC cmdr"
-    },
     {
       "timestamp": "2026-04-28T06:38:06.863410+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-01T03:48:28.269337+00:00",
       "tier": "groq",
       "article": "Iran\u2019s all enriched uranium \u2018under IAEA supervision\u2019: Mission"
+    },
+    {
+      "timestamp": "2026-05-01T06:44:56.556479+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-01T06:45:29.132518+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-01T06:46:15.359104+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-05-01T06:47:08.751464+00:00",
+      "tier": "groq",
+      "article": "Iran to set \"new legal rules\" for Persian Gulf, Hormuz Strait"
     }
   ]
 }
