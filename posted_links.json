@@ -1,4 +1,34 @@
 {
+  "689c344498483e3ae603eb3f445dc2639299e31449a87ab9f5794b6ffb993a96": {
+    "url": "presstv/188000",
+    "title": "Paris Protests Evoke Support for Iranian Workers Amid US-Israeli Conflict",
+    "published": "2026-05-02T06:26:12.644067+00:00"
+  },
+  "c04fef19c8776e5afce5a50bbf2896d69b7d64b6e3c416f7b63103039fc4e555": {
+    "url": "BellumActaNews/172030",
+    "title": "Trump Justifies US Military Intervention in Iran",
+    "published": "2026-05-02T06:23:25.364236+00:00"
+  },
+  "4a39fb0c6e91d8a6c1c2d87a7a3417512be4181b3c0173216721562923c15c9e": {
+    "url": "DDGeopolitics/183255",
+    "title": "US-Iran Hostilities Claimed to Have Terminated Amid Congressional Deadline",
+    "published": "2026-05-02T06:21:50.284352+00:00"
+  },
+  "16688a0aedd915b6f3d22109e699c84ed4714d9ad93ff89c3fd2faf118b33f26": {
+    "url": "DDGeopolitics/183261",
+    "title": "Russia Launches Widespread Strikes on Ukraine Amid Ongoing Diplomatic Tensions",
+    "published": "2026-05-02T06:21:45.093463+00:00"
+  },
+  "d57add9225b81976f88d8d0bcfdfdfd1dada07b45cc8d3c78f97419f5d337199": {
+    "url": "DDGeopolitics/183265",
+    "title": "Seal Befriends Polar Explorers at Cape Chelyuskin",
+    "published": "2026-05-02T06:21:43.069264+00:00"
+  },
+  "471ce7932881940c03c5fbd7dd296ed48d605ad2547a1584cd5f99d884648067": {
+    "url": "QudsNen/221544",
+    "title": "Girl Sings Amid Ruins of Gaza Mosque Destroyed in Israeli Bombardment",
+    "published": "2026-05-02T06:19:11.594560+00:00"
+  },
   "ac0c1976b7e553eac9fb04f0213b4d6c76ac3bef9068d3f15af25637039b6614": {
     "url": "BellumActaNews/172038",
     "title": "Iranian Authorities Detect Mysterious UAVs Moving from Qazvin to Tehran",
@@ -278,6 +308,11 @@
     "url": "thecradlemedia/58674",
     "title": "Israeli Forces Demolish Abandoned Hezbollah Tunnel in Southern Lebanon",
     "published": "2026-05-01T09:57:05.064891+00:00"
+  },
+  "1cf34205b71b1c71c7baf6fff8f7d06a8d03ab5b2523eb314a33b5119a4d48cc": {
+    "url": "https://en.mehrnews.com/news/244130/US-naval-blockade-has-failed-Iran-has-alternatives",
+    "title": "US naval blockade has failed; Iran has alternatives",
+    "published": "2026-05-01T09:51:02+00:00"
   },
   "f893acf2565ca9fae5a85ffda5627cfed6b0b13b167a240e7e047184484b1db3": {
     "url": "presstv/187858",
@@ -713,40 +748,5 @@
     "url": "BellumActaNews/171938",
     "title": "Ukrainian Military Vehicle Explodes in Kharkiv",
     "published": "2026-04-29T19:56:16.500944+00:00"
-  },
-  "8ebaab41915b9e8dfed30e130be43ea17276068d000426ca90a0d3e29427c997": {
-    "url": "BellumActaNews/171945",
-    "title": "Quetta Rocket Attack Leaves Trail of Destruction",
-    "published": "2026-04-29T19:55:49.288402+00:00"
-  },
-  "9dc5ad03d67b763761113db0fe1e05c11d02524f10d352460b241f43ff8fc46a": {
-    "url": "QudsNen/221194",
-    "title": "French Politician Warns Against US Intervention in Iran",
-    "published": "2026-04-29T19:51:40.446567+00:00"
-  },
-  "b26fd25c20776147b5e9e681cab6e83a194553742edeb7030abd7a76661c9ad9": {
-    "url": "thecradlemedia/58556",
-    "title": "Israeli Airstrikes Hit Bint Jbeil, South Lebanon",
-    "published": "2026-04-29T19:50:01.787794+00:00"
-  },
-  "883f530695dd838b1b6fd9bb2cb1930769f936bce168887d6d9849a20d3b5211": {
-    "url": "thecradlemedia/58566",
-    "title": "Iran's Military Pressure on US Forces Leads to Temporary Pause",
-    "published": "2026-04-29T19:49:52.441553+00:00"
-  },
-  "281f39670fb2419e68a122855a9565d88f592f30621926ff3972eeb1b6f94ac2": {
-    "url": "presstv/187680",
-    "title": "Iran Displays Shahed-136 Drones in Nationwide Rallies",
-    "published": "2026-04-29T17:56:54.128219+00:00"
-  },
-  "a092b3118b2a5713986e008ffa7dcf7e529e77d6ad02e5239ea6fc968f50ad22": {
-    "url": "BellumActaNews/171921",
-    "title": "British King Charles Presents Trump with HMS Trump Submarine Bell",
-    "published": "2026-04-29T17:56:21.445829+00:00"
-  },
-  "e2cedc09d2fdd1820befe5291b56d79297223ac819f2e40f7c83000bef9cc821": {
-    "url": "DDGeopolitics/183110",
-    "title": "US Analyst Expressed Confidence in War Efforts",
-    "published": "2026-04-29T17:50:19.127713+00:00"
   }
 }

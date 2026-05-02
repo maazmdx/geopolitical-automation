@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2599,
+  "total_calls": 2603,
   "tiers": {
-    "groq": 2580,
+    "groq": 2584,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-29T10:14:24.698354+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-29T10:14:41.507941+00:00",
-      "tier": "groq",
-      "article": "Former US officials criticise Pentagon silence on deadly Iran school attack"
-    },
-    {
-      "timestamp": "2026-04-29T10:14:57.819361+00:00",
-      "tier": "groq",
-      "article": "Kinzhal missiles strike terror into Ukrainian troops \u2014 Russian security source"
-    },
-    {
-      "timestamp": "2026-04-29T10:15:14.888355+00:00",
-      "tier": "groq",
-      "article": "NATO could deal with Trump \u2018drama\u2019 by holding fewer summits \u2013 Reuters"
-    },
     {
       "timestamp": "2026-04-29T14:09:22.569877+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-02T03:02:46.057704+00:00",
       "tier": "groq",
       "article": "British couple jailed in Iran: 'We're likely to be here for a long time'"
+    },
+    {
+      "timestamp": "2026-05-02T06:12:42.780998+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-02T06:13:15.576194+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-02T06:13:31.904172+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-05-02T06:13:48.632038+00:00",
+      "tier": "groq",
+      "article": "US naval blockade has failed; Iran has alternatives"
     }
   ]
 }
