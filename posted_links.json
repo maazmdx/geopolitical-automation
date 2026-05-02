@@ -1,4 +1,34 @@
 {
+  "572b41aa6e0d88b8862f69393ca71e211e3e6e2dd11a7892af6b84c5bd9ad6e3": {
+    "url": "BellumActaNews/172043",
+    "title": "Russian Military Reinforces Hombori Air Base in Mali Amid Ongoing Insurgency",
+    "published": "2026-05-02T15:07:05.575288+00:00"
+  },
+  "9ce4f3db931b43f032e6ea31e3c9cc98f07b21a437bfa3ad7106ee86ccbc5f53": {
+    "url": "DDGeopolitics/183307",
+    "title": "Hezbollah Drone Destroys Israeli Merkava Tank in Lebanon",
+    "published": "2026-05-02T15:06:24.399593+00:00"
+  },
+  "e2242a5b3563de3618fb01d798f0a0e9417bf17cc9881a22fa1573f33d3b9373": {
+    "url": "QudsNen/221621",
+    "title": "Israeli Airstrike Hits Residential Building in Zbdin, Lebanon",
+    "published": "2026-05-02T15:04:02.012456+00:00"
+  },
+  "de591d2d1084d51963608e54570f71e9ccb2c83a4d76e42b63b9817a84809f32": {
+    "url": "thecradlemedia/58787",
+    "title": "China Challenges US Sanctions on Iranian Oil Refineries",
+    "published": "2026-05-02T15:00:26.669143+00:00"
+  },
+  "2656244e9ae3aa8c4319a32f8123aefaace6c93fd342a3552cb8ce748c69d60f": {
+    "url": "thecradlemedia/58790",
+    "title": "Israeli Airstrike Targets Southern Lebanese Town of Al-Mansouri",
+    "published": "2026-05-02T15:00:24.624884+00:00"
+  },
+  "8657f61579f94a3a6d761f17867193e3a4191f696e781c0b302a50e1d01bf4ba": {
+    "url": "thecradlemedia/58792",
+    "title": "Israeli Airstrikes Hit Southern Lebanon, Wounding Civilians",
+    "published": "2026-05-02T15:00:22.721442+00:00"
+  },
   "2e5218a6e861912f6a63abfb7d23619a97bae99e89af1c420285c2342b357830": {
     "url": "QudsNen/221594",
     "title": "Israeli Warplanes Strike Southern Lebanon",
@@ -278,6 +308,11 @@
     "url": "thecradlemedia/58736",
     "title": "US Waives Congressional Approval for Iran War Amid Temporary Ceasefire",
     "published": "2026-05-01T17:07:24.448232+00:00"
+  },
+  "e32392cf2c44f3d9f248f277100e428106343b2c5a2958ce0843f5300f8a210c": {
+    "url": "https://www.tehrantimes.com/news/525976/Iran-marks-Persian-Gulf-National-Day-recalling-17th-century",
+    "title": "Iran marks Persian Gulf National Day, recalling 17th-century expulsion of Portuguese forces",
+    "published": "2026-05-01T16:01:37+00:00"
   },
   "67f7a92517bee5e3bb2903235a76dec64a5e8ddc43248f033412e2861e93df33": {
     "url": "militarywave/23607",
@@ -713,40 +748,5 @@
     "url": "presstv/187742",
     "title": "Germany's Economy Hit by US-Iran Conflict",
     "published": "2026-04-30T06:42:07.269427+00:00"
-  },
-  "90abcf89787915bad9bba7c9f8d18690cde74fe9bce11da3f5bcca7285a67189": {
-    "url": "DDGeopolitics/183132",
-    "title": "Drone Strike Rocks Dnepropetrovsk, Ukraine",
-    "published": "2026-04-30T06:40:06.179257+00:00"
-  },
-  "381e565e6f7afcbd3e71ac09596156e074ad275b4237214d815017e8f54ea2b6": {
-    "url": "DDGeopolitics/183136",
-    "title": "Russia Arrests Teenagers Over Alleged Drone Attack Intelligence Leak",
-    "published": "2026-04-30T06:39:40.712773+00:00"
-  },
-  "ee09152f02f66fc2c79c94acbb6fcb3b7449e2ccd3da965cc5dcdc08173b9d9d": {
-    "url": "QudsNen/221253",
-    "title": "Israeli Forces Intercept Gaza-Bound Flotilla in Mediterranean",
-    "published": "2026-04-30T06:38:44.852942+00:00"
-  },
-  "579ca634a683784eb2b5ce1e91d7f15f32fd5f79a22bd0d377079c83a973b94d": {
-    "url": "QudsNen/221258",
-    "title": "Israeli Forces Seize Control of Gaza Aid Flotilla Vessels",
-    "published": "2026-04-30T06:38:36.434363+00:00"
-  },
-  "c6e4b76c6aed17781bfcc5cba7ff5b1e5218673fe28441a479687e2bfe2becce": {
-    "url": "https://en.mehrnews.com/news/244104/Iran-s-all-enriched-uranium-under-IAEA-supervision-mission",
-    "title": "Iran\u2019s all enriched uranium \u2018under IAEA supervision\u2019: Mission",
-    "published": "2026-04-30T06:31:18+00:00"
-  },
-  "d6b84d5a370c91ac3216206a569ea1b47f7fdca07431cad08150106f421c8fad": {
-    "url": "https://warontherocks.com/the-trump-administration-hasnt-forgotten-americas-backyard/",
-    "title": "The Trump Administration Hasn\u2019t Forgotten America\u2019s Backyard",
-    "published": "2026-04-30T05:30:10+00:00"
-  },
-  "9e4460c2a262ef0f61e8c2a72ea1e1dbcd021b5e03b0b7e50d94599d6e4342cf": {
-    "url": "CensoredMen/189",
-    "title": "Iran Fires Missiles at Israel Amid Rising Tensions",
-    "published": "2026-04-30T03:49:38.340657+00:00"
   }
 }
