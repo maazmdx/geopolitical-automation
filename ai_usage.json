@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2631,
+  "total_calls": 2635,
   "tiers": {
-    "groq": 2612,
+    "groq": 2616,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-30T10:14:03.968971+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-30T10:14:36.352267+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-30T10:15:22.809328+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-30T10:16:08.193309+00:00",
-      "tier": "groq",
-      "article": "Gaza death toll mounts to 72,599"
-    },
     {
       "timestamp": "2026-04-30T14:10:02.914654+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-02T20:53:57.602570+00:00",
       "tier": "groq",
       "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
+    },
+    {
+      "timestamp": "2026-05-02T22:53:37.270867+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-02T22:54:09.449640+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-02T22:54:55.503940+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-05-02T22:55:11.787761+00:00",
+      "tier": "groq",
+      "article": "US President Donald Trump threatens to withdraw troops from Spain and Italy"
     }
   ]
 }

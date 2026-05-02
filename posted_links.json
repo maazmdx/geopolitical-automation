@@ -1,4 +1,34 @@
 {
+  "570448517b73b88ea0534bb684d417328d6a1c821877049bc43d2d1981a17001": {
+    "url": "mod_russia_en/26702",
+    "title": "Russian Troops Receive State Awards for Service in Donbass",
+    "published": "2026-05-02T23:06:10.319789+00:00"
+  },
+  "85f897e912f146cf6eb89ad7c1831cb0b7a932af76936f820ad6e9ef4381eeb2": {
+    "url": "intelslava/87360",
+    "title": "Jordanian Airstrikes Target Suspected Trafficking Networks Near Syrian Border",
+    "published": "2026-05-02T23:02:22.301271+00:00"
+  },
+  "be50385c4b8333d3311fa7e35aff1264459d14115af60fb8173e5624f714f359": {
+    "url": "presstv/188151",
+    "title": "US Military Operation in Minab Leaves Scores of Children Dead",
+    "published": "2026-05-02T23:01:36.717938+00:00"
+  },
+  "3b19b1bfbb6755fa1a56806688185477afecc4949969a868908b5df742d418a6": {
+    "url": "presstv/188154",
+    "title": "Jordan Launches Airstrikes Against Syrian Border Drug Cartels",
+    "published": "2026-05-02T22:58:53.386524+00:00"
+  },
+  "4b9359c3dcac7d823f4c057c6a30cefde869bd60d3bf0bc90ec1c8f7bd3040ea": {
+    "url": "warmonitors/43938",
+    "title": "Israeli Soldier Behaves Inappropriately Near Gaza",
+    "published": "2026-05-02T22:58:22.760861+00:00"
+  },
+  "58fbcb31dd0859566acdcda702916cf635d94abb6e8de04958a736f0fe4e519f": {
+    "url": "DDGeopolitics/183295",
+    "title": "Leningrad Siege: Civilians Suffer Under Blockade",
+    "published": "2026-05-02T22:58:20.884372+00:00"
+  },
   "1693cdafe034172cb2f7564546bb2b53fb0632c28d23ebb4c448937f7cb8e366": {
     "url": "intelslava/87346",
     "title": "Israeli Military Deploys FPV Drone in Rare Strike on Motorcyclist in Lebanon",
@@ -253,6 +283,11 @@
     "url": "https://en.irna.ir/news/86142956/Iran-Foreign-Ministry-spox-describes-Minab-school-strike-as-brutal",
     "title": "Iran Foreign Ministry spox describes Minab school strike as brutal war crime",
     "published": "2026-05-02T06:15:58+00:00"
+  },
+  "9b2bb270fca498d11e7c54f26e0b4cb95569f22f0c690aa1e0677e4ff25a071c": {
+    "url": "https://www.rt.com/news/639353-trump-withdraw-troops-spain-italy/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+    "title": "US President Donald Trump threatens to withdraw troops from Spain and Italy",
+    "published": "2026-05-02T04:57:35+00:00"
   },
   "ac0c1976b7e553eac9fb04f0213b4d6c76ac3bef9068d3f15af25637039b6614": {
     "url": "BellumActaNews/172038",
@@ -713,40 +748,5 @@
     "url": "QudsNen/221343",
     "title": "Hezbollah Drone Strike Hits Israeli Artillery Positions in Shomera",
     "published": "2026-04-30T19:36:32.741298+00:00"
-  },
-  "1a2f35ae02a63a1f82212a9b890a8ee9a7e898b8530c3b3f689c7e70bcf0d6a8": {
-    "url": "thecradlemedia/58640",
-    "title": "French Nun Assaulted by Israeli Settler in Occupied East Jerusalem",
-    "published": "2026-04-30T19:34:49.433422+00:00"
-  },
-  "f17614b928afe2c3ff75a187491b93b0539ca113763ed2c0f84d9a5ce277404f": {
-    "url": "thecradlemedia/58653",
-    "title": "Israeli Navy Intercepts Global Sumud Flotilla off Crete",
-    "published": "2026-04-30T19:34:47.473275+00:00"
-  },
-  "adc26db4c7ef83a1448a8e88f3b95a220decce0c84c879dbe7e6aa0fcba4c958": {
-    "url": "https://www.defensenews.com/news/your-military/2026/04/30/romania-enters-us-counter-drone-marketplace/",
-    "title": "Romania enters US counter-drone marketplace",
-    "published": "2026-04-30T18:44:01+00:00"
-  },
-  "99070874d8f6086c7e700590400925e45f9b4df3a5737bde3f5820730132fcda": {
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/4/30/lebanese-girl-mourns-paramedic-father-killed-in-israeli-strike?traffic_source=rss",
-    "title": "Lebanese girl mourns paramedic father killed in Israeli strike",
-    "published": "2026-04-30T18:38:56+00:00"
-  },
-  "44073f28b38406d967cef076de1b89dcd84cb3d3483ff13f862c3fadf3902bf1": {
-    "url": "warmonitors/43920",
-    "title": "Ultra-Orthodox Jews in Jerusalem Reject IDF Service Over Impurity Concerns",
-    "published": "2026-04-30T17:39:30.099328+00:00"
-  },
-  "9cc77f3150e0cf056f7ba21cdb8531d73068eea41bcd764869c55a01a46b5c72": {
-    "url": "QudsNen/221331",
-    "title": "Israeli Forces Detain Palestinian Child in Shuafat Refugee Camp Raid",
-    "published": "2026-04-30T17:38:12.501798+00:00"
-  },
-  "fcdbae34e97a0ba20cb0c99fabce4d1941ac0196a81a43dad895b4849691452e": {
-    "url": "QudsNen/221342",
-    "title": "US Defense Secretary Hegseth Interrupted by Protesters at Senate Hearing",
-    "published": "2026-04-30T17:36:06.994823+00:00"
   }
 }
