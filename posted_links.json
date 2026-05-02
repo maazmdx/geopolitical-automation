@@ -1,4 +1,34 @@
 {
+  "1f98acd96758e7cd2e12b73dfde0c90ad1ec3655a4dab026506b18280ef7b643": {
+    "url": "presstv/188034",
+    "title": "Mahshahr Petrochemical Workers Defy Odds Amid Heavy Bombing",
+    "published": "2026-05-02T11:11:01.018342+00:00"
+  },
+  "24fcbc0a790104085074ece5f069dc00700335018fba9076f49cd0e646ba54a1": {
+    "url": "QudsNen/221588",
+    "title": "Israeli Settlers Clash with Palestinians in Hebron",
+    "published": "2026-05-02T11:08:58.063212+00:00"
+  },
+  "3876cf7489e6e4e1466f7a01cdc9cb9821275295558c789df532e6661d3778b3": {
+    "url": "thecradlemedia/58753",
+    "title": "Israeli Airstrike Causes Widespread Damage in Kfar Joz, Lebanon",
+    "published": "2026-05-02T11:04:43.554331+00:00"
+  },
+  "3a1b8172f7803cb3507858fe4c597d647916362432c06efbd6531092f8e2118e": {
+    "url": "thecradlemedia/58756",
+    "title": "Israeli Interceptor Missile Launched Against Lebanon-Bound Target",
+    "published": "2026-05-02T11:04:18.917874+00:00"
+  },
+  "9354ad3a5779f431a0d1a5b4a9ac779dfb1d59c6742b7fe2a7ea404a34f5cac8": {
+    "url": "thecradlemedia/58765",
+    "title": "Saudi Arabia Liquor Store Shortage Amid Iran Conflict",
+    "published": "2026-05-02T11:03:37.465211+00:00"
+  },
+  "c4e73f80a8380d08980feb97be613cf7b16672dfd625b28111c57461d80ea215": {
+    "url": "thecradlemedia/58766",
+    "title": "Iran Warns of Renewed Conflict with US and Israel",
+    "published": "2026-05-02T11:03:35.982457+00:00"
+  },
   "27f4160ee28d4ec9a19d45d359fbb937030e4a72e4748a452d779441927121a1": {
     "url": "presstv/188008",
     "title": "IRGC Navy Vows to Enforce Leader's Directive in Persian Gulf",
@@ -283,6 +313,11 @@
     "url": "https://www.aljazeera.com/news/2026/5/1/woman-killed-children-injured-as-israel-attacks-lebanon?traffic_source=rss",
     "title": "Woman killed, children injured as Israel attacks Lebanon",
     "published": "2026-05-01T13:26:44+00:00"
+  },
+  "5e168c22e4276dea04065604a23d6eae0aa5cc0205b226ff3f62ae4083117cb3": {
+    "url": "https://www.tehrantimes.com/news/525959/Investment-for-establishing-solar-power-plants-increases-2-5-fold",
+    "title": "Investment for establishing solar power plants increases 2.5-fold",
+    "published": "2026-05-01T11:26:42+00:00"
   },
   "0c2772735215b90cded5a5e914190307e28155a7dfff398467eff1859b08353d": {
     "url": "intelslava/87309",
@@ -713,40 +748,5 @@
     "url": "https://www.rt.com/news/639286-trump-germany-troops-merz/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
     "title": "US President Donald Trump has threatened to pull the troops from Germany",
     "published": "2026-04-30T03:18:42+00:00"
-  },
-  "e9e0fc509db1c212e344c3dd9ce95962a1268d41e33ec6976c8282615f557073": {
-    "url": "intelslava/87270",
-    "title": "Trump Mistakenly Declares Iran Defeated in Ukraine Conflict",
-    "published": "2026-04-29T23:21:01.152645+00:00"
-  },
-  "6db300a528f33b629491d4d45bd220c18922cc3a50da94f31c2c9da50b726f28": {
-    "url": "BellumActaNews/171952",
-    "title": "US Blocks Iranian Oil Exports, Estimated $6 Billion in Revenue Lost",
-    "published": "2026-04-29T23:13:12.901809+00:00"
-  },
-  "d2b18c68b69aae78d1a65878a23289b391398635a1f0ce7d89be9315a18737ad": {
-    "url": "Middle_East_Spectator/31605",
-    "title": "Iran Pro-Government Rallies Continue Amid Ongoing Conflict",
-    "published": "2026-04-29T23:11:31.211045+00:00"
-  },
-  "76712854f1441a9c08fb0048598762e73f76c09809dc9dc17266545a5e380231": {
-    "url": "thecradlemedia/58551",
-    "title": "Iranian Currency Hits Record Low Amid US-Iran Tensions",
-    "published": "2026-04-29T23:09:22.921872+00:00"
-  },
-  "294f882b4fe7397f66247325bb19660df101afb91898431fe8cfb99d3786719c": {
-    "url": "thecradlemedia/58568",
-    "title": "Israel Intercepts Gaza-bound Aid Flotilla",
-    "published": "2026-04-29T23:09:21.814477+00:00"
-  },
-  "f6b7b0fca23359200b48ac8c93d319560211d7753e5e00e35aefb91af88597ca": {
-    "url": "thecradlemedia/58570",
-    "title": "CENTCOM Commander Commends US Naval Blockade on Iran",
-    "published": "2026-04-29T23:06:33.671793+00:00"
-  },
-  "f9b1114c395c4a102a5f6594b5475ed394e312bff8f25ca894582e73830173ec": {
-    "url": "https://www.rt.com/news/639271-china-wont-fight-us/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "Why China is holding back as global crises test its great-power role",
-    "published": "2026-04-29T22:17:22+00:00"
   }
 }

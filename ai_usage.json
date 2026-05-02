@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2607,
+  "total_calls": 2611,
   "tiers": {
-    "groq": 2588,
+    "groq": 2592,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-29T17:45:21.968866+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-29T17:45:54.626024+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-29T17:46:40.718899+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-29T17:46:57.006352+00:00",
-      "tier": "groq",
-      "article": "Pentagon\u2019s FY27 budget seeks 85 F-35s, but most ride on reconciliation "
-    },
     {
       "timestamp": "2026-04-29T19:47:30.353374+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-02T09:18:27.100512+00:00",
       "tier": "groq",
       "article": "Israel releases all but two activists in Greece after intercepting Gaza aid flotilla"
+    },
+    {
+      "timestamp": "2026-05-02T11:02:20.555957+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-02T11:02:53.287136+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-02T11:03:09.244620+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-05-02T11:03:25.481118+00:00",
+      "tier": "groq",
+      "article": "Investment for establishing solar power plants increases 2.5-fold"
     }
   ]
 }
