@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2623,
+  "total_calls": 2627,
   "tiers": {
-    "groq": 2604,
+    "groq": 2608,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-30T03:38:10.540881+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-30T03:38:42.899265+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-30T03:38:58.705871+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-30T03:39:14.657735+00:00",
-      "tier": "groq",
-      "article": "Five reasons why Islamabad talks reached a stalemate"
-    },
     {
       "timestamp": "2026-04-30T06:36:18.374677+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-02T16:58:31.296020+00:00",
       "tier": "groq",
       "article": "Ukrainian neo-Nazi enrolled in Yale\u2019s \u2018leadership program\u2019"
+    },
+    {
+      "timestamp": "2026-05-02T19:10:48.504585+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-02T19:11:05.270090+00:00",
+      "tier": "groq",
+      "article": "Devastation of Southern Lebanon continues under \u2018ceasefire\u2019"
+    },
+    {
+      "timestamp": "2026-05-02T19:11:21.863986+00:00",
+      "tier": "groq",
+      "article": "Hezbollah Precisely Responds to Israeli Ceasefire Violations, Showcases Growing Drone Precision - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-05-02T19:11:41.162331+00:00",
+      "tier": "groq",
+      "article": "Gulf management to be aligned with command of Iran\u2019s supreme leader \u2014 IRGC Navy"
     }
   ]
 }

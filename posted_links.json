@@ -1,4 +1,39 @@
 {
+  "b3de3e95fb7b899a91719c6fd14ff5d53998429e1cb9e39ea6b51edae2cf0acb": {
+    "url": "presstv/188121",
+    "title": "Kuwait's Crude Oil Exports Plummet to Zero",
+    "published": "2026-05-02T19:20:46.119893+00:00"
+  },
+  "68d7da4a6ae35d78fef4451cb4fe62ab64828cc7c0bcb07e7de53522bc09a081": {
+    "url": "presstv/188124",
+    "title": "Hezbollah Drone Strikes Israeli Military Targets in Southern Lebanon",
+    "published": "2026-05-02T19:20:11.079618+00:00"
+  },
+  "1c75c4cf4d00fd1ea8bc45e3aa4295894f6ad782f2e51149ef1414a5853a422e": {
+    "url": "BellumActaNews/172055",
+    "title": "Russian Oil Refinery Hit by Ukrainian Drone Strikes in Tuapse",
+    "published": "2026-05-02T19:17:47.673129+00:00"
+  },
+  "cd5dcad61ad21bcfe524572e79710e973f20ee1473355d442766b599bbc76165": {
+    "url": "QudsNen/221633",
+    "title": "Israeli Airstrikes Hit Al-Qastal Towers in Gaza",
+    "published": "2026-05-02T19:16:50.015972+00:00"
+  },
+  "35a888a85762927f948073591a1c8e44b289257f9da29f623591f950d5587858": {
+    "url": "QudsNen/221642",
+    "title": "US Navy Seizes Oil Cargo Amid Iran Tensions",
+    "published": "2026-05-02T19:16:48.504557+00:00"
+  },
+  "165eb15dd8b8f7927b2a0d5a9ae3d9ce70d832838dfbc40ffb013dc1274dacec": {
+    "url": "QudsNen/221648",
+    "title": "UK Police Decline to Investigate Israeli-British Firms Over Gaza War Crimes Allegations",
+    "published": "2026-05-02T19:14:56.290071+00:00"
+  },
+  "2f5bfe5cb976875c310b1646f58e24ca5061c84af6fceb7fa8e35b8efa4eb563": {
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/5/2/devastation-of-southern-lebanon-continues-under?traffic_source=rss",
+    "title": "Devastation of Southern Lebanon continues under \u2018ceasefire\u2019",
+    "published": "2026-05-02T18:05:05+00:00"
+  },
   "a60a9068f5111987ee9f34b73d3ffe2083c33e75c167ffa7527201fe6b3e1e0f": {
     "url": "BellumActaNews/172062",
     "title": "Russian Oil Exports Disrupted by Ukrainian Drone Strikes in Tuapse",
@@ -23,6 +58,11 @@
     "url": "QudsNen/221639",
     "title": "Israeli Airstrikes Hit Zawtar Al-Sharqiya in Southern Lebanon",
     "published": "2026-05-02T17:03:05.219221+00:00"
+  },
+  "515bc63d42e63229b000842c80c92a128dcc4ac271d167e60c6f742ea0b4c889": {
+    "url": "https://english.almanar.com.lb/article/65462/",
+    "title": "Hezbollah Precisely Responds to Israeli Ceasefire Violations, Showcases Growing Drone Precision - Al-Manar TV Lebanon",
+    "published": "2026-05-02T16:58:52+00:00"
   },
   "f88210624b4dd5587be49ed078d6f1a88b386c1225d34289b81230de36ee4605": {
     "url": "thecradlemedia/58794",
@@ -283,6 +323,11 @@
     "url": "Slavyangrad/163226",
     "title": "Kharkov Region Hit by Morning Strikes",
     "published": "2026-05-01T19:42:45.407189+00:00"
+  },
+  "2f7e79a63b46c4f19fc76681de6b610b92cd0d325192a76e7cb090bb057837b3": {
+    "url": "https://tass.com/world/2125417",
+    "title": "Gulf management to be aligned with command of Iran\u2019s supreme leader \u2014 IRGC Navy",
+    "published": "2026-05-01T19:39:21+00:00"
   },
   "b021e694be5563ae8d35ce55deefa719d4ae8e22f721c48fa60fd06263bf5068": {
     "url": "Slavyangrad/163241",
@@ -703,50 +748,5 @@
     "url": "DDGeopolitics/183158",
     "title": "Malian Boy Faces Intimidation in Kidal",
     "published": "2026-04-30T14:14:27.501423+00:00"
-  },
-  "83536c993d1477ab7db6c50d27ad5cdc4d389134d55ac9014e4998f4f5689143": {
-    "url": "thecradlemedia/58608",
-    "title": "Israeli Forces Raid Home in Southern Lebanon, Sparking Outrage",
-    "published": "2026-04-30T14:13:09.941974+00:00"
-  },
-  "82213f60a0f1897a91ec7245ccf14e58c14e3580f00b12d0f2945c867fa59724": {
-    "url": "thecradlemedia/58622",
-    "title": "US Officials Accused of Insider Trading on War Bets",
-    "published": "2026-04-30T14:11:19.903007+00:00"
-  },
-  "5b963c8230e5ad8be526f5c85bcd87eb98804a2602d8680aee25c7bb610aceae": {
-    "url": "thecradlemedia/58624",
-    "title": "Germany Seeks Diplomatic Solution to Hormuz Blockade Amid Iran Tensions",
-    "published": "2026-04-30T14:11:18.781028+00:00"
-  },
-  "f1d334c1d693d0074b10d10d713b2af3f993f7478b6817bf7007eebfadc37122": {
-    "url": "thecradlemedia/58625",
-    "title": "Israeli Airstrike Causes Devastation in Kfar Joz, South Lebanon",
-    "published": "2026-04-30T14:11:16.169237+00:00"
-  },
-  "7b021b7c8f09cca9147f4c66d06bb74db76f76a2c5db9760bb4789717a94f87d": {
-    "url": "https://www.rt.com/news/639303-uk-nato-navy-jenkins/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "Britain to create anti-Russian naval force",
-    "published": "2026-04-30T13:40:54+00:00"
-  },
-  "9e194686c5dbbc7e5f317a3f6eb23c90538cfedd5d77ed6c1949bdbc480d722a": {
-    "url": "https://tass.com/politics/2124987",
-    "title": "Russia's envoy to OSCE sees Franco-Polish drills as preparations for war with Russia",
-    "published": "2026-04-30T12:32:33+00:00"
-  },
-  "a7971b8ab4a1e7e4cc57545b9e33c07f18e21bd234cb711e2d7cfd4c3e438901": {
-    "url": "https://www.rt.com/news/639290-us-hormuz-rubio-pitch/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "US to pitch new Strait of Hormuz framework to other nations, WSJ and Reuters report",
-    "published": "2026-04-30T11:26:31+00:00"
-  },
-  "265814490dadb5929ae5b17ae072d260f32f5202fd23dbadcff7805572d73cec": {
-    "url": "https://en.mehrnews.com/news/244113/Iran-to-put-an-end-to-enemy-s-abuses-of-Hormuz-Strait-Leader",
-    "title": "Iran to set \"new legal rules\" for Persian Gulf, Hormuz Strait",
-    "published": "2026-04-30T10:45:36+00:00"
-  },
-  "abefbd74f32c5d3813c537d54104ff24db81dace6f9baa52a8247e1f9d1a2f64": {
-    "url": "QudsNen/221289",
-    "title": "Gaza Disability Crisis Deepens Amid Israeli Restrictions",
-    "published": "2026-04-30T10:24:00.127601+00:00"
   }
 }
