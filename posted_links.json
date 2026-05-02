@@ -1,4 +1,34 @@
 {
+  "ac0c1976b7e553eac9fb04f0213b4d6c76ac3bef9068d3f15af25637039b6614": {
+    "url": "BellumActaNews/172038",
+    "title": "Iranian Authorities Detect Mysterious UAVs Moving from Qazvin to Tehran",
+    "published": "2026-05-02T03:12:26.741914+00:00"
+  },
+  "f21ec2a87c8bfa4a08773720154b707391a117e12e037eb67d341861d0c2eb6f": {
+    "url": "DDGeopolitics/183251",
+    "title": "Iran Briefs Regional Counterparts on Stance to End Conflict",
+    "published": "2026-05-02T03:12:06.349116+00:00"
+  },
+  "efd0c4efb22f4339398a723700852fdb2f91eaa4a0c664fcf01efcbf556bd5cc": {
+    "url": "QudsNen/221528",
+    "title": "Gaza-bound Flotilla Readies for Departure Amid Tensions",
+    "published": "2026-05-02T03:09:31.120310+00:00"
+  },
+  "6840761e11d7c1a86a70fa9981ca426dc1ca19751f7d7e986bddd3d0a930620a": {
+    "url": "QudsNen/221529",
+    "title": "US Approves $8.6 Billion in Military Sales to Israel and Regional Allies",
+    "published": "2026-05-02T03:06:47.816114+00:00"
+  },
+  "1076116cb74de40f4da2c61c4958d98d2828a8c4879aaf2812c17143f30ff874": {
+    "url": "QudsNen/221535",
+    "title": "Trump Defends Iran Military Operation as Avoiding War Declaration",
+    "published": "2026-05-02T03:06:46.291965+00:00"
+  },
+  "c7d5751c8daee9770030101b1047d16327502e589801615986bfdd7ec294094a": {
+    "url": "QudsNen/221543",
+    "title": "US Seeks Hypersonic Missile Deployment in Middle East Amid Tensions with Iran",
+    "published": "2026-05-02T03:05:59.693361+00:00"
+  },
   "832fab969555ce38f597105cc27a85a2c48511a9f5b0c900eff5164db3d49993": {
     "url": "BellumActaNews/172031",
     "title": "Trump Warns of Regional Catastrophe if Iran Had Acquired Nuclear Weapon",
@@ -278,6 +308,11 @@
     "url": "QudsNen/221401",
     "title": "NYPD Raids Spark Gaza Solidarity Protests, Two Years On",
     "published": "2026-05-01T06:48:15.983942+00:00"
+  },
+  "ef6e40414b0aa85b09a85a14ae2fb038dffe83475f5b5a80ca53413ca48788e2": {
+    "url": "https://www.bbc.com/news/articles/c202pl60kv9o?at_medium=RSS&at_campaign=rss",
+    "title": "British couple jailed in Iran: 'We're likely to be here for a long time'",
+    "published": "2026-05-01T05:04:08+00:00"
   },
   "fa6fbceddc2c1c90981e1a8c033d061a6d6503a29832ea28134a7d2ee8424e7b": {
     "url": "CensoredMen/203",
@@ -713,40 +748,5 @@
     "url": "DDGeopolitics/183110",
     "title": "US Analyst Expressed Confidence in War Efforts",
     "published": "2026-04-29T17:50:19.127713+00:00"
-  },
-  "349ffef5a50b027d0e60b5c64bb8e4307c747e1abb9a5c4756da4c64fad39442": {
-    "url": "thecradlemedia/58559",
-    "title": "Iranian Parliament Speaker Warns of External Plots, Emphasizes Unity",
-    "published": "2026-04-29T17:48:23.375966+00:00"
-  },
-  "9915f44534fb9c6fda2d6adc7a9ce83d853d66daf8f822ea999bf0f9dfda5813": {
-    "url": "thecradlemedia/58563",
-    "title": "US Defense Secretary Hegseth Defends War in Iran Amid War Crimes Allegations",
-    "published": "2026-04-29T17:48:22.518101+00:00"
-  },
-  "a1a80f8f40380f5c2fe23f7964502352854d06ea606c68aac176953a637d41b9": {
-    "url": "thecradlemedia/58564",
-    "title": "Lebanon Food Insecurity Soars Amid Israeli Conflict",
-    "published": "2026-04-29T17:46:59.540151+00:00"
-  },
-  "ecf65852eb90aa49d9867b6602f5bcdc725bbde9535282dea8eded672dd67304": {
-    "url": "https://en.irna.ir/news/86141156/Martyr-Larijani-was-a-source-of-inspiration-and-guide-SNSC",
-    "title": "Martyr Larijani was a source of inspiration and guide: SNSC",
-    "published": "2026-04-29T14:59:01+00:00"
-  },
-  "881dedfb93db5d52d967353fa4e72fd4b90f109d5e08c47a30a2889b3f432f2b": {
-    "url": "intelslava/87244",
-    "title": "Russian Forces Destroy Unidentified USV in Crimea",
-    "published": "2026-04-29T14:31:43.150504+00:00"
-  },
-  "cca5f4224fdc7ce3964553d9f1a65e03efcecfaf6d2443c64a8eb26a5b066e13": {
-    "url": "intelslava/87248",
-    "title": "Drone Attack Hits Industrial Site in Russia's Perm Region",
-    "published": "2026-04-29T14:30:23.585686+00:00"
-  },
-  "da1e83c4fb93cedc15e05ec937ce8109ac9073698afd420fd7827a57b86602f1": {
-    "url": "DDGeopolitics/183072",
-    "title": "Malian and Russian Forces Disprove ISGS Claims in M\u00e9naka",
-    "published": "2026-04-29T14:14:40.413024+00:00"
   }
 }
