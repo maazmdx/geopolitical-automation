@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2603,
+  "total_calls": 2607,
   "tiers": {
-    "groq": 2584,
+    "groq": 2588,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-29T14:09:22.569877+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-29T14:10:02.198747+00:00",
-      "tier": "groq",
-      "article": "Israeli 'double-tap' strike kills three rescue workers in Lebanon, officials say"
-    },
-    {
-      "timestamp": "2026-04-29T14:10:18.436300+00:00",
-      "tier": "groq",
-      "article": "China strike tests YJ-20 hypersonic anti-ship missiles"
-    },
-    {
-      "timestamp": "2026-04-29T14:10:54.918719+00:00",
-      "tier": "groq",
-      "article": "US gas prices hit four-year high amid stalemate in Iran truce talks"
-    },
     {
       "timestamp": "2026-04-29T17:45:21.968866+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-02T06:13:48.632038+00:00",
       "tier": "groq",
       "article": "US naval blockade has failed; Iran has alternatives"
+    },
+    {
+      "timestamp": "2026-05-02T09:16:52.412921+00:00",
+      "tier": "groq",
+      "article": "Iran Foreign Ministry spox describes Minab school strike as brutal war crime"
+    },
+    {
+      "timestamp": "2026-05-02T09:17:24.623741+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-02T09:18:11.064232+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-02T09:18:27.100512+00:00",
+      "tier": "groq",
+      "article": "Israel releases all but two activists in Greece after intercepting Gaza aid flotilla"
     }
   ]
 }

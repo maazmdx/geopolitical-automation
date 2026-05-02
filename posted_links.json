@@ -1,4 +1,34 @@
 {
+  "27f4160ee28d4ec9a19d45d359fbb937030e4a72e4748a452d779441927121a1": {
+    "url": "presstv/188008",
+    "title": "IRGC Navy Vows to Enforce Leader's Directive in Persian Gulf",
+    "published": "2026-05-02T09:32:42.796432+00:00"
+  },
+  "6c060a39357c1cba89d74a8bfeaa7d6035af65c8f1a0b0291a8daa41e011abae": {
+    "url": "presstv/188010",
+    "title": "Protester Unfurls Anti-War Banner on Frederick Douglass Memorial Bridge in Washington, D.C.",
+    "published": "2026-05-02T09:30:11.505844+00:00"
+  },
+  "7950460d3e9c391eca3f567dba62bbe3dcf0d361091328b7c4d4660a1b2ba5ce": {
+    "url": "presstv/188014",
+    "title": "US Gas Prices Reach Wartime High Amid Economic Uncertainty",
+    "published": "2026-05-02T09:27:11.841293+00:00"
+  },
+  "97faae24a3032138f7902b36ec68684f04c23a010a9a6fb813a9bbb384000648": {
+    "url": "thecradlemedia/58748",
+    "title": "Israeli Airstrike Destroys Shia Congregation Hall in Dweir, Lebanon",
+    "published": "2026-05-02T09:21:28.502394+00:00"
+  },
+  "964495ab727fe01bb0a8678a924b672701b6eab067cae8518491f544e9db616c": {
+    "url": "thecradlemedia/58749",
+    "title": "US Troop Withdrawal from Germany Amid Iran Tensions",
+    "published": "2026-05-02T09:21:26.801221+00:00"
+  },
+  "2b7000d99f201b04e8f4faa660937cffeca4d68f6c84086fd06f0707dfca93a9": {
+    "url": "thecradlemedia/58751",
+    "title": "Israeli Airstrike Hits Southern Lebanon Town of Shoukin",
+    "published": "2026-05-02T09:21:25.278032+00:00"
+  },
   "689c344498483e3ae603eb3f445dc2639299e31449a87ab9f5794b6ffb993a96": {
     "url": "presstv/188000",
     "title": "Paris Protests Evoke Support for Iranian Workers Amid US-Israeli Conflict",
@@ -28,6 +58,11 @@
     "url": "QudsNen/221544",
     "title": "Girl Sings Amid Ruins of Gaza Mosque Destroyed in Israeli Bombardment",
     "published": "2026-05-02T06:19:11.594560+00:00"
+  },
+  "64af496d58953489dc3dc927ba24ca5ef22d7c20581133ffe9b72e239cecd0bd": {
+    "url": "https://en.irna.ir/news/86142956/Iran-Foreign-Ministry-spox-describes-Minab-school-strike-as-brutal",
+    "title": "Iran Foreign Ministry spox describes Minab school strike as brutal war crime",
+    "published": "2026-05-02T06:15:58+00:00"
   },
   "ac0c1976b7e553eac9fb04f0213b4d6c76ac3bef9068d3f15af25637039b6614": {
     "url": "BellumActaNews/172038",
@@ -278,6 +313,11 @@
     "url": "thecradlemedia/58688",
     "title": "US Navy Taps AI to Clear Mines in Strait of Hormuz",
     "published": "2026-05-01T11:16:42.842167+00:00"
+  },
+  "cead206d6363c2f9235cba01d10f9efd3f0ba51b632b5496b8d478e42a2d92ca": {
+    "url": "https://www.bbc.com/news/articles/c0m2z0k1gngo?at_medium=RSS&at_campaign=rss",
+    "title": "Israel releases all but two activists in Greece after intercepting Gaza aid flotilla",
+    "published": "2026-05-01T10:12:57+00:00"
   },
   "cc53640e3de02b5a12247f789f5b302fc64301f059b4c2da8790afc9a8041ebf": {
     "url": "DDGeopolitics/183211",
@@ -708,45 +748,5 @@
     "url": "https://www.rt.com/news/639271-china-wont-fight-us/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
     "title": "Why China is holding back as global crises test its great-power role",
     "published": "2026-04-29T22:17:22+00:00"
-  },
-  "fcceadd847c8d03b461fac0c8d31313b89049d49e83ecad4cdc13a7d5a0cbfb7": {
-    "url": "BellumActaNews/171949",
-    "title": "UK Police Raid Shia Sect Over Slavery and Forced Marriage Allegations",
-    "published": "2026-04-29T21:23:35.351662+00:00"
-  },
-  "cf936ca6aa9db0d1f994874a0923f9e4bc4972a968100ced9f2cd964320bf8d0": {
-    "url": "BellumActaNews/171950",
-    "title": "Israeli Navy Blocks Gaza-Bound Flotilla Near Crete",
-    "published": "2026-04-29T21:20:48.162747+00:00"
-  },
-  "4a2cf6f8d7fe2180d271b2770c74248b3ab90f478cc1468acb624a4bdb35aa16": {
-    "url": "QudsNen/221203",
-    "title": "Israeli Drone Firm Touts Ease of Use, Despite Crash Incident",
-    "published": "2026-04-29T21:17:44.375180+00:00"
-  },
-  "568faa9bbc6f4617bf34081cef7873343fde6464273a021fbefdd841f1a9e5fe": {
-    "url": "QudsNen/221205",
-    "title": "Gaza Flotilla Confrontation: Military Frigate Deploys Amid Speedboat Approach",
-    "published": "2026-04-29T21:15:10.150716+00:00"
-  },
-  "7497ab86319f1e7e750a432f7c2b2396a392e113b69f7c96d1fcae7ce316cc82": {
-    "url": "thecradlemedia/58552",
-    "title": "Israeli Warplanes Strike Malikiya in South Lebanon",
-    "published": "2026-04-29T21:14:37.913378+00:00"
-  },
-  "cd9bd7f746989a6f92b6037b7e917999be203b0d20608d4cd835cc9ef91d1944": {
-    "url": "thecradlemedia/58555",
-    "title": "Lebanon's Humanitarian Crisis Deepens Amid Ongoing Conflict",
-    "published": "2026-04-29T21:14:35.096759+00:00"
-  },
-  "1d17579d6a61ec5995aefded6b23daba741f172df7debb86ee07f4e243621af9": {
-    "url": "intelslava/87263",
-    "title": "Russian Missile Strike Hits Ukrainian Forces in Ryasne",
-    "published": "2026-04-29T20:00:47.696855+00:00"
-  },
-  "a8014516be63f4126725890f59a7d702595899aad6cfb8cc7b5e1d04639a3197": {
-    "url": "BellumActaNews/171938",
-    "title": "Ukrainian Military Vehicle Explodes in Kharkiv",
-    "published": "2026-04-29T19:56:16.500944+00:00"
   }
 }
