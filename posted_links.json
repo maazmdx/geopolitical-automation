@@ -1,4 +1,34 @@
 {
+  "30873a0b2d1a81b7a6eca71b786c151181189641fb6f689f62efbf1b003e3937": {
+    "url": "intelslava/87377",
+    "title": "Russian Drone Strikes Ukrainian Naval Vessel with Optical Fiber Payload",
+    "published": "2026-05-03T19:20:10.152634+00:00"
+  },
+  "025ca175c9e1e1d02ec300ba858ccee509add323fcead5d80095f1cb9c50b982": {
+    "url": "presstv/188272",
+    "title": "Israeli Airstrikes Hit Southern Lebanon, Sparking Civilian Casualties and Displacement",
+    "published": "2026-05-03T19:19:33.525750+00:00"
+  },
+  "1cc90bc5458fb641731d4055778a7e1f1bb764dc8b71ebd5c9d4cb991dab5d9d": {
+    "url": "presstv/188281",
+    "title": "Hezbollah Drone Targets Israeli Armored Vehicle in Southern Lebanon",
+    "published": "2026-05-03T19:18:00.867273+00:00"
+  },
+  "0451b42edf36eca65cd793007891b548b8b2d54c6c35f6b92eb153bfdc0dc568": {
+    "url": "presstv/188284",
+    "title": "Iran's IRGC Hails Public Support Amid Strait of Hormuz Tensions",
+    "published": "2026-05-03T19:16:51.271226+00:00"
+  },
+  "cc69fe3db8a233755bd3ee6810e48eb8d4eeff035adf664fce8d3c47d2c118b7": {
+    "url": "Middle_East_Spectator/31690",
+    "title": "IRGC Navy Orders Oil Tankers to Relocate from UAE Anchorages",
+    "published": "2026-05-03T19:11:40.819696+00:00"
+  },
+  "0ea6e2ac9435b02e18a48e80945370cf72665c022a37741f9d2c59e0bf4a8694": {
+    "url": "Middle_East_Spectator/31691",
+    "title": "IRGC Navy Orders Vessels to Leave Ras Al-Khaimah Anchorages",
+    "published": "2026-05-03T19:11:39.487173+00:00"
+  },
   "3a03316299c0d3bfb37d59bc3cb32c47b4ddca98e5c345c725aff06d31c617af": {
     "url": "presstv/188276",
     "title": "Iran's IRGC Warns of Limited US Options Amid Ongoing Tensions",
@@ -283,6 +313,11 @@
     "url": "DDGeopolitics/183312",
     "title": "IRGC Patrols Strait of Hormuz with Fast Attack Boats",
     "published": "2026-05-02T20:57:07.843875+00:00"
+  },
+  "69e318e589b2d64b20104597375e609dfae9a21a9f68e737871c33d15bbf9b2e": {
+    "url": "https://tass.com/world/2125591",
+    "title": "Czech Republic still coordinates artillery ammunition supplies to Ukraine \u2014 Welt",
+    "published": "2026-05-02T20:53:34+00:00"
   },
   "b3de3e95fb7b899a91719c6fd14ff5d53998429e1cb9e39ea6b51edae2cf0acb": {
     "url": "presstv/188121",
@@ -713,40 +748,5 @@
     "url": "QudsNen/221462",
     "title": "Israeli Soldiers Accused of Assault and Theft During Raid on Aid Flotilla",
     "published": "2026-05-01T15:10:36.537591+00:00"
-  },
-  "f258fab18e629f3d6791d63cc2428f8040d97f290957b31ae2a4cb43b1054c41": {
-    "url": "QudsNen/221463",
-    "title": "Israeli Airstrike Targets Residential Building in Az-Zrariyah, Lebanon",
-    "published": "2026-05-01T15:09:48.284348+00:00"
-  },
-  "63d89fc49b94c38d1f2be6efe67fb1eb47439a7a2320500182474928fb5aae4a": {
-    "url": "thecradlemedia/58714",
-    "title": "Israeli Air Defenses Activated in Kiryat Shmona",
-    "published": "2026-05-01T15:09:01.449288+00:00"
-  },
-  "79e8bcbe15bc80780fd9b0ef078dbc597a463a6b4a9a4394307f74ca6564bef5": {
-    "url": "thecradlemedia/58722",
-    "title": "Israeli Airstrikes Hit Southern Lebanese Town of Haboush",
-    "published": "2026-05-01T15:08:38.979332+00:00"
-  },
-  "be6242d91f44c574de3f14ec84adfcaf811ca17a197ee43161684e98fd3d6600": {
-    "url": "thecradlemedia/58727",
-    "title": "Israeli Forces Crack Down on Palestinians in West Bank",
-    "published": "2026-05-01T15:08:35.576202+00:00"
-  },
-  "5e05c889df000146f837093a4ae38883b0e63e00ef249a4fa3e058c059f5bcab": {
-    "url": "DDGeopolitics/183218",
-    "title": "Hezbollah Forces Launch Retaliatory Strikes in Southern Lebanon",
-    "published": "2026-05-01T13:38:11.652205+00:00"
-  },
-  "7121c10d4d133413d6421ad88f42f202754c1cf56e125a78144143d11df095c3": {
-    "url": "DDGeopolitics/183219",
-    "title": "Hezbollah Claims Success in Southern Lebanon Amid Ongoing Israel Ceasefire",
-    "published": "2026-05-01T13:36:28.732074+00:00"
-  },
-  "e170efc4acb32115f0b8a05a79b977a0d6e1988836c962b2e96f7ee47b24700b": {
-    "url": "Middle_East_Spectator/31654",
-    "title": "Israeli Vehicle Struck by Drone in Northern Israel",
-    "published": "2026-05-01T13:36:06.221284+00:00"
   }
 }

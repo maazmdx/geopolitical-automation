@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2663,
+  "total_calls": 2667,
   "tiers": {
-    "groq": 2644,
+    "groq": 2648,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-05-01T09:55:03.848079+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-05-01T09:55:36.394645+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-05-01T09:55:52.648922+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-05-01T09:56:33.858056+00:00",
-      "tier": "groq",
-      "article": "US to pitch new Strait of Hormuz framework to other nations, WSJ and Reuters report"
-    },
     {
       "timestamp": "2026-05-01T11:15:07.847044+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-03T17:02:18.039125+00:00",
       "tier": "groq",
       "article": "Expert sees link between US move to pull troops from Germany and Russia\u2019s list of targets"
+    },
+    {
+      "timestamp": "2026-05-03T19:10:08.065178+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-03T19:10:41.161221+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-03T19:10:57.833596+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-05-03T19:11:34.185929+00:00",
+      "tier": "groq",
+      "article": "Czech Republic still coordinates artillery ammunition supplies to Ukraine \u2014 Welt"
     }
   ]
 }
