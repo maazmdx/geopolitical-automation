@@ -1,4 +1,34 @@
 {
+  "e879c211e22728a4a10fd70c227f27ccce611c3700c2da5bbfbf83bed13390d3": {
+    "url": "IntelRepublic/51419",
+    "title": "Hezbollah Strike Hits Israeli Military Vehicles near Misgav Am",
+    "published": "2026-05-03T11:11:44.749320+00:00"
+  },
+  "6f12cec6d4a2fc22f8971fb780c07d91a53f7c610fe6ab301981230bffe6f728": {
+    "url": "IntelRepublic/51420",
+    "title": "Iran Fires Missile Barrage Amid Tensions with U.S.",
+    "published": "2026-05-03T11:11:17.078396+00:00"
+  },
+  "4d29f26ed1e8069252bcbcccd8de56082c4b243ffaf8e8b57d5a98850000c3fb": {
+    "url": "CyberspecNews/106567",
+    "title": "US Tests Aero Sky Unmanned Aircraft for FPV Drone Deployment",
+    "published": "2026-05-03T11:10:25.745837+00:00"
+  },
+  "5c547171dcf960440789114937d84e433ae004b2838aaef4b1329d43db69a39e": {
+    "url": "CyberspecNews/106568",
+    "title": "Russian-Malian Forces Repel JNIM Attack in Mali",
+    "published": "2026-05-03T11:08:55.503344+00:00"
+  },
+  "f4c765bf3b1e1fec1fbf9e290dddbeaabfc6cebf190d98db854287ba2885aeb2": {
+    "url": "thecradlemedia/58805",
+    "title": "Hezbollah Leader Rejects Lebanon-Israel Negotiations",
+    "published": "2026-05-03T11:04:06.662361+00:00"
+  },
+  "c950bd38bc7726ba2080617c03654c38b6e2e733db7a110c1932798808caae0b": {
+    "url": "thecradlemedia/58809",
+    "title": "Iran Sets One-Month Deadline for End to US-Israeli War and Blockade",
+    "published": "2026-05-03T11:04:05.944990+00:00"
+  },
   "b35ccfe7551c851b14cfb48f58b260b1e970305df2f62c520a31cceaa1bcf09a": {
     "url": "presstv/188215",
     "title": "IRGC Quds Force Chief Condemns Israel's Interception of Gaza Flotilla",
@@ -718,35 +748,5 @@
     "url": "DDGeopolitics/183195",
     "title": "Ukrainian Drone Strike Hits Tank in Tuapse, Russia",
     "published": "2026-05-01T06:48:18.342894+00:00"
-  },
-  "267ebcd44e11863294ef36adf7551ccae8c65158f704544a325ce557409f5cad": {
-    "url": "QudsNen/221401",
-    "title": "NYPD Raids Spark Gaza Solidarity Protests, Two Years On",
-    "published": "2026-05-01T06:48:15.983942+00:00"
-  },
-  "ef6e40414b0aa85b09a85a14ae2fb038dffe83475f5b5a80ca53413ca48788e2": {
-    "url": "https://www.bbc.com/news/articles/c202pl60kv9o?at_medium=RSS&at_campaign=rss",
-    "title": "British couple jailed in Iran: 'We're likely to be here for a long time'",
-    "published": "2026-05-01T05:04:08+00:00"
-  },
-  "fa6fbceddc2c1c90981e1a8c033d061a6d6503a29832ea28134a7d2ee8424e7b": {
-    "url": "CensoredMen/203",
-    "title": "Israel Intensifies Strikes in Lebanon Amid Ceasefire Dispute",
-    "published": "2026-05-01T03:59:20.189276+00:00"
-  },
-  "1d21a58cbe99f60af7da365daf9308c2a345aa641f640eb2dfded3b58e955605": {
-    "url": "CensoredMen/205",
-    "title": "Israel Threatens to Destroy Final Bridge Linking Lebanon's Litani River",
-    "published": "2026-05-01T03:56:36.364225+00:00"
-  },
-  "736caa13091b85cb1597da2b3db2dcfb26224cc2619dcf4f941b427d74788265": {
-    "url": "QudsNen/221380",
-    "title": "Israeli Forces Intercept Gaza-Bound Humanitarian Vessel",
-    "published": "2026-05-01T03:53:11.853991+00:00"
-  },
-  "3ce05794fe651207fb8f04d737690b4d6e2c2a4448f1e2af2647124fb6415ad1": {
-    "url": "QudsNen/221383",
-    "title": "Israel Intercepts Global Sumud Flotilla in International Waters",
-    "published": "2026-05-01T03:50:56.433443+00:00"
   }
 }
