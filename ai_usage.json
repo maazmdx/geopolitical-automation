@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2635,
+  "total_calls": 2639,
   "tiers": {
-    "groq": 2616,
+    "groq": 2620,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-30T14:10:02.914654+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-30T14:10:19.177020+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-30T14:10:43.294670+00:00",
-      "tier": "groq",
-      "article": "Russia's envoy to OSCE sees Franco-Polish drills as preparations for war with Russia"
-    },
-    {
-      "timestamp": "2026-04-30T14:11:01.643238+00:00",
-      "tier": "groq",
-      "article": "Martyr Larijani was a source of inspiration and guide: SNSC"
-    },
     {
       "timestamp": "2026-04-30T17:30:25.292187+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-02T22:55:11.787761+00:00",
       "tier": "groq",
       "article": "US President Donald Trump threatens to withdraw troops from Spain and Italy"
+    },
+    {
+      "timestamp": "2026-05-03T03:37:41.889549+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-03T03:38:14.593691+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-03T03:39:00.965888+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-05-03T03:39:48.290675+00:00",
+      "tier": "groq",
+      "article": "US signals intention to punish rather than cooperate with Europe \u2014 newspaper"
     }
   ]
 }
