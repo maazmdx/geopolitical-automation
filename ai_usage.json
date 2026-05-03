@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2651,
+  "total_calls": 2655,
   "tiers": {
-    "groq": 2632,
+    "groq": 2636,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-04-30T23:01:55.874345+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-04-30T23:02:28.588967+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-04-30T23:02:44.701810+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-04-30T23:03:24.862564+00:00",
-      "tier": "groq",
-      "article": "US President Donald Trump has threatened to pull the troops from Germany"
-    },
     {
       "timestamp": "2026-05-01T03:47:00.961552+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-03T11:04:01.763196+00:00",
       "tier": "groq",
       "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
+    },
+    {
+      "timestamp": "2026-05-03T13:23:49.491966+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-03T13:24:21.923971+00:00",
+      "tier": "groq",
+      "article": "Over 130 Ukrainian drones shot down over Russia\u2019s Kursk Region in past day"
+    },
+    {
+      "timestamp": "2026-05-03T13:24:40.364834+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-03T13:25:17.359610+00:00",
+      "tier": "groq",
+      "article": "Drone downed over industrial site in northwest Russia\u2019s Vologda region \u2014 governor"
     }
   ]
 }
