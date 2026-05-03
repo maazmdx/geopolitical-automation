@@ -1,4 +1,39 @@
 {
+  "3a03316299c0d3bfb37d59bc3cb32c47b4ddca98e5c345c725aff06d31c617af": {
+    "url": "presstv/188276",
+    "title": "Iran's IRGC Warns of Limited US Options Amid Ongoing Tensions",
+    "published": "2026-05-03T17:10:26.180946+00:00"
+  },
+  "b03f7914601408423f1059ac07573a9de795804fc5065498cc7ef09f05047c24": {
+    "url": "DDGeopolitics/183376",
+    "title": "US Navy Dolphin Program Contradicts Claims of Iranian Dolphin Suicide Bombers",
+    "published": "2026-05-03T17:07:49.574925+00:00"
+  },
+  "f6152a71371f1c51c01466a27aeafd5342926a03b08c00831dc8260d0e28bea5": {
+    "url": "QudsNen/221742",
+    "title": "Israel Extends Detention of Activists Arrested from Gaza-Bound Flotilla",
+    "published": "2026-05-03T17:05:21.591063+00:00"
+  },
+  "2fb21bf0a2180f5b54a04b83f8bb6f6c1816d7c5203c01e073509483e471651f": {
+    "url": "QudsNen/221743",
+    "title": "Hezbollah Drone Strike Hits Israeli APC in Southern Lebanon",
+    "published": "2026-05-03T17:04:06.032405+00:00"
+  },
+  "c0cb0fc3c826722d2a0a224bc20a5ecefc1d5f3d568831b0352a705ae3e654ca": {
+    "url": "Middle_East_Spectator/31688",
+    "title": "IRGC Navy Orders Oil Tankers to Relocate from UAE Anchorage",
+    "published": "2026-05-03T17:02:32.107983+00:00"
+  },
+  "4a287bc334d73a782f2d3cdb69fab5df91324cd705a8d8b2407f2060bfeb3f70": {
+    "url": "thecradlemedia/58825",
+    "title": "Hamas Condemns Israeli Targeting of Palestinian Journalists",
+    "published": "2026-05-03T17:02:26.117796+00:00"
+  },
+  "b3bbc6e6eb78069774cbe8da09b4ac7028e98c9191fb6c358da12e310155bdcf": {
+    "url": "https://tass.com/emergencies/2125759",
+    "title": "Teenager injured after Ukrainian drone attack on village in Bryansk Region",
+    "published": "2026-05-03T15:22:21+00:00"
+  },
   "cccdb786ac42a236915ad39ec8f8f058130d9b05a8dd250b26d6dd1d82b456c6": {
     "url": "CyberspecNews/106582",
     "title": "Ukraine Launches Drone Attack on Russia from Estonian Airspace",
@@ -278,6 +313,11 @@
     "url": "QudsNen/221648",
     "title": "UK Police Decline to Investigate Israeli-British Firms Over Gaza War Crimes Allegations",
     "published": "2026-05-02T19:14:56.290071+00:00"
+  },
+  "8006186a934c0321e99c8055f852b6c17d7523b753301cb1416aa9dbe3fb83e8": {
+    "url": "https://tass.com/world/2125571",
+    "title": "Expert sees link between US move to pull troops from Germany and Russia\u2019s list of targets",
+    "published": "2026-05-02T18:20:27+00:00"
   },
   "2f5bfe5cb976875c310b1646f58e24ca5061c84af6fceb7fa8e35b8efa4eb563": {
     "url": "https://www.aljazeera.com/video/newsfeed/2026/5/2/devastation-of-southern-lebanon-continues-under?traffic_source=rss",
@@ -708,45 +748,5 @@
     "url": "Middle_East_Spectator/31654",
     "title": "Israeli Vehicle Struck by Drone in Northern Israel",
     "published": "2026-05-01T13:36:06.221284+00:00"
-  },
-  "be59f708ab58c24fe5c29c4b167514d77b3befe2f2167328ce5aa9aaf85ca473": {
-    "url": "thecradlemedia/58696",
-    "title": "Hezbollah Drone Strike Hits Israeli Military Vehicle in Misgav Am",
-    "published": "2026-05-01T13:34:23.034328+00:00"
-  },
-  "1159e1502898b40098dfa80ddbc05391c4b850d1b12ae7cefd91ea2b45561e8f": {
-    "url": "thecradlemedia/58711",
-    "title": "Trump Congratulates Iraq's PM Nominee, Eyes Stronger Ties",
-    "published": "2026-05-01T13:32:30.324763+00:00"
-  },
-  "36baa7ba66052fcbe69cff10b1e0f8dc56cc1f4e3419a52d712cdd099b922740": {
-    "url": "thecradlemedia/58712",
-    "title": "Handala Hacker Collective Threatens to Expose US Official Behind Iran Sanctions",
-    "published": "2026-05-01T13:32:23.127949+00:00"
-  },
-  "c489857b9c0d38b85593d4687cd2eced05547685195bd03f1f1bc0334870d234": {
-    "url": "https://www.aljazeera.com/news/2026/5/1/woman-killed-children-injured-as-israel-attacks-lebanon?traffic_source=rss",
-    "title": "Woman killed, children injured as Israel attacks Lebanon",
-    "published": "2026-05-01T13:26:44+00:00"
-  },
-  "5e168c22e4276dea04065604a23d6eae0aa5cc0205b226ff3f62ae4083117cb3": {
-    "url": "https://www.tehrantimes.com/news/525959/Investment-for-establishing-solar-power-plants-increases-2-5-fold",
-    "title": "Investment for establishing solar power plants increases 2.5-fold",
-    "published": "2026-05-01T11:26:42+00:00"
-  },
-  "0c2772735215b90cded5a5e914190307e28155a7dfff398467eff1859b08353d": {
-    "url": "intelslava/87309",
-    "title": "Iran Conducts Drone Strikes against Kurdish Camps in Iraqi Kurdistan",
-    "published": "2026-05-01T11:24:09.171194+00:00"
-  },
-  "d4067a7271b876b13e64fb2a8346824c4bed59f3dc04f7f10d68743193d3c802": {
-    "url": "QudsNen/221431",
-    "title": "Israeli Forces Raid Burqa Village, Disrupt Friday Prayers",
-    "published": "2026-05-01T11:20:02.206356+00:00"
-  },
-  "872551244ef1a30baf76ecb16c40f3475c36b518e715670135b0dba13e6ae400": {
-    "url": "thecradlemedia/58682",
-    "title": "Israel Tightens Security in Northern Galilee Amid Hezbollah Strikes",
-    "published": "2026-05-01T11:19:08.700386+00:00"
   }
 }

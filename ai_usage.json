@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2659,
+  "total_calls": 2663,
   "tiers": {
-    "groq": 2640,
+    "groq": 2644,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-05-01T06:44:56.556479+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-05-01T06:45:29.132518+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-05-01T06:46:15.359104+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-05-01T06:47:08.751464+00:00",
-      "tier": "groq",
-      "article": "Iran to set \"new legal rules\" for Persian Gulf, Hormuz Strait"
-    },
     {
       "timestamp": "2026-05-01T09:55:03.848079+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-03T14:59:53.145812+00:00",
       "tier": "groq",
       "article": "No legal limits on level of uranium enrichment: UN mission"
+    },
+    {
+      "timestamp": "2026-05-03T17:01:25.184887+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-03T17:01:42.040311+00:00",
+      "tier": "groq",
+      "article": "Teenager injured after Ukrainian drone attack on village in Bryansk Region"
+    },
+    {
+      "timestamp": "2026-05-03T17:02:01.718679+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-03T17:02:18.039125+00:00",
+      "tier": "groq",
+      "article": "Expert sees link between US move to pull troops from Germany and Russia\u2019s list of targets"
     }
   ]
 }
