@@ -1,4 +1,34 @@
 {
+  "145e8a6bbd410dc0a49d549f0267dfbb733bfcc62812c24db7dfdba391dd690e": {
+    "url": "presstv/188290",
+    "title": "Iran Enacts Law Restricting Access to Strait of Hormuz",
+    "published": "2026-05-03T21:04:56.368441+00:00"
+  },
+  "7f1ae05fe37daf76f1ee81a6808ae9df2b961ca60967512d766077644f2f5341": {
+    "url": "warmonitors/43960",
+    "title": "Ukrainian Forces Hit by Drone Strike During Kramatorsk Withdrawal",
+    "published": "2026-05-03T21:02:23.946444+00:00"
+  },
+  "4b9829fb31bb58131eb40425a7ca173019e1d7f05c3c92a326cd4e43336510a8": {
+    "url": "QudsNen/221759",
+    "title": "Israeli Settler Violence Claims Lives in West Bank School Shooting",
+    "published": "2026-05-03T20:59:22.291557+00:00"
+  },
+  "921420af1ad2a2d69086f57504cab5d52df9e10d873767255677cccd87bc0627": {
+    "url": "QudsNen/221761",
+    "title": "Historian Praises Pro-Palestinian Activists in University Graduation Speech",
+    "published": "2026-05-03T20:58:17.702981+00:00"
+  },
+  "66bbcd767de18a74e5748055dbc4008559b625a03c0291f3ede93f745e827106": {
+    "url": "Middle_East_Spectator/31683",
+    "title": "IRGC Navy Blocks Unauthorised Vessel in Strait of Hormuz",
+    "published": "2026-05-03T20:56:56.863758+00:00"
+  },
+  "f18a00710830f76a1ecdd27b12d767d70bfe7be2bdd2818619a4be86d1aa72d0": {
+    "url": "thecradlemedia/58826",
+    "title": "Iran Reviews US Response to 14-Point Proposal Amid Ongoing Regional Tensions",
+    "published": "2026-05-03T20:56:50.180979+00:00"
+  },
   "30873a0b2d1a81b7a6eca71b786c151181189641fb6f689f62efbf1b003e3937": {
     "url": "intelslava/87377",
     "title": "Russian Drone Strikes Ukrainian Naval Vessel with Optical Fiber Payload",
@@ -253,6 +283,11 @@
     "url": "DDGeopolitics/183332",
     "title": "Washington Hosts Immortal Regiment Procession Honoring WWII Veterans",
     "published": "2026-05-03T03:44:09.766612+00:00"
+  },
+  "cd6f39c781b0d07815774c9798b13640d7184012e617d0210e6442f5d8e28804": {
+    "url": "https://www.rt.com/news/639376-greece-ukraine-drone-talks-stall/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+    "title": "The talks on a naval drone deal between Greece and Ukraine reportedly stalled due to Kiev\u2019s demands",
+    "published": "2026-05-03T01:47:53+00:00"
   },
   "570448517b73b88ea0534bb684d417328d6a1c821877049bc43d2d1981a17001": {
     "url": "mod_russia_en/26702",
@@ -713,40 +748,5 @@
     "url": "militarywave/23606",
     "title": "Siberian Hermit's Supplies Ravaged by Marauding Sables",
     "published": "2026-05-01T17:13:34.254573+00:00"
-  },
-  "170e3f7a05688474728c56ca56e086b3f099ce87c9e6630df370a952f99c9511": {
-    "url": "BellumActaNews/172015",
-    "title": "Trump Defends War on Iran Without Congressional Approval",
-    "published": "2026-05-01T17:12:12.397912+00:00"
-  },
-  "e33f0d644865088ca271d841003ee7f92d6348fd2faf2bf5808cfde60820fdbf": {
-    "url": "QudsNen/221473",
-    "title": "White Phosphorus Shells Fired into Zawtar al-Sharqiya",
-    "published": "2026-05-01T17:07:58.575846+00:00"
-  },
-  "a588bfdb0f3c9b2437f006f5d2f5b69085643e3e12efe4e47034c365552a8211": {
-    "url": "thecradlemedia/58734",
-    "title": "Aid Crisis Deepens as Iran Lifeline Disrupted",
-    "published": "2026-05-01T17:07:26.583000+00:00"
-  },
-  "71a67c7acde9372cc91846e0245aa1132f7e39c4ec3ae17ffd1f1ae2286907b3": {
-    "url": "thecradlemedia/58736",
-    "title": "US Waives Congressional Approval for Iran War Amid Temporary Ceasefire",
-    "published": "2026-05-01T17:07:24.448232+00:00"
-  },
-  "e32392cf2c44f3d9f248f277100e428106343b2c5a2958ce0843f5300f8a210c": {
-    "url": "https://www.tehrantimes.com/news/525976/Iran-marks-Persian-Gulf-National-Day-recalling-17th-century",
-    "title": "Iran marks Persian Gulf National Day, recalling 17th-century expulsion of Portuguese forces",
-    "published": "2026-05-01T16:01:37+00:00"
-  },
-  "67f7a92517bee5e3bb2903235a76dec64a5e8ddc43248f033412e2861e93df33": {
-    "url": "militarywave/23607",
-    "title": "Icon Survives in Ruins of Destroyed House Amid Ongoing Conflict",
-    "published": "2026-05-01T15:11:10.398926+00:00"
-  },
-  "6347a42e15963bc272c2e47f047b914a7e223f794d045310a58f0f8f64820da8": {
-    "url": "QudsNen/221462",
-    "title": "Israeli Soldiers Accused of Assault and Theft During Raid on Aid Flotilla",
-    "published": "2026-05-01T15:10:36.537591+00:00"
   }
 }
