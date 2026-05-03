@@ -1,4 +1,34 @@
 {
+  "aa3af58bd4e183b194e5463d3c57e4ffadc675d74ed40005edca67c481be1c1f": {
+    "url": "presstv/188293",
+    "title": "Europe Aligns with Israel Amid International War Crimes Allegations",
+    "published": "2026-05-03T22:59:20.621685+00:00"
+  },
+  "a9a42d36036d06a29b36ddaeaf864340e31be30605d306ea4decee8afc942993": {
+    "url": "presstv/188294",
+    "title": "United Airlines Plane Hits Truck on Runway at Newark Airport",
+    "published": "2026-05-03T22:57:04.097212+00:00"
+  },
+  "1b9ce541fb45a92a14eb272227d7f8bd8d9b6a088489c914f8182744fffc9297": {
+    "url": "QudsNen/221764",
+    "title": "Israeli Forces Kill Palestinian Man in Nablus Hospital Raid",
+    "published": "2026-05-03T22:56:34.525016+00:00"
+  },
+  "dd813197af2a2e7453d5709a21417345f7d99aa88881841a5d9288fbd12da252": {
+    "url": "QudsNen/221770",
+    "title": "Gaza City Under Fire: Israeli Artillery Strikes Al-Zaytoun Neighborhood",
+    "published": "2026-05-03T22:55:27.187124+00:00"
+  },
+  "efae9f873a54cea977731383fae25aa54262838af77a1b60e433bff5c935ba03": {
+    "url": "QudsNen/221774",
+    "title": "Gaza Strip Waste Crisis Deepens Amid Israeli Blockade",
+    "published": "2026-05-03T22:55:25.762465+00:00"
+  },
+  "6952cf3af9d637b9b2bc917b5fa18b4eeed0186bf7b3548b7e3f673a80db6430": {
+    "url": "QudsNen/221779",
+    "title": "Iran Rejects US Plan to Escort Ships Through Strait of Hormuz",
+    "published": "2026-05-03T22:55:00.680289+00:00"
+  },
   "145e8a6bbd410dc0a49d549f0267dfbb733bfcc62812c24db7dfdba391dd690e": {
     "url": "presstv/188290",
     "title": "Iran Enacts Law Restricting Access to Strait of Hormuz",
@@ -283,6 +313,11 @@
     "url": "DDGeopolitics/183332",
     "title": "Washington Hosts Immortal Regiment Procession Honoring WWII Veterans",
     "published": "2026-05-03T03:44:09.766612+00:00"
+  },
+  "e3c77676984223cb63a0ded4767fc9487047a9d3e2bf4419e3e9ee9d09fb1abd": {
+    "url": "https://tass.com/emergencies/2125651",
+    "title": "Fifty-one drones shot down in Leningrad Region",
+    "published": "2026-05-03T03:13:15+00:00"
   },
   "cd6f39c781b0d07815774c9798b13640d7184012e617d0210e6442f5d8e28804": {
     "url": "https://www.rt.com/news/639376-greece-ukraine-drone-talks-stall/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
@@ -713,40 +748,5 @@
     "url": "Slavyangrad/163241",
     "title": "Russian Forces Target Bridges in Dnepropetrovsk Region",
     "published": "2026-05-01T19:39:19.731246+00:00"
-  },
-  "ac78a1409eb51492c1578c1b379d3f21cfb9f30575cf88193d1cc66fa4391e23": {
-    "url": "presstv/187960",
-    "title": "US-Iran Tensions Escalate as Strait of Hormuz Blockade Continues",
-    "published": "2026-05-01T19:38:40.497082+00:00"
-  },
-  "071b5f5efb1a19bb3274f9d45905497d75afa44c2579b4116f0e3da9e1ec8662": {
-    "url": "QudsNen/221496",
-    "title": "White House Confirms Termination of Iran Conflict",
-    "published": "2026-05-01T19:29:54.679568+00:00"
-  },
-  "12dc2102800ac5c0a372eb900281049605615956467195e033684b8c606699a0": {
-    "url": "thecradlemedia/58721",
-    "title": "Iran Demands Reparations from Arab States for Facilitating US-Israeli Strikes",
-    "published": "2026-05-01T19:26:49.451652+00:00"
-  },
-  "27ff30f43bb94461e5ea44bce7e7e65b06ffda24077a9ac8e8759d0c71daab3c": {
-    "url": "thecradlemedia/58738",
-    "title": "Hezbollah Showcases Precision Strikes in Ongoing Conflict",
-    "published": "2026-05-01T19:26:47.064545+00:00"
-  },
-  "fb356dbecb83eaf1c8643cbe2cb4b99239c21a8c3bee949c49d8b5d244e297c2": {
-    "url": "https://www.rt.com/news/639342-yale-ukrainian-neo-nazi/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "Ukrainian neo-Nazi enrolled in Yale\u2019s \u2018leadership program\u2019",
-    "published": "2026-05-01T17:24:05+00:00"
-  },
-  "88cf3faea9d980999f5c8c663e21957850af12a3f64073dbfeca96669333080b": {
-    "url": "presstv/187938",
-    "title": "Ukraine Adopts Unconventional Method for Drone Training",
-    "published": "2026-05-01T17:14:20.712695+00:00"
-  },
-  "6bdff5f24316c83c0042a0a8ffcc923960f3e98b63b52b25f6f4cca1e919700b": {
-    "url": "militarywave/23606",
-    "title": "Siberian Hermit's Supplies Ravaged by Marauding Sables",
-    "published": "2026-05-01T17:13:34.254573+00:00"
   }
 }

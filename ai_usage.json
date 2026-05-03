@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2671,
+  "total_calls": 2675,
   "tiers": {
-    "groq": 2652,
+    "groq": 2656,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-05-01T13:30:43.906334+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-05-01T13:31:16.472324+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-05-01T13:32:02.540391+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-05-01T13:32:18.743583+00:00",
-      "tier": "groq",
-      "article": "Britain to create anti-Russian naval force"
-    },
     {
       "timestamp": "2026-05-01T15:06:14.506579+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-03T20:56:41.757337+00:00",
       "tier": "groq",
       "article": "The talks on a naval drone deal between Greece and Ukraine reportedly stalled due to Kiev\u2019s demands"
+    },
+    {
+      "timestamp": "2026-05-03T22:53:58.854918+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-03T22:54:15.151809+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-03T22:54:38.109609+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-05-03T22:54:54.306444+00:00",
+      "tier": "groq",
+      "article": "Fifty-one drones shot down in Leningrad Region"
     }
   ]
 }
