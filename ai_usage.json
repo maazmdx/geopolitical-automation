@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2655,
+  "total_calls": 2659,
   "tiers": {
-    "groq": 2636,
+    "groq": 2640,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-05-01T03:47:00.961552+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-05-01T03:47:34.317708+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-05-01T03:47:50.212154+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-05-01T03:48:28.269337+00:00",
-      "tier": "groq",
-      "article": "Iran\u2019s all enriched uranium \u2018under IAEA supervision\u2019: Mission"
-    },
     {
       "timestamp": "2026-05-01T06:44:56.556479+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-03T13:25:17.359610+00:00",
       "tier": "groq",
       "article": "Drone downed over industrial site in northwest Russia\u2019s Vologda region \u2014 governor"
+    },
+    {
+      "timestamp": "2026-05-03T14:57:47.034459+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-03T14:58:20.348333+00:00",
+      "tier": "groq",
+      "article": "US to drop plans to deploy long-range Tomahawk missiles to Germany \u2014 newspaper"
+    },
+    {
+      "timestamp": "2026-05-03T14:59:06.983640+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-03T14:59:53.145812+00:00",
+      "tier": "groq",
+      "article": "No legal limits on level of uranium enrichment: UN mission"
     }
   ]
 }
