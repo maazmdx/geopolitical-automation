@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2691,
+  "total_calls": 2695,
   "tiers": {
-    "groq": 2672,
+    "groq": 2676,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-05-01T22:58:59.585154+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-05-01T22:59:32.017876+00:00",
-      "tier": "groq",
-      "article": "At least eight people killed in Israeli strikes on southern Lebanon \u2014 authorities"
-    },
-    {
-      "timestamp": "2026-05-01T23:00:21.783015+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-05-01T23:01:09.193577+00:00",
-      "tier": "groq",
-      "article": "Reporters Without Borders have accusing Israel of \u201cabducting\u201d journalists"
-    },
     {
       "timestamp": "2026-05-02T03:01:12.428890+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-04T14:18:18.963956+00:00",
       "tier": "groq",
       "article": "\u2018Immortal Regiment\u2019 march held in Washington (PHOTOS)"
+    },
+    {
+      "timestamp": "2026-05-04T17:49:19.561434+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-04T17:49:56.273523+00:00",
+      "tier": "groq",
+      "article": "Israeli attacks kill dozens within days in Lebanon despite ceasefire"
+    },
+    {
+      "timestamp": "2026-05-04T17:50:45.259034+00:00",
+      "tier": "groq",
+      "article": "Strike on UAE petroleum facility injures three, officials say"
+    },
+    {
+      "timestamp": "2026-05-04T17:51:02.794805+00:00",
+      "tier": "groq",
+      "article": "US interference in Hormuz Strait regime \u2018ceasefire violation'"
     }
   ]
 }
