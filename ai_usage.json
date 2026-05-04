@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2695,
+  "total_calls": 2699,
   "tiers": {
-    "groq": 2676,
+    "groq": 2680,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-05-02T03:01:12.428890+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-05-02T03:01:45.376278+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-05-02T03:02:01.592574+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-05-02T03:02:46.057704+00:00",
-      "tier": "groq",
-      "article": "British couple jailed in Iran: 'We're likely to be here for a long time'"
-    },
     {
       "timestamp": "2026-05-02T06:12:42.780998+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-04T17:51:02.794805+00:00",
       "tier": "groq",
       "article": "US interference in Hormuz Strait regime \u2018ceasefire violation'"
+    },
+    {
+      "timestamp": "2026-05-04T19:52:29.445556+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-04T19:53:03.854355+00:00",
+      "tier": "groq",
+      "article": "Russia\u2019s Lis interceptors help preserve expensive air defense missiles \u2014 fighter"
+    },
+    {
+      "timestamp": "2026-05-04T19:53:56.758378+00:00",
+      "tier": "groq",
+      "article": "UAE reports missile and drone strikes incoming from Iran"
+    },
+    {
+      "timestamp": "2026-05-04T19:54:13.375584+00:00",
+      "tier": "groq",
+      "article": "Russian army destroyed Ukraine\u2019s nine strongholds built according to NATO standards"
     }
   ]
 }
