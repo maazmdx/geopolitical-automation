@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2675,
+  "total_calls": 2679,
   "tiers": {
-    "groq": 2656,
+    "groq": 2660,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-05-01T15:06:14.506579+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-05-01T15:06:47.637260+00:00",
-      "tier": "groq",
-      "article": "Israel delivers 17 strikes on Beirut\u2019s southern suburbs \u2014 TV"
-    },
-    {
-      "timestamp": "2026-05-01T15:07:35.127653+00:00",
-      "tier": "groq",
-      "article": "Ukraine strikes hotel in ZNPP satellite city of Energodar with drone"
-    },
-    {
-      "timestamp": "2026-05-01T15:08:23.151734+00:00",
-      "tier": "groq",
-      "article": "US blocking Gaza resolution signifies Washington's moral decay \u2014 Iranian MFA"
-    },
     {
       "timestamp": "2026-05-01T17:05:43.772782+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-03T22:54:54.306444+00:00",
       "tier": "groq",
       "article": "Fifty-one drones shot down in Leningrad Region"
+    },
+    {
+      "timestamp": "2026-05-04T03:38:00.772006+00:00",
+      "tier": "groq",
+      "article": "Houthis say their strike prevented US military plane from landing in Israel"
+    },
+    {
+      "timestamp": "2026-05-04T03:38:33.492745+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-04T03:38:49.893723+00:00",
+      "tier": "groq",
+      "article": "Israeli strike on school in Gaza Strip kills 18 people \u2014 TV"
+    },
+    {
+      "timestamp": "2026-05-04T03:39:28.594461+00:00",
+      "tier": "groq",
+      "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
     }
   ]
 }
