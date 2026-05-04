@@ -1,4 +1,34 @@
 {
+  "1a2e0d5a7f98f52591b01d7418b588a5d68c696c68f400e40c5b624eb9623581": {
+    "url": "presstv/188332",
+    "title": "Iranian Vessel Touska Transferred to Pakistan for Repatriation",
+    "published": "2026-05-04T10:35:36.287273+00:00"
+  },
+  "3539c338e810df33447adaeb0c9eb0f71e8988e5f3c52915cb2f747c607cbb6f": {
+    "url": "presstv/188337",
+    "title": "Iran Warns European Countries Over US Policy Alignment",
+    "published": "2026-05-04T10:33:25.931219+00:00"
+  },
+  "8a4b039a9abe8f91ffd40db1c8e10ac6bbfda864e1279fa624378be695aed759": {
+    "url": "presstv/188343",
+    "title": "Iran Threatens Military Action Against Foreign Forces Approaching Strait of Hormuz",
+    "published": "2026-05-04T10:30:56.983791+00:00"
+  },
+  "00775d596aef380ad0887451655f29bb57a5b29d6dd8c1cabef861b03ac53e5e": {
+    "url": "DDGeopolitics/183400",
+    "title": "UK PM Starmer Warns of Dual Front Threats in Ukraine and Iran",
+    "published": "2026-05-04T10:28:25.512949+00:00"
+  },
+  "caefed94ee9f28d25a4d07f1dc4a83e0a58da0124d637fe1c3a3308937862093": {
+    "url": "thecradlemedia/58847",
+    "title": "Iran Warns Against US Escort Plan in Strait of Hormuz",
+    "published": "2026-05-04T10:23:52.674639+00:00"
+  },
+  "8077e842f57d6943f083abf746d4b3d1b9bf1dacf62fe864d6c135d14acbfc0d": {
+    "url": "thecradlemedia/58848",
+    "title": "Israeli Airstrikes Target Jabal al-Rafi' in Southern Lebanon",
+    "published": "2026-05-04T10:23:51.374707+00:00"
+  },
   "636bfcca950a80c664417af26571e1ab3edca702d156ffaf4b6f68d207c80899": {
     "url": "presstv/188321",
     "title": "United Airlines Plane Suffers Damage After Runway Collision at Newark Airport",
@@ -248,6 +278,11 @@
     "url": "thecradlemedia/58814",
     "title": "OPEC+ Agrees to Modest Output Increase Amid Iran Conflict",
     "published": "2026-05-03T13:25:21.717609+00:00"
+  },
+  "ab4843317030ac7adbc130be12fc533c57707f69c8625812c6f2bd4c780d92d4": {
+    "url": "https://www.rt.com/news/639386-ben-gvir-birthday-noose-cake/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+    "title": "Israel\u2019s Ben Gvir celebrates birthday with \u2018noose cakes\u2019",
+    "published": "2026-05-03T11:11:58+00:00"
   },
   "e879c211e22728a4a10fd70c227f27ccce611c3700c2da5bbfbf83bed13390d3": {
     "url": "IntelRepublic/51419",
@@ -713,40 +748,5 @@
     "url": "DDGeopolitics/183251",
     "title": "Iran Briefs Regional Counterparts on Stance to End Conflict",
     "published": "2026-05-02T03:12:06.349116+00:00"
-  },
-  "efd0c4efb22f4339398a723700852fdb2f91eaa4a0c664fcf01efcbf556bd5cc": {
-    "url": "QudsNen/221528",
-    "title": "Gaza-bound Flotilla Readies for Departure Amid Tensions",
-    "published": "2026-05-02T03:09:31.120310+00:00"
-  },
-  "6840761e11d7c1a86a70fa9981ca426dc1ca19751f7d7e986bddd3d0a930620a": {
-    "url": "QudsNen/221529",
-    "title": "US Approves $8.6 Billion in Military Sales to Israel and Regional Allies",
-    "published": "2026-05-02T03:06:47.816114+00:00"
-  },
-  "1076116cb74de40f4da2c61c4958d98d2828a8c4879aaf2812c17143f30ff874": {
-    "url": "QudsNen/221535",
-    "title": "Trump Defends Iran Military Operation as Avoiding War Declaration",
-    "published": "2026-05-02T03:06:46.291965+00:00"
-  },
-  "c7d5751c8daee9770030101b1047d16327502e589801615986bfdd7ec294094a": {
-    "url": "QudsNen/221543",
-    "title": "US Seeks Hypersonic Missile Deployment in Middle East Amid Tensions with Iran",
-    "published": "2026-05-02T03:05:59.693361+00:00"
-  },
-  "832fab969555ce38f597105cc27a85a2c48511a9f5b0c900eff5164db3d49993": {
-    "url": "BellumActaNews/172031",
-    "title": "Trump Warns of Regional Catastrophe if Iran Had Acquired Nuclear Weapon",
-    "published": "2026-05-01T23:10:56.148517+00:00"
-  },
-  "9031c3d2437dafbed69ee02177475c90f48407e8ca639d6f849e4195df97b5da": {
-    "url": "BellumActaNews/172032",
-    "title": "Trump Slams Iran's Military Capabilities",
-    "published": "2026-05-01T23:09:53.999729+00:00"
-  },
-  "d359260340b1b1199b651da7d2ce217fc9564ccfaf03277583a8a44b518642db": {
-    "url": "QudsNen/221514",
-    "title": "Israeli Airstrikes Hit Southern Lebanon",
-    "published": "2026-05-01T23:06:05.645552+00:00"
   }
 }
