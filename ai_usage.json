@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2699,
+  "total_calls": 2703,
   "tiers": {
-    "groq": 2680,
+    "groq": 2684,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-05-02T06:12:42.780998+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-05-02T06:13:15.576194+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-05-02T06:13:31.904172+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-05-02T06:13:48.632038+00:00",
-      "tier": "groq",
-      "article": "US naval blockade has failed; Iran has alternatives"
-    },
     {
       "timestamp": "2026-05-02T09:16:52.412921+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-04T19:54:13.375584+00:00",
       "tier": "groq",
       "article": "Russian army destroyed Ukraine\u2019s nine strongholds built according to NATO standards"
+    },
+    {
+      "timestamp": "2026-05-04T21:19:09.101518+00:00",
+      "tier": "groq",
+      "article": "UAE air defense forces intercept 12 ballistic missiles, three cruise missiles from Iran"
+    },
+    {
+      "timestamp": "2026-05-04T21:19:41.501209+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-04T21:20:31.846145+00:00",
+      "tier": "groq",
+      "article": "Two killed, nine injured in Ukrainian attacks on Belgorod Region over past day"
+    },
+    {
+      "timestamp": "2026-05-04T21:20:50.328283+00:00",
+      "tier": "groq",
+      "article": "Israeli sinister plots against Lebanon to never materialize"
     }
   ]
 }
