@@ -1,4 +1,34 @@
 {
+  "f6640aa7923f29637deddf9049da32bca4354f031244c6366c7d9e577356c01a": {
+    "url": "mod_russia_en/26730",
+    "title": "Ukrainian Forces Detect and Disable Enemy-Laid Mine in Dobropolye",
+    "published": "2026-05-04T23:13:47.814058+00:00"
+  },
+  "60be0ec4bab9c26b2cbe31e586f73618fa8d9d44a549b4305a9fb95f58eaf192": {
+    "url": "intelslava/87465",
+    "title": "Iran-Attributed Drone Strike Causes Fire at Fujairah Oil Industry Zone",
+    "published": "2026-05-04T23:12:41.692526+00:00"
+  },
+  "8e40a457b02a8e334cd32953eaab048595b36a3581033f77849c6df7fe54b32e": {
+    "url": "presstv/188412",
+    "title": "IRGC Denies US Claims of Unauthorized Vessels in Strait of Hormuz",
+    "published": "2026-05-04T23:10:09.082726+00:00"
+  },
+  "2d62d94f1dab4449af620a820fe372ce190c48214db94cdb80889b1b633413ec": {
+    "url": "QudsNen/221937",
+    "title": "Israeli Airstrike Hits Gaza City's Al-Jalaa Street",
+    "published": "2026-05-04T23:07:57.330324+00:00"
+  },
+  "edf94e06adff41bea4f6075dd4038f5978d2f1b9811c8eb62f01bacb571a8555": {
+    "url": "QudsNen/221938",
+    "title": "Israeli Airstrike Hits Gaza City Gathering",
+    "published": "2026-05-04T23:07:55.489425+00:00"
+  },
+  "7dd1bd90d7a1321be8f3425e3cba90c80caf1c3d83b20d94ea718f085e967c77": {
+    "url": "QudsNen/221940",
+    "title": "Gaza City Under Fire: Israeli Drones Strike Palestinian Civilians",
+    "published": "2026-05-04T23:07:54.278546+00:00"
+  },
   "c658ba89a542778830df5e270d95a0f4d2e9f5f488e4f7eeea2dd41d66ebaade": {
     "url": "presstv/188424",
     "title": "Iranians React to Reza Pahlavi's Condolences Amid Ongoing Airstrikes",
@@ -143,6 +173,11 @@
     "url": "https://tass.com/defense/2126189",
     "title": "Russia\u2019s Lis interceptors help preserve expensive air defense missiles \u2014 fighter",
     "published": "2026-05-04T14:14:41+00:00"
+  },
+  "6c62e87a7550257315f4acb3d636dd972916f777446864bc0d7b197fc47d55cc": {
+    "url": "https://tass.com/world/2126153",
+    "title": "Strait of Hormuz fully controlled by US \u2014 treasury secretary",
+    "published": "2026-05-04T13:42:12+00:00"
   },
   "5df33d8e6c98c8df825dc06dfde6fe46faa77985b4eabc96fbc52445adfb7762": {
     "url": "https://www.aljazeera.com/news/2026/5/4/five-people-killed-in-russian-missile-attack-on-ukraines-kharkiv-region?traffic_source=rss",
@@ -713,40 +748,5 @@
     "url": "BellumActaNews/172062",
     "title": "Russian Oil Exports Disrupted by Ukrainian Drone Strikes in Tuapse",
     "published": "2026-05-02T17:07:05.953510+00:00"
-  },
-  "ca57fae1257e45258dc2da184a70c8365b507dc0d1dc7d3c3a34f4b8fe2c3455": {
-    "url": "DDGeopolitics/183310",
-    "title": "Drone Strike Rocks Krivoy Rog",
-    "published": "2026-05-02T17:06:05.152395+00:00"
-  },
-  "5e7e5151c8f8c274ef0e8c3e67a00e147b2c02b7d20708d9b1698191ea987229": {
-    "url": "QudsNen/221631",
-    "title": "Israeli Airstrikes Hit Zawtar, Southern Lebanon",
-    "published": "2026-05-02T17:03:29.771223+00:00"
-  },
-  "cec126621dc51ebd5c7fef548a03cd4f905010755d3a8b60913d1e4f5c5af0be": {
-    "url": "QudsNen/221637",
-    "title": "New School Student Government Takes Stand Against Israeli Occupation Ties",
-    "published": "2026-05-02T17:03:06.476298+00:00"
-  },
-  "3d51ba7818226eb308306860b2321c07267dce058d5f85caaa1c17fbe8cb215c": {
-    "url": "QudsNen/221639",
-    "title": "Israeli Airstrikes Hit Zawtar Al-Sharqiya in Southern Lebanon",
-    "published": "2026-05-02T17:03:05.219221+00:00"
-  },
-  "f8361ec79c03d2df92cb1f0a135da85760d376a5e05bfa43500ca8ecc144bdc6": {
-    "url": "https://en.mehrnews.com/news/244165/No-legal-limits-on-level-of-uranium-enrichment-UN-mission",
-    "title": "No legal limits on level of uranium enrichment: UN mission",
-    "published": "2026-05-02T17:01:23+00:00"
-  },
-  "515bc63d42e63229b000842c80c92a128dcc4ac271d167e60c6f742ea0b4c889": {
-    "url": "https://english.almanar.com.lb/article/65462/",
-    "title": "Hezbollah Precisely Responds to Israeli Ceasefire Violations, Showcases Growing Drone Precision - Al-Manar TV Lebanon",
-    "published": "2026-05-02T16:58:52+00:00"
-  },
-  "f88210624b4dd5587be49ed078d6f1a88b386c1225d34289b81230de36ee4605": {
-    "url": "thecradlemedia/58794",
-    "title": "Trump Claims Iran Ceasefire Has Terminated Hostilities",
-    "published": "2026-05-02T16:58:39.851152+00:00"
   }
 }

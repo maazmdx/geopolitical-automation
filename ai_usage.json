@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2703,
+  "total_calls": 2707,
   "tiers": {
-    "groq": 2684,
+    "groq": 2688,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-05-02T09:16:52.412921+00:00",
-      "tier": "groq",
-      "article": "Iran Foreign Ministry spox describes Minab school strike as brutal war crime"
-    },
-    {
-      "timestamp": "2026-05-02T09:17:24.623741+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-05-02T09:18:11.064232+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-05-02T09:18:27.100512+00:00",
-      "tier": "groq",
-      "article": "Israel releases all but two activists in Greece after intercepting Gaza aid flotilla"
-    },
     {
       "timestamp": "2026-05-02T11:02:20.555957+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-04T21:20:50.328283+00:00",
       "tier": "groq",
       "article": "Israeli sinister plots against Lebanon to never materialize"
+    },
+    {
+      "timestamp": "2026-05-04T23:05:18.578414+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-04T23:05:51.216387+00:00",
+      "tier": "groq",
+      "article": "Drone attacks near Baghdad airport raise security concerns"
+    },
+    {
+      "timestamp": "2026-05-04T23:06:37.910719+00:00",
+      "tier": "groq",
+      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
+    },
+    {
+      "timestamp": "2026-05-04T23:06:54.194501+00:00",
+      "tier": "groq",
+      "article": "Strait of Hormuz fully controlled by US \u2014 treasury secretary"
     }
   ]
 }
