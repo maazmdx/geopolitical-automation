@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 2715,
+  "total_calls": 2719,
   "tiers": {
-    "groq": 2696,
+    "groq": 2700,
     "gemini": 19
   },
   "log": [
-    {
-      "timestamp": "2026-05-02T14:58:06.572985+00:00",
-      "tier": "groq",
-      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
-    },
-    {
-      "timestamp": "2026-05-02T14:58:38.738544+00:00",
-      "tier": "groq",
-      "article": "Drone attacks near Baghdad airport raise security concerns"
-    },
-    {
-      "timestamp": "2026-05-02T14:58:54.732930+00:00",
-      "tier": "groq",
-      "article": "UNIFIL calls for halt to military escalation in Southern Lebanon"
-    },
-    {
-      "timestamp": "2026-05-02T14:59:11.046206+00:00",
-      "tier": "groq",
-      "article": "Iran marks Persian Gulf National Day, recalling 17th-century expulsion of Portuguese forces"
-    },
     {
       "timestamp": "2026-05-02T16:56:59.905791+00:00",
       "tier": "groq",
@@ -507,6 +487,26 @@
       "timestamp": "2026-05-05T06:28:31.319248+00:00",
       "tier": "groq",
       "article": "US trade embargo against Cuba must be lifted \u2014 Medvedev"
+    },
+    {
+      "timestamp": "2026-05-05T10:13:34.026472+00:00",
+      "tier": "groq",
+      "article": "Iranian FM warns US, UAE of \u2018quagmire\u2019 after strikes on Fujairah oil site"
+    },
+    {
+      "timestamp": "2026-05-05T10:14:12.353859+00:00",
+      "tier": "groq",
+      "article": "Practice Makes Deterrence: India\u2019s Next Nuclear Challenge at Sea"
+    },
+    {
+      "timestamp": "2026-05-05T10:14:28.828759+00:00",
+      "tier": "groq",
+      "article": "Three Palestinians killed in Israeli airstrike in central Gaza"
+    },
+    {
+      "timestamp": "2026-05-05T10:15:05.252083+00:00",
+      "tier": "groq",
+      "article": "Second Iranian super tanker reaches Far East"
     }
   ]
 }
