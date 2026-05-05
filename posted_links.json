@@ -1,4 +1,39 @@
 {
+  "28b53facc46297f0eecec1c60774b75da6c6d0b742d2489bc29341150a1b2471": {
+    "url": "presstv/188452",
+    "title": "Liuyang Fireworks Factory Explosion Leaves Multiple Dead and Injured",
+    "published": "2026-05-05T06:33:53.527009+00:00"
+  },
+  "49c881442f5d5a7ba0a8e96a6be5c7dc798aba42ac845b389e8c33522175a95a": {
+    "url": "DDGeopolitics/183473",
+    "title": "Ukraine Drone Attacks Hit Multiple Regions",
+    "published": "2026-05-05T06:32:18.644085+00:00"
+  },
+  "396fbc9646020933704eaae8e32180d499c4c9a4d354dc78288a681558c219d6": {
+    "url": "QudsNen/221942",
+    "title": "Israeli Drones Strike Gaza City Gathering",
+    "published": "2026-05-05T06:31:54.460749+00:00"
+  },
+  "8f6fe524e325e91a30cf9b597798d2e197afd7496fc1d0a5437f3a0d50af1c59": {
+    "url": "QudsNen/221943",
+    "title": "Obama Criticizes Netanyahu's Iran Policy",
+    "published": "2026-05-05T06:31:53.217317+00:00"
+  },
+  "8e251ee4e4561783be9375c0618c7bba9da6328a4f373dc609ff1fb3b375562a": {
+    "url": "QudsNen/221957",
+    "title": "Israeli Settler Raids School in Silat Al-Dhahr, West Bank",
+    "published": "2026-05-05T06:31:51.893053+00:00"
+  },
+  "ba8a8bd87c5dadba773fafab5279d3b18b01b44c19c839ebc48a57861ef978ba": {
+    "url": "QudsNen/221962",
+    "title": "Israeli Forces Storm Al-Aqsa Mosque Compound in East Jerusalem",
+    "published": "2026-05-05T06:29:20.652089+00:00"
+  },
+  "56b5b0aacfbfe57aad395f79ff5963e0465b088ed2ac674816a38d3cabc46940": {
+    "url": "https://www.aljazeera.com/news/2026/5/5/iran-says-us-military-killed-five-civilians-in-attacks-on-passenger-boats?traffic_source=rss",
+    "title": "Iran says US military killed five civilians in attacks on passenger boats",
+    "published": "2026-05-05T05:52:08+00:00"
+  },
   "d03c40a892250a2bcfc21ae81476837f88bc66dfb7f3312eda35da691a86c809": {
     "url": "intelslava/87478",
     "title": "Ukrainian Missile Strike Hits Russian State Research Institute in Cheboksary",
@@ -713,40 +748,5 @@
     "url": "intelslava/87351",
     "title": "Kamikaze Drone Targets Ukrainian Rail Infrastructure in Krivoy Rog",
     "published": "2026-05-02T21:01:28.456015+00:00"
-  },
-  "9e4460c2a262ef0f61e8c2a72ea1e1dbcd021b5e03b0b7e50d94599d6e4342cf": {
-    "url": "CensoredMen/189",
-    "title": "Iran Fires Missiles at Israeli Territory",
-    "published": "2026-05-02T21:00:04.270202+00:00"
-  },
-  "ed057ec1e44b3aaaecaa9fcbe88fbdaa5199657b4490d149f15f45818084cedf": {
-    "url": "DDGeopolitics/183304",
-    "title": "US Airstrike Damages B1 Bridge in Iran",
-    "published": "2026-05-02T20:57:09.023579+00:00"
-  },
-  "c661fa3d65e37abe20fdd2fe76ea30f87a07c80289cd2f247f3103e7658db320": {
-    "url": "DDGeopolitics/183312",
-    "title": "IRGC Patrols Strait of Hormuz with Fast Attack Boats",
-    "published": "2026-05-02T20:57:07.843875+00:00"
-  },
-  "69e318e589b2d64b20104597375e609dfae9a21a9f68e737871c33d15bbf9b2e": {
-    "url": "https://tass.com/world/2125591",
-    "title": "Czech Republic still coordinates artillery ammunition supplies to Ukraine \u2014 Welt",
-    "published": "2026-05-02T20:53:34+00:00"
-  },
-  "b3de3e95fb7b899a91719c6fd14ff5d53998429e1cb9e39ea6b51edae2cf0acb": {
-    "url": "presstv/188121",
-    "title": "Kuwait's Crude Oil Exports Plummet to Zero",
-    "published": "2026-05-02T19:20:46.119893+00:00"
-  },
-  "68d7da4a6ae35d78fef4451cb4fe62ab64828cc7c0bcb07e7de53522bc09a081": {
-    "url": "presstv/188124",
-    "title": "Hezbollah Drone Strikes Israeli Military Targets in Southern Lebanon",
-    "published": "2026-05-02T19:20:11.079618+00:00"
-  },
-  "1c75c4cf4d00fd1ea8bc45e3aa4295894f6ad782f2e51149ef1414a5853a422e": {
-    "url": "BellumActaNews/172055",
-    "title": "Russian Oil Refinery Hit by Ukrainian Drone Strikes in Tuapse",
-    "published": "2026-05-02T19:17:47.673129+00:00"
   }
 }
