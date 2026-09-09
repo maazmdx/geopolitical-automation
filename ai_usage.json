@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6492,
+  "total_calls": 6496,
   "tiers": {
     "groq": 6056,
-    "gemini": 436
+    "gemini": 440
   },
   "log": [
-    {
-      "timestamp": "2026-09-01T11:21:36.206182+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-01T16:17:42.485378+00:00",
-      "tier": "gemini",
-      "article": "US Precision Strike Missile killed civilians in Iran \u2013 report"
-    },
-    {
-      "timestamp": "2026-09-01T16:18:12.923873+00:00",
-      "tier": "gemini",
-      "article": "Axios: Trump Weighs Limited Strikes on Iran Amid Concerns over Tehran Capabilities - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-01T16:18:40.063363+00:00",
-      "tier": "gemini",
-      "article": "US tech found in Russian ballistic missiles "
-    },
     {
       "timestamp": "2026-09-01T16:19:10.176727+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-09-09T03:47:19.637382+00:00",
       "tier": "gemini",
       "article": "Iran carries out missile strikes on Jordan airbases hosting US forces \u2014 TV"
+    },
+    {
+      "timestamp": "2026-09-09T08:49:22.797962+00:00",
+      "tier": "gemini",
+      "article": "Powerful Battle Will Continue: IRGC Missile Barrages Strike US Base in Jordan, American Warships - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-09T08:49:51.240118+00:00",
+      "tier": "gemini",
+      "article": "IRGC: In response to the US attack on Iranian oil tankers, we launched intensive missile strikes against the US Al-Azraq base in Jordan - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-09T08:50:14.836869+00:00",
+      "tier": "gemini",
+      "article": "Four people killed, 29 others injured in Novorossiysk, 596 UAVs: attack aftermath"
+    },
+    {
+      "timestamp": "2026-09-09T08:50:40.473994+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
