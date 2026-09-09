@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6490,
+  "total_calls": 6492,
   "tiers": {
     "groq": 6056,
-    "gemini": 434
+    "gemini": 436
   },
   "log": [
-    {
-      "timestamp": "2026-09-01T11:20:39.612573+00:00",
-      "tier": "gemini",
-      "article": "US considers limited strikes against Iran in Strait of Hormuz region \u2014 Axios"
-    },
-    {
-      "timestamp": "2026-09-01T11:21:05.146540+00:00",
-      "tier": "gemini",
-      "article": "Israeli forces martyr 5 Palestinians, injured dozens in Gaza"
-    },
     {
       "timestamp": "2026-09-01T11:21:36.206182+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-08T22:30:03.853070+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-09T03:46:56.980605+00:00",
+      "tier": "gemini",
+      "article": "Yemen\u2019s Saudi-backed forces strike Houthis on western coast"
+    },
+    {
+      "timestamp": "2026-09-09T03:47:19.637382+00:00",
+      "tier": "gemini",
+      "article": "Iran carries out missile strikes on Jordan airbases hosting US forces \u2014 TV"
     }
   ]
 }
