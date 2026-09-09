@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6500,
+  "total_calls": 6503,
   "tiers": {
     "groq": 6056,
-    "gemini": 444
+    "gemini": 447
   },
   "log": [
-    {
-      "timestamp": "2026-09-02T03:35:25.358113+00:00",
-      "tier": "gemini",
-      "article": "IRGC Announces Launching Massive Attack with Ballistic Missiles on US Marines Barracks in Jordan: Large Number of US Soldiers Dead - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-02T03:35:57.757743+00:00",
-      "tier": "gemini",
-      "article": "Putin on Kiev\u2019s \u2018terrorism,\u2019 British \u2018legitimate targets\u2019 and a \u2018military secret\u2019 (KEY REMARKS)"
-    },
-    {
-      "timestamp": "2026-09-02T08:34:22.510504+00:00",
-      "tier": "gemini",
-      "article": "US Strikes Kill 12 in Southern Iran as Tehran Vows Retaliatory \u2018Lessons\u2019 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-09-02T08:34:48.265472+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-09T14:18:12.140266+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-09T19:09:53.532240+00:00",
+      "tier": "gemini",
+      "article": "Iran will strike 20 targets for every two hits by enemy, IRGC warns"
+    },
+    {
+      "timestamp": "2026-09-09T19:10:27.556153+00:00",
+      "tier": "gemini",
+      "article": "Brent crude passes $100 as wars in West Asia escalate"
+    },
+    {
+      "timestamp": "2026-09-09T19:10:52.080209+00:00",
+      "tier": "gemini",
+      "article": "Spokesman for Yemeni Armed Forces Reports New Saudi Attacks: They Won\u2019t Go Unanswered - Al-Manar TV Lebanon"
     }
   ]
 }
