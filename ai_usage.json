@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6496,
+  "total_calls": 6500,
   "tiers": {
     "groq": 6056,
-    "gemini": 440
+    "gemini": 444
   },
   "log": [
-    {
-      "timestamp": "2026-09-01T16:19:10.176727+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-01T20:46:17.027871+00:00",
-      "tier": "gemini",
-      "article": "Iran promises to respond to new wave of US strikes despite Trump\u2019s threats"
-    },
-    {
-      "timestamp": "2026-09-01T20:46:54.100343+00:00",
-      "tier": "gemini",
-      "article": "Iran vows crushing retaliation after latest US attacks"
-    },
-    {
-      "timestamp": "2026-09-01T23:54:50.947192+00:00",
-      "tier": "gemini",
-      "article": "US begins strikes on IRGC targets in Iran amid Hormuz tensions"
-    },
     {
       "timestamp": "2026-09-02T03:35:25.358113+00:00",
       "tier": "gemini",
@@ -505,6 +485,26 @@
     },
     {
       "timestamp": "2026-09-09T08:50:40.473994+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-09T14:16:09.668302+00:00",
+      "tier": "gemini",
+      "article": "Iran launches massive attack on US sites in Jordan"
+    },
+    {
+      "timestamp": "2026-09-09T14:16:47.548042+00:00",
+      "tier": "gemini",
+      "article": "Iran warns against normalizing attacks on nuclear facilities"
+    },
+    {
+      "timestamp": "2026-09-09T14:17:10.744975+00:00",
+      "tier": "gemini",
+      "article": "Logistics centers, cargo terminal, warehouses hit: group strikes by Russian Armed Forces"
+    },
+    {
+      "timestamp": "2026-09-09T14:18:12.140266+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
