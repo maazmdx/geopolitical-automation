@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6503,
+  "total_calls": 6504,
   "tiers": {
     "groq": 6056,
-    "gemini": 447
+    "gemini": 448
   },
   "log": [
-    {
-      "timestamp": "2026-09-02T08:34:48.265472+00:00",
-      "tier": "gemini",
-      "article": "US strikes on Iran kill child at wedding ceremony"
-    },
     {
       "timestamp": "2026-09-02T08:35:20.567552+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-09-09T19:10:52.080209+00:00",
       "tier": "gemini",
       "article": "Spokesman for Yemeni Armed Forces Reports New Saudi Attacks: They Won\u2019t Go Unanswered - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-09T22:21:51.650594+00:00",
+      "tier": "gemini",
+      "article": "Iran strikes US warships carrying cruise missiles"
     }
   ]
 }
