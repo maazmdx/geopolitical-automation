@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6512,
+  "total_calls": 6515,
   "tiers": {
     "groq": 6056,
-    "gemini": 456
+    "gemini": 459
   },
   "log": [
-    {
-      "timestamp": "2026-09-03T03:37:16.288781+00:00",
-      "tier": "gemini",
-      "article": "Trump threatens more strikes as death toll in Iran rises to 18"
-    },
-    {
-      "timestamp": "2026-09-03T03:37:39.103031+00:00",
-      "tier": "gemini",
-      "article": "US strike in Kermanshah claims lives of four IRGC Aerospace forces"
-    },
-    {
-      "timestamp": "2026-09-03T03:38:03.113738+00:00",
-      "tier": "gemini",
-      "article": "Death toll from US Tuesday strikes rises to 18, injured to 108 \u2014 authorities"
-    },
     {
       "timestamp": "2026-09-03T08:43:02.998305+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-10T14:10:35.593080+00:00",
       "tier": "gemini",
       "article": "Strikes on Black Sea vessels cannot affect Russia-Turkey relations \u2014 Kremlin"
+    },
+    {
+      "timestamp": "2026-09-10T19:03:46.673797+00:00",
+      "tier": "gemini",
+      "article": "Jerusalem Daily: Israeli strikes devastate Gaza"
+    },
+    {
+      "timestamp": "2026-09-10T19:04:11.640501+00:00",
+      "tier": "gemini",
+      "article": "Iran destroys US reconnaissance drone boat in Strait of Hormuz \u2014 IRGC"
+    },
+    {
+      "timestamp": "2026-09-10T19:04:48.297108+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
