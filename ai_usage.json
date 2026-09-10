@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6515,
+  "total_calls": 6517,
   "tiers": {
     "groq": 6056,
-    "gemini": 459
+    "gemini": 461
   },
   "log": [
-    {
-      "timestamp": "2026-09-03T08:43:02.998305+00:00",
-      "tier": "gemini",
-      "article": "Targeting civilians \"clear example of war crimes\""
-    },
-    {
-      "timestamp": "2026-09-03T08:43:31.046221+00:00",
-      "tier": "gemini",
-      "article": "Iran Urges UN Security Council to Condemn Deadly US Attack on Wedding Ceremony - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-09-03T08:43:56.832831+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-10T19:04:48.297108+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-10T22:23:43.767031+00:00",
+      "tier": "gemini",
+      "article": "Iran attack on base in Jordan damaged American military aircraft, US official says"
+    },
+    {
+      "timestamp": "2026-09-10T22:24:14.152813+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
     }
   ]
 }
