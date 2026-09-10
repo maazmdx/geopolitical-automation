@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6506,
+  "total_calls": 6510,
   "tiers": {
     "groq": 6056,
-    "gemini": 450
+    "gemini": 454
   },
   "log": [
-    {
-      "timestamp": "2026-09-02T14:14:10.430295+00:00",
-      "tier": "gemini",
-      "article": "IRGC strikes US facilities in Iraq's Erbil"
-    },
-    {
-      "timestamp": "2026-09-02T14:15:02.968864+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-02T19:17:32.332338+00:00",
-      "tier": "gemini",
-      "article": "They came for a wedding dance, Trump gave them the dance of death"
-    },
-    {
-      "timestamp": "2026-09-02T19:18:03.082073+00:00",
-      "tier": "gemini",
-      "article": "Pro-Iranian group releases Lego video showing deadly US wedding attack"
-    },
     {
       "timestamp": "2026-09-02T19:18:37.725227+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-09-10T03:45:30.935735+00:00",
       "tier": "gemini",
       "article": "Several US warplanes damaged after Iranian strikes on Jordan \u2014 TV"
+    },
+    {
+      "timestamp": "2026-09-10T08:47:11.939561+00:00",
+      "tier": "gemini",
+      "article": "IN BRIEF: Civilian killed as Ukraine launches 448 drones at Russia overnight"
+    },
+    {
+      "timestamp": "2026-09-10T08:47:39.129295+00:00",
+      "tier": "gemini",
+      "article": "The Assessment Gap in U.S. Counter-Terrorism Strikes"
+    },
+    {
+      "timestamp": "2026-09-10T08:48:01.476082+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-10T08:48:26.890507+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
