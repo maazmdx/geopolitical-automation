@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6510,
+  "total_calls": 6512,
   "tiers": {
     "groq": 6056,
-    "gemini": 454
+    "gemini": 456
   },
   "log": [
-    {
-      "timestamp": "2026-09-02T19:18:37.725227+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-02T22:28:09.006519+00:00",
-      "tier": "gemini",
-      "article": "IRGC targets US Marines camp in Jordan"
-    },
     {
       "timestamp": "2026-09-03T03:37:16.288781+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-10T08:48:26.890507+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-10T14:10:04.555554+00:00",
+      "tier": "gemini",
+      "article": "Iranian Strikes Damage Eight F-15s and Down an A-10 at US Base in Jordan, CBS Reports - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-10T14:10:35.593080+00:00",
+      "tier": "gemini",
+      "article": "Strikes on Black Sea vessels cannot affect Russia-Turkey relations \u2014 Kremlin"
     }
   ]
 }
