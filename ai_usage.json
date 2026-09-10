@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6504,
+  "total_calls": 6506,
   "tiers": {
     "groq": 6056,
-    "gemini": 448
+    "gemini": 450
   },
   "log": [
-    {
-      "timestamp": "2026-09-02T08:35:20.567552+00:00",
-      "tier": "gemini",
-      "article": "Iran attacks US bases in Middle East after reports US strike killed five at wedding party"
-    },
-    {
-      "timestamp": "2026-09-02T08:35:46.391380+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
     {
       "timestamp": "2026-09-02T14:14:10.430295+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-09T22:21:51.650594+00:00",
       "tier": "gemini",
       "article": "Iran strikes US warships carrying cruise missiles"
+    },
+    {
+      "timestamp": "2026-09-10T03:45:03.019744+00:00",
+      "tier": "gemini",
+      "article": "Houthis attack three Saudi cities with missiles, drones \u2014 coalition"
+    },
+    {
+      "timestamp": "2026-09-10T03:45:30.935735+00:00",
+      "tier": "gemini",
+      "article": "Several US warplanes damaged after Iranian strikes on Jordan \u2014 TV"
     }
   ]
 }
