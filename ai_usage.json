@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6517,
+  "total_calls": 6519,
   "tiers": {
     "groq": 6056,
-    "gemini": 461
+    "gemini": 463
   },
   "log": [
-    {
-      "timestamp": "2026-09-03T08:43:56.832831+00:00",
-      "tier": "gemini",
-      "article": "Iran condemns US strikes on civilians as war crimes, reaffirms its right to self-defense"
-    },
-    {
-      "timestamp": "2026-09-03T08:44:22.443999+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
     {
       "timestamp": "2026-09-03T14:14:57.142234+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-10T22:24:14.152813+00:00",
       "tier": "gemini",
       "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-11T03:45:19.495029+00:00",
+      "tier": "gemini",
+      "article": "General Saree: Saudi Warplanes Launched 64 Airstrikes on Taiz, Hodeidah, Marib, and Al-Jawf over Past 24 Hours - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-11T03:45:59.010747+00:00",
+      "tier": "gemini",
+      "article": "US-Israel strikes against Iran\u00a0have systematically undermined human rights"
     }
   ]
 }
