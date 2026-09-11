@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6519,
+  "total_calls": 6523,
   "tiers": {
     "groq": 6056,
-    "gemini": 463
+    "gemini": 467
   },
   "log": [
-    {
-      "timestamp": "2026-09-03T14:14:57.142234+00:00",
-      "tier": "gemini",
-      "article": "How Iran disabled the largest US naval base in West Asia"
-    },
-    {
-      "timestamp": "2026-09-03T14:15:25.927173+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-03T19:12:44.932258+00:00",
-      "tier": "gemini",
-      "article": "Trump praises Hegseth after deadly Iran wedding strike"
-    },
-    {
-      "timestamp": "2026-09-03T22:25:00.506651+00:00",
-      "tier": "gemini",
-      "article": "Woman killed in Gorlovka in drone strike on bus"
-    },
     {
       "timestamp": "2026-09-03T22:25:29.141701+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-09-11T03:45:59.010747+00:00",
       "tier": "gemini",
       "article": "US-Israel strikes against Iran\u00a0have systematically undermined human rights"
+    },
+    {
+      "timestamp": "2026-09-11T08:47:28.374430+00:00",
+      "tier": "gemini",
+      "article": "Two injured in enemy missile attack on residential building in Russia\u2019s Volgograd"
+    },
+    {
+      "timestamp": "2026-09-11T08:47:54.968565+00:00",
+      "tier": "gemini",
+      "article": "Fatalities in Tula Region, casualties in Volgograd, 777 drones: enemy attacks aftermath"
+    },
+    {
+      "timestamp": "2026-09-11T08:48:18.828335+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-11T08:48:45.495744+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }

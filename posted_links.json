@@ -1,4 +1,44 @@
 {
+  "41d5f9c6ed6c7558533d9daaa058ca8c7f704dde806e66bdeee3fb0d4a2fdad3": {
+    "url": "BellumActaNews/176964",
+    "title": "English-Language Catalog Offers Insights on Middle East and Iran Conflict Dynamics",
+    "published": "2026-09-11T08:54:30.601736+00:00"
+  },
+  "8d527b07acbad327c4a3c420630b7504a93270f3f7383d2b607faf5bf0f1371b": {
+    "url": "BellumActaNews/176975",
+    "title": "Israeli Forces Demolish Hezbollah Subterranean Command Network Under Ali al-Taher Ridge",
+    "published": "2026-09-11T08:54:12.955087+00:00"
+  },
+  "63f14884ba593e8806c745e6be45144af7d66dee41848f9ff42db3c3decbd42a": {
+    "url": "DDGeopolitics/193273",
+    "title": "Trump Dismisses Prospect of Prolonged Iran Conflict During Presidency",
+    "published": "2026-09-11T08:53:24.134626+00:00"
+  },
+  "7fb3b94b39074ef7ef34e39ace463f74583a81a86087d45fd4b2074208afdf3e": {
+    "url": "QudsNen/238478",
+    "title": "Israeli Settlers Begin New Outpost Construction Northwest of Nablus",
+    "published": "2026-09-11T08:52:18.968231+00:00"
+  },
+  "354eb980e7975ce4aae80abdb12deb6d3a2499f248e049bee6054fa9350f4d0a": {
+    "url": "thecradlemedia/67743",
+    "title": "Israeli Forces Destroy Extensive Hezbollah Tunnel Network Under Ali al-Taher Ridge Amid Intense Combat",
+    "published": "2026-09-11T08:49:10.714699+00:00"
+  },
+  "718702febf70c74fd02002a8c141076fe6f546db1d98119fa565ac3115095cd4": {
+    "url": "thecradlemedia/67745",
+    "title": "Ansarallah Forces Advance to Dhubab, Nearing Bab al-Mandab Strait in Yemen",
+    "published": "2026-09-11T08:48:59.093851+00:00"
+  },
+  "bad11515d3ad1739b9ae355888f51cc1b8305d40e9c9fd94b39e3f44883bd064": {
+    "url": "https://tass.com/politics/2185947",
+    "title": "Fatalities in Tula Region, casualties in Volgograd, 777 drones: enemy attacks aftermath",
+    "published": "2026-09-11T08:23:22+00:00"
+  },
+  "ead817400f45b667211277eacd526a87dd466f6a5d9731b7ffa9f671fe641227": {
+    "url": "https://tass.com/emergencies/2185823",
+    "title": "Two injured in enemy missile attack on residential building in Russia\u2019s Volgograd",
+    "published": "2026-09-11T04:17:43+00:00"
+  },
   "89cb5221f17ecfa582a5128ebbd94b2e72f4a44399084bfe4f49f795ae9a34da": {
     "url": "BellumActaNews/176965",
     "title": "Israeli forces destroyed more than 2 kilometers of Hezbollah underground infrast",
@@ -708,45 +748,5 @@
     "url": "Middle_East_Spectator/36360",
     "title": "Al-Manar Correspondent Ali Shbeib and Cameraman Injured by Israeli Airstrike",
     "published": "2026-09-07T15:43:06.760826+00:00"
-  },
-  "bafa5e7b52a781841a8fac4c7b28ecef5e2ed81ecb417d815640a2bacf5e3826": {
-    "url": "Middle_East_Spectator/36372",
-    "title": "Saudi Airstrikes Target Yemen's Al-Bayda Amid PLC Offensive",
-    "published": "2026-09-07T15:42:23.391940+00:00"
-  },
-  "c7ac1494e9926cb01569a7fe0620a3a106465dd27c7bd053652b937b3947b0e2": {
-    "url": "thecradlemedia/67559",
-    "title": "Yemeni Spokesperson Warns Saudi Arabia Over Escalated Military Operations",
-    "published": "2026-09-07T15:41:47.122337+00:00"
-  },
-  "c33c75e817b43113c0c03857f45084b9f0dfb9201fba3c08538aea839bef67f1": {
-    "url": "thecradlemedia/67564",
-    "title": "Israeli Forces Strike Mansouri in Southern Lebanon",
-    "published": "2026-09-07T15:41:39.025152+00:00"
-  },
-  "7c785ace167dbc4cdea46a82cdc8bc0f9f3dd2bac658676791d00d433b52f5e0": {
-    "url": "thecradlemedia/67565",
-    "title": "Complaint Filed in Slovenia Against Israeli Foreign Minister Ahead of Visit",
-    "published": "2026-09-07T15:39:36.260386+00:00"
-  },
-  "d12601848594dcf915c974e3368a94dfaf440d07cecfb9ef2586cbc2e182907c": {
-    "url": "https://www.aljazeera.com/news/2026/9/7/israeli-attacks-on-gaza-kill-five-palestinians-including-two-children?traffic_source=rss",
-    "title": "Israeli attacks on Gaza kill five Palestinians, including two children",
-    "published": "2026-09-07T13:52:52+00:00"
-  },
-  "f1c0883d29e5e771442f4031adc8914c40f2ea026a63b5852aae8a335b9ba833": {
-    "url": "https://en.irna.ir/news/86257497/Strike-our-assets-and-you-will-get-struck-Ghalibaf-warns-US",
-    "title": "Strike our assets, and you will get struck, Ghalibaf warns US",
-    "published": "2026-09-07T13:09:34+00:00"
-  },
-  "98cf4a4b7450544f4a31892ccc57754d4ed61ac8d9c6af24ed85349df3475caf": {
-    "url": "https://english.almanar.com.lb/article/124802/",
-    "title": "Yemeni media outlets report that the Saudi regime has renewed its targeting of the governorates of Al-Jawf, Al-Bayda, Ma\u2019rib, and Taiz with a number of airstrikes and cruise missiles - Al-Manar TV Lebanon",
-    "published": "2026-09-07T12:42:41+00:00"
-  },
-  "6b2bb488f4a730018929af5630b0adaedd3badcec60df2ca9411c235915a4f4c": {
-    "url": "https://tass.com/emergencies/2183609",
-    "title": "One casualty, one wounded in strike on Perm, 306 UAVs: aftermath of attacks against Russia",
-    "published": "2026-09-07T10:43:18+00:00"
   }
 }
