@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6527,
+  "total_calls": 6529,
   "tiers": {
     "groq": 6056,
-    "gemini": 471
+    "gemini": 473
   },
   "log": [
-    {
-      "timestamp": "2026-09-04T08:37:57.045930+00:00",
-      "tier": "gemini",
-      "article": "Iran wedding strike likely direct hit by US munition \u2013 Reuters"
-    },
-    {
-      "timestamp": "2026-09-04T08:38:23.532399+00:00",
-      "tier": "gemini",
-      "article": "US investigating if missile hit Iran wedding, Vance says"
-    },
     {
       "timestamp": "2026-09-04T08:38:59.249892+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-11T14:11:57.983218+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-11T19:05:21.461801+00:00",
+      "tier": "gemini",
+      "article": "More Israeli Attacks in South Lebanon Reported - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-11T19:05:53.826125+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
     }
   ]
 }
