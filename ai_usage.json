@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6529,
+  "total_calls": 6531,
   "tiers": {
     "groq": 6056,
-    "gemini": 473
+    "gemini": 475
   },
   "log": [
-    {
-      "timestamp": "2026-09-04T08:38:59.249892+00:00",
-      "tier": "gemini",
-      "article": "Are Trump\u2019s AI videos just memes or psychological warfare?"
-    },
-    {
-      "timestamp": "2026-09-04T08:39:26.388362+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
     {
       "timestamp": "2026-09-04T14:06:13.484367+00:00",
       "tier": "gemini",
@@ -505,6 +495,16 @@
     },
     {
       "timestamp": "2026-09-11T19:05:53.826125+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-11T22:23:27.058296+00:00",
+      "tier": "gemini",
+      "article": "Over 40 civilians killed in Saudi strikes on Houthi-controlled areas in Yemen in past week"
+    },
+    {
+      "timestamp": "2026-09-11T22:24:16.049473+00:00",
       "tier": "gemini",
       "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
     }
