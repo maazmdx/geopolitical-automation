@@ -1,4 +1,39 @@
 {
+  "c09f45d4551c9fe3471099652e01965b754450df9d076fc352d53498209bb999": {
+    "url": "Middle_East_Spectator/36645",
+    "title": "Key Saudi-backed Commander Killed by Ansarallah on Hodeidah Axis",
+    "published": "2026-09-11T14:16:44.698674+00:00"
+  },
+  "3c0a4b84141dec95e7e1227b5c3caf1e8a06958a8ad42b8bcbaa9093b84b5ec1": {
+    "url": "Middle_East_Spectator/36647",
+    "title": "Saudi Forces Strike Emirati-Backed Allies in Yemen Amid Battle Withdrawal Claims",
+    "published": "2026-09-11T14:16:02.516941+00:00"
+  },
+  "29ac458d7448c74d061dc42331df53116a1296747589c00fa0eac28223ef6ab2": {
+    "url": "thecradlemedia/67764",
+    "title": "Israeli Forces Conduct Ongoing Strikes in Southern Lebanon's Mansouri",
+    "published": "2026-09-11T14:13:46.073043+00:00"
+  },
+  "570cf88260b8686c102ebe36f772e7f40844a7e36d8c5e8de748c4686e1514f4": {
+    "url": "thecradlemedia/67779",
+    "title": "Israel Neutralizes Strategic Hezbollah Tunnel Complex, Declares Completion of Southern Lebanon 'Security Zone'",
+    "published": "2026-09-11T14:13:17.938141+00:00"
+  },
+  "87cdf6665f4c3d43b5cd3e6c8a6757f1157bc48db88327aa4f5a6e946ee4aed8": {
+    "url": "thecradlemedia/67781",
+    "title": "Yemeni Armed Forces Claim Significant Gains on Western Coast Against Saudi-Backed Forces",
+    "published": "2026-09-11T14:13:10.473763+00:00"
+  },
+  "4bb80f93d2f567febe758c14563e1656d43c525331b620d767fefa0c870a2e4d": {
+    "url": "thecradlemedia/67784",
+    "title": "Israeli Forces Conduct Detonations in Southern Lebanon's Mansouri Area",
+    "published": "2026-09-11T14:12:59.598562+00:00"
+  },
+  "4d4244abbdb88f5e6991d008f2a05f6f02c1b4cef62119a5a64a67e5bffa36c0": {
+    "url": "https://tass.com/politics/2186071",
+    "title": "Russian forces carry out one massive, six group strikes over past week",
+    "published": "2026-09-11T10:46:39+00:00"
+  },
   "41d5f9c6ed6c7558533d9daaa058ca8c7f704dde806e66bdeee3fb0d4a2fdad3": {
     "url": "BellumActaNews/176964",
     "title": "English-Language Catalog Offers Insights on Middle East and Iran Conflict Dynamics",
@@ -33,6 +68,11 @@
     "url": "https://tass.com/politics/2185947",
     "title": "Fatalities in Tula Region, casualties in Volgograd, 777 drones: enemy attacks aftermath",
     "published": "2026-09-11T08:23:22+00:00"
+  },
+  "56db9d782d61357d654f6684dca6bccaee14e7cc177eb5c0efb9da7cf807c04e": {
+    "url": "https://tass.com/politics/2185935",
+    "title": "FACTBOX: Russian strikes hit logistics hubs, data centers, port infrastructure",
+    "published": "2026-09-11T08:07:21+00:00"
   },
   "ead817400f45b667211277eacd526a87dd466f6a5d9731b7ffa9f671fe641227": {
     "url": "https://tass.com/emergencies/2185823",
@@ -708,45 +748,5 @@
     "url": "QudsNen/238081",
     "title": "Far-right Israeli Finance Minister Bezalel Smotrich openly stated during a stage",
     "published": "2026-09-07T19:45:01.539638+00:00"
-  },
-  "7e9b571d790c211bbac35a51ee5e2e30589b87f3db26e7b13bcf28ca314b308b": {
-    "url": "QudsNen/238083",
-    "title": "An Israeli airstrike targeted the entrance of a mosque in the Al-Maslakk neighbo",
-    "published": "2026-09-07T19:44:05.899697+00:00"
-  },
-  "ded2702e389f8e1b2ff13501f7926e1f4631dcd7cd95be790af8ac59a4cbdeb9": {
-    "url": "Middle_East_Spectator/36354",
-    "title": "\u2014 \ud83c\uddf0\ud83c\uddfc/\ud83c\uddee\ud83c\uddf7 Hangars at Ali Al-Salem Airbase, Kuwait: Destroyed \u2705(Satellite imagery f",
-    "published": "2026-09-07T19:43:16.647869+00:00"
-  },
-  "6bca83cf98e70e20193a230fba71aeb9947a9028aa567465cbddc244b2f76c65": {
-    "url": "thecradlemedia/67568",
-    "title": "Israeli Military Chief Threatens 'All-Out War' Against PA Amid West Bank Tensions",
-    "published": "2026-09-07T19:43:12.842260+00:00"
-  },
-  "bc21b98a5b50b0dfe439ccdb9219429b3fe79ad04f3a709f3dc188ddbe29faa4": {
-    "url": "thecradlemedia/67569",
-    "title": "Sanaa warns Saudi Arabia \u2018will be punished\u2019 for war crimes against YemenThe Yeme",
-    "published": "2026-09-07T19:43:06.050131+00:00"
-  },
-  "11b3362992e4cb5fe8e3e033f6a00f96d4377d7238c420fcdcbe394d3fb3f9cd": {
-    "url": "https://www.tehrantimes.com/news/529796/Washington-Post-confirms-US-bombing-of-Iranian-wedding",
-    "title": "Washington Post confirms US bombing of Iranian wedding",
-    "published": "2026-09-07T17:23:22+00:00"
-  },
-  "ee9f74c4a57f8768b9491109f5cbf6ae4c004733f50a5fcc1d0236a32e00b1b3": {
-    "url": "https://en.irna.ir/news/86257794/Yemen-warns-Saudi-attacks-will-not-go-unpunished",
-    "title": "Yemen warns Saudi attacks will not go unpunished",
-    "published": "2026-09-07T16:50:08+00:00"
-  },
-  "c0a48c16725935974e3847c6b21fe51443b638389c0b001f2863f95462112833": {
-    "url": "Middle_East_Spectator/36355",
-    "title": "Saudi-Backed Forces Launch Al-Jawf Offensive, Threatening Houthi-Held Provincial Capital",
-    "published": "2026-09-07T15:44:33.924816+00:00"
-  },
-  "5326d24df9563da0d494032f5d15377c0bbcd4c3d7ea9611bdf36f2fc7eb9124": {
-    "url": "Middle_East_Spectator/36360",
-    "title": "Al-Manar Correspondent Ali Shbeib and Cameraman Injured by Israeli Airstrike",
-    "published": "2026-09-07T15:43:06.760826+00:00"
   }
 }

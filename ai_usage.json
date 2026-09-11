@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6523,
+  "total_calls": 6527,
   "tiers": {
     "groq": 6056,
-    "gemini": 467
+    "gemini": 471
   },
   "log": [
-    {
-      "timestamp": "2026-09-03T22:25:29.141701+00:00",
-      "tier": "gemini",
-      "article": "Funeral held for child killed in US strike on Iranian wedding"
-    },
-    {
-      "timestamp": "2026-09-03T22:25:51.300965+00:00",
-      "tier": "gemini",
-      "article": "Ten injured in Ukraine as Kyiv expects talks with US envoys in coming days"
-    },
-    {
-      "timestamp": "2026-09-04T03:35:10.490039+00:00",
-      "tier": "gemini",
-      "article": "Baqaei: Iran's defensive strikes were merely against military targets"
-    },
-    {
-      "timestamp": "2026-09-04T03:35:32.104881+00:00",
-      "tier": "gemini",
-      "article": "US leaders must answer for war crimes, IRGC says after wedding attack"
-    },
     {
       "timestamp": "2026-09-04T08:37:57.045930+00:00",
       "tier": "gemini",
@@ -505,6 +485,26 @@
     },
     {
       "timestamp": "2026-09-11T08:48:45.495744+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-11T14:10:37.004525+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-11T14:11:02.910557+00:00",
+      "tier": "gemini",
+      "article": "Russian forces carry out one massive, six group strikes over past week"
+    },
+    {
+      "timestamp": "2026-09-11T14:11:29.916035+00:00",
+      "tier": "gemini",
+      "article": "FACTBOX: Russian strikes hit logistics hubs, data centers, port infrastructure"
+    },
+    {
+      "timestamp": "2026-09-11T14:11:57.983218+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
