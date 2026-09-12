@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6538,
+  "total_calls": 6542,
   "tiers": {
     "groq": 6056,
-    "gemini": 482
+    "gemini": 486
   },
   "log": [
-    {
-      "timestamp": "2026-09-05T03:35:55.230413+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-05T03:36:17.608171+00:00",
-      "tier": "gemini",
-      "article": "IN BRIEF: Russia strikes logistics centers, equipment, cargo ships in Ukraine"
-    },
-    {
-      "timestamp": "2026-09-05T08:12:38.201378+00:00",
-      "tier": "gemini",
-      "article": "Bolivian military barracks explosion kills at least 10"
-    },
-    {
-      "timestamp": "2026-09-05T08:13:03.349002+00:00",
-      "tier": "gemini",
-      "article": "Dozens killed, injured in Bolivia military facility blast"
-    },
     {
       "timestamp": "2026-09-05T13:19:08.276437+00:00",
       "tier": "gemini",
@@ -505,6 +485,26 @@
     },
     {
       "timestamp": "2026-09-12T08:31:43.491873+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-12T13:28:08.303591+00:00",
+      "tier": "gemini",
+      "article": "Fighting re-erupts in Yemen and civilians are paying the price"
+    },
+    {
+      "timestamp": "2026-09-12T13:28:32.107665+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-12T13:28:54.886242+00:00",
+      "tier": "gemini",
+      "article": "More than 247,000 killed, wounded in Israeli genocide war in Gaza Strip"
+    },
+    {
+      "timestamp": "2026-09-12T13:29:22.057386+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
