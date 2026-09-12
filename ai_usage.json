@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6531,
+  "total_calls": 6534,
   "tiers": {
     "groq": 6056,
-    "gemini": 475
+    "gemini": 478
   },
   "log": [
-    {
-      "timestamp": "2026-09-04T14:06:13.484367+00:00",
-      "tier": "gemini",
-      "article": "US\u2019 Vance on Iran Wedding Strike: \u201cSometimes Things Happen\u201d - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-04T14:06:45.812589+00:00",
-      "tier": "gemini",
-      "article": "One Palestinian Martyred, others Injured as Israeli Enemy Shells Gaza - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-04T14:07:17.293464+00:00",
-      "tier": "gemini",
-      "article": "Araghchi Challenges Jordan\u2019s Account of Iran\u2019s Retaliatory Strikes: \u201cHow Long Should We Have Waited?\u201d - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-09-04T14:07:48.559965+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-11T22:24:16.049473+00:00",
       "tier": "gemini",
       "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-12T03:48:28.251595+00:00",
+      "tier": "gemini",
+      "article": "Iran-US war, AfD surge and Ukraine corruption shape the week"
+    },
+    {
+      "timestamp": "2026-09-12T03:49:05.394494+00:00",
+      "tier": "gemini",
+      "article": "Trump Rejects Saudi Arabia\u2019s Request for Strikes on Yemen\u2019s Ansarullah: Axios - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-12T03:49:33.303364+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
