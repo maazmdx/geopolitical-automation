@@ -1,4 +1,34 @@
 {
+  "7b0b803a7ed5465c042a28e2c2aa6b1b0e9364c76f2cd02eaeb4130156d68bf5": {
+    "url": "presstv/206435",
+    "title": "Iranian Official Alleges US War Crime in Lamerd Attack",
+    "published": "2026-09-12T08:40:49.872639+00:00"
+  },
+  "7928553c66f54103f248a489b48b1a95809d9f12b45b91b023a65fc3241ad359": {
+    "url": "BellumActaNews/176997",
+    "title": "US Secretary of War Marks 25th Anniversary of 9/11 Attacks",
+    "published": "2026-09-12T08:38:13.612203+00:00"
+  },
+  "69139bfe5c30dd98693273560b8344785d59567fe1cd9819dfb8ea82255c30f9": {
+    "url": "BellumActaNews/177010",
+    "title": "Clashes Reported Between Iranian Security Forces and Armed Groups in Saravan",
+    "published": "2026-09-12T08:35:07.117884+00:00"
+  },
+  "08e8a8258510c724c4097c5b8f5454e8d41dd01ffed4144092cb7e825bde1bec": {
+    "url": "QudsNen/238577",
+    "title": "President Aoun Makes Unannounced Visit to Nabatieh Following Israeli Bombardments",
+    "published": "2026-09-12T08:33:01.491468+00:00"
+  },
+  "466e8ad6686f0556f34e3af1595603a0b364c796b23a80198465e8136c14cbda": {
+    "url": "thecradlemedia/67802",
+    "title": "Iraq Shuts Iran Border After Drone Attack on Saudi Pipeline",
+    "published": "2026-09-12T08:32:01.621564+00:00"
+  },
+  "0bf3bc9c9b030130a2b91903946311d24351ec7f5742754629ad41611ad2d833": {
+    "url": "thecradlemedia/67803",
+    "title": "US Backs Saudi Yemen Offensive Plans, Holds Off on Direct Military Intervention",
+    "published": "2026-09-12T08:31:53.641951+00:00"
+  },
   "ff8b747125096920214ee85aa073c70b35639c34a2a474df810794de886fec59": {
     "url": "CensoredMen/239",
     "title": "\ud83c\udde8\ud83c\uddf3 In China, a drone wouldn't let a man enter the sea after darkFootage from a b",
@@ -99,6 +129,11 @@
     "title": "Israeli Reconnaissance Drones Maintain Extensive Surveillance Over Southern Lebanon Airspace",
     "published": "2026-09-11T19:06:23.804359+00:00"
   },
+  "037bcc238b00d3671a5fcb10b68623108c7f35343aa98da4e5bdd7d372546774": {
+    "url": "https://tass.com/world/2186415",
+    "title": "Houthis say they have shot down nine Saudi warplanes since September 3",
+    "published": "2026-09-11T19:04:54+00:00"
+  },
   "c9bc50d6bc03de90db428236317dd7a1ca103d08b3f4d3566a7a4f78b281f818": {
     "url": "https://english.almanar.com.lb/article/126327/",
     "title": "More Israeli Attacks in South Lebanon Reported - Al-Manar TV Lebanon",
@@ -138,6 +173,11 @@
     "url": "thecradlemedia/67784",
     "title": "Israeli Forces Conduct Detonations in Southern Lebanon's Mansouri Area",
     "published": "2026-09-11T14:12:59.598562+00:00"
+  },
+  "1dad2c8936711d15aa170517978ca9ef801f0eba0e1beb242eee83fa9193fd1a": {
+    "url": "https://www.defensenews.com/global/europe/2026/09/11/german-military-eyes-cruise-missiles-from-covenant-a-surprise-vendor-setting-up-shop/",
+    "title": "German military eyes cruise missiles from Covenant, a surprise vendor setting up shop",
+    "published": "2026-09-11T13:50:55+00:00"
   },
   "4d4244abbdb88f5e6991d008f2a05f6f02c1b4cef62119a5a64a67e5bffa36c0": {
     "url": "https://tass.com/politics/2186071",
@@ -708,45 +748,5 @@
     "url": "DDGeopolitics/192985",
     "title": "Ansarallah Forces Reassert Control in Al-Yatmah Hours After Saudi-Backed Advance",
     "published": "2026-09-08T14:22:16.103443+00:00"
-  },
-  "8e15e680981d5852d1d53b4a88cf1f6a9a7d5523439a771f51bd217d8b8e7a2d": {
-    "url": "DDGeopolitics/193001",
-    "title": "German Defense Minister Accuses Russia of Leipzig Airport Drone Attack",
-    "published": "2026-09-08T14:21:25.736399+00:00"
-  },
-  "0012072ec7987c13d90be3103afc87e68034afcdeda7751749c25efe94fd5b95": {
-    "url": "QudsNen/238172",
-    "title": "Israeli Airstrike Targets Al-Shati Refugee Camp in Western Gaza",
-    "published": "2026-09-08T14:18:16.214168+00:00"
-  },
-  "e6090384fb1efc09d7c582e47406323438d6fbb28a221e10733c3e9ab4a6c1f5": {
-    "url": "Middle_East_Spectator/36406",
-    "title": "Ballistic Missiles Strike Saudi King Khalid Airbase, F-15 Hangar Hit",
-    "published": "2026-09-08T14:17:45.265905+00:00"
-  },
-  "77c6fdf7a18d3587b8ef134fd9807cd3f940e46ede8747d951f66e052a5cd842": {
-    "url": "thecradlemedia/67609",
-    "title": "US Envoy Warns Britain Over West Bank Settlement Trade Ban Amid E1 Expansion",
-    "published": "2026-09-08T14:17:35.883769+00:00"
-  },
-  "7fac505c46f1a80626b8d115634122ac7fbb4212003890dbed304a2b8eb9de96": {
-    "url": "thecradlemedia/67610",
-    "title": "Israeli Military Forces Launch Strikes in Southern Lebanese Town of Mansouri",
-    "published": "2026-09-08T14:17:23.363742+00:00"
-  },
-  "09b272c9c26a035efe9dd91acc569ee645877a37f668f5da0bc6f4d327644502": {
-    "url": "https://www.rt.com/news/645241-lebanon-israel-strikes-civilians/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "Israeli strikes kill dozens of civilians in Lebanon (VIDEO)",
-    "published": "2026-09-08T10:44:04+00:00"
-  },
-  "e06d3df25d28ab4813f24431f6812f6a84ce27e68c50290ef1c6771051a3be98": {
-    "url": "https://thecradle.co/articles-id/39829",
-    "title": "New Yemeni missile strikes halt operations, spark fires at critical Saudi energy sites",
-    "published": "2026-09-08T10:07:41+00:00"
-  },
-  "f4a0badee3b983e9da4935c89b8351851e99b0fff3410e44ab46e7080bbfaf5e": {
-    "url": "https://en.irna.ir/news/86258329/MP-Strike-on-US-warships-represents-mere-fraction-of-Iran-s",
-    "title": "Senior MP: Strike on US warships represents mere fraction of Iran\u2019s military prowess",
-    "published": "2026-09-08T09:15:19+00:00"
   }
 }

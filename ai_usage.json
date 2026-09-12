@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6534,
+  "total_calls": 6538,
   "tiers": {
     "groq": 6056,
-    "gemini": 478
+    "gemini": 482
   },
   "log": [
-    {
-      "timestamp": "2026-09-04T14:07:48.559965+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-04T18:54:58.262455+00:00",
-      "tier": "gemini",
-      "article": "Israeli regime intensifies attacks across Gaza Strip"
-    },
-    {
-      "timestamp": "2026-09-04T22:14:54.924745+00:00",
-      "tier": "gemini",
-      "article": "Six Iranian Navy personnel martyred in US strikes in southern Iran"
-    },
-    {
-      "timestamp": "2026-09-04T22:15:21.261993+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
     {
       "timestamp": "2026-09-05T03:35:55.230413+00:00",
       "tier": "gemini",
@@ -505,6 +485,26 @@
     },
     {
       "timestamp": "2026-09-12T03:49:33.303364+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-12T08:30:24.807006+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-12T08:30:53.093124+00:00",
+      "tier": "gemini",
+      "article": "German military eyes cruise missiles from Covenant, a surprise vendor setting up shop"
+    },
+    {
+      "timestamp": "2026-09-12T08:31:14.922519+00:00",
+      "tier": "gemini",
+      "article": "Houthis say they have shot down nine Saudi warplanes since September 3"
+    },
+    {
+      "timestamp": "2026-09-12T08:31:43.491873+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
