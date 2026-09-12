@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6544,
+  "total_calls": 6547,
   "tiers": {
     "groq": 6056,
-    "gemini": 488
+    "gemini": 491
   },
   "log": [
-    {
-      "timestamp": "2026-09-05T13:19:55.842124+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-05T13:20:23.898658+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-05T16:38:42.260646+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
     {
       "timestamp": "2026-09-05T16:39:12.767490+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-12T16:51:22.999862+00:00",
       "tier": "gemini",
       "article": "President Aoun Visits Nabatieh, Praises Resilience of Residents and Hospital Staff - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-12T20:21:16.837946+00:00",
+      "tier": "gemini",
+      "article": "Yemen warns Saudi attacks will not go unpunished"
+    },
+    {
+      "timestamp": "2026-09-12T20:21:51.705936+00:00",
+      "tier": "gemini",
+      "article": "Iraqi Resistance rejects Saudi pipeline accusation as \u2018an honor we do not claim\u2019"
+    },
+    {
+      "timestamp": "2026-09-12T20:22:17.788665+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
     }
   ]
 }
