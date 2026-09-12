@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6547,
+  "total_calls": 6550,
   "tiers": {
     "groq": 6056,
-    "gemini": 491
+    "gemini": 494
   },
   "log": [
-    {
-      "timestamp": "2026-09-05T16:39:12.767490+00:00",
-      "tier": "gemini",
-      "article": "US military hunts leakers after reports expose interceptor shortages amid Iran war: Report"
-    },
-    {
-      "timestamp": "2026-09-05T20:06:04.173073+00:00",
-      "tier": "gemini",
-      "article": "Russia\u2019s Putin meets US envoys to discuss Trump proposal to end Ukraine war"
-    },
-    {
-      "timestamp": "2026-09-05T20:06:32.621164+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
     {
       "timestamp": "2026-09-05T20:07:03.333527+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-12T20:22:17.788665+00:00",
       "tier": "gemini",
       "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-12T23:51:42.961954+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-12T23:52:03.961720+00:00",
+      "tier": "gemini",
+      "article": "Saudi air force delivers almost 130 strikes on Yemeni territory in two days \u2014 Houthis"
+    },
+    {
+      "timestamp": "2026-09-12T23:52:28.295065+00:00",
+      "tier": "gemini",
+      "article": "Russian forces strike Ukrainian metallurgical industry facilities \u2014 Defense Ministry"
     }
   ]
 }
