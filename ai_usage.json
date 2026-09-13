@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6555,
+  "total_calls": 6558,
   "tiers": {
     "groq": 6056,
-    "gemini": 499
+    "gemini": 502
   },
   "log": [
-    {
-      "timestamp": "2026-09-06T08:30:10.335351+00:00",
-      "tier": "gemini",
-      "article": "Iran strikes back after US targets its tankers"
-    },
-    {
-      "timestamp": "2026-09-06T08:31:06.018849+00:00",
-      "tier": "gemini",
-      "article": "4 Martyrs as Israeli Warplanes Unleash Widespread Assault Across Nabatieh in Southern Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-06T08:31:34.158174+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
     {
       "timestamp": "2026-09-06T13:28:49.480852+00:00",
       "tier": "gemini",
@@ -505,6 +490,21 @@
     },
     {
       "timestamp": "2026-09-13T14:14:09.674753+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-13T18:37:54.047730+00:00",
+      "tier": "gemini",
+      "article": "Ukraine drone strikes kill four as Russia attacks close to Poland border"
+    },
+    {
+      "timestamp": "2026-09-13T18:38:19.112626+00:00",
+      "tier": "gemini",
+      "article": "Ansarallah widens Yemen\u2019s western-coast gains despite Saudi airstrikes"
+    },
+    {
+      "timestamp": "2026-09-13T18:38:51.691898+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
