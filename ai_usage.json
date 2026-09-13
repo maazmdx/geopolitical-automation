@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6558,
+  "total_calls": 6559,
   "tiers": {
     "groq": 6056,
-    "gemini": 502
+    "gemini": 503
   },
   "log": [
-    {
-      "timestamp": "2026-09-06T13:28:49.480852+00:00",
-      "tier": "gemini",
-      "article": "Colombian president vows crackdown after deadly drone attack"
-    },
     {
       "timestamp": "2026-09-06T13:29:16.570306+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-09-13T18:38:51.691898+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-13T22:13:49.631768+00:00",
+      "tier": "gemini",
+      "article": "North Korea conducts drills involving cruise and ballistic missiles \u2014 news agency"
     }
   ]
 }
