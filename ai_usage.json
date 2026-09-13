@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6550,
+  "total_calls": 6552,
   "tiers": {
     "groq": 6056,
-    "gemini": 494
+    "gemini": 496
   },
   "log": [
-    {
-      "timestamp": "2026-09-05T20:07:03.333527+00:00",
-      "tier": "gemini",
-      "article": "How UK-Ukraine defense cooperation became a long-term strategy against Russia"
-    },
-    {
-      "timestamp": "2026-09-05T23:38:27.995644+00:00",
-      "tier": "gemini",
-      "article": "Ukrainian army carries out 146 attacks on Russia\u2019s Belgorod Region in past day"
-    },
     {
       "timestamp": "2026-09-05T23:38:52.715079+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-12T23:52:28.295065+00:00",
       "tier": "gemini",
       "article": "Russian forces strike Ukrainian metallurgical industry facilities \u2014 Defense Ministry"
+    },
+    {
+      "timestamp": "2026-09-13T03:54:17.489980+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-13T03:54:53.495035+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
