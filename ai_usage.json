@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6552,
+  "total_calls": 6555,
   "tiers": {
     "groq": 6056,
-    "gemini": 496
+    "gemini": 499
   },
   "log": [
-    {
-      "timestamp": "2026-09-05T23:38:52.715079+00:00",
-      "tier": "gemini",
-      "article": "Colombian government reports three killed in rebel attack on military post"
-    },
-    {
-      "timestamp": "2026-09-06T03:37:07.004616+00:00",
-      "tier": "gemini",
-      "article": "Iranian forces strike US warships with ballistic missiles \u2014 IRGC"
-    },
-    {
-      "timestamp": "2026-09-06T03:37:32.020234+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
     {
       "timestamp": "2026-09-06T08:30:10.335351+00:00",
       "tier": "gemini",
@@ -505,6 +490,21 @@
     },
     {
       "timestamp": "2026-09-13T03:54:53.495035+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-13T14:12:35.052562+00:00",
+      "tier": "gemini",
+      "article": "Yemen strikes Saudi military base with missiles, drones"
+    },
+    {
+      "timestamp": "2026-09-13T14:13:36.886201+00:00",
+      "tier": "gemini",
+      "article": "Two killed, 12 injured in drone attack on Nizhnekamsk \u2014 authorities"
+    },
+    {
+      "timestamp": "2026-09-13T14:14:09.674753+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
