@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6559,
+  "total_calls": 6563,
   "tiers": {
     "groq": 6056,
-    "gemini": 503
+    "gemini": 507
   },
   "log": [
-    {
-      "timestamp": "2026-09-06T13:29:16.570306+00:00",
-      "tier": "gemini",
-      "article": "Iran\u2019s IRGC Strikes US Vessels in Hormuz, Stresses Waterway Under Tehran\u2019s Management - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-06T13:29:40.684850+00:00",
-      "tier": "gemini",
-      "article": "Pezeshkian orders probe into fatal fuel tanker explosion in western Iran"
-    },
-    {
-      "timestamp": "2026-09-06T13:30:06.601949+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-06T16:46:49.216994+00:00",
-      "tier": "gemini",
-      "article": "OIC denounces US strike on Iranian tanker in Persian Gulf"
-    },
     {
       "timestamp": "2026-09-06T20:09:59.918008+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-09-13T22:13:49.631768+00:00",
       "tier": "gemini",
       "article": "North Korea conducts drills involving cruise and ballistic missiles \u2014 news agency"
+    },
+    {
+      "timestamp": "2026-09-14T09:48:07.473169+00:00",
+      "tier": "gemini",
+      "article": "Houthis claim drone, missile strikes on airbase in Saudi Arabia"
+    },
+    {
+      "timestamp": "2026-09-14T09:48:32.221065+00:00",
+      "tier": "gemini",
+      "article": "North Korea stepping up readiness for swift retaliatory strike against enemy \u2014 news agency"
+    },
+    {
+      "timestamp": "2026-09-14T09:49:01.186654+00:00",
+      "tier": "gemini",
+      "article": "Yemen reports 58 Saudi attacks in one day; vows response"
+    },
+    {
+      "timestamp": "2026-09-14T09:49:28.888819+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
