@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6566,
+  "total_calls": 6568,
   "tiers": {
     "groq": 6056,
-    "gemini": 510
+    "gemini": 512
   },
   "log": [
-    {
-      "timestamp": "2026-09-06T23:38:29.550282+00:00",
-      "tier": "gemini",
-      "article": "IRGC attacks US unmanned vessel seeking access to Strait of Hormuz"
-    },
-    {
-      "timestamp": "2026-09-07T09:06:22.368425+00:00",
-      "tier": "gemini",
-      "article": "In photos: US attack turns wedding into wake in Iran"
-    },
     {
       "timestamp": "2026-09-07T09:06:44.951830+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-14T16:16:41.745954+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-14T21:39:21.074576+00:00",
+      "tier": "gemini",
+      "article": "Yemen vows \u2018no security\u2019 for Saudi Arabia after major missile, drone attack"
+    },
+    {
+      "timestamp": "2026-09-14T21:39:45.444410+00:00",
+      "tier": "gemini",
+      "article": "Houthis report seven strikes on Yemen\u2019s Saada Province by Saudi warplanes"
     }
   ]
 }
