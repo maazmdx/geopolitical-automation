@@ -1,4 +1,34 @@
 {
+  "d9c84b3fd74d4f0a80912f1ff7d4ddba4cb447cec9799808bb23d2ec0a567b7e": {
+    "url": "DDGeopolitics/193440",
+    "title": "\ud83c\uddf7\ud83c\uddfa\ud83d\udca5\ud83d\udea2 Russian forces used Geran drones to strike two bulk carriers in the port of",
+    "published": "2026-09-14T16:26:01.137482+00:00"
+  },
+  "bf2150a9e389b26a071373409aa5d60ddba0d2855c7f7c2ac0d4e946115b873a": {
+    "url": "DDGeopolitics/193442",
+    "title": "Ukrainian Telecom Giant Kyivstar Targeted by Drone Strike in Kyiv",
+    "published": "2026-09-14T16:25:24.220477+00:00"
+  },
+  "bb65e7a92d24a3e15fad95151c6655c4743d54ff731decc14153497e57fd5234": {
+    "url": "QudsNen/238848",
+    "title": "Elderly Palestinian Man Injured in Israeli Drone Strike Near Gaza Hospital",
+    "published": "2026-09-14T16:24:35.288776+00:00"
+  },
+  "7a0f594a6861e63e28ac2368e1a4d6dae0c694189acf91a5f207a4f1df15576e": {
+    "url": "Middle_East_Spectator/36747",
+    "title": "Saudi Arabia Deploys Undisclosed Dong Feng-15 Ballistic Missiles Against Houthis; Civilian Areas Hit in Marib",
+    "published": "2026-09-14T16:21:46.875993+00:00"
+  },
+  "a54f3cd492947b48bdf907c6692a586306ef8e680294ae69d1327bb777f1c175": {
+    "url": "thecradlemedia/67925",
+    "title": "Kfar Rumman Victim Families Pressure Lebanese Government for Action Following Deadly Israeli Strike",
+    "published": "2026-09-14T16:17:18.680392+00:00"
+  },
+  "5c9a07f7868356710f75779a379224be35e43d46480986e735bd17058f070920": {
+    "url": "thecradlemedia/67927",
+    "title": "Gaza Hospitals Warn of Critical Generator Failures, Jeopardizing Essential Medical Care",
+    "published": "2026-09-14T16:17:09.829424+00:00"
+  },
   "1b620c804f936775ed4d94bf7d33fd59a587486636d48e059755a36b938232d2": {
     "url": "CensoredMen/229",
     "title": "NEW: \ud83c\uddfa\ud83c\udde6\ud83c\uddf7\ud83c\uddfa Ukraine struck a second warehouse for the Russian e-commerce giant Wil",
@@ -33,6 +63,11 @@
     "url": "https://tass.com/world/2187241",
     "title": "Houthis claim drone, missile strikes on airbase in Saudi Arabia",
     "published": "2026-09-14T09:44:59+00:00"
+  },
+  "12e7c755e9f4339fd5977abdc99e544ec431ae723a7c4c92dc42b231e57480bd": {
+    "url": "https://en.irna.ir/news/86263356/Israeli-regime-continues-attacks-on-Lebanon",
+    "title": "Israeli regime continues attacks on Lebanon",
+    "published": "2026-09-14T09:20:48+00:00"
   },
   "abd41969632c3b50b3f270a056f02c536df77866b80a26140f1dda142167af7d": {
     "url": "CensoredMen/222",
@@ -713,40 +748,5 @@
     "url": "militarywave/25009",
     "title": "Murmansk Residents Improvise Rescue for Child in Apartment Fire",
     "published": "2026-09-10T14:17:41.983485+00:00"
-  },
-  "54503a76e2b3f3e7e1521dd74cb312595f0c08f5180e801c880d21b2707d6f73": {
-    "url": "QudsNen/238412",
-    "title": "Israeli UAVs Disseminate Leaflets Over Jabalia Refugee Camp",
-    "published": "2026-09-10T14:17:03.338634+00:00"
-  },
-  "d856b37d7e40be15c14421e3ef3899d8cdada9e0117bda28b72ffe28bed3284a": {
-    "url": "Middle_East_Spectator/36592",
-    "title": "Ansarallah Commanders Affirm Commitment to Further Yemen Liberation Following Arrival in Newly Controlled Areas",
-    "published": "2026-09-10T14:14:30.298515+00:00"
-  },
-  "397f27454818bcfa16c88d05fa424501aac7983c41a618ccf9618f957bd9b311": {
-    "url": "thecradlemedia/67708",
-    "title": "VIDEO | Footage reportedly documents Ansarallah forces entering the strategic po",
-    "published": "2026-09-10T14:12:09.710646+00:00"
-  },
-  "01646c7490a1a0a7dd5358d7f81307c44b48fb7c2da2a65b394801a5eef07ca6": {
-    "url": "thecradlemedia/67719",
-    "title": "Israel\u2019s campaign of mass destruction intensifies across south Lebanon Occupatio",
-    "published": "2026-09-10T14:10:58.677895+00:00"
-  },
-  "450e82e28e8eaf3ed43502f3475d5be16d908ea82abd047a526360b066753c4a": {
-    "url": "thecradlemedia/67721",
-    "title": "\u2757\ufe0fPalestinian resistance ambush reportedly kills two Israeli-backed militiamen i",
-    "published": "2026-09-10T14:10:56.612793+00:00"
-  },
-  "c99e1aa99ea09bec649dd0237f9bb9adc0cf9018dcb42517ae48647489ccf5ed": {
-    "url": "https://tass.com/politics/2185557",
-    "title": "Strikes on Black Sea vessels cannot affect Russia-Turkey relations \u2014 Kremlin",
-    "published": "2026-09-10T12:30:36+00:00"
-  },
-  "ad45af30be289b1b0d7403f089bf1de785b6cf63a5d059083fba17d477fb2b41": {
-    "url": "https://www.tehrantimes.com/news/529884/US-Israel-strikes-against-Iran-have-systematically-undermined",
-    "title": "US-Israel strikes against Iran\u00a0have systematically undermined human rights",
-    "published": "2026-09-10T12:00:05+00:00"
   }
 }

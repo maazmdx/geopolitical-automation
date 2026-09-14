@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6563,
+  "total_calls": 6566,
   "tiers": {
     "groq": 6056,
-    "gemini": 507
+    "gemini": 510
   },
   "log": [
-    {
-      "timestamp": "2026-09-06T20:09:59.918008+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-06T20:10:30.888880+00:00",
-      "tier": "gemini",
-      "article": "Iran touts military response as US maintains blockade, hits tankers"
-    },
-    {
-      "timestamp": "2026-09-06T23:37:58.392523+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
     {
       "timestamp": "2026-09-06T23:38:29.550282+00:00",
       "tier": "gemini",
@@ -505,6 +490,21 @@
     },
     {
       "timestamp": "2026-09-14T09:49:28.888819+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-14T16:15:49.962522+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-14T16:16:15.171858+00:00",
+      "tier": "gemini",
+      "article": "Israeli regime continues attacks on Lebanon"
+    },
+    {
+      "timestamp": "2026-09-14T16:16:41.745954+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
