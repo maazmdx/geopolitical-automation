@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6573,
+  "total_calls": 6576,
   "tiers": {
     "groq": 6056,
-    "gemini": 517
+    "gemini": 520
   },
   "log": [
-    {
-      "timestamp": "2026-09-07T15:38:57.294974+00:00",
-      "tier": "gemini",
-      "article": "Yemeni media outlets report that the Saudi regime has renewed its targeting of the governorates of Al-Jawf, Al-Bayda, Ma\u2019rib, and Taiz with a number of airstrikes and cruise missiles - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-07T15:39:25.847429+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-07T19:42:14.612306+00:00",
-      "tier": "gemini",
-      "article": "Yemen warns Saudi attacks will not go unpunished"
-    },
     {
       "timestamp": "2026-09-07T19:42:37.777491+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-15T07:30:31.004872+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-15T13:17:52.319363+00:00",
+      "tier": "gemini",
+      "article": "Massive missile attack on Taganrog, 222 downed drones: Ukrainian strikes' aftermath"
+    },
+    {
+      "timestamp": "2026-09-15T13:18:21.482170+00:00",
+      "tier": "gemini",
+      "article": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says"
+    },
+    {
+      "timestamp": "2026-09-15T13:18:44.313064+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
     }
   ]
 }
