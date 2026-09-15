@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6568,
+  "total_calls": 6569,
   "tiers": {
     "groq": 6056,
-    "gemini": 512
+    "gemini": 513
   },
   "log": [
-    {
-      "timestamp": "2026-09-07T09:06:44.951830+00:00",
-      "tier": "gemini",
-      "article": "Lebanese Health Ministry says Israeli strike on Kfar Rumman killed 9 people, injured 13 others, including paramedics, women and children - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-09-07T09:07:05.647824+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-09-14T21:39:45.444410+00:00",
       "tier": "gemini",
       "article": "Houthis report seven strikes on Yemen\u2019s Saada Province by Saudi warplanes"
+    },
+    {
+      "timestamp": "2026-09-15T00:24:36.137027+00:00",
+      "tier": "gemini",
+      "article": "FACTBOX: Russian strikes hit Kievstar mobile provider building, railway facilities"
     }
   ]
 }
