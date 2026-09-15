@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6569,
+  "total_calls": 6573,
   "tiers": {
     "groq": 6056,
-    "gemini": 513
+    "gemini": 517
   },
   "log": [
-    {
-      "timestamp": "2026-09-07T09:07:05.647824+00:00",
-      "tier": "gemini",
-      "article": "Eight-year-old Gaza girl killed by Israel on first day of school"
-    },
-    {
-      "timestamp": "2026-09-07T09:07:28.933224+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-07T15:38:13.256402+00:00",
-      "tier": "gemini",
-      "article": "Israeli attacks on Gaza kill five Palestinians, including two children"
-    },
-    {
-      "timestamp": "2026-09-07T15:38:34.500683+00:00",
-      "tier": "gemini",
-      "article": "One casualty, one wounded in strike on Perm, 306 UAVs: aftermath of attacks against Russia"
-    },
     {
       "timestamp": "2026-09-07T15:38:57.294974+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-09-15T00:24:36.137027+00:00",
       "tier": "gemini",
       "article": "FACTBOX: Russian strikes hit Kievstar mobile provider building, railway facilities"
+    },
+    {
+      "timestamp": "2026-09-15T07:29:16.145214+00:00",
+      "tier": "gemini",
+      "article": "Warning sirens go off in several regions of Saudi Arabia"
+    },
+    {
+      "timestamp": "2026-09-15T07:29:39.135887+00:00",
+      "tier": "gemini",
+      "article": "Yemen warns Saudi Arabia over 54 airstrikes"
+    },
+    {
+      "timestamp": "2026-09-15T07:30:03.828111+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-15T07:30:31.004872+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
