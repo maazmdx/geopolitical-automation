@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6576,
+  "total_calls": 6578,
   "tiers": {
     "groq": 6056,
-    "gemini": 520
+    "gemini": 522
   },
   "log": [
-    {
-      "timestamp": "2026-09-07T19:42:37.777491+00:00",
-      "tier": "gemini",
-      "article": "Strike our assets, and you will get struck, Ghalibaf warns US"
-    },
-    {
-      "timestamp": "2026-09-07T22:38:30.852477+00:00",
-      "tier": "gemini",
-      "article": "At least two killed in Houthi missile attack on refugee camp \u2014 TV"
-    },
     {
       "timestamp": "2026-09-08T03:42:04.206026+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-15T13:18:44.313064+00:00",
       "tier": "gemini",
       "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-15T22:48:13.899085+00:00",
+      "tier": "gemini",
+      "article": "UN fact-finding mission holds US responsible for deadly attack on Kuhestak wedding"
+    },
+    {
+      "timestamp": "2026-09-15T22:48:42.682950+00:00",
+      "tier": "gemini",
+      "article": "UN weighs moving Ukraine aid supplies underground after warehouse hits"
     }
   ]
 }
