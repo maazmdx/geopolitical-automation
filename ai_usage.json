@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6582,
+  "total_calls": 6586,
   "tiers": {
     "groq": 6056,
-    "gemini": 526
+    "gemini": 530
   },
   "log": [
-    {
-      "timestamp": "2026-09-08T14:16:07.668387+00:00",
-      "tier": "gemini",
-      "article": "New Yemeni missile strikes halt operations, spark fires at critical Saudi energy sites"
-    },
-    {
-      "timestamp": "2026-09-08T14:16:32.726387+00:00",
-      "tier": "gemini",
-      "article": "Israeli strikes kill dozens of civilians in Lebanon (VIDEO)"
-    },
-    {
-      "timestamp": "2026-09-08T14:17:01.876683+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-08T19:19:51.160130+00:00",
-      "tier": "gemini",
-      "article": "Yemeni forces strike Saudi facilities in retaliatory blitz"
-    },
     {
       "timestamp": "2026-09-08T19:20:16.568522+00:00",
       "tier": "gemini",
@@ -505,6 +485,26 @@
     },
     {
       "timestamp": "2026-09-16T09:15:49.351887+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-16T14:42:43.513365+00:00",
+      "tier": "gemini",
+      "article": "At least 21 killed after war-damaged Gaza building collapses"
+    },
+    {
+      "timestamp": "2026-09-16T14:43:07.830906+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Ballistic Missiles Strike Aramco Facility in Yanbu and Khamis Mushait Air Base: General Saree - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-16T14:43:36.708351+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-16T14:44:02.204719+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
