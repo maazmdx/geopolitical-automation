@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6578,
+  "total_calls": 6580,
   "tiers": {
     "groq": 6056,
-    "gemini": 522
+    "gemini": 524
   },
   "log": [
-    {
-      "timestamp": "2026-09-08T03:42:04.206026+00:00",
-      "tier": "gemini",
-      "article": "Iran exported its crude oil during US-Israeli aggression"
-    },
-    {
-      "timestamp": "2026-09-08T03:42:36.004632+00:00",
-      "tier": "gemini",
-      "article": "Washington Post confirms US bombing of Iranian wedding"
-    },
     {
       "timestamp": "2026-09-08T03:43:05.248965+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-15T22:48:42.682950+00:00",
       "tier": "gemini",
       "article": "UN weighs moving Ukraine aid supplies underground after warehouse hits"
+    },
+    {
+      "timestamp": "2026-09-16T03:58:37.623601+00:00",
+      "tier": "gemini",
+      "article": "New images show damage to US bases in Iran strikes"
+    },
+    {
+      "timestamp": "2026-09-16T03:59:11.854461+00:00",
+      "tier": "gemini",
+      "article": "Unlike Ukraine, Russian army not targeting civilians in its attacks, diplomat says"
     }
   ]
 }
