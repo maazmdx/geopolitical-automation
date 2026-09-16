@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6588,
+  "total_calls": 6589,
   "tiers": {
     "groq": 6056,
-    "gemini": 532
+    "gemini": 533
   },
   "log": [
-    {
-      "timestamp": "2026-09-08T22:29:26.691449+00:00",
-      "tier": "gemini",
-      "article": "Top commander warns of strikes on US bases if Iranian oil tankers are attacked"
-    },
     {
       "timestamp": "2026-09-08T22:30:03.853070+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-09-16T19:27:13.099433+00:00",
       "tier": "gemini",
       "article": "Germany, US to expand shared production of Patriot interceptors, strike missiles"
+    },
+    {
+      "timestamp": "2026-09-16T22:45:08.026046+00:00",
+      "tier": "gemini",
+      "article": "Ukrainian attacks leave civilian killed, 7 others injured in DPR over past day \u2014 leader"
     }
   ]
 }
