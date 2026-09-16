@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6580,
+  "total_calls": 6582,
   "tiers": {
     "groq": 6056,
-    "gemini": 524
+    "gemini": 526
   },
   "log": [
-    {
-      "timestamp": "2026-09-08T03:43:05.248965+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-08T14:15:43.890733+00:00",
-      "tier": "gemini",
-      "article": "The broken illusion: US fails to subdue Iran in war"
-    },
     {
       "timestamp": "2026-09-08T14:16:07.668387+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-16T03:59:11.854461+00:00",
       "tier": "gemini",
       "article": "Unlike Ukraine, Russian army not targeting civilians in its attacks, diplomat says"
+    },
+    {
+      "timestamp": "2026-09-16T09:15:18.667222+00:00",
+      "tier": "gemini",
+      "article": "Israeli warplanes strike southern Lebanon\u2019s Mansouri"
+    },
+    {
+      "timestamp": "2026-09-16T09:15:49.351887+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
