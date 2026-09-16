@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6586,
+  "total_calls": 6588,
   "tiers": {
     "groq": 6056,
-    "gemini": 530
+    "gemini": 532
   },
   "log": [
-    {
-      "timestamp": "2026-09-08T19:20:16.568522+00:00",
-      "tier": "gemini",
-      "article": "Senior MP: Strike on US warships represents mere fraction of Iran\u2019s military prowess"
-    },
-    {
-      "timestamp": "2026-09-08T19:20:50.835696+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
     {
       "timestamp": "2026-09-08T22:29:26.691449+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-16T14:44:02.204719+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-16T19:26:41.189223+00:00",
+      "tier": "gemini",
+      "article": "Leaked photos and munition depletion expose devastating toll of Iranian strikes on US bases"
+    },
+    {
+      "timestamp": "2026-09-16T19:27:13.099433+00:00",
+      "tier": "gemini",
+      "article": "Germany, US to expand shared production of Patriot interceptors, strike missiles"
     }
   ]
 }
