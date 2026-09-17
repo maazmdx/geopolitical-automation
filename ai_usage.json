@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6593,
+  "total_calls": 6596,
   "tiers": {
     "groq": 6056,
-    "gemini": 537
+    "gemini": 540
   },
   "log": [
-    {
-      "timestamp": "2026-09-09T08:49:51.240118+00:00",
-      "tier": "gemini",
-      "article": "IRGC: In response to the US attack on Iranian oil tankers, we launched intensive missile strikes against the US Al-Azraq base in Jordan - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-09T08:50:14.836869+00:00",
-      "tier": "gemini",
-      "article": "Four people killed, 29 others injured in Novorossiysk, 596 UAVs: attack aftermath"
-    },
-    {
-      "timestamp": "2026-09-09T08:50:40.473994+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
     {
       "timestamp": "2026-09-09T14:16:09.668302+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-17T11:18:04.004039+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-17T16:32:38.243546+00:00",
+      "tier": "gemini",
+      "article": "\u00a0\u2018My whole family is either dead or injured\u2019"
+    },
+    {
+      "timestamp": "2026-09-17T16:33:10.756881+00:00",
+      "tier": "gemini",
+      "article": "Dozens killed as bombed building collapses in Gaza (VIDEOS)"
+    },
+    {
+      "timestamp": "2026-09-17T16:33:36.566508+00:00",
+      "tier": "gemini",
+      "article": "\u2018Reasonable grounds\u2019 to believe US committed war crimes in Iran \u2013 UN"
     }
   ]
 }
