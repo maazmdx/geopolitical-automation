@@ -1,4 +1,39 @@
 {
+  "ac42e652074bf1a9ac3a99c8e0e275f6ce6f6f67d7ed4fde78b479c43c201b87": {
+    "url": "intelslava/94780",
+    "title": "Kyiv Reports Multiple Morning Explosions",
+    "published": "2026-09-17T11:30:05.922098+00:00"
+  },
+  "ff8b747125096920214ee85aa073c70b35639c34a2a474df810794de886fec59": {
+    "url": "CensoredMen/239",
+    "title": "Chinese Drone Enforces Nighttime Beach Ban in Qingdao",
+    "published": "2026-09-17T11:29:29.689838+00:00"
+  },
+  "75ab4c9bf8ce2342ef0edf7dda267c26b51e7fc6ad894076308e5f92f8e2bf43": {
+    "url": "DDGeopolitics/193537",
+    "title": "Ukrainian Strategic Thought Emphasizes Escalation Initiative",
+    "published": "2026-09-17T11:24:42.517828+00:00"
+  },
+  "8d2c10d22fd62e404703ee1d6717f503d4e9885febb23c95875927d5b9507e95": {
+    "url": "thecradlemedia/68044",
+    "title": "Israeli Military Strikes Kfar Tebnit, Conducts Incursion in Tallousa",
+    "published": "2026-09-17T11:19:47.683453+00:00"
+  },
+  "a641c024db76cc1d3975c69ceba5584dcfee20c2fd6312fda56f36e34dbbbdc8": {
+    "url": "thecradlemedia/68056",
+    "title": "US Engages Ansarallah in Secret Oman Talks Post-Red Sea Offensive",
+    "published": "2026-09-17T11:18:44.828473+00:00"
+  },
+  "554dc0edddda71ab41ca01e197e349689f0e21f7dc7915bbc5d608424ea68580": {
+    "url": "thecradlemedia/68057",
+    "title": "President Trump Offers Outlook on Iran Conflict Resolution, Citing Tehran's Pursuit of Diplomatic Deal",
+    "published": "2026-09-17T11:18:33.071559+00:00"
+  },
+  "43a35939dfcb21eefbf1f99646dd574109ed61200cea634dc2e7c0a8dc47850e": {
+    "url": "https://www.rt.com/news/645885-turkiye-sues-ukraine-ship/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+    "title": "Turkish sailors file ICC complaint against Ukraine",
+    "published": "2026-09-17T04:45:45+00:00"
+  },
   "344e6fe0be0eed599761dc46731ccb87a2d3bdc9deaf5068d14b4ae2713385bf": {
     "url": "presstv/207079",
     "title": "New satellite imagery shows the aftermath of Iranian missile strikes on Jordan\u2019s",
@@ -63,6 +98,11 @@
     "url": "https://tass.com/politics/2188697",
     "title": "Ukrainian attacks leave civilian killed, 7 others injured in DPR over past day \u2014 leader",
     "published": "2026-09-16T21:04:51+00:00"
+  },
+  "f48801a74d2881872f8905da861a80fe8274728b349dd5f72bb91a2e4ac7ba47": {
+    "url": "https://tass.com/emergencies/2188687",
+    "title": "Ukrainian attacks on Belgorod Region leave six people injured",
+    "published": "2026-09-16T19:52:49+00:00"
   },
   "cb81d618e23173a9250186580332d5cbb2793604491cf67718065886d42601d0": {
     "url": "QudsNen/239092",
@@ -708,45 +748,5 @@
     "url": "militarywave/25032",
     "title": "1\ufe0f\u20e32\ufe0f\u20e33\ufe0f\u20e3Hordes of ladybugs have swarmed over houses in Altai as they prepare to",
     "published": "2026-09-12T23:59:18.066638+00:00"
-  },
-  "cc0b1beb4aebd9877c61403ae0a7c64ddadb430711ab75c75b55d18c6952880b": {
-    "url": "BellumActaNews/177019",
-    "title": "\ud83c\uddfe\ud83c\uddea\ud83c\uddf8\ud83c\udde6\u274c\ud83c\uddfe\ud83c\uddea \u2014 Saudi-backed PLC Forces released a new footage showing Yemeni Air Forc",
-    "published": "2026-09-12T23:57:38.059566+00:00"
-  },
-  "f40d116aad043a0be47c099de72775c22203217cd9ff299ce6fb6ad06f9bb7c4": {
-    "url": "DDGeopolitics/193355",
-    "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddfe\ud83c\uddea\ud83c\uddfe\ud83c\uddea In today\u2019s episode of Trumpian delusion:\u201cThe Houthis called us, and they ",
-    "published": "2026-09-12T23:55:02.062272+00:00"
-  },
-  "5453e717add935a03834f3e5ae45b6787760f43d150fc52df27eb20d3ed5ee8a": {
-    "url": "QudsNen/238657",
-    "title": "Breaking | Israeli aircraft bombard the town of Nabatieh Al-Fawqa, southern Leba",
-    "published": "2026-09-12T23:53:26.070610+00:00"
-  },
-  "a6aeee25d7a2c756b9a87ddfc7c22ee6add49f6912978b69b73aebcd9673f127": {
-    "url": "Middle_East_Spectator/36706",
-    "title": "Marib Under Renewed Pressure as Houthi Forces Consolidate Positions and PLC Morale Declines",
-    "published": "2026-09-12T23:53:00.973772+00:00"
-  },
-  "d0fa09ab5d50f24197d9739d7f95c4076e87ff553814cd24105b76286d510e81": {
-    "url": "Middle_East_Spectator/36707",
-    "title": "\u2014\u2757\ufe0f\ud83c\uddf8\ud83c\udde6/\ud83c\uddfe\ud83c\uddea NEW: Alerts in Khamis Mushait and AbhaYemeni ballistic missile and dron",
-    "published": "2026-09-12T23:52:54.585125+00:00"
-  },
-  "f9d9d9599ea60aff24dba5529040b733e6780fd05a4ce6d20a1c261fd48f8ad2": {
-    "url": "https://tass.com/world/2186835",
-    "title": "Saudi air force delivers almost 130 strikes on Yemeni territory in two days \u2014 Houthis",
-    "published": "2026-09-12T21:05:49+00:00"
-  },
-  "ebf6b43577c753a13b9ec8f6adf0de74f68520cd9bf30c3a1b07ac01b6834ab2": {
-    "url": "DDGeopolitics/193364",
-    "title": "\ud83c\uddf7\ud83c\uddfa\ud83d\udef8\ud83d\udca5\ud83c\uddfa\ud83c\udde6 Drone strike in Lutsk!\ud83d\udd34 @DDGeopolitics | Socials | Donate | Advertising",
-    "published": "2026-09-12T20:25:21.786832+00:00"
-  },
-  "e099f79d77c6b572169f4981d2360282b096b1bb45552ca0ab9b999df8ebcc34": {
-    "url": "QudsNen/238649",
-    "title": "A new Euro-Med Monitor investigation shows Israeli quadcopters tracking and deli",
-    "published": "2026-09-12T20:24:00.011059+00:00"
   }
 }

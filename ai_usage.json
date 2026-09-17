@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6590,
+  "total_calls": 6593,
   "tiers": {
     "groq": 6056,
-    "gemini": 534
+    "gemini": 537
   },
   "log": [
-    {
-      "timestamp": "2026-09-09T03:46:56.980605+00:00",
-      "tier": "gemini",
-      "article": "Yemen\u2019s Saudi-backed forces strike Houthis on western coast"
-    },
-    {
-      "timestamp": "2026-09-09T03:47:19.637382+00:00",
-      "tier": "gemini",
-      "article": "Iran carries out missile strikes on Jordan airbases hosting US forces \u2014 TV"
-    },
-    {
-      "timestamp": "2026-09-09T08:49:22.797962+00:00",
-      "tier": "gemini",
-      "article": "Powerful Battle Will Continue: IRGC Missile Barrages Strike US Base in Jordan, American Warships - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-09-09T08:49:51.240118+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-17T04:04:14.885198+00:00",
       "tier": "gemini",
       "article": "Spain\u2019s Indra proffers \u2018Squall\u2019 for Europe\u2019s emerging strike missile mix"
+    },
+    {
+      "timestamp": "2026-09-17T11:16:36.584890+00:00",
+      "tier": "gemini",
+      "article": "Ukrainian attacks on Belgorod Region leave six people injured"
+    },
+    {
+      "timestamp": "2026-09-17T11:17:38.016672+00:00",
+      "tier": "gemini",
+      "article": "Turkish sailors file ICC complaint against Ukraine"
+    },
+    {
+      "timestamp": "2026-09-17T11:18:04.004039+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
