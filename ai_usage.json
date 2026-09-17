@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6596,
+  "total_calls": 6600,
   "tiers": {
     "groq": 6056,
-    "gemini": 540
+    "gemini": 544
   },
   "log": [
-    {
-      "timestamp": "2026-09-09T14:16:09.668302+00:00",
-      "tier": "gemini",
-      "article": "Iran launches massive attack on US sites in Jordan"
-    },
-    {
-      "timestamp": "2026-09-09T14:16:47.548042+00:00",
-      "tier": "gemini",
-      "article": "Iran warns against normalizing attacks on nuclear facilities"
-    },
-    {
-      "timestamp": "2026-09-09T14:17:10.744975+00:00",
-      "tier": "gemini",
-      "article": "Logistics centers, cargo terminal, warehouses hit: group strikes by Russian Armed Forces"
-    },
-    {
-      "timestamp": "2026-09-09T14:18:12.140266+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
     {
       "timestamp": "2026-09-09T19:09:53.532240+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-09-17T16:33:36.566508+00:00",
       "tier": "gemini",
       "article": "\u2018Reasonable grounds\u2019 to believe US committed war crimes in Iran \u2013 UN"
+    },
+    {
+      "timestamp": "2026-09-17T21:05:21.004528+00:00",
+      "tier": "gemini",
+      "article": "Three civilians killed, 10 injured in Ukrainian attacks on DPR in past day"
+    },
+    {
+      "timestamp": "2026-09-17T21:05:47.190661+00:00",
+      "tier": "gemini",
+      "article": "At least 26 killed in clashes along Sudan-South Sudan border region"
+    },
+    {
+      "timestamp": "2026-09-17T21:06:12.307312+00:00",
+      "tier": "gemini",
+      "article": "Russia\u2019s plans may include strikes against Ukraine\u2019s allies, Poland says"
+    },
+    {
+      "timestamp": "2026-09-17T21:06:36.581981+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
