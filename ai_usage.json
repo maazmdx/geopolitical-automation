@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6589,
+  "total_calls": 6590,
   "tiers": {
     "groq": 6056,
-    "gemini": 533
+    "gemini": 534
   },
   "log": [
-    {
-      "timestamp": "2026-09-08T22:30:03.853070+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
     {
       "timestamp": "2026-09-09T03:46:56.980605+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-09-16T22:45:08.026046+00:00",
       "tier": "gemini",
       "article": "Ukrainian attacks leave civilian killed, 7 others injured in DPR over past day \u2014 leader"
+    },
+    {
+      "timestamp": "2026-09-17T04:04:14.885198+00:00",
+      "tier": "gemini",
+      "article": "Spain\u2019s Indra proffers \u2018Squall\u2019 for Europe\u2019s emerging strike missile mix"
     }
   ]
 }
