@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6600,
+  "total_calls": 6602,
   "tiers": {
     "groq": 6056,
-    "gemini": 544
+    "gemini": 546
   },
   "log": [
-    {
-      "timestamp": "2026-09-09T19:09:53.532240+00:00",
-      "tier": "gemini",
-      "article": "Iran will strike 20 targets for every two hits by enemy, IRGC warns"
-    },
-    {
-      "timestamp": "2026-09-09T19:10:27.556153+00:00",
-      "tier": "gemini",
-      "article": "Brent crude passes $100 as wars in West Asia escalate"
-    },
     {
       "timestamp": "2026-09-09T19:10:52.080209+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-17T21:06:36.581981+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-18T04:31:23.715149+00:00",
+      "tier": "gemini",
+      "article": "A Body Blow? The War on Iran and U.S. Military Readiness"
+    },
+    {
+      "timestamp": "2026-09-18T04:31:50.897127+00:00",
+      "tier": "gemini",
+      "article": "Latin America\u2019s Balancing Act: Washington, Beijing, and the Post-Maduro Environment"
     }
   ]
 }
