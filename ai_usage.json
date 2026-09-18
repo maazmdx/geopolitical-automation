@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6606,
+  "total_calls": 6608,
   "tiers": {
     "groq": 6056,
-    "gemini": 550
+    "gemini": 552
   },
   "log": [
-    {
-      "timestamp": "2026-09-10T08:47:11.939561+00:00",
-      "tier": "gemini",
-      "article": "IN BRIEF: Civilian killed as Ukraine launches 448 drones at Russia overnight"
-    },
-    {
-      "timestamp": "2026-09-10T08:47:39.129295+00:00",
-      "tier": "gemini",
-      "article": "The Assessment Gap in U.S. Counter-Terrorism Strikes"
-    },
     {
       "timestamp": "2026-09-10T08:48:01.476082+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-18T10:49:56.368795+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-18T16:04:00.569874+00:00",
+      "tier": "gemini",
+      "article": "Dozens Killed, Injured in Pakistan Mosque Attack - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-18T16:05:00.412170+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
     }
   ]
 }
