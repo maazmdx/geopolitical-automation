@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6602,
+  "total_calls": 6606,
   "tiers": {
     "groq": 6056,
-    "gemini": 546
+    "gemini": 550
   },
   "log": [
-    {
-      "timestamp": "2026-09-09T19:10:52.080209+00:00",
-      "tier": "gemini",
-      "article": "Spokesman for Yemeni Armed Forces Reports New Saudi Attacks: They Won\u2019t Go Unanswered - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-09T22:21:51.650594+00:00",
-      "tier": "gemini",
-      "article": "Iran strikes US warships carrying cruise missiles"
-    },
-    {
-      "timestamp": "2026-09-10T03:45:03.019744+00:00",
-      "tier": "gemini",
-      "article": "Houthis attack three Saudi cities with missiles, drones \u2014 coalition"
-    },
-    {
-      "timestamp": "2026-09-10T03:45:30.935735+00:00",
-      "tier": "gemini",
-      "article": "Several US warplanes damaged after Iranian strikes on Jordan \u2014 TV"
-    },
     {
       "timestamp": "2026-09-10T08:47:11.939561+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-09-18T04:31:50.897127+00:00",
       "tier": "gemini",
       "article": "Latin America\u2019s Balancing Act: Washington, Beijing, and the Post-Maduro Environment"
+    },
+    {
+      "timestamp": "2026-09-18T10:48:42.405538+00:00",
+      "tier": "gemini",
+      "article": "Russian Geran-4 Seeker UAVs hit two dry cargo ships at Odessa port on September 17"
+    },
+    {
+      "timestamp": "2026-09-18T10:49:08.154326+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-18T10:49:31.194200+00:00",
+      "tier": "gemini",
+      "article": "US Navy awards defense startup $200 million for Blackbeard hypersonic missile"
+    },
+    {
+      "timestamp": "2026-09-18T10:49:56.368795+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
