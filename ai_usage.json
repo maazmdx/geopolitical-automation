@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6608,
+  "total_calls": 6611,
   "tiers": {
     "groq": 6056,
-    "gemini": 552
+    "gemini": 555
   },
   "log": [
-    {
-      "timestamp": "2026-09-10T08:48:01.476082+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-10T08:48:26.890507+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-10T14:10:04.555554+00:00",
-      "tier": "gemini",
-      "article": "Iranian Strikes Damage Eight F-15s and Down an A-10 at US Base in Jordan, CBS Reports - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-09-10T14:10:35.593080+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-18T16:05:00.412170+00:00",
       "tier": "gemini",
       "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-18T20:37:40.310869+00:00",
+      "tier": "gemini",
+      "article": "Russia\u2019s drones threaten Kyiv-bound Western officials as war effort stalls"
+    },
+    {
+      "timestamp": "2026-09-18T20:38:03.058209+00:00",
+      "tier": "gemini",
+      "article": "Lebanese artist turns Israeli missile debris into art"
+    },
+    {
+      "timestamp": "2026-09-18T20:38:29.010502+00:00",
+      "tier": "gemini",
+      "article": "More US Troops Have Died amid Iran War than Pentagon Has Disclosed Publicly: Washington Post - Al-Manar TV Lebanon"
     }
   ]
 }
