@@ -1,4 +1,34 @@
 {
+  "9d1d33e6bc6c10a1bb4f828168ea8af448515feb59d52cf75c360c149639a487": {
+    "url": "warmonitors/45627",
+    "title": "\u26a1\ufe0f#BREAKING Explosions heard in the Saudi capital of Riyadh during the Ansaralla",
+    "published": "2026-09-19T04:32:28.129138+00:00"
+  },
+  "9a9687fee60ac4f37c8e04e7eab7c708c4e117e4f94933816aa5008d8996c1f4": {
+    "url": "warmonitors/45628",
+    "title": "\u26a1\ufe0f Missiles are flying over Riyadh. \ud83d\udca7 Rainbet.com the #1 Non-KYC Crypto Casino &",
+    "published": "2026-09-19T04:31:49.160802+00:00"
+  },
+  "d661ad632a29241d392c7fd243545453bc5b5988a6be1c009b8911e68ba08c1a": {
+    "url": "Middle_East_Spectator/36899",
+    "title": "\u2014\u2757\ufe0f\ud83c\uddf8\ud83c\udde6/\ud83c\uddfe\ud83c\uddea BREAKING: Alerts and explosions in Riyadh, the capital of Saudi Arabia ",
+    "published": "2026-09-19T04:31:24.855040+00:00"
+  },
+  "55db5ba1b5f2b703e78b8262a0081310cfbcac65ebe12d9277ff6840eb566504": {
+    "url": "Middle_East_Spectator/36901",
+    "title": "\u2014\u2757\ufe0f\ud83c\uddf8\ud83c\udde6/\ud83c\uddfe\ud83c\uddea WATCH: A Saudi citizen records explosions heard in Riyadh, saying \u2018wow\u2019",
+    "published": "2026-09-19T04:31:03.621197+00:00"
+  },
+  "2c2dfd7f8fbddb682a16359012c824eadccad94f845a40c822287322fad02fae": {
+    "url": "Middle_East_Spectator/36903",
+    "title": "\u2014 \ud83c\uddf8\ud83c\udde6/\ud83c\uddfe\ud83c\uddea Yemen, latest updated map of the Taizz front:Ansarallah continue to adva",
+    "published": "2026-09-19T04:30:36.070529+00:00"
+  },
+  "37b12e658505e8ae7ac592717aec5836b4343dbfb2cbf1a655e66922bac6cde9": {
+    "url": "thecradlemedia/68113",
+    "title": "EU Red Sea Naval Mission Increases Alert Level; Kallas Condemns Houthi Aggression",
+    "published": "2026-09-19T04:30:34.000911+00:00"
+  },
   "5acfe54adb33db4a374525c67911293a0666435672d6ea95806b8358f4d9ce3a": {
     "url": "militarywave/25100",
     "title": "The 'Ufa' submarine of the Pacific Fleet conducted exercises in the Sea of Japan",
@@ -19,6 +49,11 @@
     "title": "Breaking | Fires break out after Israeli occupation forces fired tear gas toward",
     "published": "2026-09-19T00:02:24.579445+00:00"
   },
+  "2743a470df3d0780a17743b1f46e87a8dbeddbff10e667c561fae017a1592cd2": {
+    "url": "https://www.aljazeera.com/news/2026/9/19/israeli-strike-on-motorcycle-in-gaza-city-kills-one-injures-child?traffic_source=rss",
+    "title": "Israeli strike on motorcycle kills Palestinian in Gaza City, injures child",
+    "published": "2026-09-19T00:02:03+00:00"
+  },
   "e38169c4b211e6cef8489864efce313b12d19ad3c7f5762cb98746067f5e49dc": {
     "url": "thecradlemedia/68114",
     "title": "BREAKING | Israeli occupation forces target the outskirts of Ainata toward Aitar",
@@ -28,6 +63,11 @@
     "url": "thecradlemedia/68117",
     "title": "\u2757\ufe0fItaly calls for stronger naval presence in Red Sea amid Ansarallah advancesIta",
     "published": "2026-09-19T00:01:20.133789+00:00"
+  },
+  "c38aedee7abe496a5c0ee511ee60a612eb40af5d523c5552aa305826e84f17b1": {
+    "url": "https://www.aljazeera.com/news/2026/9/18/houthis-accuse-saudi-arabia-of-launching-26-strikes-in-24-hours?traffic_source=rss",
+    "title": "Houthis accuse Saudi Arabia of launching 26 strikes in 24 hours",
+    "published": "2026-09-18T23:14:00+00:00"
   },
   "0bd1968687c8ab1e7f78b81a866f6e70a768d960158f555008f8e4b0987a6670": {
     "url": "BellumActaNews/177083",
@@ -108,6 +148,11 @@
     "url": "https://english.almanar.com.lb/article/128487/",
     "title": "Dozens Killed, Injured in Pakistan Mosque Attack - Al-Manar TV Lebanon",
     "published": "2026-09-18T11:22:50+00:00"
+  },
+  "5029fe103329b373a992cf738984595bd3cca9fb32bb019b56b23b3bb47c8a3a": {
+    "url": "https://tass.com/politics/2189615",
+    "title": "Russian forces conduct two massive, five group strikes on targets in Ukraine in past week",
+    "published": "2026-09-18T11:17:07+00:00"
   },
   "b9b0ab2be62649dc18655b83d4737713ac386370f4cf8fccfc99aa782995b5b3": {
     "url": "QudsNen/239270",
@@ -703,50 +748,5 @@
     "url": "thecradlemedia/67919",
     "title": "\u2757\ufe0fYemen's Ministry of Foreign Affairs warns that Saudi Arabia will not remain se",
     "published": "2026-09-15T07:33:49.335244+00:00"
-  },
-  "858bccade77185ddf0eb79cef41d3fc528d2cf08b131034405ece1825448e03d": {
-    "url": "thecradlemedia/67922",
-    "title": "Report Alleges Israeli Drone Killings of Gaza Civilians Post-Ceasefire",
-    "published": "2026-09-15T07:32:31.664346+00:00"
-  },
-  "4379dce953197c425030cc90a007d7d567eccfae16772b57ad1945c4d988bd89": {
-    "url": "thecradlemedia/67934",
-    "title": "\u2757\ufe0f'48 Palestinians mobilize to defend Majd al-Krum as Smotrich vows to expand Je",
-    "published": "2026-09-15T07:32:23.131549+00:00"
-  },
-  "29296093dfe62cd00f4c04387f439d8c3cceea4044dfbfd9a1fc1b20e9af22b6": {
-    "url": "https://en.mehrnews.com/news/247756/Yemen-warns-Saudi-Arabia-over-54-airstrikes",
-    "title": "Yemen warns Saudi Arabia over 54 airstrikes",
-    "published": "2026-09-15T03:55:27+00:00"
-  },
-  "532ae1e23afdad48e1239da370aca316ff4faf3b3622ae7eb7059d5956c474c4": {
-    "url": "https://en.mehrnews.com/news/247755/Warning-sirens-go-off-in-several-regions-of-Saudi-Arabia",
-    "title": "Warning sirens go off in several regions of Saudi Arabia",
-    "published": "2026-09-15T03:49:44+00:00"
-  },
-  "2720dcd0289486213e8e7394aeb3b66ddb6df62ac5c532b8d95069491c95f418": {
-    "url": "militarywave/25051",
-    "title": "\u25b6\ufe0fPrecision strikes on Ukrainian military targets! A Russian Su-34 crew hit a Uk",
-    "published": "2026-09-15T00:29:43.072538+00:00"
-  },
-  "9527b86df1cc55ccfd3d50f7960ced896422fbe18847d2d0690b674ea1c515eb": {
-    "url": "militarywave/25060",
-    "title": "Dual Bear Narratives: Novosibirsk Zoo Play and Pilot's Critical Rescue Detailed",
-    "published": "2026-09-15T00:28:13.506187+00:00"
-  },
-  "02c82e7da1f975702824e531ea176083d620eff01b0d9f8bde4e7d2802e1f845": {
-    "url": "warmonitors/45572",
-    "title": "\u26a1\ufe0fIsraeli airstrikes on tents in Gaza city \ud83d\udca7 Rainbet.com the #1 Non-KYC Crypto C",
-    "published": "2026-09-15T00:26:24.357785+00:00"
-  },
-  "6bb42c06fcd7cc40d9fcbbfb059077aa1f5bbee6da8e382cd3a0a91cd580eb64": {
-    "url": "DDGeopolitics/193435",
-    "title": "\u2014 \ud83c\uddf8\ud83c\udde6/\ud83c\uddfe\ud83c\uddea NEW: In a desperate attempt to reassert dominance in Yemen, Saudi Arabia",
-    "published": "2026-09-15T00:26:05.478199+00:00"
-  },
-  "9b5746996bb17df692149a57305f2e127a42c96281cdd1645223346ee6ce52a4": {
-    "url": "thecradlemedia/67923",
-    "title": "\u2757\ufe0fLebanon moves to freeze property sales in Israeli-occupied areas of the southL",
-    "published": "2026-09-15T00:25:22.150499+00:00"
   }
 }

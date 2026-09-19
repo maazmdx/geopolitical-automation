@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6611,
+  "total_calls": 6614,
   "tiers": {
     "groq": 6056,
-    "gemini": 555
+    "gemini": 558
   },
   "log": [
-    {
-      "timestamp": "2026-09-10T14:10:35.593080+00:00",
-      "tier": "gemini",
-      "article": "Strikes on Black Sea vessels cannot affect Russia-Turkey relations \u2014 Kremlin"
-    },
-    {
-      "timestamp": "2026-09-10T19:03:46.673797+00:00",
-      "tier": "gemini",
-      "article": "Jerusalem Daily: Israeli strikes devastate Gaza"
-    },
-    {
-      "timestamp": "2026-09-10T19:04:11.640501+00:00",
-      "tier": "gemini",
-      "article": "Iran destroys US reconnaissance drone boat in Strait of Hormuz \u2014 IRGC"
-    },
     {
       "timestamp": "2026-09-10T19:04:48.297108+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-18T20:38:29.010502+00:00",
       "tier": "gemini",
       "article": "More US Troops Have Died amid Iran War than Pentagon Has Disclosed Publicly: Washington Post - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-19T04:29:13.539560+00:00",
+      "tier": "gemini",
+      "article": "Israeli strike on motorcycle kills Palestinian in Gaza City, injures child"
+    },
+    {
+      "timestamp": "2026-09-19T04:29:36.482178+00:00",
+      "tier": "gemini",
+      "article": "Houthis accuse Saudi Arabia of launching 26 strikes in 24 hours"
+    },
+    {
+      "timestamp": "2026-09-19T04:29:59.802193+00:00",
+      "tier": "gemini",
+      "article": "Russian forces conduct two massive, five group strikes on targets in Ukraine in past week"
     }
   ]
 }
