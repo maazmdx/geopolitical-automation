@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6614,
+  "total_calls": 6617,
   "tiers": {
     "groq": 6056,
-    "gemini": 558
+    "gemini": 561
   },
   "log": [
-    {
-      "timestamp": "2026-09-10T19:04:48.297108+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-10T22:23:43.767031+00:00",
-      "tier": "gemini",
-      "article": "Iran attack on base in Jordan damaged American military aircraft, US official says"
-    },
-    {
-      "timestamp": "2026-09-10T22:24:14.152813+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
     {
       "timestamp": "2026-09-11T03:45:19.495029+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-19T04:29:59.802193+00:00",
       "tier": "gemini",
       "article": "Russian forces conduct two massive, five group strikes on targets in Ukraine in past week"
+    },
+    {
+      "timestamp": "2026-09-19T10:32:49.835958+00:00",
+      "tier": "gemini",
+      "article": "Dozens injured in Israeli strikes on a motorcycle in Gaza"
+    },
+    {
+      "timestamp": "2026-09-19T10:33:17.259952+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-19T10:33:40.795724+00:00",
+      "tier": "gemini",
+      "article": "Sirens go off in Riyadh amid Yemeni retaliatory attacks"
     }
   ]
 }
