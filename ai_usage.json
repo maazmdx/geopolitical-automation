@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6619,
+  "total_calls": 6621,
   "tiers": {
     "groq": 6056,
-    "gemini": 563
+    "gemini": 565
   },
   "log": [
-    {
-      "timestamp": "2026-09-11T08:47:28.374430+00:00",
-      "tier": "gemini",
-      "article": "Two injured in enemy missile attack on residential building in Russia\u2019s Volgograd"
-    },
-    {
-      "timestamp": "2026-09-11T08:47:54.968565+00:00",
-      "tier": "gemini",
-      "article": "Fatalities in Tula Region, casualties in Volgograd, 777 drones: enemy attacks aftermath"
-    },
     {
       "timestamp": "2026-09-11T08:48:18.828335+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-19T15:38:11.012941+00:00",
       "tier": "gemini",
       "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-19T18:29:54.553307+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Ballistic Missiles Strike Riyadh - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-19T18:30:19.088849+00:00",
+      "tier": "gemini",
+      "article": "Houthis claim they carried out missile strikes on targets in Riyadh and Yanbu"
     }
   ]
 }
