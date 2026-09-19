@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6621,
+  "total_calls": 6622,
   "tiers": {
     "groq": 6056,
-    "gemini": 565
+    "gemini": 566
   },
   "log": [
-    {
-      "timestamp": "2026-09-11T08:48:18.828335+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
     {
       "timestamp": "2026-09-11T08:48:45.495744+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-09-19T18:30:19.088849+00:00",
       "tier": "gemini",
       "article": "Houthis claim they carried out missile strikes on targets in Riyadh and Yanbu"
+    },
+    {
+      "timestamp": "2026-09-19T22:14:57.161278+00:00",
+      "tier": "gemini",
+      "article": "Houthis say they targeted Saudi capital with ballistic missiles"
     }
   ]
 }
