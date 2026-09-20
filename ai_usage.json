@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6627,
+  "total_calls": 6630,
   "tiers": {
     "groq": 6056,
-    "gemini": 571
+    "gemini": 574
   },
   "log": [
-    {
-      "timestamp": "2026-09-11T19:05:21.461801+00:00",
-      "tier": "gemini",
-      "article": "More Israeli Attacks in South Lebanon Reported - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-11T19:05:53.826125+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-11T22:23:27.058296+00:00",
-      "tier": "gemini",
-      "article": "Over 40 civilians killed in Saudi strikes on Houthi-controlled areas in Yemen in past week"
-    },
     {
       "timestamp": "2026-09-11T22:24:16.049473+00:00",
       "tier": "gemini",
@@ -505,6 +490,21 @@
     },
     {
       "timestamp": "2026-09-20T10:56:06.802551+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-20T15:42:43.219785+00:00",
+      "tier": "gemini",
+      "article": "Iran dismantles three terrorist operational cells"
+    },
+    {
+      "timestamp": "2026-09-20T15:43:51.846035+00:00",
+      "tier": "gemini",
+      "article": "Any attack on Iran to trigger sustained, painful strikes"
+    },
+    {
+      "timestamp": "2026-09-20T15:44:46.070684+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
