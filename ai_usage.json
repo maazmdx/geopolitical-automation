@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6630,
+  "total_calls": 6632,
   "tiers": {
     "groq": 6056,
-    "gemini": 574
+    "gemini": 576
   },
   "log": [
-    {
-      "timestamp": "2026-09-11T22:24:16.049473+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-12T03:48:28.251595+00:00",
-      "tier": "gemini",
-      "article": "Iran-US war, AfD surge and Ukraine corruption shape the week"
-    },
     {
       "timestamp": "2026-09-12T03:49:05.394494+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-20T15:44:46.070684+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-20T18:34:23.207968+00:00",
+      "tier": "gemini",
+      "article": "MP: US criminal act in Lamerd and Minab is a modern example of crimes in Hiroshima and Nagasa"
+    },
+    {
+      "timestamp": "2026-09-20T18:34:54.630221+00:00",
+      "tier": "gemini",
+      "article": "Saudi Arabia has carried out 760 airstrikes on Yemen: Military spokesperson"
     }
   ]
 }
