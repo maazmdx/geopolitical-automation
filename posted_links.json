@@ -1,4 +1,39 @@
 {
+  "2c09c8c8fcd37ed57bec65edddac44622482349a7dc15a816ee981ef6d06f838": {
+    "url": "DDGeopolitics/193655",
+    "title": "Russia Details Overnight Strikes on Ukrainian Defense and Data Infrastructure in Kyiv",
+    "published": "2026-09-20T11:00:10.002288+00:00"
+  },
+  "58e9b486da52cb6759b42280b65fab32b414f393d129efed949a1b21b4e05e15": {
+    "url": "DDGeopolitics/193658",
+    "title": "Kyiv Region Reports Widespread Damage, Air Quality Concerns Following Strikes",
+    "published": "2026-09-20T10:59:08.245196+00:00"
+  },
+  "6c2b50a76a40ad2a38e68eb630f8e30babcc77bd704fcf035a59a4e60552d7f7": {
+    "url": "DDGeopolitics/193666",
+    "title": "Russian Pensioner Disables Drone in Zaporozhye Direction",
+    "published": "2026-09-20T10:58:35.172560+00:00"
+  },
+  "dcc29b2b788832952c34853c37105096a4e2f8ef29dadc46ea2e106e5466a0a4": {
+    "url": "QudsNen/239510",
+    "title": "Israeli Prime Minister, Ministers, Thousands Visit Western Wall Ahead of Yom Kippur",
+    "published": "2026-09-20T10:57:49.070331+00:00"
+  },
+  "9217aee6dc2f7e89da6b8272092b55cf483aa0acf41bfc805f412a0c9485f5e8": {
+    "url": "thecradlemedia/68177",
+    "title": "Yemeni Forces Claim Extensive Missile and Drone Strikes on Riyadh and Yanbu Targets",
+    "published": "2026-09-20T10:56:26.812382+00:00"
+  },
+  "604e4d1fe7d98664875bf67de6ac6c7ce36af3df994e59c4146d879db00aedb4": {
+    "url": "thecradlemedia/68178",
+    "title": "Iran Sets Conditions for US Talks, Warns of War Preparedness",
+    "published": "2026-09-20T10:56:16.747841+00:00"
+  },
+  "a24043df0abdf3f4022cab02054bb695050ba469b9c52f63b696cc470a989e36": {
+    "url": "https://tass.com/defense/2190239",
+    "title": "Russian forces hit Fire Point warehouse storing drone components in Kiev Region",
+    "published": "2026-09-20T07:09:26+00:00"
+  },
   "951fbdeac9ae2692fc967f0f228bf4ccea09f0dfe2de0a366de07990f67bf147": {
     "url": "presstv/207489",
     "title": "\u25b6\ufe0f Air defense activity has been reported near the Kharab al-Jir base in Al-Hasa",
@@ -33,6 +68,11 @@
     "url": "https://www.rt.com/news/646000-overreliance-on-ai-contributed-to/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
     "title": "US overreliance on AI contributed to deadly Iran school strike, Bloomberg says",
     "published": "2026-09-20T03:51:18+00:00"
+  },
+  "818936a4dce7bfdc29b20042ba1972b7b031dc8ab2a2d495b269c5cf8dcf164d": {
+    "url": "https://www.aljazeera.com/video/inside-story/2026/9/20/how-much-of-a-challenge-recurrent-bombings-to-pakistan?traffic_source=rss",
+    "title": "How much of a challenge are recurrent bombings for Pakistan?",
+    "published": "2026-09-20T02:38:24+00:00"
   },
   "6e0955b1398f81b5af3277133c4d8beb3a9e4407970a13a37eccf4c6d311866c": {
     "url": "BellumActaNews/177098",
@@ -708,45 +748,5 @@
     "url": "thecradlemedia/68025",
     "title": "Scrutiny Mounts for Israeli Tourists and Veterans in Asia",
     "published": "2026-09-16T14:44:23.107992+00:00"
-  },
-  "eb09514cfef6cb37d60abc6f2af738c3f14a99b34d821026eaa4e94582ed6781": {
-    "url": "thecradlemedia/68030",
-    "title": "Iran Expresses Distrust in IAEA Chief Over Nuclear Program Politicization",
-    "published": "2026-09-16T14:44:10.968805+00:00"
-  },
-  "9dafd18ff74e6cede54155373af4cd7bb8ad0f0530ca3fbc77e67d865bfcbbd1": {
-    "url": "https://www.defensenews.com/global/europe/2026/09/16/spains-indra-proffers-squall-for-europes-emerging-strike-missile-mix/",
-    "title": "Spain\u2019s Indra proffers \u2018Squall\u2019 for Europe\u2019s emerging strike missile mix",
-    "published": "2026-09-16T14:37:22+00:00"
-  },
-  "f23469f8854ca551dd0bd90c3b6179265b87881c2d5987f38c565e71f157ae66": {
-    "url": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
-    "title": "At least 21 killed after war-damaged Gaza building collapses",
-    "published": "2026-09-16T13:28:46+00:00"
-  },
-  "0726ca69dd382937591cef9100ebfd1937cc3e3720861269060a8fbf6972d198": {
-    "url": "https://english.almanar.com.lb/article/127782/",
-    "title": "Yemeni Ballistic Missiles Strike Aramco Facility in Yanbu and Khamis Mushait Air Base: General Saree - Al-Manar TV Lebanon",
-    "published": "2026-09-16T13:03:59+00:00"
-  },
-  "a711742719b7cf07acc8238e070643ce03b43227acb00e08dbf4e1cb46c49139": {
-    "url": "militarywave/25074",
-    "title": "Pantsir-S Air Defense System Destroys Ukrainian UAV",
-    "published": "2026-09-16T09:20:17.892107+00:00"
-  },
-  "8b9c4e5e9e0502fbe4a9a8504a954b79bd7c177f8ebf2a18718dcc47be9a11f7": {
-    "url": "DDGeopolitics/193492",
-    "title": "Kyiv's Sviatoshynskyi District Reports Morning Strikes on Warehouse Facilities",
-    "published": "2026-09-16T09:19:16.142773+00:00"
-  },
-  "1e974533f73649b5c3b802ebc2bc4f9292ef7081a8a3d5e9c5f3079cabcc927e": {
-    "url": "thecradlemedia/67996",
-    "title": "\u2757\ufe0fHamas's military wing mourns Rafah Brigade commander and Military Council memb",
-    "published": "2026-09-16T09:18:20.673679+00:00"
-  },
-  "810d134725c3b5d8b6c9a99e532c3e457bf827f3b4eaa162b3312efc7c46fefc": {
-    "url": "thecradlemedia/67998",
-    "title": "\u2757\ufe0fCBS News publishes exclusive photos of the damage sustained by US bases in Sau",
-    "published": "2026-09-16T09:16:52.203356+00:00"
   }
 }
