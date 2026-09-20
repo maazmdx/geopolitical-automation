@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6622,
+  "total_calls": 6623,
   "tiers": {
     "groq": 6056,
-    "gemini": 566
+    "gemini": 567
   },
   "log": [
-    {
-      "timestamp": "2026-09-11T08:48:45.495744+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
     {
       "timestamp": "2026-09-11T14:10:37.004525+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-09-19T22:14:57.161278+00:00",
       "tier": "gemini",
       "article": "Houthis say they targeted Saudi capital with ballistic missiles"
+    },
+    {
+      "timestamp": "2026-09-20T04:03:20.481232+00:00",
+      "tier": "gemini",
+      "article": "US overreliance on AI contributed to deadly Iran school strike, Bloomberg says"
     }
   ]
 }
