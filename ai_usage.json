@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6632,
+  "total_calls": 6634,
   "tiers": {
     "groq": 6056,
-    "gemini": 576
+    "gemini": 578
   },
   "log": [
-    {
-      "timestamp": "2026-09-12T03:49:05.394494+00:00",
-      "tier": "gemini",
-      "article": "Trump Rejects Saudi Arabia\u2019s Request for Strikes on Yemen\u2019s Ansarullah: Axios - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-12T03:49:33.303364+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
     {
       "timestamp": "2026-09-12T08:30:24.807006+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-20T18:34:54.630221+00:00",
       "tier": "gemini",
       "article": "Saudi Arabia has carried out 760 airstrikes on Yemen: Military spokesperson"
+    },
+    {
+      "timestamp": "2026-09-20T22:17:03.947208+00:00",
+      "tier": "gemini",
+      "article": "Kiev\u2019s strike on Russian regions becomes largest since start of special military operation"
+    },
+    {
+      "timestamp": "2026-09-20T22:17:38.916304+00:00",
+      "tier": "gemini",
+      "article": "Like his father and grandfather, Reza Pahlavi wished to be a Western stooge\u00a0"
     }
   ]
 }
