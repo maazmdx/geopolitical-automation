@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6638,
+  "total_calls": 6639,
   "tiers": {
     "groq": 6056,
-    "gemini": 582
+    "gemini": 583
   },
   "log": [
-    {
-      "timestamp": "2026-09-12T13:28:08.303591+00:00",
-      "tier": "gemini",
-      "article": "Fighting re-erupts in Yemen and civilians are paying the price"
-    },
     {
       "timestamp": "2026-09-12T13:28:32.107665+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-09-21T09:53:48.845936+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-21T16:22:01.353847+00:00",
+      "tier": "gemini",
+      "article": "FACTBOX: Russian strikes hit logistics center, port infrastructure facilities"
     }
   ]
 }
