@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6642,
+  "total_calls": 6644,
   "tiers": {
     "groq": 6056,
-    "gemini": 586
+    "gemini": 588
   },
   "log": [
-    {
-      "timestamp": "2026-09-12T16:50:56.873182+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-12T16:51:22.999862+00:00",
-      "tier": "gemini",
-      "article": "President Aoun Visits Nabatieh, Praises Resilience of Residents and Hospital Staff - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-09-12T20:21:16.837946+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-21T21:50:35.069061+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-22T00:39:51.637438+00:00",
+      "tier": "gemini",
+      "article": "Kiev seeks to destabilize Russia with election-day attacks \u2014 expert"
+    },
+    {
+      "timestamp": "2026-09-22T00:40:17.608041+00:00",
+      "tier": "gemini",
+      "article": "Israeli forces attack towns in Lebanon\u2019s Tyre"
     }
   ]
 }
