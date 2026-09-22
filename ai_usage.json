@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6647,
+  "total_calls": 6650,
   "tiers": {
     "groq": 6056,
-    "gemini": 591
+    "gemini": 594
   },
   "log": [
-    {
-      "timestamp": "2026-09-12T23:51:42.961954+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-12T23:52:03.961720+00:00",
-      "tier": "gemini",
-      "article": "Saudi air force delivers almost 130 strikes on Yemeni territory in two days \u2014 Houthis"
-    },
-    {
-      "timestamp": "2026-09-12T23:52:28.295065+00:00",
-      "tier": "gemini",
-      "article": "Russian forces strike Ukrainian metallurgical industry facilities \u2014 Defense Ministry"
-    },
     {
       "timestamp": "2026-09-13T03:54:17.489980+00:00",
       "tier": "gemini",
@@ -505,6 +490,21 @@
     },
     {
       "timestamp": "2026-09-22T07:31:36.156764+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-22T13:13:50.903363+00:00",
+      "tier": "gemini",
+      "article": "Iran Can Strike Any Target It Chooses: Ghalibaf - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-22T13:14:17.729693+00:00",
+      "tier": "gemini",
+      "article": "Russian strikes on Ukraine kill three as Zelenskyy arrives for UN summit"
+    },
+    {
+      "timestamp": "2026-09-22T13:14:44.167024+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
