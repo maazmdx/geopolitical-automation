@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6664,
+  "total_calls": 6667,
   "tiers": {
     "groq": 6056,
-    "gemini": 608
+    "gemini": 611
   },
   "log": [
-    {
-      "timestamp": "2026-09-14T16:16:15.171858+00:00",
-      "tier": "gemini",
-      "article": "Israeli regime continues attacks on Lebanon"
-    },
-    {
-      "timestamp": "2026-09-14T16:16:41.745954+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-14T21:39:21.074576+00:00",
-      "tier": "gemini",
-      "article": "Yemen vows \u2018no security\u2019 for Saudi Arabia after major missile, drone attack"
-    },
     {
       "timestamp": "2026-09-14T21:39:45.444410+00:00",
       "tier": "gemini",
@@ -505,6 +490,21 @@
     },
     {
       "timestamp": "2026-09-23T13:29:04.266995+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-23T18:19:21.840337+00:00",
+      "tier": "gemini",
+      "article": "Japan\u2019s military buildup raises an old question: Is militarism returning?"
+    },
+    {
+      "timestamp": "2026-09-23T18:19:49.994406+00:00",
+      "tier": "gemini",
+      "article": "Israeli Media Outlets Report Injury in Ramallah Car-ramming Attack - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-23T18:20:23.298249+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
