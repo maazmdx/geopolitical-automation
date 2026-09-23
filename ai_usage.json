@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6660,
+  "total_calls": 6664,
   "tiers": {
     "groq": 6056,
-    "gemini": 604
+    "gemini": 608
   },
   "log": [
-    {
-      "timestamp": "2026-09-14T09:48:32.221065+00:00",
-      "tier": "gemini",
-      "article": "North Korea stepping up readiness for swift retaliatory strike against enemy \u2014 news agency"
-    },
-    {
-      "timestamp": "2026-09-14T09:49:01.186654+00:00",
-      "tier": "gemini",
-      "article": "Yemen reports 58 Saudi attacks in one day; vows response"
-    },
-    {
-      "timestamp": "2026-09-14T09:49:28.888819+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-14T16:15:49.962522+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
     {
       "timestamp": "2026-09-14T16:16:15.171858+00:00",
       "tier": "gemini",
@@ -505,6 +485,26 @@
     },
     {
       "timestamp": "2026-09-23T07:33:19.351053+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-23T13:27:51.541744+00:00",
+      "tier": "gemini",
+      "article": "Russian forces strike Ukraine\u2019s logistics centers, energy facilities, defense enterprises"
+    },
+    {
+      "timestamp": "2026-09-23T13:28:15.254410+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-23T13:28:36.701986+00:00",
+      "tier": "gemini",
+      "article": "Ukrainian troops almost completely driven out of Klinovoye by Russian forces \u2014 expert"
+    },
+    {
+      "timestamp": "2026-09-23T13:29:04.266995+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
