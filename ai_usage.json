@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6667,
+  "total_calls": 6669,
   "tiers": {
     "groq": 6056,
-    "gemini": 611
+    "gemini": 613
   },
   "log": [
-    {
-      "timestamp": "2026-09-14T21:39:45.444410+00:00",
-      "tier": "gemini",
-      "article": "Houthis report seven strikes on Yemen\u2019s Saada Province by Saudi warplanes"
-    },
-    {
-      "timestamp": "2026-09-15T00:24:36.137027+00:00",
-      "tier": "gemini",
-      "article": "FACTBOX: Russian strikes hit Kievstar mobile provider building, railway facilities"
-    },
     {
       "timestamp": "2026-09-15T07:29:16.145214+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-23T18:20:23.298249+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-23T22:49:41.929156+00:00",
+      "tier": "gemini",
+      "article": "Israel\u2019s ambassador to the US says son injured in West Bank car-ramming"
+    },
+    {
+      "timestamp": "2026-09-23T22:50:07.005107+00:00",
+      "tier": "gemini",
+      "article": "Kiev uses high-ranking foreign guests as \u2018human shields\u2019 \u2014 Russian delegate in Vienna"
     }
   ]
 }
