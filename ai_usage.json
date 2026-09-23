@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6656,
+  "total_calls": 6660,
   "tiers": {
     "groq": 6056,
-    "gemini": 600
+    "gemini": 604
   },
   "log": [
-    {
-      "timestamp": "2026-09-13T18:38:19.112626+00:00",
-      "tier": "gemini",
-      "article": "Ansarallah widens Yemen\u2019s western-coast gains despite Saudi airstrikes"
-    },
-    {
-      "timestamp": "2026-09-13T18:38:51.691898+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-13T22:13:49.631768+00:00",
-      "tier": "gemini",
-      "article": "North Korea conducts drills involving cruise and ballistic missiles \u2014 news agency"
-    },
-    {
-      "timestamp": "2026-09-14T09:48:07.473169+00:00",
-      "tier": "gemini",
-      "article": "Houthis claim drone, missile strikes on airbase in Saudi Arabia"
-    },
     {
       "timestamp": "2026-09-14T09:48:32.221065+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-09-23T00:08:58.071584+00:00",
       "tier": "gemini",
       "article": "US eyes $10bn fund to rebuild war-battered Gulf infrastructure"
+    },
+    {
+      "timestamp": "2026-09-23T07:31:58.145000+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-23T07:32:30.476252+00:00",
+      "tier": "gemini",
+      "article": "Zelenskyy says Ukraine ready for energy truce with Russia after Trump talks"
+    },
+    {
+      "timestamp": "2026-09-23T07:32:52.759344+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Military Spokesman Reports 19 Saudi Airstrikes in 24 Hours - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-23T07:33:19.351053+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
