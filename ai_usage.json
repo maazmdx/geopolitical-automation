@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6670,
+  "total_calls": 6674,
   "tiers": {
     "groq": 6056,
-    "gemini": 614
+    "gemini": 618
   },
   "log": [
-    {
-      "timestamp": "2026-09-15T07:29:39.135887+00:00",
-      "tier": "gemini",
-      "article": "Yemen warns Saudi Arabia over 54 airstrikes"
-    },
-    {
-      "timestamp": "2026-09-15T07:30:03.828111+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-15T07:30:31.004872+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-15T13:17:52.319363+00:00",
-      "tier": "gemini",
-      "article": "Massive missile attack on Taganrog, 222 downed drones: Ukrainian strikes' aftermath"
-    },
     {
       "timestamp": "2026-09-15T13:18:21.482170+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-09-24T03:49:01.478183+00:00",
       "tier": "gemini",
       "article": "Saudi warplanes strike Yemen over 50 times in one day"
+    },
+    {
+      "timestamp": "2026-09-24T09:07:55.260831+00:00",
+      "tier": "gemini",
+      "article": "Foreign reporters visit children injured in Ukrainian strikes in Donetsk"
+    },
+    {
+      "timestamp": "2026-09-24T09:08:23.069642+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-24T09:08:46.856268+00:00",
+      "tier": "gemini",
+      "article": "IN BRIEF: Russia's massive strike on defense facilities, logistics centers in Kiev, Odessa"
+    },
+    {
+      "timestamp": "2026-09-24T09:09:37.333450+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
