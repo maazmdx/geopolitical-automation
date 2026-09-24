@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6680,
+  "total_calls": 6681,
   "tiers": {
     "groq": 6056,
-    "gemini": 624
+    "gemini": 625
   },
   "log": [
-    {
-      "timestamp": "2026-09-16T09:15:18.667222+00:00",
-      "tier": "gemini",
-      "article": "Israeli warplanes strike southern Lebanon\u2019s Mansouri"
-    },
     {
       "timestamp": "2026-09-16T09:15:49.351887+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-09-24T19:54:27.802340+00:00",
       "tier": "gemini",
       "article": "Houthis claim hit on several Saudi military facilities"
+    },
+    {
+      "timestamp": "2026-09-24T23:06:15.831561+00:00",
+      "tier": "gemini",
+      "article": "Dozens of Yemeni Ballistic Missiles Preemptively Strike Saudi Army in Jizan: Hundreds Dead or Injured - Al-Manar TV Lebanon"
     }
   ]
 }
