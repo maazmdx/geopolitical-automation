@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6678,
+  "total_calls": 6680,
   "tiers": {
     "groq": 6056,
-    "gemini": 622
+    "gemini": 624
   },
   "log": [
-    {
-      "timestamp": "2026-09-16T03:58:37.623601+00:00",
-      "tier": "gemini",
-      "article": "New images show damage to US bases in Iran strikes"
-    },
-    {
-      "timestamp": "2026-09-16T03:59:11.854461+00:00",
-      "tier": "gemini",
-      "article": "Unlike Ukraine, Russian army not targeting civilians in its attacks, diplomat says"
-    },
     {
       "timestamp": "2026-09-16T09:15:18.667222+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-24T14:44:18.457956+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-24T19:54:00.260745+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Cruise Missiles Strike Riyadh - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-24T19:54:27.802340+00:00",
+      "tier": "gemini",
+      "article": "Houthis claim hit on several Saudi military facilities"
     }
   ]
 }
