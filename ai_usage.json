@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6674,
+  "total_calls": 6678,
   "tiers": {
     "groq": 6056,
-    "gemini": 618
+    "gemini": 622
   },
   "log": [
-    {
-      "timestamp": "2026-09-15T13:18:21.482170+00:00",
-      "tier": "gemini",
-      "article": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says"
-    },
-    {
-      "timestamp": "2026-09-15T13:18:44.313064+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-15T22:48:13.899085+00:00",
-      "tier": "gemini",
-      "article": "UN fact-finding mission holds US responsible for deadly attack on Kuhestak wedding"
-    },
-    {
-      "timestamp": "2026-09-15T22:48:42.682950+00:00",
-      "tier": "gemini",
-      "article": "UN weighs moving Ukraine aid supplies underground after warehouse hits"
-    },
     {
       "timestamp": "2026-09-16T03:58:37.623601+00:00",
       "tier": "gemini",
@@ -505,6 +485,26 @@
     },
     {
       "timestamp": "2026-09-24T09:09:37.333450+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-24T14:42:54.681926+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-24T14:43:19.794055+00:00",
+      "tier": "gemini",
+      "article": "Israeli Raids Hit Outskirts of Al-Qantara, Houla, and Al-Mansouri as Enemy Expands So-Called \u2018Security Zone\u2019 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-24T14:43:53.373897+00:00",
+      "tier": "gemini",
+      "article": "More than 247,000 killed, wounded in Israeli genocide war in Gaza Strip"
+    },
+    {
+      "timestamp": "2026-09-24T14:44:18.457956+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
