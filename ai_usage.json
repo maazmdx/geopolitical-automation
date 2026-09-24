@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6669,
+  "total_calls": 6670,
   "tiers": {
     "groq": 6056,
-    "gemini": 613
+    "gemini": 614
   },
   "log": [
-    {
-      "timestamp": "2026-09-15T07:29:16.145214+00:00",
-      "tier": "gemini",
-      "article": "Warning sirens go off in several regions of Saudi Arabia"
-    },
     {
       "timestamp": "2026-09-15T07:29:39.135887+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-09-23T22:50:07.005107+00:00",
       "tier": "gemini",
       "article": "Kiev uses high-ranking foreign guests as \u2018human shields\u2019 \u2014 Russian delegate in Vienna"
+    },
+    {
+      "timestamp": "2026-09-24T03:49:01.478183+00:00",
+      "tier": "gemini",
+      "article": "Saudi warplanes strike Yemen over 50 times in one day"
     }
   ]
 }
