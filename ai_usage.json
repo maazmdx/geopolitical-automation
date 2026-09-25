@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6686,
+  "total_calls": 6690,
   "tiers": {
     "groq": 6056,
-    "gemini": 630
+    "gemini": 634
   },
   "log": [
-    {
-      "timestamp": "2026-09-16T19:26:41.189223+00:00",
-      "tier": "gemini",
-      "article": "Leaked photos and munition depletion expose devastating toll of Iranian strikes on US bases"
-    },
-    {
-      "timestamp": "2026-09-16T19:27:13.099433+00:00",
-      "tier": "gemini",
-      "article": "Germany, US to expand shared production of Patriot interceptors, strike missiles"
-    },
-    {
-      "timestamp": "2026-09-16T22:45:08.026046+00:00",
-      "tier": "gemini",
-      "article": "Ukrainian attacks leave civilian killed, 7 others injured in DPR over past day \u2014 leader"
-    },
-    {
-      "timestamp": "2026-09-17T04:04:14.885198+00:00",
-      "tier": "gemini",
-      "article": "Spain\u2019s Indra proffers \u2018Squall\u2019 for Europe\u2019s emerging strike missile mix"
-    },
     {
       "timestamp": "2026-09-17T11:16:36.584890+00:00",
       "tier": "gemini",
@@ -505,6 +485,26 @@
     },
     {
       "timestamp": "2026-09-25T11:28:03.060237+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-25T16:51:52.562195+00:00",
+      "tier": "gemini",
+      "article": "One killed, another injured in drone attack on Gorlovka market"
+    },
+    {
+      "timestamp": "2026-09-25T16:52:19.419659+00:00",
+      "tier": "gemini",
+      "article": "Belousov briefed on drone use by Battlegroup North"
+    },
+    {
+      "timestamp": "2026-09-25T16:52:50.357749+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-25T16:53:14.603997+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }

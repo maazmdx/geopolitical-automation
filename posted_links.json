@@ -1,4 +1,44 @@
 {
+  "1a96efe750b4ae1022a20ed9025444987ca7e90d0e764856f56ff146ce820634": {
+    "url": "DDGeopolitics/193985",
+    "title": "Kyiv Office Building Housing Internet Provider's Data Center Struck by Drone",
+    "published": "2026-09-25T16:58:03.014434+00:00"
+  },
+  "f88d83e935731741bc830e0785960e7f48dc8f3048305892e4d1907b5f9e5437": {
+    "url": "DDGeopolitics/193991",
+    "title": "Zelenskyy Rejects Moscow Peace Talks With \"On a Missile\" Response",
+    "published": "2026-09-25T16:56:26.643397+00:00"
+  },
+  "e8fea2c1ce048f01b13912d94cfc876fa59d490ccfadacbbc2d2eb6857d6a2c0": {
+    "url": "QudsNen/240065",
+    "title": "Israeli Artillery Strikes Aita al-Jabal in Southern Lebanon",
+    "published": "2026-09-25T16:55:07.928335+00:00"
+  },
+  "93c43e1e4e8dae9987b7fce45c24ff326f4192f5dd4d8ce3102341ee9064eb63": {
+    "url": "QudsNen/240067",
+    "title": "Occupied Jerusalem: Armenian Child Pepper-Sprayed by Settlers",
+    "published": "2026-09-25T16:54:42.043256+00:00"
+  },
+  "301829f6d9d7437801f083c226325c73a2f1ee82e9f8ffc3a511dc642ef09a83": {
+    "url": "thecradlemedia/68474",
+    "title": "U.S. Senate Blocks Resolution Demanding End to Iran War",
+    "published": "2026-09-25T16:53:38.033028+00:00"
+  },
+  "bb6095a4b70a05008de931aecd1bfbc3ef27698fd19f5304720bdb86f14f36d3": {
+    "url": "thecradlemedia/68475",
+    "title": "Syria Establishes Overland Fuel Route to Iraq Amid Hormuz Disruption",
+    "published": "2026-09-25T16:53:28.589631+00:00"
+  },
+  "a30dc6596935aa4086bd0e378c900eb4c25e6bff6a98e850ce7b313acf5d8d31": {
+    "url": "https://tass.com/politics/2192933",
+    "title": "Belousov briefed on drone use by Battlegroup North",
+    "published": "2026-09-25T14:59:09+00:00"
+  },
+  "a60d88de61924bd6bed3dcafde6341a97be91d75f80750ddbbe20af5bf925010": {
+    "url": "https://tass.com/politics/2192863",
+    "title": "One killed, another injured in drone attack on Gorlovka market",
+    "published": "2026-09-25T13:38:03+00:00"
+  },
   "3f5929388735ee2bd2a3e57e6e40e3619115f8013019258de8707073216f8a02": {
     "url": "QudsNen/240027",
     "title": "Israeli Settlers Reportedly Assault Palestinian Home Near Umm Safa, West Bank",
@@ -708,45 +748,5 @@
     "url": "thecradlemedia/68233",
     "title": "Pakistani airstrikes kill dozens in Afghanistan days after deadly Mosque attackI",
     "published": "2026-09-21T16:25:13.748267+00:00"
-  },
-  "7bf9d122118daeb43a86252c9dc26da299ba885451743e2f8e00f8387dfb0158": {
-    "url": "https://tass.com/politics/2190663",
-    "title": "Kiev loses about 1,440 troops in special military operation zone in past day \u2014 top brass",
-    "published": "2026-09-21T12:00:53+00:00"
-  },
-  "eaee1efee288b839d1183641a8a3cb60ff0e14cdf87fc44e28e0a8639a5c2ff5": {
-    "url": "thecradlemedia/68190",
-    "title": "\u2757\ufe0fLatest Israeli attacks and developments in southern Lebanon since midnight:\u25aa\ufe0f ",
-    "published": "2026-09-21T10:00:50.760224+00:00"
-  },
-  "af11ec4dd554df5b7cee85ba92146369d75d0189cde4bef3ac441d2ed9e6b82a": {
-    "url": "thecradlemedia/68194",
-    "title": "Syrian Ammunition Depot Explosions Injure Four Near Aleppo",
-    "published": "2026-09-21T10:00:11.709049+00:00"
-  },
-  "59d18c76f031815713ed744d6340afc611491e6cd1bed3e9bf6a85e1579eb0c2": {
-    "url": "thecradlemedia/68196",
-    "title": "Shops Ablaze Southeast of Occupied Jerusalem After Israeli Forces Fire Munitions",
-    "published": "2026-09-21T09:59:02.930354+00:00"
-  },
-  "b0acc6b549ba4382854975296e273b15caa386a6ea33de90dec08863f828f304": {
-    "url": "thecradlemedia/68198",
-    "title": "QatarEnergy Warns of LNG Project Delays Amid Plunging Hormuz Shipping Traffic",
-    "published": "2026-09-21T09:58:05.339785+00:00"
-  },
-  "ee6da701bac7a73da1a1a64eb876f51f2c333a1e49912a6cd33a71e426039f0f": {
-    "url": "thecradlemedia/68200",
-    "title": "Israeli Forces Target Western Deraa Province with Artillery and Machine Gun Fire",
-    "published": "2026-09-21T09:57:57.632075+00:00"
-  },
-  "55fd549c4b86d5f34b831c4a7bf4822de38120815659cf3e431740da2a7e9470": {
-    "url": "thecradlemedia/68204",
-    "title": "Israeli Forces Operation in Biddu Leaves Three Injured, Dozens Detained",
-    "published": "2026-09-21T09:54:30.959696+00:00"
-  },
-  "b1ae95cc4cb2999bfd7056f652ee75a1b47c2bbe877ba91e8ce8b5d93efd624b": {
-    "url": "https://tass.com/world/2190445",
-    "title": "Iran to strike new US targets in Middle East with new weapons in case of aggression \u2014 IRGC",
-    "published": "2026-09-21T07:47:08+00:00"
   }
 }
