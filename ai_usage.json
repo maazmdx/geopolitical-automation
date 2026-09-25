@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6690,
+  "total_calls": 6693,
   "tiers": {
     "groq": 6056,
-    "gemini": 634
+    "gemini": 637
   },
   "log": [
-    {
-      "timestamp": "2026-09-17T11:16:36.584890+00:00",
-      "tier": "gemini",
-      "article": "Ukrainian attacks on Belgorod Region leave six people injured"
-    },
-    {
-      "timestamp": "2026-09-17T11:17:38.016672+00:00",
-      "tier": "gemini",
-      "article": "Turkish sailors file ICC complaint against Ukraine"
-    },
-    {
-      "timestamp": "2026-09-17T11:18:04.004039+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
     {
       "timestamp": "2026-09-17T16:32:38.243546+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-25T16:53:14.603997+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-25T21:16:24.520879+00:00",
+      "tier": "gemini",
+      "article": "General Saree Reports More Saudi Airstrikes, Yemeni Military Source Details Losses of KSA\u2019s Troops - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-25T21:16:53.490441+00:00",
+      "tier": "gemini",
+      "article": "Poland boosts air defence after \u2018Russian provocations\u2019 amid Ukraine war"
+    },
+    {
+      "timestamp": "2026-09-25T21:17:15.844081+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
     }
   ]
 }
