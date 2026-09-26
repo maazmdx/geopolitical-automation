@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6702,
+  "total_calls": 6705,
   "tiers": {
     "groq": 6056,
-    "gemini": 646
+    "gemini": 649
   },
   "log": [
-    {
-      "timestamp": "2026-09-18T10:48:42.405538+00:00",
-      "tier": "gemini",
-      "article": "Russian Geran-4 Seeker UAVs hit two dry cargo ships at Odessa port on September 17"
-    },
-    {
-      "timestamp": "2026-09-18T10:49:08.154326+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-18T10:49:31.194200+00:00",
-      "tier": "gemini",
-      "article": "US Navy awards defense startup $200 million for Blackbeard hypersonic missile"
-    },
     {
       "timestamp": "2026-09-18T10:49:56.368795+00:00",
       "tier": "gemini",
@@ -505,6 +490,21 @@
     },
     {
       "timestamp": "2026-09-26T12:48:29.064570+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-26T17:40:24.905616+00:00",
+      "tier": "gemini",
+      "article": "Yemen releases latest statement on no. of Saudi aristrikes"
+    },
+    {
+      "timestamp": "2026-09-26T17:40:49.847712+00:00",
+      "tier": "gemini",
+      "article": "At least 10 people killed in Russian and Ukrainian attacks"
+    },
+    {
+      "timestamp": "2026-09-26T17:41:21.785240+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
