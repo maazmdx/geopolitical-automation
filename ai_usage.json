@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6695,
+  "total_calls": 6698,
   "tiers": {
     "groq": 6056,
-    "gemini": 639
+    "gemini": 642
   },
   "log": [
-    {
-      "timestamp": "2026-09-17T16:33:36.566508+00:00",
-      "tier": "gemini",
-      "article": "\u2018Reasonable grounds\u2019 to believe US committed war crimes in Iran \u2013 UN"
-    },
-    {
-      "timestamp": "2026-09-17T21:05:21.004528+00:00",
-      "tier": "gemini",
-      "article": "Three civilians killed, 10 injured in Ukrainian attacks on DPR in past day"
-    },
-    {
-      "timestamp": "2026-09-17T21:05:47.190661+00:00",
-      "tier": "gemini",
-      "article": "At least 26 killed in clashes along Sudan-South Sudan border region"
-    },
     {
       "timestamp": "2026-09-17T21:06:12.307312+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-26T00:26:50.088726+00:00",
       "tier": "gemini",
       "article": "Nepal PM blasts \u2018flawless logistics for war\u2019 as poor nations struggle for food and fuel"
+    },
+    {
+      "timestamp": "2026-09-26T07:15:48.229140+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-26T07:16:18.096025+00:00",
+      "tier": "gemini",
+      "article": "Purpose of Ukrainian attacks against Russian marketplaces unclear \u2014 Putin"
+    },
+    {
+      "timestamp": "2026-09-26T07:16:49.378786+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
