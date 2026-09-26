@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6693,
+  "total_calls": 6695,
   "tiers": {
     "groq": 6056,
-    "gemini": 637
+    "gemini": 639
   },
   "log": [
-    {
-      "timestamp": "2026-09-17T16:32:38.243546+00:00",
-      "tier": "gemini",
-      "article": "\u00a0\u2018My whole family is either dead or injured\u2019"
-    },
-    {
-      "timestamp": "2026-09-17T16:33:10.756881+00:00",
-      "tier": "gemini",
-      "article": "Dozens killed as bombed building collapses in Gaza (VIDEOS)"
-    },
     {
       "timestamp": "2026-09-17T16:33:36.566508+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-25T21:17:15.844081+00:00",
       "tier": "gemini",
       "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-26T00:26:27.925511+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-26T00:26:50.088726+00:00",
+      "tier": "gemini",
+      "article": "Nepal PM blasts \u2018flawless logistics for war\u2019 as poor nations struggle for food and fuel"
     }
   ]
 }
