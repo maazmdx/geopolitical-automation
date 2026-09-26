@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6705,
+  "total_calls": 6707,
   "tiers": {
     "groq": 6056,
-    "gemini": 649
+    "gemini": 651
   },
   "log": [
-    {
-      "timestamp": "2026-09-18T10:49:56.368795+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-18T16:04:00.569874+00:00",
-      "tier": "gemini",
-      "article": "Dozens Killed, Injured in Pakistan Mosque Attack - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-09-18T16:05:00.412170+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-26T17:41:21.785240+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-26T20:48:33.268135+00:00",
+      "tier": "gemini",
+      "article": "New Yemeni Footage Shows Drone Attacks on Saudi Military Gatherings - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-26T20:48:57.724742+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
     }
   ]
 }
