@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6707,
+  "total_calls": 6710,
   "tiers": {
     "groq": 6056,
-    "gemini": 651
+    "gemini": 654
   },
   "log": [
-    {
-      "timestamp": "2026-09-18T16:05:00.412170+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-18T20:37:40.310869+00:00",
-      "tier": "gemini",
-      "article": "Russia\u2019s drones threaten Kyiv-bound Western officials as war effort stalls"
-    },
-    {
-      "timestamp": "2026-09-18T20:38:03.058209+00:00",
-      "tier": "gemini",
-      "article": "Lebanese artist turns Israeli missile debris into art"
-    },
     {
       "timestamp": "2026-09-18T20:38:29.010502+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-26T20:48:57.724742+00:00",
       "tier": "gemini",
       "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-27T00:21:31.531672+00:00",
+      "tier": "gemini",
+      "article": "Deadly shooting hits Caribbean islands of Saint Vincent and the Grenadines"
+    },
+    {
+      "timestamp": "2026-09-27T00:21:56.860206+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-27T00:22:20.155801+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Military Media: Stay tuned this afternoon\u2014at 4:00 PM\u2014for new footage showing strikes on Saudi regime troop concentrations and vehicles using \u201cRujoum\u201d drones across several fronts - Al-Manar TV Lebanon"
     }
   ]
 }
