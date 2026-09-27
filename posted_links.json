@@ -1,4 +1,44 @@
 {
+  "ff8b747125096920214ee85aa073c70b35639c34a2a474df810794de886fec59": {
+    "url": "CensoredMen/239",
+    "title": "Chinese Drone Deploys Loudspeaker to Enforce Qingdao Beach Ordinance",
+    "published": "2026-09-27T07:54:23.772458+00:00"
+  },
+  "11d01e7d587d177bd10086d6d5e4f989a8125c9237dd40e8f8fa1fc5feaba645": {
+    "url": "DDGeopolitics/194072",
+    "title": "Russian Drone Strike Targets Kiev Warehouse in Solomensky District",
+    "published": "2026-09-27T07:53:26.772376+00:00"
+  },
+  "edb5604a34cbf460af6b9b3d109fdaf50093f994e8997e810cef2fbdd2fdf1c4": {
+    "url": "DDGeopolitics/194078",
+    "title": "Fires Erupt at Zammler Logistics Facilities Near Brovary Following Strikes",
+    "published": "2026-09-27T07:52:39.376585+00:00"
+  },
+  "fce5472c456e4148017a2f2bb0681b895c9883e9a8006164d955c198669341c0": {
+    "url": "DDGeopolitics/194080",
+    "title": "Ukraine: Commentary on National Mentality Juxtaposed with Historical and Conflict Claims",
+    "published": "2026-09-27T07:51:37.471398+00:00"
+  },
+  "4881dcf6583b245dd280e998e84a474292f589c19bf9f5238b22443db8b50f5e": {
+    "url": "QudsNen/240231",
+    "title": "Israeli Drone Targets Al-Shati Refugee Camp in Western Gaza City",
+    "published": "2026-09-27T07:49:07.219309+00:00"
+  },
+  "fec6f4e01356ec0ffd0cba50d787bf0cb7ca73d9afcb5ae0dfe57b6051f5a230": {
+    "url": "QudsNen/240241",
+    "title": "Palestinian Man Dies in Israeli Drone Strike West of Khan Younis",
+    "published": "2026-09-27T07:48:58.034870+00:00"
+  },
+  "9e3a52d454b151b32f4970219a0883c772d7869b7989b535182335cb8a11bc33": {
+    "url": "https://english.almanar.com.lb/article/131082/",
+    "title": "South Lebanon: Occupation Forces Unleash Midnight Attacks - Al-Manar TV Lebanon",
+    "published": "2026-09-27T07:40:49+00:00"
+  },
+  "bf0cf6880d5b539c808f57a48a439c0dce1e7121a1b3b9aefddd72801526ca3d": {
+    "url": "https://en.irna.ir/news/86275787/Iran-to-respond-to-any-aggression-with-new-military-technologies",
+    "title": "Iran to respond to any aggression with new military technologies: Armed Forces",
+    "published": "2026-09-27T07:08:04+00:00"
+  },
   "65ff1e2a0976d114f3e29689efc7d33b65f71f9390764a0e4e99212db69b5183": {
     "url": "presstv/208467",
     "title": "\u25b6\ufe0f Massive explosion rocks Kiev following a reported Russian drone strike on a w",
@@ -708,45 +748,5 @@
     "url": "https://tass.com/politics/2191387",
     "title": "Ukrainian troops almost completely driven out of Klinovoye by Russian forces \u2014 expert",
     "published": "2026-09-23T03:52:00+00:00"
-  },
-  "10a995ba4d4202dd940b7cd119efb5571e602a15de2b53cc1ddbb905b2d98c8f": {
-    "url": "https://www.aljazeera.com/news/2026/9/23/zelenskyy-says-ukraine-ready-for-energy-truce-with-russia-after-trump-talks?traffic_source=rss",
-    "title": "Zelenskyy says Ukraine ready for energy truce with Russia after Trump talks",
-    "published": "2026-09-23T01:20:39+00:00"
-  },
-  "7ada50c16fdca3731006dd55d8eee24a11b50e432aae3aaca7b4d868619c7e44": {
-    "url": "DDGeopolitics/193773",
-    "title": "\ud83c\uddfa\ud83c\udde6 A drone struck fuel tanks in the Obolonsky district of Kiev - Mayor Klitschko",
-    "published": "2026-09-23T00:13:00.389033+00:00"
-  },
-  "57f5b8fd97269a43b1297663badef8fd2a44d47fbd8aefb962f30282e2d2f6ad": {
-    "url": "QudsNen/239758",
-    "title": "In response to the Trump administration\u2019s escalating campaign to dismantle the I",
-    "published": "2026-09-23T00:12:10.602730+00:00"
-  },
-  "8ed6aa4041fe33be2a8fc9e874191922187f1d5c5e5e2ad7bc2f9b34ba244b34": {
-    "url": "QudsNen/239760",
-    "title": "Breaking | Israeli occupation artillery shells the town of Al-Mansouri, southern",
-    "published": "2026-09-23T00:12:09.618907+00:00"
-  },
-  "c08ed128ebc890b8abffa3681be29a961466a4548f963c19619cc0e3d0a1ef3e": {
-    "url": "QudsNen/239763",
-    "title": "The Israeli delegation walks out of the UN General Assembly hall as Turkish Pres",
-    "published": "2026-09-23T00:11:35.122077+00:00"
-  },
-  "84d51d6d0f7918a1dd52c3834d09df77f9c9034d0fab35c9d2df7d7510236073": {
-    "url": "Middle_East_Spectator/36963",
-    "title": "\u2014\u2757\ufe0f\ud83c\uddee\ud83c\uddf7 NEW: The first handwritten note by the Supreme Leader of Iran, Ayatollah S",
-    "published": "2026-09-23T00:10:37.495714+00:00"
-  },
-  "b193694d94ed49881f4ea6269a2e4d565002df004b43002f03502e4bb222caad": {
-    "url": "thecradlemedia/68290",
-    "title": "WATCH | Trump threatens Iran during a meeting with Arab leaders in New York, war",
-    "published": "2026-09-23T00:10:35.916360+00:00"
-  },
-  "1a31a278e122151c91f600dafd881b9d81334361532867e1353b6f73e6e04361": {
-    "url": "QudsNen/239748",
-    "title": "King Abdullah II Cautions UN General Assembly on Israeli Expansionism and Regional Threat",
-    "published": "2026-09-22T21:22:19.536851+00:00"
   }
 }

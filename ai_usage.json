@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6710,
+  "total_calls": 6714,
   "tiers": {
     "groq": 6056,
-    "gemini": 654
+    "gemini": 658
   },
   "log": [
-    {
-      "timestamp": "2026-09-18T20:38:29.010502+00:00",
-      "tier": "gemini",
-      "article": "More US Troops Have Died amid Iran War than Pentagon Has Disclosed Publicly: Washington Post - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-19T04:29:13.539560+00:00",
-      "tier": "gemini",
-      "article": "Israeli strike on motorcycle kills Palestinian in Gaza City, injures child"
-    },
-    {
-      "timestamp": "2026-09-19T04:29:36.482178+00:00",
-      "tier": "gemini",
-      "article": "Houthis accuse Saudi Arabia of launching 26 strikes in 24 hours"
-    },
-    {
-      "timestamp": "2026-09-19T04:29:59.802193+00:00",
-      "tier": "gemini",
-      "article": "Russian forces conduct two massive, five group strikes on targets in Ukraine in past week"
-    },
     {
       "timestamp": "2026-09-19T10:32:49.835958+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-09-27T00:22:20.155801+00:00",
       "tier": "gemini",
       "article": "Yemeni Military Media: Stay tuned this afternoon\u2014at 4:00 PM\u2014for new footage showing strikes on Saudi regime troop concentrations and vehicles using \u201cRujoum\u201d drones across several fronts - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-27T07:47:35.615733+00:00",
+      "tier": "gemini",
+      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
+    },
+    {
+      "timestamp": "2026-09-27T07:47:58.091737+00:00",
+      "tier": "gemini",
+      "article": "South Lebanon: Occupation Forces Unleash Midnight Attacks - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-27T07:48:21.518410+00:00",
+      "tier": "gemini",
+      "article": "Iran to respond to any aggression with new military technologies: Armed Forces"
+    },
+    {
+      "timestamp": "2026-09-27T07:48:46.792447+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
