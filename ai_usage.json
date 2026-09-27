@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6714,
+  "total_calls": 6718,
   "tiers": {
     "groq": 6056,
-    "gemini": 658
+    "gemini": 662
   },
   "log": [
-    {
-      "timestamp": "2026-09-19T10:32:49.835958+00:00",
-      "tier": "gemini",
-      "article": "Dozens injured in Israeli strikes on a motorcycle in Gaza"
-    },
-    {
-      "timestamp": "2026-09-19T10:33:17.259952+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-19T10:33:40.795724+00:00",
-      "tier": "gemini",
-      "article": "Sirens go off in Riyadh amid Yemeni retaliatory attacks"
-    },
-    {
-      "timestamp": "2026-09-19T15:36:53.468389+00:00",
-      "tier": "gemini",
-      "article": "Russian troops strike logistics centers, energy sites used by Ukrainian army in past day"
-    },
     {
       "timestamp": "2026-09-19T15:38:11.012941+00:00",
       "tier": "gemini",
@@ -505,6 +485,26 @@
     },
     {
       "timestamp": "2026-09-27T07:48:46.792447+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-27T13:40:11.761081+00:00",
+      "tier": "gemini",
+      "article": "Israeli strikes pound south Lebanon after Hezbollah drone targets occupation forces"
+    },
+    {
+      "timestamp": "2026-09-27T13:40:39.818795+00:00",
+      "tier": "gemini",
+      "article": "Iran Warns It Will Strike US Warships Across Indian Ocean If New War Erupts, Top IRGC Commander Says - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-27T13:41:10.053517+00:00",
+      "tier": "gemini",
+      "article": "Iranian Army Commander Major General Amir Hatami: The war is not over, and we must still be prepared to deliver harsh strikes against the enemy - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-27T13:41:37.055772+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
