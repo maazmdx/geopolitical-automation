@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6729,
+  "total_calls": 6733,
   "tiers": {
     "groq": 6056,
-    "gemini": 673
+    "gemini": 677
   },
   "log": [
-    {
-      "timestamp": "2026-09-20T15:44:46.070684+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-20T18:34:23.207968+00:00",
-      "tier": "gemini",
-      "article": "MP: US criminal act in Lamerd and Minab is a modern example of crimes in Hiroshima and Nagasa"
-    },
-    {
-      "timestamp": "2026-09-20T18:34:54.630221+00:00",
-      "tier": "gemini",
-      "article": "Saudi Arabia has carried out 760 airstrikes on Yemen: Military spokesperson"
-    },
-    {
-      "timestamp": "2026-09-20T22:17:03.947208+00:00",
-      "tier": "gemini",
-      "article": "Kiev\u2019s strike on Russian regions becomes largest since start of special military operation"
-    },
     {
       "timestamp": "2026-09-20T22:17:38.916304+00:00",
       "tier": "gemini",
@@ -505,6 +485,26 @@
     },
     {
       "timestamp": "2026-09-28T13:19:13.714972+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-28T20:27:05.203789+00:00",
+      "tier": "gemini",
+      "article": "General Saree Reports More Saudi Attacks on Yemen - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-28T20:27:33.441796+00:00",
+      "tier": "gemini",
+      "article": "Report: Eight US Marines wounded in Iranian strike near Strait of Hormuz"
+    },
+    {
+      "timestamp": "2026-09-28T20:28:00.733628+00:00",
+      "tier": "gemini",
+      "article": "Saudi jets strike school, residential villages in Yemen"
+    },
+    {
+      "timestamp": "2026-09-28T20:28:29.715795+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
