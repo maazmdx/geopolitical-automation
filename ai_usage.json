@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6723,
+  "total_calls": 6725,
   "tiers": {
     "groq": 6056,
-    "gemini": 667
+    "gemini": 669
   },
   "log": [
-    {
-      "timestamp": "2026-09-20T10:54:50.573143+00:00",
-      "tier": "gemini",
-      "article": "How much of a challenge are recurrent bombings for Pakistan?"
-    },
-    {
-      "timestamp": "2026-09-20T10:55:11.527503+00:00",
-      "tier": "gemini",
-      "article": "Russian forces hit Fire Point warehouse storing drone components in Kiev Region"
-    },
     {
       "timestamp": "2026-09-20T10:55:36.965293+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-27T22:54:20.307367+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-28T04:25:30.576043+00:00",
+      "tier": "gemini",
+      "article": "Hezbollah marks second anniversary of Sayyed Nasrallah\u2019s martyrdom with vows of continued resistance"
+    },
+    {
+      "timestamp": "2026-09-28T04:25:58.883452+00:00",
+      "tier": "gemini",
+      "article": "MP urges tighter border controls after Ukrainian man kills priest in Poland\u00a0"
     }
   ]
 }
