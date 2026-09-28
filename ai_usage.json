@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6725,
+  "total_calls": 6729,
   "tiers": {
     "groq": 6056,
-    "gemini": 669
+    "gemini": 673
   },
   "log": [
-    {
-      "timestamp": "2026-09-20T10:55:36.965293+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-20T10:56:06.802551+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-20T15:42:43.219785+00:00",
-      "tier": "gemini",
-      "article": "Iran dismantles three terrorist operational cells"
-    },
-    {
-      "timestamp": "2026-09-20T15:43:51.846035+00:00",
-      "tier": "gemini",
-      "article": "Any attack on Iran to trigger sustained, painful strikes"
-    },
     {
       "timestamp": "2026-09-20T15:44:46.070684+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-09-28T04:25:58.883452+00:00",
       "tier": "gemini",
       "article": "MP urges tighter border controls after Ukrainian man kills priest in Poland\u00a0"
+    },
+    {
+      "timestamp": "2026-09-28T13:17:49.726755+00:00",
+      "tier": "gemini",
+      "article": "Iranian missile strike injured eight US Marines \u2013 NBC"
+    },
+    {
+      "timestamp": "2026-09-28T13:18:15.957998+00:00",
+      "tier": "gemini",
+      "article": "Saudi FM arrives in Washington as Yemen reports over 1,000 airstrikes since July"
+    },
+    {
+      "timestamp": "2026-09-28T13:18:45.152608+00:00",
+      "tier": "gemini",
+      "article": "Iranian cruise missile hit US vessel, injured several Marines onboard: Report"
+    },
+    {
+      "timestamp": "2026-09-28T13:19:13.714972+00:00",
+      "tier": "gemini",
+      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
     }
   ]
 }
