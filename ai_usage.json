@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6733,
+  "total_calls": 6736,
   "tiers": {
     "groq": 6056,
-    "gemini": 677
+    "gemini": 680
   },
   "log": [
-    {
-      "timestamp": "2026-09-20T22:17:38.916304+00:00",
-      "tier": "gemini",
-      "article": "Like his father and grandfather, Reza Pahlavi wished to be a Western stooge\u00a0"
-    },
-    {
-      "timestamp": "2026-09-21T09:52:25.575341+00:00",
-      "tier": "gemini",
-      "article": "Several killed in Pakistan airstrike on Afghanistan"
-    },
-    {
-      "timestamp": "2026-09-21T09:52:51.595391+00:00",
-      "tier": "gemini",
-      "article": "Iran to strike new US targets in Middle East with new weapons in case of aggression \u2014 IRGC"
-    },
     {
       "timestamp": "2026-09-21T09:53:15.234345+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-28T20:28:29.715795+00:00",
       "tier": "gemini",
       "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
+    },
+    {
+      "timestamp": "2026-09-29T01:36:10.607293+00:00",
+      "tier": "gemini",
+      "article": "Speed to Fielding Is Not Speed to Combat Power"
+    },
+    {
+      "timestamp": "2026-09-29T01:36:37.969906+00:00",
+      "tier": "gemini",
+      "article": "Beyond the Tears"
+    },
+    {
+      "timestamp": "2026-09-29T01:37:10.178806+00:00",
+      "tier": "gemini",
+      "article": "Strait of Hormuz now IRGC's hunting ground for American UUVs"
     }
   ]
 }
