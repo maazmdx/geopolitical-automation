@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6739,
+  "total_calls": 6741,
   "tiers": {
     "groq": 6056,
-    "gemini": 683
+    "gemini": 685
   },
   "log": [
-    {
-      "timestamp": "2026-09-21T21:49:32.489317+00:00",
-      "tier": "gemini",
-      "article": "Saudi Escalates Attacks on Yemen - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-21T21:50:01.852608+00:00",
-      "tier": "gemini",
-      "article": "Kiev loses about 1,440 troops in special military operation zone in past day \u2014 top brass"
-    },
     {
       "timestamp": "2026-09-21T21:50:35.069061+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-29T16:25:07.958997+00:00",
       "tier": "gemini",
       "article": "Iraqis hold rallies protesting suspension of flights with Iran"
+    },
+    {
+      "timestamp": "2026-09-29T22:01:43.575166+00:00",
+      "tier": "gemini",
+      "article": "Saudi Warplanes Attacks Several Yemeni Cities - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-29T22:02:09.852178+00:00",
+      "tier": "gemini",
+      "article": "Hegseth to cut top generals, admirals \u2018by 20 percent\u2019 amid ongoing Pentagon shakeup"
     }
   ]
 }
