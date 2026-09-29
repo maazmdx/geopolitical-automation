@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6736,
+  "total_calls": 6739,
   "tiers": {
     "groq": 6056,
-    "gemini": 680
+    "gemini": 683
   },
   "log": [
-    {
-      "timestamp": "2026-09-21T09:53:15.234345+00:00",
-      "tier": "gemini",
-      "article": "In photos: Iraqi strikes on Iran\u2019s borders on the brink of war in 1980"
-    },
-    {
-      "timestamp": "2026-09-21T09:53:48.845936+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-21T16:22:01.353847+00:00",
-      "tier": "gemini",
-      "article": "FACTBOX: Russian strikes hit logistics center, port infrastructure facilities"
-    },
     {
       "timestamp": "2026-09-21T21:49:32.489317+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-29T01:37:10.178806+00:00",
       "tier": "gemini",
       "article": "Strait of Hormuz now IRGC's hunting ground for American UUVs"
+    },
+    {
+      "timestamp": "2026-09-29T16:24:18.023469+00:00",
+      "tier": "gemini",
+      "article": "Pentagon awards Raytheon up to $20.7 billion to nearly double AMRAAM production"
+    },
+    {
+      "timestamp": "2026-09-29T16:24:41.136346+00:00",
+      "tier": "gemini",
+      "article": "IN BRIEF: Locomotive depot, data centers in Kiev hit in Russian forces\u2019 group strike"
+    },
+    {
+      "timestamp": "2026-09-29T16:25:07.958997+00:00",
+      "tier": "gemini",
+      "article": "Iraqis hold rallies protesting suspension of flights with Iran"
     }
   ]
 }
