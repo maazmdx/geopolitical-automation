@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6741,
+  "total_calls": 6744,
   "tiers": {
     "groq": 6056,
-    "gemini": 685
+    "gemini": 688
   },
   "log": [
-    {
-      "timestamp": "2026-09-21T21:50:35.069061+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-22T00:39:51.637438+00:00",
-      "tier": "gemini",
-      "article": "Kiev seeks to destabilize Russia with election-day attacks \u2014 expert"
-    },
-    {
-      "timestamp": "2026-09-22T00:40:17.608041+00:00",
-      "tier": "gemini",
-      "article": "Israeli forces attack towns in Lebanon\u2019s Tyre"
-    },
     {
       "timestamp": "2026-09-22T07:30:45.254839+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-29T22:02:09.852178+00:00",
       "tier": "gemini",
       "article": "Hegseth to cut top generals, admirals \u2018by 20 percent\u2019 amid ongoing Pentagon shakeup"
+    },
+    {
+      "timestamp": "2026-09-30T04:41:19.220660+00:00",
+      "tier": "gemini",
+      "article": "Qatar PM slams Israel strike on Doha amid mediation efforts"
+    },
+    {
+      "timestamp": "2026-09-30T04:41:46.505050+00:00",
+      "tier": "gemini",
+      "article": "North Korea to boost tactical counterattack capabilities near border with South Korea"
+    },
+    {
+      "timestamp": "2026-09-30T04:42:12.219478+00:00",
+      "tier": "gemini",
+      "article": "Senior Gaza resistance commander Abu Hamza martyred in dawn raid"
     }
   ]
 }
