@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6744,
+  "total_calls": 6746,
   "tiers": {
     "groq": 6056,
-    "gemini": 688
+    "gemini": 690
   },
   "log": [
-    {
-      "timestamp": "2026-09-22T07:30:45.254839+00:00",
-      "tier": "gemini",
-      "article": "G7 foreign ministers demand Houthis halt strikes on Saudi Arabia"
-    },
-    {
-      "timestamp": "2026-09-22T07:31:11.163631+00:00",
-      "tier": "gemini",
-      "article": "More than 247,000 killed, wounded in Israeli genocide war in Gaza Strip"
-    },
     {
       "timestamp": "2026-09-22T07:31:36.156764+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-30T04:42:12.219478+00:00",
       "tier": "gemini",
       "article": "Senior Gaza resistance commander Abu Hamza martyred in dawn raid"
+    },
+    {
+      "timestamp": "2026-09-30T12:09:53.080226+00:00",
+      "tier": "gemini",
+      "article": "Israeli Strikes Kill Woman in Gaza City as Ceasefire Violations Continue - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-09-30T12:10:21.863257+00:00",
+      "tier": "gemini",
+      "article": "Girl has multiple surgeries to control infections after strike in Gaza"
     }
   ]
 }
