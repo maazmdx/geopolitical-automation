@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6746,
+  "total_calls": 6749,
   "tiers": {
     "groq": 6056,
-    "gemini": 690
+    "gemini": 693
   },
   "log": [
-    {
-      "timestamp": "2026-09-22T07:31:36.156764+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-22T13:13:50.903363+00:00",
-      "tier": "gemini",
-      "article": "Iran Can Strike Any Target It Chooses: Ghalibaf - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-22T13:14:17.729693+00:00",
-      "tier": "gemini",
-      "article": "Russian strikes on Ukraine kill three as Zelenskyy arrives for UN summit"
-    },
     {
       "timestamp": "2026-09-22T13:14:44.167024+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-09-30T12:10:21.863257+00:00",
       "tier": "gemini",
       "article": "Girl has multiple surgeries to control infections after strike in Gaza"
+    },
+    {
+      "timestamp": "2026-09-30T18:56:32.554221+00:00",
+      "tier": "gemini",
+      "article": "IRGC announces \u2018daily strikes\u2019 on violating ships in Hormuz, says \u2018US not responding\u2019"
+    },
+    {
+      "timestamp": "2026-09-30T18:56:58.524647+00:00",
+      "tier": "gemini",
+      "article": "US Navy selects Boeing to build next-generation F/A-XX fighter "
+    },
+    {
+      "timestamp": "2026-09-30T18:57:23.728221+00:00",
+      "tier": "gemini",
+      "article": "Why the Pentagon just dropped $450M on tungsten mining"
     }
   ]
 }
