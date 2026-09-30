@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6749,
+  "total_calls": 6751,
   "tiers": {
     "groq": 6056,
-    "gemini": 693
+    "gemini": 695
   },
   "log": [
-    {
-      "timestamp": "2026-09-22T13:14:44.167024+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-22T21:13:59.503741+00:00",
-      "tier": "gemini",
-      "article": "Russia\u2019s Defense Ministry reports use of Tsirkon missiles in nighttime strike on Ukraine"
-    },
     {
       "timestamp": "2026-09-22T21:14:26.115183+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-30T18:57:23.728221+00:00",
       "tier": "gemini",
       "article": "Why the Pentagon just dropped $450M on tungsten mining"
+    },
+    {
+      "timestamp": "2026-09-30T23:34:15.465121+00:00",
+      "tier": "gemini",
+      "article": "Ukraine in panic over relentless Russian strikes on military targets \u2014 expert"
+    },
+    {
+      "timestamp": "2026-09-30T23:34:40.988476+00:00",
+      "tier": "gemini",
+      "article": "IN BRIEF: 12 people, including students, injured in Ukrainian attack on Bryansk Region"
     }
   ]
 }
