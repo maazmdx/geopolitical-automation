@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6751,
+  "total_calls": 6753,
   "tiers": {
     "groq": 6056,
-    "gemini": 695
+    "gemini": 697
   },
   "log": [
-    {
-      "timestamp": "2026-09-22T21:14:26.115183+00:00",
-      "tier": "gemini",
-      "article": "Yemeni media: Saudi missile strikes target various areas in the border districts of Marran, Haydan, and Al-Dhahir, west of Saada Governorate in northern Yemen - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-22T21:14:48.346721+00:00",
-      "tier": "gemini",
-      "article": "Russian forces strike Ukrainian metallurgical, chemical industry sites \u2014 top brass"
-    },
     {
       "timestamp": "2026-09-23T00:08:10.038273+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-09-30T23:34:40.988476+00:00",
       "tier": "gemini",
       "article": "IN BRIEF: 12 people, including students, injured in Ukrainian attack on Bryansk Region"
+    },
+    {
+      "timestamp": "2026-10-01T04:53:05.652928+00:00",
+      "tier": "gemini",
+      "article": "Pakistan says 22 fighters killed in air attacks on Afghanistan hideouts"
+    },
+    {
+      "timestamp": "2026-10-01T04:53:29.640272+00:00",
+      "tier": "gemini",
+      "article": "Pakistani strikes kill at least nine people in Afghanistan \u2014 authorities"
     }
   ]
 }
