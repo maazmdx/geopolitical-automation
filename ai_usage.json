@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6753,
+  "total_calls": 6757,
   "tiers": {
     "groq": 6056,
-    "gemini": 697
+    "gemini": 701
   },
   "log": [
-    {
-      "timestamp": "2026-09-23T00:08:10.038273+00:00",
-      "tier": "gemini",
-      "article": "At least 150 killed in Yemen within two days amid indiscriminate Saudi air campaign"
-    },
-    {
-      "timestamp": "2026-09-23T00:08:34.945835+00:00",
-      "tier": "gemini",
-      "article": "IN BRIEF: Military-industrial, energy, metallurgy facilities hit in strike by Russian army"
-    },
-    {
-      "timestamp": "2026-09-23T00:08:58.071584+00:00",
-      "tier": "gemini",
-      "article": "US eyes $10bn fund to rebuild war-battered Gulf infrastructure"
-    },
-    {
-      "timestamp": "2026-09-23T07:31:58.145000+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
     {
       "timestamp": "2026-09-23T07:32:30.476252+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-01T04:53:29.640272+00:00",
       "tier": "gemini",
       "article": "Pakistani strikes kill at least nine people in Afghanistan \u2014 authorities"
+    },
+    {
+      "timestamp": "2026-10-01T12:42:55.172734+00:00",
+      "tier": "gemini",
+      "article": "Afghanistan says Pakistani airstrikes killed women and children"
+    },
+    {
+      "timestamp": "2026-10-01T12:43:20.651694+00:00",
+      "tier": "gemini",
+      "article": "11 Saudi Airstrikes on Saada in Less Than Two Hours - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-01T12:43:47.105800+00:00",
+      "tier": "gemini",
+      "article": "Death toll from Israel\u2019s genocidal war on Gaza rises to 74,04"
+    },
+    {
+      "timestamp": "2026-10-01T12:44:16.245029+00:00",
+      "tier": "gemini",
+      "article": "Iraqis celebrate the exit of US occupation forces after 23 years"
     }
   ]
 }
