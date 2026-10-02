@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6762,
+  "total_calls": 6765,
   "tiers": {
     "groq": 6056,
-    "gemini": 706
+    "gemini": 709
   },
   "log": [
-    {
-      "timestamp": "2026-09-23T13:28:36.701986+00:00",
-      "tier": "gemini",
-      "article": "Ukrainian troops almost completely driven out of Klinovoye by Russian forces \u2014 expert"
-    },
-    {
-      "timestamp": "2026-09-23T13:29:04.266995+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-23T18:19:21.840337+00:00",
-      "tier": "gemini",
-      "article": "Japan\u2019s military buildup raises an old question: Is militarism returning?"
-    },
     {
       "timestamp": "2026-09-23T18:19:49.994406+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-01T23:47:14.907826+00:00",
       "tier": "gemini",
       "article": "Houthis report new Saudi strikes on Sana\u2019a, other provinces"
+    },
+    {
+      "timestamp": "2026-10-02T04:44:12.266044+00:00",
+      "tier": "gemini",
+      "article": "Israeli drone kills Palestinian in Gaza, settlers kill another in West Bank"
+    },
+    {
+      "timestamp": "2026-10-02T04:44:35.863259+00:00",
+      "tier": "gemini",
+      "article": "US to deploy 10,000 troops, third aircraft carrier strike group to Middle East \u2014 newspaper"
+    },
+    {
+      "timestamp": "2026-10-02T04:45:07.797619+00:00",
+      "tier": "gemini",
+      "article": "Iraq's territory not to be used to threaten neighbours"
     }
   ]
 }
