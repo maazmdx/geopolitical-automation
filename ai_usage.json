@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6769,
+  "total_calls": 6773,
   "tiers": {
     "groq": 6056,
-    "gemini": 713
+    "gemini": 717
   },
   "log": [
-    {
-      "timestamp": "2026-09-24T03:49:01.478183+00:00",
-      "tier": "gemini",
-      "article": "Saudi warplanes strike Yemen over 50 times in one day"
-    },
-    {
-      "timestamp": "2026-09-24T09:07:55.260831+00:00",
-      "tier": "gemini",
-      "article": "Foreign reporters visit children injured in Ukrainian strikes in Donetsk"
-    },
-    {
-      "timestamp": "2026-09-24T09:08:23.069642+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-24T09:08:46.856268+00:00",
-      "tier": "gemini",
-      "article": "IN BRIEF: Russia's massive strike on defense facilities, logistics centers in Kiev, Odessa"
-    },
     {
       "timestamp": "2026-09-24T09:09:37.333450+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-02T12:08:51.680776+00:00",
       "tier": "gemini",
       "article": "Space Force picks two companies to build new \u2018space-to-space\u2019 satellites by 2028"
+    },
+    {
+      "timestamp": "2026-10-02T19:03:45.691310+00:00",
+      "tier": "gemini",
+      "article": "Iranian crew declared Dena training vessel &#039;unarmed&#039; to US warship before deadly torpedo strike: Report"
+    },
+    {
+      "timestamp": "2026-10-02T19:04:08.716081+00:00",
+      "tier": "gemini",
+      "article": "Iskander-M, Tornado-S crews launch coordinated missile strike against 'enemy'"
+    },
+    {
+      "timestamp": "2026-10-02T19:04:32.501258+00:00",
+      "tier": "gemini",
+      "article": "Su-57 aircraft provides cover for helicopters during strike on UAV control post"
+    },
+    {
+      "timestamp": "2026-10-02T19:05:04.972118+00:00",
+      "tier": "gemini",
+      "article": "3 UAE-owned tankers hit after breaching Hormuz rules"
     }
   ]
 }
