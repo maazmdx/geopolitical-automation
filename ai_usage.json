@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6773,
+  "total_calls": 6776,
   "tiers": {
     "groq": 6056,
-    "gemini": 717
+    "gemini": 720
   },
   "log": [
-    {
-      "timestamp": "2026-09-24T09:09:37.333450+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-24T14:42:54.681926+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-24T14:43:19.794055+00:00",
-      "tier": "gemini",
-      "article": "Israeli Raids Hit Outskirts of Al-Qantara, Houla, and Al-Mansouri as Enemy Expands So-Called \u2018Security Zone\u2019 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-09-24T14:43:53.373897+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-02T19:05:04.972118+00:00",
       "tier": "gemini",
       "article": "3 UAE-owned tankers hit after breaching Hormuz rules"
+    },
+    {
+      "timestamp": "2026-10-02T23:38:45.940255+00:00",
+      "tier": "gemini",
+      "article": "US deploys Patriot missiles to Saudi Arabia, Qatar amid threats to renew attacks on Iran: Report"
+    },
+    {
+      "timestamp": "2026-10-02T23:39:09.150740+00:00",
+      "tier": "gemini",
+      "article": "Israeli Attacks on South Lebanon Continue as MP Kaakour Defends Right to Pursue Enemy - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-02T23:39:37.736659+00:00",
+      "tier": "gemini",
+      "article": "Ansarallah forces advance toward Taiz city amid wave of Saudi airstrikes"
     }
   ]
 }
