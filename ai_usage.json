@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6783,
+  "total_calls": 6787,
   "tiers": {
     "groq": 6056,
-    "gemini": 727
+    "gemini": 731
   },
   "log": [
-    {
-      "timestamp": "2026-09-25T11:27:16.712603+00:00",
-      "tier": "gemini",
-      "article": "Stubb asks Musk to allow to use Starlink to launch strikes deep into Russia"
-    },
-    {
-      "timestamp": "2026-09-25T11:27:40.211935+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-25T11:28:03.060237+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-25T16:51:52.562195+00:00",
-      "tier": "gemini",
-      "article": "One killed, another injured in drone attack on Gorlovka market"
-    },
     {
       "timestamp": "2026-09-25T16:52:19.419659+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-03T11:20:39.836233+00:00",
       "tier": "gemini",
       "article": "Trump sons-linked Powerus seeks Ukrainian drone tech for Pentagon"
+    },
+    {
+      "timestamp": "2026-10-03T15:56:54.146339+00:00",
+      "tier": "gemini",
+      "article": "Five killed as Kyiv and Moscow trade strikes, Russia hits second bridge"
+    },
+    {
+      "timestamp": "2026-10-03T15:57:18.193116+00:00",
+      "tier": "gemini",
+      "article": "Top US officials discuss renewed war in Iran, Yemen intervention: Report"
+    },
+    {
+      "timestamp": "2026-10-03T15:57:45.319889+00:00",
+      "tier": "gemini",
+      "article": "Israeli Enemy Launch Wave of Attacks Across Southern Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-03T15:58:11.736183+00:00",
+      "tier": "gemini",
+      "article": "Iran to use technological surprises against enemy in future"
     }
   ]
 }
