@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6788,
+  "total_calls": 6790,
   "tiers": {
     "groq": 6056,
-    "gemini": 732
+    "gemini": 734
   },
   "log": [
-    {
-      "timestamp": "2026-09-25T16:52:50.357749+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-25T16:53:14.603997+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
     {
       "timestamp": "2026-09-25T21:16:24.520879+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-03T19:06:44.167520+00:00",
       "tier": "gemini",
       "article": "General Saree Reports More Saudi Attacks on Yemen - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-03T22:46:00.795446+00:00",
+      "tier": "gemini",
+      "article": "Funeral held at Gaza church for mother and daughter killed in Gaza strike"
+    },
+    {
+      "timestamp": "2026-10-03T22:46:27.407410+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Foreign Ministry warns of reciprocal response to Saudi attacks, blockade"
     }
   ]
 }
