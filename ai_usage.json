@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6787,
+  "total_calls": 6788,
   "tiers": {
     "groq": 6056,
-    "gemini": 731
+    "gemini": 732
   },
   "log": [
-    {
-      "timestamp": "2026-09-25T16:52:19.419659+00:00",
-      "tier": "gemini",
-      "article": "Belousov briefed on drone use by Battlegroup North"
-    },
     {
       "timestamp": "2026-09-25T16:52:50.357749+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-03T15:58:11.736183+00:00",
       "tier": "gemini",
       "article": "Iran to use technological surprises against enemy in future"
+    },
+    {
+      "timestamp": "2026-10-03T19:06:44.167520+00:00",
+      "tier": "gemini",
+      "article": "General Saree Reports More Saudi Attacks on Yemen - Al-Manar TV Lebanon"
     }
   ]
 }
