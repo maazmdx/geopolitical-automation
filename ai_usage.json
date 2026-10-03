@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6779,
+  "total_calls": 6783,
   "tiers": {
     "groq": 6056,
-    "gemini": 723
+    "gemini": 727
   },
   "log": [
-    {
-      "timestamp": "2026-09-24T19:54:27.802340+00:00",
-      "tier": "gemini",
-      "article": "Houthis claim hit on several Saudi military facilities"
-    },
-    {
-      "timestamp": "2026-09-24T23:06:15.831561+00:00",
-      "tier": "gemini",
-      "article": "Dozens of Yemeni Ballistic Missiles Preemptively Strike Saudi Army in Jizan: Hundreds Dead or Injured - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-25T04:04:43.891966+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-25T11:26:47.526231+00:00",
-      "tier": "gemini",
-      "article": "IN BRIEF: Man killed in drone attack on Perm Region as Russia downs 592 UAVs overnight"
-    },
     {
       "timestamp": "2026-09-25T11:27:16.712603+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-03T04:27:52.200021+00:00",
       "tier": "gemini",
       "article": "COFO28: Iran outlines measures and programs in forestry sector"
+    },
+    {
+      "timestamp": "2026-10-03T11:19:22.288857+00:00",
+      "tier": "gemini",
+      "article": "Yemeni military neutralizes over 1,500 Houthis in past day"
+    },
+    {
+      "timestamp": "2026-10-03T11:19:48.024955+00:00",
+      "tier": "gemini",
+      "article": "Russian Foreign Ministry warns foreigners, diplomats against staying in Ukraine"
+    },
+    {
+      "timestamp": "2026-10-03T11:20:14.621535+00:00",
+      "tier": "gemini",
+      "article": "Covert strike behind enemy lines with underground routes practiced at Center-2026 drills"
+    },
+    {
+      "timestamp": "2026-10-03T11:20:39.836233+00:00",
+      "tier": "gemini",
+      "article": "Trump sons-linked Powerus seeks Ukrainian drone tech for Pentagon"
     }
   ]
 }
