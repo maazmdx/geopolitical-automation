@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6776,
+  "total_calls": 6779,
   "tiers": {
     "groq": 6056,
-    "gemini": 720
+    "gemini": 723
   },
   "log": [
-    {
-      "timestamp": "2026-09-24T14:43:53.373897+00:00",
-      "tier": "gemini",
-      "article": "More than 247,000 killed, wounded in Israeli genocide war in Gaza Strip"
-    },
-    {
-      "timestamp": "2026-09-24T14:44:18.457956+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-24T19:54:00.260745+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Cruise Missiles Strike Riyadh - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-09-24T19:54:27.802340+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-02T23:39:37.736659+00:00",
       "tier": "gemini",
       "article": "Ansarallah forces advance toward Taiz city amid wave of Saudi airstrikes"
+    },
+    {
+      "timestamp": "2026-10-03T04:27:02.188055+00:00",
+      "tier": "gemini",
+      "article": "Israeli air attack on Gaza City apartment kills at least five"
+    },
+    {
+      "timestamp": "2026-10-03T04:27:25.171658+00:00",
+      "tier": "gemini",
+      "article": "North Korea fires ballistic missile towards the sea, South Korea says"
+    },
+    {
+      "timestamp": "2026-10-03T04:27:52.200021+00:00",
+      "tier": "gemini",
+      "article": "COFO28: Iran outlines measures and programs in forestry sector"
     }
   ]
 }
