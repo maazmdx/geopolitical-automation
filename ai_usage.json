@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6796,
+  "total_calls": 6800,
   "tiers": {
     "groq": 6056,
-    "gemini": 740
+    "gemini": 744
   },
   "log": [
-    {
-      "timestamp": "2026-09-26T07:16:18.096025+00:00",
-      "tier": "gemini",
-      "article": "Purpose of Ukrainian attacks against Russian marketplaces unclear \u2014 Putin"
-    },
-    {
-      "timestamp": "2026-09-26T07:16:49.378786+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-26T12:47:13.242514+00:00",
-      "tier": "gemini",
-      "article": "Wave of Fresh Israeli Attacks Hits Southern Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-26T12:47:39.732325+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
     {
       "timestamp": "2026-09-26T12:48:02.127482+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-04T11:59:46.039324+00:00",
       "tier": "gemini",
       "article": "Taiwan receives first new F-16 fighter jets"
+    },
+    {
+      "timestamp": "2026-10-04T16:48:14.063202+00:00",
+      "tier": "gemini",
+      "article": "Houthis claim missile and drone strikes on Saudi Aramco facilities"
+    },
+    {
+      "timestamp": "2026-10-04T16:48:39.064964+00:00",
+      "tier": "gemini",
+      "article": "Russian Defense Ministry says it strikes Kiev in response to Kiev regime\u2019s actions"
+    },
+    {
+      "timestamp": "2026-10-04T16:49:10.393492+00:00",
+      "tier": "gemini",
+      "article": "Yemeni army conducts 2 successful ops. deep inside S. Arabia"
+    },
+    {
+      "timestamp": "2026-10-04T16:49:37.438067+00:00",
+      "tier": "gemini",
+      "article": "Thousands of Germans demonstrators oppose rearmament, urge dialogue with Russia"
     }
   ]
 }
