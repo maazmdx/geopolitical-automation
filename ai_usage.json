@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6800,
+  "total_calls": 6801,
   "tiers": {
     "groq": 6056,
-    "gemini": 744
+    "gemini": 745
   },
   "log": [
-    {
-      "timestamp": "2026-09-26T12:48:02.127482+00:00",
-      "tier": "gemini",
-      "article": "It was Kiev to start attacking civilian infrastructure, Putin says"
-    },
     {
       "timestamp": "2026-09-26T12:48:29.064570+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-04T16:49:37.438067+00:00",
       "tier": "gemini",
       "article": "Thousands of Germans demonstrators oppose rearmament, urge dialogue with Russia"
+    },
+    {
+      "timestamp": "2026-10-04T21:02:51.653417+00:00",
+      "tier": "gemini",
+      "article": "Air strike in Sudan kills UN aid truck driver: WFP"
     }
   ]
 }
