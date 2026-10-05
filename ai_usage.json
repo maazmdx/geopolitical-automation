@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6807,
+  "total_calls": 6811,
   "tiers": {
     "groq": 6056,
-    "gemini": 751
+    "gemini": 755
   },
   "log": [
-    {
-      "timestamp": "2026-09-27T00:21:31.531672+00:00",
-      "tier": "gemini",
-      "article": "Deadly shooting hits Caribbean islands of Saint Vincent and the Grenadines"
-    },
-    {
-      "timestamp": "2026-09-27T00:21:56.860206+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-27T00:22:20.155801+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Military Media: Stay tuned this afternoon\u2014at 4:00 PM\u2014for new footage showing strikes on Saudi regime troop concentrations and vehicles using \u201cRujoum\u201d drones across several fronts - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-27T07:47:35.615733+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
     {
       "timestamp": "2026-09-27T07:47:58.091737+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-05T08:41:37.806003+00:00",
       "tier": "gemini",
       "article": "Russian forces advance in northern, central parts of Dobropolye in DPR \u2014 ministry"
+    },
+    {
+      "timestamp": "2026-10-05T19:08:45.782387+00:00",
+      "tier": "gemini",
+      "article": "Saudi Arabia claims &#039;100 warplanes&#039; bombing Yemen as civilian casualties mount"
+    },
+    {
+      "timestamp": "2026-10-05T19:09:10.534477+00:00",
+      "tier": "gemini",
+      "article": "4 killed in US strike on alleged drug boat in Caribbean"
+    },
+    {
+      "timestamp": "2026-10-05T19:09:38.285549+00:00",
+      "tier": "gemini",
+      "article": "Fourteen commercial ships attacked in Strait of Hormuz in September"
+    },
+    {
+      "timestamp": "2026-10-05T19:10:08.284392+00:00",
+      "tier": "gemini",
+      "article": "No US vessels in Persian Gulf, Hormuz, or northern Indian Ocean: IRGC adviser"
     }
   ]
 }
