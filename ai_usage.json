@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6819,
+  "total_calls": 6822,
   "tiers": {
     "groq": 6056,
-    "gemini": 763
+    "gemini": 766
   },
   "log": [
-    {
-      "timestamp": "2026-09-27T18:08:52.412938+00:00",
-      "tier": "gemini",
-      "article": "Strong earthquake strikes southern Japan, no impact on nuclear plants"
-    },
-    {
-      "timestamp": "2026-09-27T18:09:16.858384+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-27T22:53:42.639591+00:00",
-      "tier": "gemini",
-      "article": "Deadly strike hits market in Yemen\u2019s Taiz"
-    },
     {
       "timestamp": "2026-09-27T22:54:20.307367+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-06T16:37:16.388946+00:00",
       "tier": "gemini",
       "article": "Saudi Arabia urged to spare Sri Lankan sentenced to death over Facebook post"
+    },
+    {
+      "timestamp": "2026-10-06T22:29:49.441294+00:00",
+      "tier": "gemini",
+      "article": "Houthis, Saudi-led forces claim victories as Yemen fighting rages on"
+    },
+    {
+      "timestamp": "2026-10-06T22:30:14.357203+00:00",
+      "tier": "gemini",
+      "article": "Houthis report striking coalition forces near Bab el-Mandeb Strait with 10 missiles"
+    },
+    {
+      "timestamp": "2026-10-06T22:30:50.745278+00:00",
+      "tier": "gemini",
+      "article": "Kindling, Catalyst, and Containment: Will the West Bank Ignite?"
     }
   ]
 }
