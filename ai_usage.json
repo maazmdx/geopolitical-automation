@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6812,
+  "total_calls": 6816,
   "tiers": {
     "groq": 6056,
-    "gemini": 756
+    "gemini": 760
   },
   "log": [
-    {
-      "timestamp": "2026-09-27T07:48:21.518410+00:00",
-      "tier": "gemini",
-      "article": "Iran to respond to any aggression with new military technologies: Armed Forces"
-    },
-    {
-      "timestamp": "2026-09-27T07:48:46.792447+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-27T13:40:11.761081+00:00",
-      "tier": "gemini",
-      "article": "Israeli strikes pound south Lebanon after Hezbollah drone targets occupation forces"
-    },
-    {
-      "timestamp": "2026-09-27T13:40:39.818795+00:00",
-      "tier": "gemini",
-      "article": "Iran Warns It Will Strike US Warships Across Indian Ocean If New War Erupts, Top IRGC Commander Says - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-09-27T13:41:10.053517+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-06T01:14:50.010933+00:00",
       "tier": "gemini",
       "article": "Increased strikes on Ukraine aimed at preventing attacks on Russian economy \u2014 envoy"
+    },
+    {
+      "timestamp": "2026-10-06T08:45:41.062652+00:00",
+      "tier": "gemini",
+      "article": "Iran Faces Severe Challenges to Rebuild Missile and Drone Production"
+    },
+    {
+      "timestamp": "2026-10-06T08:46:05.964234+00:00",
+      "tier": "gemini",
+      "article": "Iran Army to introduce new war equipment in proper time"
+    },
+    {
+      "timestamp": "2026-10-06T08:46:33.601199+00:00",
+      "tier": "gemini",
+      "article": "Armed Forces spokesperson Brigadier General Yahya Saree: More than 200 members of the enemy forces were killed or wounded in dozens of strikes carried out by our forces in Ras al-Ara and al-Suqya - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-06T08:46:59.179509+00:00",
+      "tier": "gemini",
+      "article": "Russian troops liberate Samoilovka community in Zaporozhye Region in past day \u2014 top brass"
     }
   ]
 }
