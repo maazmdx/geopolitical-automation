@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6811,
+  "total_calls": 6812,
   "tiers": {
     "groq": 6056,
-    "gemini": 755
+    "gemini": 756
   },
   "log": [
-    {
-      "timestamp": "2026-09-27T07:47:58.091737+00:00",
-      "tier": "gemini",
-      "article": "South Lebanon: Occupation Forces Unleash Midnight Attacks - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-09-27T07:48:21.518410+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-05T19:10:08.284392+00:00",
       "tier": "gemini",
       "article": "No US vessels in Persian Gulf, Hormuz, or northern Indian Ocean: IRGC adviser"
+    },
+    {
+      "timestamp": "2026-10-06T01:14:50.010933+00:00",
+      "tier": "gemini",
+      "article": "Increased strikes on Ukraine aimed at preventing attacks on Russian economy \u2014 envoy"
     }
   ]
 }
