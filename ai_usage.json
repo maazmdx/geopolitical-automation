@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6822,
+  "total_calls": 6826,
   "tiers": {
     "groq": 6056,
-    "gemini": 766
+    "gemini": 770
   },
   "log": [
-    {
-      "timestamp": "2026-09-27T22:54:20.307367+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-28T04:25:30.576043+00:00",
-      "tier": "gemini",
-      "article": "Hezbollah marks second anniversary of Sayyed Nasrallah\u2019s martyrdom with vows of continued resistance"
-    },
-    {
-      "timestamp": "2026-09-28T04:25:58.883452+00:00",
-      "tier": "gemini",
-      "article": "MP urges tighter border controls after Ukrainian man kills priest in Poland\u00a0"
-    },
-    {
-      "timestamp": "2026-09-28T13:17:49.726755+00:00",
-      "tier": "gemini",
-      "article": "Iranian missile strike injured eight US Marines \u2013 NBC"
-    },
     {
       "timestamp": "2026-09-28T13:18:15.957998+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-06T22:30:50.745278+00:00",
       "tier": "gemini",
       "article": "Kindling, Catalyst, and Containment: Will the West Bank Ignite?"
+    },
+    {
+      "timestamp": "2026-10-07T12:56:41.338470+00:00",
+      "tier": "gemini",
+      "article": "US warned Riyadh about growing Houthi threat for several months \u2014 media"
+    },
+    {
+      "timestamp": "2026-10-07T12:57:06.402738+00:00",
+      "tier": "gemini",
+      "article": "Yemen\u2019s Houthis say they struck airport, air base in Saudi Arabia"
+    },
+    {
+      "timestamp": "2026-10-07T12:57:31.307117+00:00",
+      "tier": "gemini",
+      "article": "Russian aircraft strike Ukrainian temporary deployment sites in DPR, Zaporozhye"
+    },
+    {
+      "timestamp": "2026-10-07T12:57:56.821926+00:00",
+      "tier": "gemini",
+      "article": "Iran urges France to respect HR principles, avoid repression"
     }
   ]
 }
