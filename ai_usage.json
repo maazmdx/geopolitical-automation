@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6826,
+  "total_calls": 6828,
   "tiers": {
     "groq": 6056,
-    "gemini": 770
+    "gemini": 772
   },
   "log": [
-    {
-      "timestamp": "2026-09-28T13:18:15.957998+00:00",
-      "tier": "gemini",
-      "article": "Saudi FM arrives in Washington as Yemen reports over 1,000 airstrikes since July"
-    },
-    {
-      "timestamp": "2026-09-28T13:18:45.152608+00:00",
-      "tier": "gemini",
-      "article": "Iranian cruise missile hit US vessel, injured several Marines onboard: Report"
-    },
     {
       "timestamp": "2026-09-28T13:19:13.714972+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-07T12:57:56.821926+00:00",
       "tier": "gemini",
       "article": "Iran urges France to respect HR principles, avoid repression"
+    },
+    {
+      "timestamp": "2026-10-07T19:52:52.140342+00:00",
+      "tier": "gemini",
+      "article": "Iranian army to decisively strike US forces should they launch ground operation \u2014 TV"
+    },
+    {
+      "timestamp": "2026-10-07T19:53:21.376335+00:00",
+      "tier": "gemini",
+      "article": "IRGC: Al-Aqsa Storm was beginning of end for Zionism"
     }
   ]
 }
