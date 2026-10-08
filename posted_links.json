@@ -1,4 +1,34 @@
 {
+  "915452132cb4851d5ff39d0297420b1c5f5b0d5879594a93b1aca1066e8a841a": {
+    "url": "BellumActaNews/177622",
+    "title": "\ud83c\uddfa\ud83c\uddf8\ud83e\udd1d\ud83c\uddec\ud83c\uddf7 \u2014 US Secretary of State Marco Rubio from the Parthenon:Across this contine",
+    "published": "2026-10-08T00:11:04.734888+00:00"
+  },
+  "f4ff4f19f240a1878b405dc23c1c980f78704a69daca02e4dedb5a1e34a3f3c7": {
+    "url": "warmonitors/45932",
+    "title": "\u26a1The death toll from a Russian missile strike on a residential building in Prylu",
+    "published": "2026-10-08T00:08:52.254115+00:00"
+  },
+  "97a10e78302465450ac9594c9675305a2a41f602c93d31779d65a3c4c47cc2cf": {
+    "url": "DDGeopolitics/195021",
+    "title": "\ud83c\uddfa\ud83c\udde6\ud83e\uddc5 Farmers in Nikolayev region are dumping tons of onions, local channels repor",
+    "published": "2026-10-08T00:07:39.692137+00:00"
+  },
+  "1e5df2fd7074e96ea51f1faa7249bddf3703174ffc50dc2c580b94ac24d05787": {
+    "url": "DDGeopolitics/195022",
+    "title": "\ud83c\uddfa\ud83c\udde6\ud83d\udcacPower and water cut in Kiev after a drone attackUkrainian channels report tha",
+    "published": "2026-10-08T00:06:44.064267+00:00"
+  },
+  "61154a1ff73ad9f10decbc95bf4fac0c66e9b76407630e8aba9aca5743df223d": {
+    "url": "thecradlemedia/69031",
+    "title": "IEA Accelerates 100 Million Barrel Oil Release Amid Hormuz Closure Fuel Price Surge",
+    "published": "2026-10-08T00:06:27.157871+00:00"
+  },
+  "13b7703f3955e941cbaf489cb76d19dd1b002df6657d3d7b6f1e3a9acf00b7af": {
+    "url": "thecradlemedia/69033",
+    "title": "\u2757\ufe0fTurkiye providing Saudi Arabia with 'defensive' support in light of Ansarallah",
+    "published": "2026-10-08T00:06:17.156683+00:00"
+  },
   "5bd4e9a1376cada6b09e177317f5e53259fae2d48d77bd176f3b3b41c01e636e": {
     "url": "DDGeopolitics/195028",
     "title": "Former President Trump Claims Unrivaled Nobel Prize Deservingness",
@@ -28,6 +58,11 @@
     "url": "thecradlemedia/69037",
     "title": "Israeli Forces Intensify Artillery Strikes in Southern Lebanon, Merkava Tank Shells Kfar Shuba Outskirts",
     "published": "2026-10-07T19:54:58.456923+00:00"
+  },
+  "fd21833bd4a700d21fd967cad4a6237f31157302f892040e3d70e23093b993ad": {
+    "url": "https://tass.com/politics/2198887",
+    "title": "Missile production plant in Ukraine halts production after Russian strikes",
+    "published": "2026-10-07T14:29:44+00:00"
   },
   "81af4f2bc8b1337dc50222fa6e87c98d48cdfac98834909d6a89f6f97adfceca": {
     "url": "https://tass.com/world/2198879",
@@ -713,40 +748,5 @@
     "url": "https://thecradle.co/articles-id/40320",
     "title": "Top US officials discuss renewed war in Iran, Yemen intervention: Report",
     "published": "2026-10-03T13:27:05+00:00"
-  },
-  "bea985726e47b652dd0c9eacf880f5e24fcd74273cf7e6f450fbd7c03804c2a3": {
-    "url": "https://www.aljazeera.com/news/2026/10/3/five-killed-as-kyiv-and-moscow-trade-strikes-russia-hits-second-bridge?traffic_source=rss",
-    "title": "Five killed as Kyiv and Moscow trade strikes, Russia hits second bridge",
-    "published": "2026-10-03T12:55:54+00:00"
-  },
-  "71fb54178a9e58100882371f85495da29def1e98665fa296e3ce1eed21f2257f": {
-    "url": "https://www.rt.com/news/646660-us-f16-delivered-taiwan/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "Taiwan receives first new F-16 fighter jets",
-    "published": "2026-10-03T12:46:25+00:00"
-  },
-  "c2192d001145c7bc89714391877fa183f580c06eb8b8ae52701bc9195fd2c343": {
-    "url": "https://english.almanar.com.lb/article/133902/",
-    "title": "Israeli Enemy Launch Wave of Attacks Across Southern Lebanon - Al-Manar TV Lebanon",
-    "published": "2026-10-03T12:19:07+00:00"
-  },
-  "e5ae817f08d63c5c291833edd39419147cac1f2ada419dc2537373d0e3b9b829": {
-    "url": "DDGeopolitics/194591",
-    "title": "Russia Showcases Advanced Robotic Combat Vehicles at Center-2026 Exercises",
-    "published": "2026-10-03T11:29:45.853327+00:00"
-  },
-  "43fddd41de35564a23d3eaf347ac84c5a5b32cdeb05db982acc8e8644e845142": {
-    "url": "DDGeopolitics/194593",
-    "title": "Ansarallah Forces Capture Saudi-Backed Troops Amid Intensified Taiz Offensive",
-    "published": "2026-10-03T11:26:38.697590+00:00"
-  },
-  "06589ae10af792dbbb49ca1a6315cbdd008d07db1b9d65931dfb1fab93f9a6df": {
-    "url": "thecradlemedia/68805",
-    "title": "Israeli Settlers Target Palestinian Olive Harvesters in West Bank Amid Security Force Protection",
-    "published": "2026-10-03T11:23:46.798023+00:00"
-  },
-  "1d69752c59b6ccabe796eee752b10f6ebb66cc4531f48d704dd9a1b1683dabf3": {
-    "url": "thecradlemedia/68813",
-    "title": "Trump Security Team Holds Covert Camp David Talks on Iran, Yemen Operations",
-    "published": "2026-10-03T11:21:43.281676+00:00"
   }
 }

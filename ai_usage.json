@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6828,
+  "total_calls": 6829,
   "tiers": {
     "groq": 6056,
-    "gemini": 772
+    "gemini": 773
   },
   "log": [
-    {
-      "timestamp": "2026-09-28T13:19:13.714972+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
     {
       "timestamp": "2026-09-28T20:27:05.203789+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-07T19:53:21.376335+00:00",
       "tier": "gemini",
       "article": "IRGC: Al-Aqsa Storm was beginning of end for Zionism"
+    },
+    {
+      "timestamp": "2026-10-08T00:05:40.197108+00:00",
+      "tier": "gemini",
+      "article": "Missile production plant in Ukraine halts production after Russian strikes"
     }
   ]
 }
