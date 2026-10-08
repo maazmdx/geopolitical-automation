@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6831,
+  "total_calls": 6835,
   "tiers": {
     "groq": 6056,
-    "gemini": 775
+    "gemini": 779
   },
   "log": [
-    {
-      "timestamp": "2026-09-28T20:28:00.733628+00:00",
-      "tier": "gemini",
-      "article": "Saudi jets strike school, residential villages in Yemen"
-    },
-    {
-      "timestamp": "2026-09-28T20:28:29.715795+00:00",
-      "tier": "gemini",
-      "article": "Regional leaders discuss security, cooperation amid Middle East tensions"
-    },
-    {
-      "timestamp": "2026-09-29T01:36:10.607293+00:00",
-      "tier": "gemini",
-      "article": "Speed to Fielding Is Not Speed to Combat Power"
-    },
-    {
-      "timestamp": "2026-09-29T01:36:37.969906+00:00",
-      "tier": "gemini",
-      "article": "Beyond the Tears"
-    },
     {
       "timestamp": "2026-09-29T01:37:10.178806+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-08T08:35:25.730008+00:00",
       "tier": "gemini",
       "article": "AFP photographer beaten by Israeli settlers in West Bank"
+    },
+    {
+      "timestamp": "2026-10-08T17:18:10.705992+00:00",
+      "tier": "gemini",
+      "article": "Houthis report new strikes on Saudi airports, air base"
+    },
+    {
+      "timestamp": "2026-10-08T17:18:34.064913+00:00",
+      "tier": "gemini",
+      "article": "General Saree Announces More Yemeni Missile Attacks on Saudi Airports - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-08T17:19:04.869242+00:00",
+      "tier": "gemini",
+      "article": "Achieving Breakthrough: Maneuver Warfare in the Face of Robotic Mass"
+    },
+    {
+      "timestamp": "2026-10-08T17:19:30.428514+00:00",
+      "tier": "gemini",
+      "article": "Gen. Abdollahi: Al-Aqsa storm operation exceeded Zionist regime\u2019s expectations"
     }
   ]
 }
