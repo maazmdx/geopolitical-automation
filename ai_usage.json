@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6835,
+  "total_calls": 6837,
   "tiers": {
     "groq": 6056,
-    "gemini": 779
+    "gemini": 781
   },
   "log": [
-    {
-      "timestamp": "2026-09-29T01:37:10.178806+00:00",
-      "tier": "gemini",
-      "article": "Strait of Hormuz now IRGC's hunting ground for American UUVs"
-    },
-    {
-      "timestamp": "2026-09-29T16:24:18.023469+00:00",
-      "tier": "gemini",
-      "article": "Pentagon awards Raytheon up to $20.7 billion to nearly double AMRAAM production"
-    },
     {
       "timestamp": "2026-09-29T16:24:41.136346+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-08T17:19:30.428514+00:00",
       "tier": "gemini",
       "article": "Gen. Abdollahi: Al-Aqsa storm operation exceeded Zionist regime\u2019s expectations"
+    },
+    {
+      "timestamp": "2026-10-08T23:05:52.400999+00:00",
+      "tier": "gemini",
+      "article": "Yemen strikes Riyadh airport with ballistic missile"
+    },
+    {
+      "timestamp": "2026-10-08T23:06:21.909027+00:00",
+      "tier": "gemini",
+      "article": "Hurricane Isaias charges towards the US Gulf Coast with dangerous winds"
     }
   ]
 }
