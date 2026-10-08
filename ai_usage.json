@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6829,
+  "total_calls": 6831,
   "tiers": {
     "groq": 6056,
-    "gemini": 773
+    "gemini": 775
   },
   "log": [
-    {
-      "timestamp": "2026-09-28T20:27:05.203789+00:00",
-      "tier": "gemini",
-      "article": "General Saree Reports More Saudi Attacks on Yemen - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-28T20:27:33.441796+00:00",
-      "tier": "gemini",
-      "article": "Report: Eight US Marines wounded in Iranian strike near Strait of Hormuz"
-    },
     {
       "timestamp": "2026-09-28T20:28:00.733628+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-08T00:05:40.197108+00:00",
       "tier": "gemini",
       "article": "Missile production plant in Ukraine halts production after Russian strikes"
+    },
+    {
+      "timestamp": "2026-10-08T08:34:57.751212+00:00",
+      "tier": "gemini",
+      "article": "Saudi Arabia confirms three dead in Houthi strikes on its airports"
+    },
+    {
+      "timestamp": "2026-10-08T08:35:25.730008+00:00",
+      "tier": "gemini",
+      "article": "AFP photographer beaten by Israeli settlers in West Bank"
     }
   ]
 }
