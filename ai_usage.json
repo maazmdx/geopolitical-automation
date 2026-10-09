@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6843,
+  "total_calls": 6847,
   "tiers": {
     "groq": 6056,
-    "gemini": 787
+    "gemini": 791
   },
   "log": [
-    {
-      "timestamp": "2026-09-30T04:42:12.219478+00:00",
-      "tier": "gemini",
-      "article": "Senior Gaza resistance commander Abu Hamza martyred in dawn raid"
-    },
-    {
-      "timestamp": "2026-09-30T12:09:53.080226+00:00",
-      "tier": "gemini",
-      "article": "Israeli Strikes Kill Woman in Gaza City as Ceasefire Violations Continue - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-30T12:10:21.863257+00:00",
-      "tier": "gemini",
-      "article": "Girl has multiple surgeries to control infections after strike in Gaza"
-    },
-    {
-      "timestamp": "2026-09-30T18:56:32.554221+00:00",
-      "tier": "gemini",
-      "article": "IRGC announces \u2018daily strikes\u2019 on violating ships in Hormuz, says \u2018US not responding\u2019"
-    },
     {
       "timestamp": "2026-09-30T18:56:58.524647+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-09T12:52:16.687118+00:00",
       "tier": "gemini",
       "article": "Brazil election: How a Bolsonaro comeback could reshape BRICS"
+    },
+    {
+      "timestamp": "2026-10-09T19:21:16.669184+00:00",
+      "tier": "gemini",
+      "article": "Iran to hold nothing back in responding to new US, Israeli attacks \u2014 source"
+    },
+    {
+      "timestamp": "2026-10-09T19:21:44.987267+00:00",
+      "tier": "gemini",
+      "article": "Saudi Arabia will never break Yemen\u2019s resistance: Ansarallah leader"
+    },
+    {
+      "timestamp": "2026-10-09T19:22:07.912219+00:00",
+      "tier": "gemini",
+      "article": "Zionist Enemy Carries Out a Number of Airstrikes in Southern Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-09T19:22:34.475518+00:00",
+      "tier": "gemini",
+      "article": "Berlin counts domestic spending as Ukraine aid \u2013 Kiel Institute"
     }
   ]
 }
