@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6839,
+  "total_calls": 6843,
   "tiers": {
     "groq": 6056,
-    "gemini": 783
+    "gemini": 787
   },
   "log": [
-    {
-      "timestamp": "2026-09-29T22:01:43.575166+00:00",
-      "tier": "gemini",
-      "article": "Saudi Warplanes Attacks Several Yemeni Cities - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-09-29T22:02:09.852178+00:00",
-      "tier": "gemini",
-      "article": "Hegseth to cut top generals, admirals \u2018by 20 percent\u2019 amid ongoing Pentagon shakeup"
-    },
-    {
-      "timestamp": "2026-09-30T04:41:19.220660+00:00",
-      "tier": "gemini",
-      "article": "Qatar PM slams Israel strike on Doha amid mediation efforts"
-    },
-    {
-      "timestamp": "2026-09-30T04:41:46.505050+00:00",
-      "tier": "gemini",
-      "article": "North Korea to boost tactical counterattack capabilities near border with South Korea"
-    },
     {
       "timestamp": "2026-09-30T04:42:12.219478+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-09T05:16:28.656294+00:00",
       "tier": "gemini",
       "article": "Pakistani jets strike Yemen as Turkiye deploys hundreds of troops to support Saudi war: Report"
+    },
+    {
+      "timestamp": "2026-10-09T12:50:50.967499+00:00",
+      "tier": "gemini",
+      "article": "Houthis strike Saudi airports after \u2018final warning\u2019 (VIDEOS)"
+    },
+    {
+      "timestamp": "2026-10-09T12:51:27.399970+00:00",
+      "tier": "gemini",
+      "article": "Saudi Arabia says three nationals killed in Houthi attacks on Riyadh airport. "
+    },
+    {
+      "timestamp": "2026-10-09T12:51:57.318638+00:00",
+      "tier": "gemini",
+      "article": "Is Trump signalling a return to war with Iran after the midterms?"
+    },
+    {
+      "timestamp": "2026-10-09T12:52:16.687118+00:00",
+      "tier": "gemini",
+      "article": "Brazil election: How a Bolsonaro comeback could reshape BRICS"
     }
   ]
 }
