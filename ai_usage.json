@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6847,
+  "total_calls": 6849,
   "tiers": {
     "groq": 6056,
-    "gemini": 791
+    "gemini": 793
   },
   "log": [
-    {
-      "timestamp": "2026-09-30T18:56:58.524647+00:00",
-      "tier": "gemini",
-      "article": "US Navy selects Boeing to build next-generation F/A-XX fighter "
-    },
-    {
-      "timestamp": "2026-09-30T18:57:23.728221+00:00",
-      "tier": "gemini",
-      "article": "Why the Pentagon just dropped $450M on tungsten mining"
-    },
     {
       "timestamp": "2026-09-30T23:34:15.465121+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-09T19:22:34.475518+00:00",
       "tier": "gemini",
       "article": "Berlin counts domestic spending as Ukraine aid \u2013 Kiel Institute"
+    },
+    {
+      "timestamp": "2026-10-09T23:54:05.862973+00:00",
+      "tier": "gemini",
+      "article": "Ukrainian troops attack ICRC humanitarian mission near Donetsk \u2014 ombudswoman"
+    },
+    {
+      "timestamp": "2026-10-09T23:54:36.954580+00:00",
+      "tier": "gemini",
+      "article": "Drone strike kills 30 people in Sudan\u2019s Blue Nile region"
     }
   ]
 }
