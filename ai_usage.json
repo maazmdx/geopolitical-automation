@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6837,
+  "total_calls": 6839,
   "tiers": {
     "groq": 6056,
-    "gemini": 781
+    "gemini": 783
   },
   "log": [
-    {
-      "timestamp": "2026-09-29T16:24:41.136346+00:00",
-      "tier": "gemini",
-      "article": "IN BRIEF: Locomotive depot, data centers in Kiev hit in Russian forces\u2019 group strike"
-    },
-    {
-      "timestamp": "2026-09-29T16:25:07.958997+00:00",
-      "tier": "gemini",
-      "article": "Iraqis hold rallies protesting suspension of flights with Iran"
-    },
     {
       "timestamp": "2026-09-29T22:01:43.575166+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-08T23:06:21.909027+00:00",
       "tier": "gemini",
       "article": "Hurricane Isaias charges towards the US Gulf Coast with dangerous winds"
+    },
+    {
+      "timestamp": "2026-10-09T05:15:56.451899+00:00",
+      "tier": "gemini",
+      "article": "Mexico prison clash in strife-torn Sinaloa state leaves 10 dead"
+    },
+    {
+      "timestamp": "2026-10-09T05:16:28.656294+00:00",
+      "tier": "gemini",
+      "article": "Pakistani jets strike Yemen as Turkiye deploys hundreds of troops to support Saudi war: Report"
     }
   ]
 }
