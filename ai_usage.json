@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6849,
+  "total_calls": 6851,
   "tiers": {
     "groq": 6056,
-    "gemini": 793
+    "gemini": 795
   },
   "log": [
-    {
-      "timestamp": "2026-09-30T23:34:15.465121+00:00",
-      "tier": "gemini",
-      "article": "Ukraine in panic over relentless Russian strikes on military targets \u2014 expert"
-    },
-    {
-      "timestamp": "2026-09-30T23:34:40.988476+00:00",
-      "tier": "gemini",
-      "article": "IN BRIEF: 12 people, including students, injured in Ukrainian attack on Bryansk Region"
-    },
     {
       "timestamp": "2026-10-01T04:53:05.652928+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-09T23:54:36.954580+00:00",
       "tier": "gemini",
       "article": "Drone strike kills 30 people in Sudan\u2019s Blue Nile region"
+    },
+    {
+      "timestamp": "2026-10-10T04:59:13.924678+00:00",
+      "tier": "gemini",
+      "article": "Hours after Trump-Putin diesel deal, Ukraine strikes Russian fuel site"
+    },
+    {
+      "timestamp": "2026-10-10T04:59:41.753616+00:00",
+      "tier": "gemini",
+      "article": "US military lobbies Trump to carry out strikes 80 km deep inside Iranian territory \u2014 TV"
     }
   ]
 }
