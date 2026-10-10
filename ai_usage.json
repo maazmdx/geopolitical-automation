@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6855,
+  "total_calls": 6858,
   "tiers": {
     "groq": 6056,
-    "gemini": 799
+    "gemini": 802
   },
   "log": [
-    {
-      "timestamp": "2026-10-01T12:43:47.105800+00:00",
-      "tier": "gemini",
-      "article": "Death toll from Israel\u2019s genocidal war on Gaza rises to 74,04"
-    },
-    {
-      "timestamp": "2026-10-01T12:44:16.245029+00:00",
-      "tier": "gemini",
-      "article": "Iraqis celebrate the exit of US occupation forces after 23 years"
-    },
-    {
-      "timestamp": "2026-10-01T19:25:01.841631+00:00",
-      "tier": "gemini",
-      "article": "Pakistan airstrike on Afghanistan kills nine civilians, Taliban says"
-    },
     {
       "timestamp": "2026-10-01T19:25:26.722396+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-10T12:09:32.975703+00:00",
       "tier": "gemini",
       "article": "Russia's Uralvagonzavod eclipses 100,000 tanks made in 90-year history"
+    },
+    {
+      "timestamp": "2026-10-10T18:18:53.369225+00:00",
+      "tier": "gemini",
+      "article": "Yemen hits Riyadh airport again as Saudi flights collapse"
+    },
+    {
+      "timestamp": "2026-10-10T18:19:19.604904+00:00",
+      "tier": "gemini",
+      "article": "Yemeni attacks threaten Saudi energy, tourism, foreign investment"
+    },
+    {
+      "timestamp": "2026-10-10T18:19:43.177034+00:00",
+      "tier": "gemini",
+      "article": "The two elections that revolve around Iran"
     }
   ]
 }
