@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6851,
+  "total_calls": 6855,
   "tiers": {
     "groq": 6056,
-    "gemini": 795
+    "gemini": 799
   },
   "log": [
-    {
-      "timestamp": "2026-10-01T04:53:05.652928+00:00",
-      "tier": "gemini",
-      "article": "Pakistan says 22 fighters killed in air attacks on Afghanistan hideouts"
-    },
-    {
-      "timestamp": "2026-10-01T04:53:29.640272+00:00",
-      "tier": "gemini",
-      "article": "Pakistani strikes kill at least nine people in Afghanistan \u2014 authorities"
-    },
-    {
-      "timestamp": "2026-10-01T12:42:55.172734+00:00",
-      "tier": "gemini",
-      "article": "Afghanistan says Pakistani airstrikes killed women and children"
-    },
-    {
-      "timestamp": "2026-10-01T12:43:20.651694+00:00",
-      "tier": "gemini",
-      "article": "11 Saudi Airstrikes on Saada in Less Than Two Hours - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-01T12:43:47.105800+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-10T04:59:41.753616+00:00",
       "tier": "gemini",
       "article": "US military lobbies Trump to carry out strikes 80 km deep inside Iranian territory \u2014 TV"
+    },
+    {
+      "timestamp": "2026-10-10T12:08:13.060427+00:00",
+      "tier": "gemini",
+      "article": "Saudi Aggression Escalates Across Yemen: Strikes Target Saada, Hajjah, and Al-Hudaydah Amid Rising Tensions - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-10T12:08:36.602444+00:00",
+      "tier": "gemini",
+      "article": "Saba News Agency: 3 civilians injured in six airstrikes carried out by Saudi aircraft on Abs District in Yemen\u2019s northwestern Hajjah Governorate - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-10T12:09:03.841700+00:00",
+      "tier": "gemini",
+      "article": "Israeli strikes and gunfire kill more Palestinians in Gaza ahead of truce anniversary"
+    },
+    {
+      "timestamp": "2026-10-10T12:09:32.975703+00:00",
+      "tier": "gemini",
+      "article": "Russia's Uralvagonzavod eclipses 100,000 tanks made in 90-year history"
     }
   ]
 }
