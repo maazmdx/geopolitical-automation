@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6871,
+  "total_calls": 6874,
   "tiers": {
     "groq": 6056,
-    "gemini": 815
+    "gemini": 818
   },
   "log": [
-    {
-      "timestamp": "2026-10-02T19:04:32.501258+00:00",
-      "tier": "gemini",
-      "article": "Su-57 aircraft provides cover for helicopters during strike on UAV control post"
-    },
-    {
-      "timestamp": "2026-10-02T19:05:04.972118+00:00",
-      "tier": "gemini",
-      "article": "3 UAE-owned tankers hit after breaching Hormuz rules"
-    },
-    {
-      "timestamp": "2026-10-02T23:38:45.940255+00:00",
-      "tier": "gemini",
-      "article": "US deploys Patriot missiles to Saudi Arabia, Qatar amid threats to renew attacks on Iran: Report"
-    },
     {
       "timestamp": "2026-10-02T23:39:09.150740+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-11T18:45:42.322681+00:00",
       "tier": "gemini",
       "article": "Tennessee death row inmate Christa Pike released from hospital after surviving botched execution"
+    },
+    {
+      "timestamp": "2026-10-11T23:31:33.096758+00:00",
+      "tier": "gemini",
+      "article": "Riyadh airport hit again after deadly Houthi strike"
+    },
+    {
+      "timestamp": "2026-10-11T23:31:57.418471+00:00",
+      "tier": "gemini",
+      "article": "CCTV shows moment of deadly Houthi strike on Riyadh airport"
+    },
+    {
+      "timestamp": "2026-10-11T23:32:28.634204+00:00",
+      "tier": "gemini",
+      "article": "IAEA failed to back peaceful use of nuclear energy: Eslami"
     }
   ]
 }
