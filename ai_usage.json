@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6860,
+  "total_calls": 6863,
   "tiers": {
     "groq": 6056,
-    "gemini": 804
+    "gemini": 807
   },
   "log": [
-    {
-      "timestamp": "2026-10-01T19:26:16.063610+00:00",
-      "tier": "gemini",
-      "article": "Iran linked to suspected plot near US bomber base \u2013 UK PM"
-    },
-    {
-      "timestamp": "2026-10-01T23:47:14.907826+00:00",
-      "tier": "gemini",
-      "article": "Houthis report new Saudi strikes on Sana\u2019a, other provinces"
-    },
-    {
-      "timestamp": "2026-10-02T04:44:12.266044+00:00",
-      "tier": "gemini",
-      "article": "Israeli drone kills Palestinian in Gaza, settlers kill another in West Bank"
-    },
     {
       "timestamp": "2026-10-02T04:44:35.863259+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-10T23:21:21.870612+00:00",
       "tier": "gemini",
       "article": "Yemen\u2019s Health Ministry reports a woman martyred, five injured in Saudi airstrikes on Taiz and Hajjah in the past few hours - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-11T04:47:01.219621+00:00",
+      "tier": "gemini",
+      "article": "Twelve killed in attack on King Khalid Airport in Saudi capital Riyadh"
+    },
+    {
+      "timestamp": "2026-10-11T04:47:35.059499+00:00",
+      "tier": "gemini",
+      "article": "Trump \u2018may\u2019 join Saudi strikes on Houthis after Riyadh airport attack"
+    },
+    {
+      "timestamp": "2026-10-11T04:48:00.084335+00:00",
+      "tier": "gemini",
+      "article": "Iran has deployed over 50 combat, support units along borders"
     }
   ]
 }
