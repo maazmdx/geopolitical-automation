@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6874,
+  "total_calls": 6878,
   "tiers": {
     "groq": 6056,
-    "gemini": 818
+    "gemini": 822
   },
   "log": [
-    {
-      "timestamp": "2026-10-02T23:39:09.150740+00:00",
-      "tier": "gemini",
-      "article": "Israeli Attacks on South Lebanon Continue as MP Kaakour Defends Right to Pursue Enemy - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-02T23:39:37.736659+00:00",
-      "tier": "gemini",
-      "article": "Ansarallah forces advance toward Taiz city amid wave of Saudi airstrikes"
-    },
-    {
-      "timestamp": "2026-10-03T04:27:02.188055+00:00",
-      "tier": "gemini",
-      "article": "Israeli air attack on Gaza City apartment kills at least five"
-    },
-    {
-      "timestamp": "2026-10-03T04:27:25.171658+00:00",
-      "tier": "gemini",
-      "article": "North Korea fires ballistic missile towards the sea, South Korea says"
-    },
     {
       "timestamp": "2026-10-03T04:27:52.200021+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-11T23:32:28.634204+00:00",
       "tier": "gemini",
       "article": "IAEA failed to back peaceful use of nuclear energy: Eslami"
+    },
+    {
+      "timestamp": "2026-10-12T14:48:26.908920+00:00",
+      "tier": "gemini",
+      "article": "4 Palestinians martyred in Gaza Strip in Israeli aggression"
+    },
+    {
+      "timestamp": "2026-10-12T14:48:51.480689+00:00",
+      "tier": "gemini",
+      "article": "Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says"
+    },
+    {
+      "timestamp": "2026-10-12T14:49:14.186276+00:00",
+      "tier": "gemini",
+      "article": "Ukrainian attacks on DPR leave one killed, two others injured over past day"
+    },
+    {
+      "timestamp": "2026-10-12T14:49:48.897640+00:00",
+      "tier": "gemini",
+      "article": "Steadfast Iran stands against most bloodthirsty enemies: Mohajerani"
     }
   ]
 }
