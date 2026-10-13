@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6887,
+  "total_calls": 6890,
   "tiers": {
     "groq": 6056,
-    "gemini": 831
+    "gemini": 834
   },
   "log": [
-    {
-      "timestamp": "2026-10-03T19:06:44.167520+00:00",
-      "tier": "gemini",
-      "article": "General Saree Reports More Saudi Attacks on Yemen - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-03T22:46:00.795446+00:00",
-      "tier": "gemini",
-      "article": "Funeral held at Gaza church for mother and daughter killed in Gaza strike"
-    },
-    {
-      "timestamp": "2026-10-03T22:46:27.407410+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Foreign Ministry warns of reciprocal response to Saudi attacks, blockade"
-    },
     {
       "timestamp": "2026-10-04T04:59:17.553595+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-13T15:44:18.214829+00:00",
       "tier": "gemini",
       "article": "German silence on Gaza and the West Bank \u2018has been loud\u2019: Philippe Sands"
+    },
+    {
+      "timestamp": "2026-10-13T21:02:52.856526+00:00",
+      "tier": "gemini",
+      "article": "Zelensky says West gave no warning of Russian missile strike"
+    },
+    {
+      "timestamp": "2026-10-13T21:03:24.774349+00:00",
+      "tier": "gemini",
+      "article": "IRNA chief visits sites of deadly US-Israeli airstrikes on Iran\u2019s Lamerd"
+    },
+    {
+      "timestamp": "2026-10-13T21:03:48.707575+00:00",
+      "tier": "gemini",
+      "article": "5 killed in clash btw Iran security forces, terrorist element"
     }
   ]
 }
