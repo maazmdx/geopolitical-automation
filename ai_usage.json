@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6882,
+  "total_calls": 6883,
   "tiers": {
     "groq": 6056,
-    "gemini": 826
+    "gemini": 827
   },
   "log": [
-    {
-      "timestamp": "2026-10-03T11:20:39.836233+00:00",
-      "tier": "gemini",
-      "article": "Trump sons-linked Powerus seeks Ukrainian drone tech for Pentagon"
-    },
     {
       "timestamp": "2026-10-03T15:56:54.146339+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-12T22:49:36.364800+00:00",
       "tier": "gemini",
       "article": "\u2018Bandera, get out!\u2019 Protesters demand migration crackdown after Ukrainian kills Polish priest (VIDEO)"
+    },
+    {
+      "timestamp": "2026-10-13T06:04:23.618839+00:00",
+      "tier": "gemini",
+      "article": "Saudi Arabia extends airport closure after Houthi strikes"
     }
   ]
 }
