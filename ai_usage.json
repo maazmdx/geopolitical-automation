@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6883,
+  "total_calls": 6887,
   "tiers": {
     "groq": 6056,
-    "gemini": 827
+    "gemini": 831
   },
   "log": [
-    {
-      "timestamp": "2026-10-03T15:56:54.146339+00:00",
-      "tier": "gemini",
-      "article": "Five killed as Kyiv and Moscow trade strikes, Russia hits second bridge"
-    },
-    {
-      "timestamp": "2026-10-03T15:57:18.193116+00:00",
-      "tier": "gemini",
-      "article": "Top US officials discuss renewed war in Iran, Yemen intervention: Report"
-    },
-    {
-      "timestamp": "2026-10-03T15:57:45.319889+00:00",
-      "tier": "gemini",
-      "article": "Israeli Enemy Launch Wave of Attacks Across Southern Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-03T15:58:11.736183+00:00",
-      "tier": "gemini",
-      "article": "Iran to use technological surprises against enemy in future"
-    },
     {
       "timestamp": "2026-10-03T19:06:44.167520+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-13T06:04:23.618839+00:00",
       "tier": "gemini",
       "article": "Saudi Arabia extends airport closure after Houthi strikes"
+    },
+    {
+      "timestamp": "2026-10-13T15:42:57.318556+00:00",
+      "tier": "gemini",
+      "article": "Houthis say they attacked Riyadh airport with ballistic missile"
+    },
+    {
+      "timestamp": "2026-10-13T15:43:23.451088+00:00",
+      "tier": "gemini",
+      "article": "Ukrainian strikes kill 52 Russian residents, including 5 children, over past week \u2014 envoy"
+    },
+    {
+      "timestamp": "2026-10-13T15:43:50.192544+00:00",
+      "tier": "gemini",
+      "article": "Russian strikes hit Ukrainian defense plants, logistics centers, railway infrastructure"
+    },
+    {
+      "timestamp": "2026-10-13T15:44:18.214829+00:00",
+      "tier": "gemini",
+      "article": "German silence on Gaza and the West Bank \u2018has been loud\u2019: Philippe Sands"
     }
   ]
 }
