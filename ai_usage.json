@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6890,
+  "total_calls": 6892,
   "tiers": {
     "groq": 6056,
-    "gemini": 834
+    "gemini": 836
   },
   "log": [
-    {
-      "timestamp": "2026-10-04T04:59:17.553595+00:00",
-      "tier": "gemini",
-      "article": "Houthis claim strike on Saudi energy facility as Yemen fighting intensifies"
-    },
-    {
-      "timestamp": "2026-10-04T04:59:48.486748+00:00",
-      "tier": "gemini",
-      "article": "Ukrainian attacks leave one killed, nine others injured in DPR during past day"
-    },
     {
       "timestamp": "2026-10-04T11:58:30.515113+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-13T21:03:48.707575+00:00",
       "tier": "gemini",
       "article": "5 killed in clash btw Iran security forces, terrorist element"
+    },
+    {
+      "timestamp": "2026-10-14T00:59:24.301781+00:00",
+      "tier": "gemini",
+      "article": "North Korea tests technically upgraded ballistic missile component \u2014 news agency"
+    },
+    {
+      "timestamp": "2026-10-14T00:59:49.984337+00:00",
+      "tier": "gemini",
+      "article": "If Iran attacked, consequences to be extended beyond region"
     }
   ]
 }
