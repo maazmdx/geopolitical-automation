@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6892,
+  "total_calls": 6896,
   "tiers": {
     "groq": 6056,
-    "gemini": 836
+    "gemini": 840
   },
   "log": [
-    {
-      "timestamp": "2026-10-04T11:58:30.515113+00:00",
-      "tier": "gemini",
-      "article": "Israeli warplanes strike Al-Mansouri, Kfar Tibnit and Wadi Al-Hjeir: Al-Manar reporter in southern Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-04T11:58:52.853706+00:00",
-      "tier": "gemini",
-      "article": "Geran drones strike logistics center, data center in Odessa Region"
-    },
-    {
-      "timestamp": "2026-10-04T11:59:18.420375+00:00",
-      "tier": "gemini",
-      "article": "Russian Armed Forces use laser systems to counter Ukrainian jet-powered UAVs \u2014 expert"
-    },
-    {
-      "timestamp": "2026-10-04T11:59:46.039324+00:00",
-      "tier": "gemini",
-      "article": "Taiwan receives first new F-16 fighter jets"
-    },
     {
       "timestamp": "2026-10-04T16:48:14.063202+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-14T00:59:49.984337+00:00",
       "tier": "gemini",
       "article": "If Iran attacked, consequences to be extended beyond region"
+    },
+    {
+      "timestamp": "2026-10-14T13:26:15.992746+00:00",
+      "tier": "gemini",
+      "article": "Houthi missile hits Aramco building after Saudi-led coalition hits Yemen fuel depot"
+    },
+    {
+      "timestamp": "2026-10-14T13:26:38.116938+00:00",
+      "tier": "gemini",
+      "article": "US lawmakers press Pentagon over civilian deaths in Iran"
+    },
+    {
+      "timestamp": "2026-10-14T13:27:03.355227+00:00",
+      "tier": "gemini",
+      "article": "Israeli Enemy Launches Wave of Attacks Across Southern Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-14T13:27:33.951253+00:00",
+      "tier": "gemini",
+      "article": "Israel\u2019s Smotrich calls for wiping out Gaza, describes residents as \u20181.8 million Nazis\u2019"
     }
   ]
 }
