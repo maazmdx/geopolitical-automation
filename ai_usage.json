@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6896,
+  "total_calls": 6898,
   "tiers": {
     "groq": 6056,
-    "gemini": 840
+    "gemini": 842
   },
   "log": [
-    {
-      "timestamp": "2026-10-04T16:48:14.063202+00:00",
-      "tier": "gemini",
-      "article": "Houthis claim missile and drone strikes on Saudi Aramco facilities"
-    },
-    {
-      "timestamp": "2026-10-04T16:48:39.064964+00:00",
-      "tier": "gemini",
-      "article": "Russian Defense Ministry says it strikes Kiev in response to Kiev regime\u2019s actions"
-    },
     {
       "timestamp": "2026-10-04T16:49:10.393492+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-14T13:27:33.951253+00:00",
       "tier": "gemini",
       "article": "Israel\u2019s Smotrich calls for wiping out Gaza, describes residents as \u20181.8 million Nazis\u2019"
+    },
+    {
+      "timestamp": "2026-10-14T18:24:27.310467+00:00",
+      "tier": "gemini",
+      "article": "UN official sounds alarm as Hormuz fertilizer deadlock pushes Asia, Africa toward food crisis"
+    },
+    {
+      "timestamp": "2026-10-14T18:24:55.703792+00:00",
+      "tier": "gemini",
+      "article": "Missile alert interrupts Saudi minister mid-speech (VIDEO)"
     }
   ]
 }

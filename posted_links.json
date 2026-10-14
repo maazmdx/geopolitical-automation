@@ -1,4 +1,39 @@
 {
+  "deb880dbd129d148083da5d2e188fee3a99deb1bae512454bdd976a16ae42f5d": {
+    "url": "QudsNen/242052",
+    "title": "Israeli artillery targets Wadi Zibqin, and the town of Mufidon, southern Lebanon",
+    "published": "2026-10-14T18:29:21.518764+00:00"
+  },
+  "4bfefd20dafb0ec54665d83c7b8eb93d181f5ebd17892845e47fec8482234345": {
+    "url": "Middle_East_Spectator/37731",
+    "title": "\u2014 \ud83c\uddfa\ud83c\uddf8/\ud83c\uddee\ud83c\uddf7 NEW: According to U.S. intelligence estimates, Iran has at least several",
+    "published": "2026-10-14T18:29:02.737924+00:00"
+  },
+  "188cb627c0c5ec97adb4934b3dcd5fbfedfe031e5b849ba3328b40f098adb5cd": {
+    "url": "thecradlemedia/69415",
+    "title": "VIDEO | An Israeli drone over the southern Lebanese village of Shoukine.",
+    "published": "2026-10-14T18:27:36.817601+00:00"
+  },
+  "365fd3c208f0ee1f8b30a70047a74fc236c018523ce52c9b5548f461e8bcac8a": {
+    "url": "thecradlemedia/69423",
+    "title": "IRGC says massive container ship sinks after hitting mine near HormuzThe ship ca",
+    "published": "2026-10-14T18:27:27.185980+00:00"
+  },
+  "cd29fbdf49b864ad81a6bc04a153149bd153f745449a799049845c8d7a4f5849": {
+    "url": "thecradlemedia/69424",
+    "title": "With over 70 soldiers killed, average monthly salaries sitting around $300, and ",
+    "published": "2026-10-14T18:27:26.405175+00:00"
+  },
+  "713e301cd6d03ea8d188ffb24e26c9cdf3bff26fb9b661942b199d53c5f3e8a0": {
+    "url": "thecradlemedia/69425",
+    "title": "UN official sounds alarm as Hormuz fertilizer deadlock pushes Asia, Africa towar",
+    "published": "2026-10-14T18:25:22.540831+00:00"
+  },
+  "b5dc9b31ecc3ab9e0a4d1c415f8ddfcefcdb6035da42ab2e5c0cc196689b61fd": {
+    "url": "https://thecradle.co/articles-id/40513",
+    "title": "UN official sounds alarm as Hormuz fertilizer deadlock pushes Asia, Africa toward food crisis",
+    "published": "2026-10-14T17:43:52+00:00"
+  },
   "9443240f22284ed416712857fb28fe971da7f2102d8546bc83bedec0c98b8ca9": {
     "url": "QudsNen/242032",
     "title": "Israeli UAVs Conduct Explosive Strike in Southern Lebanon's Wadi Zibqin",
@@ -73,6 +108,11 @@
     "url": "https://en.mehrnews.com/news/248575/US-lawmakers-press-Pentagon-over-civilian-deaths-in-Iran",
     "title": "US lawmakers press Pentagon over civilian deaths in Iran",
     "published": "2026-10-14T05:25:33+00:00"
+  },
+  "b3f52edd99077a7fd5a0c57f4710ec5f4a73ab80c9a11517318e70ac7c4b1ec3": {
+    "url": "https://rt-english.com/news/647152-emergency-alerts-interrupt-saudi-minister-speech/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+    "title": "Missile alert interrupts Saudi minister mid-speech (VIDEO)",
+    "published": "2026-10-14T05:00:26+00:00"
   },
   "fde81e6651d3e260f893eeeedfd89d14947645aebff521110bf7f4aad63fe07b": {
     "url": "DDGeopolitics/195428",
@@ -708,45 +748,5 @@
     "url": "DDGeopolitics/195229",
     "title": "\ud83c\uddfa\ud83c\udde6\ud83d\udd25\ud83c\uddf7\ud83c\uddfa BREAKING: Ukrainian Drone Strike Sets Russian Oil Export Terminal Ablaze H",
     "published": "2026-10-10T05:00:29.411285+00:00"
-  },
-  "99e0b69e8bcd660f79f5c72741ef0b33514e7b1ba39524094d8b86763b5fb096": {
-    "url": "Middle_East_Spectator/37548",
-    "title": "\u2014\u2757\ufe0f\ud83c\uddee\ud83c\uddf7 Cruise missiles from Iran towards the Strait of Hormuz@Middle_East_Spectat",
-    "published": "2026-10-10T05:00:16.437700+00:00"
-  },
-  "f36191aaa64238bfc8fbf9d8018fc874b818dde2f65a7a88375bf8ef8ca6953f": {
-    "url": "Middle_East_Spectator/37549",
-    "title": "Ansarallah Forces Seize Jabal Habashi Amid Advance on Taiz",
-    "published": "2026-10-10T05:00:15.526013+00:00"
-  },
-  "21220463a2255ee73d895a7356180069dd647e2b286513f3fa3879a70782943a": {
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-ukraine-drone-russia-oil-clip?traffic_source=rss",
-    "title": "Hours after Trump-Putin diesel deal, Ukraine strikes Russian fuel site",
-    "published": "2026-10-10T04:30:34+00:00"
-  },
-  "b2b55a48e224bca58c813ed3a2e38dfd0e54ef413e845f7c80abbcb494135d44": {
-    "url": "https://www.rt.com/news/647011-israel-attacks-gaza-ceasefire/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-    "title": "Israeli strikes and gunfire kill more Palestinians in Gaza ahead of truce anniversary",
-    "published": "2026-10-10T03:24:52+00:00"
-  },
-  "0e587fbbd8248f4b206d30009e092d296ae459e429d3d3e8dd8cd46056578b32": {
-    "url": "militarywave/25289",
-    "title": "\u2018Grad\u2019 systems strike targets in Zaporozhye Region.Troops from the East group of",
-    "published": "2026-10-09T23:58:40.485075+00:00"
-  },
-  "d81329316035d38027004c63083ab435f912f326b62d36a70c41fae1f494a7ec": {
-    "url": "militarywave/25292",
-    "title": "83 years ago, on October 9, 1943, Soviet troops liberated the Caucasus from the ",
-    "published": "2026-10-09T23:58:04.160057+00:00"
-  },
-  "f1f5deb200e9286ce9fa09b25eb58c8b6e40ffb7222350df69a33e08a9544ced": {
-    "url": "militarywave/25298",
-    "title": "Why should documentary filmmakers submit their work to the 'RT.Doc: Time of Our ",
-    "published": "2026-10-09T23:56:13.745036+00:00"
-  },
-  "8a6e678ea6ce369a8059728fe9be19a4d261ec72f3c51846f3d5068736d9d657": {
-    "url": "BellumActaNews/177684",
-    "title": "\ud83c\uddee\ud83c\uddf7\ud83d\udcc2 For 24/7 updates on the Iran war, explore our exclusive catalog of English-s",
-    "published": "2026-10-09T23:55:15.668966+00:00"
   }
 }
