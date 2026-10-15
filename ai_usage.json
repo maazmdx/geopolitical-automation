@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6905,
+  "total_calls": 6907,
   "tiers": {
     "groq": 6056,
-    "gemini": 849
+    "gemini": 851
   },
   "log": [
-    {
-      "timestamp": "2026-10-05T08:41:12.707568+00:00",
-      "tier": "gemini",
-      "article": "Tehran not to back down from its seven conditions to end war"
-    },
-    {
-      "timestamp": "2026-10-05T08:41:37.806003+00:00",
-      "tier": "gemini",
-      "article": "Russian forces advance in northern, central parts of Dobropolye in DPR \u2014 ministry"
-    },
     {
       "timestamp": "2026-10-05T19:08:45.782387+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-15T19:46:38.652843+00:00",
       "tier": "gemini",
       "article": "General Saree: 65 Saudi Air Raids and Missile Strikes in 24 Hours Bring Total to 2,388 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-15T22:57:43.328642+00:00",
+      "tier": "gemini",
+      "article": "Ukraine resumes strikes on Russian oil refineries in defiance of Trump\u2019s \u2018energy truce\u2019"
+    },
+    {
+      "timestamp": "2026-10-15T22:58:21.198877+00:00",
+      "tier": "gemini",
+      "article": "Acting US Army secretary creates task force for HVAC repairs"
     }
   ]
 }
