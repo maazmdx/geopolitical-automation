@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6904,
+  "total_calls": 6905,
   "tiers": {
     "groq": 6056,
-    "gemini": 848
+    "gemini": 849
   },
   "log": [
-    {
-      "timestamp": "2026-10-05T08:40:46.659030+00:00",
-      "tier": "gemini",
-      "article": "Russian Defense Ministry hears Zelensky\u2019s statement on stepping up refinery strikes"
-    },
     {
       "timestamp": "2026-10-05T08:41:12.707568+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-15T14:46:35.689368+00:00",
       "tier": "gemini",
       "article": "Any enemy mischief will be met with crushing response: IRGC commander"
+    },
+    {
+      "timestamp": "2026-10-15T19:46:38.652843+00:00",
+      "tier": "gemini",
+      "article": "General Saree: 65 Saudi Air Raids and Missile Strikes in 24 Hours Bring Total to 2,388 - Al-Manar TV Lebanon"
     }
   ]
 }
