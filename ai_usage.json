@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6898,
+  "total_calls": 6900,
   "tiers": {
     "groq": 6056,
-    "gemini": 842
+    "gemini": 844
   },
   "log": [
-    {
-      "timestamp": "2026-10-04T16:49:10.393492+00:00",
-      "tier": "gemini",
-      "article": "Yemeni army conducts 2 successful ops. deep inside S. Arabia"
-    },
-    {
-      "timestamp": "2026-10-04T16:49:37.438067+00:00",
-      "tier": "gemini",
-      "article": "Thousands of Germans demonstrators oppose rearmament, urge dialogue with Russia"
-    },
     {
       "timestamp": "2026-10-04T21:02:51.653417+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-14T18:24:55.703792+00:00",
       "tier": "gemini",
       "article": "Missile alert interrupts Saudi minister mid-speech (VIDEO)"
+    },
+    {
+      "timestamp": "2026-10-15T03:48:14.699544+00:00",
+      "tier": "gemini",
+      "article": "Families of Trinidadian men killed in US boat strike demand accountability"
+    },
+    {
+      "timestamp": "2026-10-15T03:48:53.520574+00:00",
+      "tier": "gemini",
+      "article": "Trump\u2019s remarks about Tehran destroying LA election rhetoric"
     }
   ]
 }
