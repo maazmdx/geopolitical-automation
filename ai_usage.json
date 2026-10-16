@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6907,
+  "total_calls": 6909,
   "tiers": {
     "groq": 6056,
-    "gemini": 851
+    "gemini": 853
   },
   "log": [
-    {
-      "timestamp": "2026-10-05T19:08:45.782387+00:00",
-      "tier": "gemini",
-      "article": "Saudi Arabia claims &#039;100 warplanes&#039; bombing Yemen as civilian casualties mount"
-    },
-    {
-      "timestamp": "2026-10-05T19:09:10.534477+00:00",
-      "tier": "gemini",
-      "article": "4 killed in US strike on alleged drug boat in Caribbean"
-    },
     {
       "timestamp": "2026-10-05T19:09:38.285549+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-15T22:58:21.198877+00:00",
       "tier": "gemini",
       "article": "Acting US Army secretary creates task force for HVAC repairs"
+    },
+    {
+      "timestamp": "2026-10-16T03:44:06.811219+00:00",
+      "tier": "gemini",
+      "article": "Yemen\u2019s Houthis pound presidential palace in Aden (VIDEO)"
+    },
+    {
+      "timestamp": "2026-10-16T03:44:42.503382+00:00",
+      "tier": "gemini",
+      "article": "Iran\u2019s Precision Strikes Picked Apart Gulf Infrastructure, Blunting US War Plans: Reuters - Al-Manar TV Lebanon"
     }
   ]
 }
