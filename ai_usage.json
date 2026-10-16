@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6918,
+  "total_calls": 6921,
   "tiers": {
     "groq": 6056,
-    "gemini": 862
+    "gemini": 865
   },
   "log": [
-    {
-      "timestamp": "2026-10-06T16:37:16.388946+00:00",
-      "tier": "gemini",
-      "article": "Saudi Arabia urged to spare Sri Lankan sentenced to death over Facebook post"
-    },
-    {
-      "timestamp": "2026-10-06T22:29:49.441294+00:00",
-      "tier": "gemini",
-      "article": "Houthis, Saudi-led forces claim victories as Yemen fighting rages on"
-    },
-    {
-      "timestamp": "2026-10-06T22:30:14.357203+00:00",
-      "tier": "gemini",
-      "article": "Houthis report striking coalition forces near Bab el-Mandeb Strait with 10 missiles"
-    },
     {
       "timestamp": "2026-10-06T22:30:50.745278+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-16T19:26:48.427712+00:00",
       "tier": "gemini",
       "article": "Russian strikes reduce Ukrainian capacity to produce long-range weapons \u2014 Gerasimov"
+    },
+    {
+      "timestamp": "2026-10-16T22:41:11.901419+00:00",
+      "tier": "gemini",
+      "article": "Russian forces striking strategic targets in Ukraine \u2014 Gerasimov"
+    },
+    {
+      "timestamp": "2026-10-16T22:41:38.406483+00:00",
+      "tier": "gemini",
+      "article": "What is Starshield, SpaceX\u2019s military version of Starlink?"
+    },
+    {
+      "timestamp": "2026-10-16T22:41:59.909835+00:00",
+      "tier": "gemini",
+      "article": "AI has enhanced Iran\u2019s intelligence and targeting capabilities: Taeb"
     }
   ]
 }
