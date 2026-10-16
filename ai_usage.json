@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6909,
+  "total_calls": 6913,
   "tiers": {
     "groq": 6056,
-    "gemini": 853
+    "gemini": 857
   },
   "log": [
-    {
-      "timestamp": "2026-10-05T19:09:38.285549+00:00",
-      "tier": "gemini",
-      "article": "Fourteen commercial ships attacked in Strait of Hormuz in September"
-    },
-    {
-      "timestamp": "2026-10-05T19:10:08.284392+00:00",
-      "tier": "gemini",
-      "article": "No US vessels in Persian Gulf, Hormuz, or northern Indian Ocean: IRGC adviser"
-    },
-    {
-      "timestamp": "2026-10-06T01:14:50.010933+00:00",
-      "tier": "gemini",
-      "article": "Increased strikes on Ukraine aimed at preventing attacks on Russian economy \u2014 envoy"
-    },
-    {
-      "timestamp": "2026-10-06T08:45:41.062652+00:00",
-      "tier": "gemini",
-      "article": "Iran Faces Severe Challenges to Rebuild Missile and Drone Production"
-    },
     {
       "timestamp": "2026-10-06T08:46:05.964234+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-16T03:44:42.503382+00:00",
       "tier": "gemini",
       "article": "Iran\u2019s Precision Strikes Picked Apart Gulf Infrastructure, Blunting US War Plans: Reuters - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-16T08:51:17.576246+00:00",
+      "tier": "gemini",
+      "article": "Houthi strikes on Riyadh airport kill 17, wound over 330 \u2014 coalition"
+    },
+    {
+      "timestamp": "2026-10-16T08:51:44.313420+00:00",
+      "tier": "gemini",
+      "article": "Israel unlikely to attack Iran before elections \u2013 media"
+    },
+    {
+      "timestamp": "2026-10-16T08:52:12.118173+00:00",
+      "tier": "gemini",
+      "article": "Russian forces carry out massive strike on encircled Ukrainian strongholds in Kharkov"
+    },
+    {
+      "timestamp": "2026-10-16T08:52:40.846992+00:00",
+      "tier": "gemini",
+      "article": "\u2018Who doesn\u2019t want to be first?\u2019 Best Squad, NCO and Soldier named at AUSA"
     }
   ]
 }
