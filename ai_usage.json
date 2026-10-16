@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6917,
+  "total_calls": 6918,
   "tiers": {
     "groq": 6056,
-    "gemini": 861
+    "gemini": 862
   },
   "log": [
-    {
-      "timestamp": "2026-10-06T16:36:53.757125+00:00",
-      "tier": "gemini",
-      "article": "Russian forces strike enemy radars in Poltava, Odessa regions, data centers across Ukraine"
-    },
     {
       "timestamp": "2026-10-06T16:37:16.388946+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-16T14:41:03.133797+00:00",
       "tier": "gemini",
       "article": "Student-led protests grip Balkan nation (VIDEOS)"
+    },
+    {
+      "timestamp": "2026-10-16T19:26:48.427712+00:00",
+      "tier": "gemini",
+      "article": "Russian strikes reduce Ukrainian capacity to produce long-range weapons \u2014 Gerasimov"
     }
   ]
 }
