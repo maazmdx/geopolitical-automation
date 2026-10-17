@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6934,
+  "total_calls": 6937,
   "tiers": {
     "groq": 6056,
-    "gemini": 878
+    "gemini": 881
   },
   "log": [
-    {
-      "timestamp": "2026-10-08T17:19:30.428514+00:00",
-      "tier": "gemini",
-      "article": "Gen. Abdollahi: Al-Aqsa storm operation exceeded Zionist regime\u2019s expectations"
-    },
-    {
-      "timestamp": "2026-10-08T23:05:52.400999+00:00",
-      "tier": "gemini",
-      "article": "Yemen strikes Riyadh airport with ballistic missile"
-    },
-    {
-      "timestamp": "2026-10-08T23:06:21.909027+00:00",
-      "tier": "gemini",
-      "article": "Hurricane Isaias charges towards the US Gulf Coast with dangerous winds"
-    },
     {
       "timestamp": "2026-10-09T05:15:56.451899+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-17T16:56:23.847010+00:00",
       "tier": "gemini",
       "article": "Yemeni sources: 9 martyred, including women and children, and 16 injured in a new Saudi attack targeting civilian homes in the Hamir Al-Jabal area of Maqbanah District, Taiz Governorate - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-17T20:19:22.400265+00:00",
+      "tier": "gemini",
+      "article": "Iran\u2019s missile capabilities have changed the equation, caretaker defense minister warns US"
+    },
+    {
+      "timestamp": "2026-10-17T20:19:51.214889+00:00",
+      "tier": "gemini",
+      "article": "Second supertanker strikes sea mine in Strait of Hormuz: IRGC Navy"
+    },
+    {
+      "timestamp": "2026-10-17T20:20:25.929525+00:00",
+      "tier": "gemini",
+      "article": "EU to launch Arctic surveillance program in 2027 \u2014 Bloomberg"
     }
   ]
 }
