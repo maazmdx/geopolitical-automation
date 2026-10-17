@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6931,
+  "total_calls": 6934,
   "tiers": {
     "groq": 6056,
-    "gemini": 875
+    "gemini": 878
   },
   "log": [
-    {
-      "timestamp": "2026-10-08T17:18:10.705992+00:00",
-      "tier": "gemini",
-      "article": "Houthis report new strikes on Saudi airports, air base"
-    },
-    {
-      "timestamp": "2026-10-08T17:18:34.064913+00:00",
-      "tier": "gemini",
-      "article": "General Saree Announces More Yemeni Missile Attacks on Saudi Airports - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-08T17:19:04.869242+00:00",
-      "tier": "gemini",
-      "article": "Achieving Breakthrough: Maneuver Warfare in the Face of Robotic Mass"
-    },
     {
       "timestamp": "2026-10-08T17:19:30.428514+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-17T13:33:00.848828+00:00",
       "tier": "gemini",
       "article": "Russian MFA comments on Zelensky as 'incredible disgrace,' Kiev\u2019s hunt for journalists"
+    },
+    {
+      "timestamp": "2026-10-17T16:55:33.385850+00:00",
+      "tier": "gemini",
+      "article": "IRGC Announces Explosion of Second Supertanker After Naval Mine Strike in Strait of Hormuz - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-17T16:55:59.747395+00:00",
+      "tier": "gemini",
+      "article": "Russian forces strike Ukrainian army\u2019s transport infrastructure in past day"
+    },
+    {
+      "timestamp": "2026-10-17T16:56:23.847010+00:00",
+      "tier": "gemini",
+      "article": "Yemeni sources: 9 martyred, including women and children, and 16 injured in a new Saudi attack targeting civilian homes in the Hamir Al-Jabal area of Maqbanah District, Taiz Governorate - Al-Manar TV Lebanon"
     }
   ]
 }
