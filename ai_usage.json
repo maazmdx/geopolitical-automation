@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6927,
+  "total_calls": 6931,
   "tiers": {
     "groq": 6056,
-    "gemini": 871
+    "gemini": 875
   },
   "log": [
-    {
-      "timestamp": "2026-10-07T19:53:21.376335+00:00",
-      "tier": "gemini",
-      "article": "IRGC: Al-Aqsa Storm was beginning of end for Zionism"
-    },
-    {
-      "timestamp": "2026-10-08T00:05:40.197108+00:00",
-      "tier": "gemini",
-      "article": "Missile production plant in Ukraine halts production after Russian strikes"
-    },
-    {
-      "timestamp": "2026-10-08T08:34:57.751212+00:00",
-      "tier": "gemini",
-      "article": "Saudi Arabia confirms three dead in Houthi strikes on its airports"
-    },
-    {
-      "timestamp": "2026-10-08T08:35:25.730008+00:00",
-      "tier": "gemini",
-      "article": "AFP photographer beaten by Israeli settlers in West Bank"
-    },
     {
       "timestamp": "2026-10-08T17:18:10.705992+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-17T08:23:12.558538+00:00",
       "tier": "gemini",
       "article": "New human-machine interface will help Boxer punch above its weight"
+    },
+    {
+      "timestamp": "2026-10-17T13:31:52.311715+00:00",
+      "tier": "gemini",
+      "article": "Russian strikes kill civilians, injure dozens across Ukraine"
+    },
+    {
+      "timestamp": "2026-10-17T13:32:13.594329+00:00",
+      "tier": "gemini",
+      "article": "Palestinian martyred, five others injured as Israeli drone strikes police post in Mawassi Rafah, in southern Gaza Strip, Al-Manar correspondent reports - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-17T13:32:38.144844+00:00",
+      "tier": "gemini",
+      "article": "Iranian General Hits Back at Trump: Names of Bombs Don\u2019t Matter, Our Missiles Changed Equations - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-17T13:33:00.848828+00:00",
+      "tier": "gemini",
+      "article": "Russian MFA comments on Zelensky as 'incredible disgrace,' Kiev\u2019s hunt for journalists"
     }
   ]
 }
