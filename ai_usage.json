@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6921,
+  "total_calls": 6923,
   "tiers": {
     "groq": 6056,
-    "gemini": 865
+    "gemini": 867
   },
   "log": [
-    {
-      "timestamp": "2026-10-06T22:30:50.745278+00:00",
-      "tier": "gemini",
-      "article": "Kindling, Catalyst, and Containment: Will the West Bank Ignite?"
-    },
-    {
-      "timestamp": "2026-10-07T12:56:41.338470+00:00",
-      "tier": "gemini",
-      "article": "US warned Riyadh about growing Houthi threat for several months \u2014 media"
-    },
     {
       "timestamp": "2026-10-07T12:57:06.402738+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-16T22:41:59.909835+00:00",
       "tier": "gemini",
       "article": "AI has enhanced Iran\u2019s intelligence and targeting capabilities: Taeb"
+    },
+    {
+      "timestamp": "2026-10-17T03:34:13.858092+00:00",
+      "tier": "gemini",
+      "article": "EXCLUSIVE - Iraq detains Ukrainian nationals on suspicion of plotting attack on Gulf oil facilities"
+    },
+    {
+      "timestamp": "2026-10-17T03:34:37.347227+00:00",
+      "tier": "gemini",
+      "article": "Russian forces strike Ukrainian army hangar, shelters, Starlink terminals by attack drones"
     }
   ]
 }
