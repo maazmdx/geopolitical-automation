@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6938,
+  "total_calls": 6941,
   "tiers": {
     "groq": 6056,
-    "gemini": 882
+    "gemini": 885
   },
   "log": [
-    {
-      "timestamp": "2026-10-09T05:16:28.656294+00:00",
-      "tier": "gemini",
-      "article": "Pakistani jets strike Yemen as Turkiye deploys hundreds of troops to support Saudi war: Report"
-    },
-    {
-      "timestamp": "2026-10-09T12:50:50.967499+00:00",
-      "tier": "gemini",
-      "article": "Houthis strike Saudi airports after \u2018final warning\u2019 (VIDEOS)"
-    },
-    {
-      "timestamp": "2026-10-09T12:51:27.399970+00:00",
-      "tier": "gemini",
-      "article": "Saudi Arabia says three nationals killed in Houthi attacks on Riyadh airport. "
-    },
     {
       "timestamp": "2026-10-09T12:51:57.318638+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-17T23:52:53.443708+00:00",
       "tier": "gemini",
       "article": "Projectile hits tanker with five Indians on board in Strait of Hormuz \u2014 Indian minister"
+    },
+    {
+      "timestamp": "2026-10-18T03:41:05.490050+00:00",
+      "tier": "gemini",
+      "article": "European diplomats attacked by Israeli settlers in West Bank"
+    },
+    {
+      "timestamp": "2026-10-18T03:41:27.144033+00:00",
+      "tier": "gemini",
+      "article": "Saudi-led forces try to break Houthi siege of Taiz with airstrikes"
+    },
+    {
+      "timestamp": "2026-10-18T03:41:49.968038+00:00",
+      "tier": "gemini",
+      "article": "Israeli drone attacks kill six Palestinians across Gaza despite \u2018ceasefire\u2019"
     }
   ]
 }
