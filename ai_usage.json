@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6937,
+  "total_calls": 6938,
   "tiers": {
     "groq": 6056,
-    "gemini": 881
+    "gemini": 882
   },
   "log": [
-    {
-      "timestamp": "2026-10-09T05:15:56.451899+00:00",
-      "tier": "gemini",
-      "article": "Mexico prison clash in strife-torn Sinaloa state leaves 10 dead"
-    },
     {
       "timestamp": "2026-10-09T05:16:28.656294+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-17T20:20:25.929525+00:00",
       "tier": "gemini",
       "article": "EU to launch Arctic surveillance program in 2027 \u2014 Bloomberg"
+    },
+    {
+      "timestamp": "2026-10-17T23:52:53.443708+00:00",
+      "tier": "gemini",
+      "article": "Projectile hits tanker with five Indians on board in Strait of Hormuz \u2014 Indian minister"
     }
   ]
 }
