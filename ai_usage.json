@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6944,
+  "total_calls": 6948,
   "tiers": {
     "groq": 6056,
-    "gemini": 888
+    "gemini": 892
   },
   "log": [
-    {
-      "timestamp": "2026-10-09T19:21:44.987267+00:00",
-      "tier": "gemini",
-      "article": "Saudi Arabia will never break Yemen\u2019s resistance: Ansarallah leader"
-    },
-    {
-      "timestamp": "2026-10-09T19:22:07.912219+00:00",
-      "tier": "gemini",
-      "article": "Zionist Enemy Carries Out a Number of Airstrikes in Southern Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-09T19:22:34.475518+00:00",
-      "tier": "gemini",
-      "article": "Berlin counts domestic spending as Ukraine aid \u2013 Kiel Institute"
-    },
-    {
-      "timestamp": "2026-10-09T23:54:05.862973+00:00",
-      "tier": "gemini",
-      "article": "Ukrainian troops attack ICRC humanitarian mission near Donetsk \u2014 ombudswoman"
-    },
     {
       "timestamp": "2026-10-09T23:54:36.954580+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-18T08:43:12.866282+00:00",
       "tier": "gemini",
       "article": "Tanker attacked off Yemen\u2019s coast: UKMTO"
+    },
+    {
+      "timestamp": "2026-10-18T13:50:23.586829+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Military Media Posts Footage of Drone Strikes against pro-Saudi Militias - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-18T13:50:56.880979+00:00",
+      "tier": "gemini",
+      "article": "Rubio says Ukraine without access to Starshield, future \u2018under discussion\u2019"
+    },
+    {
+      "timestamp": "2026-10-18T13:51:18.470634+00:00",
+      "tier": "gemini",
+      "article": "IRGC Navy warns vessels violating transit rules in the Strait of Hormuz to turn back immediately or risk being targeted by missiles - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-18T13:51:39.696281+00:00",
+      "tier": "gemini",
+      "article": "Historic French city hall set ablaze amid nationwide protests"
     }
   ]
 }
