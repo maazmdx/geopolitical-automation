@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6948,
+  "total_calls": 6952,
   "tiers": {
     "groq": 6056,
-    "gemini": 892
+    "gemini": 896
   },
   "log": [
-    {
-      "timestamp": "2026-10-09T23:54:36.954580+00:00",
-      "tier": "gemini",
-      "article": "Drone strike kills 30 people in Sudan\u2019s Blue Nile region"
-    },
-    {
-      "timestamp": "2026-10-10T04:59:13.924678+00:00",
-      "tier": "gemini",
-      "article": "Hours after Trump-Putin diesel deal, Ukraine strikes Russian fuel site"
-    },
-    {
-      "timestamp": "2026-10-10T04:59:41.753616+00:00",
-      "tier": "gemini",
-      "article": "US military lobbies Trump to carry out strikes 80 km deep inside Iranian territory \u2014 TV"
-    },
-    {
-      "timestamp": "2026-10-10T12:08:13.060427+00:00",
-      "tier": "gemini",
-      "article": "Saudi Aggression Escalates Across Yemen: Strikes Target Saada, Hajjah, and Al-Hudaydah Amid Rising Tensions - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-10T12:08:36.602444+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-18T13:51:39.696281+00:00",
       "tier": "gemini",
       "article": "Historic French city hall set ablaze amid nationwide protests"
+    },
+    {
+      "timestamp": "2026-10-18T17:11:37.370060+00:00",
+      "tier": "gemini",
+      "article": "Missiles strike gathering of Saudi mercenaries in Marib"
+    },
+    {
+      "timestamp": "2026-10-18T17:12:00.586846+00:00",
+      "tier": "gemini",
+      "article": "Gaza buries remains of 75 more Palestinians as Israel continues blocking heavy recovery equipment"
+    },
+    {
+      "timestamp": "2026-10-18T17:12:24.737356+00:00",
+      "tier": "gemini",
+      "article": "IRGC Adviser: \u2018Father of Iranian Missiles\u2019 Ready to Hit Enemy Energy Infrastructure across Region - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-18T17:12:47.949010+00:00",
+      "tier": "gemini",
+      "article": "Clashes break out on Afghan-Pakistani border, casualties reported \u2014 TV"
     }
   ]
 }
