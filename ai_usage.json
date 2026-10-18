@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6941,
+  "total_calls": 6944,
   "tiers": {
     "groq": 6056,
-    "gemini": 885
+    "gemini": 888
   },
   "log": [
-    {
-      "timestamp": "2026-10-09T12:51:57.318638+00:00",
-      "tier": "gemini",
-      "article": "Is Trump signalling a return to war with Iran after the midterms?"
-    },
-    {
-      "timestamp": "2026-10-09T12:52:16.687118+00:00",
-      "tier": "gemini",
-      "article": "Brazil election: How a Bolsonaro comeback could reshape BRICS"
-    },
-    {
-      "timestamp": "2026-10-09T19:21:16.669184+00:00",
-      "tier": "gemini",
-      "article": "Iran to hold nothing back in responding to new US, Israeli attacks \u2014 source"
-    },
     {
       "timestamp": "2026-10-09T19:21:44.987267+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-18T03:41:49.968038+00:00",
       "tier": "gemini",
       "article": "Israeli drone attacks kill six Palestinians across Gaza despite \u2018ceasefire\u2019"
+    },
+    {
+      "timestamp": "2026-10-18T08:42:23.662782+00:00",
+      "tier": "gemini",
+      "article": "\u2018Serious incident\u2019 at Canada military base causes deaths, injuries"
+    },
+    {
+      "timestamp": "2026-10-18T08:42:45.204988+00:00",
+      "tier": "gemini",
+      "article": "Russian strikes destroy half of nearly 500 Ukrainian drone crews near Dobropolye"
+    },
+    {
+      "timestamp": "2026-10-18T08:43:12.866282+00:00",
+      "tier": "gemini",
+      "article": "Tanker attacked off Yemen\u2019s coast: UKMTO"
     }
   ]
 }
