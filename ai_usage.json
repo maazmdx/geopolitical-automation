@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6952,
+  "total_calls": 6954,
   "tiers": {
     "groq": 6056,
-    "gemini": 896
+    "gemini": 898
   },
   "log": [
-    {
-      "timestamp": "2026-10-10T12:08:36.602444+00:00",
-      "tier": "gemini",
-      "article": "Saba News Agency: 3 civilians injured in six airstrikes carried out by Saudi aircraft on Abs District in Yemen\u2019s northwestern Hajjah Governorate - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-10T12:09:03.841700+00:00",
-      "tier": "gemini",
-      "article": "Israeli strikes and gunfire kill more Palestinians in Gaza ahead of truce anniversary"
-    },
     {
       "timestamp": "2026-10-10T12:09:32.975703+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-18T17:12:47.949010+00:00",
       "tier": "gemini",
       "article": "Clashes break out on Afghan-Pakistani border, casualties reported \u2014 TV"
+    },
+    {
+      "timestamp": "2026-10-18T20:18:32.442525+00:00",
+      "tier": "gemini",
+      "article": "Kiev\u2019s resistance and agony not to change course of events \u2014 Kremlin"
+    },
+    {
+      "timestamp": "2026-10-18T20:19:04.388233+00:00",
+      "tier": "gemini",
+      "article": "Ukrainian forces shell DPR settlements 13 times over past day"
     }
   ]
 }
