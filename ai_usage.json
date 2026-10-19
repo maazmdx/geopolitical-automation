@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6954,
+  "total_calls": 6956,
   "tiers": {
     "groq": 6056,
-    "gemini": 898
+    "gemini": 900
   },
   "log": [
-    {
-      "timestamp": "2026-10-10T12:09:32.975703+00:00",
-      "tier": "gemini",
-      "article": "Russia's Uralvagonzavod eclipses 100,000 tanks made in 90-year history"
-    },
-    {
-      "timestamp": "2026-10-10T18:18:53.369225+00:00",
-      "tier": "gemini",
-      "article": "Yemen hits Riyadh airport again as Saudi flights collapse"
-    },
     {
       "timestamp": "2026-10-10T18:19:19.604904+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-18T20:19:04.388233+00:00",
       "tier": "gemini",
       "article": "Ukrainian forces shell DPR settlements 13 times over past day"
+    },
+    {
+      "timestamp": "2026-10-19T04:28:02.242473+00:00",
+      "tier": "gemini",
+      "article": "Two officers dead in helicopter crash \u2013 Riyadh"
+    },
+    {
+      "timestamp": "2026-10-19T04:28:31.528704+00:00",
+      "tier": "gemini",
+      "article": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze"
     }
   ]
 }
