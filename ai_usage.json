@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6960,
+  "total_calls": 6964,
   "tiers": {
     "groq": 6056,
-    "gemini": 904
+    "gemini": 908
   },
   "log": [
-    {
-      "timestamp": "2026-10-11T04:47:01.219621+00:00",
-      "tier": "gemini",
-      "article": "Twelve killed in attack on King Khalid Airport in Saudi capital Riyadh"
-    },
-    {
-      "timestamp": "2026-10-11T04:47:35.059499+00:00",
-      "tier": "gemini",
-      "article": "Trump \u2018may\u2019 join Saudi strikes on Houthis after Riyadh airport attack"
-    },
-    {
-      "timestamp": "2026-10-11T04:48:00.084335+00:00",
-      "tier": "gemini",
-      "article": "Iran has deployed over 50 combat, support units along borders"
-    },
-    {
-      "timestamp": "2026-10-11T12:21:34.180207+00:00",
-      "tier": "gemini",
-      "article": "\u2018Take us seriously\u2019: Sanaa renews warning to Saudi aviation after deadly strike on Riyadh airport"
-    },
     {
       "timestamp": "2026-10-11T12:21:58.771030+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-19T12:34:15.424249+00:00",
       "tier": "gemini",
       "article": "Violent protests spread across Europe as clashes and looting leave trail of destruction"
+    },
+    {
+      "timestamp": "2026-10-19T19:43:12.918688+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Armed Forces Announce Six Operations Targeting Aramco and Saudi Airports, Bases, Radars - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-19T19:43:39.510532+00:00",
+      "tier": "gemini",
+      "article": "Russian missile strike on Planeta Plastik plant near Kiev causes major damage"
+    },
+    {
+      "timestamp": "2026-10-19T19:44:08.404102+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Armed Forces Strike Saudi-led Militias with Ballistic Missiles - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-19T19:44:34.867987+00:00",
+      "tier": "gemini",
+      "article": "French opposition blames Macron for nationwide riots"
     }
   ]
 }
