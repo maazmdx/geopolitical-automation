@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6956,
+  "total_calls": 6960,
   "tiers": {
     "groq": 6056,
-    "gemini": 900
+    "gemini": 904
   },
   "log": [
-    {
-      "timestamp": "2026-10-10T18:19:19.604904+00:00",
-      "tier": "gemini",
-      "article": "Yemeni attacks threaten Saudi energy, tourism, foreign investment"
-    },
-    {
-      "timestamp": "2026-10-10T18:19:43.177034+00:00",
-      "tier": "gemini",
-      "article": "The two elections that revolve around Iran"
-    },
-    {
-      "timestamp": "2026-10-10T23:20:53.893838+00:00",
-      "tier": "gemini",
-      "article": "Houthi strike on Riyadh airport kills 12, injures over 300 (VIDEOS)"
-    },
-    {
-      "timestamp": "2026-10-10T23:21:21.870612+00:00",
-      "tier": "gemini",
-      "article": "Yemen\u2019s Health Ministry reports a woman martyred, five injured in Saudi airstrikes on Taiz and Hajjah in the past few hours - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-11T04:47:01.219621+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-19T04:28:31.528704+00:00",
       "tier": "gemini",
       "article": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze"
+    },
+    {
+      "timestamp": "2026-10-19T12:32:57.531468+00:00",
+      "tier": "gemini",
+      "article": "Yemeni strikes on Saudi-backed forces leave dozens of casualties"
+    },
+    {
+      "timestamp": "2026-10-19T12:33:22.346272+00:00",
+      "tier": "gemini",
+      "article": "March Separately, Strike Combined: Rethinking Mass and Maneuver on the Transparent Battlefield"
+    },
+    {
+      "timestamp": "2026-10-19T12:33:44.755250+00:00",
+      "tier": "gemini",
+      "article": "Ukrainian air defenses fail to intercept single Russian ballistic missile overnight"
+    },
+    {
+      "timestamp": "2026-10-19T12:34:15.424249+00:00",
+      "tier": "gemini",
+      "article": "Violent protests spread across Europe as clashes and looting leave trail of destruction"
     }
   ]
 }
