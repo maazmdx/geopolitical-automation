@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6964,
+  "total_calls": 6966,
   "tiers": {
     "groq": 6056,
-    "gemini": 908
+    "gemini": 910
   },
   "log": [
-    {
-      "timestamp": "2026-10-11T12:21:58.771030+00:00",
-      "tier": "gemini",
-      "article": "Yemen fighting expands as Houthis attack Saudi airport: What to know"
-    },
-    {
-      "timestamp": "2026-10-11T12:22:20.562962+00:00",
-      "tier": "gemini",
-      "article": "Lebanese Martyred by Israeli War Remnants as Enemy Steps Up Attacks on Southern Lebanon - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-11T12:22:50.470638+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-19T19:44:34.867987+00:00",
       "tier": "gemini",
       "article": "French opposition blames Macron for nationwide riots"
+    },
+    {
+      "timestamp": "2026-10-19T23:27:22.022438+00:00",
+      "tier": "gemini",
+      "article": "160 people reported killed in escalating drone attacks across Sudan"
+    },
+    {
+      "timestamp": "2026-10-19T23:27:43.536303+00:00",
+      "tier": "gemini",
+      "article": "Houthis strike Saudi Aramco facilities and Saudi airports"
     }
   ]
 }
