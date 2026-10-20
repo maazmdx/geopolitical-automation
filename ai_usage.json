@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6966,
+  "total_calls": 6967,
   "tiers": {
     "groq": 6056,
-    "gemini": 910
+    "gemini": 911
   },
   "log": [
-    {
-      "timestamp": "2026-10-11T12:22:50.470638+00:00",
-      "tier": "gemini",
-      "article": "Lockheed Martin unveils PAC-3 Edge interceptor designed to counter hypersonic threats"
-    },
     {
       "timestamp": "2026-10-11T18:44:19.777758+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-19T23:27:43.536303+00:00",
       "tier": "gemini",
       "article": "Houthis strike Saudi Aramco facilities and Saudi airports"
+    },
+    {
+      "timestamp": "2026-10-20T04:01:56.943363+00:00",
+      "tier": "gemini",
+      "article": "Children among six killed in Russian drone strike on Ukraine park"
     }
   ]
 }
