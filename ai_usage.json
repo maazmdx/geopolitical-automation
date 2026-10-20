@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6971,
+  "total_calls": 6975,
   "tiers": {
     "groq": 6056,
-    "gemini": 915
+    "gemini": 919
   },
   "log": [
-    {
-      "timestamp": "2026-10-11T23:31:33.096758+00:00",
-      "tier": "gemini",
-      "article": "Riyadh airport hit again after deadly Houthi strike"
-    },
-    {
-      "timestamp": "2026-10-11T23:31:57.418471+00:00",
-      "tier": "gemini",
-      "article": "CCTV shows moment of deadly Houthi strike on Riyadh airport"
-    },
-    {
-      "timestamp": "2026-10-11T23:32:28.634204+00:00",
-      "tier": "gemini",
-      "article": "IAEA failed to back peaceful use of nuclear energy: Eslami"
-    },
-    {
-      "timestamp": "2026-10-12T14:48:26.908920+00:00",
-      "tier": "gemini",
-      "article": "4 Palestinians martyred in Gaza Strip in Israeli aggression"
-    },
     {
       "timestamp": "2026-10-12T14:48:51.480689+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-20T11:09:24.234629+00:00",
       "tier": "gemini",
       "article": "Over 300 arrested in Paris as rioters defy Macron\u2019s call for calm"
+    },
+    {
+      "timestamp": "2026-10-20T16:34:03.359544+00:00",
+      "tier": "gemini",
+      "article": "Yemen\u2019s Taiz faces deadly siege, as Shabwah death toll rises"
+    },
+    {
+      "timestamp": "2026-10-20T16:34:30.271847+00:00",
+      "tier": "gemini",
+      "article": "US continues to provide airstrike warnings to Ukraine \u2014 top diplomat"
+    },
+    {
+      "timestamp": "2026-10-20T16:34:55.931847+00:00",
+      "tier": "gemini",
+      "article": "Israeli warplanes strike the vicinity of Nabatieh Al-Fawqah and Kfar Tibnit: Al-Manar correspondent in southern Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-20T16:35:19.829854+00:00",
+      "tier": "gemini",
+      "article": "Albania on fire: who\u2019s behind the riots?"
     }
   ]
 }
