@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6986,
+  "total_calls": 6988,
   "tiers": {
     "groq": 6056,
-    "gemini": 930
+    "gemini": 932
   },
   "log": [
-    {
-      "timestamp": "2026-10-13T15:44:18.214829+00:00",
-      "tier": "gemini",
-      "article": "German silence on Gaza and the West Bank \u2018has been loud\u2019: Philippe Sands"
-    },
-    {
-      "timestamp": "2026-10-13T21:02:52.856526+00:00",
-      "tier": "gemini",
-      "article": "Zelensky says West gave no warning of Russian missile strike"
-    },
     {
       "timestamp": "2026-10-13T21:03:24.774349+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-21T13:36:42.504633+00:00",
       "tier": "gemini",
       "article": "US Navy, Gecko Robotics surge AI maintenance contract to $300M"
+    },
+    {
+      "timestamp": "2026-10-21T18:30:03.807390+00:00",
+      "tier": "gemini",
+      "article": "Yemeni army strikes Saudi \u2018operations room\u2019 in Aden"
+    },
+    {
+      "timestamp": "2026-10-21T18:30:29.384105+00:00",
+      "tier": "gemini",
+      "article": "Yemeni military attacks Saudi operations room in Aden"
     }
   ]
 }
