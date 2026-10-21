@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6988,
+  "total_calls": 6989,
   "tiers": {
     "groq": 6056,
-    "gemini": 932
+    "gemini": 933
   },
   "log": [
-    {
-      "timestamp": "2026-10-13T21:03:24.774349+00:00",
-      "tier": "gemini",
-      "article": "IRNA chief visits sites of deadly US-Israeli airstrikes on Iran\u2019s Lamerd"
-    },
     {
       "timestamp": "2026-10-13T21:03:48.707575+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-21T18:30:29.384105+00:00",
       "tier": "gemini",
       "article": "Yemeni military attacks Saudi operations room in Aden"
+    },
+    {
+      "timestamp": "2026-10-21T23:04:43.509727+00:00",
+      "tier": "gemini",
+      "article": "Yemen holds mass funeral for 75 recruits killed in Houthi strike"
     }
   ]
 }
