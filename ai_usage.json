@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6978,
+  "total_calls": 6982,
   "tiers": {
     "groq": 6056,
-    "gemini": 922
+    "gemini": 926
   },
   "log": [
-    {
-      "timestamp": "2026-10-12T22:48:22.276227+00:00",
-      "tier": "gemini",
-      "article": "General Saree Reports More Saudi Attacks on Yemen - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-12T22:48:49.588799+00:00",
-      "tier": "gemini",
-      "article": "Yemeni military issues statement on latest Saudi agggression"
-    },
-    {
-      "timestamp": "2026-10-12T22:49:14.542287+00:00",
-      "tier": "gemini",
-      "article": "Saudi energy conference loses Shell, Exxon, BP execs amid Yemeni strikes"
-    },
-    {
-      "timestamp": "2026-10-12T22:49:36.364800+00:00",
-      "tier": "gemini",
-      "article": "\u2018Bandera, get out!\u2019 Protesters demand migration crackdown after Ukrainian kills Polish priest (VIDEO)"
-    },
     {
       "timestamp": "2026-10-13T06:04:23.618839+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-21T00:27:15.082081+00:00",
       "tier": "gemini",
       "article": "\u2018Dead on arrival\u2019: Iran dismisses Israel&#039;s new pre-emptive war doctrine"
+    },
+    {
+      "timestamp": "2026-10-21T07:16:22.038284+00:00",
+      "tier": "gemini",
+      "article": "Iran to target internet cables in Hormuz if infrsutucture hit"
+    },
+    {
+      "timestamp": "2026-10-21T07:17:01.244052+00:00",
+      "tier": "gemini",
+      "article": "Iraq closes border crossings with Iran over attacks on Saudi Arabia \u2014 portal"
+    },
+    {
+      "timestamp": "2026-10-21T07:17:27.912986+00:00",
+      "tier": "gemini",
+      "article": "3 Saudi airstrikes targeted the telecommunications network in the Marran district of Saada, in northern Yemen - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-21T07:17:52.401105+00:00",
+      "tier": "gemini",
+      "article": "US Vice President Vance refuses to call Ukraine an ally and rejects its NATO ambitions"
     }
   ]
 }
