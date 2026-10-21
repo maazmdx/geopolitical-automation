@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6982,
+  "total_calls": 6986,
   "tiers": {
     "groq": 6056,
-    "gemini": 926
+    "gemini": 930
   },
   "log": [
-    {
-      "timestamp": "2026-10-13T06:04:23.618839+00:00",
-      "tier": "gemini",
-      "article": "Saudi Arabia extends airport closure after Houthi strikes"
-    },
-    {
-      "timestamp": "2026-10-13T15:42:57.318556+00:00",
-      "tier": "gemini",
-      "article": "Houthis say they attacked Riyadh airport with ballistic missile"
-    },
-    {
-      "timestamp": "2026-10-13T15:43:23.451088+00:00",
-      "tier": "gemini",
-      "article": "Ukrainian strikes kill 52 Russian residents, including 5 children, over past week \u2014 envoy"
-    },
-    {
-      "timestamp": "2026-10-13T15:43:50.192544+00:00",
-      "tier": "gemini",
-      "article": "Russian strikes hit Ukrainian defense plants, logistics centers, railway infrastructure"
-    },
     {
       "timestamp": "2026-10-13T15:44:18.214829+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-21T07:17:52.401105+00:00",
       "tier": "gemini",
       "article": "US Vice President Vance refuses to call Ukraine an ally and rejects its NATO ambitions"
+    },
+    {
+      "timestamp": "2026-10-21T13:35:31.528636+00:00",
+      "tier": "gemini",
+      "article": "Blast heard in Yemen\u2019s Aden as Houthis claim attack on military camp"
+    },
+    {
+      "timestamp": "2026-10-21T13:35:57.211380+00:00",
+      "tier": "gemini",
+      "article": "Mexican artist honors Minab school victims with \u2018Butterflies of Minab\u2019"
+    },
+    {
+      "timestamp": "2026-10-21T13:36:19.555113+00:00",
+      "tier": "gemini",
+      "article": "Europe weighs giving utilities, infrastructure companies more powers to bring down drones"
+    },
+    {
+      "timestamp": "2026-10-21T13:36:42.504633+00:00",
+      "tier": "gemini",
+      "article": "US Navy, Gecko Robotics surge AI maintenance contract to $300M"
     }
   ]
 }
