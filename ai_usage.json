@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6976,
+  "total_calls": 6978,
   "tiers": {
     "groq": 6056,
-    "gemini": 920
+    "gemini": 922
   },
   "log": [
-    {
-      "timestamp": "2026-10-12T14:49:14.186276+00:00",
-      "tier": "gemini",
-      "article": "Ukrainian attacks on DPR leave one killed, two others injured over past day"
-    },
-    {
-      "timestamp": "2026-10-12T14:49:48.897640+00:00",
-      "tier": "gemini",
-      "article": "Steadfast Iran stands against most bloodthirsty enemies: Mohajerani"
-    },
     {
       "timestamp": "2026-10-12T22:48:22.276227+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-20T21:23:55.564583+00:00",
       "tier": "gemini",
       "article": "General Saree Reports More Saudi Attacks on Yemen - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-21T00:26:50.267626+00:00",
+      "tier": "gemini",
+      "article": "Mother of all bombs or father of all missiles?"
+    },
+    {
+      "timestamp": "2026-10-21T00:27:15.082081+00:00",
+      "tier": "gemini",
+      "article": "\u2018Dead on arrival\u2019: Iran dismisses Israel&#039;s new pre-emptive war doctrine"
     }
   ]
 }
