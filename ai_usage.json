@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6989,
+  "total_calls": 6991,
   "tiers": {
     "groq": 6056,
-    "gemini": 933
+    "gemini": 935
   },
   "log": [
-    {
-      "timestamp": "2026-10-13T21:03:48.707575+00:00",
-      "tier": "gemini",
-      "article": "5 killed in clash btw Iran security forces, terrorist element"
-    },
-    {
-      "timestamp": "2026-10-14T00:59:24.301781+00:00",
-      "tier": "gemini",
-      "article": "North Korea tests technically upgraded ballistic missile component \u2014 news agency"
-    },
     {
       "timestamp": "2026-10-14T00:59:49.984337+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-21T23:04:43.509727+00:00",
       "tier": "gemini",
       "article": "Yemen holds mass funeral for 75 recruits killed in Houthi strike"
+    },
+    {
+      "timestamp": "2026-10-22T03:51:49.032997+00:00",
+      "tier": "gemini",
+      "article": "US withdrawing troops and diplomats from Middle East \u2013 NBC"
+    },
+    {
+      "timestamp": "2026-10-22T03:52:15.485485+00:00",
+      "tier": "gemini",
+      "article": "Poland rules out Patriot missile deliveries to Kiev"
     }
   ]
 }
