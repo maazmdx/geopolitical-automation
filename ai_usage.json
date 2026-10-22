@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6991,
+  "total_calls": 6992,
   "tiers": {
     "groq": 6056,
-    "gemini": 935
+    "gemini": 936
   },
   "log": [
-    {
-      "timestamp": "2026-10-14T00:59:49.984337+00:00",
-      "tier": "gemini",
-      "article": "If Iran attacked, consequences to be extended beyond region"
-    },
     {
       "timestamp": "2026-10-14T13:26:15.992746+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-22T03:52:15.485485+00:00",
       "tier": "gemini",
       "article": "Poland rules out Patriot missile deliveries to Kiev"
+    },
+    {
+      "timestamp": "2026-10-22T09:15:39.135883+00:00",
+      "tier": "gemini",
+      "article": "Russian strikes hit Kyiv after Witkoff meets Putin"
     }
   ]
 }

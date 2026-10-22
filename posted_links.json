@@ -1,4 +1,39 @@
 {
+  "e410a003b4aaee1ab751d2592391ad82db6fb7bcf7077e36067e1a07e4670632": {
+    "url": "presstv/211772",
+    "title": "Toledo Evacuates Amid Chemical Leak and Explosion Threat",
+    "published": "2026-10-22T09:20:56.218772+00:00"
+  },
+  "a518a614728bc3be2b8b407d1d52c2ac3d3f576d57d468c67691600196601274": {
+    "url": "DDGeopolitics/196067",
+    "title": "Kyiv Imposes Southern Bridge Traffic Restrictions Following Missile Strikes",
+    "published": "2026-10-22T09:20:13.274562+00:00"
+  },
+  "c8a1c00d2449b9557dec86b583addc36ca15ee74a9b92ed2834b775cd81e4e5f": {
+    "url": "DDGeopolitics/196072",
+    "title": "Another Epicenter Retail Outlet Destroyed in Kyiv",
+    "published": "2026-10-22T09:19:01.872698+00:00"
+  },
+  "00d9928bf816822c4da151da6b2300d4cc07a7f9c2e6334b5eca2e38fb9da891": {
+    "url": "thecradlemedia/69786",
+    "title": "VIDEO | US President Donald Trump said on Thursday that developments in the US-I",
+    "published": "2026-10-22T09:16:45.012288+00:00"
+  },
+  "0421715fa0e1fe6c552c2f603644270b4214808e6324db5ff2e51833ad1ea312": {
+    "url": "thecradlemedia/69789",
+    "title": "IRGC Claims Strikes on Vessels in Persian Gulf Amid Broader Regional Escalation",
+    "published": "2026-10-22T09:16:09.282179+00:00"
+  },
+  "7278dd905183b1803afe17f8817f0ea5ac2ca62c44c907c701e285dc7e54e7fc": {
+    "url": "thecradlemedia/69790",
+    "title": "\u2757\ufe0fSaudi Arabia plans to expand strategic oil reserves with foreign partnersSaudi",
+    "published": "2026-10-22T09:16:01.207488+00:00"
+  },
+  "84c664255f712bb86cdda16fa44136d04f6249ed171a57d9e5aaeb624718a100": {
+    "url": "https://www.aljazeera.com/news/2026/10/22/russian-strikes-hit-kyiv-after-witkoff-meets-putin?traffic_source=rss",
+    "title": "Russian strikes hit Kyiv after Witkoff meets Putin",
+    "published": "2026-10-22T08:18:39+00:00"
+  },
   "5c6770dc2e9f93d096b018b8d829c535ee0de60fa37112097be8e4b895e18f83": {
     "url": "militarywave/25400",
     "title": "\u26a1\ufe0fA T-80BVM strikes Ukrainian positions in Kharkov Region.A reconnaissance drone",
@@ -713,40 +748,5 @@
     "url": "presstv/211283",
     "title": "IRGC Navy Threatens Missile Engagement Over Hormuz Transit Violations",
     "published": "2026-10-18T13:57:48.972773+00:00"
-  },
-  "f8e3fb92fa62825cec9cf2ff0cedbf8419b9c344d26bb696ac594eb6f9e6e500": {
-    "url": "presstv/211294",
-    "title": "Gaza Conflict Narratives and UN Official's Controversial 'Anti-Semitism' Claim Under Expert Review",
-    "published": "2026-10-18T13:56:12.700500+00:00"
-  },
-  "1ba01abe6d079a952f934c67b8c98a3a7ead7a4c624ce29b517fae7a32248941": {
-    "url": "QudsNen/242495",
-    "title": "West Bank: Israeli Occupation Forces Deploy Tear Gas Amid Olive Harvest Near Nablus",
-    "published": "2026-10-18T13:53:52.763740+00:00"
-  },
-  "16ba6eb3d05f1d9fe1290abc7f24c7b53c57206f5458fefca5b97cb5e5c542f6": {
-    "url": "QudsNen/242514",
-    "title": "Gaza City Holds Mass Funeral for 75 Victims Recovered from Al-Daraj Rubble After Three Years.",
-    "published": "2026-10-18T13:53:27.565917+00:00"
-  },
-  "74cf104c6d211680748f6607cf547688bd33fd2c4c455e1482b24224cec17aa7": {
-    "url": "thecradlemedia/69622",
-    "title": "Iran Confirms Sanctioned Arms Chief as Defense Minister, Vowing Significant Military Expansion",
-    "published": "2026-10-18T13:52:00.512276+00:00"
-  },
-  "46187d253484ebe77693220c6bac7920884a9a2e4e40339a2a3df98bbce0cb18": {
-    "url": "thecradlemedia/69623",
-    "title": "Iran FM Offers Hormuz Reopening Amid Tanker Attacks",
-    "published": "2026-10-18T13:51:49.906356+00:00"
-  },
-  "0c196fff06ccc3299e2e99098ea1aab6fe8415ff3e051a0b516fb31a4697f582": {
-    "url": "https://english.almanar.com.lb/article/139607/",
-    "title": "Yemeni Military Media Posts Footage of Drone Strikes against pro-Saudi Militias - Al-Manar TV Lebanon",
-    "published": "2026-10-18T13:31:13+00:00"
-  },
-  "2b32fd2279e493aff7e0b4de616d2e8bd9ffe8d6f2b44c206472ecc465b1cca4": {
-    "url": "https://english.almanar.com.lb/article/139572/",
-    "title": "IRGC Navy warns vessels violating transit rules in the Strait of Hormuz to turn back immediately or risk being targeted by missiles - Al-Manar TV Lebanon",
-    "published": "2026-10-18T11:46:59+00:00"
   }
 }
