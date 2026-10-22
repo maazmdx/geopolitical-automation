@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6992,
+  "total_calls": 6995,
   "tiers": {
     "groq": 6056,
-    "gemini": 936
+    "gemini": 939
   },
   "log": [
-    {
-      "timestamp": "2026-10-14T13:26:15.992746+00:00",
-      "tier": "gemini",
-      "article": "Houthi missile hits Aramco building after Saudi-led coalition hits Yemen fuel depot"
-    },
-    {
-      "timestamp": "2026-10-14T13:26:38.116938+00:00",
-      "tier": "gemini",
-      "article": "US lawmakers press Pentagon over civilian deaths in Iran"
-    },
-    {
-      "timestamp": "2026-10-14T13:27:03.355227+00:00",
-      "tier": "gemini",
-      "article": "Israeli Enemy Launches Wave of Attacks Across Southern Lebanon - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-14T13:27:33.951253+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-22T09:15:39.135883+00:00",
       "tier": "gemini",
       "article": "Russian strikes hit Kyiv after Witkoff meets Putin"
+    },
+    {
+      "timestamp": "2026-10-22T15:05:32.289450+00:00",
+      "tier": "gemini",
+      "article": "Four energy company employees killed, over ten injured in Zaporozhye Region in 2025-2026"
+    },
+    {
+      "timestamp": "2026-10-22T15:06:01.789926+00:00",
+      "tier": "gemini",
+      "article": "Death toll from Israeli attacks on Gaza reaches 74,498"
+    },
+    {
+      "timestamp": "2026-10-22T15:06:30.418376+00:00",
+      "tier": "gemini",
+      "article": "Saudi Aggression on Yemen Enters 100th Day: 2,900+ Airstrikes, 562 Martyrs and Wounded, as Yemeni Forces Strike Back Deep Inside Saudi Arabia - Al-Manar TV Lebanon"
     }
   ]
 }
