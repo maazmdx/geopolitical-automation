@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6998,
+  "total_calls": 6999,
   "tiers": {
     "groq": 6056,
-    "gemini": 942
+    "gemini": 943
   },
   "log": [
-    {
-      "timestamp": "2026-10-15T03:48:14.699544+00:00",
-      "tier": "gemini",
-      "article": "Families of Trinidadian men killed in US boat strike demand accountability"
-    },
     {
       "timestamp": "2026-10-15T03:48:53.520574+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-22T19:51:12.140457+00:00",
       "tier": "gemini",
       "article": "Yemeni forces target Saudi defense ministry, oil and airport facilities"
+    },
+    {
+      "timestamp": "2026-10-22T23:03:33.759892+00:00",
+      "tier": "gemini",
+      "article": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate"
     }
   ]
 }
