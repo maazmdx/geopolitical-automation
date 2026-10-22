@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6995,
+  "total_calls": 6998,
   "tiers": {
     "groq": 6056,
-    "gemini": 939
+    "gemini": 942
   },
   "log": [
-    {
-      "timestamp": "2026-10-14T13:27:33.951253+00:00",
-      "tier": "gemini",
-      "article": "Israel\u2019s Smotrich calls for wiping out Gaza, describes residents as \u20181.8 million Nazis\u2019"
-    },
-    {
-      "timestamp": "2026-10-14T18:24:27.310467+00:00",
-      "tier": "gemini",
-      "article": "UN official sounds alarm as Hormuz fertilizer deadlock pushes Asia, Africa toward food crisis"
-    },
-    {
-      "timestamp": "2026-10-14T18:24:55.703792+00:00",
-      "tier": "gemini",
-      "article": "Missile alert interrupts Saudi minister mid-speech (VIDEO)"
-    },
     {
       "timestamp": "2026-10-15T03:48:14.699544+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-22T15:06:30.418376+00:00",
       "tier": "gemini",
       "article": "Saudi Aggression on Yemen Enters 100th Day: 2,900+ Airstrikes, 562 Martyrs and Wounded, as Yemeni Forces Strike Back Deep Inside Saudi Arabia - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-22T19:50:29.486487+00:00",
+      "tier": "gemini",
+      "article": "Yemeni media: A citizen was killed and a child was injured in a Saudi airstrike that targeted homes in the Al-Za\u2019za\u2019a area of \u200b\u200bAl-Shamaitain district in Taiz governorate - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-22T19:50:50.682282+00:00",
+      "tier": "gemini",
+      "article": "Denmark to buy Kongsberg, Covenant missiles for new long-range strike option"
+    },
+    {
+      "timestamp": "2026-10-22T19:51:12.140457+00:00",
+      "tier": "gemini",
+      "article": "Yemeni forces target Saudi defense ministry, oil and airport facilities"
     }
   ]
 }
