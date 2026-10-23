@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7010,
+  "total_calls": 7013,
   "tiers": {
     "groq": 6056,
-    "gemini": 954
+    "gemini": 957
   },
   "log": [
-    {
-      "timestamp": "2026-10-16T08:51:44.313420+00:00",
-      "tier": "gemini",
-      "article": "Israel unlikely to attack Iran before elections \u2013 media"
-    },
-    {
-      "timestamp": "2026-10-16T08:52:12.118173+00:00",
-      "tier": "gemini",
-      "article": "Russian forces carry out massive strike on encircled Ukrainian strongholds in Kharkov"
-    },
-    {
-      "timestamp": "2026-10-16T08:52:40.846992+00:00",
-      "tier": "gemini",
-      "article": "\u2018Who doesn\u2019t want to be first?\u2019 Best Squad, NCO and Soldier named at AUSA"
-    },
     {
       "timestamp": "2026-10-16T14:39:46.224721+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-23T19:52:54.722612+00:00",
       "tier": "gemini",
       "article": "Saudi Attacks on Yemen Result in the Death of Citizens - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-23T22:58:17.211866+00:00",
+      "tier": "gemini",
+      "article": "Seven killed, over 30 wounded in \u2018horrific\u2019 attack on church in Jordan (VIDEOS)"
+    },
+    {
+      "timestamp": "2026-10-23T22:58:42.134291+00:00",
+      "tier": "gemini",
+      "article": "Netanyahu orders West Bank blockade after Palestinian gunmen kill two IDF troops"
+    },
+    {
+      "timestamp": "2026-10-23T22:59:13.037799+00:00",
+      "tier": "gemini",
+      "article": "Hundreds of houses collapse as powerful earthquake hits China (VIDEOS)"
     }
   ]
 }
