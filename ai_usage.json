@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 6999,
+  "total_calls": 7001,
   "tiers": {
     "groq": 6056,
-    "gemini": 943
+    "gemini": 945
   },
   "log": [
-    {
-      "timestamp": "2026-10-15T03:48:53.520574+00:00",
-      "tier": "gemini",
-      "article": "Trump\u2019s remarks about Tehran destroying LA election rhetoric"
-    },
-    {
-      "timestamp": "2026-10-15T14:45:24.776120+00:00",
-      "tier": "gemini",
-      "article": "Ukrainians fear US intelligence cuts as Russian strikes intensify"
-    },
     {
       "timestamp": "2026-10-15T14:45:46.784290+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-22T23:03:33.759892+00:00",
       "tier": "gemini",
       "article": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate"
+    },
+    {
+      "timestamp": "2026-10-23T03:56:07.320280+00:00",
+      "tier": "gemini",
+      "article": "Ukraine steps up strikes on civilian infrastructure by 3-4 times \u2014 Russian envoy"
+    },
+    {
+      "timestamp": "2026-10-23T03:56:39.252671+00:00",
+      "tier": "gemini",
+      "article": "US Army long-range fires make a splash\u00a0on the frontline with China"
     }
   ]
 }
