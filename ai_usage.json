@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7005,
+  "total_calls": 7008,
   "tiers": {
     "groq": 6056,
-    "gemini": 949
+    "gemini": 952
   },
   "log": [
-    {
-      "timestamp": "2026-10-15T22:57:43.328642+00:00",
-      "tier": "gemini",
-      "article": "Ukraine resumes strikes on Russian oil refineries in defiance of Trump\u2019s \u2018energy truce\u2019"
-    },
-    {
-      "timestamp": "2026-10-15T22:58:21.198877+00:00",
-      "tier": "gemini",
-      "article": "Acting US Army secretary creates task force for HVAC repairs"
-    },
-    {
-      "timestamp": "2026-10-16T03:44:06.811219+00:00",
-      "tier": "gemini",
-      "article": "Yemen\u2019s Houthis pound presidential palace in Aden (VIDEO)"
-    },
     {
       "timestamp": "2026-10-16T03:44:42.503382+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-23T09:13:54.725448+00:00",
       "tier": "gemini",
       "article": "Macron hits back at Trump over France riots"
+    },
+    {
+      "timestamp": "2026-10-23T15:25:57.613366+00:00",
+      "tier": "gemini",
+      "article": "King Fahd Airport, Defense Ministry attacked as US tells diplomats to leave Saudi Arabia"
+    },
+    {
+      "timestamp": "2026-10-23T15:26:57.270295+00:00",
+      "tier": "gemini",
+      "article": "Saudi missile plant expansion may produce more powerful missiles, study says"
+    },
+    {
+      "timestamp": "2026-10-23T15:27:22.594596+00:00",
+      "tier": "gemini",
+      "article": "US banks detect unauthorized AI agents in customer accounts \u2013 Axios"
     }
   ]
 }
