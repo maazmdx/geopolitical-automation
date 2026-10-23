@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7001,
+  "total_calls": 7005,
   "tiers": {
     "groq": 6056,
-    "gemini": 945
+    "gemini": 949
   },
   "log": [
-    {
-      "timestamp": "2026-10-15T14:45:46.784290+00:00",
-      "tier": "gemini",
-      "article": "Israeli Escalation in Southern Lebanon; Child Injured in Hadatha - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-15T14:46:10.739946+00:00",
-      "tier": "gemini",
-      "article": "Houthis say they attacked Saudi Typhoon fighter jet"
-    },
-    {
-      "timestamp": "2026-10-15T14:46:35.689368+00:00",
-      "tier": "gemini",
-      "article": "Any enemy mischief will be met with crushing response: IRGC commander"
-    },
-    {
-      "timestamp": "2026-10-15T19:46:38.652843+00:00",
-      "tier": "gemini",
-      "article": "General Saree: 65 Saudi Air Raids and Missile Strikes in 24 Hours Bring Total to 2,388 - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-15T22:57:43.328642+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-23T03:56:39.252671+00:00",
       "tier": "gemini",
       "article": "US Army long-range fires make a splash\u00a0on the frontline with China"
+    },
+    {
+      "timestamp": "2026-10-23T09:12:35.287816+00:00",
+      "tier": "gemini",
+      "article": "Railcar depot, temporary deployment sites for USV operators hit in Russian strikes"
+    },
+    {
+      "timestamp": "2026-10-23T09:13:00.343516+00:00",
+      "tier": "gemini",
+      "article": "Palestinian martyred, others injured in Israeli drone strike west of Khan Younis in southern Gaza Strip: Palestinian media - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-23T09:13:24.066406+00:00",
+      "tier": "gemini",
+      "article": "Russian forces strike NASAMS air defense systems in Zaporozhye, Dnepropetrovsk Regions"
+    },
+    {
+      "timestamp": "2026-10-23T09:13:54.725448+00:00",
+      "tier": "gemini",
+      "article": "Macron hits back at Trump over France riots"
     }
   ]
 }
