@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7008,
+  "total_calls": 7010,
   "tiers": {
     "groq": 6056,
-    "gemini": 952
+    "gemini": 954
   },
   "log": [
-    {
-      "timestamp": "2026-10-16T03:44:42.503382+00:00",
-      "tier": "gemini",
-      "article": "Iran\u2019s Precision Strikes Picked Apart Gulf Infrastructure, Blunting US War Plans: Reuters - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-16T08:51:17.576246+00:00",
-      "tier": "gemini",
-      "article": "Houthi strikes on Riyadh airport kill 17, wound over 330 \u2014 coalition"
-    },
     {
       "timestamp": "2026-10-16T08:51:44.313420+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-23T15:27:22.594596+00:00",
       "tier": "gemini",
       "article": "US banks detect unauthorized AI agents in customer accounts \u2013 Axios"
+    },
+    {
+      "timestamp": "2026-10-23T19:52:32.252602+00:00",
+      "tier": "gemini",
+      "article": "General Saree: Over the past 24 hours, Saudi warplanes have launched 124 airstrikes and missile attacks on Yemen - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-23T19:52:54.722612+00:00",
+      "tier": "gemini",
+      "article": "Saudi Attacks on Yemen Result in the Death of Citizens - Al-Manar TV Lebanon"
     }
   ]
 }
