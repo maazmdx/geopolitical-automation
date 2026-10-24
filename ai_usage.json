@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7013,
+  "total_calls": 7015,
   "tiers": {
     "groq": 6056,
-    "gemini": 957
+    "gemini": 959
   },
   "log": [
-    {
-      "timestamp": "2026-10-16T14:39:46.224721+00:00",
-      "tier": "gemini",
-      "article": "Pakistan orders school inspections following deadly roof collapse"
-    },
-    {
-      "timestamp": "2026-10-16T14:40:09.208606+00:00",
-      "tier": "gemini",
-      "article": "Saudi Arabia: Billions in Weapons, Security Still Out of Stock"
-    },
     {
       "timestamp": "2026-10-16T14:40:35.676241+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-23T22:59:13.037799+00:00",
       "tier": "gemini",
       "article": "Hundreds of houses collapse as powerful earthquake hits China (VIDEOS)"
+    },
+    {
+      "timestamp": "2026-10-24T03:50:18.020980+00:00",
+      "tier": "gemini",
+      "article": "Arabian coalition shoots down Houthi ballistic missile over Riyadh"
+    },
+    {
+      "timestamp": "2026-10-24T03:50:47.176152+00:00",
+      "tier": "gemini",
+      "article": "Two oil supertankers strike mines in Strait of Hormuz \u2014 IRGC"
     }
   ]
 }
