@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7019,
+  "total_calls": 7023,
   "tiers": {
     "groq": 6056,
-    "gemini": 963
+    "gemini": 967
   },
   "log": [
-    {
-      "timestamp": "2026-10-16T22:41:38.406483+00:00",
-      "tier": "gemini",
-      "article": "What is Starshield, SpaceX\u2019s military version of Starlink?"
-    },
-    {
-      "timestamp": "2026-10-16T22:41:59.909835+00:00",
-      "tier": "gemini",
-      "article": "AI has enhanced Iran\u2019s intelligence and targeting capabilities: Taeb"
-    },
-    {
-      "timestamp": "2026-10-17T03:34:13.858092+00:00",
-      "tier": "gemini",
-      "article": "EXCLUSIVE - Iraq detains Ukrainian nationals on suspicion of plotting attack on Gulf oil facilities"
-    },
-    {
-      "timestamp": "2026-10-17T03:34:37.347227+00:00",
-      "tier": "gemini",
-      "article": "Russian forces strike Ukrainian army hangar, shelters, Starlink terminals by attack drones"
-    },
     {
       "timestamp": "2026-10-17T08:21:53.888004+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-24T08:46:52.582213+00:00",
       "tier": "gemini",
       "article": "US forces deployed 600\u2013700 km away from Strait of Hormuz"
+    },
+    {
+      "timestamp": "2026-10-24T13:54:46.356177+00:00",
+      "tier": "gemini",
+      "article": "Bodies of three victims discovered after missile strike in Oryol"
+    },
+    {
+      "timestamp": "2026-10-24T13:55:15.183130+00:00",
+      "tier": "gemini",
+      "article": "What Did Trump Say About Barrack\u2019s Remarks on \u201cAbsolute\u201d Weekend Strike on Iran? - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-24T13:55:41.698733+00:00",
+      "tier": "gemini",
+      "article": "Czech Republic advances media funding overhaul despite criticism"
+    },
+    {
+      "timestamp": "2026-10-24T13:56:07.865642+00:00",
+      "tier": "gemini",
+      "article": "IN BRIEF: What to know of restrictions at Moscow airports, evacuation at Sheremetyevo"
     }
   ]
 }
