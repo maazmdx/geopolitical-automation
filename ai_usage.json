@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7023,
+  "total_calls": 7025,
   "tiers": {
     "groq": 6056,
-    "gemini": 967
+    "gemini": 969
   },
   "log": [
-    {
-      "timestamp": "2026-10-17T08:21:53.888004+00:00",
-      "tier": "gemini",
-      "article": "Russian attacks in Ukraine kill at least 8, cut power to 1 million"
-    },
-    {
-      "timestamp": "2026-10-17T08:22:18.343551+00:00",
-      "tier": "gemini",
-      "article": "Liberation of DPR, security zone, continuation of massive strikes: Putin\u2019s statements"
-    },
     {
       "timestamp": "2026-10-17T08:22:49.139146+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-24T13:56:07.865642+00:00",
       "tier": "gemini",
       "article": "IN BRIEF: What to know of restrictions at Moscow airports, evacuation at Sheremetyevo"
+    },
+    {
+      "timestamp": "2026-10-24T17:16:13.039596+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Missiles Strike Saudi Airports, Oil Refineries - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-24T17:16:39.669714+00:00",
+      "tier": "gemini",
+      "article": "Silence about attacks on nuclear facilities is unforgivable\u00a0"
     }
   ]
 }
