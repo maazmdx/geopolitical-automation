@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7015,
+  "total_calls": 7019,
   "tiers": {
     "groq": 6056,
-    "gemini": 959
+    "gemini": 963
   },
   "log": [
-    {
-      "timestamp": "2026-10-16T14:40:35.676241+00:00",
-      "tier": "gemini",
-      "article": "Disaster Risk Reduction Week: building resilience starts at home"
-    },
-    {
-      "timestamp": "2026-10-16T14:41:03.133797+00:00",
-      "tier": "gemini",
-      "article": "Student-led protests grip Balkan nation (VIDEOS)"
-    },
-    {
-      "timestamp": "2026-10-16T19:26:48.427712+00:00",
-      "tier": "gemini",
-      "article": "Russian strikes reduce Ukrainian capacity to produce long-range weapons \u2014 Gerasimov"
-    },
-    {
-      "timestamp": "2026-10-16T22:41:11.901419+00:00",
-      "tier": "gemini",
-      "article": "Russian forces striking strategic targets in Ukraine \u2014 Gerasimov"
-    },
     {
       "timestamp": "2026-10-16T22:41:38.406483+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-24T03:50:47.176152+00:00",
       "tier": "gemini",
       "article": "Two oil supertankers strike mines in Strait of Hormuz \u2014 IRGC"
+    },
+    {
+      "timestamp": "2026-10-24T08:45:39.661042+00:00",
+      "tier": "gemini",
+      "article": "Israeli Occupation Launches Offensive across Al-Khalil after Shooting Operation - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-24T08:46:03.175973+00:00",
+      "tier": "gemini",
+      "article": "Saudi warplanes launch series of airstrikes targeting Yemen\u2019s Mokha: Al-Manar reporter in Sanaa - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-24T08:46:27.394024+00:00",
+      "tier": "gemini",
+      "article": "Argentina identifies dozens of victims killed in its \u2018Dirty War\u2019"
+    },
+    {
+      "timestamp": "2026-10-24T08:46:52.582213+00:00",
+      "tier": "gemini",
+      "article": "US forces deployed 600\u2013700 km away from Strait of Hormuz"
     }
   ]
 }
