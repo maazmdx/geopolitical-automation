@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7025,
+  "total_calls": 7027,
   "tiers": {
     "groq": 6056,
-    "gemini": 969
+    "gemini": 971
   },
   "log": [
-    {
-      "timestamp": "2026-10-17T08:22:49.139146+00:00",
-      "tier": "gemini",
-      "article": "US military\u2019s shortage of missile defense munitions to persist until at least 2030 \u2014 TV"
-    },
-    {
-      "timestamp": "2026-10-17T08:23:12.558538+00:00",
-      "tier": "gemini",
-      "article": "New human-machine interface will help Boxer punch above its weight"
-    },
     {
       "timestamp": "2026-10-17T13:31:52.311715+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-24T17:16:39.669714+00:00",
       "tier": "gemini",
       "article": "Silence about attacks on nuclear facilities is unforgivable\u00a0"
+    },
+    {
+      "timestamp": "2026-10-24T20:27:08.608065+00:00",
+      "tier": "gemini",
+      "article": "One killed, two others injured in Ukrainian attacks on Russia\u2019s Belgorod Region"
+    },
+    {
+      "timestamp": "2026-10-24T20:27:39.799882+00:00",
+      "tier": "gemini",
+      "article": "Russian envoy calls OSCE trench through which Moscow heard in Europe"
     }
   ]
 }
