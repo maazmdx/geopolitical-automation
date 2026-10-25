@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7033,
+  "total_calls": 7037,
   "tiers": {
     "groq": 6056,
-    "gemini": 977
+    "gemini": 981
   },
   "log": [
-    {
-      "timestamp": "2026-10-17T16:56:23.847010+00:00",
-      "tier": "gemini",
-      "article": "Yemeni sources: 9 martyred, including women and children, and 16 injured in a new Saudi attack targeting civilian homes in the Hamir Al-Jabal area of Maqbanah District, Taiz Governorate - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-17T20:19:22.400265+00:00",
-      "tier": "gemini",
-      "article": "Iran\u2019s missile capabilities have changed the equation, caretaker defense minister warns US"
-    },
-    {
-      "timestamp": "2026-10-17T20:19:51.214889+00:00",
-      "tier": "gemini",
-      "article": "Second supertanker strikes sea mine in Strait of Hormuz: IRGC Navy"
-    },
-    {
-      "timestamp": "2026-10-17T20:20:25.929525+00:00",
-      "tier": "gemini",
-      "article": "EU to launch Arctic surveillance program in 2027 \u2014 Bloomberg"
-    },
     {
       "timestamp": "2026-10-17T23:52:53.443708+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-25T07:25:17.979601+00:00",
       "tier": "gemini",
       "article": "Situation near DPRK embassy in Beijing calm"
+    },
+    {
+      "timestamp": "2026-10-25T13:02:54.282363+00:00",
+      "tier": "gemini",
+      "article": "Gaza: At least one Palestinian martyred and others injured in an Israeli airstrike north of Khan Younis - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-25T13:03:19.582202+00:00",
+      "tier": "gemini",
+      "article": "Gaza: Several people injured some in critical condition following an Israeli drone strike that targeted a gathering of civilians on the campus of the Islamic University - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-25T13:03:47.953104+00:00",
+      "tier": "gemini",
+      "article": "Israeli Occupation Forces Escalate Assaults Across Southern Lebanon - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-25T13:04:12.190415+00:00",
+      "tier": "gemini",
+      "article": "How French presidential hopefuls turn unrest into campaign ammo \u2013 RT report"
     }
   ]
 }
