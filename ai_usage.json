@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7037,
+  "total_calls": 7039,
   "tiers": {
     "groq": 6056,
-    "gemini": 981
+    "gemini": 983
   },
   "log": [
-    {
-      "timestamp": "2026-10-17T23:52:53.443708+00:00",
-      "tier": "gemini",
-      "article": "Projectile hits tanker with five Indians on board in Strait of Hormuz \u2014 Indian minister"
-    },
-    {
-      "timestamp": "2026-10-18T03:41:05.490050+00:00",
-      "tier": "gemini",
-      "article": "European diplomats attacked by Israeli settlers in West Bank"
-    },
     {
       "timestamp": "2026-10-18T03:41:27.144033+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-25T13:04:12.190415+00:00",
       "tier": "gemini",
       "article": "How French presidential hopefuls turn unrest into campaign ammo \u2013 RT report"
+    },
+    {
+      "timestamp": "2026-10-25T17:30:12.275196+00:00",
+      "tier": "gemini",
+      "article": "Seven killed in Gaza as Israel targets university campus and other sites"
+    },
+    {
+      "timestamp": "2026-10-25T17:30:40.912180+00:00",
+      "tier": "gemini",
+      "article": "Iran ready to deliver response beyond enemy\u2019s expectations: Speaker Ghalibaf"
     }
   ]
 }
