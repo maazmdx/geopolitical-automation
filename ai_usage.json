@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7039,
+  "total_calls": 7042,
   "tiers": {
     "groq": 6056,
-    "gemini": 983
+    "gemini": 986
   },
   "log": [
-    {
-      "timestamp": "2026-10-18T03:41:27.144033+00:00",
-      "tier": "gemini",
-      "article": "Saudi-led forces try to break Houthi siege of Taiz with airstrikes"
-    },
-    {
-      "timestamp": "2026-10-18T03:41:49.968038+00:00",
-      "tier": "gemini",
-      "article": "Israeli drone attacks kill six Palestinians across Gaza despite \u2018ceasefire\u2019"
-    },
-    {
-      "timestamp": "2026-10-18T08:42:23.662782+00:00",
-      "tier": "gemini",
-      "article": "\u2018Serious incident\u2019 at Canada military base causes deaths, injuries"
-    },
     {
       "timestamp": "2026-10-18T08:42:45.204988+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-25T17:30:40.912180+00:00",
       "tier": "gemini",
       "article": "Iran ready to deliver response beyond enemy\u2019s expectations: Speaker Ghalibaf"
+    },
+    {
+      "timestamp": "2026-10-25T20:34:54.605134+00:00",
+      "tier": "gemini",
+      "article": "Houthis say they attacked Riyadh Airport and military bases"
+    },
+    {
+      "timestamp": "2026-10-25T20:35:21.424254+00:00",
+      "tier": "gemini",
+      "article": "Hamas: The Israeli occupation\u2019s criminal airstrikes on the Islamic University campus in Gaza City, while students were present, constitute a clear-cut war crime - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-25T20:35:55.429541+00:00",
+      "tier": "gemini",
+      "article": "World hopes Putin-Trump-Xi meeting to help overcome chaos \u2014 Russian diplomat"
     }
   ]
 }
