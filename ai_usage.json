@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7029,
+  "total_calls": 7033,
   "tiers": {
     "groq": 6056,
-    "gemini": 973
+    "gemini": 977
   },
   "log": [
-    {
-      "timestamp": "2026-10-17T13:32:38.144844+00:00",
-      "tier": "gemini",
-      "article": "Iranian General Hits Back at Trump: Names of Bombs Don\u2019t Matter, Our Missiles Changed Equations - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-17T13:33:00.848828+00:00",
-      "tier": "gemini",
-      "article": "Russian MFA comments on Zelensky as 'incredible disgrace,' Kiev\u2019s hunt for journalists"
-    },
-    {
-      "timestamp": "2026-10-17T16:55:33.385850+00:00",
-      "tier": "gemini",
-      "article": "IRGC Announces Explosion of Second Supertanker After Naval Mine Strike in Strait of Hormuz - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-17T16:55:59.747395+00:00",
-      "tier": "gemini",
-      "article": "Russian forces strike Ukrainian army\u2019s transport infrastructure in past day"
-    },
     {
       "timestamp": "2026-10-17T16:56:23.847010+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-25T00:06:22.077645+00:00",
       "tier": "gemini",
       "article": "Demonstrators attempt to break into lower house of Czech parliament"
+    },
+    {
+      "timestamp": "2026-10-25T07:24:05.481567+00:00",
+      "tier": "gemini",
+      "article": "Bulgarians vote for president in shadow of Russia\u2019s war on Ukraine"
+    },
+    {
+      "timestamp": "2026-10-25T07:24:31.173740+00:00",
+      "tier": "gemini",
+      "article": "Iran blames US for deal failure, urges new try amid fear of new attacks"
+    },
+    {
+      "timestamp": "2026-10-25T07:24:53.571679+00:00",
+      "tier": "gemini",
+      "article": "Saudi strikes martyr 193 in Yemen, wound 468"
+    },
+    {
+      "timestamp": "2026-10-25T07:25:17.979601+00:00",
+      "tier": "gemini",
+      "article": "Situation near DPRK embassy in Beijing calm"
     }
   ]
 }
