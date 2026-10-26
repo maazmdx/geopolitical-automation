@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7051,
+  "total_calls": 7052,
   "tiers": {
     "groq": 6056,
-    "gemini": 995
+    "gemini": 996
   },
   "log": [
-    {
-      "timestamp": "2026-10-18T17:12:47.949010+00:00",
-      "tier": "gemini",
-      "article": "Clashes break out on Afghan-Pakistani border, casualties reported \u2014 TV"
-    },
     {
       "timestamp": "2026-10-18T20:18:32.442525+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-26T19:49:23.262373+00:00",
       "tier": "gemini",
       "article": "Iran, Mecca Defence Alliance states to hold talks today"
+    },
+    {
+      "timestamp": "2026-10-26T23:39:12.808462+00:00",
+      "tier": "gemini",
+      "article": "Israeli army reports strikes across Gaza Strip"
     }
   ]
 }

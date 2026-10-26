@@ -1,4 +1,39 @@
 {
+  "02c6ae4690412ef1f0e2fe2d22c81e72bed4f2c150b467200b173d665a9e478e": {
+    "url": "QudsNen/243392",
+    "title": "Israeli Forces Conduct Incursion in Awarta Village, West Bank",
+    "published": "2026-10-26T23:47:01.453946+00:00"
+  },
+  "717edc33f0f9e7ff5cdd71c3bf2f82a83840d117714ab0ff9d68bb64a1010611": {
+    "url": "QudsNen/243394",
+    "title": "Breaking | Israeli occupation artillery shells the vicinity of the towns of Mifd",
+    "published": "2026-10-26T23:46:27.505307+00:00"
+  },
+  "29fbeec2ee66283a647fed2a296e296c42900d057e6a08068f6f05ecd07ddb3f": {
+    "url": "QudsNen/243399",
+    "title": "Israeli artillery shells the outskirts of the towns of Ayta al-Jabal and Hadatha",
+    "published": "2026-10-26T23:46:03.296679+00:00"
+  },
+  "4da012a2d24baa26495ca5370e3aad68dd9118b13a0849b33131bb23cdb4488d": {
+    "url": "thecradlemedia/70023",
+    "title": "Egypt authorizes \u2018defensive\u2019 military support for Saudi war on YemenEgyptian For",
+    "published": "2026-10-26T23:42:39.787217+00:00"
+  },
+  "df480b9b89333d1fc5e1c235b9fb2088fb9507c2cfb85a184039f761666ef6f5": {
+    "url": "thecradlemedia/70035",
+    "title": "BREAKING | Jordan launches airstrikes on Deraa, southern Syria, in retaliation f",
+    "published": "2026-10-26T23:42:38.489637+00:00"
+  },
+  "8e60ad99575c8ee508be910bfb4ed94d792572a9c3e2eff4e2cf348f420c537f": {
+    "url": "thecradlemedia/70036",
+    "title": "Iran holds four-way 'security meeting' with Mecca Pact statesThe meeting coincid",
+    "published": "2026-10-26T23:39:46.301126+00:00"
+  },
+  "a680db1304c1856940426a78608986bdfdc5c6501e93680d141155766f9866ca": {
+    "url": "https://tass.com/world/2208269",
+    "title": "Israeli army reports strikes across Gaza Strip",
+    "published": "2026-10-26T21:57:16+00:00"
+  },
   "16db67d9e64f2a1c7e71fabb26caad0af591f0bc482ba427684c28f3b08eb672": {
     "url": "militarywave/25445",
     "title": "Ammonia Tank Explosion Forces Newport Evacuation",
@@ -713,40 +748,5 @@
     "url": "https://www.tehrantimes.com/news/531406/King-Fahd-Airport-Defense-Ministry-attacked-as-US-tells-diplomats",
     "title": "King Fahd Airport, Defense Ministry attacked as US tells diplomats to leave Saudi Arabia",
     "published": "2026-10-23T15:11:52+00:00"
-  },
-  "072b451ad409d0b78583421f9e5019499445a5ea04f29422893e8f5c402acb6d": {
-    "url": "https://tass.com/emergencies/2206991",
-    "title": "IN BRIEF: What to know of restrictions at Moscow airports, evacuation at Sheremetyevo",
-    "published": "2026-10-23T14:10:00+00:00"
-  },
-  "839f37e022633cab81b2aa1a5175783893b314e79a113e8acc3ce1bfe13045ef": {
-    "url": "https://www.defensenews.com/global/mideast-africa/2026/10/23/saudi-missile-plant-expansion-may-produce-more-powerful-missiles-study-says/",
-    "title": "Saudi missile plant expansion may produce more powerful missiles, study says",
-    "published": "2026-10-23T13:57:29+00:00"
-  },
-  "ac71a3e9ba494d3363e93a89d9d8a816c61bb40b5f4180c5f68099468016b68d": {
-    "url": "https://en.mehrnews.com/news/248831/US-forces-deployed-600-700-km-away-from-Strait-of-Hormuz",
-    "title": "US forces deployed 600\u2013700 km away from Strait of Hormuz",
-    "published": "2026-10-23T09:31:53+00:00"
-  },
-  "8c0db5ebbb1a0c0fdd3418a1165a19a996a581d4aa3ddcc9031f43f40fb725d1": {
-    "url": "Slavyangrad/182667",
-    "title": "Putin Renews Territorial Claims, Signals Ukraine Peace Talks Readiness",
-    "published": "2026-10-23T09:17:18.932892+00:00"
-  },
-  "f437a7679742a69e5ffe85ad0d731428810bbbc7c97e8dd14ecb7654e8e0ad73": {
-    "url": "intelslava/96854",
-    "title": "Iranian Ballistic Missile Penetrates UAE Air Defenses, Impacts Near U.S. Personnel",
-    "published": "2026-10-23T09:16:15.528228+00:00"
-  },
-  "abd41969632c3b50b3f270a056f02c536df77866b80a26140f1dda142167af7d": {
-    "url": "CensoredMen/222",
-    "title": "U.S. Central Command Reports Nine Vessels Interdicted in Iran Blockade Enforcement",
-    "published": "2026-10-23T09:15:30.340043+00:00"
-  },
-  "6d37a6135da968d1f9e3d6e8fbdfd7a1d40efe2fb7d03b87e68e8297cc906f3b": {
-    "url": "thecradlemedia/69841",
-    "title": "Tanker Oil Spill Prompts Beach Closures Across UAE's Northern Emirates",
-    "published": "2026-10-23T09:14:33.542042+00:00"
   }
 }
