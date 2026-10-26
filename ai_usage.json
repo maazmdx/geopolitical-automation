@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7044,
+  "total_calls": 7045,
   "tiers": {
     "groq": 6056,
-    "gemini": 988
+    "gemini": 989
   },
   "log": [
-    {
-      "timestamp": "2026-10-18T13:50:23.586829+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Military Media Posts Footage of Drone Strikes against pro-Saudi Militias - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-18T13:50:56.880979+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-25T23:58:04.816932+00:00",
       "tier": "gemini",
       "article": "French Unions and Protest Movements Call for Fresh Demonstrations, Nationwide Strike - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-26T04:07:16.253182+00:00",
+      "tier": "gemini",
+      "article": "Saudi-led attacks on Yemen reach 3,179: Saree"
     }
   ]
 }
