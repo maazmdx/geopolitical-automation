@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7048,
+  "total_calls": 7051,
   "tiers": {
     "groq": 6056,
-    "gemini": 992
+    "gemini": 995
   },
   "log": [
-    {
-      "timestamp": "2026-10-18T17:11:37.370060+00:00",
-      "tier": "gemini",
-      "article": "Missiles strike gathering of Saudi mercenaries in Marib"
-    },
-    {
-      "timestamp": "2026-10-18T17:12:00.586846+00:00",
-      "tier": "gemini",
-      "article": "Gaza buries remains of 75 more Palestinians as Israel continues blocking heavy recovery equipment"
-    },
-    {
-      "timestamp": "2026-10-18T17:12:24.737356+00:00",
-      "tier": "gemini",
-      "article": "IRGC Adviser: \u2018Father of Iranian Missiles\u2019 Ready to Hit Enemy Energy Infrastructure across Region - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-18T17:12:47.949010+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-26T12:31:15.952331+00:00",
       "tier": "gemini",
       "article": "Israeli elections: What can Palestinians expect?\u00a0"
+    },
+    {
+      "timestamp": "2026-10-26T19:48:25.776591+00:00",
+      "tier": "gemini",
+      "article": "SBU agents detained for plotting drone attack on Moscow\u2019s missile defense facility"
+    },
+    {
+      "timestamp": "2026-10-26T19:48:53.611951+00:00",
+      "tier": "gemini",
+      "article": "Number of those injured in missile attack on Yelets up to seven"
+    },
+    {
+      "timestamp": "2026-10-26T19:49:23.262373+00:00",
+      "tier": "gemini",
+      "article": "Iran, Mecca Defence Alliance states to hold talks today"
     }
   ]
 }
