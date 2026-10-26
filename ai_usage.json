@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7042,
+  "total_calls": 7044,
   "tiers": {
     "groq": 6056,
-    "gemini": 986
+    "gemini": 988
   },
   "log": [
-    {
-      "timestamp": "2026-10-18T08:42:45.204988+00:00",
-      "tier": "gemini",
-      "article": "Russian strikes destroy half of nearly 500 Ukrainian drone crews near Dobropolye"
-    },
-    {
-      "timestamp": "2026-10-18T08:43:12.866282+00:00",
-      "tier": "gemini",
-      "article": "Tanker attacked off Yemen\u2019s coast: UKMTO"
-    },
     {
       "timestamp": "2026-10-18T13:50:23.586829+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-25T20:35:55.429541+00:00",
       "tier": "gemini",
       "article": "World hopes Putin-Trump-Xi meeting to help overcome chaos \u2014 Russian diplomat"
+    },
+    {
+      "timestamp": "2026-10-25T23:57:33.099795+00:00",
+      "tier": "gemini",
+      "article": "Qalibaf Warns Any Violation of Iran\u2019s Territory Will Trigger Response Beyond Enemy\u2019s Imagination - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-25T23:58:04.816932+00:00",
+      "tier": "gemini",
+      "article": "French Unions and Protest Movements Call for Fresh Demonstrations, Nationwide Strike - Al-Manar TV Lebanon"
     }
   ]
 }
