@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7045,
+  "total_calls": 7048,
   "tiers": {
     "groq": 6056,
-    "gemini": 989
+    "gemini": 992
   },
   "log": [
-    {
-      "timestamp": "2026-10-18T13:50:56.880979+00:00",
-      "tier": "gemini",
-      "article": "Rubio says Ukraine without access to Starshield, future \u2018under discussion\u2019"
-    },
-    {
-      "timestamp": "2026-10-18T13:51:18.470634+00:00",
-      "tier": "gemini",
-      "article": "IRGC Navy warns vessels violating transit rules in the Strait of Hormuz to turn back immediately or risk being targeted by missiles - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-18T13:51:39.696281+00:00",
-      "tier": "gemini",
-      "article": "Historic French city hall set ablaze amid nationwide protests"
-    },
     {
       "timestamp": "2026-10-18T17:11:37.370060+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-26T04:07:16.253182+00:00",
       "tier": "gemini",
       "article": "Saudi-led attacks on Yemen reach 3,179: Saree"
+    },
+    {
+      "timestamp": "2026-10-26T12:30:19.332784+00:00",
+      "tier": "gemini",
+      "article": "Ukraine\u2019s strike capability weakens as Russia hits its military facilities \u2014 expert"
+    },
+    {
+      "timestamp": "2026-10-26T12:30:48.912580+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Forces Strike Saudi Coalition Targets in Aden, Lahj, Riyadh, and Oil Pipeline in Escalating \u201cBlockade-for-Blockade\u201d Campaign - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-26T12:31:15.952331+00:00",
+      "tier": "gemini",
+      "article": "Israeli elections: What can Palestinians expect?\u00a0"
     }
   ]
 }
