@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7062,
+  "total_calls": 7064,
   "tiers": {
     "groq": 6056,
-    "gemini": 1006
+    "gemini": 1008
   },
   "log": [
-    {
-      "timestamp": "2026-10-19T19:44:08.404102+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Armed Forces Strike Saudi-led Militias with Ballistic Missiles - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-19T19:44:34.867987+00:00",
-      "tier": "gemini",
-      "article": "French opposition blames Macron for nationwide riots"
-    },
     {
       "timestamp": "2026-10-19T23:27:22.022438+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-27T17:44:23.143022+00:00",
       "tier": "gemini",
       "article": "Antifa riots erupt in Bilbao over \u2018Spanish Charlie Kirk\u2019 event"
+    },
+    {
+      "timestamp": "2026-10-27T21:58:05.878759+00:00",
+      "tier": "gemini",
+      "article": "Jordan bombs Syria following deadly church attack"
+    },
+    {
+      "timestamp": "2026-10-27T21:58:33.517078+00:00",
+      "tier": "gemini",
+      "article": "US Air Force awards Lockheed Martin $694M hypersonic missile production contract"
     }
   ]
 }
