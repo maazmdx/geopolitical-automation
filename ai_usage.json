@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7052,
+  "total_calls": 7054,
   "tiers": {
     "groq": 6056,
-    "gemini": 996
+    "gemini": 998
   },
   "log": [
-    {
-      "timestamp": "2026-10-18T20:18:32.442525+00:00",
-      "tier": "gemini",
-      "article": "Kiev\u2019s resistance and agony not to change course of events \u2014 Kremlin"
-    },
-    {
-      "timestamp": "2026-10-18T20:19:04.388233+00:00",
-      "tier": "gemini",
-      "article": "Ukrainian forces shell DPR settlements 13 times over past day"
-    },
     {
       "timestamp": "2026-10-19T04:28:02.242473+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-26T23:39:12.808462+00:00",
       "tier": "gemini",
       "article": "Israeli army reports strikes across Gaza Strip"
+    },
+    {
+      "timestamp": "2026-10-27T04:14:40.754894+00:00",
+      "tier": "gemini",
+      "article": "Saree: 119 Saudi Air Raids and Missile Attacks in 24 Hours, Bringing the Total to 3,298 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-27T04:15:03.904585+00:00",
+      "tier": "gemini",
+      "article": "Jordanian airstrikes kill five civilians in southern Syria, officials say"
     }
   ]
 }
