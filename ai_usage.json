@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7064,
+  "total_calls": 7066,
   "tiers": {
     "groq": 6056,
-    "gemini": 1008
+    "gemini": 1010
   },
   "log": [
-    {
-      "timestamp": "2026-10-19T23:27:22.022438+00:00",
-      "tier": "gemini",
-      "article": "160 people reported killed in escalating drone attacks across Sudan"
-    },
-    {
-      "timestamp": "2026-10-19T23:27:43.536303+00:00",
-      "tier": "gemini",
-      "article": "Houthis strike Saudi Aramco facilities and Saudi airports"
-    },
     {
       "timestamp": "2026-10-20T04:01:56.943363+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-27T21:58:33.517078+00:00",
       "tier": "gemini",
       "article": "US Air Force awards Lockheed Martin $694M hypersonic missile production contract"
+    },
+    {
+      "timestamp": "2026-10-28T08:03:43.869159+00:00",
+      "tier": "gemini",
+      "article": "Ukrainian forces launch 13 attacks on DPR settlements in past day"
+    },
+    {
+      "timestamp": "2026-10-28T08:04:09.406882+00:00",
+      "tier": "gemini",
+      "article": "Brazil handed Washington a setback it won\u2019t forgive"
     }
   ]
 }
