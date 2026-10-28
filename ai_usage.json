@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7070,
+  "total_calls": 7072,
   "tiers": {
     "groq": 6056,
-    "gemini": 1014
+    "gemini": 1016
   },
   "log": [
-    {
-      "timestamp": "2026-10-20T11:09:24.234629+00:00",
-      "tier": "gemini",
-      "article": "Over 300 arrested in Paris as rioters defy Macron\u2019s call for calm"
-    },
-    {
-      "timestamp": "2026-10-20T16:34:03.359544+00:00",
-      "tier": "gemini",
-      "article": "Yemen\u2019s Taiz faces deadly siege, as Shabwah death toll rises"
-    },
     {
       "timestamp": "2026-10-20T16:34:30.271847+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-28T16:31:33.146975+00:00",
       "tier": "gemini",
       "article": "Israel continues Gaza genocide despite ceasefire \u2013 UN commission"
+    },
+    {
+      "timestamp": "2026-10-28T22:21:50.139417+00:00",
+      "tier": "gemini",
+      "article": "In photos: From Behbahan to Minab, Iran remembers martyred students"
+    },
+    {
+      "timestamp": "2026-10-28T22:22:19.652981+00:00",
+      "tier": "gemini",
+      "article": "US-Iran war bill reaches $47.1 billion\u00a0"
     }
   ]
 }
