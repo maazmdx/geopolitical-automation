@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7066,
+  "total_calls": 7070,
   "tiers": {
     "groq": 6056,
-    "gemini": 1010
+    "gemini": 1014
   },
   "log": [
-    {
-      "timestamp": "2026-10-20T04:01:56.943363+00:00",
-      "tier": "gemini",
-      "article": "Children among six killed in Russian drone strike on Ukraine park"
-    },
-    {
-      "timestamp": "2026-10-20T11:07:55.649680+00:00",
-      "tier": "gemini",
-      "article": "Houthi missile strike on Yemen camp kills 50 security recruits, authorities say"
-    },
-    {
-      "timestamp": "2026-10-20T11:08:21.035296+00:00",
-      "tier": "gemini",
-      "article": "Iran Vows Proportionate Response to Any Aggression, Spokesman Warns - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-20T11:08:55.816841+00:00",
-      "tier": "gemini",
-      "article": "Iran warns UN over Trump, Israel military threats"
-    },
     {
       "timestamp": "2026-10-20T11:09:24.234629+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-10-28T08:04:09.406882+00:00",
       "tier": "gemini",
       "article": "Brazil handed Washington a setback it won\u2019t forgive"
+    },
+    {
+      "timestamp": "2026-10-28T16:30:08.540070+00:00",
+      "tier": "gemini",
+      "article": "Saudi Airstrikes on Yemen\u2019s Al-Jawf Leave 13 Martyred, 16 Injured - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-28T16:30:37.291970+00:00",
+      "tier": "gemini",
+      "article": "Victims of Jordan\u2019s air strikes in Syria"
+    },
+    {
+      "timestamp": "2026-10-28T16:31:00.909468+00:00",
+      "tier": "gemini",
+      "article": "Serbia raises terror alert to highest level after knife attack at Israeli Embassy in Belgrade"
+    },
+    {
+      "timestamp": "2026-10-28T16:31:33.146975+00:00",
+      "tier": "gemini",
+      "article": "Israel continues Gaza genocide despite ceasefire \u2013 UN commission"
     }
   ]
 }
