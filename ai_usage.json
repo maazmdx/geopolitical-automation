@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7075,
+  "total_calls": 7076,
   "tiers": {
     "groq": 6056,
-    "gemini": 1019
+    "gemini": 1020
   },
   "log": [
-    {
-      "timestamp": "2026-10-20T21:23:55.564583+00:00",
-      "tier": "gemini",
-      "article": "General Saree Reports More Saudi Attacks on Yemen - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-21T00:26:50.267626+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-29T04:57:02.551426+00:00",
       "tier": "gemini",
       "article": "Kiev changes position on security guarantees amid warming Russia-US ties \u2014 FT"
+    },
+    {
+      "timestamp": "2026-10-29T12:31:43.269563+00:00",
+      "tier": "gemini",
+      "article": "IRGC captures US MQM-170 spy drone"
     }
   ]
 }
