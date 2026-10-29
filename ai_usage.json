@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7076,
+  "total_calls": 7079,
   "tiers": {
     "groq": 6056,
-    "gemini": 1020
+    "gemini": 1023
   },
   "log": [
-    {
-      "timestamp": "2026-10-21T00:26:50.267626+00:00",
-      "tier": "gemini",
-      "article": "Mother of all bombs or father of all missiles?"
-    },
-    {
-      "timestamp": "2026-10-21T00:27:15.082081+00:00",
-      "tier": "gemini",
-      "article": "\u2018Dead on arrival\u2019: Iran dismisses Israel&#039;s new pre-emptive war doctrine"
-    },
-    {
-      "timestamp": "2026-10-21T07:16:22.038284+00:00",
-      "tier": "gemini",
-      "article": "Iran to target internet cables in Hormuz if infrsutucture hit"
-    },
     {
       "timestamp": "2026-10-21T07:17:01.244052+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-29T12:31:43.269563+00:00",
       "tier": "gemini",
       "article": "IRGC captures US MQM-170 spy drone"
+    },
+    {
+      "timestamp": "2026-10-29T19:29:27.155112+00:00",
+      "tier": "gemini",
+      "article": "At least 14 people killed in attack on Ukraine train station"
+    },
+    {
+      "timestamp": "2026-10-29T19:29:56.772992+00:00",
+      "tier": "gemini",
+      "article": "Israel seeks US permission to strike Iranian energy facilities \u2014 broadcaster"
+    },
+    {
+      "timestamp": "2026-10-29T19:30:24.907848+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
   ]
 }
