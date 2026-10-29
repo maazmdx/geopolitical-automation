@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7072,
+  "total_calls": 7075,
   "tiers": {
     "groq": 6056,
-    "gemini": 1016
+    "gemini": 1019
   },
   "log": [
-    {
-      "timestamp": "2026-10-20T16:34:30.271847+00:00",
-      "tier": "gemini",
-      "article": "US continues to provide airstrike warnings to Ukraine \u2014 top diplomat"
-    },
-    {
-      "timestamp": "2026-10-20T16:34:55.931847+00:00",
-      "tier": "gemini",
-      "article": "Israeli warplanes strike the vicinity of Nabatieh Al-Fawqah and Kfar Tibnit: Al-Manar correspondent in southern Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-20T16:35:19.829854+00:00",
-      "tier": "gemini",
-      "article": "Albania on fire: who\u2019s behind the riots?"
-    },
     {
       "timestamp": "2026-10-20T21:23:55.564583+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-10-28T22:22:19.652981+00:00",
       "tier": "gemini",
       "article": "US-Iran war bill reaches $47.1 billion\u00a0"
+    },
+    {
+      "timestamp": "2026-10-29T04:56:06.180492+00:00",
+      "tier": "gemini",
+      "article": "Strikes on Darfur market in Sudan killed more than 100, rights group says"
+    },
+    {
+      "timestamp": "2026-10-29T04:56:34.505016+00:00",
+      "tier": "gemini",
+      "article": "The Israeli election hurt Netanyahu, but the country is still stuck"
+    },
+    {
+      "timestamp": "2026-10-29T04:57:02.551426+00:00",
+      "tier": "gemini",
+      "article": "Kiev changes position on security guarantees amid warming Russia-US ties \u2014 FT"
     }
   ]
 }
