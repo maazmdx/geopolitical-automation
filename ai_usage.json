@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7079,
+  "total_calls": 7082,
   "tiers": {
     "groq": 6056,
-    "gemini": 1023
+    "gemini": 1026
   },
   "log": [
-    {
-      "timestamp": "2026-10-21T07:17:01.244052+00:00",
-      "tier": "gemini",
-      "article": "Iraq closes border crossings with Iran over attacks on Saudi Arabia \u2014 portal"
-    },
-    {
-      "timestamp": "2026-10-21T07:17:27.912986+00:00",
-      "tier": "gemini",
-      "article": "3 Saudi airstrikes targeted the telecommunications network in the Marran district of Saada, in northern Yemen - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-21T07:17:52.401105+00:00",
-      "tier": "gemini",
-      "article": "US Vice President Vance refuses to call Ukraine an ally and rejects its NATO ambitions"
-    },
     {
       "timestamp": "2026-10-21T13:35:31.528636+00:00",
       "tier": "gemini",
@@ -505,6 +490,21 @@
     },
     {
       "timestamp": "2026-10-29T19:30:24.907848+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-10-29T23:51:35.970246+00:00",
+      "tier": "gemini",
+      "article": "Destinus' monthly output tops Europe's pre-war annual cruise missile production"
+    },
+    {
+      "timestamp": "2026-10-29T23:51:59.181380+00:00",
+      "tier": "gemini",
+      "article": "CENTCOM chief briefs Trump on options for strikes on Iran \u2014 newspaper"
+    },
+    {
+      "timestamp": "2026-10-29T23:52:28.865243+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
