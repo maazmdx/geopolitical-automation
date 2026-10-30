@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7082,
+  "total_calls": 7085,
   "tiers": {
     "groq": 6056,
-    "gemini": 1026
+    "gemini": 1029
   },
   "log": [
-    {
-      "timestamp": "2026-10-21T13:35:31.528636+00:00",
-      "tier": "gemini",
-      "article": "Blast heard in Yemen\u2019s Aden as Houthis claim attack on military camp"
-    },
-    {
-      "timestamp": "2026-10-21T13:35:57.211380+00:00",
-      "tier": "gemini",
-      "article": "Mexican artist honors Minab school victims with \u2018Butterflies of Minab\u2019"
-    },
-    {
-      "timestamp": "2026-10-21T13:36:19.555113+00:00",
-      "tier": "gemini",
-      "article": "Europe weighs giving utilities, infrastructure companies more powers to bring down drones"
-    },
     {
       "timestamp": "2026-10-21T13:36:42.504633+00:00",
       "tier": "gemini",
@@ -505,6 +490,21 @@
     },
     {
       "timestamp": "2026-10-29T23:52:28.865243+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-10-30T04:56:06.390986+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Army announces 6 strikes on aggressor Saudi  targets"
+    },
+    {
+      "timestamp": "2026-10-30T04:56:38.990355+00:00",
+      "tier": "gemini",
+      "article": "Gaza protesters shout down Baerbock in Sweden"
+    },
+    {
+      "timestamp": "2026-10-30T04:57:08.668052+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
