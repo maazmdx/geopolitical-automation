@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7092,
+  "total_calls": 7095,
   "tiers": {
     "groq": 6056,
-    "gemini": 1036
+    "gemini": 1039
   },
   "log": [
-    {
-      "timestamp": "2026-10-22T15:05:32.289450+00:00",
-      "tier": "gemini",
-      "article": "Four energy company employees killed, over ten injured in Zaporozhye Region in 2025-2026"
-    },
-    {
-      "timestamp": "2026-10-22T15:06:01.789926+00:00",
-      "tier": "gemini",
-      "article": "Death toll from Israeli attacks on Gaza reaches 74,498"
-    },
-    {
-      "timestamp": "2026-10-22T15:06:30.418376+00:00",
-      "tier": "gemini",
-      "article": "Saudi Aggression on Yemen Enters 100th Day: 2,900+ Airstrikes, 562 Martyrs and Wounded, as Yemeni Forces Strike Back Deep Inside Saudi Arabia - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-22T19:50:29.486487+00:00",
       "tier": "gemini",
@@ -505,6 +490,21 @@
     },
     {
       "timestamp": "2026-10-30T19:03:38.977071+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-10-30T23:31:29.529522+00:00",
+      "tier": "gemini",
+      "article": "Houthis deliver missile strikes on airport, presidential palace in Aden"
+    },
+    {
+      "timestamp": "2026-10-30T23:31:58.681712+00:00",
+      "tier": "gemini",
+      "article": "Iran targeted USS Abraham Lincoln with cruise missile, Navy Cmdr. says"
+    },
+    {
+      "timestamp": "2026-10-30T23:32:25.759511+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
