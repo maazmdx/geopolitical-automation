@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7089,
+  "total_calls": 7092,
   "tiers": {
     "groq": 6056,
-    "gemini": 1033
+    "gemini": 1036
   },
   "log": [
-    {
-      "timestamp": "2026-10-22T03:51:49.032997+00:00",
-      "tier": "gemini",
-      "article": "US withdrawing troops and diplomats from Middle East \u2013 NBC"
-    },
-    {
-      "timestamp": "2026-10-22T03:52:15.485485+00:00",
-      "tier": "gemini",
-      "article": "Poland rules out Patriot missile deliveries to Kiev"
-    },
-    {
-      "timestamp": "2026-10-22T09:15:39.135883+00:00",
-      "tier": "gemini",
-      "article": "Russian strikes hit Kyiv after Witkoff meets Putin"
-    },
     {
       "timestamp": "2026-10-22T15:05:32.289450+00:00",
       "tier": "gemini",
@@ -505,6 +490,21 @@
     },
     {
       "timestamp": "2026-10-30T12:24:28.458229+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-10-30T19:02:47.770474+00:00",
+      "tier": "gemini",
+      "article": "\u2018Need a Plan B\u2019: Yemenis in Aden prepare for another war as missiles fall"
+    },
+    {
+      "timestamp": "2026-10-30T19:03:13.946911+00:00",
+      "tier": "gemini",
+      "article": "From tanks to space, Norway and Germany forge ahead with \u2018Hansa\u2019 defense pact"
+    },
+    {
+      "timestamp": "2026-10-30T19:03:38.977071+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
