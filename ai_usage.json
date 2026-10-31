@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7102,
+  "total_calls": 7104,
   "tiers": {
     "groq": 6056,
-    "gemini": 1046
+    "gemini": 1048
   },
   "log": [
-    {
-      "timestamp": "2026-10-23T09:13:00.343516+00:00",
-      "tier": "gemini",
-      "article": "Palestinian martyred, others injured in Israeli drone strike west of Khan Younis in southern Gaza Strip: Palestinian media - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-23T09:13:24.066406+00:00",
-      "tier": "gemini",
-      "article": "Russian forces strike NASAMS air defense systems in Zaporozhye, Dnepropetrovsk Regions"
-    },
     {
       "timestamp": "2026-10-23T09:13:54.725448+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-31T17:00:44.858236+00:00",
       "tier": "gemini",
       "article": "Iran warns of unfettered retaliation if attacked as mediators try for peace"
+    },
+    {
+      "timestamp": "2026-10-31T21:12:29.617109+00:00",
+      "tier": "gemini",
+      "article": "Iranian strikes damage 274 structures at 24 US-linked military sites"
+    },
+    {
+      "timestamp": "2026-10-31T21:13:08.323967+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
   ]
 }
