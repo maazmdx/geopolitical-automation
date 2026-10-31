@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7101,
+  "total_calls": 7102,
   "tiers": {
     "groq": 6056,
-    "gemini": 1045
+    "gemini": 1046
   },
   "log": [
-    {
-      "timestamp": "2026-10-23T09:12:35.287816+00:00",
-      "tier": "gemini",
-      "article": "Railcar depot, temporary deployment sites for USV operators hit in Russian strikes"
-    },
     {
       "timestamp": "2026-10-23T09:13:00.343516+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-10-31T11:55:23.678508+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-10-31T17:00:44.858236+00:00",
+      "tier": "gemini",
+      "article": "Iran warns of unfettered retaliation if attacked as mediators try for peace"
     }
   ]
 }
