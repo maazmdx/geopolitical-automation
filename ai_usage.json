@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7095,
+  "total_calls": 7097,
   "tiers": {
     "groq": 6056,
-    "gemini": 1039
+    "gemini": 1041
   },
   "log": [
-    {
-      "timestamp": "2026-10-22T19:50:29.486487+00:00",
-      "tier": "gemini",
-      "article": "Yemeni media: A citizen was killed and a child was injured in a Saudi airstrike that targeted homes in the Al-Za\u2019za\u2019a area of \u200b\u200bAl-Shamaitain district in Taiz governorate - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-22T19:50:50.682282+00:00",
-      "tier": "gemini",
-      "article": "Denmark to buy Kongsberg, Covenant missiles for new long-range strike option"
-    },
     {
       "timestamp": "2026-10-22T19:51:12.140457+00:00",
       "tier": "gemini",
@@ -505,6 +495,16 @@
     },
     {
       "timestamp": "2026-10-30T23:32:25.759511+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-10-31T04:41:52.599450+00:00",
+      "tier": "gemini",
+      "article": "Dockworkers launch global strike against Israeli and US military shipments (VIDEOS)"
+    },
+    {
+      "timestamp": "2026-10-31T04:42:19.026781+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
