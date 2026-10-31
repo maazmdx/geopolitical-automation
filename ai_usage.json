@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7097,
+  "total_calls": 7101,
   "tiers": {
     "groq": 6056,
-    "gemini": 1041
+    "gemini": 1045
   },
   "log": [
-    {
-      "timestamp": "2026-10-22T19:51:12.140457+00:00",
-      "tier": "gemini",
-      "article": "Yemeni forces target Saudi defense ministry, oil and airport facilities"
-    },
-    {
-      "timestamp": "2026-10-22T23:03:33.759892+00:00",
-      "tier": "gemini",
-      "article": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate"
-    },
-    {
-      "timestamp": "2026-10-23T03:56:07.320280+00:00",
-      "tier": "gemini",
-      "article": "Ukraine steps up strikes on civilian infrastructure by 3-4 times \u2014 Russian envoy"
-    },
-    {
-      "timestamp": "2026-10-23T03:56:39.252671+00:00",
-      "tier": "gemini",
-      "article": "US Army long-range fires make a splash\u00a0on the frontline with China"
-    },
     {
       "timestamp": "2026-10-23T09:12:35.287816+00:00",
       "tier": "gemini",
@@ -505,6 +485,26 @@
     },
     {
       "timestamp": "2026-10-31T04:42:19.026781+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-10-31T11:54:02.655356+00:00",
+      "tier": "gemini",
+      "article": "Al-Manar correspondent in Yemen: 6 civilians, including children, were injured in Saudi airstrikes targeting the Al-Waziyah market in Taiz - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-10-31T11:54:30.680247+00:00",
+      "tier": "gemini",
+      "article": "Are Houthis using Russian satellites as Saudi Arabia fends off strikes?"
+    },
+    {
+      "timestamp": "2026-10-31T11:54:57.389404+00:00",
+      "tier": "gemini",
+      "article": "US may resume strikes on Iran on November 4 \u2014 media"
+    },
+    {
+      "timestamp": "2026-10-31T11:55:23.678508+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
