@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7104,
+  "total_calls": 7106,
   "tiers": {
     "groq": 6056,
-    "gemini": 1048
+    "gemini": 1050
   },
   "log": [
-    {
-      "timestamp": "2026-10-23T09:13:54.725448+00:00",
-      "tier": "gemini",
-      "article": "Macron hits back at Trump over France riots"
-    },
-    {
-      "timestamp": "2026-10-23T15:25:57.613366+00:00",
-      "tier": "gemini",
-      "article": "King Fahd Airport, Defense Ministry attacked as US tells diplomats to leave Saudi Arabia"
-    },
     {
       "timestamp": "2026-10-23T15:26:57.270295+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-10-31T21:13:08.323967+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-11-01T00:51:15.444013+00:00",
+      "tier": "gemini",
+      "article": "Russian forces hit cargo ship 37 km south of Odessa \u2014 Defense Ministry"
+    },
+    {
+      "timestamp": "2026-11-01T00:51:43.391627+00:00",
+      "tier": "gemini",
+      "article": "Pentagon faces up to $15bn in Iran war base damage \u2013 WSJ"
     }
   ]
 }
