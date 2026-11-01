@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7106,
+  "total_calls": 7110,
   "tiers": {
     "groq": 6056,
-    "gemini": 1050
+    "gemini": 1054
   },
   "log": [
-    {
-      "timestamp": "2026-10-23T15:26:57.270295+00:00",
-      "tier": "gemini",
-      "article": "Saudi missile plant expansion may produce more powerful missiles, study says"
-    },
-    {
-      "timestamp": "2026-10-23T15:27:22.594596+00:00",
-      "tier": "gemini",
-      "article": "US banks detect unauthorized AI agents in customer accounts \u2013 Axios"
-    },
-    {
-      "timestamp": "2026-10-23T19:52:32.252602+00:00",
-      "tier": "gemini",
-      "article": "General Saree: Over the past 24 hours, Saudi warplanes have launched 124 airstrikes and missile attacks on Yemen - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-23T19:52:54.722612+00:00",
-      "tier": "gemini",
-      "article": "Saudi Attacks on Yemen Result in the Death of Citizens - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-23T22:58:17.211866+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-01T00:51:43.391627+00:00",
       "tier": "gemini",
       "article": "Pentagon faces up to $15bn in Iran war base damage \u2013 WSJ"
+    },
+    {
+      "timestamp": "2026-11-01T08:54:24.211439+00:00",
+      "tier": "gemini",
+      "article": "Trump calls Netanyahu as US weighs new Iran strikes \u2013 WSJ"
+    },
+    {
+      "timestamp": "2026-11-01T08:54:48.710286+00:00",
+      "tier": "gemini",
+      "article": "Iran missile, drone attacks destroy 26 US bases in West Asia"
+    },
+    {
+      "timestamp": "2026-11-01T08:55:14.614219+00:00",
+      "tier": "gemini",
+      "article": "North Korea tests tactical ballistic missile cluster warhead - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-01T08:55:40.514352+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
   ]
 }
