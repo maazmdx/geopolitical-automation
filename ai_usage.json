@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7114,
+  "total_calls": 7117,
   "tiers": {
     "groq": 6056,
-    "gemini": 1058
+    "gemini": 1061
   },
   "log": [
-    {
-      "timestamp": "2026-10-24T03:50:47.176152+00:00",
-      "tier": "gemini",
-      "article": "Two oil supertankers strike mines in Strait of Hormuz \u2014 IRGC"
-    },
-    {
-      "timestamp": "2026-10-24T08:45:39.661042+00:00",
-      "tier": "gemini",
-      "article": "Israeli Occupation Launches Offensive across Al-Khalil after Shooting Operation - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-24T08:46:03.175973+00:00",
-      "tier": "gemini",
-      "article": "Saudi warplanes launch series of airstrikes targeting Yemen\u2019s Mokha: Al-Manar reporter in Sanaa - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-24T08:46:27.394024+00:00",
       "tier": "gemini",
@@ -505,6 +490,21 @@
     },
     {
       "timestamp": "2026-11-01T16:42:08.283159+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-11-01T21:50:23.498882+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Armed Forces: The total number of Saudi-led coalition airstrikes since the escalation began has reached 3,830 - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-01T21:50:46.054246+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Armed Forces: 75 airstrikes were carried out by the Saudi-led aggression across the eight governorates over the past 24 hours - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-01T21:51:10.749849+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
