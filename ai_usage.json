@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7119,
+  "total_calls": 7123,
   "tiers": {
     "groq": 6056,
-    "gemini": 1063
+    "gemini": 1067
   },
   "log": [
-    {
-      "timestamp": "2026-10-24T13:54:46.356177+00:00",
-      "tier": "gemini",
-      "article": "Bodies of three victims discovered after missile strike in Oryol"
-    },
-    {
-      "timestamp": "2026-10-24T13:55:15.183130+00:00",
-      "tier": "gemini",
-      "article": "What Did Trump Say About Barrack\u2019s Remarks on \u201cAbsolute\u201d Weekend Strike on Iran? - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-24T13:55:41.698733+00:00",
-      "tier": "gemini",
-      "article": "Czech Republic advances media funding overhaul despite criticism"
-    },
-    {
-      "timestamp": "2026-10-24T13:56:07.865642+00:00",
-      "tier": "gemini",
-      "article": "IN BRIEF: What to know of restrictions at Moscow airports, evacuation at Sheremetyevo"
-    },
     {
       "timestamp": "2026-10-24T17:16:13.039596+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-02T01:23:05.901803+00:00",
       "tier": "gemini",
       "article": "War with US would have no geographical limit: IRGC spox warns"
+    },
+    {
+      "timestamp": "2026-11-02T20:04:21.359311+00:00",
+      "tier": "gemini",
+      "article": "Russian Forces Strike Ukrainian UAV Assembly, storage Sites in Past Day: Top Brass - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-02T20:04:52.578117+00:00",
+      "tier": "gemini",
+      "article": "Number of journalists killed worldwide rises by 20% compared to previous years \u2014 UNESCO"
+    },
+    {
+      "timestamp": "2026-11-02T20:05:24.249083+00:00",
+      "tier": "gemini",
+      "article": "Iran killed her teenage daughter - now she is facing up to the regime"
+    },
+    {
+      "timestamp": "2026-11-02T20:05:51.203694+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
   ]
 }
