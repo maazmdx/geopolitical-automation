@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7123,
+  "total_calls": 7124,
   "tiers": {
     "groq": 6056,
-    "gemini": 1067
+    "gemini": 1068
   },
   "log": [
-    {
-      "timestamp": "2026-10-24T17:16:13.039596+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Missiles Strike Saudi Airports, Oil Refineries - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-24T17:16:39.669714+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-11-02T20:05:51.203694+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-11-03T03:22:23.046083+00:00",
+      "tier": "gemini",
+      "article": "General Saree Reports More Saudi Attacks on Yemen - Al-Manar TV Lebanon"
     }
   ]
 }
