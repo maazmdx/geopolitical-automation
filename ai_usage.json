@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7139,
+  "total_calls": 7141,
   "tiers": {
     "groq": 6056,
-    "gemini": 1083
+    "gemini": 1085
   },
   "log": [
-    {
-      "timestamp": "2026-10-25T20:34:54.605134+00:00",
-      "tier": "gemini",
-      "article": "Houthis say they attacked Riyadh Airport and military bases"
-    },
-    {
-      "timestamp": "2026-10-25T20:35:21.424254+00:00",
-      "tier": "gemini",
-      "article": "Hamas: The Israeli occupation\u2019s criminal airstrikes on the Islamic University campus in Gaza City, while students were present, constitute a clear-cut war crime - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-25T20:35:55.429541+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-04T17:52:28.615994+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-11-04T23:23:56.743626+00:00",
+      "tier": "gemini",
+      "article": "General Saree: 104 Airstrikes and Missiles on Sanaa and Seven Governorates within 24 Hours - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-04T23:24:26.706746+00:00",
+      "tier": "gemini",
+      "article": "General Qaani Warns Washington against Miscalculation: The Resistance is a Single Front with Unified Arenas - Al-Manar TV Lebanon"
     }
   ]
 }
