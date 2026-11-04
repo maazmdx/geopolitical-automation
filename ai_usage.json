@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7133,
+  "total_calls": 7135,
   "tiers": {
     "groq": 6056,
-    "gemini": 1077
+    "gemini": 1079
   },
   "log": [
-    {
-      "timestamp": "2026-10-25T13:02:54.282363+00:00",
-      "tier": "gemini",
-      "article": "Gaza: At least one Palestinian martyred and others injured in an Israeli airstrike north of Khan Younis - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-25T13:03:19.582202+00:00",
-      "tier": "gemini",
-      "article": "Gaza: Several people injured some in critical condition following an Israeli drone strike that targeted a gathering of civilians on the campus of the Islamic University - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-25T13:03:47.953104+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-04T00:29:48.183373+00:00",
       "tier": "gemini",
       "article": "N. Korea tests strategic cruise missile with cluster warhead"
+    },
+    {
+      "timestamp": "2026-11-04T08:47:08.494860+00:00",
+      "tier": "gemini",
+      "article": "Bus driver killed in yesterday\u2019s enemy drone attack on gas station in DPR"
+    },
+    {
+      "timestamp": "2026-11-04T08:47:34.604634+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
   ]
 }
