@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7131,
+  "total_calls": 7133,
   "tiers": {
     "groq": 6056,
-    "gemini": 1075
+    "gemini": 1077
   },
   "log": [
-    {
-      "timestamp": "2026-10-25T07:24:53.571679+00:00",
-      "tier": "gemini",
-      "article": "Saudi strikes martyr 193 in Yemen, wound 468"
-    },
-    {
-      "timestamp": "2026-10-25T07:25:17.979601+00:00",
-      "tier": "gemini",
-      "article": "Situation near DPRK embassy in Beijing calm"
-    },
     {
       "timestamp": "2026-10-25T13:02:54.282363+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-03T19:17:32.049668+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-11-04T00:29:24.327854+00:00",
+      "tier": "gemini",
+      "article": "The Cost of Waiting: Why the Houthis Are Getting More Dangerous and Where to Hit Them"
+    },
+    {
+      "timestamp": "2026-11-04T00:29:48.183373+00:00",
+      "tier": "gemini",
+      "article": "N. Korea tests strategic cruise missile with cluster warhead"
     }
   ]
 }
