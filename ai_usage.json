@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7135,
+  "total_calls": 7139,
   "tiers": {
     "groq": 6056,
-    "gemini": 1079
+    "gemini": 1083
   },
   "log": [
-    {
-      "timestamp": "2026-10-25T13:03:47.953104+00:00",
-      "tier": "gemini",
-      "article": "Israeli Occupation Forces Escalate Assaults Across Southern Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-25T13:04:12.190415+00:00",
-      "tier": "gemini",
-      "article": "How French presidential hopefuls turn unrest into campaign ammo \u2013 RT report"
-    },
-    {
-      "timestamp": "2026-10-25T17:30:12.275196+00:00",
-      "tier": "gemini",
-      "article": "Seven killed in Gaza as Israel targets university campus and other sites"
-    },
-    {
-      "timestamp": "2026-10-25T17:30:40.912180+00:00",
-      "tier": "gemini",
-      "article": "Iran ready to deliver response beyond enemy\u2019s expectations: Speaker Ghalibaf"
-    },
     {
       "timestamp": "2026-10-25T20:34:54.605134+00:00",
       "tier": "gemini",
@@ -505,6 +485,26 @@
     },
     {
       "timestamp": "2026-11-04T08:47:34.604634+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-11-04T17:51:11.019955+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Armed Forces: We targeted Saudi regime troop concentrations in the east of Al-Jawf Governorate with six ballistic missiles. The strikes were direct, resulting in dozens of casualties\u2014killed and wounded\u2014and the destruction of several military vehicles - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-04T17:51:33.846940+00:00",
+      "tier": "gemini",
+      "article": "Houthis claim ballistic missile strike on Riyadh airport"
+    },
+    {
+      "timestamp": "2026-11-04T17:52:03.549472+00:00",
+      "tier": "gemini",
+      "article": "MBDA\u2019s high-speed strike missile to have range \u2018far\u2019 exceeding Exocet"
+    },
+    {
+      "timestamp": "2026-11-04T17:52:28.615994+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
