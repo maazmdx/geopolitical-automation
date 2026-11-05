@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7147,
+  "total_calls": 7148,
   "tiers": {
     "groq": 6056,
-    "gemini": 1091
+    "gemini": 1092
   },
   "log": [
-    {
-      "timestamp": "2026-10-26T12:31:15.952331+00:00",
-      "tier": "gemini",
-      "article": "Israeli elections: What can Palestinians expect?\u00a0"
-    },
     {
       "timestamp": "2026-10-26T19:48:25.776591+00:00",
       "tier": "gemini",
@@ -505,6 +500,11 @@
     },
     {
       "timestamp": "2026-11-05T14:18:36.525872+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-11-05T21:50:33.780789+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
