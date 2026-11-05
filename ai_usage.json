@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7141,
+  "total_calls": 7143,
   "tiers": {
     "groq": 6056,
-    "gemini": 1085
+    "gemini": 1087
   },
   "log": [
-    {
-      "timestamp": "2026-10-25T20:35:55.429541+00:00",
-      "tier": "gemini",
-      "article": "World hopes Putin-Trump-Xi meeting to help overcome chaos \u2014 Russian diplomat"
-    },
-    {
-      "timestamp": "2026-10-25T23:57:33.099795+00:00",
-      "tier": "gemini",
-      "article": "Qalibaf Warns Any Violation of Iran\u2019s Territory Will Trigger Response Beyond Enemy\u2019s Imagination - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-25T23:58:04.816932+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-04T23:24:26.706746+00:00",
       "tier": "gemini",
       "article": "General Qaani Warns Washington against Miscalculation: The Resistance is a Single Front with Unified Arenas - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-05T05:46:33.474321+00:00",
+      "tier": "gemini",
+      "article": "Gunman goes on rampage at Citibank campus (VIDEOS)"
+    },
+    {
+      "timestamp": "2026-11-05T05:46:59.490064+00:00",
+      "tier": "gemini",
+      "article": "New Israeli Attack in South Lebanon Leaves Casualties - Al-Manar TV Lebanon"
     }
   ]
 }
