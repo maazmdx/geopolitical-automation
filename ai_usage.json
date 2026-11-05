@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7143,
+  "total_calls": 7147,
   "tiers": {
     "groq": 6056,
-    "gemini": 1087
+    "gemini": 1091
   },
   "log": [
-    {
-      "timestamp": "2026-10-25T23:58:04.816932+00:00",
-      "tier": "gemini",
-      "article": "French Unions and Protest Movements Call for Fresh Demonstrations, Nationwide Strike - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-26T04:07:16.253182+00:00",
-      "tier": "gemini",
-      "article": "Saudi-led attacks on Yemen reach 3,179: Saree"
-    },
-    {
-      "timestamp": "2026-10-26T12:30:19.332784+00:00",
-      "tier": "gemini",
-      "article": "Ukraine\u2019s strike capability weakens as Russia hits its military facilities \u2014 expert"
-    },
-    {
-      "timestamp": "2026-10-26T12:30:48.912580+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Forces Strike Saudi Coalition Targets in Aden, Lahj, Riyadh, and Oil Pipeline in Escalating \u201cBlockade-for-Blockade\u201d Campaign - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-10-26T12:31:15.952331+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-05T05:46:59.490064+00:00",
       "tier": "gemini",
       "article": "New Israeli Attack in South Lebanon Leaves Casualties - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-05T14:17:25.090346+00:00",
+      "tier": "gemini",
+      "article": "Police bodycam captures moments before deadly Russian strike in Ukraine"
+    },
+    {
+      "timestamp": "2026-11-05T14:17:48.198264+00:00",
+      "tier": "gemini",
+      "article": "Ukrainian attacks leave five dead, 13 injured in Belgorod Region over past day"
+    },
+    {
+      "timestamp": "2026-11-05T14:18:14.989508+00:00",
+      "tier": "gemini",
+      "article": "The Golden Dome Proposal is Destabilizing and Dangerous"
+    },
+    {
+      "timestamp": "2026-11-05T14:18:36.525872+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
   ]
 }
