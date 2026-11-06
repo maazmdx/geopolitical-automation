@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7148,
+  "total_calls": 7150,
   "tiers": {
     "groq": 6056,
-    "gemini": 1092
+    "gemini": 1094
   },
   "log": [
-    {
-      "timestamp": "2026-10-26T19:48:25.776591+00:00",
-      "tier": "gemini",
-      "article": "SBU agents detained for plotting drone attack on Moscow\u2019s missile defense facility"
-    },
-    {
-      "timestamp": "2026-10-26T19:48:53.611951+00:00",
-      "tier": "gemini",
-      "article": "Number of those injured in missile attack on Yelets up to seven"
-    },
     {
       "timestamp": "2026-10-26T19:49:23.262373+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-05T21:50:33.780789+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-11-06T02:04:33.174169+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Military Media Releases Footage of Precision Strikes Targeting Military Build-ups Belonging to Saudi Army - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-06T02:05:02.603488+00:00",
+      "tier": "gemini",
+      "article": "Saudi coalition intercepts missile fired towards Medina"
     }
   ]
 }
