@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7159,
+  "total_calls": 7162,
   "tiers": {
     "groq": 6056,
-    "gemini": 1103
+    "gemini": 1106
   },
   "log": [
-    {
-      "timestamp": "2026-10-27T17:43:28.672501+00:00",
-      "tier": "gemini",
-      "article": "Houthis claim ballistic missile attack on oil refinery in eastern Saudi Arabia"
-    },
-    {
-      "timestamp": "2026-10-27T17:43:58.219754+00:00",
-      "tier": "gemini",
-      "article": "Houthis say they repelled attack from pro-Saudi forces near Bab el-Mandeb Strait"
-    },
-    {
-      "timestamp": "2026-10-27T17:44:23.143022+00:00",
-      "tier": "gemini",
-      "article": "Antifa riots erupt in Bilbao over \u2018Spanish Charlie Kirk\u2019 event"
-    },
     {
       "timestamp": "2026-10-27T21:58:05.878759+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-07T00:00:40.283510+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-11-07T05:48:09.784355+00:00",
+      "tier": "gemini",
+      "article": "Russia launches missile attack on Kyiv, injuring residents"
+    },
+    {
+      "timestamp": "2026-11-07T05:48:31.941961+00:00",
+      "tier": "gemini",
+      "article": "Trump says US attacks Iranian air defense systems"
+    },
+    {
+      "timestamp": "2026-11-07T05:49:00.122133+00:00",
+      "tier": "gemini",
+      "article": "Trump confirms new US strikes on Iran\u2019s Qeshm island"
     }
   ]
 }
