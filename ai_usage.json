@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7162,
+  "total_calls": 7166,
   "tiers": {
     "groq": 6056,
-    "gemini": 1106
+    "gemini": 1110
   },
   "log": [
-    {
-      "timestamp": "2026-10-27T21:58:05.878759+00:00",
-      "tier": "gemini",
-      "article": "Jordan bombs Syria following deadly church attack"
-    },
-    {
-      "timestamp": "2026-10-27T21:58:33.517078+00:00",
-      "tier": "gemini",
-      "article": "US Air Force awards Lockheed Martin $694M hypersonic missile production contract"
-    },
-    {
-      "timestamp": "2026-10-28T08:03:43.869159+00:00",
-      "tier": "gemini",
-      "article": "Ukrainian forces launch 13 attacks on DPR settlements in past day"
-    },
-    {
-      "timestamp": "2026-10-28T08:04:09.406882+00:00",
-      "tier": "gemini",
-      "article": "Brazil handed Washington a setback it won\u2019t forgive"
-    },
     {
       "timestamp": "2026-10-28T16:30:08.540070+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-07T05:49:00.122133+00:00",
       "tier": "gemini",
       "article": "Trump confirms new US strikes on Iran\u2019s Qeshm island"
+    },
+    {
+      "timestamp": "2026-11-07T12:40:31.646045+00:00",
+      "tier": "gemini",
+      "article": "Northern Road Bridge, TPP, power substation, missile plant hit in Kiev"
+    },
+    {
+      "timestamp": "2026-11-07T12:40:55.588943+00:00",
+      "tier": "gemini",
+      "article": "Russian forces hit rocket fuel components manufacturing facility in Kiev Region"
+    },
+    {
+      "timestamp": "2026-11-07T12:41:21.179065+00:00",
+      "tier": "gemini",
+      "article": "Will Trump strike nuclear sites again as Iran engages \u2018cognitive warfare\u2019?"
+    },
+    {
+      "timestamp": "2026-11-07T12:41:43.579044+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
   ]
 }
