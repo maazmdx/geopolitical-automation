@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7181,
+  "total_calls": 7184,
   "tiers": {
     "groq": 6056,
-    "gemini": 1125
+    "gemini": 1128
   },
   "log": [
-    {
-      "timestamp": "2026-10-29T23:52:28.865243+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
-    {
-      "timestamp": "2026-10-30T04:56:06.390986+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Army announces 6 strikes on aggressor Saudi  targets"
-    },
-    {
-      "timestamp": "2026-10-30T04:56:38.990355+00:00",
-      "tier": "gemini",
-      "article": "Gaza protesters shout down Baerbock in Sweden"
-    },
     {
       "timestamp": "2026-10-30T04:57:08.668052+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-08T18:44:10.523810+00:00",
       "tier": "gemini",
       "article": "Explosions reported across Ukraine"
+    },
+    {
+      "timestamp": "2026-11-08T23:30:18.736570+00:00",
+      "tier": "gemini",
+      "article": "Iran threatens to \u2018rain down hell\u2019 if US escalates war"
+    },
+    {
+      "timestamp": "2026-11-08T23:30:42.525409+00:00",
+      "tier": "gemini",
+      "article": "Iran condemns attacks on Yemen's civilian infrastructure"
+    },
+    {
+      "timestamp": "2026-11-08T23:31:13.754432+00:00",
+      "tier": "gemini",
+      "article": "Two tankers hit mines in Hormuz \u2014 IRGC"
     }
   ]
 }
