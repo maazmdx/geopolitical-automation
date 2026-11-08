@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7173,
+  "total_calls": 7174,
   "tiers": {
     "groq": 6056,
-    "gemini": 1117
+    "gemini": 1118
   },
   "log": [
-    {
-      "timestamp": "2026-10-29T04:56:34.505016+00:00",
-      "tier": "gemini",
-      "article": "The Israeli election hurt Netanyahu, but the country is still stuck"
-    },
     {
       "timestamp": "2026-10-29T04:57:02.551426+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-11-07T23:31:47.123034+00:00",
       "tier": "gemini",
       "article": "Yemeni military coducts 6 operations deep inside Saudi Arabia"
+    },
+    {
+      "timestamp": "2026-11-08T05:07:22.606364+00:00",
+      "tier": "gemini",
+      "article": "Saudi raids leave 1,039 dead, wounded in Yemen"
     }
   ]
 }
