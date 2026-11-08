@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7174,
+  "total_calls": 7177,
   "tiers": {
     "groq": 6056,
-    "gemini": 1118
+    "gemini": 1121
   },
   "log": [
-    {
-      "timestamp": "2026-10-29T04:57:02.551426+00:00",
-      "tier": "gemini",
-      "article": "Kiev changes position on security guarantees amid warming Russia-US ties \u2014 FT"
-    },
-    {
-      "timestamp": "2026-10-29T12:31:43.269563+00:00",
-      "tier": "gemini",
-      "article": "IRGC captures US MQM-170 spy drone"
-    },
-    {
-      "timestamp": "2026-10-29T19:29:27.155112+00:00",
-      "tier": "gemini",
-      "article": "At least 14 people killed in attack on Ukraine train station"
-    },
     {
       "timestamp": "2026-10-29T19:29:56.772992+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-08T05:07:22.606364+00:00",
       "tier": "gemini",
       "article": "Saudi raids leave 1,039 dead, wounded in Yemen"
+    },
+    {
+      "timestamp": "2026-11-08T12:57:40.321676+00:00",
+      "tier": "gemini",
+      "article": "Russian strikes on Ukraine leave hundreds of thousands without electricity"
+    },
+    {
+      "timestamp": "2026-11-08T12:58:05.631208+00:00",
+      "tier": "gemini",
+      "article": "IRGC closely monitoring U.S. \u201cScorpion Strike\u201d Task Force"
+    },
+    {
+      "timestamp": "2026-11-08T12:58:34.062656+00:00",
+      "tier": "gemini",
+      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
     }
   ]
 }
