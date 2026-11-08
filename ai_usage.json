@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7177,
+  "total_calls": 7181,
   "tiers": {
     "groq": 6056,
-    "gemini": 1121
+    "gemini": 1125
   },
   "log": [
-    {
-      "timestamp": "2026-10-29T19:29:56.772992+00:00",
-      "tier": "gemini",
-      "article": "Israel seeks US permission to strike Iranian energy facilities \u2014 broadcaster"
-    },
-    {
-      "timestamp": "2026-10-29T19:30:24.907848+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
-    {
-      "timestamp": "2026-10-29T23:51:35.970246+00:00",
-      "tier": "gemini",
-      "article": "Destinus' monthly output tops Europe's pre-war annual cruise missile production"
-    },
-    {
-      "timestamp": "2026-10-29T23:51:59.181380+00:00",
-      "tier": "gemini",
-      "article": "CENTCOM chief briefs Trump on options for strikes on Iran \u2014 newspaper"
-    },
     {
       "timestamp": "2026-10-29T23:52:28.865243+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-08T12:58:34.062656+00:00",
       "tier": "gemini",
       "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
+    },
+    {
+      "timestamp": "2026-11-08T18:42:55.982468+00:00",
+      "tier": "gemini",
+      "article": "General Saree Announces New Saudi Attacks on Yemen - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-08T18:43:20.943827+00:00",
+      "tier": "gemini",
+      "article": "Iran condemns Saudi airstrikes on Yemen, calls for immediate end to military ops."
+    },
+    {
+      "timestamp": "2026-11-08T18:43:46.237833+00:00",
+      "tier": "gemini",
+      "article": "Houthis say they attacked Saudi Aramco facilities in Abqaiq"
+    },
+    {
+      "timestamp": "2026-11-08T18:44:10.523810+00:00",
+      "tier": "gemini",
+      "article": "Explosions reported across Ukraine"
     }
   ]
 }
