@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7184,
+  "total_calls": 7187,
   "tiers": {
     "groq": 6056,
-    "gemini": 1128
+    "gemini": 1131
   },
   "log": [
-    {
-      "timestamp": "2026-10-30T04:57:08.668052+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
-    {
-      "timestamp": "2026-10-30T12:23:08.585268+00:00",
-      "tier": "gemini",
-      "article": "IN BRIEF: Russia pounds Ukraine\u2019s defense plants, energy sites in massive overnight strike"
-    },
-    {
-      "timestamp": "2026-10-30T12:23:38.793210+00:00",
-      "tier": "gemini",
-      "article": "US weighs new Iran strikes as Vance reaches out: Is war or a deal closer?"
-    },
     {
       "timestamp": "2026-10-30T12:24:05.669167+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-08T23:31:13.754432+00:00",
       "tier": "gemini",
       "article": "Two tankers hit mines in Hormuz \u2014 IRGC"
+    },
+    {
+      "timestamp": "2026-11-09T05:18:28.061110+00:00",
+      "tier": "gemini",
+      "article": "Saudi Aramco tower damaged in Houthi strike (VIDEOS)"
+    },
+    {
+      "timestamp": "2026-11-09T05:18:56.682917+00:00",
+      "tier": "gemini",
+      "article": "Number of drones downed over Leningrad Region rises to 81 \u2014 governor"
+    },
+    {
+      "timestamp": "2026-11-09T05:19:22.406128+00:00",
+      "tier": "gemini",
+      "article": "IRGC navy reports explosions on two tankers in Strait of Hormuz"
     }
   ]
 }
