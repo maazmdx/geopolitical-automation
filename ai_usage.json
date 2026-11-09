@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7187,
+  "total_calls": 7191,
   "tiers": {
     "groq": 6056,
-    "gemini": 1131
+    "gemini": 1135
   },
   "log": [
-    {
-      "timestamp": "2026-10-30T12:24:05.669167+00:00",
-      "tier": "gemini",
-      "article": "Air defenses destroy 100 Ukrainian UAVs over LPR in past day \u2014 republic head"
-    },
-    {
-      "timestamp": "2026-10-30T12:24:28.458229+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
-    {
-      "timestamp": "2026-10-30T19:02:47.770474+00:00",
-      "tier": "gemini",
-      "article": "\u2018Need a Plan B\u2019: Yemenis in Aden prepare for another war as missiles fall"
-    },
-    {
-      "timestamp": "2026-10-30T19:03:13.946911+00:00",
-      "tier": "gemini",
-      "article": "From tanks to space, Norway and Germany forge ahead with \u2018Hansa\u2019 defense pact"
-    },
     {
       "timestamp": "2026-10-30T19:03:38.977071+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-09T05:19:22.406128+00:00",
       "tier": "gemini",
       "article": "IRGC navy reports explosions on two tankers in Strait of Hormuz"
+    },
+    {
+      "timestamp": "2026-11-09T15:35:33.159737+00:00",
+      "tier": "gemini",
+      "article": "At least four people killed as Russia and Ukraine trade strikes overnight"
+    },
+    {
+      "timestamp": "2026-11-09T15:35:56.159445+00:00",
+      "tier": "gemini",
+      "article": "Over 313,000 Yemenis displaced by fighting since early August \u2014 UN"
+    },
+    {
+      "timestamp": "2026-11-09T15:36:22.226686+00:00",
+      "tier": "gemini",
+      "article": "Iran to seek geographically unrestricted response to attacks"
+    },
+    {
+      "timestamp": "2026-11-09T15:36:48.328674+00:00",
+      "tier": "gemini",
+      "article": "Iran\u2019s SNSC ratifies agreement with Russia on Rasht\u2013Astara railway"
     }
   ]
 }

@@ -1,4 +1,49 @@
 {
+  "750d1f8c2d4be28d428e57dfcf905228fbb20f385e950faebfa6fadc003985e5": {
+    "url": "DDGeopolitics/197696",
+    "title": "Explosion at Turkish Steel Plant Kills Six, Eight Trapped",
+    "published": "2026-11-09T15:48:27.843965+00:00"
+  },
+  "6d92e1f9f7f7b80df10424bf5325f43158f72f1b3ef7e34817e5d7b16b628d34": {
+    "url": "DDGeopolitics/197703",
+    "title": "European Officials Allege Russian Disinformation in French Riots; Evidence Questioned",
+    "published": "2026-11-09T15:47:38.389068+00:00"
+  },
+  "5cbe8f7d9d1dfd00016a22c56fdc81741aa96c9038f0d6144004a53409f42b3e": {
+    "url": "DDGeopolitics/197704",
+    "title": "Ukrainian Security Service Building in Zaporizhzhia Hit by Drone",
+    "published": "2026-11-09T15:45:35.601046+00:00"
+  },
+  "d73969b72123d2e1900de906de62f814200844e82d8c1b1e533f63b33f12e131": {
+    "url": "DDGeopolitics/197706",
+    "title": "Russian UAV Operators Neutralize Targets Near Druzhkovka",
+    "published": "2026-11-09T15:45:15.003897+00:00"
+  },
+  "d7199b278f9de19d8e9a61695aa37075bf0afffbc026615e5dffa640e29306ad": {
+    "url": "thecradlemedia/70736",
+    "title": "Syrian FM Dismisses Reports of Troop Deployment to Saudi-Led Yemen War",
+    "published": "2026-11-09T15:37:06.940971+00:00"
+  },
+  "953c9cc2807058e4bd22761958b3a69d078ac80f4cc0ba1a7a82508783b1d588": {
+    "url": "thecradlemedia/70737",
+    "title": "Winter Floods Displace 100,000 in Gaza, Exacerbating Humanitarian Crisis",
+    "published": "2026-11-09T15:36:58.404853+00:00"
+  },
+  "873b5ec74361864cd005a3a7cc63c113e6616f14b5ea7b4c74ddd10ceec396f3": {
+    "url": "https://tass.com/world/2214867",
+    "title": "Over 313,000 Yemenis displaced by fighting since early August \u2014 UN",
+    "published": "2026-11-09T12:55:27+00:00"
+  },
+  "99e3ac299b3313a3511af584a0727a62ce9dbc692440ad7f3aa087d1fc473f7a": {
+    "url": "https://en.mehrnews.com/news/249270/Iran-s-Army-doctrine-shifted-towards-an-offensive-approach",
+    "title": "Iran to seek geographically unrestricted response to attacks",
+    "published": "2026-11-09T10:48:32+00:00"
+  },
+  "381127e0274a513640e702952b9f687de46dddb5b9c4fe5f697ae2c31b1e4652": {
+    "url": "https://www.aljazeera.com/news/2026/11/9/at-least-one-person-killed-as-russia-and-ukraine-trade-strikes-overnight?traffic_source=rss",
+    "title": "At least four people killed as Russia and Ukraine trade strikes overnight",
+    "published": "2026-11-09T10:08:45+00:00"
+  },
   "c5b6638de4dcfb986074946c81d04b72d4619c5d3d59d541d81b84dcb8183315": {
     "url": "DDGeopolitics/197665",
     "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\udde6Trump on Ukraine War:I think it's gonna happen, and they're gonna end up wit",
@@ -113,6 +158,11 @@
     "url": "https://www.tehrantimes.com/news/531956/Iran-condemns-Saudi-airstrikes-on-Yemen-calls-for-immediate",
     "title": "Iran condemns Saudi airstrikes on Yemen, calls for immediate end to military ops.",
     "published": "2026-11-08T17:21:30+00:00"
+  },
+  "ca251467cb78a9bd07ceb4c7e0eb5a3dec4604f046c57852bcbde7c42f0158c0": {
+    "url": "https://www.tehrantimes.com/news/531954/Iran-s-SNSC-ratifies-agreement-with-Russia-on-Rasht-Astara-railway",
+    "title": "Iran\u2019s SNSC ratifies agreement with Russia on Rasht\u2013Astara railway",
+    "published": "2026-11-08T17:13:17+00:00"
   },
   "0e5c3c505a8e2c29d4104e45fa53297bfe7bfe78275e284c27df742f8a4f248b": {
     "url": "https://en.mehrnews.com/news/249248/Iran-condemns-attacks-on-Yemen-s-civilian-infrastructure",
@@ -698,55 +748,5 @@
     "url": "https://english.almanar.com.lb/article/146962/",
     "title": "General Qaani Warns Washington against Miscalculation: The Resistance is a Single Front with Unified Arenas - Al-Manar TV Lebanon",
     "published": "2026-11-04T19:44:09+00:00"
-  },
-  "fef197ae8e9eeb5e72503982a9c82aba5f8de36830bc793599541ccbe3d0ec8a": {
-    "url": "thecradlemedia/70509",
-    "title": "Trump Signals Potential Major Military Action Against Iran Post-Midterms",
-    "published": "2026-11-04T17:59:12.644105+00:00"
-  },
-  "3229a3e5cee11e8c0047a9fc90e5a0451ededde85383353562cc189b2a5308ad": {
-    "url": "thecradlemedia/70511",
-    "title": "Israeli Drones Documented Over Haret Hreik, Beirut",
-    "published": "2026-11-04T17:56:48.951300+00:00"
-  },
-  "93eddb9b38b6e72003e2f376a2617e4ac3c94f90e50d3ebdf2ede61d08d5e6c9": {
-    "url": "thecradlemedia/70513",
-    "title": "Israeli Air Strikes Reported in Southern Lebanon's Wadi al-Hujair",
-    "published": "2026-11-04T17:56:10.271053+00:00"
-  },
-  "92f6d938fd2ba1420dc18acfaaa420e06892562ee62eae579bdf0c72155813ff": {
-    "url": "thecradlemedia/70517",
-    "title": "IRGC Reports Tanker Destruction; Iran Conditions Strait of Hormuz Reopening on US Demands",
-    "published": "2026-11-04T17:55:35.013423+00:00"
-  },
-  "e6aa931d9b9af4419dc7a0174ba86b4bda8af39b24257f490be1b0083f74e2e5": {
-    "url": "thecradlemedia/70520",
-    "title": "Israeli Analyst Links Netanyahu-Trump Political Dynamics to Imminent Regional Conflict",
-    "published": "2026-11-04T17:55:28.078175+00:00"
-  },
-  "c294086ebd2959aef01a3e5827cbf5cee42f45c624703cd1fc69c5445730a061": {
-    "url": "https://english.almanar.com.lb/article/146937/",
-    "title": "General Saree: 104 Airstrikes and Missiles on Sanaa and Seven Governorates within 24 Hours - Al-Manar TV Lebanon",
-    "published": "2026-11-04T17:53:57+00:00"
-  },
-  "694279f0f5af51841928b54b718fbadab05e5365ffb5c28b583ea8f816e501b8": {
-    "url": "thecradlemedia/70522",
-    "title": "Israeli Maritime Intelligence Firm Monitors Iran for Washington, Forging New Data Market",
-    "published": "2026-11-04T17:52:43.526209+00:00"
-  },
-  "16eed1ba9c55b36032f09a0cf77632f811f94dd6675e9b2dff984033b8636e23": {
-    "url": "https://tass.com/world/2212967",
-    "title": "Houthis claim ballistic missile strike on Riyadh airport",
-    "published": "2026-11-04T16:37:19+00:00"
-  },
-  "e8d3c4c623dc45a7366e8c3dcbf8c6d2fd5c38975ee81b79c92f1ce6bc32d4b5": {
-    "url": "https://english.almanar.com.lb/article/146872/",
-    "title": "New Israeli Attack in South Lebanon Leaves Casualties - Al-Manar TV Lebanon",
-    "published": "2026-11-04T15:07:19+00:00"
-  },
-  "667838081d0f54c68a20154be024cdb50d97adfbdb1126f27d65ca7acddc36dd": {
-    "url": "https://english.almanar.com.lb/article/146842/",
-    "title": "Yemeni Armed Forces: We targeted Saudi regime troop concentrations in the east of Al-Jawf Governorate with six ballistic missiles. The strikes were direct, resulting in dozens of casualties\u2014killed and wounded\u2014and the destruction of several military vehicles - Al-Manar TV Lebanon",
-    "published": "2026-11-04T13:31:18+00:00"
   }
 }
