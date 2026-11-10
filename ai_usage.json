@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7192,
+  "total_calls": 7193,
   "tiers": {
     "groq": 6056,
-    "gemini": 1136
+    "gemini": 1137
   },
   "log": [
-    {
-      "timestamp": "2026-10-30T23:31:29.529522+00:00",
-      "tier": "gemini",
-      "article": "Houthis deliver missile strikes on airport, presidential palace in Aden"
-    },
     {
       "timestamp": "2026-10-30T23:31:58.681712+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-11-10T00:00:51.312191+00:00",
       "tier": "gemini",
       "article": "More Saudi Attacks on Yemeni Announced by Saree - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-10T07:06:09.773453+00:00",
+      "tier": "gemini",
+      "article": "China's Middle East envoy meets Iran security officials"
     }
   ]
 }
