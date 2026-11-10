@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7197,
+  "total_calls": 7201,
   "tiers": {
     "groq": 6056,
-    "gemini": 1141
+    "gemini": 1145
   },
   "log": [
-    {
-      "timestamp": "2026-10-31T11:54:02.655356+00:00",
-      "tier": "gemini",
-      "article": "Al-Manar correspondent in Yemen: 6 civilians, including children, were injured in Saudi airstrikes targeting the Al-Waziyah market in Taiz - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-10-31T11:54:30.680247+00:00",
-      "tier": "gemini",
-      "article": "Are Houthis using Russian satellites as Saudi Arabia fends off strikes?"
-    },
-    {
-      "timestamp": "2026-10-31T11:54:57.389404+00:00",
-      "tier": "gemini",
-      "article": "US may resume strikes on Iran on November 4 \u2014 media"
-    },
-    {
-      "timestamp": "2026-10-31T11:55:23.678508+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
     {
       "timestamp": "2026-10-31T17:00:44.858236+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-10T16:16:33.218784+00:00",
       "tier": "gemini",
       "article": "Enriched uranium exit from Iran not on agenda at all: Baghaei"
+    },
+    {
+      "timestamp": "2026-11-10T22:59:24.911884+00:00",
+      "tier": "gemini",
+      "article": "Kiev replaces costly Storm Shadow missiles with cheap Rusty Dagger munitions \u2014 expert"
+    },
+    {
+      "timestamp": "2026-11-10T22:59:50.444458+00:00",
+      "tier": "gemini",
+      "article": "Why must Washington give concessions to Iran?"
+    },
+    {
+      "timestamp": "2026-11-10T23:00:17.844521+00:00",
+      "tier": "gemini",
+      "article": "Unveiling missile city sends Iran's clear message to enemies"
+    },
+    {
+      "timestamp": "2026-11-10T23:00:47.950650+00:00",
+      "tier": "gemini",
+      "article": "Merz threatens to block EU budget over Ukraine funding \u2013 media"
     }
   ]
 }
