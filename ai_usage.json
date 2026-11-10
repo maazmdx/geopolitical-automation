@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7191,
+  "total_calls": 7192,
   "tiers": {
     "groq": 6056,
-    "gemini": 1135
+    "gemini": 1136
   },
   "log": [
-    {
-      "timestamp": "2026-10-30T19:03:38.977071+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
     {
       "timestamp": "2026-10-30T23:31:29.529522+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-11-09T15:36:48.328674+00:00",
       "tier": "gemini",
       "article": "Iran\u2019s SNSC ratifies agreement with Russia on Rasht\u2013Astara railway"
+    },
+    {
+      "timestamp": "2026-11-10T00:00:51.312191+00:00",
+      "tier": "gemini",
+      "article": "More Saudi Attacks on Yemeni Announced by Saree - Al-Manar TV Lebanon"
     }
   ]
 }
