@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7201,
+  "total_calls": 7204,
   "tiers": {
     "groq": 6056,
-    "gemini": 1145
+    "gemini": 1148
   },
   "log": [
-    {
-      "timestamp": "2026-10-31T17:00:44.858236+00:00",
-      "tier": "gemini",
-      "article": "Iran warns of unfettered retaliation if attacked as mediators try for peace"
-    },
-    {
-      "timestamp": "2026-10-31T21:12:29.617109+00:00",
-      "tier": "gemini",
-      "article": "Iranian strikes damage 274 structures at 24 US-linked military sites"
-    },
-    {
-      "timestamp": "2026-10-31T21:13:08.323967+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
     {
       "timestamp": "2026-11-01T00:51:15.444013+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-10T23:00:47.950650+00:00",
       "tier": "gemini",
       "article": "Merz threatens to block EU budget over Ukraine funding \u2013 media"
+    },
+    {
+      "timestamp": "2026-11-11T05:18:34.184165+00:00",
+      "tier": "gemini",
+      "article": "Trump and Netanyahu clash over Iran strikes \u2013 media"
+    },
+    {
+      "timestamp": "2026-11-11T05:18:58.811433+00:00",
+      "tier": "gemini",
+      "article": "Iran to have new surprises for enemy in missile field"
+    },
+    {
+      "timestamp": "2026-11-11T05:19:25.164347+00:00",
+      "tier": "gemini",
+      "article": "Three Zaporozhye NPP employees killed in Ukraine\u2019s attacks in past two weeks"
     }
   ]
 }
