@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7204,
+  "total_calls": 7208,
   "tiers": {
     "groq": 6056,
-    "gemini": 1148
+    "gemini": 1152
   },
   "log": [
-    {
-      "timestamp": "2026-11-01T00:51:15.444013+00:00",
-      "tier": "gemini",
-      "article": "Russian forces hit cargo ship 37 km south of Odessa \u2014 Defense Ministry"
-    },
-    {
-      "timestamp": "2026-11-01T00:51:43.391627+00:00",
-      "tier": "gemini",
-      "article": "Pentagon faces up to $15bn in Iran war base damage \u2013 WSJ"
-    },
-    {
-      "timestamp": "2026-11-01T08:54:24.211439+00:00",
-      "tier": "gemini",
-      "article": "Trump calls Netanyahu as US weighs new Iran strikes \u2013 WSJ"
-    },
-    {
-      "timestamp": "2026-11-01T08:54:48.710286+00:00",
-      "tier": "gemini",
-      "article": "Iran missile, drone attacks destroy 26 US bases in West Asia"
-    },
     {
       "timestamp": "2026-11-01T08:55:14.614219+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-11T05:19:25.164347+00:00",
       "tier": "gemini",
       "article": "Three Zaporozhye NPP employees killed in Ukraine\u2019s attacks in past two weeks"
+    },
+    {
+      "timestamp": "2026-11-11T13:47:15.646254+00:00",
+      "tier": "gemini",
+      "article": "Saudi Arabia Escalates in Yemen : Shelling in Saada, Airstrikes in Taiz and Lahij as Toll Reaches 355 Martyred, 757 Injured - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-11T13:47:41.447919+00:00",
+      "tier": "gemini",
+      "article": "Japan\u2019s Most Dangerous Military Constraint Is Time"
+    },
+    {
+      "timestamp": "2026-11-11T13:48:13.819591+00:00",
+      "tier": "gemini",
+      "article": "Top General Warns US, \u2018Israel\u2019 of Iran\u2019s Far Deadlier Response to Aggression - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-11T13:48:46.915627+00:00",
+      "tier": "gemini",
+      "article": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'"
     }
   ]
 }
