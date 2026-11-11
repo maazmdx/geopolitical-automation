@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7208,
+  "total_calls": 7212,
   "tiers": {
     "groq": 6056,
-    "gemini": 1152
+    "gemini": 1156
   },
   "log": [
-    {
-      "timestamp": "2026-11-01T08:55:14.614219+00:00",
-      "tier": "gemini",
-      "article": "North Korea tests tactical ballistic missile cluster warhead - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-01T08:55:40.514352+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
-    {
-      "timestamp": "2026-11-01T16:40:03.815859+00:00",
-      "tier": "gemini",
-      "article": "Any attack against Iran to be met with devastating strikes"
-    },
-    {
-      "timestamp": "2026-11-01T16:40:52.482014+00:00",
-      "tier": "gemini",
-      "article": "Nine Martyred in Israeli Strikes on Gaza as Warnings Grow of Humanitarian Catastrophe - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-11-01T16:41:20.909959+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-11T13:48:46.915627+00:00",
       "tier": "gemini",
       "article": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'"
+    },
+    {
+      "timestamp": "2026-11-11T21:07:39.614960+00:00",
+      "tier": "gemini",
+      "article": "Iran may target certain US bases in Europe if attacked again"
+    },
+    {
+      "timestamp": "2026-11-11T21:08:06.864551+00:00",
+      "tier": "gemini",
+      "article": "France fears German deep strike capabilities could provoke nuclear war with Russia \u2013 FT"
+    },
+    {
+      "timestamp": "2026-11-11T21:08:31.028654+00:00",
+      "tier": "gemini",
+      "article": "Ukrainian drone strikes destroy 115 buses in DPR since beginning of year"
+    },
+    {
+      "timestamp": "2026-11-11T21:09:02.917924+00:00",
+      "tier": "gemini",
+      "article": "US soldier arrested in UK for suspected 'espionage' for Russia"
     }
   ]
 }
