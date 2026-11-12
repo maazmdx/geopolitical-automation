@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7212,
+  "total_calls": 7216,
   "tiers": {
     "groq": 6056,
-    "gemini": 1156
+    "gemini": 1160
   },
   "log": [
-    {
-      "timestamp": "2026-11-01T16:41:20.909959+00:00",
-      "tier": "gemini",
-      "article": "US fighter jets carry out airstrikes on Syria\u2019s Homs"
-    },
-    {
-      "timestamp": "2026-11-01T16:42:08.283159+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
-    {
-      "timestamp": "2026-11-01T21:50:23.498882+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Armed Forces: The total number of Saudi-led coalition airstrikes since the escalation began has reached 3,830 - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-01T21:50:46.054246+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Armed Forces: 75 airstrikes were carried out by the Saudi-led aggression across the eight governorates over the past 24 hours - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-11-01T21:51:10.749849+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-11T21:09:02.917924+00:00",
       "tier": "gemini",
       "article": "US soldier arrested in UK for suspected 'espionage' for Russia"
+    },
+    {
+      "timestamp": "2026-11-12T02:45:41.719185+00:00",
+      "tier": "gemini",
+      "article": "Israeli strikes hit medical complex as nine killed across Gaza"
+    },
+    {
+      "timestamp": "2026-11-12T02:46:07.265532+00:00",
+      "tier": "gemini",
+      "article": "AI could escape human control with deadly consequences, OpenAI board member warns"
+    },
+    {
+      "timestamp": "2026-11-12T02:46:35.127039+00:00",
+      "tier": "gemini",
+      "article": "Saudis launch heavy airstrikes on border villages in Saada"
+    },
+    {
+      "timestamp": "2026-11-12T02:47:00.704959+00:00",
+      "tier": "gemini",
+      "article": "Pro-Palestinian protesters throw milk at Biden in Dublin"
     }
   ]
 }
