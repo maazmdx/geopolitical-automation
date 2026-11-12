@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7219,
+  "total_calls": 7223,
   "tiers": {
     "groq": 6056,
-    "gemini": 1163
+    "gemini": 1167
   },
   "log": [
-    {
-      "timestamp": "2026-11-02T20:04:21.359311+00:00",
-      "tier": "gemini",
-      "article": "Russian Forces Strike Ukrainian UAV Assembly, storage Sites in Past Day: Top Brass - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-02T20:04:52.578117+00:00",
-      "tier": "gemini",
-      "article": "Number of journalists killed worldwide rises by 20% compared to previous years \u2014 UNESCO"
-    },
-    {
-      "timestamp": "2026-11-02T20:05:24.249083+00:00",
-      "tier": "gemini",
-      "article": "Iran killed her teenage daughter - now she is facing up to the regime"
-    },
-    {
-      "timestamp": "2026-11-02T20:05:51.203694+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
     {
       "timestamp": "2026-11-03T03:22:23.046083+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-12T12:21:26.281319+00:00",
       "tier": "gemini",
       "article": "Russian envoy to US dies"
+    },
+    {
+      "timestamp": "2026-11-12T21:22:00.827651+00:00",
+      "tier": "gemini",
+      "article": "Saudi Jets Launch More Strikes in Yemen - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-12T21:22:26.356385+00:00",
+      "tier": "gemini",
+      "article": "Al Jazeera reports from Gaza hospital attacked by Israel"
+    },
+    {
+      "timestamp": "2026-11-12T21:22:49.203067+00:00",
+      "tier": "gemini",
+      "article": "Iran warns response to U.S. attack will be ten times stronger"
+    },
+    {
+      "timestamp": "2026-11-12T21:23:20.664114+00:00",
+      "tier": "gemini",
+      "article": "Mass bomb threats disrupt thousands of European schools"
     }
   ]
 }
