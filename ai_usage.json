@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7216,
+  "total_calls": 7219,
   "tiers": {
     "groq": 6056,
-    "gemini": 1160
+    "gemini": 1163
   },
   "log": [
-    {
-      "timestamp": "2026-11-01T21:51:10.749849+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
-    {
-      "timestamp": "2026-11-02T01:22:43.126840+00:00",
-      "tier": "gemini",
-      "article": "Kherson braces for return of war as localised Russia-Ukraine truce ends"
-    },
-    {
-      "timestamp": "2026-11-02T01:23:05.901803+00:00",
-      "tier": "gemini",
-      "article": "War with US would have no geographical limit: IRGC spox warns"
-    },
     {
       "timestamp": "2026-11-02T20:04:21.359311+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-12T02:47:00.704959+00:00",
       "tier": "gemini",
       "article": "Pro-Palestinian protesters throw milk at Biden in Dublin"
+    },
+    {
+      "timestamp": "2026-11-12T12:20:36.795880+00:00",
+      "tier": "gemini",
+      "article": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says"
+    },
+    {
+      "timestamp": "2026-11-12T12:20:57.668067+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Armed Forces announce ballistic missile strike targeting operations room of Saudi commandship in Aden\u2019s Al-Buraiqah - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-12T12:21:26.281319+00:00",
+      "tier": "gemini",
+      "article": "Russian envoy to US dies"
     }
   ]
 }
