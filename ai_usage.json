@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7223,
+  "total_calls": 7226,
   "tiers": {
     "groq": 6056,
-    "gemini": 1167
+    "gemini": 1170
   },
   "log": [
-    {
-      "timestamp": "2026-11-03T03:22:23.046083+00:00",
-      "tier": "gemini",
-      "article": "General Saree Reports More Saudi Attacks on Yemen - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-03T11:46:58.774926+00:00",
-      "tier": "gemini",
-      "article": "Tor-M1 air defense system crew downs Ukraine\u2019s Lyuty UAVs in Dobropolye area"
-    },
-    {
-      "timestamp": "2026-11-03T11:47:34.079996+00:00",
-      "tier": "gemini",
-      "article": "At least 73 injured as Russia bombs Ukrainian hospital and power plants"
-    },
     {
       "timestamp": "2026-11-03T11:47:57.697189+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-12T21:23:20.664114+00:00",
       "tier": "gemini",
       "article": "Mass bomb threats disrupt thousands of European schools"
+    },
+    {
+      "timestamp": "2026-11-13T02:29:03.668303+00:00",
+      "tier": "gemini",
+      "article": "2 Children among 8 Dead in Flatbush, Brooklyn Building Collapse - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-13T02:29:37.519326+00:00",
+      "tier": "gemini",
+      "article": "Multiple people shot in Washington near White House"
+    },
+    {
+      "timestamp": "2026-11-13T02:30:01.723274+00:00",
+      "tier": "gemini",
+      "article": "Finland says it detects strike on Russian warship in Baltic Sea"
     }
   ]
 }
