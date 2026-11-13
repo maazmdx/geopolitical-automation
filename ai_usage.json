@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7230,
+  "total_calls": 7234,
   "tiers": {
     "groq": 6056,
-    "gemini": 1174
+    "gemini": 1178
   },
   "log": [
-    {
-      "timestamp": "2026-11-03T19:17:32.049668+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
-    {
-      "timestamp": "2026-11-04T00:29:24.327854+00:00",
-      "tier": "gemini",
-      "article": "The Cost of Waiting: Why the Houthis Are Getting More Dangerous and Where to Hit Them"
-    },
-    {
-      "timestamp": "2026-11-04T00:29:48.183373+00:00",
-      "tier": "gemini",
-      "article": "N. Korea tests strategic cruise missile with cluster warhead"
-    },
-    {
-      "timestamp": "2026-11-04T08:47:08.494860+00:00",
-      "tier": "gemini",
-      "article": "Bus driver killed in yesterday\u2019s enemy drone attack on gas station in DPR"
-    },
     {
       "timestamp": "2026-11-04T08:47:34.604634+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-13T11:59:51.172576+00:00",
       "tier": "gemini",
       "article": "Two more violating oil tankers catch fire east of Hormuz"
+    },
+    {
+      "timestamp": "2026-11-13T19:32:31.307164+00:00",
+      "tier": "gemini",
+      "article": "Six, including a surgeon, killed in Israeli strike on Nasser Hospital in Gaza"
+    },
+    {
+      "timestamp": "2026-11-13T19:33:01.671551+00:00",
+      "tier": "gemini",
+      "article": "Iran honours fallen soldiers in Iran-Iraq war with missile display"
+    },
+    {
+      "timestamp": "2026-11-13T19:33:29.416432+00:00",
+      "tier": "gemini",
+      "article": "No safe distance: Iran puts US bases in Europe on notice"
+    },
+    {
+      "timestamp": "2026-11-13T19:33:54.558732+00:00",
+      "tier": "gemini",
+      "article": "Trump proposes Tim Cook as replacement for scandal-hit Nvidia boss"
     }
   ]
 }
