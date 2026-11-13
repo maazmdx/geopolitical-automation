@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7226,
+  "total_calls": 7230,
   "tiers": {
     "groq": 6056,
-    "gemini": 1170
+    "gemini": 1174
   },
   "log": [
-    {
-      "timestamp": "2026-11-03T11:47:57.697189+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
-    {
-      "timestamp": "2026-11-03T19:16:11.684677+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Ballistic Missiles Strike Saudi Airbase and Militia Reinforcements, Drone Disrupts Abha Airport - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-03T19:16:40.206653+00:00",
-      "tier": "gemini",
-      "article": "US strikes Iranian island ahead of midterm elections"
-    },
-    {
-      "timestamp": "2026-11-03T19:17:08.767736+00:00",
-      "tier": "gemini",
-      "article": "Quantum\u2019s Quietest Branch: A Case for Magnetometry"
-    },
     {
       "timestamp": "2026-11-03T19:17:32.049668+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-13T02:30:01.723274+00:00",
       "tier": "gemini",
       "article": "Finland says it detects strike on Russian warship in Baltic Sea"
+    },
+    {
+      "timestamp": "2026-11-13T11:58:40.888751+00:00",
+      "tier": "gemini",
+      "article": "Four civilians killed in Ukrainian UAV strike on industrial facility in Samara Region"
+    },
+    {
+      "timestamp": "2026-11-13T11:59:04.592870+00:00",
+      "tier": "gemini",
+      "article": "Three civilians killed, 14 wounded in Ukrainian attacks on Belgorod Region over past day"
+    },
+    {
+      "timestamp": "2026-11-13T11:59:26.260175+00:00",
+      "tier": "gemini",
+      "article": "Four people dead, two injured in drone attack on Russia\u2019s Volgograd"
+    },
+    {
+      "timestamp": "2026-11-13T11:59:51.172576+00:00",
+      "tier": "gemini",
+      "article": "Two more violating oil tankers catch fire east of Hormuz"
     }
   ]
 }

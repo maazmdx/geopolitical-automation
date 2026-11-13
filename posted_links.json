@@ -1,4 +1,49 @@
 {
+  "e40fa095a614403a7bb7e266ef362903dfac9d2ed7757dd085da5bea2dbb38e6": {
+    "url": "militarywave/25613",
+    "title": "Russian Military Claims Control Over Two Settlements in Zaporizhzhia and Donetsk Regions",
+    "published": "2026-11-13T12:05:24.821811+00:00"
+  },
+  "ea440e7ae88c87896a5419329b6fd793a759c97f86042cab09c769aa2389c4d9": {
+    "url": "DDGeopolitics/198045",
+    "title": "Russian Thermobaric System Strikes Ukrainian Targets in Kharkov Region",
+    "published": "2026-11-13T12:04:29.342212+00:00"
+  },
+  "a79bd9d8b7988ae5d3a0d8ac58119c1e7e1eca4655aea69e91425e17608c75b4": {
+    "url": "DDGeopolitics/198066",
+    "title": "Kyiv Lavra Ceremony for Former Model Draws Scrutiny",
+    "published": "2026-11-13T12:03:33.737472+00:00"
+  },
+  "97a22c4babdc74ada917f818c1b55df44ff760a7e59c40fc90024b64b0965184": {
+    "url": "thecradlemedia/70957",
+    "title": "VIDEO | Iranians hold nationwide funeral processions for 350 killed during Iraq-",
+    "published": "2026-11-13T12:02:11.776122+00:00"
+  },
+  "3e358d7ea1a558b03c34a9a4be5e1b957b7907b166562d72d38d054b4b3a0432": {
+    "url": "thecradlemedia/70958",
+    "title": "Israeli Military Orders Uprooting of 37.8 Dunums of Palestinian Agricultural Land in Hebron Area",
+    "published": "2026-11-13T12:00:13.610554+00:00"
+  },
+  "aa793c1bb82b28e0f36a9e6350424da22e5a7265e3daf7f8d763985b61f53fff": {
+    "url": "thecradlemedia/70960",
+    "title": "Jeffries Signals Policy Review on Israel Amidst Congressional Power Shift",
+    "published": "2026-11-13T12:00:02.519604+00:00"
+  },
+  "18f268acdd162ab8534ad0ab5422947582a7bd053be5ea2829ead5adfd11bf53": {
+    "url": "https://tass.com/emergencies/2217743",
+    "title": "Four civilians killed in Ukrainian UAV strike on industrial facility in Samara Region",
+    "published": "2026-11-13T10:50:09+00:00"
+  },
+  "63facc2a10a2ea89dac4da3609123de878b6cec32c16819dc04c8f002ae2655a": {
+    "url": "https://tass.com/politics/2217627",
+    "title": "Three civilians killed, 14 wounded in Ukrainian attacks on Belgorod Region over past day",
+    "published": "2026-11-13T09:10:44+00:00"
+  },
+  "67b69ff8f15fb3c5a48e175fce8dc66ff5de36bbf0b64c04cec9304deb8dee4b": {
+    "url": "https://tass.com/politics/2217597",
+    "title": "Four people dead, two injured in drone attack on Russia\u2019s Volgograd",
+    "published": "2026-11-13T07:50:51+00:00"
+  },
   "95ffbc3e8176e1fd876a6e1210ee2dfc007aa278aed00a3088ea178d6dde8f1b": {
     "url": "militarywave/25615",
     "title": "The US Treasury Secretary moved from his home to a military base. Why?Scott Bess",
@@ -73,6 +118,11 @@
     "url": "https://english.almanar.com.lb/article/150102/",
     "title": "Saudi Jets Launch More Strikes in Yemen - Al-Manar TV Lebanon",
     "published": "2026-11-12T17:42:16+00:00"
+  },
+  "95339caf41144437618dca1c1180ec570f82e7b0fb813db5c327145d5219b3dd": {
+    "url": "https://en.mehrnews.com/news/249359/Two-more-violating-oil-tankers-catch-fire-east-of-Hormuz",
+    "title": "Two more violating oil tankers catch fire east of Hormuz",
+    "published": "2026-11-12T16:06:38+00:00"
   },
   "5b9b84caed5ec40c328c8e832388ba68ae20ba80dfc114232d6d6d88558d5d65": {
     "url": "https://www.defensenews.com/global/europe/2026/11/12/finland-says-it-detects-strike-on-russian-warship-in-baltic-sea/",
@@ -698,55 +748,5 @@
     "url": "thecradlemedia/70662",
     "title": "Riyadh Financial District Hit Amid Yemeni Retaliatory Strikes",
     "published": "2026-11-08T12:59:19.554931+00:00"
-  },
-  "016c05909a6b5327c49fd61fbcdb58a982a711d3e81ee75736b757ccab455ea8": {
-    "url": "thecradlemedia/70672",
-    "title": "CENTCOM Launches 'Task Force Iron Gate' to Disrupt Iranian Overland and Maritime Routes",
-    "published": "2026-11-08T12:59:06.601405+00:00"
-  },
-  "d62dad7b11abe705468dfdcaeae716c21c21778399a5e4455bb934c127b45a32": {
-    "url": "thecradlemedia/70675",
-    "title": "Eisenkot Tasked with Forming Israeli Government, Coalition Path Remains Complex",
-    "published": "2026-11-08T12:58:59.148338+00:00"
-  },
-  "c3a3b8dabb02dec0b66d35c4d98027b01febd5003f8e9ebe0ed20c5dfb13b8d4": {
-    "url": "https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity?traffic_source=rss",
-    "title": "Russian strikes on Ukraine leave hundreds of thousands without electricity",
-    "published": "2026-11-08T12:20:17+00:00"
-  },
-  "010453d9de81f83703cbdcfe01fabf01e93486a1e6aea8a874600f27edb8674f": {
-    "url": "https://en.mehrnews.com/news/249237/IRGC-closely-monitoring-U-S-Scorpion-Strike-Task-Force",
-    "title": "IRGC closely monitoring U.S. \u201cScorpion Strike\u201d Task Force",
-    "published": "2026-11-08T07:09:01+00:00"
-  },
-  "864eff3064470e9ede56c4e63f072ebb73beef95eccc2f935733932c29846693": {
-    "url": "https://en.irna.ir/news/86315378/IRGC-navy-reports-explosions-on-two-tankers-in-Strait-of-Hormuz",
-    "title": "IRGC navy reports explosions on two tankers in Strait of Hormuz",
-    "published": "2026-11-08T06:06:15+00:00"
-  },
-  "01eb130bb7de39d5f4fa2521a1d1767f181efd21b12993ac6846f44ca14d686f": {
-    "url": "presstv/213842",
-    "title": "Gazans desperate as rainy season floods their tents  Tens of thousands of tents ",
-    "published": "2026-11-08T05:16:44.277873+00:00"
-  },
-  "17c0ad6b8cf2cfe7c3e3c5bff350b3e742139bead38ed887eeadc3cdc427ecb0": {
-    "url": "presstv/213846",
-    "title": "\ud83d\udd3a \"Italy is under the control of the Israeli lobby\"Lorenzo Maria Pacini says Ita",
-    "published": "2026-11-08T05:14:16.782009+00:00"
-  },
-  "180132a83b7b045f59e5cf66a23ca48b4fc789b21dfb964635ff2c357cdf98fe": {
-    "url": "militarywave/25570",
-    "title": "One wrong step and your legs will be covered in bruises. Yet experienced dancers",
-    "published": "2026-11-08T05:11:47.992605+00:00"
-  },
-  "b281643a50a559080c6455238a4d2ca198d3d1c7a9acb982967aa914bf2e7e8f": {
-    "url": "BellumActaNews/178323",
-    "title": "\ud83c\uddeb\ud83c\uddf7\ud83d\udee0\u274c\ud83c\uddee\ud83c\uddf1 \u2014 French socialist Presidential Candidate Jean-Luc M\u00e9lenchon tells the Is",
-    "published": "2026-11-08T05:10:23.337433+00:00"
-  },
-  "fe3950fcb1ecd97185c73ff470a9b8225e3d7bcdb5d788e33bc2a044cbe23fdb": {
-    "url": "thecradlemedia/70652",
-    "title": "BREAKING | Failing at sea, US launches 'Task Force Iron Gate' to strangle Iran's",
-    "published": "2026-11-08T05:08:00.038052+00:00"
   }
 }
