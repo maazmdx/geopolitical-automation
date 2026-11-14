@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7234,
+  "total_calls": 7237,
   "tiers": {
     "groq": 6056,
-    "gemini": 1178
+    "gemini": 1181
   },
   "log": [
-    {
-      "timestamp": "2026-11-04T08:47:34.604634+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
-    {
-      "timestamp": "2026-11-04T17:51:11.019955+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Armed Forces: We targeted Saudi regime troop concentrations in the east of Al-Jawf Governorate with six ballistic missiles. The strikes were direct, resulting in dozens of casualties\u2014killed and wounded\u2014and the destruction of several military vehicles - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-04T17:51:33.846940+00:00",
-      "tier": "gemini",
-      "article": "Houthis claim ballistic missile strike on Riyadh airport"
-    },
     {
       "timestamp": "2026-11-04T17:52:03.549472+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-13T19:33:54.558732+00:00",
       "tier": "gemini",
       "article": "Trump proposes Tim Cook as replacement for scandal-hit Nvidia boss"
+    },
+    {
+      "timestamp": "2026-11-14T00:46:48.662701+00:00",
+      "tier": "gemini",
+      "article": "General Saree Reports More Saudi Attacks on Yemen - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-14T00:47:21.028774+00:00",
+      "tier": "gemini",
+      "article": "Board of Peace urges immediate action on Trump\u2019s Gaza plan after hospital strike"
+    },
+    {
+      "timestamp": "2026-11-14T00:47:43.550210+00:00",
+      "tier": "gemini",
+      "article": "Mamdani plans to disband NYPD crowd-control unit \u2013 media"
     }
   ]
 }
