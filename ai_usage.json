@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7244,
+  "total_calls": 7246,
   "tiers": {
     "groq": 6056,
-    "gemini": 1188
+    "gemini": 1190
   },
   "log": [
-    {
-      "timestamp": "2026-11-05T14:17:48.198264+00:00",
-      "tier": "gemini",
-      "article": "Ukrainian attacks leave five dead, 13 injured in Belgorod Region over past day"
-    },
-    {
-      "timestamp": "2026-11-05T14:18:14.989508+00:00",
-      "tier": "gemini",
-      "article": "The Golden Dome Proposal is Destabilizing and Dangerous"
-    },
     {
       "timestamp": "2026-11-05T14:18:36.525872+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-14T16:28:35.195448+00:00",
       "tier": "gemini",
       "article": "US Army names officer held on 'allegations of espionage'"
+    },
+    {
+      "timestamp": "2026-11-14T22:06:42.778563+00:00",
+      "tier": "gemini",
+      "article": "Myanmar airstrike kills 12 at displacement camp in Rakhine state"
+    },
+    {
+      "timestamp": "2026-11-14T22:07:04.783081+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Armed Forces: Saudi warplanes carried out 72 airstrikes targeting civilian sites in Saada, Taiz, Lahj and Al-Jawf over the past 24 hours - Al-Manar TV Lebanon"
     }
   ]
 }
