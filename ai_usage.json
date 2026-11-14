@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7240,
+  "total_calls": 7244,
   "tiers": {
     "groq": 6056,
-    "gemini": 1184
+    "gemini": 1188
   },
   "log": [
-    {
-      "timestamp": "2026-11-04T23:24:26.706746+00:00",
-      "tier": "gemini",
-      "article": "General Qaani Warns Washington against Miscalculation: The Resistance is a Single Front with Unified Arenas - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-05T05:46:33.474321+00:00",
-      "tier": "gemini",
-      "article": "Gunman goes on rampage at Citibank campus (VIDEOS)"
-    },
-    {
-      "timestamp": "2026-11-05T05:46:59.490064+00:00",
-      "tier": "gemini",
-      "article": "New Israeli Attack in South Lebanon Leaves Casualties - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-05T14:17:25.090346+00:00",
-      "tier": "gemini",
-      "article": "Police bodycam captures moments before deadly Russian strike in Ukraine"
-    },
     {
       "timestamp": "2026-11-05T14:17:48.198264+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-14T08:46:14.166101+00:00",
       "tier": "gemini",
       "article": "Iran FM lashes out at lack of media heed to Gaza genocide"
+    },
+    {
+      "timestamp": "2026-11-14T16:27:19.496556+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Armed Forces: Dozens of Saudi personnel were reportedly killed or wounded, while a large number of military vehicles were destroyed in the ballistic missile strikes in the Kharaz area of Lahj Governorate - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-14T16:27:44.738937+00:00",
+      "tier": "gemini",
+      "article": "18 Arab, Muslim states blast Israeli attack on Gaza hospital"
+    },
+    {
+      "timestamp": "2026-11-14T16:28:09.563108+00:00",
+      "tier": "gemini",
+      "article": "18 Muslim-majority countries condemn Israeli attack on Gaza\u2019s Nasser hospital"
+    },
+    {
+      "timestamp": "2026-11-14T16:28:35.195448+00:00",
+      "tier": "gemini",
+      "article": "US Army names officer held on 'allegations of espionage'"
     }
   ]
 }
