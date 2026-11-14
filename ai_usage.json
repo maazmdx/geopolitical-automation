@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7237,
+  "total_calls": 7240,
   "tiers": {
     "groq": 6056,
-    "gemini": 1181
+    "gemini": 1184
   },
   "log": [
-    {
-      "timestamp": "2026-11-04T17:52:03.549472+00:00",
-      "tier": "gemini",
-      "article": "MBDA\u2019s high-speed strike missile to have range \u2018far\u2019 exceeding Exocet"
-    },
-    {
-      "timestamp": "2026-11-04T17:52:28.615994+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
-    {
-      "timestamp": "2026-11-04T23:23:56.743626+00:00",
-      "tier": "gemini",
-      "article": "General Saree: 104 Airstrikes and Missiles on Sanaa and Seven Governorates within 24 Hours - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-11-04T23:24:26.706746+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-14T00:47:43.550210+00:00",
       "tier": "gemini",
       "article": "Mamdani plans to disband NYPD crowd-control unit \u2013 media"
+    },
+    {
+      "timestamp": "2026-11-14T08:45:13.649426+00:00",
+      "tier": "gemini",
+      "article": "Second Tanker Strikes Iranian Mine in Strait of Hormuz, Iran Navy Warns of Repeat Consequences - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-14T08:45:40.105430+00:00",
+      "tier": "gemini",
+      "article": "Iran\u2019s top generals reaffirm devastating response to any aggression"
+    },
+    {
+      "timestamp": "2026-11-14T08:46:14.166101+00:00",
+      "tier": "gemini",
+      "article": "Iran FM lashes out at lack of media heed to Gaza genocide"
     }
   ]
 }
