@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7256,
+  "total_calls": 7260,
   "tiers": {
     "groq": 6056,
-    "gemini": 1200
+    "gemini": 1204
   },
   "log": [
-    {
-      "timestamp": "2026-11-06T19:04:31.294706+00:00",
-      "tier": "gemini",
-      "article": "Iran\u2019s new doctrine based on making enemy regret its actions: Senior MP"
-    },
-    {
-      "timestamp": "2026-11-06T19:04:57.461748+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
-    {
-      "timestamp": "2026-11-07T00:00:40.283510+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
-    {
-      "timestamp": "2026-11-07T05:48:09.784355+00:00",
-      "tier": "gemini",
-      "article": "Russia launches missile attack on Kyiv, injuring residents"
-    },
     {
       "timestamp": "2026-11-07T05:48:31.941961+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-15T19:39:52.183846+00:00",
       "tier": "gemini",
       "article": "Israeli settlers accused of torching Palestinian scrapyard"
+    },
+    {
+      "timestamp": "2026-11-15T23:51:45.174940+00:00",
+      "tier": "gemini",
+      "article": "UKMTO reports maritime incident near Strait of Hormuz"
+    },
+    {
+      "timestamp": "2026-11-15T23:52:09.696623+00:00",
+      "tier": "gemini",
+      "article": "Powerful blasts rock Saudi Arabia after missile attacks"
+    },
+    {
+      "timestamp": "2026-11-15T23:52:35.477841+00:00",
+      "tier": "gemini",
+      "article": "Passenger buses in Russia attacked by Ukrainian forces upon Zelensky\u2019s orders \u2014 expert"
+    },
+    {
+      "timestamp": "2026-11-15T23:53:00.935373+00:00",
+      "tier": "gemini",
+      "article": "North Korea\u2019s official delegation arrives in Moscow \u2014 KCNA"
     }
   ]
 }
