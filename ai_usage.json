@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7252,
+  "total_calls": 7256,
   "tiers": {
     "groq": 6056,
-    "gemini": 1196
+    "gemini": 1200
   },
   "log": [
-    {
-      "timestamp": "2026-11-06T11:56:30.468681+00:00",
-      "tier": "gemini",
-      "article": "Dozens martyred or injured as Saudi warplanes target a crowded local market in Al-Wazi\u2019iyah in Yemen\u2019s Taiz - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-06T11:56:55.710618+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
-    {
-      "timestamp": "2026-11-06T19:03:39.314096+00:00",
-      "tier": "gemini",
-      "article": "Yemeni gov\u2019t forces, Houthis trade blame for deadly strikes on Taiz market"
-    },
-    {
-      "timestamp": "2026-11-06T19:04:03.542520+00:00",
-      "tier": "gemini",
-      "article": "Attack, negotiations, or continued uncertainty"
-    },
     {
       "timestamp": "2026-11-06T19:04:31.294706+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-15T13:41:31.442665+00:00",
       "tier": "gemini",
       "article": "Thousands take to the streets of Paris to protest rising prices and police violence"
+    },
+    {
+      "timestamp": "2026-11-15T19:38:35.538025+00:00",
+      "tier": "gemini",
+      "article": "Israel kills Palestinian commander in al-Mawasi, an area it once called a \u2018humanitarian zone\u2019"
+    },
+    {
+      "timestamp": "2026-11-15T19:39:02.459011+00:00",
+      "tier": "gemini",
+      "article": "Rishi Sunak urges UK to prepare strikes on Russian Arctic bases"
+    },
+    {
+      "timestamp": "2026-11-15T19:39:27.556087+00:00",
+      "tier": "gemini",
+      "article": "Explosive attack targets investigative journalist\u2019s home in Panama"
+    },
+    {
+      "timestamp": "2026-11-15T19:39:52.183846+00:00",
+      "tier": "gemini",
+      "article": "Israeli settlers accused of torching Palestinian scrapyard"
     }
   ]
 }
