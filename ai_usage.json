@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7262,
+  "total_calls": 7266,
   "tiers": {
     "groq": 6056,
-    "gemini": 1206
+    "gemini": 1210
   },
   "log": [
-    {
-      "timestamp": "2026-11-07T12:40:31.646045+00:00",
-      "tier": "gemini",
-      "article": "Northern Road Bridge, TPP, power substation, missile plant hit in Kiev"
-    },
-    {
-      "timestamp": "2026-11-07T12:40:55.588943+00:00",
-      "tier": "gemini",
-      "article": "Russian forces hit rocket fuel components manufacturing facility in Kiev Region"
-    },
-    {
-      "timestamp": "2026-11-07T12:41:21.179065+00:00",
-      "tier": "gemini",
-      "article": "Will Trump strike nuclear sites again as Iran engages \u2018cognitive warfare\u2019?"
-    },
-    {
-      "timestamp": "2026-11-07T12:41:43.579044+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
     {
       "timestamp": "2026-11-07T18:31:19.571756+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-16T05:30:31.279418+00:00",
       "tier": "gemini",
       "article": "Fresh Saudi air raids across Yemen kill 2, wound 8"
+    },
+    {
+      "timestamp": "2026-11-16T15:12:14.181051+00:00",
+      "tier": "gemini",
+      "article": "Europe\u2019s stance on Ukraine, Kiev\u2019s strike on Crimean Bridge: Kremlin\u2019s comment"
+    },
+    {
+      "timestamp": "2026-11-16T15:12:39.329391+00:00",
+      "tier": "gemini",
+      "article": "Yemeni army liberates entire western coast as Saudi-backed forces redeploy to &#039;defend&#039; Aden"
+    },
+    {
+      "timestamp": "2026-11-16T15:13:04.802468+00:00",
+      "tier": "gemini",
+      "article": "Israeli Aggression Continues: Drone Strikes Hit Nabatieh Town, Warplanes Target Baalbek, Two Abducted in Shebaa - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-16T15:13:35.627982+00:00",
+      "tier": "gemini",
+      "article": "Will the \u201cFramework Agreement\u201d replace UN Resolution 1701?"
     }
   ]
 }
