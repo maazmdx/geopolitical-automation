@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7260,
+  "total_calls": 7262,
   "tiers": {
     "groq": 6056,
-    "gemini": 1204
+    "gemini": 1206
   },
   "log": [
-    {
-      "timestamp": "2026-11-07T05:48:31.941961+00:00",
-      "tier": "gemini",
-      "article": "Trump says US attacks Iranian air defense systems"
-    },
-    {
-      "timestamp": "2026-11-07T05:49:00.122133+00:00",
-      "tier": "gemini",
-      "article": "Trump confirms new US strikes on Iran\u2019s Qeshm island"
-    },
     {
       "timestamp": "2026-11-07T12:40:31.646045+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-15T23:53:00.935373+00:00",
       "tier": "gemini",
       "article": "North Korea\u2019s official delegation arrives in Moscow \u2014 KCNA"
+    },
+    {
+      "timestamp": "2026-11-16T05:30:04.500534+00:00",
+      "tier": "gemini",
+      "article": "Hamas condemns deadly Israeli attack on civilian checkpoint"
+    },
+    {
+      "timestamp": "2026-11-16T05:30:31.279418+00:00",
+      "tier": "gemini",
+      "article": "Fresh Saudi air raids across Yemen kill 2, wound 8"
     }
   ]
 }
