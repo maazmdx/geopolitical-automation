@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7270,
+  "total_calls": 7274,
   "tiers": {
     "groq": 6056,
-    "gemini": 1214
+    "gemini": 1218
   },
   "log": [
-    {
-      "timestamp": "2026-11-07T23:30:52.759900+00:00",
-      "tier": "gemini",
-      "article": "Over 400,000 workers strike across Germany over pay and job cuts"
-    },
-    {
-      "timestamp": "2026-11-07T23:31:19.594654+00:00",
-      "tier": "gemini",
-      "article": "Two civilians injured in Ukrainian attacks on LPR \u2014 authorities"
-    },
-    {
-      "timestamp": "2026-11-07T23:31:47.123034+00:00",
-      "tier": "gemini",
-      "article": "Yemeni military coducts 6 operations deep inside Saudi Arabia"
-    },
-    {
-      "timestamp": "2026-11-08T05:07:22.606364+00:00",
-      "tier": "gemini",
-      "article": "Saudi raids leave 1,039 dead, wounded in Yemen"
-    },
     {
       "timestamp": "2026-11-08T12:57:40.321676+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-17T00:05:55.649716+00:00",
       "tier": "gemini",
       "article": "Houthis gain ground near vital Red Sea shipping chokepoint"
+    },
+    {
+      "timestamp": "2026-11-17T10:22:39.565184+00:00",
+      "tier": "gemini",
+      "article": "1 killed, 10 injured in Israeli settler attacks on Ariha"
+    },
+    {
+      "timestamp": "2026-11-17T10:23:04.442406+00:00",
+      "tier": "gemini",
+      "article": "Saudi warplanes launch a series of airstrikes targeting several areas across Yemen\u2019s Sanaa and Saada: Yemeni media - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-17T10:23:29.340868+00:00",
+      "tier": "gemini",
+      "article": "Yemeni army reports 661 attacks on Houthis as group advances towards Aden"
+    },
+    {
+      "timestamp": "2026-11-17T10:23:55.108926+00:00",
+      "tier": "gemini",
+      "article": "Yemeni forces retreat to defend Aden from Houthis"
     }
   ]
 }
