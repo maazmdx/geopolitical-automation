@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7274,
+  "total_calls": 7277,
   "tiers": {
     "groq": 6056,
-    "gemini": 1218
+    "gemini": 1221
   },
   "log": [
-    {
-      "timestamp": "2026-11-08T12:57:40.321676+00:00",
-      "tier": "gemini",
-      "article": "Russian strikes on Ukraine leave hundreds of thousands without electricity"
-    },
-    {
-      "timestamp": "2026-11-08T12:58:05.631208+00:00",
-      "tier": "gemini",
-      "article": "IRGC closely monitoring U.S. \u201cScorpion Strike\u201d Task Force"
-    },
-    {
-      "timestamp": "2026-11-08T12:58:34.062656+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
     {
       "timestamp": "2026-11-08T18:42:55.982468+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-17T10:23:55.108926+00:00",
       "tier": "gemini",
       "article": "Yemeni forces retreat to defend Aden from Houthis"
+    },
+    {
+      "timestamp": "2026-11-17T20:38:04.068331+00:00",
+      "tier": "gemini",
+      "article": "Manufacturing consent to bomb civilian infrastructure"
+    },
+    {
+      "timestamp": "2026-11-17T20:38:31.938638+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Armed Forces Strike More Oil Pipelines in Riyadh as Saudi Attacks Persist - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-17T20:39:09.676230+00:00",
+      "tier": "gemini",
+      "article": "US Army takes \u2018urgent\u2019 action to build concrete bunkers across the Middle East"
     }
   ]
 }
