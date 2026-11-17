@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7266,
+  "total_calls": 7270,
   "tiers": {
     "groq": 6056,
-    "gemini": 1210
+    "gemini": 1214
   },
   "log": [
-    {
-      "timestamp": "2026-11-07T18:31:19.571756+00:00",
-      "tier": "gemini",
-      "article": "Houthis report 25 killed in Yemen strikes"
-    },
-    {
-      "timestamp": "2026-11-07T18:31:45.011913+00:00",
-      "tier": "gemini",
-      "article": "At least six dead as gunman opens fire in Polish city (GRAPHIC VIDEOS)"
-    },
-    {
-      "timestamp": "2026-11-07T18:32:09.487156+00:00",
-      "tier": "gemini",
-      "article": "Iran lifts restrictions on missile range \u2014 IRGC"
-    },
-    {
-      "timestamp": "2026-11-07T18:32:35.120598+00:00",
-      "tier": "gemini",
-      "article": "966 settlers enter Al-Aqsa Mosque, Palestinians assaulted in Old City"
-    },
     {
       "timestamp": "2026-11-07T23:30:52.759900+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-16T15:13:35.627982+00:00",
       "tier": "gemini",
       "article": "Will the \u201cFramework Agreement\u201d replace UN Resolution 1701?"
+    },
+    {
+      "timestamp": "2026-11-17T00:04:24.831855+00:00",
+      "tier": "gemini",
+      "article": "West can't take down Russia's hypersonic missiles as claimed \u2014 expert"
+    },
+    {
+      "timestamp": "2026-11-17T00:04:54.389528+00:00",
+      "tier": "gemini",
+      "article": "Yemeni Military Media: Footage Shows Strikes against Saudi-aligned Enemy Troop Concentrations on Al-Madaribah and Ras Al-Ara Fronts - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-17T00:05:27.858474+00:00",
+      "tier": "gemini",
+      "article": "Russia, UAE develop cooperation in air defense area \u2014 Russian Security Council"
+    },
+    {
+      "timestamp": "2026-11-17T00:05:55.649716+00:00",
+      "tier": "gemini",
+      "article": "Houthis gain ground near vital Red Sea shipping chokepoint"
     }
   ]
 }
