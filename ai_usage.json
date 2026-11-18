@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7277,
+  "total_calls": 7280,
   "tiers": {
     "groq": 6056,
-    "gemini": 1221
+    "gemini": 1224
   },
   "log": [
-    {
-      "timestamp": "2026-11-08T18:42:55.982468+00:00",
-      "tier": "gemini",
-      "article": "General Saree Announces New Saudi Attacks on Yemen - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-08T18:43:20.943827+00:00",
-      "tier": "gemini",
-      "article": "Iran condemns Saudi airstrikes on Yemen, calls for immediate end to military ops."
-    },
-    {
-      "timestamp": "2026-11-08T18:43:46.237833+00:00",
-      "tier": "gemini",
-      "article": "Houthis say they attacked Saudi Aramco facilities in Abqaiq"
-    },
     {
       "timestamp": "2026-11-08T18:44:10.523810+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-17T20:39:09.676230+00:00",
       "tier": "gemini",
       "article": "US Army takes \u2018urgent\u2019 action to build concrete bunkers across the Middle East"
+    },
+    {
+      "timestamp": "2026-11-18T03:24:47.730841+00:00",
+      "tier": "gemini",
+      "article": "Ecuadorian fishermen sue Trump administration over drone strike"
+    },
+    {
+      "timestamp": "2026-11-18T03:25:16.831327+00:00",
+      "tier": "gemini",
+      "article": "Six Palestinians killed in Israeli attacks on Gaza over past day \u2014 Health Ministry"
+    },
+    {
+      "timestamp": "2026-11-18T03:25:48.959762+00:00",
+      "tier": "gemini",
+      "article": "\u2018Sword above law\u2019 hints Hitler, ISIL in rejecting intl. law"
     }
   ]
 }
