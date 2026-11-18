@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7284,
+  "total_calls": 7287,
   "tiers": {
     "groq": 6056,
-    "gemini": 1228
+    "gemini": 1231
   },
   "log": [
-    {
-      "timestamp": "2026-11-09T05:18:28.061110+00:00",
-      "tier": "gemini",
-      "article": "Saudi Aramco tower damaged in Houthi strike (VIDEOS)"
-    },
-    {
-      "timestamp": "2026-11-09T05:18:56.682917+00:00",
-      "tier": "gemini",
-      "article": "Number of drones downed over Leningrad Region rises to 81 \u2014 governor"
-    },
-    {
-      "timestamp": "2026-11-09T05:19:22.406128+00:00",
-      "tier": "gemini",
-      "article": "IRGC navy reports explosions on two tankers in Strait of Hormuz"
-    },
     {
       "timestamp": "2026-11-09T15:35:33.159737+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-18T12:48:18.622031+00:00",
       "tier": "gemini",
       "article": "How the EU\u2019s \u2018authoritarian network\u2019 sanctioned RT\u2019s Chay Bowes (VIDEO)"
+    },
+    {
+      "timestamp": "2026-11-18T21:45:21.523601+00:00",
+      "tier": "gemini",
+      "article": "Four killed as Russian strikes hit Ukraine\u2019s Odesa"
+    },
+    {
+      "timestamp": "2026-11-18T21:45:52.485041+00:00",
+      "tier": "gemini",
+      "article": "Kuwait says it repelled first Iranian attack in two months after US strikes island"
+    },
+    {
+      "timestamp": "2026-11-18T21:46:14.614608+00:00",
+      "tier": "gemini",
+      "article": "Houthis claim cruise missile strike on airport and financial center in Riyadh"
     }
   ]
 }
