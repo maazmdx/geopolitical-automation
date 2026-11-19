@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7289,
+  "total_calls": 7293,
   "tiers": {
     "groq": 6056,
-    "gemini": 1233
+    "gemini": 1237
   },
   "log": [
-    {
-      "timestamp": "2026-11-09T15:36:22.226686+00:00",
-      "tier": "gemini",
-      "article": "Iran to seek geographically unrestricted response to attacks"
-    },
-    {
-      "timestamp": "2026-11-09T15:36:48.328674+00:00",
-      "tier": "gemini",
-      "article": "Iran\u2019s SNSC ratifies agreement with Russia on Rasht\u2013Astara railway"
-    },
-    {
-      "timestamp": "2026-11-10T00:00:51.312191+00:00",
-      "tier": "gemini",
-      "article": "More Saudi Attacks on Yemeni Announced by Saree - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-10T07:06:09.773453+00:00",
-      "tier": "gemini",
-      "article": "China's Middle East envoy meets Iran security officials"
-    },
     {
       "timestamp": "2026-11-10T16:15:14.399306+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-19T02:59:54.293310+00:00",
       "tier": "gemini",
       "article": "Europe pledges more military aid for Ukraine at Ramstein meeting"
+    },
+    {
+      "timestamp": "2026-11-19T12:41:34.560674+00:00",
+      "tier": "gemini",
+      "article": "Iran Condemns US Aggression, Vows \u2018Decisive Response\u2019 to Any Recurrence - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-19T12:42:06.074339+00:00",
+      "tier": "gemini",
+      "article": "\u2018Childhood is a right, not a casualty of war\u2019: Iranian Embassy in London"
+    },
+    {
+      "timestamp": "2026-11-19T12:42:29.404675+00:00",
+      "tier": "gemini",
+      "article": "Saudi-led coalition intercepts Houthi missiles targeting Riyadh and south"
+    },
+    {
+      "timestamp": "2026-11-19T12:42:59.746329+00:00",
+      "tier": "gemini",
+      "article": "Before Shenzhen, Trump\u2019s bargaining power is at its lowest point in years"
     }
   ]
 }
