@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7293,
+  "total_calls": 7297,
   "tiers": {
     "groq": 6056,
-    "gemini": 1237
+    "gemini": 1241
   },
   "log": [
-    {
-      "timestamp": "2026-11-10T16:15:14.399306+00:00",
-      "tier": "gemini",
-      "article": "Houthis claim strikes on Riyadh airport, Saudi Aramco facilities"
-    },
-    {
-      "timestamp": "2026-11-10T16:15:41.922245+00:00",
-      "tier": "gemini",
-      "article": "Explosions heard in Riyadh as Saudi jets bomb Sanaa"
-    },
-    {
-      "timestamp": "2026-11-10T16:16:08.191873+00:00",
-      "tier": "gemini",
-      "article": "US ready to strike Iran if finds evidence of 'nefarious activity' at nuke sites \u2014 Pentagon"
-    },
-    {
-      "timestamp": "2026-11-10T16:16:33.218784+00:00",
-      "tier": "gemini",
-      "article": "Enriched uranium exit from Iran not on agenda at all: Baghaei"
-    },
     {
       "timestamp": "2026-11-10T22:59:24.911884+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-19T12:42:59.746329+00:00",
       "tier": "gemini",
       "article": "Before Shenzhen, Trump\u2019s bargaining power is at its lowest point in years"
+    },
+    {
+      "timestamp": "2026-11-19T22:01:03.986550+00:00",
+      "tier": "gemini",
+      "article": "Congresswoman calls for end to Iran war funding"
+    },
+    {
+      "timestamp": "2026-11-19T22:01:34.593639+00:00",
+      "tier": "gemini",
+      "article": "MBDA and German startup Atmos team up to study space-based strike weapons"
+    },
+    {
+      "timestamp": "2026-11-19T22:01:57.673395+00:00",
+      "tier": "gemini",
+      "article": "Houthis claim strikes on four sites in Saudi Arabia, warn investors"
+    },
+    {
+      "timestamp": "2026-11-19T22:02:35.669002+00:00",
+      "tier": "gemini",
+      "article": "Putin, Trump, Xi conclude historic three-way talks at APEC summit: AS IT HAPPENED"
     }
   ]
 }
