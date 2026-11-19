@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7287,
+  "total_calls": 7289,
   "tiers": {
     "groq": 6056,
-    "gemini": 1231
+    "gemini": 1233
   },
   "log": [
-    {
-      "timestamp": "2026-11-09T15:35:33.159737+00:00",
-      "tier": "gemini",
-      "article": "At least four people killed as Russia and Ukraine trade strikes overnight"
-    },
-    {
-      "timestamp": "2026-11-09T15:35:56.159445+00:00",
-      "tier": "gemini",
-      "article": "Over 313,000 Yemenis displaced by fighting since early August \u2014 UN"
-    },
     {
       "timestamp": "2026-11-09T15:36:22.226686+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-18T21:46:14.614608+00:00",
       "tier": "gemini",
       "article": "Houthis claim cruise missile strike on airport and financial center in Riyadh"
+    },
+    {
+      "timestamp": "2026-11-19T02:59:24.029220+00:00",
+      "tier": "gemini",
+      "article": "Seven killed, four wounded in Ukrainian attacks on LPR over past 24 hours \u2014 LPR head"
+    },
+    {
+      "timestamp": "2026-11-19T02:59:54.293310+00:00",
+      "tier": "gemini",
+      "article": "Europe pledges more military aid for Ukraine at Ramstein meeting"
     }
   ]
 }
