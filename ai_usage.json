@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7301,
+  "total_calls": 7302,
   "tiers": {
     "groq": 6056,
-    "gemini": 1245
+    "gemini": 1246
   },
   "log": [
-    {
-      "timestamp": "2026-11-11T05:18:34.184165+00:00",
-      "tier": "gemini",
-      "article": "Trump and Netanyahu clash over Iran strikes \u2013 media"
-    },
     {
       "timestamp": "2026-11-11T05:18:58.811433+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-11-20T12:37:49.277943+00:00",
       "tier": "gemini",
       "article": "\"List of Iranian Child Victims of Terrorism\" to be unveiled"
+    },
+    {
+      "timestamp": "2026-11-20T21:43:39.338917+00:00",
+      "tier": "gemini",
+      "article": "Ukrainian attacks kills two civilians, injure five others in LPR in past day"
     }
   ]
 }
