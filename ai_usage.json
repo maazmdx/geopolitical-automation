@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7297,
+  "total_calls": 7299,
   "tiers": {
     "groq": 6056,
-    "gemini": 1241
+    "gemini": 1243
   },
   "log": [
-    {
-      "timestamp": "2026-11-10T22:59:24.911884+00:00",
-      "tier": "gemini",
-      "article": "Kiev replaces costly Storm Shadow missiles with cheap Rusty Dagger munitions \u2014 expert"
-    },
-    {
-      "timestamp": "2026-11-10T22:59:50.444458+00:00",
-      "tier": "gemini",
-      "article": "Why must Washington give concessions to Iran?"
-    },
     {
       "timestamp": "2026-11-10T23:00:17.844521+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-19T22:02:35.669002+00:00",
       "tier": "gemini",
       "article": "Putin, Trump, Xi conclude historic three-way talks at APEC summit: AS IT HAPPENED"
+    },
+    {
+      "timestamp": "2026-11-20T03:02:31.244254+00:00",
+      "tier": "gemini",
+      "article": "Al-Manar Correspondent: Israeli Airstrikes Target Al-Shaara Area in Eastern Lebanon Mountain Range - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-20T03:03:06.937060+00:00",
+      "tier": "gemini",
+      "article": "ICE agents pepper-spray pregnant US citizen during California protest"
     }
   ]
 }
