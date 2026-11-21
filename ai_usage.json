@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7304,
+  "total_calls": 7307,
   "tiers": {
     "groq": 6056,
-    "gemini": 1248
+    "gemini": 1251
   },
   "log": [
-    {
-      "timestamp": "2026-11-11T13:47:15.646254+00:00",
-      "tier": "gemini",
-      "article": "Saudi Arabia Escalates in Yemen : Shelling in Saada, Airstrikes in Taiz and Lahij as Toll Reaches 355 Martyred, 757 Injured - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-11T13:47:41.447919+00:00",
-      "tier": "gemini",
-      "article": "Japan\u2019s Most Dangerous Military Constraint Is Time"
-    },
-    {
-      "timestamp": "2026-11-11T13:48:13.819591+00:00",
-      "tier": "gemini",
-      "article": "Top General Warns US, \u2018Israel\u2019 of Iran\u2019s Far Deadlier Response to Aggression - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-11-11T13:48:46.915627+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-21T03:02:22.355953+00:00",
       "tier": "gemini",
       "article": "IRGC warns US military bases in Europe\u00a0"
+    },
+    {
+      "timestamp": "2026-11-21T12:16:41.774258+00:00",
+      "tier": "gemini",
+      "article": "Russian troops strike gathering of Ukrainian army commanders \u2014 top brass"
+    },
+    {
+      "timestamp": "2026-11-21T12:17:04.281149+00:00",
+      "tier": "gemini",
+      "article": "Iran\u2019s Kanoon urges UNICEF to pursue justice for war-hit children"
+    },
+    {
+      "timestamp": "2026-11-21T12:17:30.885067+00:00",
+      "tier": "gemini",
+      "article": "Houthis say they attacked power plant, port in Saudi Arabia"
     }
   ]
 }
