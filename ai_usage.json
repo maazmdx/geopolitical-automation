@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7302,
+  "total_calls": 7304,
   "tiers": {
     "groq": 6056,
-    "gemini": 1246
+    "gemini": 1248
   },
   "log": [
-    {
-      "timestamp": "2026-11-11T05:18:58.811433+00:00",
-      "tier": "gemini",
-      "article": "Iran to have new surprises for enemy in missile field"
-    },
-    {
-      "timestamp": "2026-11-11T05:19:25.164347+00:00",
-      "tier": "gemini",
-      "article": "Three Zaporozhye NPP employees killed in Ukraine\u2019s attacks in past two weeks"
-    },
     {
       "timestamp": "2026-11-11T13:47:15.646254+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-20T21:43:39.338917+00:00",
       "tier": "gemini",
       "article": "Ukrainian attacks kills two civilians, injure five others in LPR in past day"
+    },
+    {
+      "timestamp": "2026-11-21T03:01:49.713836+00:00",
+      "tier": "gemini",
+      "article": "General Saree Reports More Saudi Attacks on Yemen - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-21T03:02:22.355953+00:00",
+      "tier": "gemini",
+      "article": "IRGC warns US military bases in Europe\u00a0"
     }
   ]
 }
