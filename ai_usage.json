@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7307,
+  "total_calls": 7309,
   "tiers": {
     "groq": 6056,
-    "gemini": 1251
+    "gemini": 1253
   },
   "log": [
-    {
-      "timestamp": "2026-11-11T13:48:46.915627+00:00",
-      "tier": "gemini",
-      "article": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'"
-    },
-    {
-      "timestamp": "2026-11-11T21:07:39.614960+00:00",
-      "tier": "gemini",
-      "article": "Iran may target certain US bases in Europe if attacked again"
-    },
     {
       "timestamp": "2026-11-11T21:08:06.864551+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-21T12:17:30.885067+00:00",
       "tier": "gemini",
       "article": "Houthis say they attacked power plant, port in Saudi Arabia"
+    },
+    {
+      "timestamp": "2026-11-21T20:25:16.788282+00:00",
+      "tier": "gemini",
+      "article": "Israeli strike on vehicle distributing food aid in Gaza kills three"
+    },
+    {
+      "timestamp": "2026-11-21T20:25:40.696997+00:00",
+      "tier": "gemini",
+      "article": "Russian strike kills two, wounds 60, in Zelenskyy\u2019s hometown"
     }
   ]
 }
