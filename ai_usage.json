@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7312,
+  "total_calls": 7316,
   "tiers": {
     "groq": 6056,
-    "gemini": 1256
+    "gemini": 1260
   },
   "log": [
-    {
-      "timestamp": "2026-11-12T02:45:41.719185+00:00",
-      "tier": "gemini",
-      "article": "Israeli strikes hit medical complex as nine killed across Gaza"
-    },
-    {
-      "timestamp": "2026-11-12T02:46:07.265532+00:00",
-      "tier": "gemini",
-      "article": "AI could escape human control with deadly consequences, OpenAI board member warns"
-    },
-    {
-      "timestamp": "2026-11-12T02:46:35.127039+00:00",
-      "tier": "gemini",
-      "article": "Saudis launch heavy airstrikes on border villages in Saada"
-    },
-    {
-      "timestamp": "2026-11-12T02:47:00.704959+00:00",
-      "tier": "gemini",
-      "article": "Pro-Palestinian protesters throw milk at Biden in Dublin"
-    },
     {
       "timestamp": "2026-11-12T12:20:36.795880+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-22T01:59:09.115935+00:00",
       "tier": "gemini",
       "article": "Deadly attack in Kyiv as Russia launches barrage against Ukraine"
+    },
+    {
+      "timestamp": "2026-11-22T09:39:11.238872+00:00",
+      "tier": "gemini",
+      "article": "IRGC Strikes US Patriot Radar Systems at Two Bahrain Bases in Retaliatory Operation - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-22T09:39:43.377541+00:00",
+      "tier": "gemini",
+      "article": "In photos: Tehran hosts protest performance condemning Minab school attack"
+    },
+    {
+      "timestamp": "2026-11-22T09:40:08.289089+00:00",
+      "tier": "gemini",
+      "article": "Iran attacks US Patriot radars at Bahrain bases"
+    },
+    {
+      "timestamp": "2026-11-22T09:40:33.913217+00:00",
+      "tier": "gemini",
+      "article": "Iran controls field, determines battle course: Gen. Mousavi"
     }
   ]
 }

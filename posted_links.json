@@ -1,4 +1,49 @@
 {
+  "8e3d1e14e43d7f65aa61473f38c708ad2d141d7dff764ec4e7791b88f464ab5f": {
+    "url": "BellumActaNews/178773",
+    "title": "Air Raid Sirens Sound in Russia's Kaliningrad Exclave",
+    "published": "2026-11-22T09:46:51.235852+00:00"
+  },
+  "ac254e58807724a168d0f970023786764546baa5996bb7457e8f21c99958c520": {
+    "url": "BellumActaNews/178778",
+    "title": "Cuban Military Trains University Students with Diverse Weaponry, Drones",
+    "published": "2026-11-22T09:46:35.585906+00:00"
+  },
+  "7b99fbec4e2edb43a96e9e1c8e0356113f8c7946f91572b9f7e8bc015e5eac96": {
+    "url": "DDGeopolitics/198888",
+    "title": "Anne Applebaum Suggests Major 'Event' Needed for European Public Support of Russia Escalation",
+    "published": "2026-11-22T09:44:28.540704+00:00"
+  },
+  "d6d2c20281da6af7320e9b2a9a237323ed7a6c52435cd6936c233a0bfd9cd77a": {
+    "url": "DDGeopolitics/198890",
+    "title": "X-101 Missile Impacts Lviv Aviation Repair Plant, Railway Station",
+    "published": "2026-11-22T09:41:49.750130+00:00"
+  },
+  "49599de4a438a1b2470ecd041726e89e52528633df0b8ed5d2ab8408cc34016e": {
+    "url": "thecradlemedia/71312",
+    "title": "IRGC Commanders Inaugurate New Iranian Underground Missile Facility",
+    "published": "2026-11-22T09:40:58.230609+00:00"
+  },
+  "b56a3925c466c5344f22f1a8080a5ceb05d4ae0a07c9df173114141139ce94aa": {
+    "url": "thecradlemedia/71321",
+    "title": "Iran Engages Qatar, Links Regional Peace to Sanctions Relief and Asset Unfreeze",
+    "published": "2026-11-22T09:40:45.017631+00:00"
+  },
+  "1deac6431c3e391f6588851e7693b45bb21af7038736749f3f511c402d00cd1a": {
+    "url": "https://english.almanar.com.lb/article/153692/",
+    "title": "IRGC Strikes US Patriot Radar Systems at Two Bahrain Bases in Retaliatory Operation - Al-Manar TV Lebanon",
+    "published": "2026-11-22T07:34:49+00:00"
+  },
+  "0e88ef3944d1a9c502b14b14784896959634a0207002d0fe60d0cb80d30269fc": {
+    "url": "https://en.irna.ir/photo/86328933/In-photos-Tehran-hosts-protest-performance-condemning-Minab",
+    "title": "In photos: Tehran hosts protest performance condemning Minab school attack",
+    "published": "2026-11-22T07:10:08+00:00"
+  },
+  "aef4d0a45b9e03c77dcac59c0db1cad239ece441181d2330580eff6dd1a2c861": {
+    "url": "https://en.mehrnews.com/news/249589/Iran-attacks-U-S-Patriot-radars-at-Bahrain-bases",
+    "title": "Iran attacks US Patriot radars at Bahrain bases",
+    "published": "2026-11-22T03:32:00+00:00"
+  },
   "fd06457aaa9f5c5f5efb6754be20a543d2a10538a5448b282f227bd25f89473a": {
     "url": "QudsNen/246144",
     "title": "Israeli Tanks Direct Heavy Fire at Palestinian Structures Northeast of Al-Bureij",
@@ -113,6 +158,11 @@
     "url": "thecradlemedia/71303",
     "title": "BREAKING | Multiple people have been killed and injured in an Israeli airstrike ",
     "published": "2026-11-21T12:17:56.893228+00:00"
+  },
+  "2ee899a8da33f4058ceef7c23900391e5faa505bc64b5353811fc93628a9a22b": {
+    "url": "https://en.mehrnews.com/news/249576/Iran-controls-field-determines-battle-course-Gen-Mousavi",
+    "title": "Iran controls field, determines battle course: Gen. Mousavi",
+    "published": "2026-11-21T12:13:06+00:00"
   },
   "5451ff6f4f517e6cda964a707697179ec458b0ffcadc13d061cf37d31c07fe02": {
     "url": "https://tass.com/defense/2222869",
@@ -698,55 +748,5 @@
     "url": "DDGeopolitics/198306",
     "title": "Black Sea: Cargo Ship Sinks Off Bulgaria, Explosion Probe Underway",
     "published": "2026-11-16T15:19:26.283085+00:00"
-  },
-  "0084a4b3649020cfc6c0c6217d3239758068112f988815cec1b7294cd8a23b1a": {
-    "url": "QudsNen/245551",
-    "title": "Breaking | Israeli aircraft launch an airstrike targeting the town of Kafr Tebni",
-    "published": "2026-11-16T15:16:25.125346+00:00"
-  },
-  "03763b42147023a354199d72737b9d70e518beab1db5cdeda7c74f3bf2235b59": {
-    "url": "Middle_East_Spectator/38146",
-    "title": "Ansarallah Fighters Documented Advancing in Yemen",
-    "published": "2026-11-16T15:15:54.425944+00:00"
-  },
-  "2218a7371a40d4a4ed91dda4dae51bf0c4dd900f991cae43229f10cd64806d7c": {
-    "url": "thecradlemedia/71060",
-    "title": "Israeli Aerial Strike Targets Kfar Tebnit Municipality in Southern Lebanon",
-    "published": "2026-11-16T15:14:08.590901+00:00"
-  },
-  "65d562c76919bc911fb7edf02015e98c200058de95db114b0bd281003505b182": {
-    "url": "thecradlemedia/71066",
-    "title": "Yemeni Western Coast Shifts Control, Triggering Saudi Airstrikes on Saada and Sanaa",
-    "published": "2026-11-16T15:13:56.178810+00:00"
-  },
-  "5165136f1cce25328a65cc92caa796f682826fe491134a7df3621fe485bf3d71": {
-    "url": "thecradlemedia/71067",
-    "title": "Israeli Military Uploads 3.5 Million Palestinian Photos to Amazon AI Facial Recognition System",
-    "published": "2026-11-16T15:13:49.326661+00:00"
-  },
-  "7be756a7df3de50ae028dbcfc1b02ef34ad4324aac39f75203cb0cf028a50517": {
-    "url": "https://thecradle.co/articles-id/41106",
-    "title": "Yemeni army liberates entire western coast as Saudi-backed forces redeploy to &#039;defend&#039; Aden",
-    "published": "2026-11-16T13:31:22+00:00"
-  },
-  "8cfed19e043345d08723f6907c711f26b0e89cb752223179b7ad07fc79e1ae9f": {
-    "url": "https://tass.com/defense/2218719",
-    "title": "West can't take down Russia's hypersonic missiles as claimed \u2014 expert",
-    "published": "2026-11-16T12:11:56+00:00"
-  },
-  "6495f9872630857d083fb912eca59a4873fe818ad5552883d337ab91143f599f": {
-    "url": "https://tass.com/politics/2218709",
-    "title": "Europe\u2019s stance on Ukraine, Kiev\u2019s strike on Crimean Bridge: Kremlin\u2019s comment",
-    "published": "2026-11-16T11:57:35+00:00"
-  },
-  "81128c97448078337c5bc50030747be7980af4572f3b8780ccee9d1247032ae4": {
-    "url": "https://english.almanar.com.lb/article/151377/",
-    "title": "Israeli Aggression Continues: Drone Strikes Hit Nabatieh Town, Warplanes Target Baalbek, Two Abducted in Shebaa - Al-Manar TV Lebanon",
-    "published": "2026-11-16T11:56:25+00:00"
-  },
-  "871c4bfc0c426ed1eb81f00aee6b0cc6c5dcae563a0883530f07373cf1dd8490": {
-    "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
-    "title": "Yemeni forces retreat to defend Aden from Houthis",
-    "published": "2026-11-16T11:09:38+00:00"
   }
 }
