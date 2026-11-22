@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7319,
+  "total_calls": 7323,
   "tiers": {
     "groq": 6056,
-    "gemini": 1263
+    "gemini": 1267
   },
   "log": [
-    {
-      "timestamp": "2026-11-12T21:22:00.827651+00:00",
-      "tier": "gemini",
-      "article": "Saudi Jets Launch More Strikes in Yemen - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-12T21:22:26.356385+00:00",
-      "tier": "gemini",
-      "article": "Al Jazeera reports from Gaza hospital attacked by Israel"
-    },
-    {
-      "timestamp": "2026-11-12T21:22:49.203067+00:00",
-      "tier": "gemini",
-      "article": "Iran warns response to U.S. attack will be ten times stronger"
-    },
-    {
-      "timestamp": "2026-11-12T21:23:20.664114+00:00",
-      "tier": "gemini",
-      "article": "Mass bomb threats disrupt thousands of European schools"
-    },
     {
       "timestamp": "2026-11-13T02:29:03.668303+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-22T17:42:35.129635+00:00",
       "tier": "gemini",
       "article": "Iran unveils dual-missile launcher, new \u2018missile city\u2019: What to know"
+    },
+    {
+      "timestamp": "2026-11-22T23:24:42.535636+00:00",
+      "tier": "gemini",
+      "article": "Iran says 623 children killed in US-Israeli assaults, warns of sanctions\u2019 toll on minors"
+    },
+    {
+      "timestamp": "2026-11-22T23:25:25.817378+00:00",
+      "tier": "gemini",
+      "article": "Iran calls US airspace violations \u2018a red line\u2019 after IRGC strikes on Bahrain"
+    },
+    {
+      "timestamp": "2026-11-22T23:25:56.025271+00:00",
+      "tier": "gemini",
+      "article": "623 children martyred in US-Israeli wars on Iran over past 18 months: official"
+    },
+    {
+      "timestamp": "2026-11-22T23:26:22.202995+00:00",
+      "tier": "gemini",
+      "article": "Crowds rally against \u2018licence to kill\u2019 law in France (VIDEOS)"
     }
   ]
 }
