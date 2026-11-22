@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7309,
+  "total_calls": 7312,
   "tiers": {
     "groq": 6056,
-    "gemini": 1253
+    "gemini": 1256
   },
   "log": [
-    {
-      "timestamp": "2026-11-11T21:08:06.864551+00:00",
-      "tier": "gemini",
-      "article": "France fears German deep strike capabilities could provoke nuclear war with Russia \u2013 FT"
-    },
-    {
-      "timestamp": "2026-11-11T21:08:31.028654+00:00",
-      "tier": "gemini",
-      "article": "Ukrainian drone strikes destroy 115 buses in DPR since beginning of year"
-    },
-    {
-      "timestamp": "2026-11-11T21:09:02.917924+00:00",
-      "tier": "gemini",
-      "article": "US soldier arrested in UK for suspected 'espionage' for Russia"
-    },
     {
       "timestamp": "2026-11-12T02:45:41.719185+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-21T20:25:40.696997+00:00",
       "tier": "gemini",
       "article": "Russian strike kills two, wounds 60, in Zelenskyy\u2019s hometown"
+    },
+    {
+      "timestamp": "2026-11-22T01:58:21.855280+00:00",
+      "tier": "gemini",
+      "article": "UK shamelessly admits to offensive cyber strikes on Iran, three other nations"
+    },
+    {
+      "timestamp": "2026-11-22T01:58:45.956006+00:00",
+      "tier": "gemini",
+      "article": "Saudi airstrikes kill 41 Yemeni civilians, including 11 children, over 24 hours"
+    },
+    {
+      "timestamp": "2026-11-22T01:59:09.115935+00:00",
+      "tier": "gemini",
+      "article": "Deadly attack in Kyiv as Russia launches barrage against Ukraine"
     }
   ]
 }
