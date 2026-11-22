@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7316,
+  "total_calls": 7319,
   "tiers": {
     "groq": 6056,
-    "gemini": 1260
+    "gemini": 1263
   },
   "log": [
-    {
-      "timestamp": "2026-11-12T12:20:36.795880+00:00",
-      "tier": "gemini",
-      "article": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says"
-    },
-    {
-      "timestamp": "2026-11-12T12:20:57.668067+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Armed Forces announce ballistic missile strike targeting operations room of Saudi commandship in Aden\u2019s Al-Buraiqah - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-12T12:21:26.281319+00:00",
-      "tier": "gemini",
-      "article": "Russian envoy to US dies"
-    },
     {
       "timestamp": "2026-11-12T21:22:00.827651+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-22T09:40:33.913217+00:00",
       "tier": "gemini",
       "article": "Iran controls field, determines battle course: Gen. Mousavi"
+    },
+    {
+      "timestamp": "2026-11-22T17:41:34.837679+00:00",
+      "tier": "gemini",
+      "article": "Saudi Arabia intercepts drone, missile as Houthis report attack on Sanaa"
+    },
+    {
+      "timestamp": "2026-11-22T17:42:06.775932+00:00",
+      "tier": "gemini",
+      "article": "Armenian delegation visits war-damaged sections of UNESCO-listed Golestan Palace"
+    },
+    {
+      "timestamp": "2026-11-22T17:42:35.129635+00:00",
+      "tier": "gemini",
+      "article": "Iran unveils dual-missile launcher, new \u2018missile city\u2019: What to know"
     }
   ]
 }
