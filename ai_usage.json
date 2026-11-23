@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7323,
+  "total_calls": 7325,
   "tiers": {
     "groq": 6056,
-    "gemini": 1267
+    "gemini": 1269
   },
   "log": [
-    {
-      "timestamp": "2026-11-13T02:29:03.668303+00:00",
-      "tier": "gemini",
-      "article": "2 Children among 8 Dead in Flatbush, Brooklyn Building Collapse - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-13T02:29:37.519326+00:00",
-      "tier": "gemini",
-      "article": "Multiple people shot in Washington near White House"
-    },
     {
       "timestamp": "2026-11-13T02:30:01.723274+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-22T23:26:22.202995+00:00",
       "tier": "gemini",
       "article": "Crowds rally against \u2018licence to kill\u2019 law in France (VIDEOS)"
+    },
+    {
+      "timestamp": "2026-11-23T06:30:20.231135+00:00",
+      "tier": "gemini",
+      "article": "Fresh Saudi strikes on Yemen leave dozens killed, injured"
+    },
+    {
+      "timestamp": "2026-11-23T06:30:55.438878+00:00",
+      "tier": "gemini",
+      "article": "Trump says Iran uses missiles and drones for strikes more often"
     }
   ]
 }
