@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7329,
+  "total_calls": 7333,
   "tiers": {
     "groq": 6056,
-    "gemini": 1273
+    "gemini": 1277
   },
   "log": [
-    {
-      "timestamp": "2026-11-13T11:59:51.172576+00:00",
-      "tier": "gemini",
-      "article": "Two more violating oil tankers catch fire east of Hormuz"
-    },
-    {
-      "timestamp": "2026-11-13T19:32:31.307164+00:00",
-      "tier": "gemini",
-      "article": "Six, including a surgeon, killed in Israeli strike on Nasser Hospital in Gaza"
-    },
-    {
-      "timestamp": "2026-11-13T19:33:01.671551+00:00",
-      "tier": "gemini",
-      "article": "Iran honours fallen soldiers in Iran-Iraq war with missile display"
-    },
-    {
-      "timestamp": "2026-11-13T19:33:29.416432+00:00",
-      "tier": "gemini",
-      "article": "No safe distance: Iran puts US bases in Europe on notice"
-    },
     {
       "timestamp": "2026-11-13T19:33:54.558732+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-24T04:42:51.437385+00:00",
       "tier": "gemini",
       "article": "Iran world\u2019s biggest victim of chemical weapons: Gharibabadi"
+    },
+    {
+      "timestamp": "2026-11-24T17:11:03.901412+00:00",
+      "tier": "gemini",
+      "article": "Tehran court opens hearing into Minab school bombing lawsuit against US"
+    },
+    {
+      "timestamp": "2026-11-24T17:11:29.899156+00:00",
+      "tier": "gemini",
+      "article": "Ukrainian strikes on Russia in past week leave 65 civilians dead \u2014 diplomat"
+    },
+    {
+      "timestamp": "2026-11-24T17:11:56.393849+00:00",
+      "tier": "gemini",
+      "article": "Ukraine\u2019s military strikes Russia\u2019s Belgorod Region over 1,700 times in week \u2014 envoy"
+    },
+    {
+      "timestamp": "2026-11-24T17:12:35.458950+00:00",
+      "tier": "gemini",
+      "article": "Europe\u2019s decline leaves Russia with an unexpected problem"
     }
   ]
 }
