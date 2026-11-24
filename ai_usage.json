@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7327,
+  "total_calls": 7329,
   "tiers": {
     "groq": 6056,
-    "gemini": 1271
+    "gemini": 1273
   },
   "log": [
-    {
-      "timestamp": "2026-11-13T11:59:04.592870+00:00",
-      "tier": "gemini",
-      "article": "Three civilians killed, 14 wounded in Ukrainian attacks on Belgorod Region over past day"
-    },
-    {
-      "timestamp": "2026-11-13T11:59:26.260175+00:00",
-      "tier": "gemini",
-      "article": "Four people dead, two injured in drone attack on Russia\u2019s Volgograd"
-    },
     {
       "timestamp": "2026-11-13T11:59:51.172576+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-23T19:58:35.098642+00:00",
       "tier": "gemini",
       "article": "Dozens of casualties reported in Yemen as Saudi Arabia steps up violent bombardment"
+    },
+    {
+      "timestamp": "2026-11-24T04:42:21.858588+00:00",
+      "tier": "gemini",
+      "article": "Drone attack on Colombia police base injures civilians, including infant"
+    },
+    {
+      "timestamp": "2026-11-24T04:42:51.437385+00:00",
+      "tier": "gemini",
+      "article": "Iran world\u2019s biggest victim of chemical weapons: Gharibabadi"
     }
   ]
 }
