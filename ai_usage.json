@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7333,
+  "total_calls": 7335,
   "tiers": {
     "groq": 6056,
-    "gemini": 1277
+    "gemini": 1279
   },
   "log": [
-    {
-      "timestamp": "2026-11-13T19:33:54.558732+00:00",
-      "tier": "gemini",
-      "article": "Trump proposes Tim Cook as replacement for scandal-hit Nvidia boss"
-    },
-    {
-      "timestamp": "2026-11-14T00:46:48.662701+00:00",
-      "tier": "gemini",
-      "article": "General Saree Reports More Saudi Attacks on Yemen - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-11-14T00:47:21.028774+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-24T17:12:35.458950+00:00",
       "tier": "gemini",
       "article": "Europe\u2019s decline leaves Russia with an unexpected problem"
+    },
+    {
+      "timestamp": "2026-11-25T02:01:33.263994+00:00",
+      "tier": "gemini",
+      "article": "Pentagon delaying Patriot missile deliveries to Ukraine \u2013 FT"
+    },
+    {
+      "timestamp": "2026-11-25T02:01:59.996671+00:00",
+      "tier": "gemini",
+      "article": "Power infrastructure in four regions damaged by Ukrainian strikes in past week \u2014 diplomat"
     }
   ]
 }
