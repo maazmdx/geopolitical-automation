@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7335,
+  "total_calls": 7338,
   "tiers": {
     "groq": 6056,
-    "gemini": 1279
+    "gemini": 1282
   },
   "log": [
-    {
-      "timestamp": "2026-11-14T00:47:21.028774+00:00",
-      "tier": "gemini",
-      "article": "Board of Peace urges immediate action on Trump\u2019s Gaza plan after hospital strike"
-    },
-    {
-      "timestamp": "2026-11-14T00:47:43.550210+00:00",
-      "tier": "gemini",
-      "article": "Mamdani plans to disband NYPD crowd-control unit \u2013 media"
-    },
-    {
-      "timestamp": "2026-11-14T08:45:13.649426+00:00",
-      "tier": "gemini",
-      "article": "Second Tanker Strikes Iranian Mine in Strait of Hormuz, Iran Navy Warns of Repeat Consequences - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-11-14T08:45:40.105430+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-25T02:01:59.996671+00:00",
       "tier": "gemini",
       "article": "Power infrastructure in four regions damaged by Ukrainian strikes in past week \u2014 diplomat"
+    },
+    {
+      "timestamp": "2026-11-25T11:10:15.406336+00:00",
+      "tier": "gemini",
+      "article": "Family of four killed in Israeli strike on their apartment"
+    },
+    {
+      "timestamp": "2026-11-25T11:10:50.353006+00:00",
+      "tier": "gemini",
+      "article": "Israeli air strike kills Hamas internal security chief in Gaza"
+    },
+    {
+      "timestamp": "2026-11-25T11:11:17.570427+00:00",
+      "tier": "gemini",
+      "article": "Fourth oil tanker explodes east of Hormuz Tues.: IRGC"
     }
   ]
 }
