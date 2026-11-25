@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7338,
+  "total_calls": 7342,
   "tiers": {
     "groq": 6056,
-    "gemini": 1282
+    "gemini": 1286
   },
   "log": [
-    {
-      "timestamp": "2026-11-14T08:45:40.105430+00:00",
-      "tier": "gemini",
-      "article": "Iran\u2019s top generals reaffirm devastating response to any aggression"
-    },
-    {
-      "timestamp": "2026-11-14T08:46:14.166101+00:00",
-      "tier": "gemini",
-      "article": "Iran FM lashes out at lack of media heed to Gaza genocide"
-    },
-    {
-      "timestamp": "2026-11-14T16:27:19.496556+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Armed Forces: Dozens of Saudi personnel were reportedly killed or wounded, while a large number of military vehicles were destroyed in the ballistic missile strikes in the Kharaz area of Lahj Governorate - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-14T16:27:44.738937+00:00",
-      "tier": "gemini",
-      "article": "18 Arab, Muslim states blast Israeli attack on Gaza hospital"
-    },
     {
       "timestamp": "2026-11-14T16:28:09.563108+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-25T11:11:17.570427+00:00",
       "tier": "gemini",
       "article": "Fourth oil tanker explodes east of Hormuz Tues.: IRGC"
+    },
+    {
+      "timestamp": "2026-11-25T21:19:22.561145+00:00",
+      "tier": "gemini",
+      "article": "Yemen strikes Ras Tanura refinery, Riyadh financial district in response to Saudi massacres"
+    },
+    {
+      "timestamp": "2026-11-25T21:19:46.565612+00:00",
+      "tier": "gemini",
+      "article": "Japan to deploy Type-25 hypersonic systems on island adjacent to Russia \u2014 TV"
+    },
+    {
+      "timestamp": "2026-11-25T21:20:13.652806+00:00",
+      "tier": "gemini",
+      "article": "Could renewed strikes on Hodeidah port worsen Yemen\u2019s humanitarian crisis?"
+    },
+    {
+      "timestamp": "2026-11-25T21:20:38.633076+00:00",
+      "tier": "gemini",
+      "article": "Polish opposition leader blasts European court over migrant ruling"
     }
   ]
 }
