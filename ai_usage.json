@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7342,
+  "total_calls": 7345,
   "tiers": {
     "groq": 6056,
-    "gemini": 1286
+    "gemini": 1289
   },
   "log": [
-    {
-      "timestamp": "2026-11-14T16:28:09.563108+00:00",
-      "tier": "gemini",
-      "article": "18 Muslim-majority countries condemn Israeli attack on Gaza\u2019s Nasser hospital"
-    },
-    {
-      "timestamp": "2026-11-14T16:28:35.195448+00:00",
-      "tier": "gemini",
-      "article": "US Army names officer held on 'allegations of espionage'"
-    },
-    {
-      "timestamp": "2026-11-14T22:06:42.778563+00:00",
-      "tier": "gemini",
-      "article": "Myanmar airstrike kills 12 at displacement camp in Rakhine state"
-    },
     {
       "timestamp": "2026-11-14T22:07:04.783081+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-25T21:20:38.633076+00:00",
       "tier": "gemini",
       "article": "Polish opposition leader blasts European court over migrant ruling"
+    },
+    {
+      "timestamp": "2026-11-26T04:07:17.306429+00:00",
+      "tier": "gemini",
+      "article": "Houthis target Saudi Arabia\u2019s Red Sea ports as strikes escalate"
+    },
+    {
+      "timestamp": "2026-11-26T04:07:42.067757+00:00",
+      "tier": "gemini",
+      "article": "Yemen warns Saudi Arabia should al-Hudaydah attacked: Spox"
+    },
+    {
+      "timestamp": "2026-11-26T04:08:08.151057+00:00",
+      "tier": "gemini",
+      "article": "As a global power enemy lacks, unable to neutralize Basij"
     }
   ]
 }
