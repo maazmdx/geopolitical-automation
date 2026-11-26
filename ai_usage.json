@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7346,
+  "total_calls": 7349,
   "tiers": {
     "groq": 6056,
-    "gemini": 1290
+    "gemini": 1293
   },
   "log": [
-    {
-      "timestamp": "2026-11-15T05:30:54.106039+00:00",
-      "tier": "gemini",
-      "article": "Al-Manar correspondent: An Israeli airstrike targeted the outskirts of Qantara, towards Al-Hujair Valley, in southern Lebanon - Al-Manar TV Lebanon"
-    },
-    {
-      "timestamp": "2026-11-15T05:31:20.894840+00:00",
-      "tier": "gemini",
-      "article": "Tehran hosts funeral procession for 110 unidentified Iranian soldiers"
-    },
-    {
-      "timestamp": "2026-11-15T13:40:08.035536+00:00",
-      "tier": "gemini",
-      "article": "Israeli War Jets Fly over Beirut at Low Altitude, Zionist Attacks in South Lebanon Continue - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-11-15T13:40:34.103587+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-26T13:47:41.614756+00:00",
       "tier": "gemini",
       "article": "CIA and two other spy agencies hacked, unclassified data exposed\u00a0"
+    },
+    {
+      "timestamp": "2026-11-26T22:53:24.722203+00:00",
+      "tier": "gemini",
+      "article": "Two dead after Iranian drone attack on Kuwait"
+    },
+    {
+      "timestamp": "2026-11-26T22:53:49.513387+00:00",
+      "tier": "gemini",
+      "article": "Iran expresses sympathy with Egypt after deadly tanker blast"
+    },
+    {
+      "timestamp": "2026-11-26T22:54:16.297691+00:00",
+      "tier": "gemini",
+      "article": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza"
     }
   ]
 }
