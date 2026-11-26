@@ -2,17 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7345,
+  "total_calls": 7346,
   "tiers": {
     "groq": 6056,
-    "gemini": 1289
+    "gemini": 1290
   },
   "log": [
-    {
-      "timestamp": "2026-11-14T22:07:04.783081+00:00",
-      "tier": "gemini",
-      "article": "Yemeni Armed Forces: Saudi warplanes carried out 72 airstrikes targeting civilian sites in Saada, Taiz, Lahj and Al-Jawf over the past 24 hours - Al-Manar TV Lebanon"
-    },
     {
       "timestamp": "2026-11-15T05:30:54.106039+00:00",
       "tier": "gemini",
@@ -507,6 +502,11 @@
       "timestamp": "2026-11-26T04:08:08.151057+00:00",
       "tier": "gemini",
       "article": "As a global power enemy lacks, unable to neutralize Basij"
+    },
+    {
+      "timestamp": "2026-11-26T13:47:41.614756+00:00",
+      "tier": "gemini",
+      "article": "CIA and two other spy agencies hacked, unclassified data exposed\u00a0"
     }
   ]
 }
