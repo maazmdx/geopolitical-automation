@@ -2,27 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7349,
+  "total_calls": 7352,
   "tiers": {
     "groq": 6056,
-    "gemini": 1293
+    "gemini": 1296
   },
   "log": [
-    {
-      "timestamp": "2026-11-15T13:40:34.103587+00:00",
-      "tier": "gemini",
-      "article": "Iran strikes by UAVs radar infrastructure at US military base in Bahrain \u2014 IRGC"
-    },
-    {
-      "timestamp": "2026-11-15T13:41:08.691575+00:00",
-      "tier": "gemini",
-      "article": "IRGC launches drone attack on US radar in Bahrain"
-    },
-    {
-      "timestamp": "2026-11-15T13:41:31.442665+00:00",
-      "tier": "gemini",
-      "article": "Thousands take to the streets of Paris to protest rising prices and police violence"
-    },
     {
       "timestamp": "2026-11-15T19:38:35.538025+00:00",
       "tier": "gemini",
@@ -507,6 +492,21 @@
       "timestamp": "2026-11-26T22:54:16.297691+00:00",
       "tier": "gemini",
       "article": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza"
+    },
+    {
+      "timestamp": "2026-11-27T07:24:12.535447+00:00",
+      "tier": "gemini",
+      "article": "Iran denies deadly drone strike on Kuwait"
+    },
+    {
+      "timestamp": "2026-11-27T07:24:39.041460+00:00",
+      "tier": "gemini",
+      "article": "Tehran Denies Kuwaiti Claims of Attack by Iranian Forces - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-27T07:25:08.349800+00:00",
+      "tier": "gemini",
+      "article": "Iranian military spokesman rejects Kuwait attack claims"
     }
   ]
 }
