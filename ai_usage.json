@@ -2,22 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7354,
+  "total_calls": 7356,
   "tiers": {
     "groq": 6056,
-    "gemini": 1298
+    "gemini": 1300
   },
   "log": [
-    {
-      "timestamp": "2026-11-15T19:39:27.556087+00:00",
-      "tier": "gemini",
-      "article": "Explosive attack targets investigative journalist\u2019s home in Panama"
-    },
-    {
-      "timestamp": "2026-11-15T19:39:52.183846+00:00",
-      "tier": "gemini",
-      "article": "Israeli settlers accused of torching Palestinian scrapyard"
-    },
     {
       "timestamp": "2026-11-15T23:51:45.174940+00:00",
       "tier": "gemini",
@@ -507,6 +497,16 @@
       "timestamp": "2026-11-27T17:57:10.133904+00:00",
       "tier": "gemini",
       "article": "Ukrainian attack on Libya is latest instance of blowback"
+    },
+    {
+      "timestamp": "2026-11-28T01:15:46.822379+00:00",
+      "tier": "gemini",
+      "article": "Iran flatly rejects allegations over Kuwait attack, warns of false-flag operations"
+    },
+    {
+      "timestamp": "2026-11-28T01:16:22.856239+00:00",
+      "tier": "gemini",
+      "article": "Tehran Chamber, Turkish ambassador consult on facilitating trade, goods transport"
     }
   ]
 }
