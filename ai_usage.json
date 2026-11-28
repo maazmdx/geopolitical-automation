@@ -2,32 +2,12 @@
   "date": "2026-03-02",
   "gemini_calls": 0,
   "hf_calls": 0,
-  "total_calls": 7356,
+  "total_calls": 7360,
   "tiers": {
     "groq": 6056,
-    "gemini": 1300
+    "gemini": 1304
   },
   "log": [
-    {
-      "timestamp": "2026-11-15T23:51:45.174940+00:00",
-      "tier": "gemini",
-      "article": "UKMTO reports maritime incident near Strait of Hormuz"
-    },
-    {
-      "timestamp": "2026-11-15T23:52:09.696623+00:00",
-      "tier": "gemini",
-      "article": "Powerful blasts rock Saudi Arabia after missile attacks"
-    },
-    {
-      "timestamp": "2026-11-15T23:52:35.477841+00:00",
-      "tier": "gemini",
-      "article": "Passenger buses in Russia attacked by Ukrainian forces upon Zelensky\u2019s orders \u2014 expert"
-    },
-    {
-      "timestamp": "2026-11-15T23:53:00.935373+00:00",
-      "tier": "gemini",
-      "article": "North Korea\u2019s official delegation arrives in Moscow \u2014 KCNA"
-    },
     {
       "timestamp": "2026-11-16T05:30:04.500534+00:00",
       "tier": "gemini",
@@ -507,6 +487,26 @@
       "timestamp": "2026-11-28T01:16:22.856239+00:00",
       "tier": "gemini",
       "article": "Tehran Chamber, Turkish ambassador consult on facilitating trade, goods transport"
+    },
+    {
+      "timestamp": "2026-11-28T09:56:34.036004+00:00",
+      "tier": "gemini",
+      "article": "Navy Chief Reveals Iran\u2019s Strike on US Aircraft Carrier - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-28T09:57:00.333728+00:00",
+      "tier": "gemini",
+      "article": "Saudi-Led Strikes Hit Sanaa, Taiz, Lahj, Al-Bayda and Saada; 18 Wounded, Including Woman and Two Girls - Al-Manar TV Lebanon"
+    },
+    {
+      "timestamp": "2026-11-28T09:57:25.032731+00:00",
+      "tier": "gemini",
+      "article": "Iran urges world to remember children killed in Minab school strikes"
+    },
+    {
+      "timestamp": "2026-11-28T09:57:54.294707+00:00",
+      "tier": "gemini",
+      "article": "Two Iranian oil tankers recovered from US naval forces"
     }
   ]
 }
